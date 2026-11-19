@@ -15,12 +15,10 @@ Each course follows the six levels of the Common European Framework of Reference
 
 Requirements: Node 22 or later (CI uses Node 24).
 
-Until the site depends on a tagged release of [@lumenary/core](https://github.com/lumenary-academy/lumenary-core), it links a checkout of the core beside it (`"@lumenary/core": "file:../lumenary-core"`):
+The site depends on a tagged release of [@lumenary/core](https://github.com/lumenary-academy/lumenary-core), installed from its release tarball (see `package.json`):
 
 ```bash
-git clone https://github.com/lumenary-academy/lumenary-core.git
 git clone https://github.com/lumenary-academy/lumenary-lingua.git
-(cd lumenary-core && npm install)   # npm does not install a linked package's own dependencies
 cd lumenary-lingua
 npm install
 npm run dev          # http://localhost:3000
@@ -63,7 +61,7 @@ Nearly all the code is shared with the other Lumenary sites through [@lumenary/c
 
 `next.config.ts` lists the core in `transpilePackages` (it ships TypeScript) and, while it is linked from `../lumenary-core`, lets Turbopack read it (`turbopackAdditionalRoots`). `src/app/globals.css` imports Tailwind and the core's stylesheet and points Tailwind's `@source` at the core.
 
-To move to a release: set `"@lumenary/core": "github:lumenary-academy/lumenary-core#vX.Y.Z"`, run `npm install`, and simplify `.github/workflows/ci.yml` as its comment says.
+To update the core: set `"@lumenary/core": "https://github.com/lumenary-academy/lumenary-core/archive/refs/tags/vX.Y.Z.tar.gz"` and run `npm install`. (A release tarball installs over HTTPS with an integrity hash, so CI and Vercel need no Git access.) To work on the core and this site together, point it at a checkout instead (`"file:../lumenary-core"`, after `npm install` in the core): `next.config.ts` then lets Turbopack read the linked package (`turbopackAdditionalRoots`).
 
 ## Translations needing native review
 

@@ -14,47 +14,22 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
-      # The site depends on @lumenary/core as "file:../lumenary-core" until it moves to a tagged
-      # release, so both repositories are checked out side by side. Once package.json names a tag
-      # ("github:lumenary-academy/lumenary-core#vX.Y.Z"), drop the second checkout, the core's install
-      # and the working-directory settings.
       - uses: actions/checkout@v4
-        with:
-          path: lumenary-lingua
-
-      - uses: actions/checkout@v4
-        with:
-          repository: lumenary-academy/lumenary-core
-          path: lumenary-core
 
       - uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: npm
-          cache-dependency-path: |
-            lumenary-lingua/package-lock.json
-            lumenary-core/package-lock.json
 
-      # npm links a file: dependency without installing its own dependencies.
-      - name: Install @lumenary/core's dependencies
-        working-directory: lumenary-core
-        run: npm ci
-
+      # @lumenary/core comes from its tagged release tarball (package.json), so no second checkout is needed.
       - name: Install dependencies
-        working-directory: lumenary-lingua
         run: npm ci
 
       - name: Typecheck
-        working-directory: lumenary-lingua
         run: npm run typecheck
 
-      - name: Courses, lessons, safety and i18n tests
-        working-directory: lumenary-lingua
+      - name: Tests
         run: npm test
 
       - name: Build static site
-        working-directory: lumenary-lingua
         run: npm run build
-
-      # Deployment: once the Vercel project is connected to this repository, Vercel builds and
-      # deploys every push to main (production) and every pull request (preview).
