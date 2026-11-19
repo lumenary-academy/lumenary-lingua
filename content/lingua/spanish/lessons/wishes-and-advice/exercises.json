@@ -1,0 +1,348 @@
+{
+  "lesson": "wishes-and-advice",
+  "exercises": [
+    {
+      "id": "tener-subjunctive",
+      "type": "choice",
+      "prompt": "Which is the present subjunctive of *tener* for *yo*?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "tenga",
+          "correct": true,
+          "feedback": "Yes. Start from *tengo*, drop the *-o* and add the *-a* ending of *-er* verbs: *tenga*."
+        },
+        {
+          "id": "b",
+          "label": "tena",
+          "correct": false,
+          "feedback": "Not yet — the subjunctive starts from the *yo* form of the present, *tengo*, so the *g* stays."
+        },
+        {
+          "id": "c",
+          "label": "tiene",
+          "correct": false,
+          "feedback": "Not yet — *tiene* is the present indicative (he/she has)."
+        },
+        {
+          "id": "d",
+          "label": "tenge",
+          "correct": false,
+          "feedback": "Not yet — *-er* verbs take endings with *a* in the subjunctive, not *e*."
+        }
+      ],
+      "hints": [
+        "Start from the *yo* form of the present indicative.",
+        "*Tengo* → drop *-o* → add the \"opposite\" vowel. *Tener* is an *-er* verb."
+      ],
+      "solution": "Take the *yo* form of the present, **tengo**, drop the *-o* (*teng-*) and add the subjunctive ending. *-Er* verbs take endings with **a**, so the result is **tenga** (*tenga, tengas, tenga, tengamos, tengáis, tengan*). The irregular *g* of *tengo* is carried over automatically."
+    },
+    {
+      "id": "come-to-my-party",
+      "type": "text",
+      "prompt": "Fill the gap with the present subjunctive of *venir*: *Quiero que tú ___ a mi fiesta.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "vengas"
+      ],
+      "lang": "es",
+      "hints": [
+        "The *yo* form of *venir* in the present is *vengo*.",
+        "Drop the *-o*, add the *tú* ending for an *-ir* verb in the subjunctive."
+      ],
+      "solution": "*Querer que* expresses a wish about someone else, so the second verb is in the subjunctive. *Venir* → *yo vengo* → *veng-* → **vengas** (*tú*): *Quiero que **vengas** a mi fiesta.*",
+      "feedback": [
+        {
+          "match": "vienes",
+          "message": "Not yet — *vienes* is the indicative. After *quiero que* + a different subject, Spanish uses the subjunctive."
+        },
+        {
+          "match": "venes",
+          "message": "Not yet — start from *vengo*: the *g* stays in every subjunctive form."
+        }
+      ]
+    },
+    {
+      "id": "sleep-eight-hours",
+      "type": "text",
+      "prompt": "Fill the gap with the present subjunctive of *dormir*: *Es importante que nosotros ___ ocho horas.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "durmamos"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Dormir* is an *-ir* stem-changer. What happens to its stem in the *nosotros* form of the subjunctive?",
+        "In *nosotros*, *-ir* stem-changers turn *o* into *u*."
+      ],
+      "solution": "*Es importante que* + a specific subject takes the subjunctive. *Dormir* is an *-ir* stem-changing verb: *duerma, duermas, duerma*, and then in *nosotros* and *vosotros* the *o* becomes **u**: **durmamos**, *durmáis*. So: *Es importante que **durmamos** ocho horas.*",
+      "feedback": [
+        {
+          "match": "dormamos",
+          "message": "Almost — *-ir* stem-changers also change in *nosotros*: *o* → *u*, so *durmamos*."
+        },
+        {
+          "match": "duermamos",
+          "message": "Almost — in *nosotros* the stem doesn't take *ue*; it takes *u*: *durmamos*."
+        },
+        {
+          "match": "dormimos",
+          "message": "Not yet — *dormimos* is the indicative. After *es importante que* you need the subjunctive."
+        }
+      ]
+    },
+    {
+      "id": "parents-hope",
+      "type": "text",
+      "prompt": "Fill the gap with the present subjunctive of *ser*: *Mis padres esperan que yo ___ feliz.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "sea"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Ser* is one of the six irregulars (DISHES).",
+        "Its subjunctive forms are *sea, seas, sea…*"
+      ],
+      "solution": "*Esperar que* + a different subject (my parents hope, *I* am happy) takes the subjunctive. *Ser* is irregular in the subjunctive: **sea**, *seas, sea, seamos, seáis, sean*. So: *Mis padres esperan que yo **sea** feliz.*",
+      "feedback": [
+        {
+          "match": "soy",
+          "message": "Not yet — *soy* is the indicative. After *esperan que*, use the subjunctive of *ser*."
+        }
+      ]
+    },
+    {
+      "id": "same-subject",
+      "type": "choice",
+      "prompt": "Complete: *Esta noche quiero ___ al cine.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "ir",
+          "correct": true,
+          "feedback": "Yes. The person who wants and the person who goes are the same (*yo*), so Spanish uses the infinitive."
+        },
+        {
+          "id": "b",
+          "label": "que vaya",
+          "correct": false,
+          "feedback": "Not yet — *quiero que vaya* would mean \"I want him/her to go\". For yourself, use the infinitive."
+        },
+        {
+          "id": "c",
+          "label": "voy",
+          "correct": false,
+          "feedback": "Not yet — two conjugated verbs need a link; and here the subject is the same, so you need the infinitive."
+        }
+      ],
+      "hints": [
+        "Who wants? Who goes?",
+        "Same subject → infinitive, no *que*."
+      ],
+      "solution": "The subjunctive appears only when one person wants something of **another** person. Here I want, and I go: same subject, so Spanish uses the **infinitive**: *Esta noche quiero **ir** al cine.* Compare *Quiero que vayas al cine* (I want **you** to go)."
+    },
+    {
+      "id": "teacher-gives-time",
+      "type": "text",
+      "prompt": "Fill the gap with the present subjunctive of *dar*: *Espero que la profesora nos ___ más tiempo para el trabajo.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "dé"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Dar* is one of the six irregulars.",
+        "Its *yo* and *él/ella* subjunctive forms carry an accent to distinguish them from a preposition."
+      ],
+      "solution": "*Espero que* + a different subject → subjunctive. *Dar* is irregular, and its third person singular is **dé**, with an accent that distinguishes it from the preposition *de*: *Espero que la profesora nos **dé** más tiempo.*",
+      "feedback": [
+        {
+          "match": "de",
+          "message": "Almost — *dé* (from *dar*) needs its accent; without it, *de* is the preposition."
+        },
+        {
+          "match": "da",
+          "message": "Not yet — *da* is the indicative. After *espero que* you need the subjunctive: *dé*."
+        }
+      ]
+    },
+    {
+      "id": "translate-call-me",
+      "type": "text",
+      "prompt": "Translate into Spanish, speaking to a friend (*tú*): *I want you to call me.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "yo quiero que me llames",
+        "quiero que me llames",
+        "yo quiero que tú me llames",
+        "quiero que tú me llames"
+      ],
+      "lang": "es",
+      "hints": [
+        "English uses \"you to call\"; Spanish needs *que* + a subjunctive verb.",
+        "*Llamar* → *llamo* → *llam-* + *-es*. The pronoun *me* goes before the verb."
+      ],
+      "solution": "\"I want\" is *quiero*; \"you to call me\" becomes *que* + subjunctive, with the object pronoun before the verb: ***Quiero que me llames.*** *Llamar* is a regular *-ar* verb, so its subjunctive takes *e*: *llame, llames…* To *usted* it would be *Quiero que me llame*; to several people, *Quiero que me llamen* (or *llaméis* in Spain).",
+      "feedback": [
+        {
+          "match": "quiero que me llamas",
+          "message": "Almost — after *quiero que* you need the subjunctive: *llames*, not *llamas*."
+        },
+        {
+          "match": "quiero tú me llames",
+          "message": "Not yet — Spanish needs *que* to link the two verbs: *quiero que me llames*."
+        }
+      ]
+    },
+    {
+      "id": "dice-que",
+      "type": "choice",
+      "prompt": "Your flatmate reads a message from Marta aloud: *Marta dice que ___ el pan.* She means that Marta is asking **you** to buy the bread. Which verb fits?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "compres",
+          "correct": true,
+          "feedback": "Yes. When *decir que* passes on an instruction, the verb that follows is in the subjunctive."
+        },
+        {
+          "id": "b",
+          "label": "compras",
+          "correct": false,
+          "feedback": "Not yet — *dice que compras el pan* would report a fact (Marta says you buy the bread), not an instruction."
+        },
+        {
+          "id": "c",
+          "label": "comprar",
+          "correct": false,
+          "feedback": "Not yet — *decir que* is always followed by a conjugated verb."
+        }
+      ],
+      "hints": [
+        "Is Marta passing on information, or telling you what to do?",
+        "*Decir que* + indicative = information; + subjunctive = instruction."
+      ],
+      "solution": "*Decir que* has two uses. Reporting information takes the **indicative**: *Marta dice que compra el pan* (Marta says she's buying it). Passing on an instruction takes the **subjunctive**: *Marta dice que **compres** el pan* (Marta says you should buy it). Here it's an instruction, so **compres**."
+    },
+    {
+      "id": "wish-a-good-trip",
+      "type": "text",
+      "prompt": "Your friend is leaving on holiday. Complete the wish (*tú*): *¡Que ___ buen viaje!*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "tengas"
+      ],
+      "lang": "es",
+      "hints": [
+        "A *que* clause on its own expresses a wish: *I hope* is understood.",
+        "*Tener* → *tengo* → *teng-* + the *tú* ending."
+      ],
+      "solution": "*¡Que + subjunctive!* is a wish with *espero* left unsaid. The subjunctive of *tener* for *tú* is **tengas** (from *tengo*): *¡Que tengas buen viaje!* To *usted*: *¡Que tenga buen viaje!*",
+      "feedback": [
+        {
+          "match": "tienes",
+          "message": "Not yet — that's the indicative. A wish with *que* takes the subjunctive: *tengas*."
+        }
+      ]
+    },
+    {
+      "id": "arrive-early",
+      "type": "text",
+      "prompt": "Fill the gap with the present subjunctive of *llegar*: *Es necesario que ustedes ___ temprano.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "lleguen"
+      ],
+      "lang": "es",
+      "hints": [
+        "The ending will start with *e*. What happens to *g* before *e*?",
+        "To keep the hard /g/ sound, Spanish writes *gu* before *e*."
+      ],
+      "solution": "*Es necesario que* + a specific subject → subjunctive. *Llegar* → *lleg-* + *-en* for *ustedes*. Before *e*, a *g* would sound like the throaty /x/, so Spanish writes **gu** to keep the hard sound: **lleguen**. *Es necesario que ustedes **lleguen** temprano.*",
+      "feedback": [
+        {
+          "match": "llegen",
+          "message": "Almost — to keep the hard *g* sound before *e*, Spanish writes *gu*: *lleguen*."
+        },
+        {
+          "match": "llegan",
+          "message": "Not yet — *llegan* is the indicative. After *es necesario que*, use the subjunctive."
+        }
+      ]
+    },
+    {
+      "id": "no-need-to-go",
+      "type": "text",
+      "prompt": "Fill the gap with the present subjunctive of *ir*: *No es necesario que (tú) ___ a la reunión.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "vayas"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Ir* is one of the six irregulars.",
+        "Its subjunctive is the same stem you use in the *usted* command *¡Vaya!*"
+      ],
+      "solution": "*No es necesario que* + a specific subject takes the subjunctive. *Ir* is irregular: *vaya, **vayas**, vaya, vayamos, vayáis, vayan*. So: *No es necesario que **vayas** a la reunión.*",
+      "feedback": [
+        {
+          "match": "vas",
+          "message": "Not yet — *vas* is the indicative. After *no es necesario que*, you need the subjunctive: *vayas*."
+        }
+      ]
+    },
+    {
+      "id": "advice-strength",
+      "type": "choice",
+      "prompt": "A colleague has had a bad cough for three weeks and won't see a doctor. You are close friends and want to be firm but kind. Which is the most natural?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Tienes que ir al médico. Me preocupas.",
+          "correct": true,
+          "feedback": "Yes. Among friends, a firm *tienes que* plus a sign of care sounds warm, not bossy."
+        },
+        {
+          "id": "b",
+          "label": "Quiero ir al médico.",
+          "correct": false,
+          "feedback": "Not yet — that says *you* want to go to the doctor."
+        },
+        {
+          "id": "c",
+          "label": "Te recomiendo que vas al médico.",
+          "correct": false,
+          "feedback": "Not yet — after *te recomiendo que*, the verb must be in the subjunctive: *vayas*."
+        },
+        {
+          "id": "d",
+          "label": "Es importante ir tú al médico.",
+          "correct": false,
+          "feedback": "Not yet — to name the person, use *que* + subjunctive: *Es importante que vayas al médico*."
+        }
+      ],
+      "hints": [
+        "Check each option's grammar first.",
+        "Then think about strength: three weeks of coughing calls for something firm."
+      ],
+      "solution": "**a** is correct and fits the situation: *tienes que* is firm, and *me preocupas* (you worry me) shows care. **b** is about yourself. **c** needs the subjunctive: *Te recomiendo que **vayas** al médico* (correct, but gentler). **d** should be *Es importante que vayas al médico*."
+    }
+  ]
+}

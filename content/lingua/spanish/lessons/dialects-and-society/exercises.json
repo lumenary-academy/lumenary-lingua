@@ -1,0 +1,203 @@
+{
+  "lesson": "dialects-and-society",
+  "exercises": [
+    {
+      "id": "nahuatl-loan",
+      "type": "choice",
+      "prompt": "Which of these words comes from **Nahuatl**?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "aguacate", "correct": true, "feedback": "Yes — from Nahuatl, like *chocolate*, *tomate*, *chile* and *coyote*." },
+        { "id": "b", "label": "papa", "correct": false, "feedback": "Not yet — *papa* (potato) comes from Quechua." },
+        { "id": "c", "label": "chabola", "correct": false, "feedback": "Not yet — *chabola* (shack) comes from Basque." },
+        { "id": "d", "label": "ananá", "correct": false, "feedback": "Not yet — *ananá* (pineapple, River Plate) comes from Guaraní." }
+      ],
+      "hints": [
+        "Nahuatl was the language of the Mexica (Aztecs).",
+        "Think of foods native to Mexico."
+      ],
+      "solution": "**aguacate** (avocado), from Nahuatl, the source of *chocolate*, *tomate*, *chile*, *cacao* and *coyote*. The others: *papa* (Quechua), *chabola* (Basque), *ananá* (Guaraní)."
+    },
+    {
+      "id": "quechua-loans",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Which of these words come from **Quechua**? Select all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "cancha", "correct": true, "feedback": "Yes — *cancha* (pitch, court) is from Quechua." },
+        { "id": "b", "label": "choclo", "correct": true, "feedback": "Yes — *choclo* (corn on the cob) is from Quechua." },
+        { "id": "c", "label": "cóndor", "correct": true, "feedback": "Yes — *cóndor* is from Quechua." },
+        { "id": "d", "label": "elote", "correct": false, "feedback": "Not yet — *elote*, the Mexican word for corn on the cob, is from Nahuatl. Two languages, two words for the same food!" },
+        { "id": "e", "label": "morriña", "correct": false, "feedback": "Not yet — *morriña* is from Galician." }
+      ],
+      "hints": [
+        "Quechua was the language of the Inca state, in the Andes.",
+        "Corn on the cob has an Andean name and a Mexican name."
+      ],
+      "solution": "**cancha, choclo, cóndor.** Quechua gave Spanish many everyday words: *papa*, *palta*, *poroto*, *carpa*, *chacra*, *pampa*, *llama*, *puma*. Note the regional pair *choclo* (Andes, Southern Cone, from Quechua) / *elote* (Mexico, from Nahuatl)."
+    },
+    {
+      "id": "popote",
+      "type": "text",
+      "prompt": "Give the Mexican word, from Nahuatl, for a **drinking straw**.",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["popote", "el popote", "un popote"],
+      "feedback": [
+        { "match": "pajita", "message": "That's the word in Spain (also *pajilla*). The Mexican word comes from Nahuatl." },
+        { "match": "pitillo", "message": "That's the word in Colombia and Venezuela. The Mexican one comes from Nahuatl." },
+        { "match": "bombilla", "message": "That's the metal straw for *mate* in the River Plate. The Mexican everyday word is different." },
+        { "match": "sorbete", "message": "That's used in parts of Latin America. The Mexican word comes from Nahuatl." }
+      ],
+      "hints": [
+        "It begins with *p* and repeats its first syllable.",
+        "po-po-…"
+      ],
+      "solution": "**popote.** Few objects show regional variety as well as the drinking straw: *popote* (Mexico), *pajita* (Spain), *pitillo* (Colombia, Venezuela), *sorbete* or *pajilla* elsewhere. Other everyday Mexican Nahuatlisms: *cuate*, *elote*, *papalote*, *tianguis*, *apapachar*."
+    },
+    {
+      "id": "andean-pluperfect",
+      "type": "choice",
+      "prompt": "In Cusco, someone opens the door, sees who is there, and says: *¡Había sido tu hermano!* What do they mean?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "So it was your brother! (a surprised discovery)", "correct": true, "feedback": "Yes — in Andean Spanish the pluperfect can mark a discovery or reported information, a meaning influenced by Quechua and Aymara." },
+        { "id": "b", "label": "It had been your brother (before something else happened).", "correct": false, "feedback": "Not yet — that's the general Spanish past-before-past, which doesn't fit someone at the door right now." },
+        { "id": "c", "label": "It would have been your brother.", "correct": false, "feedback": "Not yet — that would be a conditional perfect: *habría sido*." },
+        { "id": "d", "label": "It's an error for *Es tu hermano*.", "correct": false, "feedback": "Not yet — it's a regular feature of Andean Spanish with its own meaning." }
+      ],
+      "hints": [
+        "The speaker has just found something out.",
+        "Quechua and Aymara mark how a speaker knows what they say."
+      ],
+      "solution": "**So it was your brother!** In Andean Spanish, the pluperfect can express surprise at a discovery (the 'mirative' use) or information learned second-hand — a meaning shaped by Quechua and Aymara, which grammatically mark the source of knowledge. It is a regular regional feature, not an error."
+    },
+    {
+      "id": "si-tendria",
+      "type": "choice",
+      "prompt": "Aitor, from Bilbao, says *Si tendría tiempo, iría.* What is the most accurate description?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "A regional feature of the Basque Country and nearby areas that is nonetheless non-standard: the norm requires *si tuviera*.", "correct": true, "feedback": "Yes — both facts are true: it is a regular regional feature, and the norm does not accept it." },
+        { "id": "b", "label": "Standard Spanish everywhere.", "correct": false, "feedback": "Not yet — the norm requires the imperfect subjunctive after *si*: *si tuviera tiempo*." },
+        { "id": "c", "label": "A random mistake with no pattern.", "correct": false, "feedback": "Not yet — it is systematic in the Basque Country, Navarre, La Rioja, Cantabria and parts of Castile." },
+        { "id": "d", "label": "A Latin American feature.", "correct": false, "feedback": "Not yet — it is associated with northern Spain, though it occurs elsewhere in informal speech." }
+      ],
+      "hints": [
+        "What does the norm say about the verb after *si* in hypothetical conditions?",
+        "A feature can be both regionally regular and non-standard."
+      ],
+      "solution": "**A.** The conditional in *si*-clauses is a regular feature of Spanish in the Basque Country and neighbouring regions, often linked to contact with Basque. The norm nevertheless requires *Si tuviera tiempo, iría* (see the B2 lesson *If I were*). A C2 speaker can describe both facts without contempt."
+    },
+    {
+      "id": "habia-personas",
+      "type": "text",
+      "prompt": "Rewrite in the standard form:\n\n*Habían muchas personas en la plaza.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["había muchas personas en la plaza", "en la plaza había muchas personas"],
+      "feedback": [
+        { "match": "habían muchas personas en la plaza", "message": "That's the original. Existential *haber* (there is / there are) has no subject, so the norm keeps it singular." },
+        { "match": "hubieron muchas personas en la plaza", "message": "Not yet — the same rule applies in the preterite: *hubo*." }
+      ],
+      "hints": [
+        "*Haber* meaning 'there is/are' is impersonal.",
+        "*Muchas personas* is its object, not its subject, so the verb doesn't agree."
+      ],
+      "solution": "**Había muchas personas en la plaza.** Existential *haber* is impersonal: *muchas personas* is its direct object, so the verb stays in the singular (*había*, *hubo*, *habrá*, *ha habido*). The plural is very widespread in speech in Latin America and parts of Spain, but the norm rejects it in all regions."
+    },
+    {
+      "id": "code-switching",
+      "type": "choice",
+      "prompt": "Daniela says: *Le dije a mi mamá que I'd be home late, pero ya sabes cómo es.* What does research on code-switching suggest about this kind of sentence?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Fluent bilinguals switch at points where both grammars fit; doing it smoothly requires command of both languages.", "correct": true, "feedback": "Yes — the switch here comes at a clause boundary, where Spanish and English structures line up." },
+        { "id": "b", "label": "It shows she doesn't know either language well.", "correct": false, "feedback": "Not yet — research points the other way: smooth switching depends on knowing both grammars." },
+        { "id": "c", "label": "Switches happen at random.", "correct": false, "feedback": "Not yet — they follow patterns; switches tend to occur where the two grammars are compatible." },
+        { "id": "d", "label": "It's only possible between Spanish and English.", "correct": false, "feedback": "Not yet — code-switching occurs between bilinguals of all language pairs." }
+      ],
+      "hints": [
+        "Look at where the switch happens: in the middle of a word, or at a clause boundary?",
+        "Think of the title of Shana Poplack's 1980 study."
+      ],
+      "solution": "**A.** Code-switching is a skill of fluent bilinguals. Switches cluster at points where the two languages' structures coincide — here, at the start of a reported clause. Whether it suits a situation (an exam, a formal letter) is a question of register."
+    },
+    {
+      "id": "jopara",
+      "type": "text",
+      "prompt": "What is the name of Paraguay's everyday mixture of Guaraní and Spanish?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["jopara", "el jopara", "yopará", "el yopará", "jopará", "el jopará"],
+      "hints": [
+        "The word itself is Guaraní and means 'mixture'.",
+        "It begins with *jo-* (also spelled *yo-*)."
+      ],
+      "solution": "**jopara** (also *yopará*). Paraguay is officially bilingual since its 1992 Constitution, and Guaraní is spoken by most of the population. Everyday speech often mixes the two languages; *jopara* is the name for that mix."
+    },
+    {
+      "id": "rae-inclusive",
+      "type": "choice",
+      "prompt": "Which statement **accurately** describes the RAE's 2020 report on inclusive language?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "It holds that the generic masculine is inclusive, accepts doubling in some contexts such as greetings, and considers *@*, *x* and *-e* foreign to Spanish morphology.", "correct": true, "feedback": "Yes — that's an accurate summary of the Academy's position." },
+        { "id": "b", "label": "It made *todes* and *elle* part of standard Spanish.", "correct": false, "feedback": "Not yet — the report did not accept the *-e* forms as part of the grammatical system." },
+        { "id": "c", "label": "It banned inclusive language by law.", "correct": false, "feedback": "Not yet — the RAE has no legal power to ban anything; it describes and recommends." },
+        { "id": "d", "label": "It declared doubling (*ciudadanos y ciudadanas*) incorrect in all contexts.", "correct": false, "feedback": "Not yet — it considers doubling unnecessary when the masculine is clearly generic, but legitimate in some contexts such as greetings." }
+      ],
+      "hints": [
+        "The Academy recommends; it doesn't legislate.",
+        "Its position distinguishes between doubling, collective nouns and new endings."
+      ],
+      "solution": "**A.** The report defends the generic masculine as grammatically inclusive, accepts doubling in contexts such as greetings, accepts natural collective nouns, and rejects *@*, *x* and *-e* as foreign to the system. It is a recommendation, not a law; institutions and speakers make their own choices."
+    },
+    {
+      "id": "academies-role",
+      "type": "choice",
+      "prompt": "Which statement about the RAE and ASALE is accurate?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Twenty-three academies jointly produce pan-Hispanic reference works based on the educated usage of each region.", "correct": true, "feedback": "Yes — the norm is polycentric, and the major works since the 2000s are joint." },
+        { "id": "b", "label": "The RAE in Madrid decides alone what is correct for the whole Spanish-speaking world.", "correct": false, "feedback": "Not yet — since 1951 the academies work together in ASALE, and their works are explicitly pan-Hispanic." },
+        { "id": "c", "label": "A word becomes Spanish when the RAE approves it.", "correct": false, "feedback": "Not yet — the dictionary records words already in use; it doesn't create them." },
+        { "id": "d", "label": "Only the Spanish of Spain is considered standard.", "correct": false, "feedback": "Not yet — the polycentric norm makes, for example, *ustedes* for all plural address and *seseo* fully standard." }
+      ],
+      "hints": [
+        "How many academies are there, and how do they work?",
+        "Is the norm based on one country's usage or on several?"
+      ],
+      "solution": "**A.** The RAE (1713) and 22 other academies form ASALE (1951). Their joint works — the *Diccionario panhispánico de dudas*, the *Nueva gramática*, the *Ortografía*, the DLE — describe a polycentric norm based on the educated usage of each region. Their authority comes from being followed, not from any legal power."
+    },
+    {
+      "id": "morrina",
+      "type": "text",
+      "prompt": "Give the word Spanish borrowed from Galician for a melancholy **homesickness**.",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["morriña", "la morriña"],
+      "feedback": [
+        { "match": "nostalgia", "message": "That's the general word, and it's correct Spanish — but the exercise asks for the loan from Galician." },
+        { "match": "saudade", "message": "That's the Portuguese (and Galician) word. Spanish borrowed a different Galician one." }
+      ],
+      "hints": [
+        "It begins with *mo-* and has an *ñ*.",
+        "Galician emigrants to the Americas made this word famous."
+      ],
+      "solution": "**morriña.** From Galician, it names a melancholy longing for home, associated with the many Galicians who emigrated to the Americas. Other loans from Spain's languages: *paella* and *capicúa* (Catalan), *chabola* and *órdago* (Basque)."
+    }
+  ]
+}

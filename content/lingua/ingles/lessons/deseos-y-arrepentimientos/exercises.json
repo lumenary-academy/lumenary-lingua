@@ -1,0 +1,361 @@
+{
+  "lesson": "deseos-y-arrepentimientos",
+  "exercises": [
+    {
+      "id": "wish-tiempo-libre",
+      "type": "choice",
+      "prompt": "*I wish I ___ more free time.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "had",
+          "correct": true,
+          "feedback": "Sí. Deseo sobre el presente: *wish* + past simple."
+        },
+        {
+          "id": "b",
+          "label": "have",
+          "correct": false,
+          "feedback": "Todavía no. Después de *wish*, el presente irreal va en past simple."
+        },
+        {
+          "id": "c",
+          "label": "would have",
+          "correct": false,
+          "feedback": "Todavía no. *Wish + would* expresa quejas sobre lo que hacen otros, no deseos sobre tu propia situación."
+        }
+      ],
+      "hints": [
+        "Es un deseo sobre el presente que no es real.",
+        "Como en el second conditional: past simple."
+      ],
+      "solution": "**had**: *I wish I had more free time.*\n\nLa realidad es *I don't have much free time*. Para desear lo contrario, *wish* + past simple. El pasado no indica tiempo pasado, sino que la situación es irreal: *Ojalá tuviera más tiempo libre*."
+    },
+    {
+      "id": "ojala-supiera-piano",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Ojalá supiera tocar el piano.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I wish I could play the piano",
+        "I wish I knew how to play the piano",
+        "I wish I could play piano",
+        "I wish I knew how to play piano",
+        "If only I could play the piano",
+        "If only I knew how to play the piano",
+        "If only I could play piano",
+        "If only I knew how to play piano"
+      ],
+      "feedback": [
+        {
+          "match": "I hope I could play the piano",
+          "message": "Casi: *hope* es para lo posible. Para un deseo irreal sobre el presente, usa *wish*."
+        },
+        {
+          "match": "I wish I can play the piano",
+          "message": "Casi: después de *wish*, *can* pasa a *could*."
+        }
+      ],
+      "hints": [
+        "Es una capacidad que no tienes ahora: *wish* + *could*.",
+        "*Tocar el piano*: *play the piano*."
+      ],
+      "solution": "**I wish I could play the piano.** (o *I wish I knew how to play the piano*).\n\nPara capacidades que no tienes, *wish* + *could* + infinitivo. *If only I could play the piano!* es lo mismo, con más emoción. En inglés estadounidense es frecuente omitir el artículo: *play piano*."
+    },
+    {
+      "id": "boda",
+      "type": "text",
+      "prompt": "Expresa el arrepentimiento con *I wish*:\n\n*I didn't go to her wedding.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I wish I had gone to her wedding",
+        "I wish I'd gone to her wedding",
+        "I wish I had been to her wedding",
+        "I wish I'd been to her wedding",
+        "If only I had gone to her wedding",
+        "If only I'd gone to her wedding",
+        "If only I had been to her wedding",
+        "If only I'd been to her wedding"
+      ],
+      "feedback": [
+        {
+          "match": "I wish I went to her wedding",
+          "message": "Casi: lamentas algo pasado, así que necesitas past perfect: *had gone*."
+        },
+        {
+          "match": "I wish I would have gone to her wedding",
+          "message": "Casi: después de *wish*, el lamento sobre el pasado va en past perfect, sin *would*."
+        }
+      ],
+      "hints": [
+        "Es un lamento sobre el pasado: *wish* + past perfect.",
+        "Lo que no hiciste pasa a afirmativo: *I wish I had…*"
+      ],
+      "solution": "**I wish I had gone to her wedding.** (o *I wish I'd gone…*).\n\nPara lamentar algo del pasado, *wish* + past perfect. La realidad era negativa (*didn't go*), así que el deseo es afirmativo (*had gone*). *If only I had gone to her wedding!* expresa lo mismo, con más intensidad."
+    },
+    {
+      "id": "hope-mejores",
+      "type": "choice",
+      "prompt": "Tu compañera está enferma. Le escribes:\n\n*I ___ you feel better soon.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "hope",
+          "correct": true,
+          "feedback": "Sí. Que se recupere pronto es perfectamente posible: *hope*."
+        },
+        {
+          "id": "b",
+          "label": "wish",
+          "correct": false,
+          "feedback": "Todavía no. *Wish* + oración expresa algo irreal o improbable, y aquí deseas algo posible."
+        }
+      ],
+      "hints": [
+        "¿Es posible que se mejore pronto?",
+        "Para deseos posibles, el verbo es el mismo de *Hopefully*."
+      ],
+      "solution": "**hope**: *I hope you feel better soon.*\n\n*Hope* se usa para lo que puede pasar de verdad, y suele ir seguido de presente aunque hable del futuro. *Wish* + oración implicaría que no crees que se vaya a mejorar. Si quieres usar *wish*, tiene que ser con un sustantivo: *I wish you a speedy recovery*."
+    },
+    {
+      "id": "vecinos-ruido",
+      "type": "choice",
+      "prompt": "*I wish my neighbours ___ so much noise at night.* Marca **todas** las opciones correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "wouldn't make",
+          "correct": true,
+          "feedback": "Sí. *Wish + would* expresa irritación y el deseo de que cambien su comportamiento."
+        },
+        {
+          "id": "b",
+          "label": "didn't make",
+          "correct": true,
+          "feedback": "Sí. *Wish* + past simple describe la situación presente que te gustaría que fuera distinta; suena algo menos a queja."
+        },
+        {
+          "id": "c",
+          "label": "don't make",
+          "correct": false,
+          "feedback": "Todavía no. Después de *wish* no se usa el presente."
+        },
+        {
+          "id": "d",
+          "label": "won't make",
+          "correct": false,
+          "feedback": "Todavía no. Después de *wish*, *will* pasa a *would*."
+        }
+      ],
+      "hints": [
+        "Hay dos respuestas correctas, con un matiz distinto.",
+        "Después de *wish* el verbo da un paso atrás: presente → pasado, *will* → *would*."
+      ],
+      "solution": "**wouldn't make** y **didn't make**.\n\nCon *wouldn't make*, te quejas de lo que hacen y deseas que cambien: es la opción más natural para una molestia. Con *didn't make*, describes la situación presente que te gustaría que fuera distinta. *Neighbours* es la ortografía británica; en EE. UU., *neighbors*."
+    },
+    {
+      "id": "rather-no-fumaras",
+      "type": "text",
+      "prompt": "Completa con la forma correcta de *not / smoke*:\n\n*I'd rather you ___ in the car, if you don't mind.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "didn't smoke",
+        "did not smoke"
+      ],
+      "feedback": [
+        {
+          "match": "don't smoke",
+          "message": "Casi: cuando *I'd rather* va seguido de otra persona, el verbo va en past simple."
+        },
+        {
+          "match": "not smoke",
+          "message": "Casi: eso valdría si hablaras de ti mismo (*I'd rather not smoke*). Con otra persona, past simple."
+        },
+        {
+          "match": "wouldn't smoke",
+          "message": "Casi: después de *I'd rather* + persona va el past simple, sin *would*."
+        }
+      ],
+      "hints": [
+        "Hablas de otra persona (*you*), no de ti.",
+        "*I'd rather* + persona + past simple."
+      ],
+      "solution": "**didn't smoke**: *I'd rather you didn't smoke in the car.*\n\nCuando la preferencia es sobre lo que hace **otra persona**, *I'd rather* va seguido de sujeto + past simple, que aquí no habla del pasado. Es una forma muy educada de pedir que alguien no haga algo."
+    },
+    {
+      "id": "high-time",
+      "type": "text",
+      "prompt": "Completa con la forma correcta de *leave*:\n\n*It's nearly midnight. It's high time we ___.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "left"
+      ],
+      "feedback": [
+        {
+          "match": "leave",
+          "message": "Casi: después de *it's high time* + sujeto, el verbo va en past simple."
+        },
+        {
+          "match": "to leave",
+          "message": "Casi: *to leave* va con *it's time* sin sujeto (*It's time to leave*). Aquí hay sujeto (*we*)."
+        }
+      ],
+      "hints": [
+        "*It's high time* + sujeto + past simple.",
+        "*Leave, left, left*."
+      ],
+      "solution": "**left**: *It's high time we left.*\n\nCon sujeto, *it's time*, *it's high time* e *it's about time* van seguidos de past simple: la acción debería estar pasando ya. Sin sujeto, se usa *to* + infinitivo: *It's time to leave*."
+    },
+    {
+      "id": "ojala-haga-sol",
+      "type": "choice",
+      "prompt": "Mañana vas de excursión y el pronóstico es dudoso. Dices: **Ojalá haga sol mañana.** ¿Cómo lo dices en inglés?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "I hope it's sunny tomorrow.",
+          "correct": true,
+          "feedback": "Sí. Es posible que haga sol: *hope* + presente con valor de futuro."
+        },
+        {
+          "id": "b",
+          "label": "I wish it was sunny tomorrow.",
+          "correct": false,
+          "feedback": "Todavía no. *Wish* + pasado presenta el sol como algo imposible o muy improbable."
+        },
+        {
+          "id": "c",
+          "label": "I wish it will be sunny tomorrow.",
+          "correct": false,
+          "feedback": "Todavía no. *Wish* nunca va seguido de *will*, y además aquí el deseo es posible."
+        }
+      ],
+      "hints": [
+        "*Haga* (presente de subjuntivo): para el español, es algo posible.",
+        "Lo posible va con *hope*."
+      ],
+      "solution": "**I hope it's sunny tomorrow.**\n\n*Ojalá* + presente de subjuntivo (*haga*) expresa un deseo posible, y en inglés eso es *hope*, normalmente con presente. *Ojalá hiciera sol* (con imperfecto, como algo improbable) sí se acercaría a *I wish it would be sunny*."
+    },
+    {
+      "id": "preferiria-quedarme",
+      "type": "text",
+      "prompt": "Traduce al inglés con *I'd rather*:\n\n**Preferiría quedarme en casa esta noche.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I'd rather stay at home tonight",
+        "I'd rather stay home tonight",
+        "I'd rather stay in tonight",
+        "I would rather stay at home tonight",
+        "I would rather stay home tonight",
+        "I would rather stay in tonight",
+        "I'd prefer to stay at home tonight",
+        "I'd prefer to stay home tonight",
+        "I'd prefer to stay in tonight",
+        "I would prefer to stay at home tonight",
+        "I would prefer to stay home tonight",
+        "I would prefer to stay in tonight"
+      ],
+      "feedback": [
+        {
+          "match": "I'd rather to stay at home tonight",
+          "message": "Casi: después de *I'd rather* va el infinitivo sin *to*."
+        },
+        {
+          "match": "I'd rather staying at home tonight",
+          "message": "Casi: después de *I'd rather* va el infinitivo sin *to*, no *-ing*."
+        }
+      ],
+      "hints": [
+        "*I'd rather* + infinitivo sin *to*.",
+        "*Quedarse en casa*: *stay at home* (en EE. UU., *stay home*)."
+      ],
+      "solution": "**I'd rather stay at home tonight.**\n\nCuando hablas de tu propia preferencia, *I'd rather* va seguido del infinitivo **sin *to***. En EE. UU. es muy común *stay home*, sin *at*; *stay in* también significa no salir. Con *prefer* sí hace falta *to*: *I'd prefer to stay at home*."
+    },
+    {
+      "id": "wish-were-formal",
+      "type": "choice",
+      "prompt": "En un texto escrito y formal, ¿qué forma se prefiere?\n\n*Many people wish they ___ taller.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "were",
+          "correct": true,
+          "feedback": "Sí. En el registro formal, *were* para todas las personas después de *wish*."
+        },
+        {
+          "id": "b",
+          "label": "was",
+          "correct": false,
+          "feedback": "Todavía no. Con *they*, el pasado de *be* es siempre *were*. (Con *I* o *she*, *I wish I was* se oye mucho en la conversación, pero en un texto formal se prefiere *were*.)"
+        },
+        {
+          "id": "c",
+          "label": "would be",
+          "correct": false,
+          "feedback": "Todavía no. *Wish + would* no se usa con estados como la estatura."
+        },
+        {
+          "id": "d",
+          "label": "are",
+          "correct": false,
+          "feedback": "Todavía no. Después de *wish*, el presente irreal va en pasado."
+        }
+      ],
+      "hints": [
+        "Ser más alto es un estado, irreal en el presente.",
+        "Después de *wish*, *be* toma la forma especial del second conditional."
+      ],
+      "solution": "**were**: *Many people wish they were taller.*\n\nDespués de *wish*, un estado irreal del presente va en pasado, y *be* toma la forma *were* (que con *they* es la forma normal, y con *I/he/she* es la forma formal). *Would be* no funciona con estados."
+    },
+    {
+      "id": "no-contarle-secreto",
+      "type": "text",
+      "prompt": "Reescribe la frase con *I wish*, sin cambiar el significado:\n\n*I regret telling him the secret.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I wish I hadn't told him the secret",
+        "I wish I had not told him the secret",
+        "If only I hadn't told him the secret",
+        "If only I had not told him the secret"
+      ],
+      "feedback": [
+        {
+          "match": "I wish I didn't tell him the secret",
+          "message": "Casi: lamentas algo pasado, así que va en past perfect: *hadn't told*."
+        },
+        {
+          "match": "I wish I had told him the secret",
+          "message": "Todavía no: lamentas habérselo contado, así que el deseo es negativo: *hadn't told*."
+        }
+      ],
+      "hints": [
+        "Lo que hiciste (contárselo) pasa a negativo.",
+        "*Wish* + past perfect negativo: *hadn't* + participio."
+      ],
+      "solution": "**I wish I hadn't told him the secret.**\n\n*Regret* + *-ing* lamenta algo que hiciste. Con *wish*, ese hecho pasado se invierte: lo hiciste, así que deseas no haberlo hecho, con past perfect negativo (*hadn't told*). Recuerda: *tell, told, told*."
+    }
+  ]
+}

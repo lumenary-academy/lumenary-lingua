@@ -1,0 +1,321 @@
+{
+  "lesson": "news-and-experiences",
+  "exercises": [
+    {
+      "id": "participle-escribir",
+      "type": "text",
+      "prompt": "Give the past participle of *escribir*: *¿Quién ha ___ este artículo?*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "escrito"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Escribir* is one of the irregular participles.",
+        "It ends in *-to*, not *-ido*."
+      ],
+      "solution": "*Escribir* has an irregular participle, **escrito** (like *describir → descrito*). *¿Quién ha **escrito** este artículo?*",
+      "feedback": [
+        {
+          "match": "escribido",
+          "message": "Not yet — *escribir* has an irregular participle: *escrito*."
+        }
+      ]
+    },
+    {
+      "id": "never-seen-eclipse",
+      "type": "text",
+      "prompt": "Fill the gap with the present perfect of *ver*: *Nosotros nunca ___ un eclipse total.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "hemos visto"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Nosotros* goes with *hemos*.",
+        "The participle of *ver* is irregular."
+      ],
+      "solution": "A life experience with *nunca* takes the present perfect everywhere. *Nosotros* → **hemos**; *ver* → **visto**. *Nosotros nunca **hemos visto** un eclipse total.*",
+      "feedback": [
+        {
+          "match": "hemos veído",
+          "message": "Almost — the participle of *ver* is irregular: *visto*."
+        },
+        {
+          "match": "habemos visto",
+          "message": "Not yet — the standard form is *hemos*."
+        }
+      ]
+    },
+    {
+      "id": "homework-done",
+      "type": "text",
+      "prompt": "Fill the gap with the present perfect of *hacer* (*tú*): *¿Ya ___ los deberes?*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "has hecho"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Tú* goes with *has*.",
+        "The participle of *hacer* is irregular, and it starts with *h*."
+      ],
+      "solution": "*¿Ya…?* asks whether something is done by now, which calls for the present perfect. *Tú* → **has**; *hacer* → **hecho**. *¿Ya **has hecho** los deberes?* (In much of Latin America you'd also hear *¿Ya hiciste la tarea?*.)",
+      "feedback": [
+        {
+          "match": "has echo",
+          "message": "Almost — *hecho* (done) is spelled with *h*; *echo* is from *echar*."
+        },
+        {
+          "match": "has hacido",
+          "message": "Not yet — *hacer* has an irregular participle: *hecho*."
+        }
+      ]
+    },
+    {
+      "id": "this-morning-spain",
+      "type": "choice",
+      "prompt": "Speaking as most people do **in Spain**: *Esta mañana ___ con mi hermana por teléfono.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "he hablado",
+          "correct": true,
+          "feedback": "Yes. *Esta mañana* is part of today, a period that isn't closed, so in Spain the present perfect is the usual choice."
+        },
+        {
+          "id": "b",
+          "label": "hablé",
+          "correct": false,
+          "feedback": "Not wrong in Latin America, where the preterite is used for today — but the prompt asks for the habit of most of Spain."
+        },
+        {
+          "id": "c",
+          "label": "hablaba",
+          "correct": false,
+          "feedback": "Not yet — the imperfect would describe background or a habit, not a completed call."
+        }
+      ],
+      "hints": [
+        "Is *esta mañana* a closed period, or part of today?",
+        "In Spain, today's events usually take the present perfect."
+      ],
+      "solution": "In most of Spain, events in a period that includes now (*hoy, esta mañana, esta semana*) take the **present perfect**: *Esta mañana **he hablado** con mi hermana.* In most of Latin America, *Esta mañana **hablé** con mi hermana* is the usual form, and it's equally standard."
+    },
+    {
+      "id": "yesterday-dentist",
+      "type": "choice",
+      "prompt": "Which form would speakers in both Spain and Latin America use? *Ayer ___ al dentista.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "he ido",
+          "correct": false,
+          "feedback": "Not yet — *ayer* is a closed period, so both Spain and Latin America use the preterite."
+        },
+        {
+          "id": "b",
+          "label": "fui",
+          "correct": true,
+          "feedback": "Yes. With a finished time like *ayer*, the preterite is used everywhere."
+        },
+        {
+          "id": "c",
+          "label": "iba",
+          "correct": false,
+          "feedback": "Not yet — the imperfect would be background (\"I was going\"), not a completed visit."
+        }
+      ],
+      "hints": [
+        "*Ayer* is over.",
+        "With a closed time period, both varieties agree."
+      ],
+      "solution": "*Ayer* is a finished period, so everyone uses the **preterite**: *Ayer **fui** al dentista.* The two varieties differ only in periods that include now, such as *hoy*."
+    },
+    {
+      "id": "translate-never-cuba",
+      "type": "text",
+      "prompt": "Translate into Spanish: *I have never been to Cuba.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "yo nunca he estado en cuba",
+        "nunca he estado en cuba",
+        "yo no he estado nunca en cuba",
+        "no he estado nunca en cuba",
+        "yo nunca he ido a cuba",
+        "nunca he ido a cuba",
+        "yo no he ido nunca a cuba",
+        "no he ido nunca a cuba",
+        "yo jamás he estado en cuba",
+        "jamás he estado en cuba",
+        "yo jamás he ido a cuba",
+        "jamás he ido a cuba"
+      ],
+      "lang": "es",
+      "hints": [
+        "A life experience with \"never\" takes the present perfect in both Spain and Latin America.",
+        "\"Been to\" is usually *estar en*: *he estado en…*"
+      ],
+      "solution": "This is a life experience up to now, so both varieties use the **present perfect**. \"I have\" = *he*; \"been to\" is usually *estado en* (or *ido a*): ***Nunca he estado en Cuba.*** If *nunca* comes after the verb, add *no*: *No he estado nunca en Cuba.*",
+      "feedback": [
+        {
+          "match": "nunca he sido en cuba",
+          "message": "Almost — to say you've *been to* a place, Spanish uses *estar* (or *ir*): *nunca he estado en Cuba*."
+        }
+      ]
+    },
+    {
+      "id": "not-back-yet",
+      "type": "text",
+      "prompt": "Fill the gap with the present perfect of *volver*: *Mis padres todavía no ___ del viaje.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "han vuelto"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Mis padres* = *ellos*.",
+        "*Volver* has an irregular participle ending in *-to*."
+      ],
+      "solution": "*Todavía no* + present perfect says something hasn't happened up to now. *Ellos* → **han**; *volver* → **vuelto** (irregular). *Mis padres todavía no **han vuelto** del viaje.*",
+      "feedback": [
+        {
+          "match": "han volvido",
+          "message": "Almost — *volver* has an irregular participle: *vuelto*."
+        }
+      ]
+    },
+    {
+      "id": "which-correct-perfect",
+      "type": "choice",
+      "prompt": "Which sentences are correct? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Ya he leído el periódico.",
+          "correct": true,
+          "feedback": "Yes. *Ya* goes before *haber*, and *leído* has its accent."
+        },
+        {
+          "id": "b",
+          "label": "He ya leído el periódico.",
+          "correct": false,
+          "feedback": "Not yet — nothing can come between *haber* and the participle."
+        },
+        {
+          "id": "c",
+          "label": "Las cartas han llegadas.",
+          "correct": false,
+          "feedback": "Not yet — after *haber* the participle doesn't agree: *han llegado*."
+        },
+        {
+          "id": "d",
+          "label": "Me lo han contado mis vecinos.",
+          "correct": true,
+          "feedback": "Yes. Object pronouns go before *haber*."
+        }
+      ],
+      "hints": [
+        "Check the position of *ya* and the pronouns.",
+        "Does the participle change for plural subjects?"
+      ],
+      "solution": "**a** is correct: *ya* goes before (or after) the whole verb, and *leído* carries an accent. **b** separates *he* from *leído*, which Spanish doesn't allow. **c** makes the participle agree; after *haber* it stays *-o*: *han llegado*. **d** is correct: pronouns go before *haber*.",
+      "multiple": true
+    },
+    {
+      "id": "read-the-article",
+      "type": "text",
+      "prompt": "Fill the gap with the participle of *leer*: *¿Has ___ el artículo sobre el terremoto?*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "leído"
+      ],
+      "lang": "es",
+      "hints": [
+        "Regular *-er* participle: *-ido*.",
+        "When the stem ends in a vowel like *e*, the *i* of *-ido* needs an accent."
+      ],
+      "solution": "*Leer* is regular (*le-* + *-ido*), but because the stem ends in a vowel, the *i* needs a written accent to stay stressed as its own syllable: **leído** (*le-Í-do*). *¿Has **leído** el artículo sobre el terremoto?*",
+      "feedback": [
+        {
+          "match": "leido",
+          "message": "Almost — *leído* needs an accent on the *í*."
+        },
+        {
+          "match": "leyido",
+          "message": "Not yet — the participle is *leído* (no *y*)."
+        }
+      ]
+    },
+    {
+      "id": "not-yet",
+      "type": "choice",
+      "prompt": "*¿Ya has terminado el informe?* — *No, ___. Lo termino esta tarde.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "todavía no",
+          "correct": true,
+          "feedback": "Yes. *Todavía no* (or *aún no*) = not yet."
+        },
+        {
+          "id": "b",
+          "label": "ya no",
+          "correct": false,
+          "feedback": "Not yet — *ya no* means \"no longer\" (*ya no trabajo allí*)."
+        },
+        {
+          "id": "c",
+          "label": "ya",
+          "correct": false,
+          "feedback": "Not yet — *ya* means \"already\", which contradicts *no*."
+        }
+      ],
+      "hints": [
+        "You haven't finished, but you will.",
+        "Which expression means \"not yet\"?"
+      ],
+      "solution": "The report isn't finished but will be later, so the answer is **todavía no** (or *aún no*): *No, todavía no. Lo termino esta tarde.* Careful with **ya no**, which means \"no longer\"."
+    },
+    {
+      "id": "today-mexico",
+      "type": "text",
+      "prompt": "Rewrite as most people in Mexico would say it, using the preterite: *Hoy he comido con mi abuela.* → *Hoy ___ con mi abuela.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "comí"
+      ],
+      "lang": "es",
+      "hints": [
+        "In most of Latin America the preterite is used even for things done today.",
+        "*Comer*, preterite, *yo*."
+      ],
+      "solution": "In most of Latin America, a completed action today usually takes the **preterite**: *comer* → **comí**. *Hoy **comí** con mi abuela.* Both versions are correct Spanish; they reflect two regional habits.",
+      "feedback": [
+        {
+          "match": "comi",
+          "message": "Almost — *comí* needs its accent on the final *í*."
+        },
+        {
+          "match": "comía",
+          "message": "Not yet — that's the imperfect (I used to eat / was eating). A completed action takes the preterite: *comí*."
+        }
+      ]
+    }
+  ]
+}

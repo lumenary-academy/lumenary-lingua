@@ -1,0 +1,341 @@
+{
+  "lesson": "if-i-were",
+  "exercises": [
+    {
+      "id": "tener-imperfect-subjunctive",
+      "type": "text",
+      "prompt": "Give the imperfect subjunctive of *tener* for *yo* (either form): *Si ___ un jardín, plantaría tomates.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "tuviera",
+        "tuviese"
+      ],
+      "lang": "es",
+      "hints": [
+        "Start from the preterite *ellos* form of *tener*.",
+        "*Tuvieron* → remove *-ron* → add *-ra* (or *-se*)."
+      ],
+      "solution": "The imperfect subjunctive is built on the *ellos* preterite: *tener → tuvieron → tuvie-* + **-ra** = **tuviera** (or *tuviese*). *Si **tuviera** un jardín, plantaría tomates.*",
+      "feedback": [
+        {
+          "match": "tendría",
+          "message": "Not yet — the conditional belongs in the main clause. After *si*, use the imperfect subjunctive: *tuviera*."
+        },
+        {
+          "match": "tenga",
+          "message": "Not yet — after *si* meaning \"if\", Spanish doesn't use the present subjunctive. Here you need *tuviera*."
+        }
+      ]
+    },
+    {
+      "id": "if-i-knew-how-to-cook",
+      "type": "text",
+      "prompt": "Fill the gap with the imperfect subjunctive of *saber*: *Si (yo) ___ cocinar, abriría un restaurante.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "supiera",
+        "supiese"
+      ],
+      "lang": "es",
+      "hints": [
+        "What is the *ellos* preterite of *saber*?",
+        "*Supieron* → *supie-* + *-ra*."
+      ],
+      "solution": "*Saber* has an irregular preterite, *supieron*, and the imperfect subjunctive inherits it: **supiera** (or *supiese*). *Si **supiera** cocinar, abriría un restaurante.* The main clause uses the conditional, *abriría*.",
+      "feedback": [
+        {
+          "match": "sabría",
+          "message": "Not yet — that's the conditional, which goes in the main clause. After *si*: *supiera*."
+        },
+        {
+          "match": "sabiera",
+          "message": "Almost — the stem comes from the preterite *supieron*: *supiera*."
+        }
+      ]
+    },
+    {
+      "id": "we-would-travel",
+      "type": "text",
+      "prompt": "Fill the gap with the conditional of *viajar*: *Si tuviéramos más vacaciones, ___ más.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "viajaríamos"
+      ],
+      "lang": "es",
+      "hints": [
+        "The *si* clause has the imperfect subjunctive. What goes in the main clause?",
+        "Conditional, *nosotros*: infinitive + *-íamos*."
+      ],
+      "solution": "A second-type conditional pairs *si* + imperfect subjunctive with the **conditional** in the main clause: *viajar* + *-íamos* = **viajaríamos**. *Si tuviéramos más vacaciones, **viajaríamos** más.*",
+      "feedback": [
+        {
+          "match": "viajaremos",
+          "message": "Not yet — that's the future, which goes with *si* + present (*si tenemos*). With *tuviéramos*, use the conditional: *viajaríamos*."
+        },
+        {
+          "match": "viajariamos",
+          "message": "Almost — remember the accent: *viajaríamos*."
+        }
+      ]
+    },
+    {
+      "id": "real-condition",
+      "type": "choice",
+      "prompt": "You check the forecast and it says sunny tomorrow. Complete: *Si mañana ___ sol, iremos a la playa.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "hace",
+          "correct": true,
+          "feedback": "Yes. A real, likely condition takes *si* + present indicative, with the future in the main clause."
+        },
+        {
+          "id": "b",
+          "label": "hiciera",
+          "correct": false,
+          "feedback": "Not yet — *si hiciera* presents the sun as unlikely, and would need *iríamos*. The main clause *iremos* points to a real condition."
+        },
+        {
+          "id": "c",
+          "label": "haga",
+          "correct": false,
+          "feedback": "Not yet — after *si* meaning \"if\", the present subjunctive isn't used."
+        },
+        {
+          "id": "d",
+          "label": "hará",
+          "correct": false,
+          "feedback": "Not yet — after *si* Spanish doesn't use the future, even when talking about tomorrow."
+        }
+      ],
+      "hints": [
+        "Look at the main clause: *iremos* is the future.",
+        "Future in the main clause → present indicative after *si*."
+      ],
+      "solution": "The main clause is in the future (*iremos*), and the sun is a real possibility, so this is a first-type condition: ***si* + present indicative**. *Si mañana **hace** sol, iremos a la playa.* Neither the future nor the present subjunctive can follow *si* here."
+    },
+    {
+      "id": "as-if-boss",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *ser*: *Mi hermano da órdenes a todos como si ___ el jefe.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "fuera",
+        "fuese"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Como si* is always followed by the subjunctive.",
+        "For a present situation, *como si* takes the imperfect subjunctive."
+      ],
+      "solution": "*Como si* (as if) always takes the subjunctive, and for a present situation it is the **imperfect** subjunctive: *ser → fueron → **fuera*** (or *fuese*). *Mi hermano da órdenes a todos como si **fuera** el jefe.*",
+      "feedback": [
+        {
+          "match": "es",
+          "message": "Not yet — *como si* never takes the indicative: *como si fuera*."
+        },
+        {
+          "match": "sea",
+          "message": "Not yet — after *como si* Spanish uses the imperfect subjunctive, even about the present: *fuera*."
+        }
+      ]
+    },
+    {
+      "id": "wish-i-could-fly",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *poder* to make an impossible wish: *Ojalá (yo) ___ volar.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "pudiera",
+        "pudiese"
+      ],
+      "lang": "es",
+      "hints": [
+        "Is flying a possible or an impossible wish?",
+        "*Ojalá* + imperfect subjunctive for the impossible. *Poder* → *pudieron*."
+      ],
+      "solution": "Flying is impossible, so *ojalá* takes the **imperfect** subjunctive: *poder → pudieron → **pudiera*** (or *pudiese*). *Ojalá **pudiera** volar* = I wish I could fly.",
+      "feedback": [
+        {
+          "match": "pueda",
+          "message": "That's correct Spanish for a possible wish (*I hope I can*). For an impossible one, use the imperfect subjunctive: *pudiera*."
+        }
+      ]
+    },
+    {
+      "id": "asked-me-to-call",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *llamar*, keeping the sequence of tenses: *Mi madre me pidió que ___ a la abuela.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "llamara",
+        "llamase"
+      ],
+      "lang": "es",
+      "hints": [
+        "The main verb *pidió* is in the preterite.",
+        "Past main verb → imperfect subjunctive. *Llamar* → *llamaron*."
+      ],
+      "solution": "*Pedir que* takes the subjunctive, and because *pidió* is in the **past**, the sequence of tenses calls for the **imperfect** subjunctive: *llamaron → **llamara*** (or *llamase*). *Mi madre me pidió que **llamara** a la abuela.*",
+      "feedback": [
+        {
+          "match": "llame",
+          "message": "Often heard, especially in Latin America, if the call is still to come — but the standard choice after a past verb is the imperfect subjunctive: *llamara*."
+        }
+      ]
+    },
+    {
+      "id": "translate-if-i-were-you",
+      "type": "text",
+      "prompt": "Translate into Spanish, speaking to a friend: *If I were you, I would accept the offer.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "si yo fuera tú, aceptaría la oferta",
+        "si yo fuera tú aceptaría la oferta",
+        "si yo fuese tú, aceptaría la oferta",
+        "si yo fuese tú aceptaría la oferta",
+        "si fuera tú, aceptaría la oferta",
+        "si fuera tú aceptaría la oferta",
+        "si fuese tú, aceptaría la oferta",
+        "si fuese tú aceptaría la oferta",
+        "yo que tú, aceptaría la oferta",
+        "yo que tú aceptaría la oferta",
+        "yo en tu lugar, aceptaría la oferta",
+        "yo en tu lugar aceptaría la oferta",
+        "yo aceptaría la oferta si yo fuera tú",
+        "yo aceptaría la oferta si yo fuese tú",
+        "yo aceptaría la oferta si fuera tú",
+        "yo aceptaría la oferta si fuese tú",
+        "aceptaría la oferta si yo fuera tú",
+        "aceptaría la oferta si yo fuese tú",
+        "aceptaría la oferta si fuera tú",
+        "aceptaría la oferta si fuese tú"
+      ],
+      "lang": "es",
+      "hints": [
+        "\"If I were\" = *si* + imperfect subjunctive of *ser*.",
+        "\"I would accept\" = conditional of *aceptar*."
+      ],
+      "solution": "\"If I were you\" is a second-type condition: *si* + imperfect subjunctive, ***si fuera tú*** (or *si yo fuera tú*, *si fuese tú*). The result goes in the conditional: ***aceptaría la oferta***. Together: ***Si fuera tú, aceptaría la oferta.*** The set phrases *Yo que tú, aceptaría la oferta* and *Yo en tu lugar, aceptaría la oferta* mean the same.",
+      "feedback": [
+        {
+          "match": "si sería tú, aceptaría la oferta",
+          "message": "Almost — after *si* use the imperfect subjunctive, not the conditional: *si fuera tú*."
+        },
+        {
+          "match": "si fuera tú, aceptaré la oferta",
+          "message": "Almost — with *si fuera*, the main clause takes the conditional: *aceptaría*."
+        }
+      ]
+    },
+    {
+      "id": "ojala-tenga-or-tuviera",
+      "type": "choice",
+      "prompt": "Your friend says: *Ojalá tuviera tiempo para ir a tu fiesta.* What does she mean?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "She hopes she'll have time, and there's a good chance.",
+          "correct": false,
+          "feedback": "Not yet — that would be *ojalá tenga tiempo* (present subjunctive)."
+        },
+        {
+          "id": "b",
+          "label": "She wishes she had time, but she probably doesn't.",
+          "correct": true,
+          "feedback": "Yes. *Ojalá* + imperfect subjunctive presents the wish as unlikely or impossible."
+        },
+        {
+          "id": "c",
+          "label": "She's sure she'll have time.",
+          "correct": false,
+          "feedback": "Not yet — *ojalá* never expresses certainty."
+        }
+      ],
+      "hints": [
+        "Compare *ojalá tenga* and *ojalá tuviera*.",
+        "The imperfect subjunctive makes the wish unlikely."
+      ],
+      "solution": "*Ojalá* + **present** subjunctive (*ojalá tenga tiempo*) is a hope that may well come true. *Ojalá* + **imperfect** subjunctive (*ojalá tuviera tiempo*) is a wish that probably won't: *I wish I had time.* Your friend is, politely, telling you she probably can't come."
+    },
+    {
+      "id": "which-ra-forms",
+      "type": "choice",
+      "prompt": "Which of these imperfect subjunctive forms are spelled correctly? Choose all that apply.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "dijera",
+          "correct": true,
+          "feedback": "Yes. From *dijeron*: *dije-* + *-ra*."
+        },
+        {
+          "id": "b",
+          "label": "trajiera",
+          "correct": false,
+          "feedback": "Not yet — *trajeron* has no *i*, so the form is *trajera*."
+        },
+        {
+          "id": "c",
+          "label": "condujera",
+          "correct": true,
+          "feedback": "Yes. From *condujeron*: *conduje-* + *-ra*."
+        },
+        {
+          "id": "d",
+          "label": "hiciera",
+          "correct": true,
+          "feedback": "Yes. From *hicieron*: *hicie-* + *-ra*."
+        },
+        {
+          "id": "e",
+          "label": "durmiera",
+          "correct": true,
+          "feedback": "Yes. From *durmieron*, with the *o → u* change of the preterite."
+        }
+      ],
+      "hints": [
+        "Write out the *ellos* preterite for each verb first.",
+        "Verbs whose preterite stem ends in *j* take *-eron*, not *-ieron*."
+      ],
+      "solution": "The rule is mechanical: *ellos* preterite minus *-ron*, plus *-ra*. *Dijeron → **dijera***, *condujeron → **condujera***, *hicieron → **hiciera***, *durmieron → **durmiera***. *Trajeron* has no *i*, so it's *trajera*, not *trajiera*.",
+      "multiple": true
+    },
+    {
+      "id": "wanted-you-to-help",
+      "type": "text",
+      "prompt": "Put the sentence in the past: *Quiero que me ayudes.* → *Quería que me ___.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "ayudaras",
+        "ayudases"
+      ],
+      "lang": "es",
+      "hints": [
+        "The main verb is now in the imperfect.",
+        "Past main verb → imperfect subjunctive: *ayudaron* → …"
+      ],
+      "solution": "When *quiero* becomes *quería*, the sequence of tenses moves the subjunctive from present to **imperfect**: *ayudar → ayudaron → **ayudaras*** (*tú*), or *ayudases*. *Quería que me **ayudaras**.*",
+      "feedback": [
+        {
+          "match": "ayudes",
+          "message": "Not yet — after a past main verb like *quería*, the subjunctive moves to the imperfect: *ayudaras*."
+        }
+      ]
+    }
+  ]
+}

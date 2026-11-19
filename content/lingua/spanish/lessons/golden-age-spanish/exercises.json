@@ -1,0 +1,197 @@
+{
+  "lesson": "golden-age-spanish",
+  "exercises": [
+    {
+      "id": "vuestra-merced",
+      "type": "choice",
+      "prompt": "Which modern pronoun descends from *vuestra merced*?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "usted", "correct": true, "feedback": "Yes — *vuestra merced* → *vuesa merced* → *vuesarced* → *voacé* → *usted*. That's why *usted* takes a third-person verb." },
+        { "id": "b", "label": "vos", "correct": false, "feedback": "Not yet — *vos* is a separate, older pronoun that survives as Latin American *voseo*." },
+        { "id": "c", "label": "vosotros", "correct": false, "feedback": "Not yet — *vosotros* comes from *vos otros*, 'you others'." },
+        { "id": "d", "label": "tú", "correct": false, "feedback": "Not yet — *tú* comes straight from Latin *tu*." }
+      ],
+      "hints": [
+        "It's the respectful form today, and it takes a third-person verb.",
+        "Say *vuestra merced* very fast, many times."
+      ],
+      "solution": "**usted.** *Vuestra merced* ('your grace') was a noun phrase, so it took a third-person verb. Worn down in speech, it passed through forms like *vuesa merced*, *vuesarced* and *voacé* to *usted* — which still takes *tiene*, not *tienes*."
+    },
+    {
+      "id": "no-ha-mucho",
+      "type": "text",
+      "prompt": "Modernise the time expression from the opening of *Don Quijote*:\n\n*no ha mucho tiempo que vivía un hidalgo*\n\n→ *______ que vivía un hidalgo* (give the modern equivalent of *no ha mucho tiempo*)",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["no hace mucho tiempo", "no hace mucho", "hace poco tiempo", "hace poco"],
+      "feedback": [
+        { "match": "no ha mucho", "message": "Not yet — that's the original. Which verb does modern Spanish use for elapsed time?" }
+      ],
+      "hints": [
+        "Golden Age Spanish used *haber* for elapsed time; modern Spanish uses another verb.",
+        "*Hace dos años*, *hace mucho*…"
+      ],
+      "solution": "**no hace mucho tiempo** (or *hace poco*). Golden Age Spanish expressed elapsed time with *haber* (*no ha mucho* = *no hace mucho*). Modern Spanish uses *hacer*: *hace tres días*, *no hace mucho*."
+    },
+    {
+      "id": "gesto-meaning",
+      "type": "choice",
+      "prompt": "In Garcilaso's *se muestra la color en vuestro **gesto***, what does *gesto* mean?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "face (rostro)", "correct": true, "feedback": "Yes — in Golden Age Spanish, *gesto* often meant the face or its expression." },
+        { "id": "b", "label": "gesture", "correct": false, "feedback": "Not yet — that's the modern sense. Colour can't appear in a gesture; it appears on a face." },
+        { "id": "c", "label": "dress", "correct": false, "feedback": "Not yet — nothing to do with clothing." },
+        { "id": "d", "label": "voice", "correct": false, "feedback": "Not yet — colour 'shows' somewhere visible." }
+      ],
+      "hints": [
+        "Where would the colour of the rose and the lily 'show' on a young person?",
+        "Think of a complexion."
+      ],
+      "solution": "**face.** *Gesto* = *rostro*, the face and its expression. The colours of the rose (red) and the lily (white) are the young lady's complexion. Also note *la color*, feminine as often in the period, and *vuestro*: Garcilaso addresses her with *vos*."
+    },
+    {
+      "id": "mas-pero",
+      "type": "text",
+      "prompt": "In Quevedo's *polvo serán, **mas** polvo enamorado*, which everyday modern word has the same meaning as *mas*?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["pero"],
+      "feedback": [
+        { "match": "más", "message": "Not yet — with an accent, *más* means 'more'. Without it, *mas* is an old conjunction of contrast." }
+      ],
+      "hints": [
+        "Without an accent, *mas* is a conjunction of contrast.",
+        "It means the same as the commonest adversative conjunction."
+      ],
+      "solution": "**pero.** *Mas* (no accent) = *pero*: *Serán polvo, pero polvo enamorado.* It is still used in formal and literary writing. With an accent, *más* means 'more' — the diacritic accent keeps them apart."
+    },
+    {
+      "id": "dijole",
+      "type": "choice",
+      "prompt": "What is the modern equivalent of *Díjole que se fuese*?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Le dijo que se fuera.", "correct": true, "feedback": "Yes — the enclitic pronoun moves before the verb, and *fuese* is modernised as *fuera* (both are correct today)." },
+        { "id": "b", "label": "Dígale que se vaya.", "correct": false, "feedback": "Not yet — *díjole* is a preterite (*dijo* + *le*), not a command." },
+        { "id": "c", "label": "Se lo dijo y se fue.", "correct": false, "feedback": "Not yet — here *se fuese* is a subjunctive after *decir que* (an order), not 'he left'." },
+        { "id": "d", "label": "Le diría que se fuera.", "correct": false, "feedback": "Not yet — *díjole* is a preterite, not a conditional." }
+      ],
+      "hints": [
+        "*Díjole* = *dijo* + *le*.",
+        "*Decir que* + subjunctive reports an order."
+      ],
+      "solution": "**Le dijo que se fuera** (or *se fuese*). Golden Age Spanish often attached object pronouns to conjugated verbs: *díjole* = *le dijo*. Then *decir que* + subjunctive reports an order: *he told him to go away*. Beware: on its own, *fuese* can also be the old *se fue* ('he left')."
+    },
+    {
+      "id": "acusais-modern",
+      "type": "text",
+      "prompt": "Sor Juana wrote *Hombres necios que **acusáis** / a la mujer sin razón*. How would a modern Mexican say *acusáis*?",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["acusan", "ustedes acusan"],
+      "feedback": [
+        { "match": "acusáis", "message": "That's still the *vosotros* form, used today in Spain. In modern Mexico, the plural 'you' is always *ustedes*." },
+        { "match": "acusas", "message": "Not yet — *acusas* is singular (*tú*). The poem addresses men in the plural." }
+      ],
+      "hints": [
+        "Modern Latin American Spanish has no *vosotros*; it uses *ustedes* for every plural 'you'.",
+        "*Ustedes* takes the third-person plural verb."
+      ],
+      "solution": "**acusan.** In the seventeenth century *vosotros* was used throughout the Spanish-speaking world, including New Spain. Today Latin America uses *ustedes* for all plural address, with a third-person plural verb: *Hombres necios que acusan a la mujer sin razón*."
+    },
+    {
+      "id": "fueres-form",
+      "type": "choice",
+      "prompt": "In the proverb *Donde **fueres**, haz lo que **vieres***, what form are *fueres* and *vieres*?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "The future subjunctive.", "correct": true, "feedback": "Yes — the *-re* forms, common in the Golden Age, now survive only in laws, fixed phrases and proverbs like this one." },
+        { "id": "b", "label": "The imperfect subjunctive.", "correct": false, "feedback": "Not yet — that would be *fueras / fueses*, *vieras / vieses*." },
+        { "id": "c", "label": "A misspelling of *fueras* and *vieras*.", "correct": false, "feedback": "Not yet — the *-re* ending is a real, separate tense." },
+        { "id": "d", "label": "The future indicative.", "correct": false, "feedback": "Not yet — that would be *irás*, *verás*." }
+      ],
+      "hints": [
+        "The forms end in *-res*.",
+        "This tense has almost disappeared, except in legal language: *el que infringiere…*"
+      ],
+      "solution": "**The future subjunctive.** *Fueres* (from *ir*) and *vieres* (from *ver*) refer to hypothetical future situations: 'wherever you may go, do what you may see done'. Modern Spanish uses the present subjunctive: *Donde vayas, haz lo que veas.*"
+    },
+    {
+      "id": "quixote-x",
+      "type": "choice",
+      "prompt": "Why is the knight *Quixote* in English but *Quijote* in modern Spanish?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "In Cervantes's time *x* spelled a 'sh' sound; it later became the *jota*, and Spanish spelling changed to *j*. English kept the old spelling.", "correct": true, "feedback": "Yes — the sound changed, the Spanish spelling followed it, and the English name preserved the original." },
+        { "id": "b", "label": "English speakers misread the Spanish *j*.", "correct": false, "feedback": "Not yet — the first editions really were spelled *Quixote*." },
+        { "id": "c", "label": "The *x* was always pronounced like English *ks*.", "correct": false, "feedback": "Not yet — in these words the old *x* spelled a 'sh' sound /ʃ/, not /ks/." },
+        { "id": "d", "label": "The RAE changed the name for political reasons.", "correct": false, "feedback": "Not yet — the change was part of a general spelling reform that matched writing to the new pronunciation." }
+      ],
+      "hints": [
+        "Look at the spelling table: *dixo*, *baxo*, *Quixote*.",
+        "The same history explains the *x* in *México*."
+      ],
+      "solution": "**A.** Sixteenth-century *x* spelled /ʃ/ (like English 'sh'). In the sixteenth and seventeenth centuries that sound shifted back in the mouth and became the modern *jota* /x/; in the early nineteenth century the Academy's spelling replaced *x* with *j* in such words. English borrowed the name before the change. *México*, *Oaxaca* and *Texas* keep the old letter."
+    },
+    {
+      "id": "dixo-modern",
+      "type": "text",
+      "prompt": "Modernise the spelling of this word from a first edition: **dixo**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["dijo"],
+      "hints": [
+        "The old *x* here became the *jota*.",
+        "It's the preterite of *decir*."
+      ],
+      "solution": "**dijo.** The *x* in *dixo* spelled a 'sh' sound that became the modern *jota*; the spelling followed. Same story: *baxo* → *bajo*, *dexar* → *dejar*, *Quixote* → *Quijote*."
+    },
+    {
+      "id": "se-parecen",
+      "type": "choice",
+      "prompt": "Sancho says: *Mire vuestra merced… que aquellos que allí **se parecen** no son gigantes, sino molinos de viento.* What does *se parecen* mean here?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "can be seen, appear (*se ven, aparecen*)", "correct": true, "feedback": "Yes — an old sense of *parecer* is 'to appear, show up'." },
+        { "id": "b", "label": "look like each other", "correct": false, "feedback": "Not yet — that's the modern reflexive sense; here Sancho is pointing at what is visible over there." },
+        { "id": "c", "label": "seem to be giants", "correct": false, "feedback": "Not yet — close to the theme, but the verb here simply means 'appear, be visible'." },
+        { "id": "d", "label": "are hiding", "correct": false, "feedback": "Not yet — quite the opposite: they are in plain sight." }
+      ],
+      "hints": [
+        "*Parecer* is related to *aparecer*.",
+        "Sancho is pointing at something visible in the distance."
+      ],
+      "solution": "**can be seen.** In Golden Age Spanish *parecer(se)* could mean *aparecer* or *verse*: *aquellos que allí se parecen* = *aquellos que se ven allí*. Note also *Mire vuestra merced*: third person, because *vuestra merced* is grammatically a noun — the ancestor of *Mire usted*."
+    },
+    {
+      "id": "hidalgo",
+      "type": "choice",
+      "prompt": "What was a *hidalgo*, like the man at the start of *Don Quijote*?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "A member of the lowest rank of the nobility, often with more honour than money.", "correct": true, "feedback": "Yes — from *hijo de algo*: noble by birth, exempt from some taxes, often poor." },
+        { "id": "b", "label": "A wealthy merchant.", "correct": false, "feedback": "Not yet — trade was considered unworthy of a *hidalgo*." },
+        { "id": "c", "label": "A professional soldier.", "correct": false, "feedback": "Not yet — he owns a lance, but it sits unused on its rack." },
+        { "id": "d", "label": "A village priest.", "correct": false, "feedback": "Not yet — a priest is *un cura*, and he appears later in the novel." }
+      ],
+      "hints": [
+        "The word comes from *hijo de algo*, 'son of someone (of standing)'.",
+        "His possessions — an old shield, a thin horse — tell you about his finances."
+      ],
+      "solution": "**A minor nobleman.** *Hidalgo* comes from *hijo de algo*. Cervantes's list — a lance on the rack, an old shield, a skinny nag, a racing greyhound — paints a gentleman with status and almost no money, which is the starting point of the comedy."
+    }
+  ]
+}

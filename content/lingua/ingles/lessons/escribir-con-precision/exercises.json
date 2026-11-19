@@ -1,0 +1,429 @@
+{
+  "lesson": "escribir-con-precision",
+  "exercises": [
+    {
+      "id": "precision-comma-splice",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "¿Qué oración contiene un *comma splice* (dos oraciones completas unidas solo con una coma)?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The train was delayed, we missed the concert.",
+          "correct": true,
+          "feedback": "¡Eso es! *The train was delayed* y *we missed the concert* son oraciones completas; una coma sola no basta para unirlas."
+        },
+        {
+          "id": "b",
+          "label": "The train was delayed, so we missed the concert.",
+          "correct": false,
+          "feedback": "Esta es correcta: la conjunción *so* une las dos oraciones, y la coma delante es adecuada."
+        },
+        {
+          "id": "c",
+          "label": "The train was delayed; we missed the concert.",
+          "correct": false,
+          "feedback": "Esta es correcta: el punto y coma puede unir dos oraciones completas muy relacionadas."
+        },
+        {
+          "id": "d",
+          "label": "Because the train was delayed, we missed the concert.",
+          "correct": false,
+          "feedback": "Esta es correcta: la primera parte es subordinada (*Because…*), así que la coma está bien."
+        }
+      ],
+      "hints": [
+        "Busca dos oraciones que podrían ir solas, separadas solo por una coma.",
+        "¿Hay una conjunción, un punto y coma o una subordinada?"
+      ],
+      "solution": "En **The train was delayed, we missed the concert** hay dos oraciones independientes unidas solo por una coma: es un *comma splice*. Se corrige con un punto, un punto y coma o una conjunción (*so*), como en las otras tres opciones."
+    },
+    {
+      "id": "precision-its",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Corrige el error y escribe la oración completa:\n\n*Its a beautiful day, and the garden is at it's best.*",
+      "answers": [
+        "It's a beautiful day, and the garden is at its best",
+        "It is a beautiful day, and the garden is at its best",
+        "It's a beautiful day and the garden is at its best",
+        "It is a beautiful day and the garden is at its best"
+      ],
+      "feedback": [
+        {
+          "match": "It's a beautiful day, and the garden is at it's best",
+          "message": "Casi: has corregido el primero. El segundo es un posesivo (el mejor momento del jardín): *its*, sin apóstrofo."
+        },
+        {
+          "match": "Its a beautiful day, and the garden is at its best",
+          "message": "Casi: has corregido el segundo. El primero es *it is*: necesita apóstrofo, *It's*."
+        }
+      ],
+      "hints": [
+        "Hay dos errores, uno de cada tipo.",
+        "*It's* = *it is*; *its* = posesivo (su)."
+      ],
+      "solution": "El primer *Its* significa *it is*, así que lleva apóstrofo: *It's*. El segundo es posesivo (*su mejor momento*), así que va sin apóstrofo: *its*. Resultado: **It's a beautiful day, and the garden is at its best.**"
+    },
+    {
+      "id": "precision-oxford-comma",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Quieres dejar claro que comiste con **cuatro personas como mínimo**: tus hermanas, una piloto y una jueza. ¿Qué versión lo expresa sin ambigüedad?",
+      "options": [
+        {
+          "id": "a",
+          "label": "I had lunch with my sisters, a pilot, and a judge.",
+          "correct": true,
+          "feedback": "¡Muy bien! La coma de Oxford separa claramente los tres elementos de la lista."
+        },
+        {
+          "id": "b",
+          "label": "I had lunch with my sisters, a pilot and a judge.",
+          "correct": false,
+          "feedback": "Casi: sin la coma de Oxford, *a pilot and a judge* puede leerse como una aclaración de quiénes son tus hermanas."
+        },
+        {
+          "id": "c",
+          "label": "I had lunch with my sisters a pilot and a judge.",
+          "correct": false,
+          "feedback": "Todavía no: sin ninguna coma, la oración es aún más confusa."
+        },
+        {
+          "id": "d",
+          "label": "I had lunch with my sisters: a pilot and a judge.",
+          "correct": false,
+          "feedback": "Todavía no: los dos puntos indican justo lo contrario, que tus hermanas son la piloto y la jueza."
+        }
+      ],
+      "hints": [
+        "Busca la versión en la que *a pilot* no pueda interpretarse como una aclaración de *my sisters*.",
+        "La coma antes de *and* en una lista es la coma de Oxford."
+      ],
+      "solution": "Con la coma de Oxford (**my sisters, a pilot, and a judge**), los tres elementos quedan separados. Sin ella, *a pilot and a judge* puede leerse como una aposición que explica quiénes son las hermanas. Aunque tu guía de estilo no use la coma de Oxford, en casos ambiguos conviene añadirla o reescribir."
+    },
+    {
+      "id": "precision-two-hour",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Corrige el error y escribe la oración completa:\n\n*We had a two hours meeting with the new client.*",
+      "answers": [
+        "We had a two-hour meeting with the new client"
+      ],
+      "feedback": [
+        {
+          "match": "We had a two-hours meeting with the new client",
+          "message": "Casi: el guion está bien, pero en un adjetivo compuesto el sustantivo va en singular: *two-hour*."
+        },
+        {
+          "match": "We had a two hour meeting with the new client",
+          "message": "Casi: has quitado la -s, pero falta el guion: *two-hour*."
+        }
+      ],
+      "hints": [
+        "*Two hour* funciona como un adjetivo delante de *meeting*.",
+        "Los adjetivos compuestos llevan guion y no tienen plural."
+      ],
+      "solution": "Delante de un sustantivo, *two hour* funciona como un adjetivo compuesto: lleva **guion** y el sustantivo va en **singular**, porque los adjetivos no tienen plural en inglés: **We had a two-hour meeting with the new client.** (Compara: *The meeting lasted two hours.*)"
+    },
+    {
+      "id": "precision-relative-commas",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "*My brother, who lives in Montevideo, is a doctor.* ¿Qué indican las comas?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Que tengo un solo hermano, y que vivir en Montevideo es un dato añadido.",
+          "correct": true,
+          "feedback": "¡Exacto! Las comas marcan una relativa explicativa: añade información, pero no sirve para identificar al hermano."
+        },
+        {
+          "id": "b",
+          "label": "Que tengo varios hermanos y hablo del que vive en Montevideo.",
+          "correct": false,
+          "feedback": "Casi: eso se expresaría sin comas: *My brother who lives in Montevideo is a doctor.*"
+        },
+        {
+          "id": "c",
+          "label": "Nada: las comas son opcionales y no cambian el sentido.",
+          "correct": false,
+          "feedback": "Todavía no: con las oraciones de relativo, las comas cambian el significado."
+        },
+        {
+          "id": "d",
+          "label": "Que mi hermano ya no vive en Montevideo.",
+          "correct": false,
+          "feedback": "Todavía no: el presente *lives* indica que sigue viviendo allí."
+        }
+      ],
+      "hints": [
+        "Repasa la diferencia entre relativas explicativas y especificativas.",
+        "¿La relativa sirve para identificar al hermano o solo añade un dato?"
+      ],
+      "solution": "Con comas, la relativa es **explicativa**: añade un dato sobre el único hermano. Sin comas (*My brother who lives in Montevideo*), sería **especificativa** e implicaría que tienes más de un hermano. Una coma cambia el número de hermanos."
+    },
+    {
+      "id": "precision-capitals",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "¿Qué versión tiene **todas** las mayúsculas correctas?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Every Monday in January, we meet some Brazilian friends to practise English.",
+          "correct": true,
+          "feedback": "¡Eso es! En inglés llevan mayúscula los días, los meses, las nacionalidades y los idiomas."
+        },
+        {
+          "id": "b",
+          "label": "Every monday in january, we meet some brazilian friends to practise english.",
+          "correct": false,
+          "feedback": "Todavía no: son las mayúsculas del español. En inglés, *Monday*, *January*, *Brazilian* y *English* llevan mayúscula."
+        },
+        {
+          "id": "c",
+          "label": "Every Monday in January, we meet some brazilian friends to practise English.",
+          "correct": false,
+          "feedback": "Casi: falta una. Las nacionalidades también llevan mayúscula: *Brazilian*."
+        },
+        {
+          "id": "d",
+          "label": "Every Monday in january, we meet some Brazilian Friends to practise English.",
+          "correct": false,
+          "feedback": "Casi: *January* necesita mayúscula, y *friends* no (es un sustantivo común)."
+        }
+      ],
+      "hints": [
+        "Fíjate en el día, el mes, la nacionalidad y el idioma.",
+        "Los sustantivos comunes, como *friends*, van en minúscula."
+      ],
+      "solution": "En inglés llevan mayúscula la primera palabra de la oración y también los **días** (*Monday*), los **meses** (*January*), las **nacionalidades** (*Brazilian*) y los **idiomas** (*English*); los sustantivos comunes como *friends*, no. Respuesta: **Every Monday in January, we meet some Brazilian friends to practise English.** (*Practise* es el verbo en ortografía británica; en estadounidense, *practice*.)"
+    },
+    {
+      "id": "precision-us-quotes",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Escribes para una revista de Estados Unidos que sigue la convención estadounidense. ¿Qué versión es la adecuada?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The critic called the film \"a quiet masterpiece.\"",
+          "correct": true,
+          "feedback": "¡Correcto! En el estilo estadounidense se usan comillas dobles y el punto final va dentro, aunque no forme parte de la cita."
+        },
+        {
+          "id": "b",
+          "label": "The critic called the film \"a quiet masterpiece\".",
+          "correct": false,
+          "feedback": "Casi: es la convención británica (puntuación según el sentido). En el estilo estadounidense, el punto va dentro de las comillas."
+        },
+        {
+          "id": "c",
+          "label": "The critic called the film «a quiet masterpiece».",
+          "correct": false,
+          "feedback": "Todavía no: las comillas angulares no se usan en inglés."
+        },
+        {
+          "id": "d",
+          "label": "The critic called the film —a quiet masterpiece—.",
+          "correct": false,
+          "feedback": "Todavía no: las rayas no sirven para marcar citas en inglés."
+        }
+      ],
+      "hints": [
+        "En EE. UU. se usan comillas dobles.",
+        "¿Dónde va el punto: dentro o fuera de las comillas?"
+      ],
+      "solution": "En la convención estadounidense, las comillas son dobles y **el punto y la coma van siempre dentro** de las comillas de cierre: **The critic called the film \"a quiet masterpiece.\"** En la británica, la puntuación va dentro o fuera según el sentido, y las comillas suelen ser simples."
+    },
+    {
+      "id": "precision-parents-house",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Reescribe con el genitivo sajón (el apóstrofo de posesión):\n\n*the house of my parents*",
+      "answers": [
+        "my parents' house"
+      ],
+      "feedback": [
+        {
+          "match": "my parent's house",
+          "message": "Casi: *parent's* sería «la casa de mi padre o de mi madre» (singular). Con *parents* en plural, el apóstrofo va después de la -s: *parents'*."
+        },
+        {
+          "match": "my parents's house",
+          "message": "Casi: con los plurales en -s, solo se añade el apóstrofo: *parents'*."
+        },
+        {
+          "match": "my parents house",
+          "message": "Casi: falta el apóstrofo de posesión: *parents'*."
+        }
+      ],
+      "hints": [
+        "*Parents* es un plural terminado en -s.",
+        "En los plurales en -s, el apóstrofo va detrás de la -s y no se añade otra."
+      ],
+      "solution": "*Parents* es un plural en -s, así que el posesivo se forma añadiendo solo el apóstrofo: **my parents' house**. Con un singular sería *my parent's house*; con un plural irregular, *the children's house*."
+    },
+    {
+      "id": "precision-semicolon-however",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "¿Cuál de estas oraciones está bien puntuada?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The proposal was well written; however, the budget was unrealistic.",
+          "correct": true,
+          "feedback": "¡Muy bien! *However* no es una conjunción: necesita un punto y coma (o un punto) delante y una coma detrás."
+        },
+        {
+          "id": "b",
+          "label": "The proposal was well written, however the budget was unrealistic.",
+          "correct": false,
+          "feedback": "Casi: es un *comma splice*. *However* no puede unir dos oraciones como lo haría *but*."
+        },
+        {
+          "id": "c",
+          "label": "The proposal was well written however, the budget was unrealistic.",
+          "correct": false,
+          "feedback": "Todavía no: falta la puntuación fuerte antes de *however*, y la coma quedaría pegada a la primera oración."
+        },
+        {
+          "id": "d",
+          "label": "The proposal was well written; however the budget, was unrealistic.",
+          "correct": false,
+          "feedback": "Todavía no: la coma separa el sujeto (*the budget*) de su verbo, y falta la coma después de *however*."
+        }
+      ],
+      "hints": [
+        "*However* no es una conjunción como *but*.",
+        "Busca punto y coma antes y coma después."
+      ],
+      "solution": "*However*, *therefore* y *moreover* son adverbios conectores, no conjunciones: no pueden unir dos oraciones con una simple coma. La puntuación correcta es **The proposal was well written; however, the budget was unrealistic.** (o con punto: *…well written. However, the budget…*)."
+    },
+    {
+      "id": "precision-numbers",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés, escribiendo la cifra con números:\n\n*La ciudad tiene 3,5 millones de habitantes.*",
+      "answers": [
+        "The city has 3.5 million inhabitants",
+        "The city has 3.5 million people",
+        "The city has 3.5 million residents",
+        "The city has a population of 3.5 million",
+        "The city has a population of 3.5 million people",
+        "The city has a population of 3.5 million inhabitants"
+      ],
+      "feedback": [
+        {
+          "match": "The city has 3,5 million inhabitants",
+          "message": "Casi: en inglés los decimales se separan con punto: *3.5 million*."
+        },
+        {
+          "match": "The city has 3.5 millions inhabitants",
+          "message": "Casi: detrás de un número, *million* no lleva -s: *3.5 million*."
+        },
+        {
+          "match": "The city has 3,5 millions inhabitants",
+          "message": "Casi: dos cosas. Decimales con punto (*3.5*) y *million* sin -s detrás de un número."
+        }
+      ],
+      "hints": [
+        "¿Qué signo separa los decimales en inglés?",
+        "*Million* detrás de un número no lleva plural."
+      ],
+      "solution": "En inglés, el separador decimal es el **punto**, y *million* detrás de una cifra no lleva -s: **The city has 3.5 million inhabitants** (o *people*, *residents*, *a population of 3.5 million*). Un *3,5* en un texto inglés podría leerse como «tres mil quinientos»."
+    },
+    {
+      "id": "precision-dangling",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "¿Cuál de estas oraciones contiene un **modificador colgante** (*dangling modifier*)?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Having finished the report, the computer crashed.",
+          "correct": true,
+          "feedback": "¡Exacto! Gramaticalmente, quien terminó el informe sería *the computer*, lo cual es absurdo."
+        },
+        {
+          "id": "b",
+          "label": "Having finished the report, I sent it to my manager.",
+          "correct": false,
+          "feedback": "Esta es correcta: el sujeto *I* es quien terminó el informe."
+        },
+        {
+          "id": "c",
+          "label": "After I had finished the report, the computer crashed.",
+          "correct": false,
+          "feedback": "Esta es correcta: la subordinada tiene su propio sujeto (*I*), así que no hay confusión."
+        },
+        {
+          "id": "d",
+          "label": "The computer crashed just after I finished the report.",
+          "correct": false,
+          "feedback": "Esta es correcta y clara."
+        }
+      ],
+      "hints": [
+        "Un participio al principio de la oración se refiere al sujeto de la oración principal.",
+        "¿Puede una computadora terminar un informe?"
+      ],
+      "solution": "En **Having finished the report, the computer crashed**, el participio inicial se atribuye al sujeto de la oración principal, *the computer*: la computadora habría terminado el informe. Se corrige dando a la subordinada su propio sujeto (*After I had finished the report, the computer crashed*) o cambiando el sujeto principal."
+    },
+    {
+      "id": "precision-proofreading",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Acabas de escribir un informe importante y tienes un día antes de entregarlo. ¿Qué estrategia de revisión es más eficaz?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Dejarlo reposar unas horas y revisarlo en varias pasadas: primero la estructura, luego las oraciones, después tu lista de errores habituales y, por último, las erratas.",
+          "correct": true,
+          "feedback": "¡Muy bien! Separar la edición de la corrección de pruebas y revisar con distancia es lo que hacen los profesionales."
+        },
+        {
+          "id": "b",
+          "label": "Pasar el corrector automático y entregarlo.",
+          "correct": false,
+          "feedback": "Casi: el corrector ayuda, pero no detecta homófonos (*its / it's*), problemas de estructura ni errores de estilo."
+        },
+        {
+          "id": "c",
+          "label": "Releerlo una vez de principio a fin, buscando todo a la vez, nada más terminarlo.",
+          "correct": false,
+          "feedback": "Todavía no: sin distancia y buscándolo todo a la vez, se escapan muchos errores."
+        },
+        {
+          "id": "d",
+          "label": "Aceptar todas las sugerencias de una herramienta de inteligencia artificial sin leerlas.",
+          "correct": false,
+          "feedback": "Todavía no: las herramientas pueden cambiar el sentido o el estilo. Acepta un cambio solo si entiendes por qué mejora el texto."
+        }
+      ],
+      "hints": [
+        "Piensa en la distancia y en revisar una cosa cada vez.",
+        "Las herramientas automáticas ayudan, pero no sustituyen tu criterio."
+      ],
+      "solution": "La revisión más eficaz combina **distancia** (dejar reposar el texto) y **pasadas separadas**: estructura, oraciones, errores personales y erratas. Las herramientas automáticas son útiles como apoyo, pero cada cambio debe pasar por tu criterio."
+    }
+  ]
+}

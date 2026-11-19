@@ -1,0 +1,211 @@
+{
+  "lesson": "variedades-del-ingles",
+  "exercises": [
+    {
+      "id": "variedades-us-spelling",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "¿Qué serie sigue **toda** la ortografía estadounidense?",
+      "options": [
+        { "id": "a", "label": "color, center, analyze, traveled", "correct": true, "feedback": "¡Eso es! *-or*, *-er*, *-yze* y una sola *l*: las cuatro son estadounidenses." },
+        { "id": "b", "label": "colour, centre, analyse, travelled", "correct": false, "feedback": "Todavía no: esta es la serie británica completa." },
+        { "id": "c", "label": "color, centre, analyze, travelled", "correct": false, "feedback": "Casi: *color* y *analyze* son estadounidenses, pero *centre* y *travelled* son británicas. Es justo la mezcla que hay que evitar." },
+        { "id": "d", "label": "colour, center, analyse, traveled", "correct": false, "feedback": "Casi: *center* y *traveled* son estadounidenses, pero *colour* y *analyse* son británicas." }
+      ],
+      "hints": [
+        "La ortografía estadounidense suele ser la más corta.",
+        "Busca *-or*, *-er*, *-yze* y una sola consonante en *traveled*."
+      ],
+      "solution": "La ortografía estadounidense, en gran parte por influencia de Noah Webster, simplifica: **color, center, analyze, traveled**. La británica es *colour, centre, analyse, travelled*. Lo importante es no mezclarlas en un mismo texto."
+    },
+    {
+      "id": "variedades-lift-flat",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Reescribe la oración en inglés estadounidense:\n\n*The lift in our flat is broken again.*",
+      "answers": [
+        "The elevator in our apartment is broken again",
+        "The elevator in our apartment building is broken again",
+        "The elevator in our building is broken again"
+      ],
+      "feedback": [
+        { "match": "The lift in our apartment is broken again", "message": "Casi: has cambiado *flat*, pero *lift* también es británico. En EE. UU. se dice *elevator*." },
+        { "match": "The elevator in our flat is broken again", "message": "Casi: has cambiado *lift*, pero *flat* también es británico. En EE. UU. se dice *apartment*." }
+      ],
+      "hints": [
+        "Hay dos palabras británicas en la oración.",
+        "*lift* → ?; *flat* → ?"
+      ],
+      "solution": "En inglés estadounidense, *lift* es **elevator** y *flat* es **apartment**: **The elevator in our apartment is broken again.** (También es natural *in our building* o *in our apartment building*, porque el ascensor está en el edificio.)"
+    },
+    {
+      "id": "variedades-pants",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Estás en una tienda de ropa en Mánchester y quieres unos pantalones. ¿Qué dices?",
+      "options": [
+        { "id": "a", "label": "I'm looking for some trousers.", "correct": true, "feedback": "¡Muy bien! En Reino Unido, los pantalones son *trousers*." },
+        { "id": "b", "label": "I'm looking for some pants.", "correct": false, "feedback": "Cuidado: en Reino Unido, *pants* es ropa interior. Te entenderían, pero quizá con una sonrisa." },
+        { "id": "c", "label": "I'm looking for some knickers.", "correct": false, "feedback": "Todavía no: *knickers* es ropa interior femenina en Reino Unido." },
+        { "id": "d", "label": "I'm looking for some tights.", "correct": false, "feedback": "Todavía no: *tights* son medias o pantis." }
+      ],
+      "hints": [
+        "Mánchester está en Inglaterra: piensa en el inglés británico.",
+        "La palabra estadounidense *pants* tiene otro significado en Reino Unido."
+      ],
+      "solution": "En inglés británico, «pantalones» es **trousers**; *pants* es la ropa interior. En Estados Unidos, en cambio, *pants* son los pantalones. Es una de las trampas de vocabulario más conocidas."
+    },
+    {
+      "id": "variedades-first-floor",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Una recepcionista de Londres te dice: *The meeting room is on the first floor.* ¿Dónde está la sala?",
+      "options": [
+        { "id": "a", "label": "Un piso por encima de la planta baja.", "correct": true, "feedback": "¡Exacto! En Reino Unido, la planta de la calle es el *ground floor*, y el *first floor* es el primer piso por encima." },
+        { "id": "b", "label": "En la planta baja, a nivel de la calle.", "correct": false, "feedback": "Casi: eso sería el *first floor* en Estados Unidos. En Reino Unido, la planta baja es el *ground floor*." },
+        { "id": "c", "label": "En el sótano.", "correct": false, "feedback": "Todavía no: el sótano es el *basement*." },
+        { "id": "d", "label": "En el último piso.", "correct": false, "feedback": "Todavía no: *first* indica el primero, no el último." }
+      ],
+      "hints": [
+        "En Reino Unido hay una palabra especial para la planta de la calle.",
+        "Si la planta de la calle es el *ground floor*, ¿qué es el *first floor*?"
+      ],
+      "solution": "El sistema británico es como el de muchos países hispanohablantes: *ground floor* (planta baja), *first floor* (primer piso). En Estados Unidos, el *first floor* es la planta de la calle. Así que en Londres la sala está **un piso por encima de la planta baja**."
+    },
+    {
+      "id": "variedades-have-got",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Reescribe la pregunta como la haría típicamente un estadounidense, con *do*:\n\n*Have you got a pen?*",
+      "answers": [
+        "Do you have a pen",
+        "Do you have a pen I could borrow",
+        "Do you have a pen I can borrow"
+      ],
+      "feedback": [
+        { "match": "Do you got a pen", "message": "Casi: con *do* el verbo es *have*: *Do you have a pen?* (*Do you got…?* es muy coloquial y no estándar)." },
+        { "match": "Have you a pen", "message": "Casi: *Have you a pen?* existe, pero es anticuado. El ejercicio pide la forma con *do*." }
+      ],
+      "hints": [
+        "En EE. UU., *have* para posesión suele funcionar como un verbo normal.",
+        "Los verbos normales forman la pregunta con *do*."
+      ],
+      "solution": "En inglés británico es muy común *Have you got…?*; en estadounidense, lo habitual es tratar *have* como un verbo normal y preguntar con *do*: **Do you have a pen?** Las dos formas se entienden en todas partes."
+    },
+    {
+      "id": "variedades-after-eating",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Una amiga de Cork te dice: *No thanks, I'm after eating.* ¿Qué significa?",
+      "options": [
+        { "id": "a", "label": "Que acaba de comer.", "correct": true, "feedback": "¡Muy bien! Es el perfecto con *after* del inglés irlandés: *I'm after eating* = *I've just eaten*." },
+        { "id": "b", "label": "Que quiere comer después.", "correct": false, "feedback": "Todavía no: es la interpretación lógica en inglés británico o estadounidense, pero en Irlanda la estructura indica algo que acaba de ocurrir." },
+        { "id": "c", "label": "Que está buscando comida.", "correct": false, "feedback": "Casi: *be after something* puede significar «buscar algo» (*What are you after?*), pero aquí, con un verbo en -ing, es el perfecto irlandés." },
+        { "id": "d", "label": "Que está comiendo ahora mismo.", "correct": false, "feedback": "Todavía no: no indica una acción en curso, sino una que acaba de terminar." }
+      ],
+      "hints": [
+        "Cork está en Irlanda.",
+        "Ha dicho *No thanks*: está rechazando comida."
+      ],
+      "solution": "En el inglés irlandés, *be after* + -ing expresa una acción **recién terminada**, una estructura influida por el irlandés (gaélico): *I'm after eating* = *I've just eaten*, «acabo de comer». Por eso rechaza la invitación."
+    },
+    {
+      "id": "variedades-robot",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "En Johannesburgo te indican: *Turn left at the second robot.* ¿Dónde giras?",
+      "options": [
+        { "id": "a", "label": "En el segundo semáforo.", "correct": true, "feedback": "¡Eso es! En el inglés sudafricano, *robot* es el semáforo." },
+        { "id": "b", "label": "En la segunda rotonda.", "correct": false, "feedback": "Todavía no: la rotonda es *roundabout* (o *traffic circle*)." },
+        { "id": "c", "label": "En la segunda fábrica.", "correct": false, "feedback": "Todavía no: *robot* no se refiere a ningún edificio." },
+        { "id": "d", "label": "En el segundo cruce.", "correct": false, "feedback": "Casi: en un cruce suele haber uno, pero *robot* nombra el aparato que regula el tráfico." }
+      ],
+      "hints": [
+        "Es un aparato automático que regula el tráfico.",
+        "En otras variedades se llama *traffic light*."
+      ],
+      "solution": "En Sudáfrica, **robot** significa semáforo (*traffic light*). Es un ejemplo clásico de palabra que cambia de significado entre variedades."
+    },
+    {
+      "id": "variedades-prepone",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Un colega de Bangalore escribe: *Can we prepone the call to 3 pm?* ¿Qué propone?",
+      "options": [
+        { "id": "a", "label": "Adelantar la llamada a las tres.", "correct": true, "feedback": "¡Exacto! *Prepone*, del inglés indio, es lo contrario de *postpone*: adelantar." },
+        { "id": "b", "label": "Retrasar la llamada a las tres.", "correct": false, "feedback": "Todavía no: eso sería *postpone*. *Pre-* indica lo contrario." },
+        { "id": "c", "label": "Cancelar la llamada.", "correct": false, "feedback": "Todavía no: cancelar es *cancel* o *call off*." },
+        { "id": "d", "label": "Preparar la llamada antes de las tres.", "correct": false, "feedback": "Casi: el prefijo *pre-* sugiere «antes», pero *prepone* se refiere a mover la hora de la llamada, no a prepararla." }
+      ],
+      "hints": [
+        "Piensa en *postpone* (aplazar) y cambia el prefijo.",
+        "*Post-* = después; *pre-* = antes."
+      ],
+      "solution": "*Prepone* es una palabra del inglés indio, formada por analogía con *postpone*: **adelantar** una cita o una reunión. Es estándar en la India y cada vez más conocida fuera; con alguien de otra variedad, quizá conviene decir *move it forward* o *bring it forward*."
+    },
+    {
+      "id": "variedades-weekend",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Escribe solo la preposición que usaría típicamente un **estadounidense**:\n\n*What are you doing ___ the weekend?*",
+      "answers": ["on", "over"],
+      "feedback": [
+        { "match": "at", "message": "Casi: *at the weekend* es la forma británica. En Estados Unidos se dice *on the weekend*." },
+        { "match": "in", "message": "Todavía no: *in the weekend* no es habitual en ninguna de las dos variedades." }
+      ],
+      "hints": [
+        "En Reino Unido se dice *at the weekend*.",
+        "En EE. UU. se usa la misma preposición que con los días: *___ Monday*."
+      ],
+      "solution": "En inglés estadounidense: **on the weekend** (también *over the weekend*, «durante el fin de semana»). En británico: *at the weekend*. Las dos son correctas en su variedad."
+    },
+    {
+      "id": "variedades-dates",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "En un correo de una empresa de Chicago lees: *The deadline is 03/05/2027.* ¿Cuál es la fecha límite?",
+      "options": [
+        { "id": "a", "label": "El 5 de marzo de 2027.", "correct": true, "feedback": "¡Muy bien! En Estados Unidos el orden es mes / día / año: 03 es marzo y 05 es el día." },
+        { "id": "b", "label": "El 3 de mayo de 2027.", "correct": false, "feedback": "Casi: así lo leería un británico o un hispanohablante (día / mes / año). Pero la empresa es de Chicago." },
+        { "id": "c", "label": "No se puede saber de ninguna manera.", "correct": false, "feedback": "Casi: es ambigua en abstracto, pero sabiendo que la empresa es estadounidense, lo razonable es leer mes / día / año." },
+        { "id": "d", "label": "El 27 de mayo de 2003.", "correct": false, "feedback": "Todavía no: ninguna variedad del inglés pone el año en medio." }
+      ],
+      "hints": [
+        "Chicago está en Estados Unidos.",
+        "En EE. UU. el mes va primero."
+      ],
+      "solution": "En Estados Unidos las fechas se escriben **mes / día / año**, así que *03/05/2027* es el **5 de marzo de 2027**. Para evitar malentendidos en textos internacionales, escribe el mes con letras: *March 5, 2027* o *5 March 2027*."
+    },
+    {
+      "id": "variedades-rhotic",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "¿En qué variedad es **más probable** que oigas pronunciar la *r* final de *car*?",
+      "options": [
+        { "id": "a", "label": "El inglés escocés.", "correct": true, "feedback": "¡Exacto! El inglés escocés es rótico: pronuncia la *r* después de vocal, igual que el estadounidense general, el canadiense y el irlandés." },
+        { "id": "b", "label": "El inglés estándar del sur de Inglaterra.", "correct": false, "feedback": "Todavía no: es una variedad no rótica; en *car*, la *r* no suena (salvo si la palabra siguiente empieza por vocal)." },
+        { "id": "c", "label": "El inglés australiano.", "correct": false, "feedback": "Todavía no: el inglés australiano es no rótico." },
+        { "id": "d", "label": "El inglés neozelandés.", "correct": false, "feedback": "Todavía no: el inglés neozelandés general es no rótico." }
+      ],
+      "hints": [
+        "Las variedades se dividen en róticas (pronuncian la *r*) y no róticas.",
+        "Repasa la tabla de la sección de pronunciación."
+      ],
+      "solution": "Las variedades **róticas** pronuncian la *r* después de vocal: estadounidense general, canadiense, **escocés** e irlandés. El inglés estándar del sur de Inglaterra, el australiano y el neozelandés son no róticos."
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "lesson": "contar-historias",
+  "exercises": [
+    {
+      "id": "perdi-las-llaves",
+      "type": "choice",
+      "prompt": "Estás buscando tus llaves por toda la casa y no aparecen. ¿Qué dices?\n\n*Oh no! I ___ my keys.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "have lost",
+          "correct": true,
+          "feedback": "Sí. Lo que importa es el resultado ahora (no tienes las llaves) y no dices cuándo pasó: present perfect."
+        },
+        {
+          "id": "b",
+          "label": "lost",
+          "correct": false,
+          "feedback": "Todavía no. *I lost my keys* necesita un momento terminado (*yesterday*, *on the bus*…). Aquí hablas del resultado presente."
+        },
+        {
+          "id": "c",
+          "label": "had lost",
+          "correct": false,
+          "feedback": "Todavía no. El past perfect sitúa algo antes de otro momento del pasado, y aquí no hay ningún otro momento pasado."
+        }
+      ],
+      "hints": [
+        "¿Hay alguna expresión de tiempo terminado en la frase?",
+        "Lo que te preocupa es que **ahora** no tienes las llaves."
+      ],
+      "solution": "**I have lost my keys** (o *I've lost my keys*).\n\nNo hay ninguna fecha ni momento terminado, y lo importante es la consecuencia presente: no puedes salir de casa. Eso es exactamente el present perfect. Si añadieras cuándo pasó, cambiarías al past simple: *I lost them on the bus yesterday.*"
+    },
+    {
+      "id": "fuimos-a-peru",
+      "type": "choice",
+      "prompt": "Elige la forma correcta:\n\n*We ___ to Peru in 2019 and loved it.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been",
+          "correct": false,
+          "feedback": "Todavía no. *In 2019* es un momento terminado y concreto; con él no se usa el present perfect."
+        },
+        {
+          "id": "b",
+          "label": "went",
+          "correct": true,
+          "feedback": "Sí. *In 2019* fecha el viaje en un periodo cerrado: past simple."
+        },
+        {
+          "id": "c",
+          "label": "have gone",
+          "correct": false,
+          "feedback": "Todavía no. Además de la fecha, *have gone to* significaría que seguís allí."
+        }
+      ],
+      "hints": [
+        "Busca la expresión de tiempo.",
+        "Un año que ya terminó es tiempo terminado."
+      ],
+      "solution": "**We went to Peru in 2019.**\n\n*In 2019* es un momento terminado y concreto, así que el past simple es obligatorio. Sin fecha, podrías decir *We've been to Peru* para hablar de la experiencia (como viste en la lección *Experiencias*). Fíjate en la diferencia entre *have been to* (fuiste y volviste) y *have gone to* (te fuiste y sigues allí)."
+    },
+    {
+      "id": "ya-he-terminado",
+      "type": "text",
+      "prompt": "Traduce al inglés con present perfect y *already*:\n\n**Ya he terminado el informe.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I've already finished the report",
+        "I have already finished the report",
+        "I've finished the report already",
+        "I have finished the report already",
+        "I already finished the report"
+      ],
+      "hints": [
+        "*Informe* es *report*; *terminar* es *finish*.",
+        "*Already* va entre *have* y el participio: *I've already…*"
+      ],
+      "solution": "**I've already finished the report.** (o *I have already finished the report*).\n\n*Already* se coloca entre el auxiliar y el participio. También puede ir al final con énfasis: *I've finished the report already!* En inglés estadounidense es muy común el past simple: *I already finished the report*, que también es correcto en esa variedad."
+    },
+    {
+      "id": "hueco-yet",
+      "type": "text",
+      "prompt": "Completa con una sola palabra:\n\n*Have you finished your homework ___?* (¿Ya has terminado los deberes?)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "yet"
+      ],
+      "feedback": [
+        {
+          "match": "already",
+          "message": "Casi: *already* en preguntas suena a sorpresa (¿ya, tan pronto?). Para una pregunta neutra al final de la frase, usa otra palabra."
+        },
+        {
+          "match": "still",
+          "message": "Todavía no: *still* expresa que algo sigue igual, y no va al final de una pregunta así."
+        }
+      ],
+      "hints": [
+        "Es la palabra que va al final de preguntas y negativas.",
+        "Es la misma de *I haven't finished it ___*."
+      ],
+      "solution": "**yet**: *Have you finished your homework yet?*\n\n*Yet* se usa en preguntas (= ya) y en negativas (= todavía), y va al final de la frase. *Have you already finished?* existe, pero expresa sorpresa porque haya sido tan rápido."
+    },
+    {
+      "id": "pelicula-empezada",
+      "type": "choice",
+      "prompt": "Llegaste tarde al cine y te perdiste el principio de la película. ¿Qué frase lo cuenta?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "When we got to the cinema, the film started.",
+          "correct": false,
+          "feedback": "Todavía no. Esta frase dice que la película empezó justo cuando llegaste, así que no te perdiste nada."
+        },
+        {
+          "id": "b",
+          "label": "When we got to the cinema, the film had already started.",
+          "correct": true,
+          "feedback": "Sí. El past perfect sitúa el comienzo de la película antes de tu llegada."
+        },
+        {
+          "id": "c",
+          "label": "When we got to the cinema, the film has already started.",
+          "correct": false,
+          "feedback": "Todavía no. El present perfect no encaja en una historia contada en pasado: necesitas el pasado del pasado."
+        }
+      ],
+      "hints": [
+        "¿Qué pasó primero: tu llegada o el comienzo de la película?",
+        "Para lo que ocurrió antes de otro hecho pasado se usa *had* + participio."
+      ],
+      "solution": "**When we got to the cinema, the film had already started.**\n\nHay dos hechos pasados: la película empezó (primero) y llegaste (después). Para dejar claro que uno es anterior, ese va en past perfect: *had started*. Con past simple en las dos partes (*the film started*), los dos hechos son simultáneos o seguidos, y la historia cambia."
+    },
+    {
+      "id": "invitados-se-habian-ido",
+      "type": "text",
+      "prompt": "Une las dos frases en una sola con *when* y el past perfect:\n\n*The guests left. Then Marta arrived.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "When Marta arrived, the guests had left",
+        "When Marta arrived the guests had left",
+        "When Marta arrived, the guests had already left",
+        "When Marta arrived the guests had already left",
+        "The guests had left when Marta arrived",
+        "The guests had already left when Marta arrived"
+      ],
+      "hints": [
+        "¿Qué pasó primero? Ese hecho va en past perfect.",
+        "Empieza con *When Marta arrived, …*"
+      ],
+      "solution": "**When Marta arrived, the guests had (already) left.**\n\nLos invitados se fueron primero, así que *leave* va en past perfect: *had left*. La llegada de Marta, el punto de referencia, va en past simple. También vale *The guests had left when Marta arrived*; si *when* va en medio, no hace falta coma. *Already* subraya que llegó tarde."
+    },
+    {
+      "id": "used-to-estado",
+      "type": "choice",
+      "prompt": "¿Qué frase es correcta?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "When I was a child, I would have a cat called Miso.",
+          "correct": false,
+          "feedback": "Todavía no. *Would* sirve para acciones repetidas, no para estados como tener algo."
+        },
+        {
+          "id": "b",
+          "label": "When I was a child, I used to have a cat called Miso.",
+          "correct": true,
+          "feedback": "Sí. *Used to* vale para estados y para hábitos del pasado."
+        },
+        {
+          "id": "c",
+          "label": "When I was a child, I use to have a cat called Miso.",
+          "correct": false,
+          "feedback": "Todavía no. En afirmativa es *used to*, con *-d*."
+        }
+      ],
+      "hints": [
+        "*Tener un gato* es un estado, no una acción que se repite.",
+        "¿Cuál de las dos formas, *used to* o *would*, admite estados?"
+      ],
+      "solution": "**When I was a child, I used to have a cat called Miso.**\n\n*Have* (tener) es un estado. *Used to* sirve para estados y para acciones repetidas; *would* solo para acciones repetidas (*I would feed the cat every morning*). En afirmativa siempre se escribe *used*, con *-d*."
+    },
+    {
+      "id": "solia-vivir",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Antes vivía en Bogotá.** (Ya no vivo allí.)",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I used to live in Bogotá",
+        "I used to live in Bogota"
+      ],
+      "hints": [
+        "Es un estado del pasado que ya no es verdad.",
+        "*Used to* + infinitivo sin *to*: *I used to …*"
+      ],
+      "solution": "**I used to live in Bogotá.**\n\nEl imperfecto español *vivía* con el sentido de «antes sí, ahora no» se traduce con *used to* + infinitivo. *I would live in Bogotá* no es posible, porque vivir en un lugar es un estado. En inglés el nombre de la ciudad suele escribirse *Bogotá*, aunque también se ve sin tilde."
+    },
+    {
+      "id": "por-fin-llego",
+      "type": "choice",
+      "prompt": "*We waited for two hours and ___ the bus came.* Marca **todas** las opciones correctas.",
+      "difficulty": "core",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "at last",
+          "correct": true,
+          "feedback": "Sí. *At last* (por fin) expresa alivio después de una larga espera."
+        },
+        {
+          "id": "b",
+          "label": "in the end",
+          "correct": true,
+          "feedback": "Sí. *In the end* (al final, finalmente) presenta el desenlace."
+        },
+        {
+          "id": "c",
+          "label": "at the end",
+          "correct": false,
+          "feedback": "Todavía no. *At the end* necesita *of* + algo concreto: *at the end of the film*."
+        },
+        {
+          "id": "d",
+          "label": "after",
+          "correct": false,
+          "feedback": "Todavía no. *After* necesita algo detrás (*after that*, *after two hours*); solo, no funciona."
+        }
+      ],
+      "hints": [
+        "Dos de las opciones pueden ir solas como adverbio de desenlace.",
+        "*At the end* y *after* necesitan un complemento."
+      ],
+      "solution": "**at last** y **in the end**.\n\n*At last* subraya el alivio (por fin); *in the end* presenta el resultado final. *At the end* siempre lleva *of* + algo (*at the end of the day*), y *after* necesita un sustantivo u oración detrás; si va sola, se dice *afterwards* o *after that*."
+    },
+    {
+      "id": "no-me-gustaba-el-cafe",
+      "type": "text",
+      "prompt": "Completa con la forma negativa de *used to* (puedes usar contracción):\n\n*I ___ like coffee, but now I drink three cups a day.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "didn't use to",
+        "did not use to",
+        "never used to"
+      ],
+      "feedback": [
+        {
+          "match": "didn't used to",
+          "message": "Casi: se ve escrito así en textos informales, pero después de *did* o *didn't* lo estándar es *use*, sin *-d*."
+        },
+        {
+          "match": "did not used to",
+          "message": "Casi: después de *did not* lo estándar es *use*, sin *-d*."
+        },
+        {
+          "match": "use to not",
+          "message": "Todavía no: la negativa se forma con *didn't*, como cualquier verbo en past simple."
+        }
+      ],
+      "hints": [
+        "La negativa se hace con el auxiliar del past simple.",
+        "Después de *didn't*, el verbo va en forma base: *didn't use…*"
+      ],
+      "solution": "**didn't use to** (o *did not use to*): *I didn't use to like coffee, but now I drink three cups a day.*\n\nComo cualquier past simple, la negativa lleva *didn't* + forma base: *use*, sin *-d*. También es natural *I never used to like coffee*. La forma *didn't used to* aparece en textos informales, pero en exámenes y textos cuidados escribe *use*."
+    },
+    {
+      "id": "conector-afterwards",
+      "type": "text",
+      "prompt": "Corrige la frase cambiando solo la primera palabra (una sola palabra):\n\n*We had dinner at a small restaurant. ✗ After, we went for a walk by the river.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Afterwards",
+        "Afterward",
+        "Afterwards, we went for a walk by the river",
+        "Afterward, we went for a walk by the river",
+        "Afterwards we went for a walk by the river",
+        "Afterward we went for a walk by the river"
+      ],
+      "hints": [
+        "*After* necesita algo detrás. Busca el adverbio que puede ir solo.",
+        "Es *after* con una terminación añadida."
+      ],
+      "solution": "**Afterwards** (en EE. UU. también *afterward*): *Afterwards, we went for a walk by the river.*\n\n*After* es preposición o conjunción y necesita complemento: *after dinner*, *after we ate*. Para decir «después» solo, usa *afterwards*, o la expresión *after that* (que tiene dos palabras). Es uno de los errores más frecuentes de los hispanohablantes, porque en español *después* puede ir solo."
+    }
+  ]
+}

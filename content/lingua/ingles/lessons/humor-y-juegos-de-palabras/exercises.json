@@ -1,0 +1,234 @@
+{
+  "lesson": "humor-y-juegos-de-palabras",
+  "exercises": [
+    {
+      "id": "humor-overtime",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "*The clock repairer worked overtime.* ¿Dónde está el juego de palabras?",
+      "options": [
+        { "id": "a", "label": "*Overtime* significa «horas extra», pero también se oye como *over time*: un relojero trabaja literalmente «sobre el tiempo».", "correct": true, "feedback": "¡Eso es! Dos significados a la vez: el laboral y el literal, que encaja con su oficio." },
+        { "id": "b", "label": "*Repairer* suena como *repair her*.", "correct": false, "feedback": "Todavía no: no hay ninguna «ella» en la frase; el juego está en otra palabra." },
+        { "id": "c", "label": "*Clock* tiene dos pronunciaciones.", "correct": false, "feedback": "Todavía no: *clock* solo tiene una pronunciación y un significado básico." },
+        { "id": "d", "label": "No hay ningún juego de palabras; es una oración literal.", "correct": false, "feedback": "Casi: literalmente tiene sentido (un relojero que hace horas extra), pero precisamente por eso funciona el segundo sentido." }
+      ],
+      "hints": [
+        "¿Con qué trabaja un relojero?",
+        "Separa *overtime* en dos palabras."
+      ],
+      "solution": "*Overtime* (horas extra) contiene *over time* (sobre el tiempo). Como un relojero trabaja con el tiempo, la frase tiene dos lecturas a la vez: es un **juego de palabras por polisemia**."
+    },
+    {
+      "id": "humor-grave-man",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Mercutio, herido de muerte, dice: *Ask for me tomorrow, and you shall find me a grave man.* ¿Qué dos sentidos tiene *grave*?",
+      "options": [
+        { "id": "a", "label": "«Serio» y «tumba».", "correct": true, "feedback": "¡Muy bien! Mañana estará «serio» porque estará en la tumba. Un chiste en el momento de morir." },
+        { "id": "b", "label": "«Grave» (enfermo) y «grabado».", "correct": false, "feedback": "Casi: *grave* no significa «enfermo grave» en inglés, y el chiste no tiene que ver con grabar." },
+        { "id": "c", "label": "«Importante» y «pesado».", "correct": false, "feedback": "Todavía no: *grave* puede significar «solemne, importante», pero el segundo sentido del chiste es otro, mucho más oscuro." },
+        { "id": "d", "label": "«Triste» y «enojado».", "correct": false, "feedback": "Todavía no: ninguno de los dos sentidos es el del chiste." }
+      ],
+      "hints": [
+        "Mercutio sabe que va a morir.",
+        "Como sustantivo, *grave* es el lugar donde se entierra a alguien."
+      ],
+      "solution": "*Grave* como adjetivo es «serio, solemne»; como sustantivo, «tumba». Mercutio dice que mañana será un hombre serio… porque estará enterrado. Es un **juego de palabras** en plena tragedia, típico de Shakespeare."
+    },
+    {
+      "id": "humor-oh-great",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Tu compañera mira el calendario, ve que le han puesto otra reunión a las seis de la tarde del viernes y dice, con voz plana: *Oh, great. Just what I needed.* ¿Cómo se siente?",
+      "options": [
+        { "id": "a", "label": "Molesta: es sarcasmo.", "correct": true, "feedback": "¡Exacto! La situación es mala, la entonación plana y la fórmula (*just what I needed*) es un clásico del sarcasmo." },
+        { "id": "b", "label": "Encantada: le gustan las reuniones.", "correct": false, "feedback": "Todavía no: es la lectura literal. Una reunión el viernes a las seis rara vez es motivo de alegría." },
+        { "id": "c", "label": "Indiferente.", "correct": false, "feedback": "Casi: la voz plana podría parecerlo, pero las palabras elegidas expresan claramente fastidio." },
+        { "id": "d", "label": "Confundida.", "correct": false, "feedback": "Todavía no: no hay nada en sus palabras que indique confusión." }
+      ],
+      "hints": [
+        "Fíjate en la situación y en la entonación.",
+        "*Just what I needed* es una fórmula que casi siempre se usa al revés."
+      ],
+      "solution": "Situación negativa + entonación plana + fórmula positiva = **sarcasmo**. *Oh, great. Just what I needed* significa justo lo contrario: «lo que me faltaba»."
+    },
+    {
+      "id": "humor-yeah-right",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "A: *I'll have the whole report finished by tomorrow morning.*\n\nB (que conoce bien a A): *Yeah, right.*\n\n¿Qué quiere decir B?",
+      "options": [
+        { "id": "a", "label": "Que no se lo cree.", "correct": true, "feedback": "¡Muy bien! *Yeah, right*, con el tono adecuado, expresa incredulidad: «sí, claro»." },
+        { "id": "b", "label": "Que está de acuerdo y le parece bien.", "correct": false, "feedback": "Casi: en otro tono, *yeah, right* puede ser una confirmación, pero dicho por alguien que conoce bien a A ante una promesa poco realista, es incredulidad." },
+        { "id": "c", "label": "Que A tiene razón en todo.", "correct": false, "feedback": "Todavía no: aquí *right* no significa «tienes razón»." },
+        { "id": "d", "label": "Que quiere ayudarle.", "correct": false, "feedback": "Todavía no: no hay ninguna oferta de ayuda." }
+      ],
+      "hints": [
+        "Dos palabras positivas pueden sumar un significado negativo.",
+        "Piensa en nuestro «sí, claro…» con retintín."
+      ],
+      "solution": "*Yeah, right* une dos afirmaciones para expresar **incredulidad**, como nuestro «sí, claro» irónico. B no cree que A vaya a terminar el informe a tiempo."
+    },
+    {
+      "id": "humor-twain",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Ante el rumor de su muerte, Mark Twain escribió: *The report of my death was an exaggeration.* ¿Qué recurso usa?",
+      "options": [
+        { "id": "a", "label": "*Understatement* contado con seriedad (*deadpan*): llama «exageración» a lo que era completamente falso.", "correct": true, "feedback": "¡Exacto! La noticia no era exagerada: era falsa. Decir solo que «exageraba» es lo que la hace graciosa." },
+        { "id": "b", "label": "Hipérbole: exagera la gravedad de su enfermedad.", "correct": false, "feedback": "Todavía no: es justo lo contrario. Twain dice menos, no más." },
+        { "id": "c", "label": "Sarcasmo cruel contra el periodista.", "correct": false, "feedback": "Casi: hay ironía, pero el tono es seco y divertido, no hiriente." },
+        { "id": "d", "label": "Una afirmación literal y sin humor.", "correct": false, "feedback": "Todavía no: si fuera literal, admitiría estar «un poco muerto»." }
+      ],
+      "hints": [
+        "¿Estaba Twain un poco muerto o nada muerto?",
+        "¿Dice más o menos de lo que la situación merece?"
+      ],
+      "solution": "Twain no estaba muerto, así que la noticia no era una exageración, sino un error total. Llamarla «exageración», con total seriedad, es un ***understatement*** contado en ***deadpan***. (Y ojo: la frase suele citarse mal como *greatly exaggerated*.)"
+    },
+    {
+      "id": "humor-need-homophone",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "*A baker who works all night must really knead the money.* Escribe la palabra que **suena igual** que *knead* y que significa «necesitar».",
+      "answers": ["need"],
+      "feedback": [
+        { "match": "knead", "message": "Casi: esa es la palabra del chiste (amasar). Busca la que suena igual y significa «necesitar»." }
+      ],
+      "hints": [
+        "En *knead*, la *k* es muda.",
+        "Es un verbo muy frecuente: *I ___ help*."
+      ],
+      "solution": "*Knead* (amasar) se pronuncia /niːd/, igual que **need** (necesitar). El panadero «amasa el dinero» y, a la vez, «lo necesita»; además, *dough* (masa) es argot de «dinero»."
+    },
+    {
+      "id": "humor-hole-whole",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Escribe el homófono de **whole** (entero) que significa «agujero».",
+      "answers": ["hole"],
+      "feedback": [
+        { "match": "whole", "message": "Casi: esa es la palabra del enunciado. Busca la que suena igual pero se escribe sin *w*." }
+      ],
+      "hints": [
+        "En *whole*, la *w* no se pronuncia.",
+        "Se escribe con cuatro letras."
+      ],
+      "solution": "*Whole* (entero) y **hole** (agujero) se pronuncian igual, /həʊl/ en británico y /hoʊl/ en estadounidense. Es un par muy usado en chistes sobre donas o rosquillas (*doughnuts*), que son, precisamente, un círculo con un agujero."
+    },
+    {
+      "id": "humor-limerick-scheme",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "¿Cuál es el esquema de rima de un limerick?",
+      "options": [
+        { "id": "a", "label": "AABBA", "correct": true, "feedback": "¡Correcto! Riman los versos 1, 2 y 5, y los versos 3 y 4 entre sí." },
+        { "id": "b", "label": "ABABA", "correct": false, "feedback": "Todavía no: en un limerick los versos 1 y 2 riman entre sí." },
+        { "id": "c", "label": "AABBCC", "correct": false, "feedback": "Todavía no: el limerick tiene cinco versos, no seis." },
+        { "id": "d", "label": "ABBA", "correct": false, "feedback": "Casi: es el esquema de una cuarteta. El limerick tiene cinco versos." }
+      ],
+      "hints": [
+        "Tiene cinco versos.",
+        "Los dos versos cortos (3 y 4) riman entre sí."
+      ],
+      "solution": "El limerick tiene cinco versos con rima **AABBA**: los versos largos 1, 2 y 5 comparten una rima; los cortos 3 y 4, otra. Por ejemplo: *Seville / will / still* y *tense / sense*."
+    },
+    {
+      "id": "humor-limerick-last-word",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Elige la última palabra que completa el limerick:\n\n*A student who lived in Seville*\\\n*Learned English with ironclad will;*\\\n*She mastered each tense,*\\\n*Every phrase, every sense,*\\\n*But the jokes are escaping her ___.*",
+      "options": [
+        { "id": "a", "label": "still", "correct": true, "feedback": "¡Eso es! *Still* rima con *Seville* y *will*, y da sentido al giro final: los chistes todavía se le escapan." },
+        { "id": "b", "label": "yet", "correct": false, "feedback": "Casi: el sentido es parecido, pero no rima con *Seville* ni con *will*." },
+        { "id": "c", "label": "now", "correct": false, "feedback": "Todavía no: no rima con los versos 1 y 2." },
+        { "id": "d", "label": "sense", "correct": false, "feedback": "Casi: *sense* rima con el verso 3, pero el verso 5 tiene que rimar con los versos 1 y 2." }
+      ],
+      "hints": [
+        "El verso 5 rima con los versos 1 y 2.",
+        "Busca una palabra que rime con *will* y signifique «todavía»."
+      ],
+      "solution": "El verso 5 debe rimar con *Seville* y *will* (rima A). **Still** (todavía) rima y además cierra el limerick con el giro: domina la gramática, pero el humor todavía se le resiste."
+    },
+    {
+      "id": "humor-didnt-get-it",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Un compañero te cuenta un chiste y no lo entiendes. Traduce al inglés de forma natural:\n\n*Perdona, no lo entendí.*",
+      "answers": [
+        "Sorry, I didn't get it",
+        "Sorry, I don't get it",
+        "Sorry I didn't get it",
+        "Sorry I don't get it",
+        "Sorry, I didn't get that",
+        "Sorry, I don't get that",
+        "Sorry, I didn't get the joke",
+        "Sorry, I don't get the joke",
+        "Sorry, it went over my head",
+        "Sorry, that went over my head",
+        "Sorry, I think it went over my head",
+        "Sorry, I think that went over my head",
+        "Sorry, I haven't got it",
+        "Sorry, I didn't catch it"
+      ],
+      "feedback": [
+        { "match": "Sorry, I didn't catch the joke", "message": "Casi: *catch* sugiere que no lo oíste bien. Para «no entender un chiste», lo natural es *get*: *I didn't get it*." },
+        { "match": "Sorry, I didn't understand the joke", "message": "Es correcto, pero menos natural. En conversación se usa más *get*: *I didn't get it*." }
+      ],
+      "hints": [
+        "En inglés coloquial, «entender» un chiste es *get* a joke.",
+        "También existe una expresión con *over my head*."
+      ],
+      "solution": "Lo más natural es **Sorry, I didn't get it** (o *I don't get it*). Otra opción muy idiomática: *Sorry, that went over my head*. Admitirlo es mucho mejor que reírse sin entender."
+    },
+    {
+      "id": "humor-wilde-paradox",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "*I can resist everything except temptation.* (Oscar Wilde) ¿Por qué es graciosa la frase?",
+      "options": [
+        { "id": "a", "label": "Es una paradoja: resistirlo todo «salvo la tentación» equivale a no resistir nada, porque solo se resiste a las tentaciones.", "correct": true, "feedback": "¡Muy bien! La frase parece una afirmación de fuerza de voluntad y resulta ser una confesión de debilidad total." },
+        { "id": "b", "label": "Es un juego de palabras con dos homófonos.", "correct": false, "feedback": "Todavía no: no hay palabras que suenen igual; el humor está en la lógica de la frase." },
+        { "id": "c", "label": "Es sarcasmo dirigido a otra persona.", "correct": false, "feedback": "Casi: es irónica, pero el personaje habla de sí mismo; no ataca a nadie." },
+        { "id": "d", "label": "Es humor físico.", "correct": false, "feedback": "Todavía no: el *slapstick* es humor de golpes y caídas; esto es puro ingenio verbal." }
+      ],
+      "hints": [
+        "¿A qué se resiste uno, normalmente?",
+        "La frase parece decir una cosa y dice la contraria."
+      ],
+      "solution": "Uno solo «resiste» las tentaciones; resistirlo todo excepto la tentación es no resistir nada. Es una **paradoja**: una frase que parece contradictoria y esconde una verdad (aquí, una confesión irónica). Es la marca del ingenio de Wilde."
+    },
+    {
+      "id": "humor-zeugma",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "*He caught the last train and a terrible cold.* ¿Qué produce el efecto cómico?",
+      "options": [
+        { "id": "a", "label": "El verbo *caught* se aplica a la vez a dos complementos con sentidos distintos: «alcanzar» un tren y «contraer» un resfriado.", "correct": true, "feedback": "¡Exacto! Es un zeugma: un solo verbo, dos significados, uno concreto y otro abstracto." },
+        { "id": "b", "label": "*Train* y *cold* son homófonos.", "correct": false, "feedback": "Todavía no: no suenan nada parecido." },
+        { "id": "c", "label": "La frase usa *understatement*.", "correct": false, "feedback": "Casi: el tono es contenido, pero el mecanismo central es el doble sentido del verbo." },
+        { "id": "d", "label": "Es una frase hecha tomada al pie de la letra.", "correct": false, "feedback": "Casi: *catch a cold* es una colocación, pero el humor nace de compartir el verbo con *the last train*." }
+      ],
+      "hints": [
+        "Fíjate en el verbo y en sus dos complementos.",
+        "¿Significa *catch* lo mismo con *train* y con *cold*?"
+      ],
+      "solution": "Con *the last train*, *catch* significa «alcanzar»; con *a terrible cold*, «contraer». Al compartir un solo verbo, los dos sentidos chocan: es un **zeugma**, un recurso clásico del humor escrito en inglés."
+    }
+  ]
+}

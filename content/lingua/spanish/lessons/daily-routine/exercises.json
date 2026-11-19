@@ -1,0 +1,217 @@
+{
+  "lesson": "daily-routine",
+  "exercises": [
+    {
+      "id": "hablamos",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Conjugate **hablar** for *nosotros*: *En casa ___ inglés y español.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Remove -ar to find the stem: *habl-*.",
+        "The *nosotros* ending for -ar verbs is *-amos*."
+      ],
+      "answers": ["hablamos"],
+      "solution": "**hablamos**: *En casa hablamos inglés y español* (At home we speak English and Spanish). Stem *habl-* + *-amos*."
+    },
+    {
+      "id": "comen",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Conjugate **comer** for *ellos*: *Mis abuelos ___ a las dos.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Mis abuelos* = they.",
+        "The *ellos* ending for -er verbs is *-en*."
+      ],
+      "answers": ["comen"],
+      "feedback": [
+        { "match": "coman", "message": "Almost — *-an* is the ending for -ar verbs. *Comer* is an -er verb: *comen*." }
+      ],
+      "solution": "**comen**: *Mis abuelos comen a las dos.* Stem *com-* + *-en*. Remember: -ar verbs use *a* in their endings (*hablan*), -er and -ir verbs use *e* (*comen, viven*)."
+    },
+    {
+      "id": "vivo",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **I live in Lima.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "The verb is *vivir*.",
+        "Every regular verb ends in *-o* in the *yo* form."
+      ],
+      "answers": ["Vivo en Lima", "Yo vivo en Lima"],
+      "feedback": [
+        { "match": "Estoy en Lima", "message": "That means \"I'm in Lima\" (right now). To say where you live, use *vivir*: *Vivo en Lima*." }
+      ],
+      "solution": "**Vivo en Lima** (or *Yo vivo en Lima*). *Viv-* + *-o*. \"In\" a city is *en*."
+    },
+    {
+      "id": "viven-ustedes",
+      "type": "choice",
+      "prompt": "*¿Dónde ___ ustedes?* (Where do you all live?)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Ustedes* takes the same verb form as *ellos*.",
+        "*Vivir* is an -ir verb."
+      ],
+      "options": [
+        { "id": "a", "label": "viven", "correct": true, "feedback": "Yes: *ustedes* takes the third-person plural, *viven*." },
+        { "id": "b", "label": "vivís", "correct": false, "feedback": "Not yet — *vivís* goes with *vosotros* (or *vos*). *Ustedes* takes *viven*." },
+        { "id": "c", "label": "vivimos", "correct": false, "feedback": "Not yet — *vivimos* is \"we live\"." },
+        { "id": "d", "label": "vivan", "correct": false, "feedback": "Not yet — in the present, -ir verbs use *e* endings: *viven*." }
+      ],
+      "solution": "**viven**: *¿Dónde viven ustedes?* *Ustedes*, like *usted*, takes third-person verb forms, so it matches *ellos*: *viven*. A speaker from Spain talking to friends would say *¿Dónde vivís?*"
+    },
+    {
+      "id": "get-up-at-seven",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **I get up at seven.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The verb is reflexive: *levantarse*.",
+        "Put *me* before the verb, and use *a las* for the time."
+      ],
+      "answers": ["Me levanto a las siete", "Yo me levanto a las siete", "Me levanto a las 7", "Yo me levanto a las 7"],
+      "feedback": [
+        { "match": "Levanto a las siete", "message": "Almost — without *me* it means \"I lift (something)\". Add the reflexive pronoun: *Me levanto a las siete*." },
+        { "match": "Me levanto a siete", "message": "Almost — times take the article: *a las siete*." }
+      ],
+      "solution": "**Me levanto a las siete.** *Levantarse* is reflexive, so the *yo* form needs *me* before the verb. \"At seven\" is *a las siete*, as you learned in lesson 3."
+    },
+    {
+      "id": "se-acuestan",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Conjugate **acostarse** (o → ue): *Mis hijos ___ a las nueve.* Type the pronoun and the verb.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Mis hijos* = they, so the pronoun is *se*.",
+        "The stem is stressed in the *ellos* form, so *o* becomes *ue*."
+      ],
+      "answers": ["se acuestan"],
+      "feedback": [
+        { "match": "acuestan", "message": "Almost — don't forget the reflexive pronoun: *se acuestan*." },
+        { "match": "se acostan", "message": "Almost — the stem is stressed here, so *o* changes to *ue*: *se acuestan*." },
+        { "match": "se acuestam", "message": "Almost — the ending is *-an*: *se acuestan*." }
+      ],
+      "solution": "**se acuestan**: *Mis hijos se acuestan a las nueve.* Two things at once: the reflexive pronoun *se* for *ellos*, and the stem change *o → ue* (*acost-* → *acuest-*), because the stem is stressed in this form."
+    },
+    {
+      "id": "quieres",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Conjugate **querer** for *tú*: *¿___ un café?* (Do you want a coffee?)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Querer* is an e → ie verb.",
+        "Stem *quier-* + the *tú* ending for -er verbs."
+      ],
+      "answers": ["quieres", "querés"],
+      "feedback": [
+        { "match": "queres", "message": "Almost — the stem is stressed in the *tú* form, so *e* becomes *ie*: *quieres*." },
+        { "match": "quiere", "message": "Almost — *quiere* is for él, ella or usted. For *tú*, add -s: *quieres*." }
+      ],
+      "solution": "**quieres**: *¿Quieres un café?* The stressed *e* of *querer* becomes *ie*: *quiero, quieres, quiere, queremos, queréis, quieren*. (With *vos*, the form is *querés*, without the change, since the stress falls on the ending.)"
+    },
+    {
+      "id": "podemos",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Conjugate **poder** for *nosotros*: *Hoy no ___ cenar juntos.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Poder* is an o → ue verb, but not in every form.",
+        "In *nosotros* and *vosotros*, the stress moves to the ending."
+      ],
+      "answers": ["podemos"],
+      "feedback": [
+        { "match": "puedemos", "message": "Almost — *nosotros* is outside the \"boot\": the stem isn't stressed, so there's no change: *podemos*." },
+        { "match": "pueden", "message": "Almost — *pueden* is \"they can\". For *nosotros*: *podemos*." }
+      ],
+      "solution": "**podemos**: *Hoy no podemos cenar juntos* (We can't have dinner together today). In *po-DE-mos* the stress is on the ending, so the stem keeps its *o*. Compare *puedo, puedes, puede, pueden*."
+    },
+    {
+      "id": "duerme",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Conjugate **dormir** for *él*: *Mi abuelo ___ ocho horas.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Dormir* is an o → ue verb.",
+        "The *él* ending for -ir verbs is *-e*."
+      ],
+      "answers": ["duerme"],
+      "feedback": [
+        { "match": "dorme", "message": "Almost — the stem is stressed, so *o* becomes *ue*: *duerme*." },
+        { "match": "duermes", "message": "Almost — *duermes* is for *tú*. For *mi abuelo* (he): *duerme*." }
+      ],
+      "solution": "**duerme**: *Mi abuelo duerme ocho horas.* *Dorm-* becomes *duerm-* when stressed, then the regular -ir ending *-e*."
+    },
+    {
+      "id": "empieza",
+      "type": "choice",
+      "prompt": "*La clase ___ a las nueve.* (The class starts at nine.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Empezar* is an e → ie verb.",
+        "*La clase* is singular (it), and *empezar* is an -ar verb."
+      ],
+      "options": [
+        { "id": "a", "label": "empieza", "correct": true, "feedback": "Yes: stressed stem *empiez-* + the -ar ending *-a*." },
+        { "id": "b", "label": "empeza", "correct": false, "feedback": "Not yet — the stem is stressed here, so the *e* becomes *ie*: *empieza*." },
+        { "id": "c", "label": "empiezan", "correct": false, "feedback": "Not yet — *empiezan* is plural. *La clase* is one class: *empieza*." },
+        { "id": "d", "label": "empiece", "correct": false, "feedback": "Not yet — -ar verbs use *a* in their present endings: *empieza*." }
+      ],
+      "solution": "**empieza**: *La clase empieza a las nueve.* *Empezar* changes *e → ie* in the stressed stem: *empiezo, empiezas, empieza, empezamos, empezáis, empiezan*."
+    },
+    {
+      "id": "never-meat",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Which sentences correctly say **I never eat meat**? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Nunca* can go before the verb, alone.",
+        "If *nunca* comes after the verb, *no* must go before the verb."
+      ],
+      "options": [
+        { "id": "a", "label": "Nunca como carne.", "correct": true, "feedback": "Yes: *nunca* before the verb, on its own." },
+        { "id": "b", "label": "No como carne nunca.", "correct": true, "feedback": "Yes: *nunca* after the verb, with *no* before it. This double negative is correct Spanish." },
+        { "id": "c", "label": "Como carne nunca.", "correct": false, "feedback": "Not yet — when *nunca* follows the verb, you need *no* before the verb." },
+        { "id": "d", "label": "Nunca no como carne.", "correct": false, "feedback": "Not yet — when *nunca* comes first, it replaces *no*; don't use both before the verb." }
+      ],
+      "solution": "**Nunca como carne** and **No como carne nunca** are both correct. The rule: Spanish needs a negative word before the verb. If *nunca* is there, that's enough; if *nunca* comes after the verb, *no* must go before it."
+    },
+    {
+      "id": "always-dinner-nine",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **We always have dinner at nine.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "\"To have dinner\" is a single verb in Spanish: *cenar*.",
+        "*Siempre* usually goes before the verb; conjugate *cenar* for *nosotros*."
+      ],
+      "answers": ["Siempre cenamos a las nueve", "Nosotros siempre cenamos a las nueve", "Nosotras siempre cenamos a las nueve", "Cenamos siempre a las nueve", "Siempre cenamos a las 9", "Cenamos a las nueve siempre"],
+      "feedback": [
+        { "match": "Siempre tenemos cena a las nueve", "message": "Understandable, but Spanish uses one verb for \"have dinner\": *Siempre cenamos a las nueve*." },
+        { "match": "Siempre cenamos a nueve", "message": "Almost — times take the article: *a las nueve*." }
+      ],
+      "solution": "**Siempre cenamos a las nueve.** *Cenar* (to have dinner) is a regular -ar verb: *cen-* + *-amos*. *Siempre* most naturally goes before the verb, though *Cenamos siempre a las nueve* is also fine. Similarly, *desayunar* = to have breakfast and *almorzar* or *comer* = to have lunch."
+    }
+  ]
+}

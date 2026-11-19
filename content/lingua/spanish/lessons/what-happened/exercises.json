@@ -1,0 +1,221 @@
+{
+  "lesson": "what-happened",
+  "exercises": [
+    {
+      "id": "hable",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **hablar** in the preterite: *Ayer ___ (yo) con mi madre por teléfono.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Stem *habl-* + the *yo* ending for -ar verbs.",
+        "The ending is a stressed *e* with a written accent."
+      ],
+      "answers": ["hablé"],
+      "feedback": [
+        { "match": "hablo", "message": "Almost — *hablo* is the present (I speak). With *ayer*, use the preterite: *hablé*." },
+        { "match": "habló", "message": "Almost — *habló* is \"he/she spoke\". For *yo*: *hablé*." }
+      ],
+      "solution": "**hablé**: *Ayer hablé con mi madre por teléfono.* The *yo* preterite ending for -ar verbs is a stressed *-é*, with a written accent."
+    },
+    {
+      "id": "comieron",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **comer** in the preterite: *El domingo mis primos ___ en un restaurante.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Mis primos* = they.",
+        "-er and -ir verbs share the ending *-ieron* for *ellos*."
+      ],
+      "answers": ["comieron"],
+      "feedback": [
+        { "match": "comen", "message": "Almost — *comen* is the present. For a finished action on Sunday, use the preterite: *comieron*." },
+        { "match": "comaron", "message": "Almost — *-aron* is for -ar verbs. *Comer* takes *-ieron*: *comieron*." }
+      ],
+      "solution": "**comieron**: *El domingo mis primos comieron en un restaurante.* -er and -ir verbs share the preterite endings *-í, -iste, -ió, -imos, -isteis, -ieron*."
+    },
+    {
+      "id": "escribiste",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **escribir** in the preterite, *tú* form: *¿___ a tus abuelos?* (Did you write to your grandparents?)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Stem *escrib-*.",
+        "The *tú* ending for -er and -ir verbs is *-iste*."
+      ],
+      "answers": ["escribiste"],
+      "feedback": [
+        { "match": "escribistes", "message": "Almost — the standard *tú* preterite has no final -s: *escribiste*. (*-istes* is heard colloquially but is not standard.)" },
+        { "match": "escribes", "message": "Almost — that's the present. In the preterite: *escribiste*." }
+      ],
+      "solution": "**escribiste**: *¿Escribiste a tus abuelos?* Stem *escrib-* + *-iste*. Note that the *tú* preterite is the only *tú* form in Spanish that doesn't end in -s; adding one (*escribistes*) is a common colloquial slip."
+    },
+    {
+      "id": "hablo-hablo",
+      "type": "choice",
+      "prompt": "What does **habló** mean?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Look at the accent: the stress falls on the last syllable.",
+        "In the preterite, the *él/ella/usted* form of -ar verbs ends in a stressed *-ó*."
+      ],
+      "options": [
+        { "id": "a", "label": "he/she spoke, or you (usted) spoke", "correct": true, "feedback": "Yes: *habl-* + stressed *-ó* is the third-person singular preterite." },
+        { "id": "b", "label": "I speak", "correct": false, "feedback": "Not yet — \"I speak\" is *hablo*, without an accent, stressed on *HA-*." },
+        { "id": "c", "label": "I spoke", "correct": false, "feedback": "Not yet — \"I spoke\" is *hablé*." },
+        { "id": "d", "label": "we spoke", "correct": false, "feedback": "Not yet — \"we spoke\" is *hablamos*." }
+      ],
+      "solution": "**He/she spoke, or you (usted) spoke.** *Habló* (ha-BLÓ) is the preterite; *hablo* (HA-blo) is the present, \"I speak\". The written accent shows the difference in stress, and so in meaning."
+    },
+    {
+      "id": "llegue",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **llegar** in the preterite: *Anoche ___ (yo) a casa a las once.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The ending is *-é*. What happens to *g* before *e*?",
+        "To keep the hard *g* sound, add a silent *u*."
+      ],
+      "answers": ["llegué"],
+      "feedback": [
+        { "match": "llegé", "message": "Almost — *ge* would sound like *je*. To keep the hard *g*, add a silent *u*: *llegué*." },
+        { "match": "llego", "message": "Almost — *llego* is the present. In the preterite: *llegué*." }
+      ],
+      "solution": "**llegué**: *Anoche llegué a casa a las once.* Verbs in *-gar* change *g* to *gu* before the *-é* of the *yo* form, so the *g* stays hard: *llegar → llegué*, *pagar → pagué*, *jugar → jugué*."
+    },
+    {
+      "id": "busque",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **buscar** in the preterite: *___ (yo) las llaves por toda la casa.* (I looked for the keys all over the house.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The *yo* ending is *-é*, and *c* before *e* would sound like *s* or *th*.",
+        "To keep the *k* sound before *e*, Spanish writes *qu*."
+      ],
+      "answers": ["Busqué"],
+      "feedback": [
+        { "match": "buscé", "message": "Almost — *cé* would sound like \"seh\" or \"theh\". To keep the *k* sound, write *qu*: *busqué*." }
+      ],
+      "solution": "**Busqué** las llaves por toda la casa. Verbs in *-car* change *c* to *qu* in the *yo* preterite: *buscar → busqué*, *tocar → toqué*, *practicar → practiqué*. Only the *yo* form changes: *buscaste, buscó…*"
+    },
+    {
+      "id": "empece",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **empezar** in the preterite: *El lunes ___ (yo) un trabajo nuevo.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Empezar* is an -ar stem-changer, and -ar stem-changers don't change in the preterite.",
+        "Spanish doesn't write *z* before *e*: it becomes *c*."
+      ],
+      "answers": ["empecé"],
+      "feedback": [
+        { "match": "empezé", "message": "Almost — Spanish writes *c*, not *z*, before *e*: *empecé*." },
+        { "match": "empiecé", "message": "Almost — -ar stem-changers have no *ie* in the preterite: *empecé*." },
+        { "match": "empiezé", "message": "Almost — no *ie* in the preterite, and *z* becomes *c* before *e*: *empecé*." }
+      ],
+      "solution": "**empecé**: *El lunes empecé un trabajo nuevo.* Two rules meet here: -ar stem-changing verbs are regular in the preterite (no *ie*), and *z* becomes *c* before *e*, so *empez- + -é → empecé*. The sound doesn't change."
+    },
+    {
+      "id": "leyo",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **leer** in the preterite: *Mi hermana ___ tres libros en las vacaciones.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "The ending for *ella* would be *-ió*, but the stem *le-* ends in a vowel.",
+        "Between vowels, the *i* of the ending becomes *y*."
+      ],
+      "answers": ["leyó"],
+      "feedback": [
+        { "match": "leió", "message": "Almost — between two vowels, the *i* becomes *y*: *leyó*." },
+        { "match": "lió", "message": "Almost — keep the whole stem *le-* and change *i* to *y*: *leyó*." }
+      ],
+      "solution": "**leyó**: *Mi hermana leyó tres libros en las vacaciones.* When an -er or -ir stem ends in a vowel, the endings *-ió* and *-ieron* change *i* to *y*: *leyó, leyeron*; *creyó*; *oyó*."
+    },
+    {
+      "id": "watched-a-film",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **Last night I watched a film.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "\"Last night\" is one word in Spanish.",
+        "\"To watch\" here is *ver*, and its *yo* preterite has one syllable and no accent."
+      ],
+      "answers": ["Anoche vi una película", "Anoche yo vi una película", "Vi una película anoche", "Anoche miré una película", "Miré una película anoche"],
+      "feedback": [
+        { "match": "Anoche ví una película", "message": "Almost — one-syllable forms take no accent: *vi*." },
+        { "match": "Ayer noche vi una película", "message": "Understandable, but \"last night\" is one word: *anoche*." }
+      ],
+      "solution": "**Anoche vi una película.** *Anoche* = last night. *Ver* in the preterite is *vi, viste, vio, vimos, visteis, vieron*, with no accents because the forms have one syllable. (*Miré una película* is also used, especially in Latin America.)"
+    },
+    {
+      "id": "personal-a",
+      "type": "choice",
+      "prompt": "*El domingo visité ___ mis abuelos.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The direct object is a specific group of people.",
+        "Spanish marks specific people as direct objects with a small word that English doesn't translate."
+      ],
+      "options": [
+        { "id": "a", "label": "a", "correct": true, "feedback": "Yes: the personal *a* goes before a specific person who is the direct object." },
+        { "id": "b", "label": "(nothing)", "correct": false, "feedback": "Not yet — that works for places and things (*visité el museo*), but before people Spanish adds *a*." },
+        { "id": "c", "label": "al", "correct": false, "feedback": "Not yet — *al* = *a* + *el*. Here the next word is *mis*, not *el*, so just *a*." },
+        { "id": "d", "label": "de", "correct": false, "feedback": "Not yet — *de* means \"of\" or \"from\". The personal marker is *a*." }
+      ],
+      "solution": "**a**: *El domingo visité a mis abuelos.* This is the personal *a*: when a specific person is the direct object, Spanish puts *a* in front. Compare *Visité el museo* (a thing: no *a*)."
+    },
+    {
+      "id": "three-days-ago",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **three days ago**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Spanish puts the \"ago\" word first.",
+        "*hace* + the period of time."
+      ],
+      "answers": ["hace tres días"],
+      "feedback": [
+        { "match": "tres días hace", "message": "Almost — *hace* comes first: *hace tres días*." },
+        { "match": "tres días atrás", "message": "That's used too, especially in Latin America, but the most common form is *hace tres días*." }
+      ],
+      "solution": "**hace tres días.** *Hace* + period of time = \"… ago\": *hace un año, hace dos semanas, hace mucho tiempo*. For example: *Llegué a Lima hace tres días.*"
+    },
+    {
+      "id": "durmio",
+      "type": "choice",
+      "prompt": "*Anoche mi hermano ___ diez horas.* (Last night my brother slept for ten hours.)",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Dormir* is an -ir stem-changing verb.",
+        "In the preterite, -ir stem-changers change only in the *él* and *ellos* forms, and *o* becomes *u*."
+      ],
+      "options": [
+        { "id": "a", "label": "durmió", "correct": true, "feedback": "Yes: -ir stem-changers change *o → u* in the third-person preterite." },
+        { "id": "b", "label": "dormió", "correct": false, "feedback": "Not yet — -ir stem-changers do change in the *él* form of the preterite: *o → u*, *durmió*." },
+        { "id": "c", "label": "duermió", "correct": false, "feedback": "Not yet — *ue* belongs to the present. In the preterite the change is *o → u*: *durmió*." },
+        { "id": "d", "label": "dormí", "correct": false, "feedback": "Not yet — *dormí* is \"I slept\". For *mi hermano*: *durmió*." }
+      ],
+      "solution": "**durmió**: *Anoche mi hermano durmió diez horas.* -ar and -er stem-changers are regular in the preterite, but -ir stem-changers change in the third person: *dormir → durmió, durmieron*; *pedir → pidió, pidieron*. The *yo* form stays regular: *dormí*."
+    }
+  ]
+}

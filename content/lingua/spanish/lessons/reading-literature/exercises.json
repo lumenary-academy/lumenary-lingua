@@ -1,0 +1,199 @@
+{
+  "lesson": "reading-literature",
+  "exercises": [
+    {
+      "id": "spot-simile",
+      "type": "choice",
+      "prompt": "Which figure of speech is *el río, terco como un viejo*?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "símil", "correct": true, "feedback": "Yes — an explicit comparison with *como*." },
+        { "id": "b", "label": "metáfora", "correct": false, "feedback": "Not yet — a metaphor would identify the river with an old man without *como*: *el río, ese viejo terco*." },
+        { "id": "c", "label": "hipérbole", "correct": false, "feedback": "Not yet — nothing is exaggerated; two things are compared." },
+        { "id": "d", "label": "anáfora", "correct": false, "feedback": "Not yet — anaphora is the repetition of a word at the start of several units." }
+      ],
+      "hints": [
+        "Look at the little word that links *terco* and *un viejo*.",
+        "A comparison with *como* or *cual* has its own name."
+      ],
+      "solution": "**Símil** (or *comparación*): the river is compared to an old man by means of *como*. A metaphor drops the comparative word and simply identifies one thing with the other: *la luna era una moneda*."
+    },
+    {
+      "id": "spot-personification",
+      "type": "choice",
+      "prompt": "*La ciudad dormía con un ojo abierto.* Which figure is this mainly?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "personificación", "correct": true, "feedback": "Yes — the city sleeps and has an eye: human traits given to a place." },
+        { "id": "b", "label": "epíteto", "correct": false, "feedback": "Not yet — an epithet is an adjective stating an obvious quality, like *la blanca nieve*." },
+        { "id": "c", "label": "antítesis", "correct": false, "feedback": "Not yet — there's a hint of contrast (asleep, eye open), but the main figure gives the city a body and a behaviour." },
+        { "id": "d", "label": "paradoja", "correct": false, "feedback": "Not yet — sleeping with one eye open is an everyday idiom, not a contradiction that hides a truth." }
+      ],
+      "hints": [
+        "Can a city sleep, or have eyes?",
+        "The figure gives human qualities to something that isn't human."
+      ],
+      "solution": "**Personificación** (*prosopopeya*): the city sleeps and keeps one eye open. The phrase also plays on the idiom *dormir con un ojo abierto* — to sleep lightly, on guard."
+    },
+    {
+      "id": "restore-order",
+      "type": "text",
+      "prompt": "Undo the *hipérbaton*. Rewrite Bécquer's line in everyday word order, starting with **a colgar**:\n\n*en tu balcón sus nidos a colgar*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["a colgar sus nidos en tu balcón", "a colgar en tu balcón sus nidos"],
+      "hints": [
+        "In neutral order the infinitive comes first, then its direct object, then the place.",
+        "*a colgar* + what? + where?"
+      ],
+      "solution": "**a colgar sus nidos en tu balcón.** With the first line, the whole sentence reads *Las oscuras golondrinas volverán a colgar sus nidos en tu balcón*. Restoring the order reveals the periphrasis *volver a* + infinitive: the swallows will hang their nests *again*."
+    },
+    {
+      "id": "count-marti",
+      "type": "choice",
+      "prompt": "How many metrical syllables does Martí's line have?\n\n*Yo soy un hombre sincero*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "8 — an octosyllable", "correct": true, "feedback": "Yes — *yo-soy-un-hom-bre-sin-ce-ro*: eight, and *sincero* is *llana*, so the count stands." },
+        { "id": "b", "label": "7", "correct": false, "feedback": "Not yet — count again aloud: *yo-soy-un-hom-bre-sin-ce-ro*. No vowels merge here, and the ending needs no adjustment." },
+        { "id": "c", "label": "9", "correct": false, "feedback": "Not yet — you would add one only if the last word were *aguda*. *Sincero* is stressed on the penultimate syllable." },
+        { "id": "d", "label": "11", "correct": false, "feedback": "Not yet — that is the hendecasyllable of the sonnet; Martí's *Versos sencillos* use a shorter, popular line." }
+      ],
+      "hints": [
+        "Split it into spoken syllables: *yo-soy-…*",
+        "Then look at the stress of *sincero*: last, penultimate or antepenultimate syllable?"
+      ],
+      "solution": "**8.** *Yo-soy-un-hom-bre-sin-ce-ro* gives eight spoken syllables. *Sincero* is *llana*, so no adjustment is made. Octosyllables are the metre of Spanish popular song and ballads — which is why Martí's \"simple verses\" sound like songs."
+    },
+    {
+      "id": "aguda-count",
+      "type": "text",
+      "prompt": "Darío's line *¡ya te vas para no volver!* has eight spoken syllables. How many syllables does it count **in metre**? Write the number.",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["9", "nueve"],
+      "feedback": [
+        { "match": "8", "message": "Not yet — look at the last word: *volver* is stressed on its final syllable. What does the rule say about *agudo* endings?" },
+        { "match": "7", "message": "Not yet — you subtract one only for an *esdrújula* ending. *Volver* is *aguda*." }
+      ],
+      "hints": [
+        "Where is the stress in *volver*?",
+        "A line ending in an *aguda* word counts one syllable more."
+      ],
+      "solution": "**9.** *Ya-te-vas-pa-ra-no-vol-ver* = 8 spoken syllables. *Volver* is *aguda*, so we add one: 9. That makes it the same length as the line before it, *Ju-ven-tud-di-vi-no-te-so-ro* (9, *llana*). Both are *eneasílabos*."
+    },
+    {
+      "id": "count-alejandrino",
+      "type": "choice",
+      "prompt": "How many metrical syllables does the first half of Darío's line have?\n\n*La princesa está triste…*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "7", "correct": true, "feedback": "Yes — *la-prin-ce-sa es-tá-tris-te*, with sinalefa in *sa es*; *triste* is *llana*." },
+        { "id": "b", "label": "8", "correct": false, "feedback": "Not yet — you counted *sa* and *es* separately. When a word ends in a vowel and the next begins with one, they usually merge (sinalefa)." },
+        { "id": "c", "label": "6", "correct": false, "feedback": "Not yet — *triste* is *llana*, so nothing is subtracted." }
+      ],
+      "hints": [
+        "*princesa* ends in a vowel and *está* begins with one.",
+        "Merge them into one syllable, then check the stress of *triste*."
+      ],
+      "solution": "**7.** *La-prin-ce-sa es-tá-tris-te*: the sinalefa joins *-sa* and *es-* into one syllable. The second half, *qué-ten-drá-la-prin-ce-sa*, also has 7, so the whole line is an *alejandrino* of 14 (7 + 7)."
+    },
+    {
+      "id": "rhyme-type",
+      "type": "choice",
+      "prompt": "What kind of rhyme do *casa* and *alma* make?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "rima asonante", "correct": true, "feedback": "Yes — the vowels match from the stressed vowel (á-a) but the consonants don't (s / lm)." },
+        { "id": "b", "label": "rima consonante", "correct": false, "feedback": "Not yet — full rhyme needs every sound to match from the stressed vowel, as in *palma / alma*." },
+        { "id": "c", "label": "no rhyme at all", "correct": false, "feedback": "Not yet — to a Spanish ear they rhyme: assonance is a real and very common rhyme in Spanish." }
+      ],
+      "hints": [
+        "Compare everything from the stressed vowel onwards: *-asa* and *-alma*.",
+        "The vowels are the same; the consonants are not."
+      ],
+      "solution": "**Rima asonante.** From the last stressed vowel, *casa* gives á-a and *alma* gives á-a: the vowels match, the consonants don't. Spanish ballads (*romances*) rhyme like this on every even line."
+    },
+    {
+      "id": "probability-future",
+      "type": "choice",
+      "prompt": "What does *¿qué tendrá la princesa?* mean in Darío's line?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "What can be the matter with the princess?", "correct": true, "feedback": "Yes — the future of probability expresses a guess about the present." },
+        { "id": "b", "label": "What will the princess have (in the future)?", "correct": false, "feedback": "Not yet — the future here is not about time. It's a guess about her present state." },
+        { "id": "c", "label": "What does the princess own?", "correct": false, "feedback": "Not yet — *tener* here is about what is wrong with her (*¿qué tienes?* = what's wrong?), and the future adds conjecture." },
+        { "id": "d", "label": "What would the princess have had?", "correct": false, "feedback": "Not yet — that would need a compound conditional; *tendrá* is a simple future." }
+      ],
+      "hints": [
+        "*¿Qué tienes?* is how Spanish asks 'What's wrong?'",
+        "Spanish uses the future to guess about the present: *Serán las diez* = it's probably ten."
+      ],
+      "solution": "**What can be the matter with the princess?** *¿Qué tiene?* asks what is wrong with someone; putting it in the future (*¿qué tendrá?*) turns it into wondering. The line opens the poem with the speaker's question about her sadness."
+    },
+    {
+      "id": "hendecasyllable-term",
+      "type": "text",
+      "prompt": "Give the Spanish term for a line of verse with **eleven** syllables — the line of the sonnet.",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["endecasílabo", "el endecasílabo", "un endecasílabo", "verso endecasílabo", "un verso endecasílabo", "el verso endecasílabo"],
+      "feedback": [
+        { "match": "hendecasílabo", "message": "Almost — the Spanish spelling has no initial *h*: *endecasílabo*." },
+        { "match": "alejandrino", "message": "Not yet — the *alejandrino* has fourteen syllables. Eleven comes from Greek *hendeka* via Italian." },
+        { "match": "octosílabo", "message": "Not yet — the *octosílabo* has eight." }
+      ],
+      "hints": [
+        "It starts with the Greek number eleven (*hendeka*), spelled without *h* in Spanish.",
+        "endeca- + -sílabo"
+      ],
+      "solution": "**endecasílabo.** It came from Italy in the sixteenth century and became the line of the sonnet and of most serious poetry in Spanish. Bécquer's *Volverán las oscuras golondrinas* is one."
+    },
+    {
+      "id": "ra-pluperfect",
+      "type": "choice",
+      "prompt": "In a literary text you read: *Vendieron la casa que **fuera** de su abuelo.* What does *fuera* mean here?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "had been (= había sido)", "correct": true, "feedback": "Yes — in literary and journalistic prose, the *-ra* form can work as a pluperfect indicative, its original Latin meaning." },
+        { "id": "b", "label": "might be (a hypothesis)", "correct": false, "feedback": "Not yet — there is nothing hypothetical here; the house really belonged to the grandfather." },
+        { "id": "c", "label": "went (from *ir*)", "correct": false, "feedback": "Not yet — *fuera* can come from *ir*, but *la casa que fuera de su abuelo* only makes sense with *ser*." },
+        { "id": "d", "label": "outside", "correct": false, "feedback": "Not yet — *fuera* is also an adverb meaning 'outside', but here it is a verb in a relative clause." }
+      ],
+      "hints": [
+        "There's no *si*, no wish, no doubt: the clause states a fact about the past.",
+        "Try replacing *fuera* with *había sido*."
+      ],
+      "solution": "**had been.** *La casa que fuera de su abuelo* = *la casa que había sido de su abuelo*. The *-ra* form descends from the Latin pluperfect indicative, and literary and journalistic Spanish still uses it that way: *el que fuera presidente* — the former president."
+    },
+    {
+      "id": "dario-figures",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Which **two** figures appear in *Juventud, divino tesoro, / ¡ya te vas para no volver!*? Select both.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "apóstrofe", "correct": true, "feedback": "Yes — the speaker addresses youth directly, as if it could hear (*te vas*)." },
+        { "id": "b", "label": "metáfora", "correct": true, "feedback": "Yes — youth is called a *divino tesoro* without any *como*." },
+        { "id": "c", "label": "símil", "correct": false, "feedback": "Not yet — there is no comparative word like *como*; youth simply *is* a treasure." },
+        { "id": "d", "label": "hipérbaton", "correct": false, "feedback": "Not yet — the word order here is quite natural." }
+      ],
+      "hints": [
+        "Who is the speaker talking to?",
+        "What is youth called, and is there a *como*?"
+      ],
+      "solution": "**Apóstrofe and metáfora.** The speaker turns to youth and speaks to it in the second person (*te vas*) — an apostrophe. Calling it *divino tesoro* identifies it with a treasure — a metaphor. The personification of youth as someone leaving runs underneath both."
+    }
+  ]
+}

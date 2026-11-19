@@ -1,0 +1,367 @@
+{
+  "lesson": "home-town-and-comparisons",
+  "exercises": [
+    {
+      "id": "madrid-sevilla",
+      "type": "choice",
+      "prompt": "How do you say **Madrid is bigger than Seville**?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "The pattern is *más* + adjective + …",
+        "\"Than\" is *que* (not *de*, which is only for numbers)."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Madrid es más grande que Sevilla.",
+          "correct": true,
+          "feedback": "Yes: *más* + adjective + *que*."
+        },
+        {
+          "id": "b",
+          "label": "Madrid es más grande de Sevilla.",
+          "correct": false,
+          "feedback": "Not yet — *de* is used with numbers (*más de cien*) and in superlatives. Comparing two things: *que*."
+        },
+        {
+          "id": "c",
+          "label": "Madrid es más grande como Sevilla.",
+          "correct": false,
+          "feedback": "Not yet — *como* goes with *tan* and *tanto* (equality). With *más*, use *que*."
+        },
+        {
+          "id": "d",
+          "label": "Madrid es mayor que Sevilla.",
+          "correct": false,
+          "feedback": "Not quite — *mayor* is mainly for people's age. For physical size, say *más grande*."
+        }
+      ],
+      "solution": "**Madrid es más grande que Sevilla.** Comparisons of inequality use *más/menos* + adjective + *que*. For physical size, use *más grande*; keep *mayor* for age."
+    },
+    {
+      "id": "as-tall-as",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **My brother is as tall as my father.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Equality with an adjective: *tan* … *como*.",
+        "*alto* agrees with *mi hermano*."
+      ],
+      "answers": [
+        "Mi hermano es tan alto como mi padre",
+        "Mi hermano es tan alto como mi papá",
+        "Mi hermano es igual de alto que mi padre",
+        "Mi hermano es igual de alto que mi papá"
+      ],
+      "feedback": [
+        {
+          "match": "Mi hermano es tanto alto como mi padre",
+          "message": "Almost — before an adjective, use *tan*: *tan alto como*."
+        },
+        {
+          "match": "Mi hermano es tan alto que mi padre",
+          "message": "Almost — *tan* pairs with *como*: *tan alto como*."
+        },
+        {
+          "match": "Mi hermano es tan alto como mi padres",
+          "message": "Almost — one father: *mi padre*."
+        }
+      ],
+      "solution": "**Mi hermano es tan alto como mi padre** (*papá* is fine too). Equality with adjectives and adverbs: *tan* + adjective + *como*."
+    },
+    {
+      "id": "tantos-libros",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete: *No tengo ___ libros como tú.* (as many)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Before a noun, use *tanto*, and make it agree.",
+        "*Libros* is masculine plural."
+      ],
+      "answers": [
+        "tantos"
+      ],
+      "feedback": [
+        {
+          "match": "tan",
+          "message": "Almost — *tan* goes with adjectives. Before a noun, use *tanto*, agreeing with it: *tantos libros*."
+        },
+        {
+          "match": "tanto",
+          "message": "Almost — *tanto* agrees with the noun: *libros* is masculine plural, so *tantos*."
+        }
+      ],
+      "solution": "**tantos**: *No tengo tantos libros como tú.* Before a noun, *tanto* agrees in gender and number: *tanto dinero, tanta luz, tantos libros, tantas ventanas*."
+    },
+    {
+      "id": "mejor",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete: *Este restaurante es ___ que el de la esquina.* (better)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The comparative of *bueno* is irregular.",
+        "One word, no *más*."
+      ],
+      "answers": [
+        "mejor"
+      ],
+      "feedback": [
+        {
+          "match": "más bueno",
+          "message": "For quality, Spanish uses the irregular form: *mejor*."
+        },
+        {
+          "match": "más mejor",
+          "message": "Almost — *mejor* already means \"better\"; drop *más*."
+        }
+      ],
+      "solution": "**mejor**: *Este restaurante es mejor que el de la esquina.* The irregular comparatives are *mejor* (better), *peor* (worse), *mayor* (older) and *menor* (younger)."
+    },
+    {
+      "id": "mas-de-noventa",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete with one word: *Mi bisabuela tiene más ___ noventa años.* (more than ninety)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "What follows is a number.",
+        "Before numbers, \"more than\" is *más de*."
+      ],
+      "answers": [
+        "de"
+      ],
+      "feedback": [
+        {
+          "match": "que",
+          "message": "Almost — before a number, use *de*: *más de noventa años*."
+        }
+      ],
+      "solution": "**de**: *Mi bisabuela tiene más de noventa años* (My great-grandmother is over ninety). With quantities and numbers, \"more than\" is *más de*, \"less than\" *menos de*."
+    },
+    {
+      "id": "biggest-room",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **It's the biggest room in the house.** (Any of the regional words for \"room\" or \"bedroom\" is fine.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Superlative: *el/la* + noun + *más* + adjective + …",
+        "\"In\" in a superlative is *de*: *de la casa*."
+      ],
+      "answers": [
+        "Es la habitación más grande de la casa",
+        "la habitación más grande de la casa",
+        "Es el cuarto más grande de la casa",
+        "el cuarto más grande de la casa",
+        "Es el dormitorio más grande de la casa",
+        "el dormitorio más grande de la casa",
+        "Es la recámara más grande de la casa",
+        "la recámara más grande de la casa"
+      ],
+      "feedback": [
+        {
+          "match": "Es la habitación más grande en la casa",
+          "message": "Almost — in superlatives, Spanish uses *de*: *de la casa*."
+        },
+        {
+          "match": "Es la más grande habitación de la casa",
+          "message": "Almost — the adjective goes after the noun: *la habitación más grande*."
+        }
+      ],
+      "solution": "**Es la habitación más grande de la casa** (or *el cuarto*, *el dormitorio*, *la recámara*). Superlative: article + noun + *más* + adjective + *de* + group."
+    },
+    {
+      "id": "riquisima",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Use **-ísimo**: *¡La paella está ___!* (rico: very tasty)",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Drop the final vowel, add *-ísima* to agree with *la paella*.",
+        "*c* before *i* would change the sound: write *qu*."
+      ],
+      "answers": [
+        "riquísima"
+      ],
+      "feedback": [
+        {
+          "match": "ricísima",
+          "message": "Almost — *ci* would sound like \"see\" or \"thee\". To keep the *k* sound, write *qu*: *riquísima*."
+        },
+        {
+          "match": "riquísimo",
+          "message": "Almost — it agrees with *la paella*, which is feminine: *riquísima*."
+        }
+      ],
+      "solution": "**riquísima**: *¡La paella está riquísima!* *rico → ric- + -ísima*, and *c* becomes *qu* before *i* to keep the *k* sound (like *busqué*). Feminine, to agree with *la paella*."
+    },
+    {
+      "id": "estoy-cocinando",
+      "type": "text",
+      "lang": "es",
+      "prompt": "A friend calls: *¿Qué estás haciendo?* Answer **I'm cooking.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*estar* (present) + gerund.",
+        "-ar verbs: *-ando*."
+      ],
+      "answers": [
+        "Estoy cocinando",
+        "Yo estoy cocinando",
+        "Cocino",
+        "Estoy haciendo la comida",
+        "Estoy haciendo la cena"
+      ],
+      "feedback": [
+        {
+          "match": "Soy cocinando",
+          "message": "Almost — the progressive uses *estar*: *Estoy cocinando*."
+        },
+        {
+          "match": "Estoy cocino",
+          "message": "Almost — after *estoy*, use the gerund: *cocinando*."
+        }
+      ],
+      "solution": "**Estoy cocinando.** *Estar* + gerund (*cocin-* + *-ando*) for an action in progress right now. (*Cocino* alone is also possible, but the question invites the progressive.)"
+    },
+    {
+      "id": "leyendo",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Write the gerund of **leer**: *Mi padre está ___ el periódico.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The stem *le-* ends in a vowel.",
+        "*-iendo* becomes *-yendo* after a vowel."
+      ],
+      "answers": [
+        "leyendo"
+      ],
+      "feedback": [
+        {
+          "match": "leiendo",
+          "message": "Almost — between vowels, the *i* becomes *y*: *leyendo* (just like *leyó*)."
+        },
+        {
+          "match": "leendo",
+          "message": "Almost — -er verbs take *-iendo*, and after a vowel it becomes *-yendo*: *leyendo*."
+        }
+      ],
+      "solution": "**leyendo**: *Mi padre está leyendo el periódico.* As in the preterite (*leyó*), an unstressed *i* between vowels becomes *y*: *leyendo, oyendo, creyendo*, and *yendo* for *ir*."
+    },
+    {
+      "id": "durmiendo",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Write the gerund of **dormir**: *No hagas ruido: el bebé está ___.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "-ir stem-changers change in the gerund, as in the preterite *durmió*.",
+        "*o → u*, then *-iendo*."
+      ],
+      "answers": [
+        "durmiendo"
+      ],
+      "feedback": [
+        {
+          "match": "dormiendo",
+          "message": "Almost — -ir stem-changers change *o → u* in the gerund: *durmiendo*."
+        },
+        {
+          "match": "duermiendo",
+          "message": "Almost — the gerund uses the one-step change *o → u*: *durmiendo*."
+        }
+      ],
+      "solution": "**durmiendo**: *No hagas ruido: el bebé está durmiendo.* -ir stem-changing verbs change in the gerund just as in the third-person preterite: *durmió → durmiendo*, *pidió → pidiendo*, *dijo/decir → diciendo*."
+    },
+    {
+      "id": "para-ti",
+      "type": "choice",
+      "prompt": "*Este regalo es ___ ti.* (This present is for you.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Who receives the present?",
+        "For the recipient, use the preposition that \"points forward\" to a goal."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "para",
+          "correct": true,
+          "feedback": "Yes: *para* marks the recipient."
+        },
+        {
+          "id": "b",
+          "label": "por",
+          "correct": false,
+          "feedback": "Not yet — *por ti* would mean \"because of you\" or \"on your behalf\". The recipient takes *para*."
+        },
+        {
+          "id": "c",
+          "label": "a",
+          "correct": false,
+          "feedback": "Not quite — with *ser* and a recipient, Spanish says *para ti*."
+        },
+        {
+          "id": "d",
+          "label": "de",
+          "correct": false,
+          "feedback": "Not yet — *de ti* would mean \"from you\" or \"of you\"."
+        }
+      ],
+      "solution": "**para**: *Este regalo es para ti.* *Para* marks the recipient (and purpose, destination, deadline). Note *ti* has no accent, while *mí* does: *para mí*."
+    },
+    {
+      "id": "gracias-por",
+      "type": "choice",
+      "prompt": "*Gracias ___ tu ayuda.* (Thanks for your help.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "What are you giving thanks *for*: a goal, or the reason?",
+        "Gratitude looks back at the cause."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "por",
+          "correct": true,
+          "feedback": "Yes: you thank someone *por* what they did, the cause of your thanks."
+        },
+        {
+          "id": "b",
+          "label": "para",
+          "correct": false,
+          "feedback": "Not yet — *para* points to a goal or recipient. Thanks always take *por*."
+        },
+        {
+          "id": "c",
+          "label": "de",
+          "correct": false,
+          "feedback": "Not yet — the fixed pattern is *gracias por*."
+        },
+        {
+          "id": "d",
+          "label": "a",
+          "correct": false,
+          "feedback": "Not yet — the fixed pattern is *gracias por*."
+        }
+      ],
+      "solution": "**por**: *Gracias por tu ayuda.* *Por* expresses the cause or reason, and gratitude always takes it: *gracias por todo, gracias por venir*."
+    }
+  ]
+}

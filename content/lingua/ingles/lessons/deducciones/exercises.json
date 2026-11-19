@@ -1,0 +1,368 @@
+{
+  "lesson": "deducciones",
+  "exercises": [
+    {
+      "id": "must-en-casa",
+      "type": "choice",
+      "prompt": "*The lights are on and the car is outside. They ___ be at home.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "must",
+          "correct": true,
+          "feedback": "Sí. Las pistas te dan casi total seguridad: *must*."
+        },
+        {
+          "id": "b",
+          "label": "can't",
+          "correct": false,
+          "feedback": "Todavía no. *Can't* diría que es imposible que estén en casa, y las pistas indican lo contrario."
+        },
+        {
+          "id": "c",
+          "label": "mustn't",
+          "correct": false,
+          "feedback": "Todavía no. *Mustn't* es prohibición, no deducción."
+        }
+      ],
+      "hints": [
+        "Las pistas apuntan a que sí están.",
+        "El modal de la deducción segura y afirmativa."
+      ],
+      "solution": "**must**: *They must be at home.*\n\nLas luces encendidas y el coche en la puerta te dan casi total seguridad: *must* + infinitivo. En español: *deben de estar en casa*."
+    },
+    {
+      "id": "no-puede-ser-ana",
+      "type": "choice",
+      "prompt": "*That ___ be Ana at the door. She's in Tokyo this week.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "can't",
+          "correct": true,
+          "feedback": "Sí. Es imposible: *can't* es lo contrario de *must* en las deducciones."
+        },
+        {
+          "id": "b",
+          "label": "mustn't",
+          "correct": false,
+          "feedback": "Todavía no. *Mustn't* es prohibición. Lo contrario de *must* (deducción) es *can't*."
+        },
+        {
+          "id": "c",
+          "label": "might not",
+          "correct": false,
+          "feedback": "Todavía no. *Might not* deja abierta la posibilidad, pero si está en Tokio, es imposible."
+        }
+      ],
+      "hints": [
+        "Si está en Tokio, ¿qué seguridad tienes de que no es ella?",
+        "Lo contrario de *must* en las deducciones no es *mustn't*."
+      ],
+      "solution": "**can't**: *That can't be Ana. She's in Tokyo this week.*\n\nPara decir que algo es imposible, se usa *can't* (o *couldn't*). *Mustn't* nunca expresa deducción, solo prohibición."
+    },
+    {
+      "id": "puede-que-llueva",
+      "type": "text",
+      "prompt": "Traduce al inglés con un modal:\n\n**Puede que llueva más tarde.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "It might rain later",
+        "It may rain later",
+        "It could rain later",
+        "It might rain later on",
+        "It may rain later on",
+        "It could rain later on",
+        "Maybe it will rain later",
+        "Perhaps it will rain later",
+        "It might rain later today",
+        "It may rain later today",
+        "It could rain later today"
+      ],
+      "feedback": [
+        {
+          "match": "It can rain later",
+          "message": "Casi: *can* no sirve para especular sobre un caso concreto. Usa *might*, *may* o *could*."
+        },
+        {
+          "match": "It must rain later",
+          "message": "Todavía no: *must* indica casi total seguridad, y *puede que* es solo una posibilidad."
+        }
+      ],
+      "hints": [
+        "Es una posibilidad, no una certeza.",
+        "*Might*, *may* o *could* + infinitivo."
+      ],
+      "solution": "**It might rain later.** (o *It may rain later*, *It could rain later*).\n\n*Puede que* expresa posibilidad, y en inglés eso es *might, may* o *could* + infinitivo. *Can* no vale para especular sobre una situación concreta."
+    },
+    {
+      "id": "ojos-rojos",
+      "type": "text",
+      "prompt": "Completa con una deducción sobre el pasado, usando *cry*:\n\n*Her eyes were red and she had a tissue in her hand. She ___.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "must have been crying",
+        "must've been crying",
+        "must have cried",
+        "must've cried"
+      ],
+      "feedback": [
+        {
+          "match": "must cry",
+          "message": "Casi: la deducción es sobre algo anterior, así que necesitas *must have* + participio."
+        },
+        {
+          "match": "must be crying",
+          "message": "Casi: la frase está en pasado (*were*, *had*). Necesitas *must have* + participio (o *have been* + *-ing*)."
+        }
+      ],
+      "hints": [
+        "Las pistas son del pasado: *must have*.",
+        "Como la acción estaba en curso, la forma más natural es *must have been* + *-ing*."
+      ],
+      "solution": "**must have been crying** (o *must have cried*).\n\nDeduces algo del pasado con casi total seguridad: *must have* + participio. Como llorar es una acción que duró un tiempo y cuyas huellas se ven, la forma continua *must have been crying* es la más natural."
+    },
+    {
+      "id": "ha-leido-el-correo",
+      "type": "choice",
+      "prompt": "*He ___ the email. He replied to it an hour ago.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "must have read",
+          "correct": true,
+          "feedback": "Sí. Si respondió, es casi seguro que lo leyó."
+        },
+        {
+          "id": "b",
+          "label": "can't have read",
+          "correct": false,
+          "feedback": "Todavía no. La pista (respondió) indica lo contrario."
+        },
+        {
+          "id": "c",
+          "label": "should have read",
+          "correct": false,
+          "feedback": "Todavía no. *Should have* sería un reproche (debería haberlo leído), no una deducción."
+        }
+      ],
+      "hints": [
+        "¿Qué te dice la pista sobre si lo leyó?",
+        "Deducción segura sobre el pasado."
+      ],
+      "solution": "**must have read**: *He must have read the email.*\n\nResponder a un correo implica haberlo leído, así que la deducción es casi segura: *must have* + participio (*read*, que se escribe igual en infinitivo y participio pero se pronuncia /red/)."
+    },
+    {
+      "id": "llaves-oficina",
+      "type": "text",
+      "prompt": "Completa con una posibilidad sobre el pasado, usando *leave*:\n\n*I can't find my keys anywhere. I ___ them at the office.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "might have left",
+        "may have left",
+        "could have left",
+        "might've left",
+        "could've left",
+        "may've left"
+      ],
+      "feedback": [
+        {
+          "match": "must have left",
+          "message": "¡Buena deducción si estás seguro! Pero el contexto habla de no saber dónde están: aquí se busca una posibilidad, no una certeza."
+        },
+        {
+          "match": "might leave",
+          "message": "Casi: es una posibilidad sobre el pasado, así que necesitas *have* + participio."
+        }
+      ],
+      "hints": [
+        "No estás seguro: es solo una posibilidad.",
+        "*Might / may / could have* + participio (*leave, left, left*)."
+      ],
+      "solution": "**might have left** (o *may have left*, *could have left*).\n\nNo sabes dónde están, así que planteas una posibilidad sobre el pasado: *might / may / could have* + participio. Si estuvieras seguro, dirías *I must have left them at the office*."
+    },
+    {
+      "id": "casi-seguro",
+      "type": "choice",
+      "prompt": "¿Qué frases expresan que algo es **casi seguro**? Marca **todas** las correctas.",
+      "difficulty": "core",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "She's bound to know.",
+          "correct": true,
+          "feedback": "Sí. *Be bound to* expresa una seguridad muy alta."
+        },
+        {
+          "id": "b",
+          "label": "She must know.",
+          "correct": true,
+          "feedback": "Sí. *Must* es la deducción segura."
+        },
+        {
+          "id": "c",
+          "label": "She might know.",
+          "correct": false,
+          "feedback": "No: *might* expresa solo posibilidad."
+        },
+        {
+          "id": "d",
+          "label": "She could know.",
+          "correct": false,
+          "feedback": "No: *could* expresa posibilidad, igual que *might*."
+        }
+      ],
+      "hints": [
+        "Dos opciones son posibilidad; dos, certeza.",
+        "*Be bound to* es una expresión de seguridad."
+      ],
+      "solution": "**a** y **b**.\n\n*She must know* y *She's bound to know* expresan casi total seguridad. *She might know* y *She could know* dicen solo que es posible."
+    },
+    {
+      "id": "no-puede-haberlo-hecho",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**No puede haberlo hecho él.** (Estaba conmigo.)",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "He can't have done it",
+        "He cannot have done it",
+        "He couldn't have done it",
+        "He could not have done it",
+        "He can't've done it",
+        "He couldn't've done it"
+      ],
+      "feedback": [
+        {
+          "match": "He mustn't have done it",
+          "message": "Casi: *mustn't* no expresa deducción. Lo contrario de *must have* es *can't have*."
+        },
+        {
+          "match": "He can't do it",
+          "message": "Casi: es una deducción sobre el pasado, así que necesitas *have* + participio: *can't have done*."
+        }
+      ],
+      "hints": [
+        "Es una deducción negativa segura sobre el pasado.",
+        "*Can't have* + participio (*do, did, done*)."
+      ],
+      "solution": "**He can't have done it.** (o *He couldn't have done it*).\n\nPara descartar algo del pasado, *can't* o *couldn't have* + participio. *Mustn't have* no existe con valor de deducción. *Lo* no hace falta traducirlo con otra palabra: va en *it*."
+    },
+    {
+      "id": "seguramente-falso-amigo",
+      "type": "choice",
+      "prompt": "Quieres decir **Seguramente llegará tarde** (= probablemente). ¿Cómo lo dices?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "He'll probably be late.",
+          "correct": true,
+          "feedback": "Sí. *Seguramente* en este sentido es *probably*."
+        },
+        {
+          "id": "b",
+          "label": "Surely he'll be late.",
+          "correct": false,
+          "feedback": "Todavía no. *Surely* expresa sorpresa o que esperas confirmación (¿no llegará tarde, verdad?). Es un falso amigo."
+        },
+        {
+          "id": "c",
+          "label": "He must be late.",
+          "correct": false,
+          "feedback": "Todavía no. *He must be late* habla del presente (ya debe de ir con retraso), no de una predicción."
+        }
+      ],
+      "hints": [
+        "*Surely* es un falso amigo.",
+        "¿Qué adverbio significa «probablemente»?"
+      ],
+      "solution": "**He'll probably be late.**\n\n*Seguramente* significa casi siempre «probablemente», y se traduce por *probably*, que va después de *will*. *Surely* sirve para mostrar sorpresa o pedir confirmación: *Surely he won't be late again?* (¿No llegará tarde otra vez, verdad?)."
+    },
+    {
+      "id": "probablemente-no-vendra",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Probablemente no vendrá.** (hablas de un amigo)",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "He probably won't come",
+        "He probably will not come",
+        "He's probably not coming",
+        "He is probably not coming",
+        "He probably isn't coming",
+        "He probably is not coming",
+        "She probably won't come",
+        "She probably will not come",
+        "She's probably not coming",
+        "She is probably not coming",
+        "She probably isn't coming",
+        "She probably is not coming"
+      ],
+      "feedback": [
+        {
+          "match": "He won't probably come",
+          "message": "Casi: con *won't*, *probably* va delante: *He probably won't come*."
+        },
+        {
+          "match": "She won't probably come",
+          "message": "Casi: con *won't*, *probably* va delante: *She probably won't come*."
+        }
+      ],
+      "hints": [
+        "*No vendrá*: *won't come*.",
+        "En negativa, *probably* va **antes** de *won't*."
+      ],
+      "solution": "**He probably won't come.**\n\n*Probably* va después de *will* en afirmativa (*He'll probably come*), pero antes de *won't* en negativa (*He probably won't come*). También es natural *He's probably not coming*."
+    },
+    {
+      "id": "debe-de-estar-durmiendo",
+      "type": "choice",
+      "prompt": "*Don't call Mo now. It's three in the morning where he lives. He ___.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "must be sleeping",
+          "correct": true,
+          "feedback": "Sí. Deducción segura sobre una acción en curso ahora: *must be* + *-ing*."
+        },
+        {
+          "id": "b",
+          "label": "must sleep",
+          "correct": false,
+          "feedback": "Todavía no. *He must sleep* suena a obligación (tiene que dormir), no a deducción sobre lo que está haciendo."
+        },
+        {
+          "id": "c",
+          "label": "can't be sleeping",
+          "correct": false,
+          "feedback": "Todavía no. A las tres de la mañana, lo lógico es que esté durmiendo."
+        }
+      ],
+      "hints": [
+        "Es una deducción sobre lo que está haciendo **en este momento**.",
+        "Para acciones en curso: modal + *be* + *-ing*."
+      ],
+      "solution": "**must be sleeping**: *He must be sleeping.*\n\nCuando deduces lo que alguien está haciendo ahora mismo, usa el modal + *be* + *-ing*. *He must sleep* se entendería como una obligación o una necesidad general."
+    }
+  ]
+}

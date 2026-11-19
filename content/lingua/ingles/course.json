@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "id": "ingles",
+  "division": "lingua",
+  "title": "Inglés, enseñado en español",
+  "subtitle": "Del primer *hello* a un inglés casi nativo: seis niveles, del A1 al C2, para hispanohablantes.",
+  "description": [
+    "Este curso enseña inglés a quienes ya hablan español, desde el nivel principiante (A1) hasta la maestría (C2), siguiendo los seis niveles del Marco Común Europeo de Referencia para las Lenguas ([MCER](https://www.coe.int/es/web/common-european-framework-reference-languages)). Cada nivel tiene seis lecciones, y cada lección trae vocabulario, uno o dos puntos de gramática explicados en español, un diálogo o un texto original, notas de pronunciación y de cultura, y ejercicios que corrigen tus respuestas al escribirlas.",
+    "El inglés es la lengua más estudiada del mundo y la lengua común de la ciencia, la tecnología y los negocios. Las lecciones enseñan un inglés general y señalan las diferencias entre el inglés británico y el estadounidense. Las palabras y frases con un icono de altavoz pueden leerse en voz alta con la voz de tu propio navegador, cuando tiene una en inglés; no se envía nada a ninguna parte.",
+    "Todas las lecciones se redactaron con ayuda de IA y esperan la revisión de un profesor de inglés. Los diálogos, textos y ejercicios son originales; los fragmentos literarios son de obras de dominio público. Un curso por sí solo no basta para hablar con soltura: escucha y habla con personas reales tan pronto como puedas."
+  ],
+  "locale": "es",
+  "learn": "en",
+  "ui": {
+    "levels": "Niveles",
+    "lesson": "Lección",
+    "lessons": "lecciones",
+    "minutes": "min",
+    "objectives": "En esta lección vas a",
+    "prerequisites": "Se apoya en",
+    "none": "Nada: empieza aquí.",
+    "references": "Para saber más",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "contents": "En esta lección",
+    "aiDrafted": "Redactado con IA",
+    "awaitingReview": "Pendiente de revisión por un profesor de inglés",
+    "backTo": "Volver a"
+  },
+  "levels": [
+    {
+      "id": "a1",
+      "short": "A1",
+      "title": "Principiante",
+      "summary": "Tu primer inglés: sonidos y saludos, decir quién eres, números y horas, la familia, la rutina diaria, la comida y cómo orientarte.",
+      "lessons": [
+        "sonidos-y-saludos",
+        "quien-eres",
+        "numeros-y-horas",
+        "familia-y-descripciones",
+        "rutina-diaria",
+        "comida-y-lugares"
+      ]
+    },
+    {
+      "id": "a2",
+      "short": "A2",
+      "title": "Elemental",
+      "summary": "Hablar del pasado y del futuro, comparar, pedir y dar permiso, y contar experiencias: la vida cotidiana más allá del presente.",
+      "lessons": [
+        "lo-que-paso",
+        "mientras-ocurria",
+        "planes-y-futuro",
+        "comparaciones",
+        "obligaciones-y-consejos",
+        "experiencias"
+      ]
+    },
+    {
+      "id": "b1",
+      "short": "B1",
+      "title": "Intermedio",
+      "summary": "Narrar, imaginar situaciones, usar la voz pasiva, contar lo que otros dijeron, unir ideas con oraciones de relativo y dominar los phrasal verbs más comunes.",
+      "lessons": [
+        "contar-historias",
+        "condicionales",
+        "la-voz-pasiva",
+        "estilo-indirecto",
+        "oraciones-de-relativo",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "id": "b2",
+      "short": "B2",
+      "title": "Intermedio alto",
+      "summary": "Hipótesis sobre el pasado, deseos y arrepentimientos, deducciones, gerundios e infinitivos, conectores y el inglés formal del trabajo.",
+      "lessons": [
+        "condicionales-del-pasado",
+        "deseos-y-arrepentimientos",
+        "deducciones",
+        "gerundios-e-infinitivos",
+        "conectores",
+        "ingles-formal"
+      ]
+    },
+    {
+      "id": "c1",
+      "short": "C1",
+      "title": "Avanzado",
+      "summary": "Énfasis e inversión, colocaciones, el inglés académico, modismos, las variedades del inglés y el lenguaje de los medios.",
+      "lessons": [
+        "enfasis-e-inversion",
+        "colocaciones",
+        "ingles-academico",
+        "modismos",
+        "variedades-del-ingles",
+        "medios-y-retorica"
+      ]
+    },
+    {
+      "id": "c2",
+      "short": "C2",
+      "title": "Maestría",
+      "summary": "Un dominio casi nativo: estilo y registro, falsos amigos y calcos, la literatura clásica en inglés, humor y juegos de palabras, la oratoria y la escritura precisa.",
+      "lessons": [
+        "estilo-y-registro",
+        "falsos-amigos",
+        "literatura-clasica",
+        "humor-y-juegos-de-palabras",
+        "oratoria",
+        "escribir-con-precision"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Cambridge Dictionary (inglés–español)",
+      "author": "Cambridge University Press",
+      "url": "https://dictionary.cambridge.org/dictionary/english-spanish/",
+      "note": "Diccionario bilingüe gratuito con pronunciación británica y estadounidense."
+    },
+    {
+      "title": "BBC Learning English",
+      "url": "https://www.bbc.co.uk/learningenglish/",
+      "note": "Audio, vídeo y lecciones gratuitas para estudiantes de inglés."
+    },
+    {
+      "title": "Marco Común Europeo de Referencia para las Lenguas (MCER)",
+      "author": "Consejo de Europa",
+      "url": "https://www.coe.int/es/web/common-european-framework-reference-languages"
+    },
+    {
+      "title": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/",
+      "note": "Miles de libros en inglés de dominio público, gratis."
+    }
+  ]
+}

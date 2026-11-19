@@ -1,0 +1,208 @@
+{
+  "lesson": "professional-and-academic",
+  "exercises": [
+    {
+      "id": "noun-analizar",
+      "type": "text",
+      "prompt": "Give the noun (with its article) that corresponds to the verb **analizar**.",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["el análisis", "análisis", "un análisis"],
+      "feedback": [
+        { "match": "la análisis", "message": "Not yet — *análisis* is masculine: *el análisis*, *los análisis*." },
+        { "match": "el analizamiento", "message": "Not yet — that word doesn't exist. The noun comes from Greek, like *la síntesis* and *la hipótesis*." }
+      ],
+      "hints": [
+        "The noun is a Greek-origin word ending in *-sis*, like *crisis*.",
+        "It is masculine and keeps the same form in the plural."
+      ],
+      "solution": "**el análisis** (plural *los análisis*). In a sentence: *El análisis de los datos confirma la hipótesis.* Note the gender: unlike *la crisis* or *la síntesis*, *análisis* is masculine."
+    },
+    {
+      "id": "noun-reducir",
+      "type": "text",
+      "prompt": "Complete with the noun formed from **reducir**:\n\n*La ______ del presupuesto retrasó el proyecto.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["reducción"],
+      "hints": [
+        "The ending is *-ción*.",
+        "*reduc-* + *-ción*, with the accent on the last syllable."
+      ],
+      "solution": "**reducción.** *La reducción del presupuesto retrasó el proyecto* condenses *Como se redujo el presupuesto, el proyecto se retrasó*. Nouns in *-ción* are feminine and carry an accent on the *ó* (but not in the plural: *reducciones*)."
+    },
+    {
+      "id": "best-nominalisation",
+      "type": "choice",
+      "prompt": "Which sentence is the best nominalised version for a report?\n\n*Los vecinos protestaron porque cerraron el mercado.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "El cierre del mercado provocó las protestas de los vecinos.", "correct": true, "feedback": "Yes — two events become nouns (*cierre*, *protestas*) linked by a precise verb (*provocó*)." },
+        { "id": "b", "label": "Se procedió a la realización de protestas vecinales a raíz del cerramiento del mercado.", "correct": false, "feedback": "Not yet — this is *burocratés*: *proceder a la realización de* adds nothing, and the closing of a business is *el cierre*, not *el cerramiento*." },
+        { "id": "c", "label": "Los vecinos protestaron debido a que se procedió a cerrar el mercado.", "correct": false, "feedback": "Not yet — this isn't nominalised; it just adds a support verb (*se procedió a*)." },
+        { "id": "d", "label": "El protestar de los vecinos fue por el cerrar del mercado.", "correct": false, "feedback": "Not yet — infinitives used as nouns this way sound clumsy; Spanish has real nouns: *la protesta*, *el cierre*." }
+      ],
+      "hints": [
+        "Find the nouns for *cerrar* and *protestar*.",
+        "Link the two nouns with a verb of cause."
+      ],
+      "solution": "**El cierre del mercado provocó las protestas de los vecinos.** The cause becomes the subject (*el cierre del mercado*), the effect the object (*las protestas*), and a precise verb links them. Option B shows what to avoid: support verbs plus nouns that say nothing new."
+    },
+    {
+      "id": "cut-burocrates",
+      "type": "choice",
+      "prompt": "Rewrite without the bureaucratic padding. Which version says the same thing most clearly?\n\n*Se procedió a la realización de una revisión exhaustiva de los datos.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Se revisaron exhaustivamente los datos.", "correct": true, "feedback": "Yes — the action is a verb again (*revisar*), and the meaning is unchanged." },
+        { "id": "b", "label": "Se realizó una revisión exhaustiva de los datos.", "correct": false, "feedback": "Better, but *realizar una revisión* still hides the verb *revisar*." },
+        { "id": "c", "label": "Se llevó a cabo la realización de una revisión de los datos.", "correct": false, "feedback": "Not yet — this adds even more padding, and loses *exhaustiva*." },
+        { "id": "d", "label": "Los datos se procedieron a revisar.", "correct": false, "feedback": "Not yet — this is ungrammatical; *proceder* can't take *los datos* as its subject." }
+      ],
+      "hints": [
+        "Which noun in the sentence hides a verb?",
+        "*una revisión* → *revisar*. What happens to *se procedió a la realización de*?"
+      ],
+      "solution": "**Se revisaron exhaustivamente los datos.** *Proceder a* and *la realización de* are support structures that add nothing. Keep a noun when the event is the topic of the sentence (*La revisión de los datos llevó tres semanas*); use the verb when you are reporting the action."
+    },
+    {
+      "id": "reporting-verb",
+      "type": "choice",
+      "prompt": "Which reporting verb implies that the author **argues a previous claim is wrong**?\n\n*En su artículo, García ______ la idea de que el bilingüismo retrasa el lenguaje.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "refuta", "correct": true, "feedback": "Yes — *refutar* means to argue, with evidence, that a claim is false." },
+        { "id": "b", "label": "matiza", "correct": false, "feedback": "Not yet — *matizar* means to qualify or nuance, not to reject." },
+        { "id": "c", "label": "subraya", "correct": false, "feedback": "Not yet — *subrayar* means to emphasise; it would suggest García supports the idea." },
+        { "id": "d", "label": "plantea", "correct": false, "feedback": "Not yet — *plantear* means to raise or put forward, which would make it García's own idea." }
+      ],
+      "hints": [
+        "You want a verb of strong disagreement.",
+        "Compare *cuestionar* (to doubt) and a stronger verb that means 'to disprove'."
+      ],
+      "solution": "**refuta.** *Refutar* (and *rebatir*) mean to argue that a claim is wrong. *Cuestionar* or *poner en duda* would be weaker (to question it); *matizar* would mean to qualify it; *subrayar* and *plantear* would attribute the idea to García."
+    },
+    {
+      "id": "agenda",
+      "type": "text",
+      "prompt": "Complete the chair's sentence with the missing word:\n\n*Pasemos al siguiente punto del ______ del día.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["orden"],
+      "feedback": [
+        { "match": "agenda", "message": "Not yet — *la agenda* is a diary or planner (or, in politics, a set of priorities). The agenda of a meeting is *el orden del día*." }
+      ],
+      "hints": [
+        "The phrase means 'the agenda', literally 'the order of the day'.",
+        "Note the article in *del*: the noun is masculine here."
+      ],
+      "solution": "**orden.** *El orden del día* is the agenda of a meeting. *Orden* meaning sequence is masculine (*el orden alfabético*); meaning command it is feminine (*una orden del juez*)."
+    },
+    {
+      "id": "minutes",
+      "type": "text",
+      "prompt": "Give the Spanish noun, with its article, for **the minutes** of a meeting.",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["el acta", "las actas", "acta", "actas", "el acta de la reunión"],
+      "feedback": [
+        { "match": "la acta", "message": "Close — *acta* is feminine, but because it begins with a stressed *a*, it takes *el* in the singular: *el acta*, *las actas*." },
+        { "match": "los minutos", "message": "Not yet — *los minutos* are minutes of time. The record of a meeting is a different word." }
+      ],
+      "hints": [
+        "It's a feminine noun beginning with a stressed *a*, like *el agua*.",
+        "The phrase *levantar …* means 'to take the minutes'."
+      ],
+      "solution": "**el acta** (plural *las actas*). It is feminine — *el acta aprobada* — but takes *el* in the singular because it begins with a stressed *a*, like *el agua* or *el aula*. To take the minutes is *levantar acta*."
+    },
+    {
+      "id": "interview-register",
+      "type": "choice",
+      "prompt": "You are interviewing a candidate in Mexico City for a post at a law firm. Which opening question is the most appropriate?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Para empezar, hábleme un poco de su trayectoria profesional.", "correct": true, "feedback": "Yes — formal *usted*, a polite softener (*un poco*) and precise vocabulary (*trayectoria*)." },
+        { "id": "b", "label": "A ver, cuéntame de ti, ¿qué onda?", "correct": false, "feedback": "Not yet — *tú* and *¿qué onda?* are far too casual for a formal interview." },
+        { "id": "c", "label": "Proceda usted a la realización de una presentación de su persona.", "correct": false, "feedback": "Not yet — it's formal, but stiff and bureaucratic. Formal doesn't mean padded." },
+        { "id": "d", "label": "Dígame su vida.", "correct": false, "feedback": "Not yet — the imperative alone sounds abrupt, and *su vida* is too broad and personal." }
+      ],
+      "hints": [
+        "In a formal interview in Mexico, which form of address is safe?",
+        "Look for the option that is formal but natural."
+      ],
+      "solution": "**Para empezar, hábleme un poco de su trayectoria profesional.** In most of Latin America, *usted* is the safe default in interviews. Good professional register is formal but not stiff: compare the bureaucratic option C."
+    },
+    {
+      "id": "should-be-noted",
+      "type": "text",
+      "prompt": "Give an impersonal Spanish formula meaning **it should be noted that** (three words, ending in *que*):\n\n*______ la muestra procede de una sola región.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "cabe señalar que",
+        "cabe destacar que",
+        "cabe mencionar que",
+        "cabe subrayar que",
+        "cabe resaltar que",
+        "cabe indicar que",
+        "cabe apuntar que",
+        "conviene señalar que",
+        "conviene destacar que",
+        "conviene subrayar que",
+        "conviene recordar que",
+        "hay que señalar que",
+        "es preciso señalar que"
+      ],
+      "hints": [
+        "The formula starts with a form of *caber*.",
+        "*cabe* + a verb of saying or emphasising + *que*."
+      ],
+      "solution": "**Cabe señalar que** (also *cabe destacar que*, *conviene señalar que*, *hay que señalar que*…). *Caber* here means 'to be appropriate': *Cabe señalar que la muestra procede de una sola región* — a classic way to introduce a limitation impersonally."
+    },
+    {
+      "id": "paraphrase-check",
+      "type": "choice",
+      "prompt": "Source: *La lectura en voz alta en clase mejora la fluidez de los estudiantes, pero solo si va acompañada de comentarios inmediatos del profesor.*\n\nWhich is an acceptable **paraphrase**?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Según la autora, el beneficio de leer en voz alta para la fluidez depende de que el docente corrija en el momento.", "correct": true, "feedback": "Yes — new structure, new wording, same meaning, and the source is credited." },
+        { "id": "b", "label": "La lectura en voz alta en el aula mejora la fluidez de los alumnos, pero únicamente si va acompañada de comentarios inmediatos del docente.", "correct": false, "feedback": "Not yet — this swaps a few synonyms but copies the structure (patchwriting), and doesn't cite the source." },
+        { "id": "c", "label": "Leer en voz alta mejora siempre la fluidez de los estudiantes.", "correct": false, "feedback": "Not yet — this drops the essential condition (*solo si…*) and changes the meaning." },
+        { "id": "d", "label": "«La lectura en voz alta en clase mejora la fluidez de los estudiantes».", "correct": false, "feedback": "Not yet — this is a partial direct quotation, not a paraphrase, it cuts off the condition and gives no reference." }
+      ],
+      "hints": [
+        "A paraphrase must keep the meaning — including conditions — and still cite the source.",
+        "Changing only some words while keeping the sentence's skeleton is not enough."
+      ],
+      "solution": "**A.** A paraphrase restructures the idea (here, by nominalising: *el beneficio… depende de que…*), keeps every part of the meaning — including the condition — and credits the author. B is patchwriting; C distorts; D is a truncated quotation."
+    },
+    {
+      "id": "hedging",
+      "type": "choice",
+      "prompt": "Your study has a small sample. Which sentence is the most appropriate for the conclusion of your abstract?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Los resultados sugieren que el programa podría mejorar el vocabulario infantil, aunque deben interpretarse con cautela.", "correct": true, "feedback": "Yes — *sugieren*, *podría* and *con cautela* match the strength of the evidence." },
+        { "id": "b", "label": "Queda demostrado que el programa mejora el vocabulario de todos los niños.", "correct": false, "feedback": "Not yet — a small exploratory study cannot *demonstrate* an effect for *all* children." },
+        { "id": "c", "label": "Yo creo que el programa es buenísimo.", "correct": false, "feedback": "Not yet — the register is conversational, and the claim is an opinion, not a finding." },
+        { "id": "d", "label": "No se sabe nada sobre el efecto del programa.", "correct": false, "feedback": "Not yet — too weak: the study did find something, and should say so cautiously." }
+      ],
+      "hints": [
+        "Match the strength of the claim to the strength of the evidence.",
+        "Look for a reporting verb, a conditional and an explicit note of caution."
+      ],
+      "solution": "**A.** Academic Spanish hedges with verbs like *sugerir* and *parecer indicar*, the conditional (*podría*), and explicit caution (*deben interpretarse con cautela*). B overclaims, C is the wrong register, and D underclaims."
+    }
+  ]
+}

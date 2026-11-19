@@ -1,0 +1,281 @@
+{
+  "lesson": "planes-y-futuro",
+  "exercises": [
+    {
+      "id": "nubes-negras",
+      "type": "choice",
+      "prompt": "Miras por la ventana: el cielo está negro y empieza a tronar. ¿Qué dices?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Tienes una prueba delante de los ojos.",
+        "Para predicciones basadas en lo que ves, *going to*."
+      ],
+      "solution": "**It's going to rain.** Cuando la predicción se basa en algo que ves ahora (nubes negras, truenos), se usa *going to*. *It will rain* es más bien una opinión o un pronóstico sin pruebas a la vista, y *It rains* describe un hábito (*It rains a lot in Galicia*).",
+      "options": [
+        { "id": "a", "label": "It's going to rain.", "correct": true, "feedback": "¡Bien! Predicción con pruebas: *going to*." },
+        { "id": "b", "label": "It rains.", "correct": false, "feedback": "Todavía no: el presente simple describe hábitos, no lo que va a pasar ahora." },
+        { "id": "c", "label": "It's raining.", "correct": false, "feedback": "Casi: eso es «está lloviendo». Todavía no llueve: va a llover." },
+        { "id": "d", "label": "It goes to rain.", "correct": false, "feedback": "Todavía no: es un calco de «va a llover». Se dice *It's going to rain*." }
+      ]
+    },
+    {
+      "id": "suena-el-telefono",
+      "type": "choice",
+      "prompt": "Estás en casa con tu familia y suena el teléfono. Decides contestar tú en ese mismo momento. ¿Qué dices?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "La decisión se toma en el momento de hablar.",
+        "Decisiones instantáneas: *will*."
+      ],
+      "solution": "**I'll get it!** Para una decisión tomada en el momento de hablar se usa *will* (*'ll*). *I'm going to get it* sugeriría que ya lo habías decidido antes, y *I get it* significa «lo entiendo».",
+      "options": [
+        { "id": "a", "label": "I'll get it!", "correct": true, "feedback": "¡Exacto! Decisión instantánea: *will*." },
+        { "id": "b", "label": "I'm going to get it!", "correct": false, "feedback": "Casi: *going to* suena a decisión previa. Para algo decidido en el momento, *I'll get it*." },
+        { "id": "c", "label": "I get it!", "correct": false, "feedback": "Todavía no: *I get it* significa «lo entiendo»." }
+      ]
+    },
+    {
+      "id": "he-quedado-con-sara",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Ya lo has acordado con Sara. Traduce: **Mañana he quedado con Sara a las seis.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Es un plan organizado con otra persona: presente continuo.",
+        "«Quedar con alguien» = *meet* o *see* someone."
+      ],
+      "solution": "**I'm meeting Sara at six tomorrow** (o *I'm seeing Sara tomorrow at six*). Para planes ya acordados, presente continuo: *am* + *meeting*. *Tomorrow I meet Sara* es un calco del presente español y no funciona en inglés.",
+      "answers": [
+        "I'm meeting Sara at six tomorrow",
+        "I'm meeting Sara tomorrow at six",
+        "I'm meeting Sara at 6 tomorrow",
+        "I'm meeting Sara tomorrow at 6",
+        "I'm meeting Sara at six o'clock tomorrow",
+        "I'm meeting Sara tomorrow at six o'clock",
+        "I am meeting Sara at six tomorrow",
+        "I am meeting Sara tomorrow at six",
+        "I am meeting Sara at 6 tomorrow",
+        "I am meeting Sara tomorrow at 6",
+        "I am meeting Sara at six o'clock tomorrow",
+        "I am meeting Sara tomorrow at six o'clock",
+        "I'm seeing Sara at six tomorrow",
+        "I'm seeing Sara tomorrow at six",
+        "I'm seeing Sara at 6 tomorrow",
+        "I'm seeing Sara tomorrow at 6",
+        "I am seeing Sara at six tomorrow",
+        "I am seeing Sara tomorrow at six",
+        "Tomorrow I'm meeting Sara at six",
+        "Tomorrow, I'm meeting Sara at six",
+        "Tomorrow I am meeting Sara at six",
+        "Tomorrow I'm seeing Sara at six",
+        "I'm going to meet Sara at six tomorrow",
+        "I'm going to meet Sara tomorrow at six",
+        "I'm going to see Sara at six tomorrow",
+        "I'm going to see Sara tomorrow at six"
+      ],
+      "feedback": [
+        { "match": "Tomorrow I meet Sara at six", "message": "Casi: para un plan acordado, presente continuo: *I'm meeting Sara at six tomorrow*." },
+        { "match": "I meet Sara tomorrow at six", "message": "Casi: para un plan acordado, presente continuo: *I'm meeting Sara tomorrow at six*." },
+        { "match": "I'm meeting with Sara at six tomorrow", "message": "Casi: es comprensible (y frecuente en EE. UU. en contextos de trabajo), pero con amigos lo normal es *I'm meeting Sara*, sin *with*." },
+        { "match": "I will meet Sara at six tomorrow", "message": "Casi: *will* sirve para decisiones del momento o promesas. Para un plan ya acordado, *I'm meeting Sara at six tomorrow*." }
+      ]
+    },
+    {
+      "id": "te-llamare-esta-noche",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Es una promesa. Traduce: **Te llamaré esta noche.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Promesas: *will* (*'ll*).",
+        "«Esta noche» = *tonight*."
+      ],
+      "solution": "**I'll call you tonight** (o *I will call you tonight*). Las promesas van con *will*. En el Reino Unido también se dice *I'll ring you tonight* o *I'll phone you tonight*.",
+      "answers": ["I'll call you tonight", "I will call you tonight", "I'll phone you tonight", "I will phone you tonight", "I'll ring you tonight", "I will ring you tonight", "I'll call you this evening", "I will call you this evening"],
+      "feedback": [
+        { "match": "I will to call you tonight", "message": "Casi: detrás de *will*, el verbo sin *to*: *I will call you tonight*." },
+        { "match": "I'll call to you tonight", "message": "Casi: *call* no lleva *to*: *I'll call you tonight*." },
+        { "match": "I'll call you this night", "message": "Casi: «esta noche» es *tonight*." },
+        { "match": "I call you tonight", "message": "Casi: para prometer, *will*: *I'll call you tonight*." }
+      ]
+    },
+    {
+      "id": "no-llegare-tarde",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **No llegaré tarde.** (llegar tarde = *be late*)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "La negativa de *will* es *won't*.",
+        "*Be late*: *won't* + *be* + *late*."
+      ],
+      "solution": "**I won't be late** (o *I will not be late*). *Won't* = *will not*, y detrás va el verbo en forma base: *be*. Cuidado con la pronunciación: *won't* /wəʊnt/, distinto de *want*.",
+      "answers": ["I won't be late", "I will not be late", "I won't arrive late", "I will not arrive late"],
+      "feedback": [
+        { "match": "I want be late", "message": "Casi: *want* es «querer». La negativa de *will* es *won't*: *I won't be late*." },
+        { "match": "I willn't be late", "message": "Casi: la contracción es irregular: *won't*." },
+        { "match": "I don't will be late", "message": "Casi: *will* se niega directamente: *I won't be late*." }
+      ]
+    },
+    {
+      "id": "invitar-a-cenar",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Invita con cortesía. Traduce: **¿Te gustaría venir a cenar el sábado?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Would you like* + *to* + verbo.",
+        "«Venir a cenar» = *come to dinner* o *come for dinner*."
+      ],
+      "solution": "**Would you like to come to dinner on Saturday?** (También *come for dinner* o *come over for dinner*.) *Would you like* va seguido de *to* + verbo, y los días llevan *on*.",
+      "answers": [
+        "Would you like to come to dinner on Saturday",
+        "Would you like to come for dinner on Saturday",
+        "Would you like to come over for dinner on Saturday",
+        "Would you like to have dinner with us on Saturday",
+        "Would you like to have dinner with me on Saturday",
+        "Do you want to come to dinner on Saturday",
+        "Do you want to come for dinner on Saturday",
+        "Do you want to come over for dinner on Saturday"
+      ],
+      "feedback": [
+        { "match": "Would you like come to dinner on Saturday", "message": "Casi: falta *to*: *Would you like to come…?*" },
+        { "match": "Would you like coming to dinner on Saturday", "message": "Casi: tras *would like*, *to* + verbo: *to come*." },
+        { "match": "Would you like to come to dinner in Saturday", "message": "Casi: los días van con *on*: *on Saturday*." },
+        { "match": "Would you like to come to dinner the Saturday", "message": "Casi: se dice *on Saturday*, sin artículo." },
+        { "match": "Do you like to come to dinner on Saturday", "message": "Casi: *Do you like…?* pregunta por gustos en general. Para invitar: *Would you like…?*" }
+      ]
+    },
+    {
+      "id": "rechazar",
+      "type": "choice",
+      "prompt": "Un compañero te invita a su cumpleaños el viernes, pero ese día tienes una cena familiar ya organizada. ¿Cuál es la respuesta más natural y amable?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "En inglés se suele rechazar con una disculpa y una razón breve.",
+        "La razón es un plan ya organizado: presente continuo."
+      ],
+      "solution": "**I'm sorry, I can't. I'm having dinner with my family that night.** Disculpa + negativa + razón breve, con el presente continuo para el plan ya organizado. *No.* a secas sonaría muy brusco, y *I don't want* sería sincero pero hiriente.",
+      "options": [
+        { "id": "a", "label": "No. I have a family dinner.", "correct": false, "feedback": "Casi: la información es correcta, pero empezar con *No* a secas suena brusco. Añade una disculpa." },
+        { "id": "b", "label": "I'm sorry, I can't. I'm having dinner with my family that night.", "correct": true, "feedback": "¡Perfecto! Disculpa, negativa y razón con el presente continuo." },
+        { "id": "c", "label": "I don't want, thank you.", "correct": false, "feedback": "Todavía no: suena poco amable y además le falta *to*: *I don't want to*." },
+        { "id": "d", "label": "I will have dinner with my family, so no.", "correct": false, "feedback": "Casi: para un plan ya organizado es mejor el presente continuo, y el *so no* final suena seco." }
+      ]
+    },
+    {
+      "id": "baby-sleeping",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa con el presente continuo de *sleep*: **Shh! Be quiet. The baby __________.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Está pasando ahora mismo.",
+        "*The baby* = *it* o *he/she*: *is* + *-ing*."
+      ],
+      "solution": "**is sleeping** (o *'s sleeping*) → *The baby is sleeping.* Para algo que está pasando en este momento, presente continuo: *is* + *sleeping*. *The baby sleeps* describiría un hábito (*The baby sleeps a lot*).",
+      "answers": ["is sleeping", "'s sleeping", "The baby is sleeping", "The baby's sleeping"],
+      "feedback": [
+        { "match": "sleeps", "message": "Casi: eso describe un hábito. Ahora mismo: *is sleeping*." },
+        { "match": "sleeping", "message": "Casi: falta *is*: *is sleeping*." },
+        { "match": "is sleep", "message": "Casi: con *is* hace falta el *-ing*: *is sleeping*." },
+        { "match": "are sleeping", "message": "Casi: *the baby* es singular: *is sleeping*." }
+      ]
+    },
+    {
+      "id": "hace-viento",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Hoy hace mucho viento.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "El inglés no usa «hacer» para el tiempo.",
+        "*It's* + adjetivo: *wind* → *windy*. «Mucho» = *very*."
+      ],
+      "solution": "**It's very windy today** (o *It is very windy today*). El tiempo se describe con *It's* + adjetivo: *windy*, *sunny*, *cold*. *It makes wind* es un calco de «hace viento».",
+      "answers": ["It's very windy today", "It is very windy today", "It's really windy today", "It is really windy today", "Today it's very windy", "Today it is very windy", "It's so windy today", "Today is very windy"],
+      "feedback": [
+        { "match": "It makes a lot of wind today", "message": "Casi: el inglés no usa *make* para el tiempo. Se dice *It's very windy today*." },
+        { "match": "It makes very windy today", "message": "Casi: sin *make*: *It's very windy today*." },
+        { "match": "It's very wind today", "message": "Casi: hace falta el adjetivo: *windy*." },
+        { "match": "Is very windy today", "message": "Casi: falta el sujeto *it*: *It's very windy today*." }
+      ]
+    },
+    {
+      "id": "when-i-arrive",
+      "type": "choice",
+      "prompt": "Completa: **I'll send you a message when I ______ at the airport.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Tras *when* hablando del futuro, el inglés no usa *will*.",
+        "El español usa el subjuntivo («cuando llegue»); el inglés, otro tiempo."
+      ],
+      "solution": "**arrive** → *I'll send you a message when I arrive at the airport.* Después de *when* (y de *as soon as*, *before*, *after*, *if*), el futuro se expresa con presente simple.",
+      "options": [
+        { "id": "a", "label": "will arrive", "correct": false, "feedback": "Todavía no: tras *when*, presente simple: *when I arrive*." },
+        { "id": "b", "label": "arrive", "correct": true, "feedback": "¡Muy bien! *When* + presente para el futuro." },
+        { "id": "c", "label": "am going to arrive", "correct": false, "feedback": "Todavía no: tras *when* tampoco se usa *going to*: *when I arrive*." },
+        { "id": "d", "label": "arrived", "correct": false, "feedback": "Todavía no: eso es pasado. Para el futuro tras *when*, presente: *arrive*." }
+      ]
+    },
+    {
+      "id": "elige-el-futuro",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las oraciones en las que el futuro está bien elegido.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Repasa la tabla: decisión instantánea, intención, plan organizado, predicción con pruebas.",
+        "Fíjate en qué pistas da cada frase: ¿hay billetes comprados?, ¿se decide en el momento?"
+      ],
+      "solution": "Son correctas **We're flying to Lima on Monday. We've got the tickets.** (plan organizado: presente continuo) y **Oh, there's no bread. I'll buy some.** (decisión en el momento: *will*). *Look out! The glass will fall!* debería ser *is going to fall* (lo estás viendo venir), y *I'm going to help you with that bag!*, dicho al ver a alguien con una bolsa pesada, suena raro: el ofrecimiento espontáneo es *I'll help you*.",
+      "options": [
+        { "id": "a", "label": "We're flying to Lima on Monday. We've got the tickets.", "correct": true, "feedback": "Correcta: plan organizado, presente continuo." },
+        { "id": "b", "label": "Oh, there's no bread. I'll buy some.", "correct": true, "feedback": "Correcta: decisión tomada en el momento, *will*." },
+        { "id": "c", "label": "Look out! The glass will fall!", "correct": false, "feedback": "Todavía no: lo estás viendo venir, así que *going to*: *The glass is going to fall!*" },
+        { "id": "d", "label": "(Al ver a alguien con una bolsa pesada) I'm going to help you with that bag!", "correct": false, "feedback": "Todavía no: un ofrecimiento espontáneo va con *will*: *I'll help you with that bag*." }
+      ]
+    },
+    {
+      "id": "aprender-a-nadar",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Es una decisión que ya tomaste. Traduce: **Voy a aprender a nadar este verano.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Intención ya decidida: *going to*.",
+        "«Aprender a nadar» = *learn to swim*."
+      ],
+      "solution": "**I'm going to learn to swim this summer** (o *I am going to…*, *This summer I'm going to…*). Para intenciones, *going to* + verbo base, muy parecido al español «ir a» + infinitivo. *Learn* va seguido de *to* + verbo.",
+      "answers": [
+        "I'm going to learn to swim this summer",
+        "I am going to learn to swim this summer",
+        "This summer I'm going to learn to swim",
+        "This summer I am going to learn to swim",
+        "This summer, I'm going to learn to swim",
+        "This summer, I am going to learn to swim",
+        "I'm going to learn how to swim this summer",
+        "I am going to learn how to swim this summer",
+        "I'm gonna learn to swim this summer"
+      ],
+      "feedback": [
+        { "match": "I go to learn to swim this summer", "message": "Casi: «voy a» + verbo es *I'm going to*: *I'm going to learn to swim*." },
+        { "match": "I'm going to learn swim this summer", "message": "Casi: *learn* va seguido de *to*: *learn to swim*." },
+        { "match": "I'm going to learn swimming this summer", "message": "Casi: se entiende, pero lo natural es *learn to swim*." },
+        { "match": "I'm going learn to swim this summer", "message": "Casi: falta *to* después de *going*: *I'm going to learn…*" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "lesson": "familia-y-descripciones",
+  "exercises": [
+    {
+      "id": "ana-and-her-brother",
+      "type": "choice",
+      "prompt": "Completa: **Ana is at the cinema with ____ brother.** (Ana está en el cine con su hermano.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "¿Quién es la dueña: Ana o el hermano?",
+        "El posesivo inglés concuerda con el dueño, no con lo poseído."
+      ],
+      "solution": "**her** → *Ana is at the cinema with her brother.* El hermano es **de Ana**, y Ana es una mujer, así que el posesivo es *her*. Que el hermano sea varón no importa: en inglés manda el dueño.",
+      "options": [
+        { "id": "a", "label": "his", "correct": false, "feedback": "Todavía no: *his* sería si el dueño fuera un hombre. El hermano es de Ana: *her*." },
+        { "id": "b", "label": "her", "correct": true, "feedback": "¡Muy bien! El dueño es Ana: *her brother*." },
+        { "id": "c", "label": "their", "correct": false, "feedback": "Todavía no: *their* es para varios dueños. Aquí solo hay una, Ana." },
+        { "id": "d", "label": "its", "correct": false, "feedback": "Todavía no: *its* es para cosas y animales." }
+      ]
+    },
+    {
+      "id": "coche-de-mi-padre",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **el coche de mi padre** (coche, carro o auto = *car*)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "En inglés el dueño va delante, seguido de *'s*.",
+        "Orden: *my* + *father* + *'s* + *car*."
+      ],
+      "solution": "**my father's car** (o *my dad's car*). El dueño (*my father*) va primero con *'s*, y lo poseído (*car*) detrás. *The car of my father* se entendería, pero no es natural.",
+      "answers": ["my father's car", "my dad's car"],
+      "feedback": [
+        { "match": "the car of my father", "message": "Casi: se entiende, pero en inglés se dice con *'s*: *my father's car*." },
+        { "match": "my fathers car", "message": "Casi: falta el apóstrofo: *my father's car*." },
+        { "match": "my father car", "message": "Casi: falta el *'s*: *my father's car*." }
+      ]
+    },
+    {
+      "id": "dos-hermanas",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Tengo dos hermanas.** Puedes usar *have* o *have got*.",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "«Hermana» es *sister*; en plural, *sisters*.",
+        "*I have…* o *I've got…*"
+      ],
+      "solution": "**I have two sisters** (estadounidense y general) o **I've got two sisters** (muy británico). Las dos son correctas. También *I have got two sisters*, sin contraer.",
+      "answers": ["I have two sisters", "I've got two sisters", "I have got two sisters"],
+      "feedback": [
+        { "match": "I have two sister", "message": "Casi: después de *two*, el nombre va en plural: *sisters*." },
+        { "match": "Have two sisters", "message": "Casi: falta el sujeto *I*: *I have two sisters*." },
+        { "match": "I've two sisters", "message": "Casi: con *have* de posesión es más natural no contraer, o usar *got*: *I have two sisters* o *I've got two sisters*." }
+      ]
+    },
+    {
+      "id": "orden-adjetivo",
+      "type": "choice",
+      "prompt": "¿Cómo se dice «un coche rojo» (un carro rojo)?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "En inglés el adjetivo va delante del nombre.",
+        "El adjetivo no cambia nunca."
+      ],
+      "solution": "**a red car**. El adjetivo va delante del nombre, al revés que en español, y no cambia: ni plural ni género.",
+      "options": [
+        { "id": "a", "label": "a car red", "correct": false, "feedback": "Todavía no: es el orden español. En inglés el adjetivo va delante: *a red car*." },
+        { "id": "b", "label": "a red car", "correct": true, "feedback": "¡Correcto! Adjetivo delante del nombre." },
+        { "id": "c", "label": "a reds car", "correct": false, "feedback": "Todavía no: los adjetivos nunca llevan -s." }
+      ]
+    },
+    {
+      "id": "ojos-verdes",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce, hablando de una mujer: **Tiene los ojos verdes.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "No hace falta artículo: el inglés dice «ella tiene verdes ojos».",
+        "*She has…* o *She's got…*, y el adjetivo antes de *eyes*."
+      ],
+      "solution": "**She has green eyes** (o *She's got green eyes*, *She has got green eyes*). Hace falta el sujeto *she*, el verbo es *has* (tercera persona) y el adjetivo va delante, sin plural: *green eyes*. Donde el español pone «los», el inglés no pone nada.",
+      "answers": ["She has green eyes", "She's got green eyes", "She has got green eyes"],
+      "feedback": [
+        { "match": "She has the eyes green", "message": "Casi: sin artículo y con el adjetivo delante: *She has green eyes*." },
+        { "match": "She has the green eyes", "message": "Casi: aquí el inglés no usa artículo: *She has green eyes*." },
+        { "match": "She has eyes green", "message": "Casi: el adjetivo va delante: *green eyes*." },
+        { "match": "She have green eyes", "message": "Casi: con *she*, *has*: *She has green eyes*." },
+        { "match": "Has green eyes", "message": "Casi: falta el sujeto *she*." }
+      ]
+    },
+    {
+      "id": "parents-significa",
+      "type": "choice",
+      "prompt": "Una amiga inglesa te dice: *My parents are in Spain this week.* ¿Quiénes están en España?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Parents* es un falso amigo.",
+        "Piensa en *mother* y *father* juntos."
+      ],
+      "solution": "**Su padre y su madre.** *Parents* significa «padres». Es un falso amigo: «parientes» (familiares en general) se dice *relatives*.",
+      "options": [
+        { "id": "a", "label": "Su padre y su madre", "correct": true, "feedback": "¡Exacto! *Parents* = padres." },
+        { "id": "b", "label": "Algunos de sus parientes", "correct": false, "feedback": "Todavía no: *parents* parece «parientes», pero significa «padres». Los parientes son *relatives*." },
+        { "id": "c", "label": "Sus padres y sus abuelos", "correct": false, "feedback": "Todavía no: los abuelos son *grandparents*. *Parents* son solo el padre y la madre." }
+      ]
+    },
+    {
+      "id": "has-he-got",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa la respuesta corta: **Has your brother got a car? — No, he ______.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "La respuesta corta repite el verbo de la pregunta, sin *got*.",
+        "La pregunta usa *has*; la negativa es *has* + *not*."
+      ],
+      "solution": "**hasn't** → *No, he hasn't.* La respuesta corta repite el auxiliar de la pregunta (*has*) en negativa, sin *got*. La forma completa, *has not*, es correcta pero suena enfática.",
+      "answers": ["hasn't", "has not", "No, he hasn't", "No, he has not"],
+      "feedback": [
+        { "match": "hasn't got", "message": "Casi: en la respuesta corta no se repite *got*: *No, he hasn't*." },
+        { "match": "haven't", "message": "Casi: con *he*, *has*: *No, he hasn't*." },
+        { "match": "doesn't", "message": "Casi: la pregunta usa *has*, así que la respuesta también: *No, he hasn't*. (Con *Does he have…?* sí sería *doesn't*.)" },
+        { "match": "isn't", "message": "Todavía no: la pregunta es con *has got*, no con *is*: *No, he hasn't*." }
+      ]
+    },
+    {
+      "id": "sus-padres-altos",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce, hablando de dos amigos tuyos: **Sus padres son altos.** (los padres de ellos)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«Su», de ellos, es *their*.",
+        "El adjetivo no lleva plural, aunque el sujeto sí."
+      ],
+      "solution": "**Their parents are tall.** *Their* porque los dueños son varios (tus dos amigos); *are* porque *parents* es plural; y *tall* sin -s, porque los adjetivos nunca cambian.",
+      "answers": ["Their parents are tall"],
+      "feedback": [
+        { "match": "Their parents are talls", "message": "Casi: los adjetivos no llevan plural: *tall*." },
+        { "match": "His parents are tall", "message": "Casi: *his* es de un solo hombre. Para «de ellos», *their*." },
+        { "match": "There parents are tall", "message": "Casi: suena igual, pero el posesivo se escribe *their*. *There* significa «allí»." },
+        { "match": "They're parents are tall", "message": "Casi: *they're* es *they are*. El posesivo se escribe *their*." }
+      ]
+    },
+    {
+      "id": "preguntar-hermano",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las preguntas correctas para decir «¿Tienes un hermano?».",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Hay dos sistemas: *have got* y *have* con *do*.",
+        "Los dos sistemas no se mezclan."
+      ],
+      "solution": "Son correctas **Have you got a brother?** (más británica) y **Do you have a brother?** (estadounidense y general). *Do you have got…?* mezcla los dos sistemas, y *Have you a brother?* es una forma antigua que hoy casi no se usa.",
+      "options": [
+        { "id": "a", "label": "Have you got a brother?", "correct": true, "feedback": "Correcta: *have got*, con *have* delante del sujeto." },
+        { "id": "b", "label": "Do you have a brother?", "correct": true, "feedback": "Correcta: *have* con el auxiliar *do*." },
+        { "id": "c", "label": "Do you have got a brother?", "correct": false, "feedback": "Todavía no: mezcla los dos sistemas. O *Do you have…?* o *Have you got…?*" },
+        { "id": "d", "label": "Have you a brother?", "correct": false, "feedback": "Casi: se entiende, pero suena antiguo. Hoy se dice *Have you got…?* o *Do you have…?*" }
+      ]
+    },
+    {
+      "id": "tienes-hermanos",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce la pregunta, sin saber si la otra persona tiene hermanos o hermanas: **¿Tienes hermanos?**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Brothers* son solo varones. ¿Cómo incluyes a las hermanas?",
+        "La pregunta del diálogo: *Have you got any…?*"
+      ],
+      "solution": "**Have you got any brothers or sisters?** o **Do you have any brothers or sisters?** *Brothers* solo incluye varones, así que se añade *or sisters*. Con *siblings* también es correcto, aunque más formal. *Any* (alguno) es opcional aquí; lo verás en detalle en una lección posterior.",
+      "answers": [
+        "Have you got any brothers or sisters",
+        "Do you have any brothers or sisters",
+        "Have you got brothers or sisters",
+        "Do you have brothers or sisters",
+        "Have you got any brothers and sisters",
+        "Do you have any brothers and sisters",
+        "Have you got any siblings",
+        "Do you have any siblings",
+        "Have you got siblings",
+        "Do you have siblings"
+      ],
+      "feedback": [
+        { "match": "Have you got brothers", "message": "Casi: *brothers* son solo varones. Para incluir a las chicas: *brothers or sisters*." },
+        { "match": "Do you have brothers", "message": "Casi: *brothers* son solo varones. Mejor: *Do you have any brothers or sisters?*" },
+        { "match": "Do you have got any brothers or sisters", "message": "Casi: no mezcles *do* y *got*. O *Do you have…?* o *Have you got…?*" }
+      ]
+    },
+    {
+      "id": "its-o-its",
+      "type": "choice",
+      "prompt": "Completa: **We've got a dog. ____ name is Canela.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "El nombre es «del perro». ¿Qué posesivo se usa para un animal?",
+        "Con apóstrofo significa *it is*."
+      ],
+      "solution": "**Its** → *Its name is Canela.* *Its* (sin apóstrofo) es el posesivo de *it*, para cosas y animales. *It's* (con apóstrofo) es la contracción de *it is*: *It's a dog*. Muchas familias usan *his* o *her* para su mascota, y eso también es normal en la conversación, pero la forma gramatical básica es *its*.",
+      "options": [
+        { "id": "a", "label": "Its", "correct": true, "feedback": "¡Bien! *Its*, sin apóstrofo, es el posesivo." },
+        { "id": "b", "label": "It's", "correct": false, "feedback": "Todavía no: *it's* = *it is*. «It is name is Canela» no tiene sentido." },
+        { "id": "c", "label": "Their", "correct": false, "feedback": "Todavía no: *their* es para varios dueños. Aquí el nombre es de un perro." }
+      ]
+    },
+    {
+      "id": "abuela-pelo-blanco",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Mi abuela tiene el pelo blanco.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Hair* va en singular y sin artículo.",
+        "*My grandmother has…* o *My grandmother's got…*, y el color delante de *hair*."
+      ],
+      "solution": "**My grandmother has white hair** (o *My grandmother has got white hair*, *My grandmother's got white hair*; con *grandma*, más familiar, también). Sin artículo delante de *hair*, con el color delante y *has* porque *my grandmother* = *she*. Para el pelo canoso también se dice *grey hair* (en EE. UU., *gray hair*).",
+      "answers": [
+        "My grandmother has white hair",
+        "My grandmother has got white hair",
+        "My grandmother's got white hair",
+        "My grandma has white hair",
+        "My grandma has got white hair",
+        "My grandma's got white hair",
+        "My grandmother has grey hair",
+        "My grandmother has gray hair",
+        "My grandmother has got grey hair",
+        "My grandmother has got gray hair",
+        "My grandmother's got grey hair",
+        "My grandmother's got gray hair",
+        "My grandma has grey hair",
+        "My grandma has gray hair",
+        "My grandma has got grey hair",
+        "My grandma's got grey hair",
+        "My granny has white hair",
+        "My granny's got white hair"
+      ],
+      "feedback": [
+        { "match": "My grandmother has the hair white", "message": "Casi: sin artículo y con el color delante: *My grandmother has white hair*." },
+        { "match": "My grandmother has the white hair", "message": "Casi: sin artículo: *My grandmother has white hair*." },
+        { "match": "My grandmother have white hair", "message": "Casi: *my grandmother* = *she*, así que *has*." },
+        { "match": "My grandmother has white hairs", "message": "Casi: el pelo de la cabeza, *hair*, va en singular." }
+      ]
+    }
+  ]
+}

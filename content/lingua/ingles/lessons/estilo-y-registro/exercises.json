@@ -1,0 +1,251 @@
+{
+  "lesson": "estilo-y-registro",
+  "exercises": [
+    {
+      "id": "registro-most-formal",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Ordenadas de menos a más formal, ¿cuál es la versión **más formal** de esta petición?",
+      "options": [
+        { "id": "a", "label": "I would be grateful if you could send me the report by Friday.", "correct": true, "feedback": "¡Muy bien! Condicional de cortesía, sin contracciones y con una fórmula formal (*I would be grateful if…*)." },
+        { "id": "b", "label": "Could you send me the report by Friday?", "correct": false, "feedback": "Casi: es cortés y neutral, adecuada en casi cualquier correo profesional, pero no la más formal." },
+        { "id": "c", "label": "Can you send me the report by Friday?", "correct": false, "feedback": "Todavía no: *Can you…?* es correcta pero más informal que *Could you…?*" },
+        { "id": "d", "label": "Send me the report by Friday, yeah?", "correct": false, "feedback": "Todavía no: imperativo más *yeah?* es muy coloquial; solo entre personas de mucha confianza." }
+      ],
+      "hints": [
+        "Fíjate en los modales y en la estructura de la petición.",
+        "Cuanto más indirecta e hipotética, más formal."
+      ],
+      "solution": "La escala va de *Send me… yeah?* (muy informal) a *Can you…?*, *Could you…?* y, la más formal, **I would be grateful if you could send me the report by Friday.** El grado de formalidad sube con lo indirecto de la petición."
+    },
+    {
+      "id": "registro-commence-start",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "En un correo amistoso a un compañero: *The party will ___ at eight, so don't be late!* ¿Qué verbo encaja mejor?",
+      "options": [
+        { "id": "a", "label": "start", "correct": true, "feedback": "¡Eso es! Palabra corta, de origen germánico, perfecta para un registro informal." },
+        { "id": "b", "label": "commence", "correct": false, "feedback": "Casi: es correcta, pero demasiado formal para un correo amistoso. Suena a programa oficial." },
+        { "id": "c", "label": "initiate", "correct": false, "feedback": "Todavía no: *initiate* se usa con procesos (*initiate a procedure*), no con fiestas, y es muy formal." },
+        { "id": "d", "label": "inaugurate", "correct": false, "feedback": "Todavía no: *inaugurate* se usa con edificios, cargos o eventos oficiales." }
+      ],
+      "hints": [
+        "Fíjate en el tono: *don't be late!* con exclamación.",
+        "Elige la palabra más corta."
+      ],
+      "solution": "En un registro informal, la palabra germánica corta es la natural: **start**. *Commence* es correcta pero solemne; *initiate* e *inaugurate* tienen otros usos y son aún más formales."
+    },
+    {
+      "id": "registro-because",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Reescribe la oración de forma más concisa, sustituyendo la expresión prolija:\n\n*We cancelled the trip due to the fact that it was raining.*",
+      "answers": [
+        "We cancelled the trip because it was raining",
+        "We canceled the trip because it was raining",
+        "We cancelled the trip as it was raining",
+        "We canceled the trip as it was raining",
+        "We cancelled the trip because of the rain",
+        "We canceled the trip because of the rain"
+      ],
+      "feedback": [
+        { "match": "We cancelled the trip due to it was raining", "message": "Casi: *due to* va seguido de un sustantivo, no de una oración. Usa *because* + oración." }
+      ],
+      "hints": [
+        "*Due to the fact that* tiene cinco palabras y una sola función.",
+        "¿Qué conjunción de una sola palabra expresa causa?"
+      ],
+      "solution": "*Due to the fact that* equivale exactamente a **because**: **We cancelled the trip because it was raining.** (*Canceled* con una *l* es la ortografía estadounidense; también vale *because of the rain*.)"
+    },
+    {
+      "id": "registro-if-you-need-help",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Reescribe el aviso en *plain English*, con palabras corrientes:\n\n*In the event that you require assistance, contact us.*",
+      "answers": [
+        "If you need help, contact us",
+        "If you need help contact us",
+        "If you need any help, contact us",
+        "If you need any help contact us",
+        "If you need assistance, contact us",
+        "If you need help, please contact us",
+        "If you need any help, please contact us",
+        "If you need help, get in touch",
+        "Contact us if you need help",
+        "Contact us if you need any help",
+        "Please contact us if you need help"
+      ],
+      "feedback": [
+        { "match": "If you require assistance, contact us", "message": "Casi: has resuelto *in the event that*, pero *require assistance* sigue siendo formal. Prueba con *need help*." }
+      ],
+      "hints": [
+        "Hay tres expresiones formales: *in the event that*, *require* y *assistance*.",
+        "*if*, *need*, *help*."
+      ],
+      "solution": "*In the event that* → *if*; *require* → *need*; *assistance* → *help*. Resultado: **If you need help, contact us** (o *Contact us if you need help*). Mismo significado, la mitad de palabras y ninguna dificultad para el lector."
+    },
+    {
+      "id": "registro-not-ideal",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Has enviado por error un informe confidencial a un cliente. Tu jefa, británica, dice en voz baja: *Well, that's not ideal.* ¿Qué quiere decir?",
+      "options": [
+        { "id": "a", "label": "Que es un problema grave.", "correct": true, "feedback": "¡Exacto! Es *understatement*: dice mucho menos de lo que piensa. Lo prudente es reconocer la gravedad y proponer una solución." },
+        { "id": "b", "label": "Que es un detalle sin importancia.", "correct": false, "feedback": "Todavía no: es la lectura literal, y la más arriesgada. En este contexto, *not ideal* es una forma contenida de decir que es serio." },
+        { "id": "c", "label": "Que le parece bien.", "correct": false, "feedback": "Todavía no: *not ideal* nunca es una aprobación." },
+        { "id": "d", "label": "Que no entiende lo que ha pasado.", "correct": false, "feedback": "Todavía no: lo entiende perfectamente; simplemente lo expresa con contención." }
+      ],
+      "hints": [
+        "Piensa en la gravedad real de la situación.",
+        "El *understatement* dice menos de lo que se piensa."
+      ],
+      "solution": "*That's not ideal* es un *understatement* típico: ante un error serio, la hablante elige una expresión mínima. Quiere decir **que es un problema grave**. Una buena respuesta: *I'm so sorry. I'll contact them right away and ask them to delete it.*"
+    },
+    {
+      "id": "registro-quite-good",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Un profesor británico escribe en tu redacción: *Quite good.* ¿Cuál es la interpretación más probable?",
+      "options": [
+        { "id": "a", "label": "Está bien, sin más; se puede mejorar.", "correct": true, "feedback": "¡Muy bien! En inglés británico, *quite good* suele ser un elogio moderado, a veces tibio." },
+        { "id": "b", "label": "Es excelente.", "correct": false, "feedback": "Casi: un estadounidense podría querer decir eso, pero en inglés británico *quite* con un adjetivo graduable suele rebajar el elogio." },
+        { "id": "c", "label": "Está muy mal.", "correct": false, "feedback": "Todavía no: no es una crítica dura; es una valoración positiva pero moderada." },
+        { "id": "d", "label": "Está completamente bien, sin ningún error.", "correct": false, "feedback": "Casi: *quite* significa «completamente» con adjetivos extremos (*quite perfect*, *quite right*), pero *good* es graduable." }
+      ],
+      "hints": [
+        "*Quite* cambia de sentido según la variedad y el adjetivo.",
+        "*Good* es un adjetivo graduable, no extremo."
+      ],
+      "solution": "En inglés británico, *quite* + adjetivo graduable (*good*, *interesting*, *nice*) significa «bastante», a menudo con un punto de reserva: **bien, sin más**. En estadounidense tiende a reforzar (*quite good* = muy bueno). Con adjetivos extremos, *quite* significa «completamente» en ambos: *quite impossible*."
+    },
+    {
+      "id": "registro-rightsizing",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Un comunicado de empresa dice: *As part of our rightsizing initiative, 200 roles will be impacted.* ¿Cuál es la versión en lenguaje directo?",
+      "options": [
+        { "id": "a", "label": "We are going to cut 200 jobs.", "correct": true, "feedback": "¡Eso es! *Rightsizing* y *roles will be impacted* son eufemismos que ocultan una realidad simple: despidos." },
+        { "id": "b", "label": "We are going to hire 200 people.", "correct": false, "feedback": "Todavía no: *rightsizing* suena positivo, pero en la práctica casi siempre significa reducir plantilla." },
+        { "id": "c", "label": "We are going to change 200 job titles.", "correct": false, "feedback": "Casi: *roles will be impacted* lo deja deliberadamente vago, pero en un contexto de *rightsizing* se refiere a puestos eliminados." },
+        { "id": "d", "label": "We are going to train 200 employees.", "correct": false, "feedback": "Todavía no: no hay nada en el texto sobre formación." }
+      ],
+      "hints": [
+        "*Rightsizing* = ajustar el «tamaño correcto» de la plantilla. ¿En qué dirección, casi siempre?",
+        "Pregúntate: ¿a quién protege este eufemismo?"
+      ],
+      "solution": "*Rightsizing* y *roles will be impacted* son eufemismos opacos: protegen a la empresa, no a los afectados. En lenguaje directo: **We are going to cut 200 jobs.**"
+    },
+    {
+      "id": "registro-regret-to-inform",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés en registro formal:\n\n*Lamentamos informarle de que su solicitud no ha sido aceptada.*",
+      "answers": [
+        "We regret to inform you that your application has not been accepted",
+        "We regret to inform you that your application was not accepted",
+        "We regret to inform you that your application has not been successful",
+        "We regret to inform you that your application was not successful",
+        "We regret to inform you that your application has been unsuccessful",
+        "We regret to inform you that your application was unsuccessful",
+        "We regret to inform you that your request has not been accepted",
+        "We regret to inform you that your request was not accepted",
+        "We regret to inform you that your application has been rejected",
+        "We regret to inform you that your application has been declined",
+        "We are sorry to inform you that your application has not been accepted",
+        "We are sorry to inform you that your application has been unsuccessful"
+      ],
+      "feedback": [
+        { "match": "We regret to inform you that your solicitude has not been accepted", "message": "Casi: *solicitude* significa «solicitud» en el sentido de «atención, cuidado». Una solicitud formal es *application* (o *request*)." },
+        { "match": "We lament to inform you that your application has not been accepted", "message": "Casi: *lament* es «lamentarse» con dolor (un duelo, una pérdida). La fórmula fija es *We regret to inform you*." }
+      ],
+      "hints": [
+        "La fórmula fija es *We regret to inform you that…*",
+        "«Solicitud» = *application*. «No ha sido aceptada»: pasiva en present perfect, o *unsuccessful*."
+      ],
+      "solution": "La fórmula formal es **We regret to inform you that your application has not been accepted** (o *has been unsuccessful*, muy frecuente en cartas de selección). Cuidado con dos falsos amigos: *lament* no es «lamentar» en este sentido, y *solicitude* no es «solicitud»."
+    },
+    {
+      "id": "registro-free-gift",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "¿Cuál de estas expresiones es **redundante**?",
+      "options": [
+        { "id": "a", "label": "a free gift", "correct": true, "feedback": "¡Correcto! Un regalo es gratis por definición; *free* no añade nada." },
+        { "id": "b", "label": "a quick reply", "correct": false, "feedback": "Esta no: una respuesta puede ser rápida o lenta, así que *quick* aporta información." },
+        { "id": "c", "label": "a new idea", "correct": false, "feedback": "Esta no: *new* distingue una idea nueva de otra ya conocida." },
+        { "id": "d", "label": "a short meeting", "correct": false, "feedback": "Esta no: las reuniones pueden ser cortas o largas." }
+      ],
+      "hints": [
+        "Busca el adjetivo que repite algo que el sustantivo ya incluye.",
+        "¿Existe un regalo que no sea gratis?"
+      ],
+      "solution": "**A free gift** es redundante: todo regalo es gratuito. Otras redundancias frecuentes: *past history*, *end result*, *advance planning*, *each and every*. En un texto conciso, se eliminan."
+    },
+    {
+      "id": "registro-postponed",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Sustituye el *phrasal verb* por un verbo de origen latino, más formal, y escribe la oración completa:\n\n*The meeting has been put off until May.*",
+      "answers": [
+        "The meeting has been postponed until May",
+        "The meeting has been deferred until May",
+        "The meeting has been postponed to May",
+        "The meeting has been deferred to May",
+        "The meeting has been rescheduled for May"
+      ],
+      "feedback": [
+        { "match": "The meeting has been delayed until May", "message": "Casi: *delay* es correcto, pero no es exactamente el equivalente formal de *put off*. Busca uno que empieza por *post-*." },
+        { "match": "The meeting has been posponed until May", "message": "Casi: en inglés se escribe con *t*: *postponed*." }
+      ],
+      "hints": [
+        "*Put off* significa «aplazar».",
+        "El verbo latino empieza por *post-* (después)."
+      ],
+      "solution": "El equivalente latino de *put off* es **postpone**: **The meeting has been postponed until May.** También *deferred*, aún más formal. Fíjate en la ortografía: *postpone*, con *t*, a diferencia del español «posponer»."
+    },
+    {
+      "id": "registro-ascertain",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "Reescribe la oración con palabras corrientes, como en un correo normal a un cliente:\n\n*We will endeavour to ascertain the cause of the problem.*",
+      "answers": [
+        "We will try to find out the cause of the problem",
+        "We'll try to find out the cause of the problem",
+        "We will try to find out what caused the problem",
+        "We'll try to find out what caused the problem",
+        "We will try to find the cause of the problem",
+        "We'll try to find the cause of the problem",
+        "We will try to find out what is causing the problem",
+        "We'll try to find out what is causing the problem",
+        "We'll try to find out what's causing the problem",
+        "We will try to work out the cause of the problem",
+        "We'll try to work out the cause of the problem"
+      ],
+      "feedback": [
+        { "match": "We will try to ascertain the cause of the problem", "message": "Casi: has cambiado *endeavour*, pero *ascertain* sigue siendo muy formal. Prueba con *find out*." },
+        { "match": "We will endeavour to find out the cause of the problem", "message": "Casi: has cambiado *ascertain*, pero *endeavour* sigue siendo muy formal. Prueba con *try*." }
+      ],
+      "hints": [
+        "Hay dos verbos latinos muy formales.",
+        "*endeavour* → *try*; *ascertain* → un *phrasal verb* que significa «averiguar»."
+      ],
+      "solution": "*Endeavour* → **try**; *ascertain* → **find out**: **We'll try to find out the cause of the problem** (o *what caused the problem*). La versión original no es incorrecta, pero en un correo a un cliente suena distante y burocrática."
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "lesson": "writing-with-precision",
+  "exercises": [
+    {
+      "id": "accent-arbol",
+      "type": "text",
+      "prompt": "Write the word with its accent, if it needs one: **arbol**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "árbol"
+      ],
+      "hints": [
+        "Where is the stress: *AR-bol* or *ar-BOL*?",
+        "A *llana* takes an accent when it does **not** end in a vowel, *-n* or *-s*."
+      ],
+      "solution": "**árbol.** It is *llana* (stressed on *ár-*) and ends in *-l*, so it takes an accent. Compare *papel* (aguda in *-l*: no accent) and *examen* (llana in *-n*: no accent)."
+    },
+    {
+      "id": "accent-pais",
+      "type": "text",
+      "prompt": "Write the word with its accent, if it needs one: **pais** (country)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "país"
+      ],
+      "hints": [
+        "How many syllables: *pais* or *pa-ís*?",
+        "A stressed *i* or *u* next to *a, e, o* always takes an accent."
+      ],
+      "solution": "**país.** The stressed *i* next to *a* breaks the diphthong (*pa-ís*), and a stressed *i* or *u* in hiatus always takes an accent — even though the general rule for *agudas* in *-s* would also give one here. Same rule: *día, baúl, reír, maíz, Raúl*."
+    },
+    {
+      "id": "indirect-donde",
+      "type": "text",
+      "prompt": "Complete with the right form of the question word (accent or not?):\n\n*Pregúntale ______ vive ahora.* (where)",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "dónde"
+      ],
+      "feedback": [
+        {
+          "match": "adónde",
+          "message": "Close — *adónde* is for movement (*¿Adónde vas?*). With *vivir*, use the form for location."
+        }
+      ],
+      "hints": [
+        "Is this a question, even without question marks?",
+        "Indirect questions keep the accent on the question word."
+      ],
+      "solution": "**dónde.** *Pregúntale dónde vive* is an indirect question, and question words keep their accent in indirect questions: *No sé qué hacer*, *Depende de cuánto cueste*. Without the accent, *donde* is a relative: *la casa donde vive*."
+    },
+    {
+      "id": "aun-aun",
+      "type": "choice",
+      "prompt": "Choose the correct form:\n\n*Son las diez y ______ no ha llegado.* (still = todavía)",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "aún",
+          "correct": true,
+          "feedback": "Yes — *aún* with an accent = *todavía* (still, yet)."
+        },
+        {
+          "id": "b",
+          "label": "aun",
+          "correct": false,
+          "feedback": "Not yet — without an accent, *aun* means *incluso* (even): *Aun así, lo intentó.*"
+        }
+      ],
+      "hints": [
+        "Try replacing it with *todavía* or with *incluso*.",
+        "The one that means *todavía* takes the accent."
+      ],
+      "solution": "**aún.** Test: *Son las diez y todavía no ha llegado* works, so it's *aún*. If *incluso* fits, write *aun*: *Aun los expertos se equivocan* (even the experts)."
+    },
+    {
+      "id": "por-que",
+      "type": "text",
+      "prompt": "Complete:\n\n*¿______ no viniste ayer?* (why)",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "por qué"
+      ],
+      "feedback": [
+        {
+          "match": "porque",
+          "message": "Not yet — *porque* (one word, no accent) means 'because'. In a question meaning 'why', write two words with an accent."
+        },
+        {
+          "match": "porqué",
+          "message": "Not yet — *porqué* is a noun (*el porqué*, the reason). 'Why' is two words."
+        }
+      ],
+      "hints": [
+        "'Why' in Spanish is two words.",
+        "And *qué* in a question takes an accent."
+      ],
+      "solution": "**Por qué.** *¿Por qué no viniste?* — why. The family: *porque* (because), *el porqué* (the reason), *por que* (preposition + relative: *la razón por que dimití*)."
+    },
+    {
+      "id": "dequeismo",
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Pienso que deberíamos esperar.",
+          "correct": true,
+          "feedback": "Yes — *pensar* takes a direct object: *pienso eso*, so *pienso que*."
+        },
+        {
+          "id": "b",
+          "label": "Pienso de que deberíamos esperar.",
+          "correct": false,
+          "feedback": "Not yet — this is *dequeísmo*. Test: you say *pienso eso*, not *pienso de eso*."
+        },
+        {
+          "id": "c",
+          "label": "Pienso en que deberíamos esperar.",
+          "correct": false,
+          "feedback": "Not yet — *pensar en* means 'think about', and *pienso en que deberíamos esperar* doesn't express an opinion."
+        }
+      ],
+      "hints": [
+        "Replace the *que*-clause with *eso*.",
+        "Do you say *pienso eso* or *pienso de eso*?"
+      ],
+      "solution": "**Pienso que deberíamos esperar.** The *eso* test: *Pienso eso* → no *de*. Adding *de* where the verb doesn't take it is *dequeísmo*, which the norm rejects and which is socially stigmatised."
+    },
+    {
+      "id": "queismo",
+      "type": "text",
+      "prompt": "Complete with the missing word, if any (write the word):\n\n*Me acuerdo ______ que de niños íbamos al río.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "de"
+      ],
+      "hints": [
+        "Replace the clause with *eso*: *Me acuerdo … eso*.",
+        "*Acordarse* takes a preposition."
+      ],
+      "solution": "**de.** *Me acuerdo de eso* → *Me acuerdo de que…* Dropping the *de* (*me acuerdo que*) is *queísmo*. Other verbs and adjectives that need *de que*: *darse cuenta de que*, *estar seguro de que*, *alegrarse de que*, *tener ganas de que*."
+    },
+    {
+      "id": "laismo",
+      "type": "text",
+      "prompt": "Complete with the correct pronoun:\n\n*A María ______ dije la verdad.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "le"
+      ],
+      "feedback": [
+        {
+          "match": "la",
+          "message": "Not yet — that's *laísmo*. *La verdad* is the direct object; *a María* receives it, so she is the indirect object: *le*."
+        }
+      ],
+      "hints": [
+        "What did I tell? *La verdad*. To whom? *A María*.",
+        "Indirect objects take *le / les*, whether masculine or feminine."
+      ],
+      "solution": "**le.** *La verdad* is the direct object; *María* is the indirect object (the one who receives it), so the pronoun is *le*: *A María le dije la verdad.* *La dije* is *laísmo*, common in central Spain but not accepted by the norm."
+    },
+    {
+      "id": "collective-gente",
+      "type": "choice",
+      "prompt": "Choose the correct verb:\n\n*La gente ______ que el nuevo puente es peligroso.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "dice",
+          "correct": true,
+          "feedback": "Yes — *gente* is grammatically singular, so the verb is singular."
+        },
+        {
+          "id": "b",
+          "label": "dicen",
+          "correct": false,
+          "feedback": "Not yet — *la gente dicen* is common in speech, but *gente* is a singular noun: *la gente dice*."
+        }
+      ],
+      "hints": [
+        "*Gente* refers to many people, but what is its grammatical number?",
+        "*La gente*, not *las gentes*."
+      ],
+      "solution": "**dice.** Singular collective nouns (*la gente*, *el equipo*, *el público*) take a singular verb. When a collective is followed by *de* + plural (*la mayoría de los vecinos*), both singular and plural are accepted."
+    },
+    {
+      "id": "comma-subject-verb",
+      "type": "choice",
+      "prompt": "Which sentence is correctly punctuated?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Los alumnos que no hayan entregado el trabajo antes del viernes deberán hablar con la profesora.",
+          "correct": true,
+          "feedback": "Yes — however long the subject, no comma separates it from its verb."
+        },
+        {
+          "id": "b",
+          "label": "Los alumnos que no hayan entregado el trabajo antes del viernes, deberán hablar con la profesora.",
+          "correct": false,
+          "feedback": "Not yet — the comma separates the subject from its verb (*deberán*), which Spanish never allows."
+        },
+        {
+          "id": "c",
+          "label": "Los alumnos, que no hayan entregado el trabajo antes del viernes deberán hablar con la profesora.",
+          "correct": false,
+          "feedback": "Not yet — the comma would make the relative clause non-restrictive and then needs closing; and the meaning becomes 'all the students'."
+        },
+        {
+          "id": "d",
+          "label": "Los alumnos que no hayan entregado, el trabajo antes del viernes deberán hablar con la profesora.",
+          "correct": false,
+          "feedback": "Not yet — this comma splits a verb from its object."
+        }
+      ],
+      "hints": [
+        "Find the subject and the main verb.",
+        "Can a comma separate them?"
+      ],
+      "solution": "**A.** The whole of *Los alumnos que no hayan entregado el trabajo antes del viernes* is the subject of *deberán*, and Spanish never puts a comma between subject and verb, however long the subject is. The temptation comes from the pause we make when reading aloud."
+    },
+    {
+      "id": "sino",
+      "type": "text",
+      "prompt": "Complete with *sino* or *si no*:\n\n*No lo hizo por dinero, ______ por amistad.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "sino"
+      ],
+      "feedback": [
+        {
+          "match": "si no",
+          "message": "Not yet — *si no* (two words) means 'if not': *Si no vienes, me voy*. Here you need 'but rather'."
+        },
+        {
+          "match": "pero",
+          "message": "Not yet — after a negative, when the second part *replaces* the first, Spanish uses a different conjunction."
+        }
+      ],
+      "hints": [
+        "The second part corrects the first: not for money, *but rather* for friendship.",
+        "One word."
+      ],
+      "solution": "**sino.** After a negative, *sino* introduces the correct alternative: *No es rojo, sino azul.* *Si no* (two words) is 'if not': *Si no llamas, me preocupo.* And *pero* adds a contrast without replacing: *No es caro, pero tampoco es barato.*"
+    },
+    {
+      "id": "solo-rule",
+      "type": "choice",
+      "prompt": "Which statement best describes the **current** academic rule for *solo* (adverb, 'only')?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Write *solo* without an accent; the accent is optional only where the writer judges a sentence could be ambiguous.",
+          "correct": true,
+          "feedback": "Yes — that is the 2010 rule as the RAE clarified it in 2023."
+        },
+        {
+          "id": "b",
+          "label": "Always write *sólo* when it means 'only'.",
+          "correct": false,
+          "feedback": "Not yet — that was the older rule, before the 2010 *Ortografía*."
+        },
+        {
+          "id": "c",
+          "label": "The accent is forbidden in every case, even ambiguous ones.",
+          "correct": false,
+          "feedback": "Not yet — the Academy allows it where the writer perceives ambiguity, though it recommends rewriting."
+        },
+        {
+          "id": "d",
+          "label": "The accent is compulsory in every ambiguous sentence.",
+          "correct": false,
+          "feedback": "Not yet — in ambiguous cases it is optional, not compulsory; rewriting is often better."
+        }
+      ],
+      "hints": [
+        "The rule changed in 2010 and was clarified in 2023.",
+        "Distinguish sentences with and without ambiguity."
+      ],
+      "solution": "**A.** *Solo*, like *este*, *ese* and *aquel*, is a regular *llana* ending in a vowel, so it is written without an accent. Where there is no ambiguity the accent must not be written; where the writer judges there is, it is optional. Best practice: rewrite (*Solamente trabajo los domingos*)."
+    }
+  ]
+}

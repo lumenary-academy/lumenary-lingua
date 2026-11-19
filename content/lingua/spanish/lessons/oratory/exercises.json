@@ -1,0 +1,204 @@
+{
+  "lesson": "oratory",
+  "exercises": [
+    {
+      "id": "spot-anaphora",
+      "type": "choice",
+      "prompt": "Which figure is this?\n\n*Miedo a no entender. Miedo a equivocarnos delante de los demás. Miedo a ser demasiado mayores para volver a empezar.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "anáfora", "correct": true, "feedback": "Yes — the same words (*Miedo a*) open each phrase. It is also a tricolon: three parts." },
+        { "id": "b", "label": "epífora", "correct": false, "feedback": "Not yet — epiphora repeats words at the *end* of each phrase." },
+        { "id": "c", "label": "quiasmo", "correct": false, "feedback": "Not yet — chiasmus reverses the order of two terms (A-B / B-A)." },
+        { "id": "d", "label": "polisíndeton", "correct": false, "feedback": "Not yet — polysyndeton repeats conjunctions (*y… y… y…*)." }
+      ],
+      "hints": [
+        "Where is the repetition: at the start or the end of each phrase?",
+        "The figure's name comes from Greek 'carrying back'."
+      ],
+      "solution": "**Anáfora**: *Miedo a…* begins each of the three phrases. Combined with the three-part structure (tricolon), it gives the listener a clear rhythm and builds from practical fears to the most personal one."
+    },
+    {
+      "id": "spot-chiasmus",
+      "type": "choice",
+      "prompt": "Which figure organises this line from Rosa's speech?\n\n*No dejamos de aprender porque envejecemos; envejecemos cuando dejamos de aprender.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "quiasmo", "correct": true, "feedback": "Yes — A (*dejar de aprender*) – B (*envejecer*) / B – A: the terms return in reverse order." },
+        { "id": "b", "label": "anáfora", "correct": false, "feedback": "Not yet — the two halves don't begin with the same words." },
+        { "id": "c", "label": "pregunta retórica", "correct": false, "feedback": "Not yet — there is no question here." },
+        { "id": "d", "label": "asíndeton", "correct": false, "feedback": "Not yet — asyndeton is a list without conjunctions." }
+      ],
+      "hints": [
+        "Label the two key ideas A and B. In what order do they appear in each half?",
+        "A-B then B-A."
+      ],
+      "solution": "**Quiasmo** (chiasmus): *dejar de aprender* → *envejecer* / *envejecer* → *dejar de aprender*. Reversing the order reverses the causality, which makes the line memorable — the sentence an audience repeats on the way out."
+    },
+    {
+      "id": "rhetorical-question",
+      "type": "choice",
+      "prompt": "Why does Rosa ask *¿Quién de nosotros no pensó, alguna noche, en dejarlo?*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "To involve the audience: everyone silently answers 'I did', which unites them with the speaker.", "correct": true, "feedback": "Yes — a rhetorical question expects no spoken answer; its answer is obvious and shared." },
+        { "id": "b", "label": "To find out how many students thought of quitting.", "correct": false, "feedback": "Not yet — she doesn't wait for answers, and immediately answers for herself." },
+        { "id": "c", "label": "To criticise the students who wanted to quit.", "correct": false, "feedback": "Not yet — she includes herself (*nosotros*) and confesses she thought about it too." },
+        { "id": "d", "label": "Because she forgot what came next.", "correct": false, "feedback": "Not yet — the question is a deliberate move." }
+      ],
+      "hints": [
+        "Does she expect anyone to reply aloud?",
+        "Notice the pronoun *nosotros*."
+      ],
+      "solution": "A **pregunta retórica** asks something whose answer everyone already knows. Here the silent answer — 'all of us' — turns a room of individuals into a group, and Rosa's next sentence (*Yo lo pensé muchas veces*) makes her one of them."
+    },
+    {
+      "id": "brindar-por",
+      "type": "text",
+      "prompt": "Complete the toast with the right preposition:\n\n*Levantemos las copas. Brindo ______ los novios y ______ su futuro.*\n\n(Same word in both gaps — write it once.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["por"],
+      "feedback": [
+        { "match": "para", "message": "Not yet — you drink *to* someone with *por*: *brindar por*." },
+        { "match": "a", "message": "Not yet — English 'to' misleads here. Spanish says *brindar por*." }
+      ],
+      "hints": [
+        "The verb *brindar* takes a fixed preposition.",
+        "It's the same preposition as in *¡Por los novios!*"
+      ],
+      "solution": "**por.** *Brindar por alguien / algo*: *Brindo por los novios y por su futuro.* The short form of the toast keeps the preposition: *¡Por los novios!*"
+    },
+    {
+      "id": "pesame",
+      "type": "text",
+      "prompt": "Complete the standard formula of condolence:\n\n*Mi más sentido ______.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["pésame"],
+      "feedback": [
+        { "match": "pesame", "message": "Almost — the word has a written accent: it's an *esdrújula*." },
+        { "match": "condolencias", "message": "Close in meaning, but the fixed formula uses a singular masculine noun: *mi más sentido…*" }
+      ],
+      "hints": [
+        "The word comes from *pesar* (to weigh; sorrow) + *me*.",
+        "*Dar el …* = to offer condolences."
+      ],
+      "solution": "**pésame.** *Mi más sentido pésame* — my deepest condolences. The word is literally *pésame* ('it grieves me'), and it is used in *dar el pésame*. Alternatives: *Lo siento muchísimo*, *Mis condolencias*, and in Spain *Te acompaño en el sentimiento*."
+    },
+    {
+      "id": "wish-subjunctive",
+      "type": "text",
+      "prompt": "Complete the wedding toast (to the couple, as *vosotros*):\n\n*¡Que ______ muy felices!* (ser)",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["seáis"],
+      "feedback": [
+        { "match": "sean", "message": "That's correct for *ustedes* — perfect in Latin America. The exercise asks for *vosotros*." },
+        { "match": "sois", "message": "Not yet — a wish introduced by *que* takes the subjunctive." },
+        { "match": "seréis", "message": "Not yet — that's a prediction. A wish with *que* takes the present subjunctive." }
+      ],
+      "hints": [
+        "Wishes with *que* take the present subjunctive.",
+        "Present subjunctive of *ser*, *vosotros*: it carries an accent."
+      ],
+      "solution": "**seáis.** *¡Que seáis muy felices!* — the classic wedding wish in Spain. With *ustedes*: *¡Que sean muy felices!* Other toast wishes: *¡Que lo disfrutes!*, *¡Que se repita!*, *¡Que cumplas muchos más!*"
+    },
+    {
+      "id": "exordio",
+      "type": "choice",
+      "prompt": "What is the job of the **exordio**?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "To open the speech: greet, thank and win the audience's goodwill, then hook their attention.", "correct": true, "feedback": "Yes — classical rhetoric called the goodwill part *captatio benevolentiae*." },
+        { "id": "b", "label": "To present the main arguments with evidence.", "correct": false, "feedback": "Not yet — that is the *argumentación*." },
+        { "id": "c", "label": "To summarise and close with an emotional appeal.", "correct": false, "feedback": "Not yet — that is the *peroración*." },
+        { "id": "d", "label": "To answer questions from the audience.", "correct": false, "feedback": "Not yet — that comes after the speech, in the *turno de preguntas*." }
+      ],
+      "hints": [
+        "The classical speech has four parts: *exordio*, *narración*, *argumentación*, *peroración*.",
+        "The *exordio* comes first."
+      ],
+      "solution": "The **exordio** opens the speech. Rosa's begins by greeting everyone present — companions, teachers, families — before a single word of content. The classical parts that follow are the *narración* (the situation), the *argumentación* (the points) and the *peroración* (the close)."
+    },
+    {
+      "id": "where-pause",
+      "type": "choice",
+      "prompt": "You are marking a script for delivery. Which pause marking is **best**?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Hace tres años / la mayoría de nosotros / entró por esa puerta con miedo. //", "correct": true, "feedback": "Yes — pauses fall between units of meaning: the time phrase, the long subject, the predicate." },
+        { "id": "b", "label": "Hace tres / años la mayoría / de nosotros entró por / esa puerta con miedo. //", "correct": false, "feedback": "Not yet — these pauses split *tres años*, *la mayoría de nosotros* and *por esa puerta*, which belong together." },
+        { "id": "c", "label": "Hace tres años la / mayoría de nosotros entró por esa / puerta con miedo. //", "correct": false, "feedback": "Not yet — never pause between an article or demonstrative and its noun (*la / mayoría*, *esa / puerta*)." },
+        { "id": "d", "label": "Hace / tres / años / la / mayoría / de / nosotros… //", "correct": false, "feedback": "Not yet — pausing after every word destroys the breath groups and the meaning." }
+      ],
+      "hints": [
+        "Breath groups (*grupos fónicos*) follow units of meaning.",
+        "Never separate an article from its noun or a preposition from its object."
+      ],
+      "solution": "**A.** Pauses belong between units of meaning: after an introductory phrase (*Hace tres años*), after a long subject (*la mayoría de nosotros*), and at the end of the sentence (long pause). Option C breaks *la mayoría* and *esa puerta* — the commonest delivery error."
+    },
+    {
+      "id": "eulogy-register",
+      "type": "choice",
+      "prompt": "Which sentence would be **out of place** in a short eulogy for a grandfather?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Bueno, pues, o sea, el abuelo era un tío superguay, ¿vale?", "correct": true, "feedback": "Yes, this is the one — muletillas and slang clash with the occasion, even if the feeling is sincere." },
+        { "id": "b", "label": "Mi abuelo no era hombre de discursos, así que seré breve.", "correct": false, "feedback": "Not this one — it's a natural, warm opening that fits the person and the occasion." },
+        { "id": "c", "label": "Abuelo, gracias por todo. Descansa en paz.", "correct": false, "feedback": "Not this one — an apostrophe to the person remembered is a classic, fitting close." },
+        { "id": "d", "label": "Arreglaba relojes, bicicletas y sillas cojas.", "correct": false, "feedback": "Not this one — a concrete detail says more than a list of virtues." }
+      ],
+      "hints": [
+        "A eulogy is warm and personal, but not colloquial.",
+        "Look for fillers and slang."
+      ],
+      "solution": "**A.** A eulogy can be simple, warm and even gently humorous, but strings of muletillas (*bueno, pues, o sea*) and slang (*tío*, *superguay*, *¿vale?*) undermine it. The other three sentences show what works: brevity, concrete detail, and a farewell addressed to the person."
+    },
+    {
+      "id": "closing-part",
+      "type": "text",
+      "prompt": "Give the Spanish name of the classical **final part** of a speech, where the speaker sums up and appeals to the audience's feelings.",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["peroración", "la peroración", "el epílogo", "epílogo"],
+      "feedback": [
+        { "match": "conclusión", "message": "That's the everyday word, and it's not wrong — but the exercise asks for the classical rhetorical term. It begins with *per-*." },
+        { "match": "exordio", "message": "Not yet — the *exordio* is the opening." }
+      ],
+      "hints": [
+        "It begins with *per-* and ends in *-ción*.",
+        "From Latin *peroratio*."
+      ],
+      "solution": "**peroración** (also *epílogo*). The classical close sums up, moves the audience and often echoes the opening — as Rosa does: *Hace tres años entramos por esa puerta con miedo. Esta noche salimos por ella con la cabeza alta.*"
+    },
+    {
+      "id": "best-closing",
+      "type": "choice",
+      "prompt": "Your speech for a community garden's opening began: *Hace un año, este solar era un aparcamiento vacío.* Which closing sentence is most effective?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Hace un año, este solar era un aparcamiento vacío. Hoy es un huerto lleno de vida — y es de todos.", "correct": true, "feedback": "Yes — it echoes the opening, sets up an antithesis (empty / full of life), and ends on the key idea." },
+        { "id": "b", "label": "Bueno, pues eso es todo, creo. Gracias.", "correct": false, "feedback": "Not yet — it trails off. A close should land, not fade." },
+        { "id": "c", "label": "Para terminar, quiero recordar las cifras del presupuesto: 3200 euros en semillas, 1800 en herramientas…", "correct": false, "feedback": "Not yet — figures belong in the body (or a handout); the close should be remembered, not noted down." },
+        { "id": "d", "label": "En conclusión, como ya he dicho, en resumen, para acabar, termino.", "correct": false, "feedback": "Not yet — five closing signposts and no content." }
+      ],
+      "hints": [
+        "Good closings often return to the opening.",
+        "Look for an antithesis between 'then' and 'now'."
+      ],
+      "solution": "**A.** Echoing the opening (*Hace un año…*) frames the speech; the antithesis *aparcamiento vacío / huerto lleno de vida* shows the change; and the final short phrase (*y es de todos*) gives the audience the idea to take home."
+    }
+  ]
+}

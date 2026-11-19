@@ -1,0 +1,341 @@
+{
+  "lesson": "opinions-and-debate",
+  "exercises": [
+    {
+      "id": "girl-next-door",
+      "type": "choice",
+      "prompt": "Complete: *La chica ___ vive al lado es enfermera.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "que",
+          "correct": true,
+          "feedback": "Yes. *Que* is the normal relative for a subject, person or thing, with no commas."
+        },
+        {
+          "id": "b",
+          "label": "quien",
+          "correct": false,
+          "feedback": "Not yet — *quien* isn't used as the subject of a relative clause without commas. Use *que*."
+        },
+        {
+          "id": "c",
+          "label": "lo que",
+          "correct": false,
+          "feedback": "Not yet — *lo que* refers to an idea, not to a person."
+        },
+        {
+          "id": "d",
+          "label": "cuya",
+          "correct": false,
+          "feedback": "Not yet — *cuya* means \"whose\" and needs a noun after it."
+        }
+      ],
+      "hints": [
+        "The relative refers to *la chica* and is the subject of *vive*.",
+        "The all-purpose relative works here."
+      ],
+      "solution": "The clause *___ vive al lado* describes *la chica*, and the relative is its subject. With no commas and no preposition, Spanish uses **que**: *La chica **que** vive al lado es enfermera.*"
+    },
+    {
+      "id": "friend-concert",
+      "type": "choice",
+      "prompt": "Complete: *El amigo con ___ fui al concierto se llama Tomás.* Choose all that are correct.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "quien",
+          "correct": true,
+          "feedback": "Yes. After a preposition, *quien* is correct for a person."
+        },
+        {
+          "id": "b",
+          "label": "el que",
+          "correct": true,
+          "feedback": "Yes. After a preposition, article + *que* agreeing with *el amigo* works too."
+        },
+        {
+          "id": "c",
+          "label": "que",
+          "correct": false,
+          "feedback": "Not yet — after a preposition like *con*, a bare *que* is avoided for people; use *quien* or *el que*."
+        },
+        {
+          "id": "d",
+          "label": "la que",
+          "correct": false,
+          "feedback": "Not yet — the article must agree with *el amigo*: *el que*."
+        }
+      ],
+      "hints": [
+        "What comes before the gap?",
+        "After a preposition, use *quien* (people) or article + *que*, agreeing in gender and number."
+      ],
+      "solution": "After a preposition, Spanish uses **quien** (for people) or **article + que**, with the article agreeing with the noun: *El amigo con **quien** fui…* or *El amigo con **el que** fui…*. Both are correct. *La que* would need a feminine noun.",
+      "multiple": true
+    },
+    {
+      "id": "dont-understand-what",
+      "type": "text",
+      "prompt": "Fill the gap (two words): *No entiendo ___ dices.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "lo que"
+      ],
+      "lang": "es",
+      "hints": [
+        "English says \"what you're saying\". Spanish needs a relative for \"the thing that\".",
+        "It is made of an article and *que*."
+      ],
+      "solution": "\"What\" meaning \"the thing that\" is **lo que**: *No entiendo **lo que** dices.* (*Qué* with an accent would make it an indirect question: *No entiendo qué dices* is also heard, but *lo que* is the relative this exercise practises.)",
+      "feedback": [
+        {
+          "match": "que",
+          "message": "Not yet — *que* alone needs a noun before it. For \"what\" (the thing that), use *lo que*."
+        }
+      ]
+    },
+    {
+      "id": "author-novels",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *cuyo*: *La autora, ___ novelas he leído todas, firma libros en la feria.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "cuyas"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Cuyo* agrees with the thing possessed, not with the owner.",
+        "What is possessed here? *novelas*: feminine plural."
+      ],
+      "solution": "*Cuyo* agrees with what is owned. The novels (*novelas*) are feminine plural, so: **cuyas**. *La autora, **cuyas** novelas he leído todas, firma libros en la feria.* It doesn't matter that *la autora* is singular.",
+      "feedback": [
+        {
+          "match": "cuya",
+          "message": "Almost — *cuyo* agrees with the thing possessed, *novelas*, which is plural: *cuyas*."
+        }
+      ]
+    },
+    {
+      "id": "village-grandfather",
+      "type": "text",
+      "prompt": "Fill the gap with a relative of place: *El pueblo ___ nació mi abuelo está en Galicia.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "donde",
+        "en el que",
+        "en que",
+        "en el cual"
+      ],
+      "lang": "es",
+      "hints": [
+        "The relative refers to a place.",
+        "One word does it, or a preposition + article + *que*."
+      ],
+      "solution": "For a place, use **donde** (no accent, since it isn't a question): *El pueblo **donde** nació mi abuelo está en Galicia.* *En el que* (or *en el cual*) is an equally correct alternative.",
+      "feedback": [
+        {
+          "match": "dónde",
+          "message": "Almost — as a relative (not a question), *donde* has no accent."
+        }
+      ]
+    },
+    {
+      "id": "translate-agree",
+      "type": "text",
+      "prompt": "Translate into Spanish, speaking to a friend (*tú*): *I agree with you.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "yo estoy de acuerdo contigo",
+        "estoy de acuerdo contigo",
+        "yo coincido contigo",
+        "coincido contigo"
+      ],
+      "lang": "es",
+      "hints": [
+        "Agreement uses *estar*, not *ser*.",
+        "\"With you\" (*tú*) is a special form: *con* + *ti* becomes one word."
+      ],
+      "solution": "\"To agree\" is ***estar de acuerdo***, always with *estar*. \"With you\" to a friend is *contigo*: ***Estoy de acuerdo contigo.*** To *usted*: *Estoy de acuerdo con usted*. *Coincido contigo* is also correct.",
+      "feedback": [
+        {
+          "match": "soy de acuerdo contigo",
+          "message": "Almost — agreement takes *estar*: *estoy de acuerdo contigo*."
+        },
+        {
+          "match": "estoy de acuerdo con tú",
+          "message": "Almost — *con* + *ti* becomes *contigo*: *estoy de acuerdo contigo*."
+        },
+        {
+          "match": "estoy de acuerdo con ti",
+          "message": "Almost — *con* + *ti* becomes one word: *contigo*."
+        }
+      ]
+    },
+    {
+      "id": "polite-disagree",
+      "type": "choice",
+      "prompt": "At a work meeting, a colleague you respect proposes moving all meetings to 8 a.m. You disagree. Which response is the most natural and polite?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Entiendo tu punto de vista, pero yo no lo veo así: a esa hora mucha gente está llevando a sus hijos al colegio.",
+          "correct": true,
+          "feedback": "Yes. It acknowledges the other view, disagrees gently and gives a reason."
+        },
+        {
+          "id": "b",
+          "label": "¡Ni hablar! Es una idea terrible.",
+          "correct": false,
+          "feedback": "Not quite — *¡Ni hablar!* is strong and fine among friends, but blunt for a meeting."
+        },
+        {
+          "id": "c",
+          "label": "No estoy de acuerdo porque no.",
+          "correct": false,
+          "feedback": "Not quite — it's correct Spanish but gives no reason, which sounds dismissive."
+        },
+        {
+          "id": "d",
+          "label": "Soy de acuerdo, pero no.",
+          "correct": false,
+          "feedback": "Not yet — agreement uses *estar*, and the sentence contradicts itself."
+        }
+      ],
+      "hints": [
+        "Look for an option that acknowledges the other person's view before disagreeing.",
+        "A reason makes disagreement more polite."
+      ],
+      "solution": "**a** follows the polite pattern: acknowledge (*Entiendo tu punto de vista*), disagree softly (*pero yo no lo veo así*) and give a reason. **b** is too blunt for a meeting, **c** gives no reason, and **d** is ungrammatical (*estoy de acuerdo*) and contradictory."
+    },
+    {
+      "id": "job-lets-me-travel",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *permitir*: *Busco un trabajo que me ___ viajar.* (any job like that, if one exists)",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "permita"
+      ],
+      "lang": "es",
+      "hints": [
+        "Does the job already exist and is it known, or is it something you're looking for?",
+        "An unknown or hypothetical antecedent takes the subjunctive."
+      ],
+      "solution": "The speaker is looking for **any** job with this feature; it isn't a specific, known one. A relative clause about an unknown or hypothetical noun takes the **subjunctive**: *permitir* → *permita*. *Busco un trabajo que me **permita** viajar.* Compare: *Tengo un trabajo que me **permite** viajar* (a real job, indicative).",
+      "feedback": [
+        {
+          "match": "permite",
+          "message": "Not yet — *permite* would describe a specific job you know. For one you're still looking for, use the subjunctive: *permita*."
+        }
+      ]
+    },
+    {
+      "id": "seems-unfair",
+      "type": "choice",
+      "prompt": "Complete: *Me parece injusto que los vecinos no ___ votar.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "pueden",
+          "correct": false,
+          "feedback": "Not yet — *me parece injusto que* judges the situation, like an emotion, so it takes the subjunctive."
+        },
+        {
+          "id": "b",
+          "label": "puedan",
+          "correct": true,
+          "feedback": "Yes. *Me parece bien / mal / injusto que* evaluates something and takes the subjunctive."
+        },
+        {
+          "id": "c",
+          "label": "poder",
+          "correct": false,
+          "feedback": "Not yet — with a different subject (*los vecinos*) you need *que* + a conjugated verb."
+        }
+      ],
+      "hints": [
+        "Is the speaker stating an opinion about what's true, or judging a situation?",
+        "Compare *me parece que* (indicative) and *me parece injusto que*."
+      ],
+      "solution": "*Me parece que* + indicative states an opinion about what is true. *Me parece **injusto** que*, like *me parece bien/mal que*, **evaluates** a situation, and evaluation works like emotion: subjunctive. *Me parece injusto que los vecinos no **puedan** votar.*"
+    },
+    {
+      "id": "neighbour-dog",
+      "type": "text",
+      "prompt": "Join the two sentences with *cuyo*: *Tengo una vecina. Su perro ladra toda la noche.* → *Tengo una vecina ___ perro ladra toda la noche.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "answers": [
+        "cuyo"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Su perro* becomes *cuyo/cuya + perro*.",
+        "*Cuyo* agrees with the dog, not with the neighbour."
+      ],
+      "solution": "*Su* (her) becomes the relative \"whose\", **cuyo**, which agrees with the thing possessed, *perro* (masculine singular): *Tengo una vecina **cuyo** perro ladra toda la noche.* The neighbour being a woman doesn't matter.",
+      "feedback": [
+        {
+          "match": "cuya",
+          "message": "Almost — *cuyo* agrees with *perro* (what is owned), not with *la vecina*: *cuyo*."
+        },
+        {
+          "match": "que su",
+          "message": "That's heard in speech, but it isn't standard. Use *cuyo*."
+        }
+      ]
+    },
+    {
+      "id": "house-grew-up",
+      "type": "choice",
+      "prompt": "Which are correct translations of *the house I grew up in*? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "la casa en la que crecí",
+          "correct": true,
+          "feedback": "Yes. The preposition comes before the relative, and *la* agrees with *casa*."
+        },
+        {
+          "id": "b",
+          "label": "la casa que crecí en",
+          "correct": false,
+          "feedback": "Not yet — Spanish can't leave a preposition at the end."
+        },
+        {
+          "id": "c",
+          "label": "la casa donde crecí",
+          "correct": true,
+          "feedback": "Yes. *Donde* works for places and is very natural here."
+        },
+        {
+          "id": "d",
+          "label": "la casa crecí en",
+          "correct": false,
+          "feedback": "Not yet — Spanish never drops the relative, and the preposition can't go at the end."
+        }
+      ],
+      "hints": [
+        "English puts \"in\" at the end; where must it go in Spanish?",
+        "*Donde* can replace *en el que / en la que* for places."
+      ],
+      "solution": "Spanish puts the preposition **before** the relative and never omits the relative. So: ***la casa en la que crecí*** (or *en que*, *en la cual*), or with *donde*, ***la casa donde crecí***. Options **b** and **d** copy the English word order.",
+      "multiple": true
+    }
+  ]
+}

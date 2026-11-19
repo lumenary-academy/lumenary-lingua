@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "id": "spanish",
+  "division": "lingua",
+  "title": "Spanish, taught in English",
+  "subtitle": "From your first *hola* to near-native Spanish: six levels, A1 to C2, for English speakers.",
+  "description": [
+    "This course teaches Spanish to people who already speak English, from complete beginner (A1) to mastery (C2), following the six levels of the Common European Framework of Reference for Languages ([CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages)). Each level has six lessons, and each lesson brings vocabulary, one or two points of grammar explained in English, an original dialogue or text, notes on pronunciation and culture, and exercises that check your answers as you type.",
+    "Spanish is spoken by about 500 million people as a first language, across Spain, Latin America, Equatorial Guinea and the United States. The lessons teach a broadly neutral Spanish and point out where Spain and Latin America differ. Words and phrases marked with a speaker icon can be read aloud by your browser's own voice, when it has a Spanish one; nothing is sent anywhere.",
+    "Every lesson was drafted with AI assistance and is awaiting review by a human teacher of Spanish. The dialogues, texts and exercises are original; literary passages are from works in the public domain. A course alone won't make you fluent: listen to and speak with real people as early as you can."
+  ],
+  "locale": "en",
+  "learn": "es",
+  "ui": {
+    "levels": "Levels",
+    "lesson": "Lesson",
+    "lessons": "lessons",
+    "minutes": "min",
+    "objectives": "In this lesson you will",
+    "prerequisites": "Builds on",
+    "none": "Nothing: start here.",
+    "references": "Further reading and resources",
+    "previous": "Previous",
+    "next": "Next",
+    "contents": "In this lesson",
+    "aiDrafted": "AI-drafted",
+    "awaitingReview": "Awaiting review by a Spanish teacher",
+    "backTo": "Back to"
+  },
+  "levels": [
+    {
+      "id": "a1",
+      "short": "A1",
+      "title": "Beginner",
+      "summary": "Your first Spanish: sounds and greetings, saying who you are, numbers and time, family, daily routines, food and finding your way.",
+      "lessons": [
+        "sounds-and-greetings",
+        "who-you-are",
+        "numbers-and-time",
+        "family-and-descriptions",
+        "daily-routine",
+        "food-and-places"
+      ]
+    },
+    {
+      "id": "a2",
+      "short": "A2",
+      "title": "Elementary",
+      "summary": "Talking about the past and the future, health, home and town, and comparing things: everyday life beyond the present tense.",
+      "lessons": [
+        "what-happened",
+        "trips-and-irregular-pasts",
+        "when-i-was-young",
+        "plans-and-future",
+        "body-health-and-commands",
+        "home-town-and-comparisons"
+      ]
+    },
+    {
+      "id": "b1",
+      "short": "B1",
+      "title": "Intermediate",
+      "summary": "Telling stories, giving advice, expressing wishes, feelings and doubt with the subjunctive, imagining, and giving opinions at work and in the news.",
+      "lessons": [
+        "telling-a-story",
+        "wishes-and-advice",
+        "feelings-and-doubt",
+        "work-and-hypotheses",
+        "news-and-experiences",
+        "opinions-and-debate"
+      ]
+    },
+    {
+      "id": "b2",
+      "short": "B2",
+      "title": "Upper intermediate",
+      "summary": "Hypothetical and complex sentences, reporting what others said, impersonal and passive structures, formal writing and the variety of the Spanish-speaking world.",
+      "lessons": [
+        "if-i-were",
+        "conditions-and-time-clauses",
+        "science-and-the-impersonal",
+        "reported-speech",
+        "formal-writing",
+        "regional-spanish"
+      ]
+    },
+    {
+      "id": "c1",
+      "short": "C1",
+      "title": "Advanced",
+      "summary": "Argument and nuance: connectors, the finer points of tense and mood, literature, professional and academic Spanish, humour and the language of the media.",
+      "lessons": [
+        "argument-and-connectors",
+        "nuances-of-mood-and-aspect",
+        "reading-literature",
+        "professional-and-academic",
+        "humour-and-colloquial-speech",
+        "media-and-rhetoric"
+      ]
+    },
+    {
+      "id": "c2",
+      "short": "C2",
+      "title": "Mastery",
+      "summary": "Near-native control: style and register, translation pitfalls, the language of the Golden Age, dialects and society, rhetoric, and writing with precision.",
+      "lessons": [
+        "style-and-register",
+        "translation-pitfalls",
+        "golden-age-spanish",
+        "dialects-and-society",
+        "oratory",
+        "writing-with-precision"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Diccionario de la lengua española",
+      "author": "Real Academia Española and ASALE",
+      "url": "https://dle.rae.es/",
+      "note": "The standard dictionary of Spanish, free online."
+    },
+    {
+      "title": "Centro Virtual Cervantes",
+      "author": "Instituto Cervantes",
+      "url": "https://cvc.cervantes.es/",
+      "note": "Free resources for learners and teachers of Spanish."
+    },
+    {
+      "title": "Common European Framework of Reference for Languages (CEFR)",
+      "author": "Council of Europe",
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages"
+    },
+    {
+      "title": "DELE and SIELE exams",
+      "author": "Instituto Cervantes",
+      "url": "https://examenes.cervantes.es/",
+      "note": "The official exams that certify each level of Spanish."
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "lesson": "ingles-formal",
+  "exercises": [
+    {
+      "id": "yours-faithfully",
+      "type": "choice",
+      "prompt": "Escribes una carta formal a una empresa británica que empieza con *Dear Sir or Madam,*. ¿Cómo la terminas?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Yours faithfully,",
+          "correct": true,
+          "feedback": "Sí. En el inglés británico, *Dear Sir or Madam* se cierra con *Yours faithfully*."
+        },
+        {
+          "id": "b",
+          "label": "Yours sincerely,",
+          "correct": false,
+          "feedback": "Casi: *Yours sincerely* es para cuando escribes al destinatario por su nombre (*Dear Ms Okafor*)."
+        },
+        {
+          "id": "c",
+          "label": "Lots of love,",
+          "correct": false,
+          "feedback": "Todavía no. Es una despedida para familia y amigos íntimos."
+        },
+        {
+          "id": "d",
+          "label": "Cheers,",
+          "correct": false,
+          "feedback": "Todavía no. *Cheers* es muy informal, propio de mensajes entre conocidos en Reino Unido."
+        }
+      ],
+      "hints": [
+        "No sabes el nombre del destinatario.",
+        "La regla británica: sin nombre, *faithfully*; con nombre, *sincerely*."
+      ],
+      "solution": "**Yours faithfully,**\n\nEn la convención británica, una carta a un destinatario desconocido (*Dear Sir or Madam*) termina con *Yours faithfully*; una carta a una persona con nombre (*Dear Ms Okafor*), con *Yours sincerely*. En EE. UU. se usa *Sincerely* en los dos casos."
+    },
+    {
+      "id": "yours-sincerely",
+      "type": "choice",
+      "prompt": "Tu correo formal empieza con *Dear Mr Adeyemi,* y sigues las convenciones británicas. ¿Qué despedida es la más adecuada?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Yours sincerely,",
+          "correct": true,
+          "feedback": "Sí. Con un nombre en el saludo, *Yours sincerely*."
+        },
+        {
+          "id": "b",
+          "label": "Yours faithfully,",
+          "correct": false,
+          "feedback": "Todavía no. *Yours faithfully* va tras *Dear Sir or Madam*, cuando no conoces el nombre."
+        },
+        {
+          "id": "c",
+          "label": "See you,",
+          "correct": false,
+          "feedback": "Todavía no. Es una despedida oral e informal."
+        }
+      ],
+      "hints": [
+        "Esta vez sí conoces el nombre.",
+        "*S* de *surname*: *sincerely* va con apellido."
+      ],
+      "solution": "**Yours sincerely,**\n\nSi el saludo lleva el nombre de la persona, la despedida formal británica es *Yours sincerely*. Un truco para recordarlo: ***s**incerely* con ***s**urname* (apellido). En un correo menos solemne, *Kind regards* también sería adecuado."
+    },
+    {
+      "id": "formaliza-wifi",
+      "type": "text",
+      "prompt": "Reescribe la frase en registro formal, empezando con *I would like to know…*:\n\n*I want to know if the room has wifi.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I would like to know whether the room has wifi",
+        "I would like to know whether the room has Wi-Fi",
+        "I would like to know whether the room has wi-fi",
+        "I would like to know whether the room has internet access",
+        "I would like to know whether the room has an internet connection",
+        "I would like to know if the room has wifi",
+        "I would like to know if the room has Wi-Fi",
+        "I would like to know if the room has wi-fi",
+        "I would like to know if the room has internet access",
+        "I would like to know if the room has an internet connection",
+        "I'd like to know whether the room has wifi",
+        "I'd like to know whether the room has Wi-Fi",
+        "I'd like to know whether the room has wi-fi",
+        "I'd like to know whether the room has internet access",
+        "I'd like to know whether the room has an internet connection",
+        "I'd like to know if the room has wifi",
+        "I'd like to know if the room has Wi-Fi",
+        "I'd like to know if the room has wi-fi",
+        "I'd like to know if the room has internet access",
+        "I'd like to know if the room has an internet connection"
+      ],
+      "feedback": [
+        {
+          "match": "I would like to know does the room have wifi",
+          "message": "Casi: después de *I would like to know*, la pregunta es indirecta y va en orden de afirmación: *whether the room has wifi*."
+        }
+      ],
+      "hints": [
+        "*I want* → *I would like*.",
+        "Pregunta indirecta: *whether* (o *if*) + sujeto + verbo."
+      ],
+      "solution": "**I would like to know whether the room has wifi.**\n\n*I would like* es más educado que *I want*, y *whether* es algo más formal que *if* en las preguntas indirectas. Recuerda el orden de afirmación de *El estilo indirecto*: *whether the room has*, no *does the room have*. Se escribe *wifi* o *Wi-Fi*."
+    },
+    {
+      "id": "quedo-a-la-espera",
+      "type": "text",
+      "prompt": "Traduce el cierre clásico de un correo formal:\n\n**Quedo a la espera de su respuesta.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I look forward to hearing from you",
+        "I look forward to your reply",
+        "I look forward to your response",
+        "I look forward to receiving your reply",
+        "I look forward to receiving your response",
+        "I am looking forward to hearing from you",
+        "I'm looking forward to hearing from you",
+        "I look forward to hearing from you soon"
+      ],
+      "feedback": [
+        {
+          "match": "Waiting for your answer",
+          "message": "Casi: es un calco que suena incompleto en inglés. La fórmula habitual empieza por *I look forward to…*"
+        },
+        {
+          "match": "I look forward to hear from you",
+          "message": "Casi: en *look forward to*, *to* es preposición, así que va seguido de *-ing*: *hearing*."
+        }
+      ],
+      "hints": [
+        "La fórmula empieza con *I look forward to…*",
+        "Después de *to* (preposición), *-ing*: *hearing from you*."
+      ],
+      "solution": "**I look forward to hearing from you.**\n\nEs el cierre estándar de un correo o una carta formal. En presente simple suena más formal que *I'm looking forward to…*, que es más cálido. Y recuerda lo que viste en *Gerundios e infinitivos*: *to* aquí es preposición, así que *hearing*."
+    },
+    {
+      "id": "currently-falso-amigo",
+      "type": "choice",
+      "prompt": "En tu carta de presentación quieres decir **Actualmente trabajo como jefa de proyecto en Lima.**\n\n*___, I work as a project manager in Lima.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Currently",
+          "correct": true,
+          "feedback": "Sí. *Currently* (o *At present*) = actualmente."
+        },
+        {
+          "id": "b",
+          "label": "Actually",
+          "correct": false,
+          "feedback": "Todavía no. *Actually* significa «en realidad», y daría a entender que corriges algo que se dijo antes."
+        },
+        {
+          "id": "c",
+          "label": "Actually now",
+          "correct": false,
+          "feedback": "Todavía no. *Actually* sigue significando «en realidad»."
+        }
+      ],
+      "hints": [
+        "*Actually* es un falso amigo.",
+        "Busca el adverbio que significa «en este momento»."
+      ],
+      "solution": "**Currently**: *Currently, I work as a project manager in Lima.*\n\n*Actually* significa «en realidad, de hecho» (*Actually, I'm from Peru, not Chile*). Para «actualmente», usa *currently* o *at present*. También es muy natural *I am currently working as…*"
+    },
+    {
+      "id": "asisti-reunion",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Asistí a una reunión con el cliente.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I attended a meeting with the client",
+        "I attended a meeting with the customer",
+        "I attended a meeting with a client",
+        "I attended a meeting with our client",
+        "I went to a meeting with the client",
+        "I went to a meeting with the customer",
+        "I went to a meeting with a client",
+        "I went to a meeting with our client"
+      ],
+      "feedback": [
+        {
+          "match": "I assisted to a meeting with the client",
+          "message": "Casi: *assist* es «ayudar», un falso amigo. «Asistir a» es *attend*, y sin *to*."
+        },
+        {
+          "match": "I attended to a meeting with the client",
+          "message": "Casi: *attend* (asistir) va sin preposición: *attend a meeting*."
+        }
+      ],
+      "hints": [
+        "*Asistir a* es un falso amigo.",
+        "*Attend* + lugar o evento, sin preposición."
+      ],
+      "solution": "**I attended a meeting with the client.**\n\n*Attend* significa asistir a algo y va directamente seguido del evento (*attend a meeting, attend a course*). *Assist* significa ayudar. En la conversación también es natural *I went to a meeting with the client*."
+    },
+    {
+      "id": "postpone-formal",
+      "type": "choice",
+      "prompt": "En un correo formal a un cliente: *Unfortunately, we will need to ___ the meeting until next week.* ¿Qué verbo es el más adecuado?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "postpone",
+          "correct": true,
+          "feedback": "Sí. Es el verbo latino, propio del registro formal."
+        },
+        {
+          "id": "b",
+          "label": "put off",
+          "correct": false,
+          "feedback": "Significa lo mismo y es correcto, pero es más coloquial. En un correo formal a un cliente, el verbo latino suena mejor."
+        },
+        {
+          "id": "c",
+          "label": "call off",
+          "correct": false,
+          "feedback": "Todavía no. *Call off* es cancelar, y la reunión no se cancela: se pasa a la semana siguiente."
+        }
+      ],
+      "hints": [
+        "Busca el registro formal: verbo de origen latino.",
+        "Ojo con el significado: no es cancelar."
+      ],
+      "solution": "**postpone**: *We will need to postpone the meeting until next week.*\n\n*Put off* significa lo mismo, pero en un correo formal a un cliente se prefiere el verbo latino. *Call off* cambia el sentido: sería cancelar."
+    },
+    {
+      "id": "desacuerdo-diplomatico",
+      "type": "choice",
+      "prompt": "En una reunión, un compañero propone cambiar de proveedor. No estás de acuerdo. ¿Qué respuesta es la más diplomática?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "I see your point, but I'm not sure that's the best option right now.",
+          "correct": true,
+          "feedback": "Sí. Reconoce la idea del otro y presenta tu desacuerdo con suavidad."
+        },
+        {
+          "id": "b",
+          "label": "You're wrong.",
+          "correct": false,
+          "feedback": "Todavía no. Es demasiado directo para una reunión profesional en inglés."
+        },
+        {
+          "id": "c",
+          "label": "That's a terrible idea.",
+          "correct": false,
+          "feedback": "Todavía no. Ataca la propuesta en lugar de discutirla."
+        },
+        {
+          "id": "d",
+          "label": "With all due respect, no.",
+          "correct": false,
+          "feedback": "Todavía no. *With all due respect* suele anunciar un desacuerdo fuerte y, con un *no* seco, suena hostil."
+        }
+      ],
+      "hints": [
+        "Reconoce primero lo que dice el otro.",
+        "Usa una expresión que suavice: *I'm not sure*, *perhaps*."
+      ],
+      "solution": "**I see your point, but I'm not sure that's the best option right now.**\n\nEn el inglés profesional, el desacuerdo se suaviza: primero se reconoce la postura del otro (*I see your point*) y luego se presenta la propia como una duda (*I'm not sure…*). Ni el desacuerdo directo ni *With all due respect* funcionan bien en una reunión."
+    },
+    {
+      "id": "peticion-educada",
+      "type": "text",
+      "prompt": "Convierte esta orden en una petición educada y profesional:\n\n*Send me the report by Friday.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Could you send me the report by Friday",
+        "Could you please send me the report by Friday",
+        "Could you send me the report by Friday, please",
+        "Would you send me the report by Friday",
+        "Would you please send me the report by Friday",
+        "Would you be able to send me the report by Friday",
+        "Could you possibly send me the report by Friday",
+        "I would be grateful if you could send me the report by Friday",
+        "I'd be grateful if you could send me the report by Friday",
+        "Please could you send me the report by Friday",
+        "Would you mind sending me the report by Friday",
+        "Please send me the report by Friday"
+      ],
+      "hints": [
+        "Empieza con *Could you…?* o *I would be grateful if you could…*",
+        "Las peticiones indirectas suenan más educadas que el imperativo."
+      ],
+      "solution": "**Could you (please) send me the report by Friday?** o, más formal, **I would be grateful if you could send me the report by Friday.**\n\nEn inglés, el imperativo suena brusco en un contexto profesional. Una pregunta con *could* o una petición con *I would be grateful if…* suaviza la orden sin perder claridad."
+    },
+    {
+      "id": "fecha-ee-uu",
+      "type": "choice",
+      "prompt": "Un colega de Chicago escribe: *The deadline is 03/04/2027.* ¿Cuál es el plazo?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "El 4 de marzo de 2027.",
+          "correct": true,
+          "feedback": "Sí. En EE. UU. el orden es mes/día/año."
+        },
+        {
+          "id": "b",
+          "label": "El 3 de abril de 2027.",
+          "correct": false,
+          "feedback": "Así lo leería un británico (o un hispanohablante), pero en EE. UU. el mes va primero."
+        }
+      ],
+      "hints": [
+        "Tu colega es estadounidense.",
+        "En EE. UU., el mes va antes que el día."
+      ],
+      "solution": "**El 4 de marzo de 2027.**\n\nEn EE. UU. se escribe mes/día/año; en Reino Unido y en el mundo hispanohablante, día/mes/año. Para evitar malentendidos en un contexto internacional, escribe el mes con letras: *4 March 2027* o *March 4, 2027*."
+    },
+    {
+      "id": "please-find-attached",
+      "type": "text",
+      "prompt": "Completa la fórmula con una palabra:\n\n*Please find ___ my CV and a cover letter.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "attached",
+        "enclosed"
+      ],
+      "hints": [
+        "Hablas de archivos que van con el correo.",
+        "El adjetivo de *attach* (adjuntar)."
+      ],
+      "solution": "**attached**: *Please find attached my CV and a cover letter.*\n\nEs la fórmula estándar para los archivos adjuntos de un correo. En una carta en papel se usa *enclosed* (adjunto en el sobre). Una alternativa menos formal y más directa es *I have attached my CV*."
+    }
+  ]
+}

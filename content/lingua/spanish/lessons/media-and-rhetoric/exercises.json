@@ -1,0 +1,382 @@
+{
+  "lesson": "media-and-rhetoric",
+  "exercises": [
+    {
+      "id": "headline-present",
+      "type": "choice",
+      "prompt": "Today's paper has the headline *El Congreso aprueba la reforma de las pensiones.* When did the vote most likely take place?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Yesterday — headlines use the present for recent past events.",
+          "correct": true,
+          "feedback": "Yes — the 'headline present' gives immediacy to something that has already happened."
+        },
+        {
+          "id": "b",
+          "label": "Right now, as you read.",
+          "correct": false,
+          "feedback": "Not yet — a printed paper reports what already happened; the present is a convention of headlines."
+        },
+        {
+          "id": "c",
+          "label": "In the future.",
+          "correct": false,
+          "feedback": "Not yet — planned events usually take the future in headlines: *El Congreso aprobará…*"
+        },
+        {
+          "id": "d",
+          "label": "It happens every year.",
+          "correct": false,
+          "feedback": "Not yet — this isn't a habitual present; it's the headline convention for a recent event."
+        }
+      ],
+      "hints": [
+        "Headlines have their own tense conventions.",
+        "Compare *El metro cerrará tres estaciones en agosto*, a planned event."
+      ],
+      "solution": "**Yesterday.** Spanish headlines put recent past events in the present for immediacy; the body of the article switches to the past: *El Congreso aprobó ayer…* Planned events take the future."
+    },
+    {
+      "id": "conditional-rumour",
+      "type": "choice",
+      "prompt": "What does the conditional mean in this headline?\n\n*El exalcalde **habría desviado** fondos públicos a una empresa familiar.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "The former mayor allegedly diverted public funds — the paper hasn't confirmed it.",
+          "correct": true,
+          "feedback": "Yes — the *condicional de rumor* reports an unconfirmed claim."
+        },
+        {
+          "id": "b",
+          "label": "The former mayor would have diverted funds if he had had the chance.",
+          "correct": false,
+          "feedback": "Not yet — there's no *si* clause; in the press, the conditional often marks reported, unverified information."
+        },
+        {
+          "id": "c",
+          "label": "It has been proven that the former mayor diverted funds.",
+          "correct": false,
+          "feedback": "Not yet — if it had been proven, the paper would use the indicative: *desvió*."
+        },
+        {
+          "id": "d",
+          "label": "The former mayor plans to divert funds.",
+          "correct": false,
+          "feedback": "Not yet — *habría desviado* is a compound form referring to the past."
+        }
+      ],
+      "hints": [
+        "There's no condition in the sentence.",
+        "Journalists use this form to report claims they haven't verified."
+      ],
+      "solution": "The *condicional de rumor* means **allegedly / reportedly**. It is very common, but style books often advise against it because it spreads a claim without saying who makes it. Better: *Según la Fiscalía, el exalcalde desvió fondos…*"
+    },
+    {
+      "id": "allegedly",
+      "type": "text",
+      "prompt": "Give the one-word Spanish adverb used in legal and press language for **allegedly**:\n\n*El detenido, ______ implicado en el robo, declaró ayer ante el juez.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "presuntamente",
+        "supuestamente"
+      ],
+      "hints": [
+        "The adjective is *presunto*.",
+        "Add *-mente* to the feminine form."
+      ],
+      "solution": "**presuntamente** (also *supuestamente*, less technical). The press uses *presunto / presuntamente* to respect the presumption of innocence: someone not yet convicted is *el presunto autor*."
+    },
+    {
+      "id": "el-editorial",
+      "type": "text",
+      "prompt": "Complete with the article:\n\n*______ editorial de hoy critica con dureza la nueva ley.*\n\n(The newspaper's own opinion piece.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "el"
+      ],
+      "feedback": [
+        {
+          "match": "la",
+          "message": "Not yet — *la editorial* is a publishing house. The newspaper's opinion piece is masculine."
+        }
+      ],
+      "hints": [
+        "The word changes meaning with its gender.",
+        "*La editorial* publishes books."
+      ],
+      "solution": "**El.** *El editorial* is the newspaper's unsigned piece stating its position; *la editorial* is a publishing house (*la editorial Anagrama*, *la editorial del libro*)."
+    },
+    {
+      "id": "reporting-reconocer",
+      "type": "choice",
+      "prompt": "Which verb suggests that the minister **admitted something unfavourable**?\n\n*La ministra ______ que el proyecto lleva un año de retraso.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "reconoció",
+          "correct": true,
+          "feedback": "Yes — *reconocer* presents the statement as a concession of something negative."
+        },
+        {
+          "id": "b",
+          "label": "afirmó",
+          "correct": false,
+          "feedback": "Not yet — *afirmar* is neutral: she stated it."
+        },
+        {
+          "id": "c",
+          "label": "alegó",
+          "correct": false,
+          "feedback": "Not yet — *alegar* suggests the reporter doubts her, and it fits excuses better than admissions."
+        },
+        {
+          "id": "d",
+          "label": "denunció",
+          "correct": false,
+          "feedback": "Not yet — *denunciar* means she accused someone else of the delay."
+        }
+      ],
+      "hints": [
+        "Which verb means 'to concede, to acknowledge'?",
+        "Its cousin is *admitir*."
+      ],
+      "solution": "**reconoció.** *Reconocer* and *admitir* frame the statement as a concession. The choice of reporting verb is already an interpretation: *afirmó* would be neutral, *alegó* sceptical, *denunció* accusatory."
+    },
+    {
+      "id": "slippery-slope",
+      "type": "choice",
+      "prompt": "Which technique is this, from the op-ed?\n\n*Hoy es la biblioteca; mañana será el centro de salud, y pasado mañana, la escuela.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "pendiente resbaladiza (slippery slope)",
+          "correct": true,
+          "feedback": "Yes — it claims one step will lead to a chain of worse ones, without evidence."
+        },
+        {
+          "id": "b",
+          "label": "argumento ad hominem",
+          "correct": false,
+          "feedback": "Not yet — ad hominem attacks the person; this sentence predicts a chain of consequences."
+        },
+        {
+          "id": "c",
+          "label": "apelación a la mayoría",
+          "correct": false,
+          "feedback": "Not yet — that would be *Todo el mundo sabe que…*"
+        },
+        {
+          "id": "d",
+          "label": "argumento de datos",
+          "correct": false,
+          "feedback": "Not yet — no data are given; that's precisely the weakness."
+        }
+      ],
+      "hints": [
+        "The sentence predicts a series of consequences.",
+        "Is any evidence given that one closure leads to the next?"
+      ],
+      "solution": "**Pendiente resbaladiza.** The writer asserts that closing the library will lead to closing the health centre and the school, but gives no reason to think so. A slippery-slope argument can be valid when each step is supported; here none is."
+    },
+    {
+      "id": "false-dilemma",
+      "type": "choice",
+      "prompt": "Why is this sentence a **falso dilema**?\n\n*O defendemos los servicios públicos ahora, o renunciaremos a ellos para siempre.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "It presents only two options when others exist (reduced hours, a shared building, a mobile library…).",
+          "correct": true,
+          "feedback": "Yes — the *o… o…* structure hides the intermediate options."
+        },
+        {
+          "id": "b",
+          "label": "Because public services are not important.",
+          "correct": false,
+          "feedback": "Not yet — the problem isn't the value of public services but the structure of the argument."
+        },
+        {
+          "id": "c",
+          "label": "Because it uses the future tense.",
+          "correct": false,
+          "feedback": "Not yet — the tense isn't the problem."
+        },
+        {
+          "id": "d",
+          "label": "Because it attacks the councillor personally.",
+          "correct": false,
+          "feedback": "Not yet — that is the ad hominem later in the text."
+        }
+      ],
+      "hints": [
+        "Look at the *o… o…* structure.",
+        "Are there really only two possibilities?"
+      ],
+      "solution": "A **false dilemma** reduces a range of options to two, one of them unacceptable. Between 'defend everything now' and 'lose it forever' lie many options: keeping the library with fewer hours, sharing a building, a mobile service. Naming them is the best answer to a false dilemma."
+    },
+    {
+      "id": "hidden-agent",
+      "type": "choice",
+      "prompt": "Which headline **hides who was responsible** most completely?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Muere un manifestante durante la protesta.",
+          "correct": true,
+          "feedback": "Yes — the intransitive *muere* presents the death as something that simply happened, with no agent at all."
+        },
+        {
+          "id": "b",
+          "label": "Un agente de policía mata a un manifestante.",
+          "correct": false,
+          "feedback": "Not yet — here the agent is the subject: responsibility is explicit."
+        },
+        {
+          "id": "c",
+          "label": "Un manifestante, abatido por la policía.",
+          "correct": false,
+          "feedback": "Not yet — the passive participle keeps the agent (*por la policía*)."
+        },
+        {
+          "id": "d",
+          "label": "La policía investiga la muerte de un manifestante.",
+          "correct": false,
+          "feedback": "Not yet — this shifts the focus to the investigation, but it doesn't claim the death had no cause."
+        }
+      ],
+      "hints": [
+        "Look for the verb that doesn't need an agent.",
+        "Compare an active verb with a subject, a passive with *por*, and an intransitive verb."
+      ],
+      "solution": "**Muere un manifestante durante la protesta.** An intransitive verb like *morir* has no slot for an agent, so the headline can be literally true while saying nothing about responsibility. It may be honest (if the cause is unknown) or evasive (if it is known). The active and passive versions keep the agent visible."
+    },
+    {
+      "id": "opinion-markers",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Which features mark the op-ed *La biblioteca no es un lujo* as **opinion** rather than news? Select all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "The first person: *Yo estaré allí.*",
+          "correct": true,
+          "feedback": "Yes — the writer appears in the text, which news avoids."
+        },
+        {
+          "id": "b",
+          "label": "A rhetorical question to the reader: *¿Y usted?*",
+          "correct": true,
+          "feedback": "Yes — appeals to the reader are typical of opinion."
+        },
+        {
+          "id": "c",
+          "label": "Evaluative framing: *Hay decisiones que retratan a quien las toma.*",
+          "correct": true,
+          "feedback": "Yes — it judges the decision rather than reporting it."
+        },
+        {
+          "id": "d",
+          "label": "It mentions the figure of 180 000 euros.",
+          "correct": false,
+          "feedback": "Not yet — the news report gives the same figure. Numbers alone don't mark a genre."
+        },
+        {
+          "id": "e",
+          "label": "It refers to an event that happened yesterday.",
+          "correct": false,
+          "feedback": "Not yet — news does that too."
+        }
+      ],
+      "hints": [
+        "Compare each feature with the news report on the same event.",
+        "If the news report has it too, it isn't a marker of opinion."
+      ],
+      "solution": "**A, B and C.** The first person, direct appeals to the reader and evaluative framing are markers of opinion. Figures and recent events appear in both genres: what matters is whether they are attributed and neutral (news) or put to work in an argument (opinion)."
+    },
+    {
+      "id": "sources-close",
+      "type": "text",
+      "prompt": "Complete the classic journalistic formula for an unnamed source:\n\n*Según fuentes ______ al ministerio, la ley se votará en marzo.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "cercanas",
+        "próximas"
+      ],
+      "feedback": [
+        {
+          "match": "cercanos",
+          "message": "Almost — *fuentes* is feminine, so the adjective is feminine too."
+        },
+        {
+          "match": "cerca",
+          "message": "Not yet — you need an adjective agreeing with *fuentes*."
+        }
+      ],
+      "hints": [
+        "The adjective means 'close (to)' and agrees with *fuentes*.",
+        "*fuentes* is feminine plural: *cercan…*"
+      ],
+      "solution": "**cercanas** (or *próximas*). *Fuentes cercanas a* = sources close to. It's a legitimate formula — sources sometimes need protection — but it tells you neither who spoke nor how many. Read such claims as unconfirmed."
+    },
+    {
+      "id": "genre-editorial",
+      "type": "choice",
+      "prompt": "Which genre is an **unsigned** piece that states the newspaper's own position?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "el editorial",
+          "correct": true,
+          "feedback": "Yes — the editorial speaks for the paper, so no author signs it."
+        },
+        {
+          "id": "b",
+          "label": "la columna",
+          "correct": false,
+          "feedback": "Not yet — a column is signed by its regular columnist."
+        },
+        {
+          "id": "c",
+          "label": "la tribuna",
+          "correct": false,
+          "feedback": "Not yet — a *tribuna* is a signed piece by a guest writer."
+        },
+        {
+          "id": "d",
+          "label": "la crónica",
+          "correct": false,
+          "feedback": "Not yet — a *crónica* is a signed report with the writer's voice."
+        }
+      ],
+      "hints": [
+        "Which genre speaks for the newspaper itself?",
+        "Mind its gender."
+      ],
+      "solution": "**El editorial.** It expresses the newspaper's line and is unsigned. Columns (*columnas*) and guest pieces (*tribunas*) are signed and represent their authors."
+    }
+  ]
+}

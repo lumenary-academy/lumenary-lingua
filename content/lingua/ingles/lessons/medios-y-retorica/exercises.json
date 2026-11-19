@@ -1,0 +1,243 @@
+{
+  "lesson": "medios-y-retorica",
+  "exercises": [
+    {
+      "id": "medios-headline-present",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Titular: *Earthquake hits southern Chile.* ¿Qué significa?",
+      "options": [
+        { "id": "a", "label": "Ha habido un terremoto en el sur de Chile.", "correct": true, "feedback": "¡Eso es! En los titulares, el presente simple narra hechos recientes que ya han ocurrido." },
+        { "id": "b", "label": "Suele haber terremotos en el sur de Chile.", "correct": false, "feedback": "Casi: en una oración normal, el presente simple podría expresar hábito, pero en un titular narra un hecho reciente." },
+        { "id": "c", "label": "Habrá un terremoto en el sur de Chile.", "correct": false, "feedback": "Todavía no: el futuro en los titulares se expresa con *to* + infinitivo (*Earthquake to hit…* sería una previsión)." },
+        { "id": "d", "label": "Está habiendo un terremoto ahora mismo.", "correct": false, "feedback": "Todavía no: una acción en curso se expresaría con -ing (*Earthquake shaking southern Chile*)." }
+      ],
+      "hints": [
+        "Los titulares usan el presente para dar sensación de actualidad.",
+        "¿Qué tiempo usarías en una oración completa? *An earthquake ___ southern Chile.*"
+      ],
+      "solution": "El presente simple de los titulares equivale a un present perfect o a un pasado reciente: *An earthquake **has hit** southern Chile.* Por tanto: **ha habido un terremoto en el sur de Chile**."
+    },
+    {
+      "id": "medios-headline-to",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Titular: *Prime Minister to visit Kenya.* ¿Qué significa?",
+      "options": [
+        { "id": "a", "label": "La primera ministra o el primer ministro va a visitar Kenia.", "correct": true, "feedback": "¡Muy bien! *To* + infinitivo en un titular indica un plan o un hecho futuro." },
+        { "id": "b", "label": "El primer ministro tiene que visitar Kenia.", "correct": false, "feedback": "Todavía no: la obligación se expresaría con *must*. *To* + infinitivo en un titular es futuro." },
+        { "id": "c", "label": "El primer ministro ha visitado Kenia.", "correct": false, "feedback": "Todavía no: un hecho pasado iría en presente simple (*Prime Minister visits Kenya*)." },
+        { "id": "d", "label": "El primer ministro quiere visitar Kenia.", "correct": false, "feedback": "Casi: puede que quiera, pero el titular anuncia que la visita está prevista, no solo un deseo." }
+      ],
+      "hints": [
+        "Es la forma comprimida de *is to* o *is going to*.",
+        "*To* + infinitivo en titulares = futuro."
+      ],
+      "solution": "*Prime Minister to visit Kenya* es la forma comprimida de *The Prime Minister **is to / is going to** visit Kenya*: **va a visitar Kenia**. (En inglés, *Prime Minister* no indica el género de la persona.)"
+    },
+    {
+      "id": "medios-expand-arrested",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Convierte el titular en una oración completa en inglés normal:\n\n*Three arrested after protest*",
+      "answers": [
+        "Three people have been arrested after a protest",
+        "Three people have been arrested after the protest",
+        "Three people were arrested after a protest",
+        "Three people were arrested after the protest",
+        "Three people have been arrested following a protest",
+        "Three people have been arrested following the protest",
+        "Three people were arrested following a protest",
+        "Three people were arrested following the protest",
+        "Three men have been arrested after a protest",
+        "Three men were arrested after a protest",
+        "Three protesters have been arrested after a protest",
+        "Three have been arrested after a protest",
+        "Three have been arrested after the protest",
+        "Three were arrested after a protest",
+        "Three were arrested after the protest"
+      ],
+      "feedback": [
+        { "match": "Three people arrested after a protest", "message": "Casi: falta el auxiliar de la pasiva. En una oración completa: *Three people have been arrested…* (o *were arrested*)." },
+        { "match": "Three people have arrested after a protest", "message": "Casi: eso es activa (ellos arrestaron a alguien). Necesitas la pasiva: *have been arrested*." }
+      ],
+      "hints": [
+        "El participio solo en un titular equivale a una pasiva.",
+        "Añade el sujeto completo (*people*), el auxiliar (*have been* o *were*) y un artículo delante de *protest*."
+      ],
+      "solution": "En el titular se han suprimido el auxiliar de la pasiva y los artículos. Recuperándolos: **Three people have been arrested after a protest** (o *were arrested*, o *following the protest*). El participio *arrested* indica pasiva, no activa."
+    },
+    {
+      "id": "medios-row",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Titular británico: *Row over new stadium splits council.* ¿Qué significa *row* aquí?",
+      "options": [
+        { "id": "a", "label": "Una disputa o polémica.", "correct": true, "feedback": "¡Exacto! En este sentido, *row* rima con *cow* y significa «pelea, discusión, polémica». Es muy frecuente en la prensa británica." },
+        { "id": "b", "label": "Una fila de asientos.", "correct": false, "feedback": "Casi: es otro significado de *row* (que rima con *go*), pero no encaja con *splits council* (divide al ayuntamiento)." },
+        { "id": "c", "label": "Remar.", "correct": false, "feedback": "Todavía no: *row* (rima con *go*) también es remar, pero aquí es un sustantivo sobre una polémica." },
+        { "id": "d", "label": "Una votación.", "correct": false, "feedback": "Casi: puede haber una votación, pero *row* no la nombra. Una votación es *vote* o *ballot*." }
+      ],
+      "hints": [
+        "*Splits council*: algo divide al ayuntamiento.",
+        "Esta palabra tiene dos pronunciaciones y dos significados muy distintos."
+      ],
+      "solution": "*Row* tiene dos pronunciaciones: /rəʊ/ (fila; remar) y /raʊ/ (disputa). En los titulares británicos es muy frecuente la segunda: **una polémica** sobre el nuevo estadio divide al ayuntamiento."
+    },
+    {
+      "id": "medios-news-or-opinion",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "¿Cuál de estas oraciones pertenece con más probabilidad a una **noticia** y no a un artículo de opinión?",
+      "options": [
+        { "id": "a", "label": "The new bridge, which cost an estimated 40 million pounds, opened on Monday, the transport authority said.", "correct": true, "feedback": "¡Muy bien! Datos verificables, atribución (*the transport authority said*), sin adjetivos valorativos: es lenguaje de noticia." },
+        { "id": "b", "label": "This bridge is a monument to wasted money and broken promises.", "correct": false, "feedback": "Todavía no: lenguaje cargado y valorativo (*monument to wasted money*). Es opinión." },
+        { "id": "c", "label": "We must demand answers from those who approved this disgraceful project.", "correct": false, "feedback": "Todavía no: *we must*, *demand* y *disgraceful* son marcas claras de opinión y llamada a la acción." },
+        { "id": "d", "label": "Who, honestly, needed another bridge?", "correct": false, "feedback": "Todavía no: una pregunta retórica es una técnica persuasiva típica de la opinión." }
+      ],
+      "hints": [
+        "Busca la oración con atribución y sin juicios de valor.",
+        "Las noticias dicen quién afirma cada cosa."
+      ],
+      "solution": "La noticia informa con datos verificables y los atribuye a una fuente: **The new bridge… opened on Monday, the transport authority said.** Las demás usan adjetivos valorativos, modales de obligación o preguntas retóricas, todos rasgos de la opinión."
+    },
+    {
+      "id": "medios-neutral-verb",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Quieres informar de una declaración de la empresa **sin tomar partido**. ¿Qué verbo eliges? *The company ___ that the factory would stay open.*",
+      "options": [
+        { "id": "a", "label": "said", "correct": true, "feedback": "¡Eso es! *Said* es el verbo de cita más neutral: informa sin juzgar." },
+        { "id": "b", "label": "claimed", "correct": false, "feedback": "Todavía no: *claimed* sugiere que el periodista duda de la afirmación." },
+        { "id": "c", "label": "admitted", "correct": false, "feedback": "Todavía no: *admitted* implica que se reconoce algo negativo, y aquí la noticia es buena para los trabajadores." },
+        { "id": "d", "label": "insisted", "correct": false, "feedback": "Todavía no: *insisted* sugiere que hubo resistencia o incredulidad previa." }
+      ],
+      "hints": [
+        "Cada verbo de cita añade un matiz. Busca el que no añade ninguno.",
+        "Es el verbo de cita más frecuente en las noticias."
+      ],
+      "solution": "*Claimed* sugiere duda, *admitted* implica algo negativo e *insisted* sugiere resistencia. El verbo neutral, el preferido en las noticias, es **said**."
+    },
+    {
+      "id": "medios-slashed-neutral",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Reescribe la oración con un verbo **neutral**, sin carga emocional:\n\n*The council slashed the library budget.*",
+      "answers": [
+        "The council reduced the library budget",
+        "The council cut the library budget",
+        "The council lowered the library budget",
+        "The council decreased the library budget",
+        "The council has reduced the library budget",
+        "The council has cut the library budget"
+      ],
+      "feedback": [
+        { "match": "The council axed the library budget", "message": "Casi: *axed* también es palabra de titular con carga dramática, y además sugiere que se eliminó por completo. Prueba con *reduced*." },
+        { "match": "The council trimmed the library budget", "message": "Casi: *trimmed* tiene carga positiva (sugiere un ajuste pequeño y razonable). Busca un verbo más neutro, como *reduced*." }
+      ],
+      "hints": [
+        "*Slash* significa literalmente «acuchillar».",
+        "Busca un verbo que solo indique que el presupuesto bajó."
+      ],
+      "solution": "*Slashed* dramatiza (sugiere un recorte brutal); *trimmed* suaviza. Las versiones neutrales son **The council reduced the library budget** o *cut* (el más común en las noticias). Si conoces la cifra, lo más neutral de todo es darla: *reduced the library budget by 10%*."
+    },
+    {
+      "id": "medios-rhetorical-question",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "En un artículo de opinión: *Can we really afford to wait another year while our children breathe this air?* ¿Qué técnica es?",
+      "options": [
+        { "id": "a", "label": "Una pregunta retórica que apela a las emociones.", "correct": true, "feedback": "¡Exacto! No espera respuesta: la da por obvia, y la mención a los niños apela al *pathos*." },
+        { "id": "b", "label": "Una pregunta de investigación neutral.", "correct": false, "feedback": "Todavía no: una pregunta neutral no incluiría *really* ni la imagen de los niños respirando aire contaminado." },
+        { "id": "c", "label": "Una cita de una fuente experta.", "correct": false, "feedback": "Todavía no: no se atribuye a nadie; es la voz del autor." },
+        { "id": "d", "label": "Un dato estadístico.", "correct": false, "feedback": "Todavía no: no hay ninguna cifra." }
+      ],
+      "hints": [
+        "¿Espera el autor que alguien responda?",
+        "¿A qué se apela al mencionar a *our children*?"
+      ],
+      "solution": "Es una **pregunta retórica**: el autor no espera respuesta, la da por evidente (*no, no podemos esperar*). Además, la imagen de *our children* apela a la emoción del lector (*pathos*), y el *we* inclusivo lo implica en la decisión."
+    },
+    {
+      "id": "medios-mistakes-were-made",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "Un portavoz declara: *Mistakes were made in the handling of the data.* ¿Qué efecto tiene esta formulación?",
+      "options": [
+        { "id": "a", "label": "Reconoce errores sin decir quién los cometió.", "correct": true, "feedback": "¡Muy bien! La pasiva sin agente admite el hecho pero oculta la responsabilidad." },
+        { "id": "b", "label": "Culpa directamente al portavoz.", "correct": false, "feedback": "Todavía no: para eso diría *I made mistakes*. La pasiva evita nombrar a nadie." },
+        { "id": "c", "label": "Niega que haya habido errores.", "correct": false, "feedback": "Todavía no: los errores se reconocen (*were made*); lo que se omite es el responsable." },
+        { "id": "d", "label": "Es la forma más clara y transparente de informar.", "correct": false, "feedback": "Todavía no: es correcta gramaticalmente, pero poco transparente, porque falta la información clave: ¿quién?" }
+      ],
+      "hints": [
+        "Es una pasiva. ¿Aparece el agente?",
+        "Pregúntate: ¿quién cometió los errores?"
+      ],
+      "solution": "La **pasiva sin agente** permite admitir que hubo errores sin decir quién los cometió. Es una fórmula clásica en comunicados oficiales. Ante ella, un lector crítico pregunta: *made by whom?*"
+    },
+    {
+      "id": "medios-headline-translate",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "Escribe un titular en inglés, con la gramática propia de los titulares, para esta noticia:\n\n*El Gobierno subirá los impuestos sobre el combustible.*",
+      "answers": [
+        "Government to raise fuel taxes",
+        "Government to raise fuel tax",
+        "Government to increase fuel taxes",
+        "Government to increase fuel tax",
+        "Government set to raise fuel taxes",
+        "Government set to raise fuel tax",
+        "Government set to increase fuel taxes",
+        "Government set to increase fuel tax",
+        "Government to hike fuel taxes",
+        "Government to hike fuel tax",
+        "Govt to raise fuel taxes",
+        "Govt to raise fuel tax",
+        "Fuel tax to rise",
+        "Fuel taxes to rise",
+        "Fuel tax set to rise",
+        "Fuel taxes set to rise"
+      ],
+      "feedback": [
+        { "match": "The government will raise fuel taxes", "message": "Casi: es una oración correcta, pero no un titular. Quita el artículo y usa *to* + infinitivo para el futuro: *Government to raise fuel taxes*." },
+        { "match": "Government raises fuel taxes", "message": "Casi: el presente en un titular indica que ya ha ocurrido. Para el futuro, usa *to* + infinitivo." }
+      ],
+      "hints": [
+        "Futuro en titulares = *to* + infinitivo.",
+        "Sin artículos. «Subir los impuestos» = *raise taxes*; «combustible» = *fuel*."
+      ],
+      "solution": "Para el futuro, los titulares usan *to* + infinitivo y suprimen los artículos: **Government to raise fuel taxes** (también *Government set to raise fuel tax*, o con el impuesto como sujeto: *Fuel tax to rise*)."
+    },
+    {
+      "id": "medios-sensational",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Un profesor de periodismo comenta: *The coverage was rather sensational.* ¿Qué opina de la cobertura?",
+      "options": [
+        { "id": "a", "label": "Que fue sensacionalista y exagerada.", "correct": true, "feedback": "¡Eso es! En el contexto de los medios, *sensational* suele significar «sensacionalista»: una crítica." },
+        { "id": "b", "label": "Que fue extraordinaria, excelente.", "correct": false, "feedback": "Casi: *sensational* puede ser un elogio informal (*You look sensational!*), pero hablando de cobertura periodística, y con *rather*, es una crítica." },
+        { "id": "c", "label": "Que fue muy sensible con las víctimas.", "correct": false, "feedback": "Todavía no: «sensible» se dice *sensitive*. *Sensational* no tiene ese sentido." },
+        { "id": "d", "label": "Que fue breve.", "correct": false, "feedback": "Todavía no: *sensational* no tiene nada que ver con la extensión." }
+      ],
+      "hints": [
+        "Piensa en el contexto: un profesor de periodismo hablando de cobertura.",
+        "Es un falso amigo parcial de «sensacional»."
+      ],
+      "solution": "Aplicado a los medios, *sensational* significa **sensacionalista**: busca impactar más que informar. *Rather* (bastante) refuerza el tono crítico. Para elogiar una cobertura, se diría *outstanding* o *excellent*."
+    }
+  ]
+}

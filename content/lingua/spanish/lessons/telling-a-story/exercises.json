@@ -1,0 +1,352 @@
+{
+  "lesson": "telling-a-story",
+  "exercises": [
+    {
+      "id": "weather-background",
+      "type": "choice",
+      "prompt": "Choose the verb that fits the opening of a story: *Eran las ocho de la mañana y ___ mucho.* (llover)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "llovía",
+          "correct": true,
+          "feedback": "Yes. Weather at the start of a story is background, so it takes the imperfect, just like *eran las ocho*."
+        },
+        {
+          "id": "b",
+          "label": "llovió",
+          "correct": false,
+          "feedback": "Not yet — *llovió* presents the rain as a completed event. Here it is part of the scene being set, next to *eran las ocho*."
+        },
+        {
+          "id": "c",
+          "label": "había llovido",
+          "correct": false,
+          "feedback": "Not yet — that would mean it had rained earlier, before this moment. The sentence describes what the weather was like right then."
+        }
+      ],
+      "hints": [
+        "Is this sentence setting the scene or telling what happened next?",
+        "Time and weather in a story's opening are background."
+      ],
+      "solution": "The sentence sets the scene: the time (*eran las ocho*) and the weather. Background takes the **imperfect**: *Eran las ocho de la mañana y **llovía** mucho.* The preterite *llovió* would present the rain as an event in the plot, and *había llovido* would place it before the moment described."
+    },
+    {
+      "id": "phone-interrupts",
+      "type": "choice",
+      "prompt": "Complete the sentence: *Estábamos cenando cuando ___ el teléfono.* (sonar)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "sonaba",
+          "correct": false,
+          "feedback": "Not yet — *sonaba* would make the ringing another background action. Here it breaks into the dinner that was going on."
+        },
+        {
+          "id": "b",
+          "label": "sonó",
+          "correct": true,
+          "feedback": "Yes. The dinner is the action in progress (*estábamos cenando*); the phone ringing is the event that interrupts it, so it takes the preterite."
+        },
+        {
+          "id": "c",
+          "label": "había sonado",
+          "correct": false,
+          "feedback": "Not yet — that would mean the phone had rung before dinner started. *Cuando* here marks the moment of interruption."
+        }
+      ],
+      "hints": [
+        "One action was going on; the other broke into it.",
+        "The interrupting event takes the preterite."
+      ],
+      "solution": "This is the classic interrupted action. *Estábamos cenando* (imperfect of *estar* + gerund) is the action in progress; the interruption is a single event in the plot, so it goes in the **preterite**: *Estábamos cenando cuando **sonó** el teléfono.*"
+    },
+    {
+      "id": "film-had-started",
+      "type": "text",
+      "prompt": "Fill the gap with the pluperfect of *empezar*: *Cuando llegamos al cine, la película ya ___.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "había empezado"
+      ],
+      "lang": "es",
+      "hints": [
+        "The film started before you arrived. Which tense looks one step further back?",
+        "Use the imperfect of *haber* (third person singular) + the participle of *empezar*."
+      ],
+      "solution": "The film started **before** you arrived, and *ya* (already) underlines that order. So we need the pluperfect: *había* (imperfect of *haber*, third person singular, agreeing with *la película*) + *empezado* (regular *-ar* participle): *Cuando llegamos al cine, la película ya **había empezado**.* With the preterite (*empezó*) it would mean the film began just as you came in.",
+      "feedback": [
+        {
+          "match": "empezó",
+          "message": "Not yet — *empezó* would mean the film began as you arrived. *Ya* tells us it had started before: use *había* + participle."
+        },
+        {
+          "match": "habia empezado",
+          "message": "Almost — *había* needs its accent on the *í*."
+        }
+      ]
+    },
+    {
+      "id": "never-seen-snow",
+      "type": "text",
+      "prompt": "Fill the gap with the pluperfect of *ver*: *Mis primos nunca ___ la nieve antes de aquel viaje.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "habían visto"
+      ],
+      "lang": "es",
+      "hints": [
+        "The subject is *mis primos* (they). Which form of *haber* goes with *ellos*?",
+        "*Ver* has an irregular participle: it is not *veído*."
+      ],
+      "solution": "The subject is *mis primos*, so *haber* takes the third person plural of the imperfect, **habían**. *Ver* has an irregular participle, **visto**. Together: *Mis primos nunca **habían visto** la nieve antes de aquel viaje.* The participle never changes, even with a plural subject.",
+      "feedback": [
+        {
+          "match": "habían veído",
+          "message": "Not yet — *ver* has an irregular participle: *visto*."
+        },
+        {
+          "match": "habia visto",
+          "message": "Not yet — the subject is plural (*mis primos*), so it's *habían*; and remember the accent on the *í*."
+        },
+        {
+          "match": "había visto",
+          "message": "Almost — the subject is *mis primos*, so *haber* must be plural: *habían visto*."
+        }
+      ]
+    },
+    {
+      "id": "met-or-knew",
+      "type": "choice",
+      "prompt": "What does *Ayer conocí a la hermana de Pablo* mean?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Yesterday I met Pablo's sister (for the first time).",
+          "correct": true,
+          "feedback": "Yes. In the preterite, *conocer* picks out the moment the acquaintance began: meeting someone."
+        },
+        {
+          "id": "b",
+          "label": "Yesterday I knew Pablo's sister.",
+          "correct": false,
+          "feedback": "Not yet — \"knowing\" someone is a state, which would be the imperfect *conocía*, and wouldn't fit *ayer* very well."
+        },
+        {
+          "id": "c",
+          "label": "Yesterday I recognised Pablo's sister.",
+          "correct": false,
+          "feedback": "Not yet — \"to recognise\" is *reconocer*."
+        }
+      ],
+      "hints": [
+        "*Conocer* changes its English translation between the imperfect and the preterite.",
+        "The preterite marks the beginning of a state."
+      ],
+      "solution": "*Conocer* in the imperfect (*conocía*) describes a state: knowing someone. In the preterite (*conocí*) it describes the moment that state began, so it translates as **met**: *Yesterday I met Pablo's sister.* The same thing happens with *saber*: *sabía* = I knew, *supe* = I found out."
+    },
+    {
+      "id": "in-the-middle-of",
+      "type": "text",
+      "prompt": "Rewrite the first part with *estar* in the imperfect + gerund, to stress that the reading was in progress: *Leía el periódico cuando entró Sofía.* → *___ el periódico cuando entró Sofía.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "estaba leyendo",
+        "yo estaba leyendo"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Leía* is first person singular (yo). Which form of *estar* matches it in the imperfect?",
+        "The gerund of *leer* is spelled with a *y*."
+      ],
+      "solution": "*Leía* is the imperfect, first person singular. Keep the person and tense on *estar* (**estaba**) and add the gerund of *leer*, which is **leyendo** (the *i* between two vowels is written *y*): *Estaba leyendo el periódico cuando entró Sofía.* Both versions are correct; *estaba leyendo* makes \"right in the middle of it\" more vivid.",
+      "feedback": [
+        {
+          "match": "estaba leiendo",
+          "message": "Almost — between two vowels the *i* becomes *y*: *leyendo*."
+        },
+        {
+          "match": "estuve leyendo",
+          "message": "Not yet — the action in progress is background, so *estar* goes in the imperfect: *estaba*."
+        }
+      ]
+    },
+    {
+      "id": "at-last",
+      "type": "choice",
+      "prompt": "Choose the best connector: *Esperamos el autobús durante una hora y, ___, llegó.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "por fin",
+          "correct": true,
+          "feedback": "Yes. *Por fin* expresses relief after a long wait: at last."
+        },
+        {
+          "id": "b",
+          "label": "de repente",
+          "correct": false,
+          "feedback": "Not yet — *de repente* (suddenly) is for the unexpected, but an hour's wait for a bus makes its arrival anything but sudden."
+        },
+        {
+          "id": "c",
+          "label": "mientras",
+          "correct": false,
+          "feedback": "Not yet — *mientras* (while) introduces a background action, not the end of a wait."
+        },
+        {
+          "id": "d",
+          "label": "al principio",
+          "correct": false,
+          "feedback": "Not yet — *al principio* (at first) belongs at the beginning of a story, not at the end of a wait."
+        }
+      ],
+      "hints": [
+        "What feeling does the speaker have after waiting a whole hour?",
+        "One of these means \"at last\"."
+      ],
+      "solution": "After waiting an hour, the bus's arrival is a relief, which is exactly what **por fin** expresses: *Esperamos el autobús durante una hora y, por fin, llegó.* *Al final* would also be possible in a neutral way (\"in the end it came\"), but *por fin* is the natural choice when you want to show relief."
+    },
+    {
+      "id": "which-are-right",
+      "type": "choice",
+      "prompt": "Which of these sentences use the past tenses correctly? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Viví en Bogotá durante tres años.",
+          "correct": true,
+          "feedback": "Yes. The three years are seen as a closed block, so the preterite is right even though it was a long time."
+        },
+        {
+          "id": "b",
+          "label": "Cuando era niña, iba a la playa cada verano.",
+          "correct": true,
+          "feedback": "Yes. Age (*era niña*) and a habit (*cada verano*) are both background: imperfect."
+        },
+        {
+          "id": "c",
+          "label": "Mi abuelo tuvo ochenta años cuando lo conocí.",
+          "correct": false,
+          "feedback": "Not yet — age is background, so it's *tenía ochenta años*. *Lo conocí* (I met him) is correct."
+        },
+        {
+          "id": "d",
+          "label": "Ayer me levantaba, me duchaba y salía de casa.",
+          "correct": false,
+          "feedback": "Not yet — these are three completed events in sequence on one day: *me levanté, me duché y salí*."
+        }
+      ],
+      "hints": [
+        "For each verb, ask: background or event?",
+        "Age is always background; a chain of completed actions is a sequence of events."
+      ],
+      "solution": "**a** is right: a period seen as finished takes the preterite, however long it was. **b** is right: age and habits are background. **c** should be *Mi abuelo **tenía** ochenta años cuando lo conocí*: age is a state in the background. **d** narrates a sequence of single events on one day, so it needs the preterite: *Ayer **me levanté**, **me duché** y **salí** de casa.* (The imperfect would only fit if *ayer* were replaced by a habit, like *cada día*.)",
+      "multiple": true
+    },
+    {
+      "id": "translate-never-seen-sea",
+      "type": "text",
+      "prompt": "Translate into Spanish: *I had never seen the sea.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "yo nunca había visto el mar",
+        "nunca había visto el mar",
+        "yo no había visto nunca el mar",
+        "no había visto nunca el mar",
+        "yo jamás había visto el mar",
+        "jamás había visto el mar",
+        "yo no había visto el mar nunca",
+        "no había visto el mar nunca"
+      ],
+      "lang": "es",
+      "hints": [
+        "\"Had seen\" is the pluperfect: *había* + participle.",
+        "The participle of *ver* is irregular. *Nunca* goes before *había* (or *no… nunca* around it)."
+      ],
+      "solution": "\"Had seen\" is the pluperfect: **había** (first person singular, imperfect of *haber*) + **visto** (the irregular participle of *ver*). \"Never\" is **nunca**, placed before the verb: ***Nunca había visto el mar.*** You can also say *No había visto nunca el mar*: when *nunca* comes after the verb, Spanish needs *no* before it. Note that nothing goes between *había* and *visto*.",
+      "feedback": [
+        {
+          "match": "nunca había veído el mar",
+          "message": "Almost — the participle of *ver* is irregular: *visto*."
+        },
+        {
+          "match": "nunca he visto el mar",
+          "message": "Not yet — that is \"I have never seen\". \"Had\" points further back: *había visto*."
+        }
+      ]
+    },
+    {
+      "id": "childhood-village",
+      "type": "text",
+      "prompt": "Fill the gap with the right past form of *vivir*: *Cuando era pequeño, mi familia ___ en un pueblo cerca de Oaxaca.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "vivía"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Cuando era pequeño* sets up a period of the past as background.",
+        "Where the family lived at that time is a description, not an event."
+      ],
+      "solution": "*Cuando era pequeño* describes a period of life, and where the family lived during it is part of that background. So we use the **imperfect**: *mi familia **vivía** en un pueblo cerca de Oaxaca.* Remember the accent on the *í*: *vi-VÍ-a*.",
+      "feedback": [
+        {
+          "match": "vivió",
+          "message": "Not yet — *vivió* treats it as a closed event. Next to *cuando era pequeño* it is background: *vivía*."
+        },
+        {
+          "match": "vivia",
+          "message": "Almost — *vivía* needs its accent on the *í*."
+        }
+      ]
+    },
+    {
+      "id": "found-out",
+      "type": "choice",
+      "prompt": "Your friend says: *Supe la noticia el lunes.* What does she mean?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "She found out the news on Monday.",
+          "correct": true,
+          "feedback": "Yes. *Saber* in the preterite marks the moment the knowing began: finding out."
+        },
+        {
+          "id": "b",
+          "label": "She already knew the news on Monday.",
+          "correct": false,
+          "feedback": "Not yet — that state would be the imperfect: *ya sabía la noticia el lunes*."
+        },
+        {
+          "id": "c",
+          "label": "She tried to find out the news on Monday.",
+          "correct": false,
+          "feedback": "Not yet — \"tried to find out\" would be *intentó saber* or *quiso saber*."
+        }
+      ],
+      "hints": [
+        "Think of *conocí* = I met. *Saber* works the same way.",
+        "The preterite marks the moment a state began."
+      ],
+      "solution": "Like *conocer*, *saber* changes meaning with the tense. *Sabía* is a state (I knew). *Supe* marks the moment the knowing began, which in English is **I found out**: *She found out the news on Monday.*"
+    }
+  ]
+}

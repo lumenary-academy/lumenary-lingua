@@ -1,0 +1,334 @@
+{
+  "lesson": "gerundios-e-infinitivos",
+  "exercises": [
+    {
+      "id": "enjoy-walking",
+      "type": "choice",
+      "prompt": "*I really enjoy ___ in the mountains at weekends.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "walking",
+          "correct": true,
+          "feedback": "Sí. *Enjoy* va seguido de *-ing*."
+        },
+        {
+          "id": "b",
+          "label": "to walk",
+          "correct": false,
+          "feedback": "Todavía no. *Enjoy* no admite *to* + infinitivo."
+        },
+        {
+          "id": "c",
+          "label": "walk",
+          "correct": false,
+          "feedback": "Todavía no. El infinitivo sin *to* solo va después de modales, *let*, *make* y pocos más."
+        }
+      ],
+      "hints": [
+        "*Enjoy* pertenece al grupo de *avoid*, *mind* y *finish*.",
+        "Ese grupo va con *-ing*."
+      ],
+      "solution": "**walking**: *I really enjoy walking in the mountains at weekends.*\n\n*Enjoy* siempre va seguido de *-ing* (o de un sustantivo). En español diríamos *disfruto caminando* o *me encanta caminar*, con infinitivo, y por eso es fácil equivocarse. *At weekends* es británico; en EE. UU., *on weekends*."
+    },
+    {
+      "id": "decided-to-buy",
+      "type": "choice",
+      "prompt": "*After months of looking, we finally decided ___ a flat near the river.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "to buy",
+          "correct": true,
+          "feedback": "Sí. *Decide* va seguido de *to* + infinitivo."
+        },
+        {
+          "id": "b",
+          "label": "buying",
+          "correct": false,
+          "feedback": "Todavía no. *Decide* no admite *-ing*."
+        },
+        {
+          "id": "c",
+          "label": "buy",
+          "correct": false,
+          "feedback": "Todavía no. Falta *to*: *decide to do something*."
+        }
+      ],
+      "hints": [
+        "*Decide* mira hacia una acción futura.",
+        "Pertenece al grupo de *want*, *hope* y *plan*."
+      ],
+      "solution": "**to buy**: *We finally decided to buy a flat near the river.*\n\n*Decide*, como *want, hope, plan, agree* o *refuse*, va seguido de *to* + infinitivo. Muchos de los verbos de este grupo miran hacia algo que todavía no ha pasado."
+    },
+    {
+      "id": "looking-forward",
+      "type": "text",
+      "prompt": "Corrige el error:\n\n*I'm looking forward to see you next week.*\n\n(Escribe solo *I'm looking forward to…* hasta *you*.)",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I'm looking forward to seeing you",
+        "I am looking forward to seeing you",
+        "I look forward to seeing you",
+        "I'm looking forward to seeing you next week",
+        "I am looking forward to seeing you next week",
+        "I look forward to seeing you next week"
+      ],
+      "feedback": [
+        {
+          "match": "I'm looking forward to see you",
+          "message": "Casi: es justo el error que hay que corregir. En *look forward to*, *to* es una preposición."
+        }
+      ],
+      "hints": [
+        "En *look forward to*, el *to* es una preposición.",
+        "Después de una preposición, el verbo va en *-ing*."
+      ],
+      "solution": "**I'm looking forward to seeing you.**\n\n*To* aquí es preposición, no la marca del infinitivo. La prueba: puedes decir *I'm looking forward to the weekend* (con un sustantivo). Y después de una preposición, el verbo va en *-ing*. En un correo formal es muy común la versión en presente simple: *I look forward to hearing from you*."
+    },
+    {
+      "id": "quiero-que-vengas",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Quiero que vengas a mi boda.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I want you to come to my wedding",
+        "I'd like you to come to my wedding",
+        "I would like you to come to my wedding",
+        "I really want you to come to my wedding"
+      ],
+      "feedback": [
+        {
+          "match": "I want that you come to my wedding",
+          "message": "Casi: el inglés no usa *that* + verbo después de *want*. Usa *want* + persona + *to* + infinitivo."
+        },
+        {
+          "match": "I want you come to my wedding",
+          "message": "Casi: falta *to* antes de *come*."
+        }
+      ],
+      "hints": [
+        "*Want* + persona + *to* + infinitivo.",
+        "*Boda*: *wedding*."
+      ],
+      "solution": "**I want you to come to my wedding.** (o *I'd like you to come to my wedding*).\n\nEl español usa *que* + subjuntivo; el inglés, *want* + persona + *to* + infinitivo. *I want that you come* es uno de los calcos más frecuentes. *I'd like you to come* es algo más suave y educado."
+    },
+    {
+      "id": "remember-to-lock",
+      "type": "choice",
+      "prompt": "Sales de viaje y le preguntas a tu compañero de casa si se acordó de cerrar con llave:\n\n*Did you remember ___ the back door?*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "to lock",
+          "correct": true,
+          "feedback": "Sí. *Remember to do*: acordarse de hacer algo que había que hacer."
+        },
+        {
+          "id": "b",
+          "label": "locking",
+          "correct": false,
+          "feedback": "Todavía no. *Remember doing* es tener el recuerdo de algo que ya hiciste; aquí preguntas si no se le olvidó la tarea."
+        }
+      ],
+      "hints": [
+        "¿Preguntas por un recuerdo o por una tarea que había que hacer?",
+        "*To* mira hacia algo que todavía tenía que ocurrir."
+      ],
+      "solution": "**to lock**: *Did you remember to lock the back door?*\n\n*Remember to do* = acordarse de hacer algo (una tarea). *Remember doing* = recordar algo que hiciste: *Yes, I remember locking it* (sí, recuerdo haberla cerrado). Las dos respuestas pueden aparecer en la misma conversación."
+    },
+    {
+      "id": "stopped-to-buy",
+      "type": "choice",
+      "prompt": "*On the way home, we stopped ___ some bread.* (Paramos en la panadería.)",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "to buy",
+          "correct": true,
+          "feedback": "Sí. *Stop to do*: pararse **para** hacer algo."
+        },
+        {
+          "id": "b",
+          "label": "buying",
+          "correct": false,
+          "feedback": "Todavía no. *Stopped buying bread* significaría que dejasteis de comprar pan (por ejemplo, porque ahora lo hacéis en casa)."
+        }
+      ],
+      "hints": [
+        "¿Dejasteis de comprar pan, o parasteis para comprarlo?",
+        "*Stop to do* = parar con un fin."
+      ],
+      "solution": "**to buy**: *We stopped to buy some bread.*\n\n*Stop to do* significa interrumpir lo que hacías (volver a casa) **para** hacer otra cosa. *Stop doing* significa dejar de hacer algo: *We stopped buying bread when we got a bread machine*."
+    },
+    {
+      "id": "try-turning",
+      "type": "text",
+      "prompt": "Completa con la forma correcta de *turn*:\n\n*If your phone freezes, try ___ it off and on again.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "turning"
+      ],
+      "feedback": [
+        {
+          "match": "to turn",
+          "message": "Casi: aquí no hablas de un esfuerzo difícil, sino de probar un método para ver si funciona. Ese matiz va con *-ing*."
+        }
+      ],
+      "hints": [
+        "Propones un método para ver si soluciona el problema.",
+        "*Try* + *-ing* = probar algo."
+      ],
+      "solution": "**turning**: *Try turning it off and on again.*\n\n*Try doing* = probar algo como posible solución. *Try to do* = intentar algo que cuesta: *I tried to turn it off, but the button was stuck*."
+    },
+    {
+      "id": "made-me-study",
+      "type": "text",
+      "prompt": "Completa con la forma correcta de *study*:\n\n*My parents made me ___ the piano for ten years.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "study"
+      ],
+      "feedback": [
+        {
+          "match": "to study",
+          "message": "Casi: después de *make* + persona (en activa), el infinitivo va sin *to*."
+        },
+        {
+          "match": "studying",
+          "message": "Todavía no: *make* + persona va seguido de infinitivo, no de *-ing*."
+        }
+      ],
+      "hints": [
+        "*Make* (obligar) + persona + infinitivo…",
+        "…sin *to*."
+      ],
+      "solution": "**study**: *My parents made me study the piano for ten years.*\n\n*Make* y *let* + persona van seguidos de infinitivo sin *to*. Solo en pasiva aparece el *to*: *I was made to study the piano*."
+    },
+    {
+      "id": "sujeto-y-finalidad",
+      "type": "choice",
+      "prompt": "Marca **todas** las frases correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "Swimming is good for your back.",
+          "correct": true,
+          "feedback": "Sí. Como sujeto, la acción va en *-ing*."
+        },
+        {
+          "id": "b",
+          "label": "Swim is good for your back.",
+          "correct": false,
+          "feedback": "Todavía no. *Swim* como sujeto no funciona; el sujeto natural es *Swimming*."
+        },
+        {
+          "id": "c",
+          "label": "I came to London to learn English.",
+          "correct": true,
+          "feedback": "Sí. La finalidad se expresa con *to* + infinitivo."
+        },
+        {
+          "id": "d",
+          "label": "I came to London for learn English.",
+          "correct": false,
+          "feedback": "Todavía no. *For* + verbo no expresa finalidad. Usa *to learn*."
+        }
+      ],
+      "hints": [
+        "El español usa infinitivo como sujeto (*nadar es bueno*); el inglés, otra forma.",
+        "*Para* + infinitivo se traduce con *to*, no con *for*."
+      ],
+      "solution": "**a** y **c**.\n\nComo sujeto, el inglés prefiere el *-ing*: *Swimming is good for your back*. Para la finalidad (*para aprender*), *to* + infinitivo: *I came to London to learn English*. *For* solo expresa finalidad con un sustantivo: *I came for the food*."
+    },
+    {
+      "id": "used-to-driving",
+      "type": "text",
+      "prompt": "Completa con la forma correcta de *drive*:\n\n*I've just moved to Dublin, and I'm not used to ___ on the left yet.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "driving"
+      ],
+      "feedback": [
+        {
+          "match": "drive",
+          "message": "Casi: en *be used to*, *to* es preposición, así que va seguido de *-ing*."
+        }
+      ],
+      "hints": [
+        "*Be used to* = estar acostumbrado a.",
+        "Aquí *to* es preposición."
+      ],
+      "solution": "**driving**: *I'm not used to driving on the left yet.*\n\n*Be used to* (estar acostumbrado) y *get used to* (acostumbrarse) llevan *to* preposicional, seguido de *-ing* o de un sustantivo. No lo confundas con *used to* + infinitivo (hábito pasado): *I used to drive a lot*."
+    },
+    {
+      "id": "regret-to-inform",
+      "type": "choice",
+      "prompt": "Un correo de una aerolínea empieza así:\n\n*We regret ___ you that your flight has been cancelled.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "to inform",
+          "correct": true,
+          "feedback": "Sí. *Regret to* + verbo de comunicación: fórmula formal para dar una mala noticia."
+        },
+        {
+          "id": "b",
+          "label": "informing",
+          "correct": false,
+          "feedback": "Todavía no. *Regret informing* significaría que se arrepienten de haberte informado."
+        }
+      ],
+      "hints": [
+        "¿Se arrepienten de algo que ya hicieron o lamentan tener que comunicarlo ahora?",
+        "*To* mira hacia lo que se va a hacer."
+      ],
+      "solution": "**to inform**: *We regret to inform you that your flight has been cancelled.*\n\n*Regret to* + *inform / tell / say / announce* es una fórmula formal: «lamentamos comunicarle». *Regret doing* expresa arrepentimiento por algo pasado: *I regret booking this airline*."
+    },
+    {
+      "id": "never-forget-seeing",
+      "type": "text",
+      "prompt": "Completa con la forma correcta de *see*:\n\n*I'll never forget ___ the sea for the first time. I was six.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "seeing"
+      ],
+      "feedback": [
+        {
+          "match": "to see",
+          "message": "Casi: aquí hablas de un recuerdo vivido. *Forget to* sería olvidarse de hacer algo."
+        }
+      ],
+      "hints": [
+        "Hablas de un recuerdo de algo que viviste.",
+        "Con recuerdos, *forget* y *remember* van con *-ing*."
+      ],
+      "solution": "**seeing**: *I'll never forget seeing the sea for the first time.*\n\n*Forget doing* habla de una experiencia vivida, casi siempre en negativa (*I'll never forget…*). *Forget to do* es olvidarse de hacer algo: *I forgot to bring my swimsuit*."
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "lesson": "phrasal-verbs",
+  "exercises": [
+    {
+      "id": "baja-la-musica",
+      "type": "choice",
+      "prompt": "*Can you ___? I'm trying to sleep.* (la música)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "turn it down",
+          "correct": true,
+          "feedback": "Sí. *Turn down* es separable, y con pronombre, este va en medio."
+        },
+        {
+          "id": "b",
+          "label": "turn down it",
+          "correct": false,
+          "feedback": "Todavía no. Con los separables, el pronombre no puede ir detrás de la partícula."
+        },
+        {
+          "id": "c",
+          "label": "down turn it",
+          "correct": false,
+          "feedback": "Todavía no. La partícula siempre va después del verbo."
+        }
+      ],
+      "hints": [
+        "*Turn down* es separable.",
+        "¿Dónde va un pronombre como *it* en un phrasal verb separable?"
+      ],
+      "solution": "**turn it down**: *Can you turn it down? I'm trying to sleep.*\n\n*Turn down* (bajar el volumen) es separable: con un sustantivo puedes decir *turn the music down* o *turn down the music*, pero con un pronombre solo vale una posición, en medio: *turn it down*."
+    },
+    {
+      "id": "apaga-las-luces",
+      "type": "text",
+      "prompt": "Sustituye *the lights* por un pronombre:\n\n*Turn off the lights.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Turn them off"
+      ],
+      "feedback": [
+        {
+          "match": "Turn off them",
+          "message": "Casi: con un separable, el pronombre va entre el verbo y la partícula."
+        },
+        {
+          "match": "Turn it off",
+          "message": "Casi: *the lights* es plural, así que el pronombre es plural."
+        }
+      ],
+      "hints": [
+        "*The lights* es plural: el pronombre es *them*.",
+        "El pronombre va en medio: *turn ___ off*."
+      ],
+      "solution": "**Turn them off.**\n\n*Turn off* es separable. El sustantivo puede ir en medio o detrás (*Turn off the lights* / *Turn the lights off*), pero el pronombre va obligatoriamente en medio: *Turn them off*. Nunca ✗ *Turn off them*."
+    },
+    {
+      "id": "cuidar-el-gato",
+      "type": "choice",
+      "prompt": "*Who's going to ___ while you're on holiday?* Marca **todas** las opciones correctas.",
+      "difficulty": "core",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "look after the cat",
+          "correct": true,
+          "feedback": "Sí. *Look after* es inseparable: el objeto va detrás."
+        },
+        {
+          "id": "b",
+          "label": "look the cat after",
+          "correct": false,
+          "feedback": "Todavía no. *Look after* no se separa, ni siquiera con un sustantivo."
+        },
+        {
+          "id": "c",
+          "label": "look after it",
+          "correct": true,
+          "feedback": "Sí. Con los inseparables, también el pronombre va detrás."
+        },
+        {
+          "id": "d",
+          "label": "look it after",
+          "correct": false,
+          "feedback": "Todavía no. Esa posición es la de los separables; *look after* es inseparable."
+        }
+      ],
+      "hints": [
+        "*Look after* lleva una preposición (*after*): suele ser inseparable.",
+        "Con los inseparables, el objeto, sea sustantivo o pronombre, va siempre detrás."
+      ],
+      "solution": "**look after the cat** y **look after it**.\n\n*Look after* (cuidar) es inseparable: el objeto va siempre detrás de la partícula, tanto si es un sustantivo como si es un pronombre. Es la regla contraria a la de *turn off*. *On holiday* es británico; en EE. UU. dirían *on vacation*."
+    },
+    {
+      "id": "sin-leche",
+      "type": "text",
+      "prompt": "Traduce al inglés con un phrasal verb:\n\n**Nos hemos quedado sin leche.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "We've run out of milk",
+        "We have run out of milk",
+        "We ran out of milk",
+        "We're out of milk",
+        "We are out of milk"
+      ],
+      "feedback": [
+        {
+          "match": "We've run out milk",
+          "message": "Casi: con un objeto, este phrasal verb lleva tres palabras: *run out of*."
+        },
+        {
+          "match": "We've ran out of milk",
+          "message": "Casi: el participio de *run* es *run*, no *ran*: *We've run out of…*"
+        }
+      ],
+      "hints": [
+        "«Quedarse sin» es un phrasal verb de tres palabras.",
+        "*Run, ran, run*: el participio es igual que el infinitivo."
+      ],
+      "solution": "**We've run out of milk.**\n\n*Run out of* (quedarse sin) es un phrasal verb de tres palabras y, como todos ellos, inseparable. El participio de *run* es *run*. En inglés estadounidense también es normal el past simple: *We ran out of milk*. Y muy coloquial: *We're out of milk*."
+    },
+    {
+      "id": "posponer-reunion",
+      "type": "text",
+      "prompt": "Cambia *postponed* por un phrasal verb más coloquial (mantén el present perfect):\n\n*They've postponed the meeting until Friday.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "They've put off the meeting until Friday",
+        "They've put off the meeting till Friday",
+        "They've put the meeting off until Friday",
+        "They've put the meeting off till Friday",
+        "They have put off the meeting until Friday",
+        "They have put off the meeting till Friday",
+        "They have put the meeting off until Friday",
+        "They have put the meeting off till Friday"
+      ],
+      "feedback": [
+        {
+          "match": "They've called off the meeting until Friday",
+          "message": "Casi: *call off* es cancelar, no posponer. Si se cancela, no hay viernes."
+        }
+      ],
+      "hints": [
+        "«Posponer» es *put off*.",
+        "*Put off* es separable: *put off the meeting* o *put the meeting off*."
+      ],
+      "solution": "**They've put off the meeting until Friday.** (o *They've put the meeting off until Friday.*)\n\n*Put off* es el equivalente coloquial de *postpone*; es separable, así que el sustantivo puede ir en medio o detrás. El participio de *put* es *put*. No lo confundas con *call off*, que es *cancel*."
+    },
+    {
+      "id": "called-off-significa",
+      "type": "choice",
+      "prompt": "*The concert was called off because of the storm.* ¿Qué pasó con el concierto?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Se canceló.",
+          "correct": true,
+          "feedback": "Sí. *Call off* = *cancel*."
+        },
+        {
+          "id": "b",
+          "label": "Se pospuso.",
+          "correct": false,
+          "feedback": "Todavía no. Posponer es *put off*."
+        },
+        {
+          "id": "c",
+          "label": "Se anunció por megafonía.",
+          "correct": false,
+          "feedback": "Todavía no. Es una trampa del sentido literal de *call* (llamar). *Call off* es idiomático."
+        }
+      ],
+      "hints": [
+        "*Off* sugiere cortar o separar.",
+        "Su equivalente latino es *cancel*."
+      ],
+      "solution": "**Se canceló.**\n\n*Call off* significa cancelar algo que estaba previsto: un partido, una boda, una huelga. Aquí está en pasiva (*was called off*), como viste en *La voz pasiva*. No lo confundas con *put off* (posponer)."
+    },
+    {
+      "id": "dejar-de-fumar",
+      "type": "text",
+      "prompt": "Completa con una partícula:\n\n*I gave ___ smoking five years ago, and I feel much better.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "up"
+      ],
+      "hints": [
+        "«Dejar» un hábito.",
+        "Es la partícula de lo completo y lo definitivo."
+      ],
+      "solution": "**up**: *I gave up smoking five years ago.*\n\n*Give up* significa rendirse o, con objeto, dejar un hábito. Fíjate en que va seguido de *-ing* (*give up smoking*), porque después de una partícula o preposición el verbo va en *-ing*."
+    },
+    {
+      "id": "registro-luz",
+      "type": "choice",
+      "prompt": "¿Qué frases suenan naturales en una conversación con un amigo? Marca **todas** las correctas.",
+      "difficulty": "core",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "Could you extinguish the light?",
+          "correct": false,
+          "feedback": "Es gramaticalmente correcta, pero *extinguish* se usa para el fuego y en contextos formales; aquí suena rígida, casi cómica."
+        },
+        {
+          "id": "b",
+          "label": "Could you turn off the light?",
+          "correct": true,
+          "feedback": "Sí. El phrasal verb es lo natural en una conversación."
+        },
+        {
+          "id": "c",
+          "label": "Could you turn the light off?",
+          "correct": true,
+          "feedback": "Sí. *Turn off* es separable: el sustantivo puede ir en medio."
+        },
+        {
+          "id": "d",
+          "label": "Could you turn off it?",
+          "correct": false,
+          "feedback": "Todavía no. Con un pronombre, la única posición posible es en medio: *turn it off*."
+        }
+      ],
+      "hints": [
+        "Piensa en el registro: ¿qué diría un nativo en casa?",
+        "Dos de las frases son el mismo phrasal verb con el objeto en distinta posición."
+      ],
+      "solution": "**b** y **c**.\n\n*Turn off* es separable, así que las dos posiciones del sustantivo son correctas. *Extinguish* existe, pero se usa para incendios y en registro formal: en casa suena como un documento oficial. Y *turn off it* es incorrecto: el pronombre va en medio."
+    },
+    {
+      "id": "ponte-el-abrigo",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Ponte el abrigo.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Put on your coat",
+        "Put your coat on"
+      ],
+      "feedback": [
+        {
+          "match": "Put you the coat",
+          "message": "Casi: *put on* no es reflexivo como *ponerse*. Usa *put on* + *your coat*."
+        },
+        {
+          "match": "Put on the coat",
+          "message": "Casi: en inglés, con la ropa propia se usa el posesivo: *your coat*."
+        },
+        {
+          "match": "Put the coat on",
+          "message": "Casi: en inglés, con la ropa propia se usa el posesivo: *your coat*."
+        }
+      ],
+      "hints": [
+        "«Ponerse» ropa es *put on*.",
+        "En inglés la ropa propia lleva posesivo: *your coat*."
+      ],
+      "solution": "**Put your coat on.** (o *Put on your coat.*)\n\n*Put on* no es reflexivo, así que no añadas *you* ni *yourself*. Y con la ropa y las partes del cuerpo, el inglés usa el posesivo donde el español usa el artículo: *your coat*, no *the coat*."
+    },
+    {
+      "id": "turn-up-significa",
+      "type": "choice",
+      "prompt": "*We expected fifty people, but only five turned up.* ¿Qué significa *turned up* aquí?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Vinieron, se presentaron.",
+          "correct": true,
+          "feedback": "Sí. Sin objeto, *turn up* significa aparecer, presentarse."
+        },
+        {
+          "id": "b",
+          "label": "Subieron el volumen.",
+          "correct": false,
+          "feedback": "Todavía no. Ese significado necesita un objeto: *turn the music up*."
+        },
+        {
+          "id": "c",
+          "label": "Rechazaron la invitación.",
+          "correct": false,
+          "feedback": "Todavía no. Rechazar es *turn down*."
+        }
+      ],
+      "hints": [
+        "Aquí *turn up* no tiene objeto.",
+        "Esperabais a cincuenta personas: ¿cuántas llegaron?"
+      ],
+      "solution": "**Vinieron, se presentaron.**\n\n*Turn up* tiene dos significados: sin objeto, aparecer o presentarse en un lugar (*only five turned up*); con objeto, subir el volumen o la intensidad (*turn the heating up*). El contexto te dice cuál es."
+    },
+    {
+      "id": "coche-averiado",
+      "type": "text",
+      "prompt": "Completa con un phrasal verb en past simple (dos palabras):\n\n*We were late because the car ___ on the motorway.* (se averió)",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "broke down"
+      ],
+      "feedback": [
+        {
+          "match": "breaked down",
+          "message": "Casi: *break* es irregular: *break, broke, broken*."
+        },
+        {
+          "match": "was broken down",
+          "message": "Casi: *break down* (averiarse) no lleva objeto, así que no tiene pasiva. Usa el past simple activo."
+        }
+      ],
+      "hints": [
+        "«Averiarse» es *break down*.",
+        "*Break* es irregular en pasado."
+      ],
+      "solution": "**broke down**: *We were late because the car broke down on the motorway.*\n\n*Break down* no lleva objeto (el coche se avería solo), y *break* es irregular: *broke*. El sustantivo derivado es *a breakdown*, con el acento al principio. *Motorway* es británico; en EE. UU. dirían *highway* o *freeway*."
+    }
+  ]
+}

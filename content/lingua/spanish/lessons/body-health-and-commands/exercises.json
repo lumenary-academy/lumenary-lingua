@@ -1,0 +1,356 @@
+{
+  "lesson": "body-health-and-commands",
+  "exercises": [
+    {
+      "id": "feet-hurt",
+      "type": "choice",
+      "prompt": "After a long walk, how do you say **My feet hurt**?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Doler* works like *gustar*: the thing that hurts is the subject.",
+        "*Los pies* is plural, and Spanish uses *the*, not *my*, with body parts."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Me duelen los pies.",
+          "correct": true,
+          "feedback": "Yes: plural subject (*los pies*), so *duelen*; *me* says whose feet."
+        },
+        {
+          "id": "b",
+          "label": "Me duele los pies.",
+          "correct": false,
+          "feedback": "Not yet — the verb agrees with *los pies*, which is plural: *duelen*."
+        },
+        {
+          "id": "c",
+          "label": "Me duelen mis pies.",
+          "correct": false,
+          "feedback": "Not yet — with body parts Spanish uses the article: *los pies*. The *me* already shows they're yours."
+        },
+        {
+          "id": "d",
+          "label": "Duelo los pies.",
+          "correct": false,
+          "feedback": "Not yet — *doler* isn't used like that. The feet are the subject: *Me duelen los pies*."
+        }
+      ],
+      "solution": "**Me duelen los pies.** Like *gustar*, *doler* agrees with the thing that hurts (*los pies*, plural → *duelen*), and the person is shown by *me, te, le…*. Body parts take *the*, not *my*."
+    },
+    {
+      "id": "headache",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **I've got a headache.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Use *doler*: \"the head hurts me\".",
+        "*Me duele* + *la cabeza*."
+      ],
+      "answers": [
+        "Me duele la cabeza",
+        "A mí me duele la cabeza",
+        "Tengo dolor de cabeza",
+        "Tengo un dolor de cabeza"
+      ],
+      "feedback": [
+        {
+          "match": "Me duele mi cabeza",
+          "message": "Almost — with body parts, use the article: *Me duele la cabeza*."
+        },
+        {
+          "match": "Tengo una cabeza",
+          "message": "Not quite! That says \"I have a head\". Try *Me duele la cabeza*."
+        }
+      ],
+      "solution": "**Me duele la cabeza** (or *Tengo dolor de cabeza*). With *doler*, the head is the subject and *me* shows whose it is; the article *la* replaces English \"my\"."
+    },
+    {
+      "id": "que-te-duele",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Ask a friend what hurts: *¿Qué ___ duele?* (Type only the missing word.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "You need the pronoun for \"to you\" with a friend.",
+        "Same pronoun as in *¿Te gusta…?*"
+      ],
+      "answers": [
+        "te"
+      ],
+      "feedback": [
+        {
+          "match": "le",
+          "message": "That's correct for *usted* (or for him/her). For a friend: *te*."
+        },
+        {
+          "match": "tú",
+          "message": "Almost — with *doler*, use the object pronoun *te*, not the subject pronoun *tú*."
+        }
+      ],
+      "solution": "**te**: *¿Qué te duele?* (What hurts?) Formally: *¿Qué le duele?*"
+    },
+    {
+      "id": "bebe",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Give a friend an affirmative **tú** command with **beber**: *¡___ mucha agua!*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "For regular verbs, the *tú* command is the same as the *él/ella* form of the present.",
+        "*Él bebe* → *¡…!*"
+      ],
+      "answers": [
+        "Bebe"
+      ],
+      "feedback": [
+        {
+          "match": "Bebes",
+          "message": "Almost — *bebes* is a statement (\"you drink\"). The command drops the -s: *bebe*."
+        },
+        {
+          "match": "Beba",
+          "message": "That's the *usted* command. For a friend: *bebe*."
+        }
+      ],
+      "solution": "**Bebe** mucha agua. The affirmative *tú* command of a regular verb looks like the *él/ella* form of the present: *bebe, toma, abre*."
+    },
+    {
+      "id": "ven",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Tell a child to come here: *¡___ aquí!* (venir, tú)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Venir* is one of the eight irregular *tú* commands.",
+        "The others are *di, haz, ve, pon, sal, sé, ten*."
+      ],
+      "answers": [
+        "Ven"
+      ],
+      "feedback": [
+        {
+          "match": "Viene",
+          "message": "Almost — *venir* has a short irregular command: *ven*."
+        },
+        {
+          "match": "Venga",
+          "message": "That's the *usted* command (also used as \"come on!\" in Spain). For a child: *ven*."
+        }
+      ],
+      "solution": "**Ven** aquí. The eight irregular *tú* commands are *di* (decir), *haz* (hacer), *ve* (ir), *pon* (poner), *sal* (salir), *sé* (ser), *ten* (tener), *ven* (venir)."
+    },
+    {
+      "id": "haz",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Tell your younger brother to do his homework: *___ los deberes.* (hacer, tú)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Hacer* has an irregular, one-syllable *tú* command.",
+        "It ends in *z*."
+      ],
+      "answers": [
+        "Haz"
+      ],
+      "feedback": [
+        {
+          "match": "Hace",
+          "message": "Almost — *hace* is \"he does\". The command is irregular: *haz*."
+        },
+        {
+          "match": "Has",
+          "message": "Almost — the command of *hacer* is spelled with *z*: *haz*."
+        }
+      ],
+      "solution": "**Haz** los deberes. *Hacer → haz*. (In Latin America, homework is also *la tarea*: *Haz la tarea*.)"
+    },
+    {
+      "id": "no-hables",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Make a negative **tú** command with **hablar**: *No ___ tan alto, por favor.* (Don't talk so loudly.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Start from the *yo* form, *hablo*, and drop the -o.",
+        "-ar verbs take the \"opposite\" ending *-es*."
+      ],
+      "answers": [
+        "hables"
+      ],
+      "feedback": [
+        {
+          "match": "hablas",
+          "message": "Almost — *no hablas* is a statement (\"you don't talk\"). The negative command switches the vowel: *no hables*."
+        },
+        {
+          "match": "habla",
+          "message": "Almost — the affirmative form doesn't work with *no*. Negative command: *no hables*."
+        }
+      ],
+      "solution": "**hables**: *No hables tan alto, por favor.* *hablo → habl- → hables*. -ar verbs take *-es*, -er/-ir verbs take *-as* (*no comas, no escribas*)."
+    },
+    {
+      "id": "no-vayas",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Make a negative **tú** command with **ir**: *No ___ a clase mañana, descansa.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Ir* is one of the three negative commands you have to learn separately.",
+        "The others are *no seas* (ser) and *no estés* (estar)."
+      ],
+      "answers": [
+        "vayas"
+      ],
+      "feedback": [
+        {
+          "match": "ve",
+          "message": "Almost — *ve* is the affirmative command. The negative is *no vayas*."
+        },
+        {
+          "match": "vas",
+          "message": "Almost — *no vas* is a statement. The negative command is *no vayas*."
+        },
+        {
+          "match": "voyas",
+          "message": "Close — the form is irregular: *vayas*."
+        }
+      ],
+      "solution": "**vayas**: *No vayas a clase mañana, descansa.* *Ir* doesn't follow the *yo*-form rule (*voy*), so learn it: *no vayas*. Its *usted* form is *vaya*."
+    },
+    {
+      "id": "tome",
+      "type": "text",
+      "lang": "es",
+      "prompt": "A doctor to a patient (**usted**): *___ estas pastillas tres veces al día.* (tomar)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The *usted* command is the negative *tú* form without the -s.",
+        "*no tomes* → …"
+      ],
+      "answers": [
+        "Tome"
+      ],
+      "feedback": [
+        {
+          "match": "Toma",
+          "message": "That's the *tú* command. A doctor speaking to a patient as *usted* says *tome*."
+        },
+        {
+          "match": "Tomes",
+          "message": "Almost — drop the -s for *usted*: *tome*."
+        }
+      ],
+      "solution": "**Tome** estas pastillas tres veces al día. *Tomar*: *yo tomo → tom- → tome*. -ar verbs switch to *e* in the *usted* command; -er/-ir verbs switch to *a* (*beba, abra*)."
+    },
+    {
+      "id": "sientese",
+      "type": "text",
+      "lang": "es",
+      "prompt": "A receptionist asks a visitor (**usted**) to sit down: *___, por favor.* (sentarse)",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Sentarse* is e → ie and reflexive. The *usted* command of *sentar* is *siente*.",
+        "Attach the *usted* pronoun *se*, and add a written accent to keep the stress."
+      ],
+      "answers": [
+        "Siéntese"
+      ],
+      "feedback": [
+        {
+          "match": "Siéntate",
+          "message": "That's the *tú* command. For *usted*: *siéntese*."
+        },
+        {
+          "match": "Se siente",
+          "message": "Almost — in an affirmative command, the pronoun is attached to the end: *siéntese*."
+        },
+        {
+          "match": "Sientese",
+          "message": "Almost — the stress stays on *SIEN*, three syllables from the end, so it needs an accent: *siéntese*."
+        }
+      ],
+      "solution": "**Siéntese**, por favor. *Sentarse* → *usted* command *siente* (with the stem change) + *se* attached. The stressed syllable is now third from the end, so it needs a written accent. To a friend: *siéntate*."
+    },
+    {
+      "id": "acuestate",
+      "type": "choice",
+      "prompt": "Your friend is exhausted. How do you tell her **Go to bed!** (acostarse, tú)?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Affirmative command: the pronoun is attached to the end.",
+        "*Acostarse* is o → ue, and the stress stays on *-cues-*."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "¡Acuéstate!",
+          "correct": true,
+          "feedback": "Yes: *acuesta* + *te*, with an accent to keep the stress."
+        },
+        {
+          "id": "b",
+          "label": "¡Te acuestas!",
+          "correct": false,
+          "feedback": "Not yet — that's a statement (\"you go to bed\"). In an affirmative command, attach the pronoun: *acuéstate*."
+        },
+        {
+          "id": "c",
+          "label": "¡No te acuestes!",
+          "correct": false,
+          "feedback": "Not yet — that's the negative: \"Don't go to bed!\"."
+        },
+        {
+          "id": "d",
+          "label": "¡Acuéstese!",
+          "correct": false,
+          "feedback": "Close, but that's the *usted* command. To a friend: *acuéstate*."
+        }
+      ],
+      "solution": "**¡Acuéstate!** The *tú* command *acuesta* (with the stem change, like *él acuesta*) + *te* attached; the accent keeps the stress on *-cues-*. Negative: *¡No te acuestes!* To *usted*: *¡Acuéstese!* (With *vos*: *¡Acostate!*)"
+    },
+    {
+      "id": "dont-worry",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Tell a friend: **Don't worry.** (preocuparse)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "It's a negative command, so the pronoun goes before the verb.",
+        "*preocupo → preocup- → -es*, with *te*."
+      ],
+      "answers": [
+        "No te preocupes"
+      ],
+      "feedback": [
+        {
+          "match": "No se preocupe",
+          "message": "That's perfect for *usted*. To a friend: *No te preocupes*."
+        },
+        {
+          "match": "No preocúpate",
+          "message": "Almost — in negative commands, the pronoun goes before the verb, and the form changes: *No te preocupes*."
+        },
+        {
+          "match": "No te preocupas",
+          "message": "Almost — that's a statement. The negative command: *No te preocupes*."
+        }
+      ],
+      "solution": "**No te preocupes.** Negative *tú* command: from *preocupo* → *preocup-* + *-es*, with the pronoun *te* before the verb. To *usted*: *No se preocupe*."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "lesson": "family-and-descriptions",
+  "exercises": [
+    {
+      "id": "los-padres",
+      "type": "choice",
+      "prompt": "Amaia says: *Mis padres son de Bilbao.* What does *mis padres* mean?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Padre* is father, *madre* is mother.",
+        "The masculine plural can cover a mixed group."
+      ],
+      "options": [
+        { "id": "a", "label": "my parents", "correct": true, "feedback": "Yes: *los padres* = father and mother together." },
+        { "id": "b", "label": "my fathers", "correct": false, "feedback": "Not yet — the masculine plural *padres* normally covers a mixed pair: father and mother." },
+        { "id": "c", "label": "my relatives", "correct": false, "feedback": "Not yet — relatives in general are *los parientes* or *la familia*." },
+        { "id": "d", "label": "my grandparents", "correct": false, "feedback": "Not yet — grandparents are *los abuelos*." }
+      ],
+      "solution": "**My parents.** In Spanish, the masculine plural covers a mixed group: *los padres* (father + mother), *los hermanos* (brothers and sisters), *los hijos* (sons and daughters)."
+    },
+    {
+      "id": "tenemos",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Fill the gap with **tener**: *Nosotros ___ tres hijos.* (Type only the verb.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "The \"we\" form ends in -mos.",
+        "In this form the stress isn't on the stem, so the *e* stays *e* (no *ie*)."
+      ],
+      "answers": ["tenemos"],
+      "feedback": [
+        { "match": "tienemos", "message": "Almost — the *e → ie* change happens only when the stem is stressed. In *te-NE-mos* it isn't: *tenemos*." },
+        { "match": "tienen", "message": "Almost — *tienen* is \"they have\". For \"we\", use *tenemos*." }
+      ],
+      "solution": "**tenemos**: *Nosotros tenemos tres hijos.* The forms of *tener*: *tengo, tienes, tiene, tenemos, tenéis, tienen*. The *ie* appears only where the stem is stressed (*TIE-nes*), not in *te-NE-mos*."
+    },
+    {
+      "id": "two-sisters",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **I have two sisters.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "The *yo* form of *tener* is irregular: *tengo*.",
+        "Sister is *hermana*; make it plural."
+      ],
+      "answers": ["Tengo dos hermanas", "Yo tengo dos hermanas"],
+      "feedback": [
+        { "match": "Tengo dos hermanos", "message": "Almost — *hermanos* means brothers (or siblings). For sisters, use *hermanas*." }
+      ],
+      "solution": "**Tengo dos hermanas.** *Tengo* is the *yo* form of *tener*; *hermana* becomes *hermanas* in the plural. (*Tengo dos hermanos* would mean two brothers, or a brother and a sister.)"
+    },
+    {
+      "id": "my-brothers",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete with the word for **my**: *___ hermanos son muy altos.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The possessive agrees with the thing possessed.",
+        "*Hermanos* is plural."
+      ],
+      "answers": ["mis"],
+      "feedback": [
+        { "match": "mi", "message": "Almost — *hermanos* is plural, so *my* is plural too: *mis*." }
+      ],
+      "solution": "**Mis**: *Mis hermanos son muy altos.* The possessive agrees with *hermanos* (plural), not with the owner (one person)."
+    },
+    {
+      "id": "our-house",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **our house**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Casa* is feminine.",
+        "*Nuestro* has four forms: *nuestro, nuestra, nuestros, nuestras*."
+      ],
+      "answers": ["nuestra casa"],
+      "feedback": [
+        { "match": "nuestro casa", "message": "Almost — *casa* is feminine, so *nuestra casa*." },
+        { "match": "nuestras casa", "message": "Almost — one house, so singular: *nuestra casa*." }
+      ],
+      "solution": "**nuestra casa.** *Nuestro* agrees in gender and number with what is owned: *casa* is feminine singular, so *nuestra*. Compare *nuestro perro*, *nuestros abuelos*, *nuestras primas*."
+    },
+    {
+      "id": "su-context",
+      "type": "choice",
+      "prompt": "*Pedro vive con su madre.* (*vive con* = lives with) Without any other context, whose mother is it most likely to be?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Su* can mean his, her, its, your (*usted*), their, your (*ustedes*).",
+        "Who is the only person mentioned?"
+      ],
+      "options": [
+        { "id": "a", "label": "Pedro's mother", "correct": true, "feedback": "Yes: the only person in the sentence is Pedro, so *su* = his." },
+        { "id": "b", "label": "my mother", "correct": false, "feedback": "Not yet — \"my\" is *mi*, never *su*." },
+        { "id": "c", "label": "your mother (tú)", "correct": false, "feedback": "Not yet — with *tú*, \"your\" is *tu*. *Su* can mean *usted*'s, but nothing here suggests that." },
+        { "id": "d", "label": "It's impossible to say anything at all.", "correct": false, "feedback": "Not quite — *su* is ambiguous in principle, but context, here Pedro, almost always settles it." }
+      ],
+      "solution": "**Pedro's mother.** *Su* covers his, her, its, their and the formal your, so context decides, and here the only possible owner is Pedro. (You'll learn verbs like *vivir*, to live, in the next lesson.) If you ever need to be explicit, say *la madre de él*, *la madre de ella*, *la madre de usted*."
+    },
+    {
+      "id": "casa-blanca",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Make the adjective agree: *La casa de mis abuelos es ___* (blanco).",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "What does the adjective describe? *La casa*.",
+        "*Casa* is feminine singular; *blanco* ends in -o."
+      ],
+      "answers": ["blanca"],
+      "feedback": [
+        { "match": "blanco", "message": "Almost — the adjective describes *la casa*, which is feminine: *blanca*." },
+        { "match": "blancos", "message": "Almost — it describes *la casa* (one house), not *abuelos*: *blanca*." }
+      ],
+      "solution": "**blanca.** The adjective agrees with *casa* (feminine singular), not with *abuelos*, which is just part of the phrase *de mis abuelos*."
+    },
+    {
+      "id": "gatos-grises",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Make the adjective agree: *Tengo dos gatos ___* (gris).",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Gris* ends in a consonant, so it has one form for both genders.",
+        "Consonant endings add -es in the plural."
+      ],
+      "answers": ["grises"],
+      "feedback": [
+        { "match": "gris", "message": "Almost — *gatos* is plural, so the adjective must be plural too." },
+        { "match": "griss", "message": "Almost — after a consonant, the plural adds *-es*: *grises*." },
+        { "match": "grisos", "message": "Almost — *gris* has no -o form; just add *-es*: *grises*." }
+      ],
+      "solution": "**grises**: *Tengo dos gatos grises.* *Gris* has one form for masculine and feminine; like nouns ending in a consonant, it adds *-es* in the plural (compare *azul → azules*)."
+    },
+    {
+      "id": "abuela-enferma",
+      "type": "choice",
+      "prompt": "*Hoy mi abuela ___ enferma.* (Today my grandmother is ill.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Is being ill a characteristic or a state?",
+        "Notice *hoy* (today)."
+      ],
+      "options": [
+        { "id": "a", "label": "está", "correct": true, "feedback": "Yes: illness is a state, how she is right now, so *estar*." },
+        { "id": "b", "label": "es", "correct": false, "feedback": "Not yet — *ser* describes what someone is like. Being ill today is a state: *está*." },
+        { "id": "c", "label": "tiene", "correct": false, "feedback": "Not yet — *tener* goes with nouns (*tiene fiebre*, she has a fever). With the adjective *enferma*, use a verb \"to be\"." },
+        { "id": "d", "label": "estoy", "correct": false, "feedback": "Not yet — *estoy* is \"I am\". For *mi abuela* (she), use *está*." }
+      ],
+      "solution": "**está**: *Hoy mi abuela está enferma.* Health, mood and tiredness are states, so they take *estar*. The word *hoy* is a good clue: it's about how she is today."
+    },
+    {
+      "id": "hermano-alto",
+      "type": "choice",
+      "prompt": "*Mi hermano ___ muy alto.* (My brother is very tall.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Is height a characteristic or a passing state?",
+        "Use the verb for what someone is like."
+      ],
+      "options": [
+        { "id": "a", "label": "es", "correct": true, "feedback": "Yes: height is a characteristic, part of what he is like, so *ser*." },
+        { "id": "b", "label": "está", "correct": false, "feedback": "Not yet — *estar* is for states, like being tired or happy. Being tall is a characteristic: *es*." },
+        { "id": "c", "label": "son", "correct": false, "feedback": "Not yet — *son* is plural. *Mi hermano* is one person: *es*." },
+        { "id": "d", "label": "tiene", "correct": false, "feedback": "Not yet — *tener* takes a noun; *alto* is an adjective that needs a verb \"to be\"." }
+      ],
+      "solution": "**es**: *Mi hermano es muy alto.* Physical description and personality are characteristics, so they take *ser*: *es alto, es simpático, es moreno*."
+    },
+    {
+      "id": "she-is-tired",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **She's tired.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Tiredness is a state, so use *estar*.",
+        "The adjective must be feminine: *cansada*."
+      ],
+      "answers": ["Está cansada", "Ella está cansada"],
+      "feedback": [
+        { "match": "Es cansada", "message": "Almost — tiredness is a state, so use *estar*: *Está cansada*." },
+        { "match": "Ella es cansada", "message": "Almost — tiredness is a state, so use *estar*: *Ella está cansada*." },
+        { "match": "Está cansado", "message": "Almost — \"she\" needs the feminine adjective: *cansada*." }
+      ],
+      "solution": "**Está cansada** (or *Ella está cansada*). Two decisions: *estar*, because it's a state, and the feminine *cansada*, to agree with \"she\"."
+    },
+    {
+      "id": "good-friend",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **a good friend** (the friend is a man). Use the most natural word order.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Bueno* usually goes before the noun.",
+        "Before a masculine singular noun, *bueno* shortens."
+      ],
+      "answers": ["un buen amigo"],
+      "feedback": [
+        { "match": "un bueno amigo", "message": "Almost — before a masculine singular noun, *bueno* shortens to *buen*: *un buen amigo*." },
+        { "match": "un amigo bueno", "message": "That's grammatical, but less natural, and it can suggest \"a friend who is a good person\". The usual phrase is *un buen amigo*." },
+        { "match": "una buena amiga", "message": "That's correct for a woman. For a man: *un buen amigo*." }
+      ],
+      "solution": "**un buen amigo.** *Bueno* normally goes before the noun and shortens to *buen* before a masculine singular noun. The feminine doesn't shorten: *una buena amiga*. *Malo* behaves the same way: *un mal día*."
+    }
+  ]
+}

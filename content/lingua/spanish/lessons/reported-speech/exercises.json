@@ -1,0 +1,319 @@
+{
+  "lesson": "reported-speech",
+  "exercises": [
+    {
+      "id": "ana-tired",
+      "type": "text",
+      "prompt": "Report what Ana said: *«Estoy cansada.»* → *Ana dijo que ___ cansada.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "estaba"
+      ],
+      "lang": "es",
+      "hints": [
+        "The reporting verb *dijo* is in the past.",
+        "Present → imperfect."
+      ],
+      "solution": "After a past reporting verb, the present shifts to the **imperfect**: *estoy → **estaba***. *Ana dijo que **estaba** cansada.* (If she's still tired now, *Ana dijo que está cansada* is also possible.)",
+      "feedback": [
+        {
+          "match": "estuvo",
+          "message": "Not yet — a state described in the present shifts to the imperfect: *estaba*."
+        }
+      ]
+    },
+    {
+      "id": "will-go-tomorrow",
+      "type": "text",
+      "prompt": "Report it a week later: *«Iré mañana.»* → *Dijo que ___ al día siguiente.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "iría"
+      ],
+      "lang": "es",
+      "hints": [
+        "Future → ?",
+        "The conditional of *ir* is regular: infinitive + *-ía*."
+      ],
+      "solution": "After a past reporting verb, the future becomes the **conditional**: *iré → **iría***. And since the report is a week later, *mañana* becomes *al día siguiente*: *Dijo que **iría** al día siguiente.*",
+      "feedback": [
+        {
+          "match": "iba",
+          "message": "Close in meaning (*iba a ir*), but the standard shift of the future is the conditional: *iría*."
+        },
+        {
+          "match": "iria",
+          "message": "Almost — remember the accent: *iría*."
+        }
+      ]
+    },
+    {
+      "id": "are-you-hungry",
+      "type": "text",
+      "prompt": "Report the question: *«¿Tienes hambre?»* → *Me preguntó ___ ___ hambre.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "si tenía"
+      ],
+      "lang": "es",
+      "hints": [
+        "A yes/no question is introduced by a small word meaning \"whether\".",
+        "And the present shifts to the imperfect."
+      ],
+      "solution": "A yes/no question is reported with **si** (whether), and after a past reporting verb the present shifts to the imperfect: *tienes → tenía* (now about *me*, first person). *Me preguntó **si tenía** hambre.*",
+      "feedback": [
+        {
+          "match": "que tenía",
+          "message": "Not yet — that would report a statement. For a yes/no question, use *si*: *si tenía*."
+        },
+        {
+          "match": "sí tenía",
+          "message": "Almost — *si* meaning \"whether\" has no accent; *sí* means \"yes\"."
+        },
+        {
+          "match": "si tengo",
+          "message": "Almost — after a past reporting verb the present shifts: *si tenía*."
+        }
+      ]
+    },
+    {
+      "id": "close-the-window",
+      "type": "text",
+      "prompt": "Report the request: *«Cierra la ventana, por favor.»* → *Me pidió que ___ la ventana.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "cerrara",
+        "cerrase"
+      ],
+      "lang": "es",
+      "hints": [
+        "A request becomes *que* + subjunctive.",
+        "*Pidió* is past, so the subjunctive is imperfect. *Cerrar* → *cerraron* → …"
+      ],
+      "solution": "A command or request is reported with *que* + **subjunctive**, and after a past verb (*pidió*) the subjunctive is **imperfect**: *cerraron → **cerrara*** (or *cerrase*). *Me pidió que **cerrara** la ventana.*",
+      "feedback": [
+        {
+          "match": "cierre",
+          "message": "Heard in speech when the request is still pending, but after *pidió* the standard form is the imperfect subjunctive: *cerrara*."
+        },
+        {
+          "match": "cerraba",
+          "message": "Not yet — a request takes the subjunctive, not the indicative: *cerrara*."
+        }
+      ]
+    },
+    {
+      "id": "preguntar-or-pedir",
+      "type": "choice",
+      "prompt": "Complete: *En el restaurante, le ___ la cuenta al camarero.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "pregunté",
+          "correct": false,
+          "feedback": "Not yet — *preguntar* is for questions. Asking for something is *pedir*."
+        },
+        {
+          "id": "b",
+          "label": "pedí",
+          "correct": true,
+          "feedback": "Yes. *Pedir* = to ask for something (a thing, a favour, a service)."
+        },
+        {
+          "id": "c",
+          "label": "dije",
+          "correct": false,
+          "feedback": "Not yet — *decir* means to say or tell, not to ask for."
+        }
+      ],
+      "hints": [
+        "Are you asking a question, or asking for something?",
+        "English uses \"ask\" for both; Spanish doesn't."
+      ],
+      "solution": "English *ask* covers two Spanish verbs. ***Preguntar*** is to ask a question (*le pregunté la hora*). ***Pedir*** is to ask for something or request it (*le pedí la cuenta, le pedí un favor, le pedí que me ayudara*). Here you're requesting the bill: ***Le pedí la cuenta.***"
+    },
+    {
+      "id": "lost-keys",
+      "type": "text",
+      "prompt": "Report it: *«He perdido las llaves.»* → *Dijo que ___ ___ las llaves.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "había perdido"
+      ],
+      "lang": "es",
+      "hints": [
+        "Present perfect → ?",
+        "Imperfect of *haber* + participle."
+      ],
+      "solution": "After a past reporting verb, the present perfect shifts to the **pluperfect**: *he perdido → **había perdido***. *Dijo que **había perdido** las llaves.*",
+      "feedback": [
+        {
+          "match": "ha perdido",
+          "message": "Possible if it's still relevant now, but after *dijo* the usual shift is to the pluperfect: *había perdido*."
+        }
+      ]
+    },
+    {
+      "id": "see-you-tomorrow",
+      "type": "choice",
+      "prompt": "Last week your friend said: *«Te veo mañana en la biblioteca.»* How do you report it today?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Me dijo que me vería mañana en la biblioteca.",
+          "correct": false,
+          "feedback": "Not yet — *mañana* would now mean tomorrow from today. The day she meant was the day after she spoke."
+        },
+        {
+          "id": "b",
+          "label": "Me dijo que me vería al día siguiente en la biblioteca.",
+          "correct": true,
+          "feedback": "Yes. *Mañana* becomes *al día siguiente*, and *veo* (used for the future) becomes *vería*."
+        },
+        {
+          "id": "c",
+          "label": "Me dijo que me ve mañana en la biblioteca.",
+          "correct": false,
+          "feedback": "Not yet — both the tense and the time word need to shift for a report made a week later."
+        }
+      ],
+      "hints": [
+        "The time of the report is a week after the original words.",
+        "What does *mañana* turn into?"
+      ],
+      "solution": "Because time has passed, both the verb and the time word shift. *Veo* (a present used for the future) becomes the conditional *vería*, and *mañana* becomes ***al día siguiente***: *Me dijo que me vería al día siguiente en la biblioteca.* (*En la biblioteca* doesn't change: it isn't a word that points from where the speaker is, like *aquí*.)"
+    },
+    {
+      "id": "where-is-the-station",
+      "type": "text",
+      "prompt": "Report your own question: *«¿Dónde está la estación?»* → *Le pregunté ___ ___ la estación.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "dónde estaba"
+      ],
+      "lang": "es",
+      "hints": [
+        "Keep the question word, with its accent.",
+        "The present shifts to the imperfect after *pregunté*."
+      ],
+      "solution": "A question with a question word keeps it, **with its accent**, because it's still a question: *dónde*. After a past reporting verb, *está* shifts to *estaba*: *Le pregunté **dónde estaba** la estación.*",
+      "feedback": [
+        {
+          "match": "donde estaba",
+          "message": "Almost — in an indirect question, *dónde* keeps its accent."
+        },
+        {
+          "match": "si estaba",
+          "message": "Not yet — *si* is for yes/no questions. Keep the question word: *dónde estaba*."
+        }
+      ]
+    },
+    {
+      "id": "advertir-meaning",
+      "type": "choice",
+      "prompt": "What's the difference between these two sentences? (1) *Nos advirtió que el puente estaba cerrado.* (2) *Nos advirtió que no cruzáramos el puente.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "(1) warns us about a fact; (2) warns us not to do something.",
+          "correct": true,
+          "feedback": "Yes. *Advertir* + indicative reports information; + subjunctive reports a warning to act (or not)."
+        },
+        {
+          "id": "b",
+          "label": "They mean the same; the mood is a matter of style.",
+          "correct": false,
+          "feedback": "Not yet — the mood changes the meaning: information versus instruction."
+        },
+        {
+          "id": "c",
+          "label": "(1) is about the future; (2) is about the past.",
+          "correct": false,
+          "feedback": "Not yet — the difference isn't time; it's information versus instruction."
+        }
+      ],
+      "hints": [
+        "Compare with *decir que* + indicative and + subjunctive.",
+        "One reports what is the case; the other tells someone what to do."
+      ],
+      "solution": "Like *decir*, ***advertir*** has two uses. With the **indicative** it warns about a fact: *Nos advirtió que el puente estaba cerrado* (he warned us that the bridge was closed). With the **subjunctive** it warns someone to act: *Nos advirtió que no cruzáramos el puente* (he warned us not to cross the bridge)."
+    },
+    {
+      "id": "translate-told-me-to-wait",
+      "type": "text",
+      "prompt": "Translate into Spanish: *She told me to wait.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "ella me dijo que esperara",
+        "ella me dijo que esperase",
+        "me dijo que esperara",
+        "me dijo que esperase",
+        "ella me pidió que esperara",
+        "ella me pidió que esperase",
+        "me pidió que esperara",
+        "me pidió que esperase"
+      ],
+      "lang": "es",
+      "hints": [
+        "\"Told me to\" is an instruction: *decir que* + subjunctive.",
+        "*Dijo* is past, so use the imperfect subjunctive of *esperar*."
+      ],
+      "solution": "An instruction reported with *decir* takes ***que* + subjunctive**, imperfect after a past verb: ***Me dijo que esperara*** (or *esperase*). *Me pidió que esperara* (she asked me to wait) is also a good translation.",
+      "feedback": [
+        {
+          "match": "me dijo que esperaba",
+          "message": "Not yet — that means she told me she was waiting. An instruction takes the subjunctive: *me dijo que esperara*."
+        },
+        {
+          "match": "me dijo esperar",
+          "message": "Not yet — Spanish reports an instruction with *que* + subjunctive: *me dijo que esperara*."
+        }
+      ]
+    },
+    {
+      "id": "denied-taking",
+      "type": "choice",
+      "prompt": "Complete: *El acusado negó que ___ el dinero.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "hubiera tomado",
+          "correct": true,
+          "feedback": "Yes. *Negar que* usually takes the subjunctive, and after a past verb, an earlier action is in the pluperfect subjunctive."
+        },
+        {
+          "id": "b",
+          "label": "tomaría",
+          "correct": false,
+          "feedback": "Not yet — the conditional would put the action after the denial. He denied something that had (or hadn't) already happened."
+        },
+        {
+          "id": "c",
+          "label": "tome",
+          "correct": false,
+          "feedback": "Not yet — after a past main verb, the sequence of tenses calls for an imperfect or pluperfect subjunctive."
+        }
+      ],
+      "hints": [
+        "*Negar* is a verb of denial. Which mood does denial usually take?",
+        "The taking (if it happened) came before the denial."
+      ],
+      "solution": "*Negar que* expresses denial, which normally takes the **subjunctive**. The main verb is past (*negó*), and the action denied happened before it, so we need the **pluperfect subjunctive**: *El acusado negó que **hubiera tomado** el dinero.*"
+    }
+  ]
+}

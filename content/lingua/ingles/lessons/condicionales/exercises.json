@@ -1,0 +1,494 @@
+{
+  "lesson": "condicionales",
+  "exercises": [
+    {
+      "id": "agua-hierve",
+      "type": "choice",
+      "prompt": "Completa la verdad general:\n\n*If you heat water to 100 degrees Celsius, it ___.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "boils",
+          "correct": true,
+          "feedback": "Sí. Es una ley de la naturaleza: zero conditional, presente en las dos partes."
+        },
+        {
+          "id": "b",
+          "label": "would boil",
+          "correct": false,
+          "feedback": "Todavía no. *Would* presenta la situación como imaginaria, y esto pasa siempre de verdad."
+        },
+        {
+          "id": "c",
+          "label": "boiled",
+          "correct": false,
+          "feedback": "Todavía no. No hablas de un momento pasado, sino de algo que ocurre siempre."
+        }
+      ],
+      "hints": [
+        "¿Esto pasa siempre o solo podría pasar?",
+        "Las verdades generales llevan presente en las dos partes."
+      ],
+      "solution": "**boils**: *If you heat water to 100 degrees Celsius, it boils.*\n\nEs un hecho que se cumple siempre, así que usamos el zero conditional: *if* + presente, presente. Aquí *if* casi equivale a *when* (cada vez que)."
+    },
+    {
+      "id": "si-llueve-manana",
+      "type": "choice",
+      "prompt": "*If it ___ tomorrow, we'll stay at home.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "will rain",
+          "correct": false,
+          "feedback": "Todavía no. Después de *if* no se usa *will*, aunque hables del futuro (en español tampoco: *si llueve*, no *si lloverá*)."
+        },
+        {
+          "id": "b",
+          "label": "rains",
+          "correct": true,
+          "feedback": "Sí. First conditional: *if* + presente, *will* + infinitivo."
+        },
+        {
+          "id": "c",
+          "label": "rained",
+          "correct": false,
+          "feedback": "Todavía no. *Rained* iría con *would* en la otra parte (second conditional), y aquí tienes *we'll*."
+        }
+      ],
+      "hints": [
+        "Mira la otra mitad de la frase: *we'll stay*.",
+        "En la parte del *if* nunca va *will*."
+      ],
+      "solution": "**rains**: *If it rains tomorrow, we'll stay at home.*\n\nEs una posibilidad real en el futuro: first conditional. La condición va en present simple (*rains*, con *-s* por ser *it*) y la consecuencia con *will*. El error *If it will rain* es muy frecuente; recuerda el español *si llueve*."
+    },
+    {
+      "id": "si-tuviera-tiempo",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Si tuviera más tiempo, aprendería japonés.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "If I had more time, I would learn Japanese",
+        "If I had more time I would learn Japanese",
+        "If I had more time, I'd learn Japanese",
+        "If I had more time I'd learn Japanese",
+        "I would learn Japanese if I had more time",
+        "I'd learn Japanese if I had more time",
+        "If I had more time, I would study Japanese",
+        "If I had more time I would study Japanese",
+        "If I had more time, I'd study Japanese",
+        "If I had more time I'd study Japanese",
+        "I would study Japanese if I had more time",
+        "I'd study Japanese if I had more time"
+      ],
+      "feedback": [
+        {
+          "match": "If I would have more time, I would learn Japanese",
+          "message": "Casi: *would* va solo en la consecuencia. En la condición usa el past simple: *If I had…*"
+        }
+      ],
+      "hints": [
+        "Es una situación irreal ahora: second conditional.",
+        "*If* + past simple (*had*), *would* + infinitivo. *Japanese* siempre con mayúscula."
+      ],
+      "solution": "**If I had more time, I would (I'd) learn Japanese.**\n\nNo tienes tiempo, así que la situación es imaginaria: second conditional. *Tuviera* → *had* (past simple, aunque no hable del pasado); *aprendería* → *would learn*. Los idiomas se escriben con mayúscula en inglés: *Japanese*."
+    },
+    {
+      "id": "if-i-were-you",
+      "type": "text",
+      "prompt": "Completa el consejo con una palabra:\n\n*If I ___ you, I'd talk to her before Friday.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "were"
+      ],
+      "feedback": [
+        {
+          "match": "was",
+          "message": "Casi: *If I was* se oye en conversación, pero en la expresión fija para aconsejar se dice siempre *If I ___ you*. Prueba la otra forma del pasado de *be*."
+        },
+        {
+          "match": "am",
+          "message": "Todavía no: tú no eres la otra persona; es una situación imaginaria, así que el verbo va en pasado."
+        }
+      ],
+      "hints": [
+        "Es una situación imaginaria: no eres la otra persona.",
+        "Es la forma especial del pasado de *be* en el second conditional."
+      ],
+      "solution": "**were**: *If I were you, I'd talk to her before Friday.*\n\nEn el second conditional, *be* toma la forma *were* en todas las personas. En la conversación se oye *if I was*, pero la fórmula para aconsejar, *If I were you* (yo que tú), se dice siempre con *were*."
+    },
+    {
+      "id": "unless-estudies",
+      "type": "choice",
+      "prompt": "*You won't pass the exam ___ you study every day.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "unless",
+          "correct": true,
+          "feedback": "Sí. *Unless you study* = *if you don't study*: no aprobarás a menos que estudies."
+        },
+        {
+          "id": "b",
+          "label": "if",
+          "correct": false,
+          "feedback": "Todavía no. Con *if* la frase diría que no aprobarás **si** estudias, justo lo contrario de lo lógico."
+        },
+        {
+          "id": "c",
+          "label": "in case",
+          "correct": false,
+          "feedback": "Todavía no. *In case* es «por si»: expresa precaución, no la condición que decide el resultado."
+        }
+      ],
+      "hints": [
+        "Lee la frase traduciendo cada opción: «no aprobarás ___ estudies todos los días».",
+        "Necesitas «a menos que»."
+      ],
+      "solution": "**unless**: *You won't pass the exam unless you study every day.*\n\n*Unless* significa «a menos que» y equivale a *if… not*: *You won't pass the exam if you don't study every day.* Fíjate en que después de *unless* el verbo va en afirmativa."
+    },
+    {
+      "id": "reescribe-unless",
+      "type": "text",
+      "prompt": "Reescribe la frase con *unless*, sin cambiar el significado:\n\n*If you don't hurry, you'll miss the train.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Unless you hurry, you'll miss the train",
+        "Unless you hurry you'll miss the train",
+        "Unless you hurry, you will miss the train",
+        "Unless you hurry you will miss the train",
+        "You'll miss the train unless you hurry",
+        "You will miss the train unless you hurry",
+        "Unless you hurry up, you'll miss the train",
+        "Unless you hurry up you'll miss the train",
+        "Unless you hurry up, you will miss the train",
+        "Unless you hurry up you will miss the train",
+        "You'll miss the train unless you hurry up",
+        "You will miss the train unless you hurry up"
+      ],
+      "feedback": [
+        {
+          "match": "Unless you don't hurry, you'll miss the train",
+          "message": "Casi: *unless* ya contiene la negación. Quita *don't*."
+        }
+      ],
+      "hints": [
+        "*Unless* = *if… not*.",
+        "Sustituye *If you don't* por *Unless you* y deja el verbo en afirmativa."
+      ],
+      "solution": "**Unless you hurry, you'll miss the train.** (o *You'll miss the train unless you hurry.*)\n\n*Unless* ya significa «si no», así que la negación de *don't* desaparece: el verbo queda en afirmativa. Decir *unless you don't hurry* sería una doble negación y cambiaría el sentido."
+    },
+    {
+      "id": "paraguas-in-case",
+      "type": "choice",
+      "prompt": "Quieres decir: **Llévate el paraguas por si llueve** (llévalo de todos modos). ¿Qué frase lo dice?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Take your umbrella if it rains.",
+          "correct": false,
+          "feedback": "Todavía no. Esta frase dice que lo lleves solo **si** llueve; no es una precaución."
+        },
+        {
+          "id": "b",
+          "label": "Take your umbrella in case it rains.",
+          "correct": true,
+          "feedback": "Sí. *In case* = por si: lo llevas ahora como precaución."
+        },
+        {
+          "id": "c",
+          "label": "Take your umbrella in case it will rain.",
+          "correct": false,
+          "feedback": "Todavía no. Después de *in case* el futuro se expresa con presente, igual que después de *if*."
+        },
+        {
+          "id": "d",
+          "label": "Take your umbrella as long as it rains.",
+          "correct": false,
+          "feedback": "Todavía no. *As long as* expresa una condición imprescindible («siempre que llueva»), y no tiene sentido aquí."
+        }
+      ],
+      "hints": [
+        "¿Llevas el paraguas siempre o solo cuando llueve?",
+        "«Por si» se dice con dos palabras en inglés."
+      ],
+      "solution": "**Take your umbrella in case it rains.**\n\n*In case* expresa precaución: haces algo ahora (llevar el paraguas) por si ocurre algo después. Con *if*, solo lo llevarías cuando llueva. Y recuerda: después de *in case* va presente, no *will*."
+    },
+    {
+      "id": "bici-siempre-que",
+      "type": "text",
+      "prompt": "Traduce al inglés con *as long as*:\n\n**Puedes usar mi bici siempre que me la devuelvas mañana.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "You can use my bike as long as you give it back tomorrow",
+        "You can borrow my bike as long as you give it back tomorrow",
+        "You can use my bike as long as you give it back to me tomorrow",
+        "You can borrow my bike as long as you give it back to me tomorrow",
+        "You can use my bike as long as you bring it back tomorrow",
+        "You can borrow my bike as long as you bring it back tomorrow",
+        "You can use my bike as long as you bring it back to me tomorrow",
+        "You can borrow my bike as long as you bring it back to me tomorrow",
+        "You can use my bike as long as you return it tomorrow",
+        "You can borrow my bike as long as you return it tomorrow",
+        "You can use my bike as long as you return it to me tomorrow",
+        "You can borrow my bike as long as you return it to me tomorrow",
+        "You can use my bike as long as you give me it back tomorrow",
+        "You can borrow my bike as long as you give me it back tomorrow",
+        "You can use my bicycle as long as you give it back tomorrow",
+        "You can borrow my bicycle as long as you give it back tomorrow",
+        "You can use my bicycle as long as you give it back to me tomorrow",
+        "You can borrow my bicycle as long as you give it back to me tomorrow",
+        "You can use my bicycle as long as you bring it back tomorrow",
+        "You can borrow my bicycle as long as you bring it back tomorrow",
+        "You can use my bicycle as long as you bring it back to me tomorrow",
+        "You can borrow my bicycle as long as you bring it back to me tomorrow",
+        "You can use my bicycle as long as you return it tomorrow",
+        "You can borrow my bicycle as long as you return it tomorrow",
+        "You can use my bicycle as long as you return it to me tomorrow",
+        "You can borrow my bicycle as long as you return it to me tomorrow",
+        "You can use my bicycle as long as you give me it back tomorrow",
+        "You can borrow my bicycle as long as you give me it back tomorrow",
+        "You can use my bike provided you give it back tomorrow",
+        "You can borrow my bike provided you give it back tomorrow",
+        "You can use my bike provided you give it back to me tomorrow",
+        "You can borrow my bike provided you give it back to me tomorrow",
+        "You can use my bike provided you bring it back tomorrow",
+        "You can borrow my bike provided you bring it back tomorrow",
+        "You can use my bike provided you bring it back to me tomorrow",
+        "You can borrow my bike provided you bring it back to me tomorrow",
+        "You can use my bike provided you return it tomorrow",
+        "You can borrow my bike provided you return it tomorrow",
+        "You can use my bike provided you return it to me tomorrow",
+        "You can borrow my bike provided you return it to me tomorrow",
+        "You can use my bike provided you give me it back tomorrow",
+        "You can borrow my bike provided you give me it back tomorrow",
+        "You can use my bicycle provided you give it back tomorrow",
+        "You can borrow my bicycle provided you give it back tomorrow",
+        "You can use my bicycle provided you give it back to me tomorrow",
+        "You can borrow my bicycle provided you give it back to me tomorrow",
+        "You can use my bicycle provided you bring it back tomorrow",
+        "You can borrow my bicycle provided you bring it back tomorrow",
+        "You can use my bicycle provided you bring it back to me tomorrow",
+        "You can borrow my bicycle provided you bring it back to me tomorrow",
+        "You can use my bicycle provided you return it tomorrow",
+        "You can borrow my bicycle provided you return it tomorrow",
+        "You can use my bicycle provided you return it to me tomorrow",
+        "You can borrow my bicycle provided you return it to me tomorrow",
+        "You can use my bicycle provided you give me it back tomorrow",
+        "You can borrow my bicycle provided you give me it back tomorrow",
+        "You can use my bike provided that you give it back tomorrow",
+        "You can borrow my bike provided that you give it back tomorrow",
+        "You can use my bike provided that you give it back to me tomorrow",
+        "You can borrow my bike provided that you give it back to me tomorrow",
+        "You can use my bike provided that you bring it back tomorrow",
+        "You can borrow my bike provided that you bring it back tomorrow",
+        "You can use my bike provided that you bring it back to me tomorrow",
+        "You can borrow my bike provided that you bring it back to me tomorrow",
+        "You can use my bike provided that you return it tomorrow",
+        "You can borrow my bike provided that you return it tomorrow",
+        "You can use my bike provided that you return it to me tomorrow",
+        "You can borrow my bike provided that you return it to me tomorrow",
+        "You can use my bike provided that you give me it back tomorrow",
+        "You can borrow my bike provided that you give me it back tomorrow",
+        "You can use my bicycle provided that you give it back tomorrow",
+        "You can borrow my bicycle provided that you give it back tomorrow",
+        "You can use my bicycle provided that you give it back to me tomorrow",
+        "You can borrow my bicycle provided that you give it back to me tomorrow",
+        "You can use my bicycle provided that you bring it back tomorrow",
+        "You can borrow my bicycle provided that you bring it back tomorrow",
+        "You can use my bicycle provided that you bring it back to me tomorrow",
+        "You can borrow my bicycle provided that you bring it back to me tomorrow",
+        "You can use my bicycle provided that you return it tomorrow",
+        "You can borrow my bicycle provided that you return it tomorrow",
+        "You can use my bicycle provided that you return it to me tomorrow",
+        "You can borrow my bicycle provided that you return it to me tomorrow",
+        "You can use my bicycle provided that you give me it back tomorrow",
+        "You can borrow my bicycle provided that you give me it back tomorrow",
+        "You can use my bike providing you give it back tomorrow",
+        "You can borrow my bike providing you give it back tomorrow",
+        "You can use my bike providing you give it back to me tomorrow",
+        "You can borrow my bike providing you give it back to me tomorrow",
+        "You can use my bike providing you bring it back tomorrow",
+        "You can borrow my bike providing you bring it back tomorrow",
+        "You can use my bike providing you bring it back to me tomorrow",
+        "You can borrow my bike providing you bring it back to me tomorrow",
+        "You can use my bike providing you return it tomorrow",
+        "You can borrow my bike providing you return it tomorrow",
+        "You can use my bike providing you return it to me tomorrow",
+        "You can borrow my bike providing you return it to me tomorrow",
+        "You can use my bike providing you give me it back tomorrow",
+        "You can borrow my bike providing you give me it back tomorrow",
+        "You can use my bicycle providing you give it back tomorrow",
+        "You can borrow my bicycle providing you give it back tomorrow",
+        "You can use my bicycle providing you give it back to me tomorrow",
+        "You can borrow my bicycle providing you give it back to me tomorrow",
+        "You can use my bicycle providing you bring it back tomorrow",
+        "You can borrow my bicycle providing you bring it back tomorrow",
+        "You can use my bicycle providing you bring it back to me tomorrow",
+        "You can borrow my bicycle providing you bring it back to me tomorrow",
+        "You can use my bicycle providing you return it tomorrow",
+        "You can borrow my bicycle providing you return it tomorrow",
+        "You can use my bicycle providing you return it to me tomorrow",
+        "You can borrow my bicycle providing you return it to me tomorrow",
+        "You can use my bicycle providing you give me it back tomorrow",
+        "You can borrow my bicycle providing you give me it back tomorrow",
+        "You can use my bike providing that you give it back tomorrow",
+        "You can borrow my bike providing that you give it back tomorrow",
+        "You can use my bike providing that you give it back to me tomorrow",
+        "You can borrow my bike providing that you give it back to me tomorrow",
+        "You can use my bike providing that you bring it back tomorrow",
+        "You can borrow my bike providing that you bring it back tomorrow",
+        "You can use my bike providing that you bring it back to me tomorrow",
+        "You can borrow my bike providing that you bring it back to me tomorrow",
+        "You can use my bike providing that you return it tomorrow",
+        "You can borrow my bike providing that you return it tomorrow",
+        "You can use my bike providing that you return it to me tomorrow",
+        "You can borrow my bike providing that you return it to me tomorrow",
+        "You can use my bike providing that you give me it back tomorrow",
+        "You can borrow my bike providing that you give me it back tomorrow",
+        "You can use my bicycle providing that you give it back tomorrow",
+        "You can borrow my bicycle providing that you give it back tomorrow",
+        "You can use my bicycle providing that you give it back to me tomorrow",
+        "You can borrow my bicycle providing that you give it back to me tomorrow",
+        "You can use my bicycle providing that you bring it back tomorrow",
+        "You can borrow my bicycle providing that you bring it back tomorrow",
+        "You can use my bicycle providing that you bring it back to me tomorrow",
+        "You can borrow my bicycle providing that you bring it back to me tomorrow",
+        "You can use my bicycle providing that you return it tomorrow",
+        "You can borrow my bicycle providing that you return it tomorrow",
+        "You can use my bicycle providing that you return it to me tomorrow",
+        "You can borrow my bicycle providing that you return it to me tomorrow",
+        "You can use my bicycle providing that you give me it back tomorrow",
+        "You can borrow my bicycle providing that you give me it back tomorrow"
+      ],
+      "feedback": [
+        {
+          "match": "You can use my bike as long as you will give it back tomorrow",
+          "message": "Casi: después de *as long as* el futuro va en presente: *as long as you give it back*."
+        }
+      ],
+      "hints": [
+        "El español usa subjuntivo (*devuelvas*); el inglés, present simple.",
+        "*Devolver* algo a alguien: *give it back* o *bring it back*."
+      ],
+      "solution": "**You can use my bike as long as you give it back tomorrow.**\n\n*As long as* (siempre que) introduce una condición imprescindible. Donde el español pone subjuntivo (*me la devuelvas*), el inglés usa present simple: *you give it back*. También valen *bring it back*, *return it* y, en un registro más formal, *provided (that)* en lugar de *as long as*."
+    },
+    {
+      "id": "loteria",
+      "type": "choice",
+      "prompt": "Tu amiga sueña despierta: *If I ___ the lottery, I'd buy a house in the mountains.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "win",
+          "correct": false,
+          "feedback": "Todavía no. *Win* iría con *will* (first conditional). La consecuencia lleva *I'd* (*I would*), así que la condición va en pasado."
+        },
+        {
+          "id": "b",
+          "label": "won",
+          "correct": true,
+          "feedback": "Sí. Second conditional: *if* + past simple, *would* + infinitivo. Ganar la lotería es muy improbable."
+        },
+        {
+          "id": "c",
+          "label": "would win",
+          "correct": false,
+          "feedback": "Todavía no. *Would* nunca va después de *if* en estos condicionales."
+        }
+      ],
+      "hints": [
+        "Mira la consecuencia: *I'd buy*.",
+        "Con *would* en la consecuencia, la condición va en past simple."
+      ],
+      "solution": "**won**: *If I won the lottery, I'd buy a house in the mountains.*\n\nGanar la lotería es una situación muy poco probable, y la consecuencia ya está en condicional (*I'd buy*), así que la condición va en past simple. Recuerda que ese pasado no habla del pasado, sino de un presente o futuro imaginario."
+    },
+    {
+      "id": "si-tuviera-coche",
+      "type": "text",
+      "prompt": "Escribe un second conditional a partir de esta situación real:\n\n*I don't have a car, so I can't drive to work.*\n\nEmpieza con *If I…*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "If I had a car, I could drive to work",
+        "If I had a car I could drive to work",
+        "If I had a car, I would drive to work",
+        "If I had a car I would drive to work",
+        "If I had a car, I'd drive to work",
+        "If I had a car I'd drive to work",
+        "If I had a car, I would be able to drive to work",
+        "If I had a car I would be able to drive to work",
+        "If I had a car, I'd be able to drive to work",
+        "If I had a car I'd be able to drive to work"
+      ],
+      "hints": [
+        "La realidad es negativa (*don't have*); la hipótesis, afirmativa.",
+        "*Can* en el second conditional se convierte en *could*."
+      ],
+      "solution": "**If I had a car, I could drive to work.**\n\nLa realidad es *I don't have a car*; para imaginar lo contrario, la condición pasa a afirmativa y a past simple: *If I had a car*. *Can't* se convierte en *could* (podría). También es correcto *I would (I'd) drive to work*."
+    },
+    {
+      "id": "cuando-llegue",
+      "type": "choice",
+      "prompt": "Marca **todas** las frases correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "I'll call you when I get home.",
+          "correct": true,
+          "feedback": "Sí. Después de *when* el futuro va en presente: *when I get home*."
+        },
+        {
+          "id": "b",
+          "label": "I'll call you when I will get home.",
+          "correct": false,
+          "feedback": "Todavía no. Igual que con *if*, después de *when* no va *will*."
+        },
+        {
+          "id": "c",
+          "label": "If you see Ahmed, tell him to call me.",
+          "correct": true,
+          "feedback": "Sí. First conditional con imperativo en la consecuencia."
+        },
+        {
+          "id": "d",
+          "label": "If I would know the answer, I would tell you.",
+          "correct": false,
+          "feedback": "Todavía no. En la condición va past simple: *If I knew the answer, I would tell you.*"
+        },
+        {
+          "id": "e",
+          "label": "If I were you, I wouldn't sign that contract.",
+          "correct": true,
+          "feedback": "Sí. La fórmula para aconsejar, con *were* y *wouldn't*."
+        }
+      ],
+      "hints": [
+        "Busca *will* o *would* en la parte de *if* o de *when*.",
+        "Hay tres frases correctas."
+      ],
+      "solution": "Son correctas **a**, **c** y **e**.\n\n- *b* necesita *when I get home*: después de *when* (y de *if, unless, as long as, in case*) el futuro se expresa con presente.\n- *d* necesita *If I knew the answer*: *would* va solo en la consecuencia.\n- *e* es la fórmula de consejo *If I were you* con la consecuencia negativa *I wouldn't…*"
+    }
+  ]
+}

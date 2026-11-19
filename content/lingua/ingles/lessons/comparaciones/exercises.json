@@ -1,0 +1,232 @@
+{
+  "lesson": "comparaciones",
+  "exercises": [
+    {
+      "id": "cheaper",
+      "type": "choice",
+      "prompt": "Completa: **The bus is ________ the train.** (El autobús es más barato que el tren.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Cheap* tiene una sola sílaba.",
+        "Adjetivo corto: *-er* + *than*."
+      ],
+      "solution": "**cheaper than**. *Cheap* es un adjetivo corto (una sílaba), así que añade *-er*, y el segundo término va con *than*.",
+      "options": [
+        { "id": "a", "label": "more cheap than", "correct": false, "feedback": "Todavía no: los adjetivos de una sílaba no usan *more*: *cheaper*." },
+        { "id": "b", "label": "cheaper than", "correct": true, "feedback": "¡Bien! *-er* + *than*." },
+        { "id": "c", "label": "cheaper that", "correct": false, "feedback": "Casi: «que» en las comparaciones es *than*." },
+        { "id": "d", "label": "more cheaper than", "correct": false, "feedback": "Todavía no: o *-er* o *more*, nunca los dos." }
+      ]
+    },
+    {
+      "id": "bigger",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Escribe el comparativo de *big*.",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Es un adjetivo corto: *-er*.",
+        "Termina en vocal + consonante: ¿qué pasa con la g?"
+      ],
+      "solution": "**bigger**. Una vocal + una consonante al final: la consonante se dobla. Igual: *hot → hotter*, *thin → thinner*.",
+      "answers": ["bigger"],
+      "feedback": [
+        { "match": "biger", "message": "Casi: la g se dobla: *bigger*." },
+        { "match": "more big", "message": "Casi: *big* es corto, así que *-er*: *bigger*." },
+        { "match": "more bigger", "message": "Casi: o *-er* o *more*, no los dos: *bigger*." }
+      ]
+    },
+    {
+      "id": "madrid-mas-grande",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Madrid es más grande que Sevilla.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Big* + *-er*, doblando la g.",
+        "«Que» = *than*. Sevilla en inglés suele escribirse *Seville*."
+      ],
+      "solution": "**Madrid is bigger than Seville** (también se acepta *Sevilla*). Comparativo de un adjetivo corto (*bigger*) + *than*.",
+      "answers": ["Madrid is bigger than Seville", "Madrid is bigger than Sevilla", "Madrid's bigger than Seville", "Madrid's bigger than Sevilla", "Madrid is larger than Seville", "Madrid is larger than Sevilla"],
+      "feedback": [
+        { "match": "Madrid is more big than Seville", "message": "Casi: *big* es corto: *bigger than*." },
+        { "match": "Madrid is bigger that Seville", "message": "Casi: «que» es *than*: *bigger than*." },
+        { "match": "Madrid is biger than Seville", "message": "Casi: la g se dobla: *bigger*." },
+        { "match": "Madrid is more bigger than Seville", "message": "Casi: sin *more*: *bigger than*." }
+      ]
+    },
+    {
+      "id": "mas-interesante",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **El libro es más interesante que la película.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Interesting* es un adjetivo largo.",
+        "*more* + adjetivo + *than*. «Película»: *film* (RU) o *movie* (EE. UU.)."
+      ],
+      "solution": "**The book is more interesting than the film** (o *the movie*). Los adjetivos largos forman el comparativo con *more*.",
+      "answers": ["The book is more interesting than the film", "The book is more interesting than the movie", "The book's more interesting than the film", "The book's more interesting than the movie", "The book is more interesting than the film is", "The book is more interesting than the movie is"],
+      "feedback": [
+        { "match": "The book is interestinger than the film", "message": "Casi: *interesting* es largo, así que *more interesting*." },
+        { "match": "The book is more interesting that the film", "message": "Casi: «que» es *than*." }
+      ]
+    },
+    {
+      "id": "in-the-city",
+      "type": "choice",
+      "prompt": "Completa: **It's the tallest building ____ the city.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "En español sería «de la ciudad». ¿Qué preposición usa el inglés con lugares?",
+        "*Of* es para periodos y grupos en plural."
+      ],
+      "solution": "**in** → *It's the tallest building in the city.* Tras un superlativo, con lugares (y grupos como *the class*, *the team*) se usa *in*. *Of* se usa con periodos y plurales: *the best day of my life*, *the cheapest of the three*.",
+      "options": [
+        { "id": "a", "label": "of", "correct": false, "feedback": "Casi: es el «de» español, pero con lugares el inglés usa *in*." },
+        { "id": "b", "label": "in", "correct": true, "feedback": "¡Exacto! Superlativo + *in* + lugar." },
+        { "id": "c", "label": "than", "correct": false, "feedback": "Todavía no: *than* es para comparativos (*taller than*), no para superlativos." }
+      ]
+    },
+    {
+      "id": "mejor-dia",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Es el mejor día de mi vida.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "El superlativo de *good* es irregular.",
+        "*My life* es un periodo de tiempo: ¿*in* u *of*?"
+      ],
+      "solution": "**It's the best day of my life** (o *This is the best day of my life*). *Good → better → the best*. Como *my life* es un periodo de tiempo, aquí se usa *of*.",
+      "answers": ["It's the best day of my life", "It is the best day of my life", "This is the best day of my life", "Today is the best day of my life", "This is the best day in my life", "It's the best day in my life"],
+      "feedback": [
+        { "match": "It's the most good day of my life", "message": "Casi: *good* es irregular: *the best*." },
+        { "match": "It's the better day of my life", "message": "Casi: *better* es comparativo. El superlativo es *the best*." },
+        { "match": "It's the best day of the my life", "message": "Casi: sin *the* delante de *my*: *of my life*." },
+        { "match": "Is the best day of my life", "message": "Casi: falta el sujeto *it*." }
+      ]
+    },
+    {
+      "id": "worse",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa con el comparativo de *bad*: **The weather today is ______ than yesterday.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Bad* es irregular.",
+        "*Bad → ? → the worst*."
+      ],
+      "solution": "**worse** → *The weather today is worse than yesterday.* *Bad* es irregular: *bad → worse → the worst*.",
+      "answers": ["worse"],
+      "feedback": [
+        { "match": "badder", "message": "Casi: *bad* es irregular: *worse*." },
+        { "match": "more bad", "message": "Casi: *bad* es irregular: *worse*." },
+        { "match": "worst", "message": "Casi: *worst* es el superlativo (*the worst*). El comparativo es *worse*." },
+        { "match": "worser", "message": "Casi: *worse* ya es comparativo; no lleva *-er*." }
+      ]
+    },
+    {
+      "id": "not-as-cheap-as",
+      "type": "choice",
+      "prompt": "¿Cómo se dice **«El tren no es tan barato como el autobús»**?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«Tan… como» = *as … as*.",
+        "La negación va en el verbo: *isn't*."
+      ],
+      "solution": "**The train isn't as cheap as the bus.** *Not as … as* = «no tan… como». Las dos palabras de la comparación son *as*. Significa lo mismo que *The bus is cheaper than the train*, pero suena más suave.",
+      "options": [
+        { "id": "a", "label": "The train isn't as cheap as the bus.", "correct": true, "feedback": "¡Muy bien! *not as … as*." },
+        { "id": "b", "label": "The train isn't so cheap than the bus.", "correct": false, "feedback": "Todavía no: la segunda palabra debe ser *as*, no *than*." },
+        { "id": "c", "label": "The train isn't as cheap that the bus.", "correct": false, "feedback": "Casi: la segunda palabra también es *as*: *as cheap as*." },
+        { "id": "d", "label": "The train isn't cheaper as the bus.", "correct": false, "feedback": "Todavía no: mezcla el comparativo con *as*. O *as cheap as* o *cheaper than*." }
+      ]
+    },
+    {
+      "id": "too-hot",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Este café está demasiado caliente.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«Demasiado» + adjetivo = *too* + adjetivo.",
+        "«Caliente» = *hot*."
+      ],
+      "solution": "**This coffee is too hot** (o *This coffee's too hot*). *Too* + adjetivo indica que hay un problema. *Very hot* sería solo «muy caliente», y *too much hot* es incorrecto.",
+      "answers": ["This coffee is too hot", "This coffee's too hot", "The coffee is too hot", "The coffee's too hot"],
+      "feedback": [
+        { "match": "This coffee is too much hot", "message": "Casi: con adjetivos, solo *too*: *too hot*." },
+        { "match": "This coffee is very hot", "message": "Casi: *very hot* es «muy caliente». «Demasiado» es *too*: *too hot*." },
+        { "match": "This coffee is to hot", "message": "Casi: «demasiado» se escribe con dos oes: *too*." },
+        { "match": "This coffee is hot enough", "message": "Todavía no: *hot enough* es «suficientemente caliente». «Demasiado» es *too hot*." }
+      ]
+    },
+    {
+      "id": "old-enough",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **No tengo edad suficiente.** (= No soy lo bastante mayor.)",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "La edad va con *to be*: *I'm not…*",
+        "*Enough* va **detrás** del adjetivo: *old enough*."
+      ],
+      "solution": "**I'm not old enough** (o *I am not old enough*). La edad se expresa con *to be* + *old*, y *enough* va detrás del adjetivo. *I haven't got enough age* es un calco del español.",
+      "answers": ["I'm not old enough", "I am not old enough"],
+      "feedback": [
+        { "match": "I'm not enough old", "message": "Casi: *enough* va detrás del adjetivo: *old enough*." },
+        { "match": "I don't have enough age", "message": "Casi: es un calco. En inglés: *I'm not old enough*." },
+        { "match": "I haven't got enough age", "message": "Casi: es un calco. En inglés: *I'm not old enough*." },
+        { "match": "I'm not too old", "message": "Todavía no: eso significa «no soy demasiado mayor». «Suficiente» es *enough*: *I'm not old enough*." }
+      ]
+    },
+    {
+      "id": "easier",
+      "type": "choice",
+      "prompt": "¿Cuál es el comparativo de *easy*?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Easy* tiene dos sílabas, pero acaba en *-y*.",
+        "Los adjetivos de dos sílabas en *-y* cambian la *y* por *i* y añaden *-er*."
+      ],
+      "solution": "**easier**. Los adjetivos de dos sílabas acabados en *-y* se comportan como los cortos: *-y → -ier*. Igual: *busy → busier*, *happy → happier*, *noisy → noisier*.",
+      "options": [
+        { "id": "a", "label": "more easy", "correct": false, "feedback": "Todavía no: los adjetivos de dos sílabas en *-y* usan *-ier*: *easier*." },
+        { "id": "b", "label": "easyer", "correct": false, "feedback": "Casi: la *y* cambia a *i*: *easier*." },
+        { "id": "c", "label": "easier", "correct": true, "feedback": "¡Exacto! *-y → -ier*." },
+        { "id": "d", "label": "more easier", "correct": false, "feedback": "Todavía no: o *-er* o *more*, nunca los dos." }
+      ]
+    },
+    {
+      "id": "oraciones-comparar",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las oraciones correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Revisa el orden de *enough*, el uso de *in* y *of* y el comparativo de *good*.",
+        "Hay dos correctas."
+      ],
+      "solution": "Son correctas **My flat isn't big enough for a party.** y **She's the best student in the class.** *This is the more expensive hotel of the city* debería ser *the most expensive hotel in the city* (superlativo y *in* con lugares), y *Your English is more good than mine* debería ser *better than mine*.",
+      "options": [
+        { "id": "a", "label": "My flat isn't big enough for a party.", "correct": true, "feedback": "Correcta: *big enough*, con *enough* detrás." },
+        { "id": "b", "label": "This is the more expensive hotel of the city.", "correct": false, "feedback": "Todavía no: superlativo con *the most*, y *in* con lugares: *the most expensive hotel in the city*." },
+        { "id": "c", "label": "She's the best student in the class.", "correct": true, "feedback": "Correcta: superlativo irregular y *in* con un grupo." },
+        { "id": "d", "label": "Your English is more good than mine.", "correct": false, "feedback": "Todavía no: *good* es irregular: *better than mine*." }
+      ]
+    }
+  ]
+}
