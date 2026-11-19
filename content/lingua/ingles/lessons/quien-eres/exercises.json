@@ -1,0 +1,231 @@
+{
+  "lesson": "quien-eres",
+  "exercises": [
+    {
+      "id": "pronombre-para-cosas",
+      "type": "choice",
+      "prompt": "*Where is the station?* — *____ is near the hotel.* ¿Qué pronombre completa la respuesta? (*station* = estación)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "La estación es una cosa, no una persona.",
+        "El inglés tiene un pronombre especial para cosas y animales que el español no tiene."
+      ],
+      "solution": "**It** → *It is near the hotel.* Para cosas y animales se usa *it*. En español diríamos simplemente «está cerca del hotel», sin sujeto, pero en inglés el sujeto no se puede omitir. *She* sería para una mujer, aunque en español «estación» sea femenina: en inglés las cosas no tienen género.",
+      "options": [
+        { "id": "a", "label": "It", "correct": true, "feedback": "¡Bien! *It* es el pronombre de las cosas." },
+        { "id": "b", "label": "She", "correct": false, "feedback": "Todavía no: «la estación» es femenina en español, pero en inglés las cosas no tienen género. Se usa *it*." },
+        { "id": "c", "label": "He", "correct": false, "feedback": "Todavía no: *he* es para un hombre o un niño. Para cosas, *it*." },
+        { "id": "d", "label": "(nada: Is near the hotel)", "correct": false, "feedback": "Todavía no: en inglés el sujeto es obligatorio. Aquí falta *it*." }
+      ]
+    },
+    {
+      "id": "es-ingeniera",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce al inglés: **Es ingeniera.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Necesitas un sujeto: ¿quién es ingeniera?",
+        "Con las profesiones en singular hace falta el artículo. *Engineer* empieza por sonido vocálico."
+      ],
+      "solution": "**She is an engineer** (o *She's an engineer*). Tres cosas que el español no exige: el pronombre *she*, el verbo *is* y el artículo, que es *an* porque *engineer* empieza por sonido vocálico.",
+      "answers": ["She is an engineer", "She's an engineer"],
+      "feedback": [
+        { "match": "She is engineer", "message": "Casi: falta el artículo. Con las profesiones en singular, *a* o *an*: *She is an engineer*." },
+        { "match": "She's engineer", "message": "Casi: falta el artículo: *She's an engineer*." },
+        { "match": "She is a engineer", "message": "Casi: delante de sonido vocálico se usa *an*: *an engineer*." },
+        { "match": "Is an engineer", "message": "Casi: falta el sujeto. En inglés no se omite: *She is an engineer*." }
+      ]
+    },
+    {
+      "id": "they-are-chile",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa con la forma correcta de *to be*: **Camila and Tomás ____ from Chile.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "¿Qué pronombre sustituiría a «Camila and Tomás»?",
+        "Con *they* se usa la misma forma que con *we* y *you*."
+      ],
+      "solution": "**are** → *Camila and Tomás are from Chile.* Dos personas equivalen a *they*, y *they* va con *are*. Recuerda: *am* solo con *I*; *is* con *he, she, it* y un nombre en singular; *are* con el resto.",
+      "answers": ["are"],
+      "feedback": [
+        { "match": "is", "message": "Casi: *is* es para una sola persona o cosa. Aquí son dos (= *they*): *are*." },
+        { "match": "am", "message": "Todavía no: *am* va solo con *I*. Con dos personas, *are*." }
+      ]
+    },
+    {
+      "id": "no-soy-de-argentina",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **No soy de Argentina.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«Ser de» un lugar es *to be from*.",
+        "La negación *not* va después de *am*. Con *I* solo hay una contracción posible."
+      ],
+      "solution": "**I'm not from Argentina** (o *I am not from Argentina*). *Not* va después del verbo. Con *I* la única contracción es *I'm not*; no existe *I amn't* en el inglés estándar.",
+      "answers": ["I'm not from Argentina", "I am not from Argentina"],
+      "feedback": [
+        { "match": "I amn't from Argentina", "message": "Casi: *amn't* no se usa en el inglés estándar. Di *I'm not from Argentina*." },
+        { "match": "I not am from Argentina", "message": "Casi: *not* va después del verbo: *I am not from Argentina*." },
+        { "match": "I am not of Argentina", "message": "Casi: para el origen se usa *from*: *I'm not from Argentina*." },
+        { "match": "Not from Argentina", "message": "Casi: falta el sujeto y el verbo: *I'm not from Argentina*." }
+      ]
+    },
+    {
+      "id": "a-o-an",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las combinaciones correctas.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Lo que cuenta es el **sonido** con que empieza la palabra, no la letra.",
+        "*University* empieza por el sonido «iu» /juː/, y en *hour* la h es muda."
+      ],
+      "solution": "Son correctas **an architect**, **a university** y **an hour**. *Architect* empieza por vocal: *an*. *University* empieza por la letra u, pero suena /juː/, un sonido consonántico: *a university*. *Hour* empieza por h, pero la h es muda y suena /aʊə/: *an hour*. *Nurse* empieza por consonante, así que *an nurse* es incorrecto: se dice *a nurse*.",
+      "options": [
+        { "id": "a", "label": "an architect", "correct": true, "feedback": "Correcto: sonido vocálico, *an*." },
+        { "id": "b", "label": "an nurse", "correct": false, "feedback": "Todavía no: *nurse* empieza por consonante; se dice *a nurse*." },
+        { "id": "c", "label": "a university", "correct": true, "feedback": "Correcto: *university* suena «iu-», un sonido consonántico." },
+        { "id": "d", "label": "an hour", "correct": true, "feedback": "Correcto: la h de *hour* es muda, así que empieza por sonido vocálico." }
+      ]
+    },
+    {
+      "id": "es-usted-canadiense",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce la pregunta: **¿Es usted canadiense?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«Usted» es *you*, igual que «tú».",
+        "En la pregunta, el verbo va delante del sujeto. Y la nacionalidad lleva mayúscula."
+      ],
+      "solution": "**Are you Canadian?** Se invierte el orden: *You are Canadian* → *Are you Canadian?* *You* sirve para «tú» y para «usted». Cuidado con el acento: *CAN-a-da*, pero *ca-NA-di-an*.",
+      "answers": ["Are you Canadian"],
+      "feedback": [
+        { "match": "You are Canadian", "message": "Casi: eso es una afirmación. Para preguntar, el verbo va primero: *Are you Canadian?*" },
+        { "match": "Is you Canadian", "message": "Casi: con *you* se usa *are*: *Are you Canadian?*" },
+        { "match": "Are you Canadiense", "message": "Casi: la nacionalidad en inglés es *Canadian*." }
+      ]
+    },
+    {
+      "id": "respuestas-cortas",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Te preguntan *Are you Peruvian?* y la respuesta es «sí». Marca **todas** las respuestas correctas.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Una contracción no puede quedarse al final de la frase.",
+        "Hay dos respuestas correctas: una corta y una completa."
+      ],
+      "solution": "Son correctas **Yes, I am.** (respuesta corta) y **Yes, I'm Peruvian.** (respuesta completa: aquí la contracción no está al final, así que vale). *Yes, I'm.* es incorrecta porque la contracción no puede cerrar la frase, y *Yes, am.* lo es porque falta el sujeto.",
+      "options": [
+        { "id": "a", "label": "Yes, I am.", "correct": true, "feedback": "Correcto: la respuesta corta típica, sin contraer." },
+        { "id": "b", "label": "Yes, I'm.", "correct": false, "feedback": "Todavía no: la afirmativa corta no se contrae. Di *Yes, I am*." },
+        { "id": "c", "label": "Yes, I'm Peruvian.", "correct": true, "feedback": "Correcto: aquí la contracción va seguida de *Peruvian*, así que no hay problema." },
+        { "id": "d", "label": "Yes, am.", "correct": false, "feedback": "Todavía no: falta el sujeto *I*." }
+      ]
+    },
+    {
+      "id": "nacionalidad-japon",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa con la nacionalidad: **Haruki is from Japan. He is ________.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Es la misma palabra que el idioma japonés.",
+        "Termina en *-ese*, como *Chinese*."
+      ],
+      "solution": "**Japanese** → *He is Japanese.* Se escribe con mayúscula y la fuerza va al final: *jap-a-NESE*, mientras que el país es *ja-PAN*.",
+      "answers": ["Japanese", "He is Japanese", "He's Japanese"],
+      "feedback": [
+        { "match": "Japones", "message": "Casi: esa es la palabra española. En inglés, *Japanese*." },
+        { "match": "Japan", "message": "Casi: *Japan* es el país. La nacionalidad es *Japanese*." },
+        { "match": "Japanish", "message": "Casi: la terminación es *-ese*: *Japanese*." }
+      ]
+    },
+    {
+      "id": "somos-estudiantes",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Somos estudiantes.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Hace falta el pronombre «nosotros».",
+        "En plural no se usa *a*, y el nombre lleva -s."
+      ],
+      "solution": "**We are students** (o *We're students*). El sujeto *we* es obligatorio, el verbo es *are* y, como es plural, desaparece el artículo *a*: *a student*, pero *students*.",
+      "answers": ["We are students", "We're students"],
+      "feedback": [
+        { "match": "Are students", "message": "Casi: falta el sujeto *we*: *We are students*." },
+        { "match": "We are a students", "message": "Casi: en plural no se usa *a*: *We are students*." },
+        { "match": "We are student", "message": "Casi: el nombre va en plural: *students*." }
+      ]
+    },
+    {
+      "id": "mayusculas",
+      "type": "choice",
+      "prompt": "¿Qué oración está escrita correctamente?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Fíjate en *I*, en las nacionalidades y en los países.",
+        "En inglés, las nacionalidades llevan mayúscula aunque vayan en medio de la frase."
+      ],
+      "solution": "**I am Colombian and Diego is Brazilian.** En inglés llevan mayúscula el pronombre *I* (siempre), las nacionalidades, los idiomas y los países.",
+      "options": [
+        { "id": "a", "label": "i am colombian and Diego is brazilian.", "correct": false, "feedback": "Todavía no: *I* y las nacionalidades van con mayúscula." },
+        { "id": "b", "label": "I am colombian and Diego is brazilian.", "correct": false, "feedback": "Casi: *I* está bien, pero *Colombian* y *Brazilian* también llevan mayúscula." },
+        { "id": "c", "label": "I am Colombian and Diego is Brazilian.", "correct": true, "feedback": "¡Perfecto! Mayúscula en *I* y en las dos nacionalidades." },
+        { "id": "d", "label": "i am Colombian and Diego is Brazilian.", "correct": false, "feedback": "Casi: el pronombre *I* siempre se escribe con mayúscula." }
+      ]
+    },
+    {
+      "id": "de-donde-eres",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **¿De dónde eres?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "La palabra interrogativa va primero: *Where…?*",
+        "La preposición *from* se queda al final de la pregunta."
+      ],
+      "solution": "**Where are you from?** El orden es: palabra interrogativa (*Where*) + verbo (*are*) + sujeto (*you*) + preposición al final (*from*). Literalmente: «¿Dónde eres de?». Recuerda que la entonación baja al final.",
+      "answers": ["Where are you from", "Where're you from"],
+      "feedback": [
+        { "match": "From where are you", "message": "Casi: se entiende, pero en inglés natural la preposición va al final: *Where are you from?*" },
+        { "match": "Where you are from", "message": "Casi: en la pregunta, el verbo va antes del sujeto: *Where are you from?*" },
+        { "match": "Where are you", "message": "Casi: eso significa «¿dónde estás?». Para el origen, añade *from* al final." }
+      ]
+    },
+    {
+      "id": "es-tarde",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Es tarde.** (tarde = *late*)",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "No hay ninguna persona que sea «tarde». ¿Qué sujeto usa el inglés en estos casos?",
+        "El sujeto vacío del inglés es el mismo pronombre que se usa para las cosas."
+      ],
+      "solution": "**It is late** (o *It's late*). En español la frase no tiene sujeto, pero en inglés hace falta uno; para estas frases impersonales se usa *it*: *It's cold*, *It's me*, *It's late*.",
+      "answers": ["It is late", "It's late"],
+      "feedback": [
+        { "match": "Is late", "message": "Casi: falta el sujeto. En las frases impersonales se usa *it*: *It is late*." },
+        { "match": "Its late", "message": "Casi: la contracción de *it is* lleva apóstrofo: *It's late*." }
+      ]
+    }
+  ]
+}

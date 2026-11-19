@@ -1,0 +1,369 @@
+{
+  "lesson": "numbers-and-time",
+  "exercises": [
+    {
+      "id": "fifteen",
+      "type": "choice",
+      "prompt": "Which word means **15**?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "11 to 15 are single words that must be learned: *once, doce, trece, catorce, …*",
+        "It starts with the *k* sound, spelled *qu*."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "quince",
+          "correct": true,
+          "feedback": "Yes: *quince*, pronounced \"KEEN-seh\" (or \"KEEN-theh\" in most of Spain)."
+        },
+        {
+          "id": "b",
+          "label": "cincuenta",
+          "correct": false,
+          "feedback": "Not yet — *cincuenta* is 50."
+        },
+        {
+          "id": "c",
+          "label": "quinientos",
+          "correct": false,
+          "feedback": "Not yet — *quinientos* is 500."
+        },
+        {
+          "id": "d",
+          "label": "diecicinco",
+          "correct": false,
+          "feedback": "Not yet — this word doesn't exist. Only 16 to 19 are built with *dieci-*; 15 is *quince*."
+        }
+      ],
+      "solution": "**quince** = 15. The numbers 11–15 (*once, doce, trece, catorce, quince*) are irregular; from 16 the pattern *dieci-* + unit begins: *dieciséis, diecisiete, dieciocho, diecinueve*."
+    },
+    {
+      "id": "sixteen",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Write **16** in words.",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "It's built from *diez y seis*, squeezed into one word.",
+        "It ends in -s and is stressed on the last syllable, so it needs a written accent."
+      ],
+      "answers": [
+        "dieciséis"
+      ],
+      "feedback": [
+        {
+          "match": "diez y seis",
+          "message": "That older spelling is understood, but today it's written as one word: *dieciséis*."
+        }
+      ],
+      "solution": "**dieciséis.** *Diez y seis* became one word, with *-z* turning into *-c-* and the *y* into *i*: *dieci-séis*. It ends in *-s* but is stressed on the last syllable, so the stress rule requires an accent on the *e*."
+    },
+    {
+      "id": "twenty-one-years",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete with **21** in words: *Diego tiene ___ años.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Counting by itself, 21 is *veintiuno*.",
+        "Before a masculine noun like *años*, *uno* shortens to *un*; here it also needs an accent."
+      ],
+      "answers": [
+        "veintiún"
+      ],
+      "feedback": [
+        {
+          "match": "veintiuno",
+          "message": "Almost — before a masculine noun, *-uno* shortens to *-ún*: *veintiún años*."
+        },
+        {
+          "match": "veintiuna",
+          "message": "Almost — *años* is masculine, so it's *veintiún*, not *veintiuna*."
+        }
+      ],
+      "solution": "**veintiún**: *Diego tiene veintiún años.* Just as *uno* becomes *un* before a masculine noun (*un euro*), *veintiuno* becomes *veintiún*. The accent appears because *veintiún* ends in *-n* and is stressed on the last syllable."
+    },
+    {
+      "id": "five-hundred",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Write **500** in words (as in *500 euros*).",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "It is one of the three irregular hundreds.",
+        "It doesn't use *cinco*; it starts with *quin-*."
+      ],
+      "answers": [
+        "quinientos"
+      ],
+      "feedback": [
+        {
+          "match": "cincocientos",
+          "message": "A natural guess, but 500 is irregular: *quinientos*."
+        },
+        {
+          "match": "cinco cientos",
+          "message": "A natural guess, but 500 is irregular: *quinientos*."
+        }
+      ],
+      "solution": "**quinientos.** The irregular hundreds are *quinientos* (500), *setecientos* (700) and *novecientos* (900). The others follow the pattern number + *-cientos*: *doscientos, trescientos, cuatrocientos, seiscientos, ochocientos*."
+    },
+    {
+      "id": "one-fifteen",
+      "type": "choice",
+      "prompt": "How do you say **It's 1:15**?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "One o'clock is singular in Spanish.",
+        "Both the verb and the article must be singular."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Es la una y cuarto.",
+          "correct": true,
+          "feedback": "Yes: singular *es la una*, plus *y cuarto*."
+        },
+        {
+          "id": "b",
+          "label": "Son la una y cuarto.",
+          "correct": false,
+          "feedback": "Not yet — *son* is plural. With *la una*, use *es*."
+        },
+        {
+          "id": "c",
+          "label": "Es las una y cuarto.",
+          "correct": false,
+          "feedback": "Not yet — the article must be singular too: *la una*."
+        },
+        {
+          "id": "d",
+          "label": "Son las uno y cuarto.",
+          "correct": false,
+          "feedback": "Not yet — the hour is feminine (*la hora*), so it's *una*, and it's singular: *es la una*."
+        }
+      ],
+      "solution": "**Es la una y cuarto.** The understood noun is *hora* (feminine), so one o'clock is *la una*, and because it's one hour, the verb is singular: *es*. Every other hour is plural: *Son las dos y cuarto*."
+    },
+    {
+      "id": "half-past-three",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **It's half past three.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Three o'clock is plural: *son las tres*.",
+        "\"Half past\" is *y media*."
+      ],
+      "answers": [
+        "Son las tres y media",
+        "Son las tres y treinta"
+      ],
+      "feedback": [
+        {
+          "match": "Es las tres y media",
+          "message": "Almost — *las tres* is plural, so use *son*: *Son las tres y media*."
+        },
+        {
+          "match": "Son las tres y medio",
+          "message": "Almost — it's *media*, feminine, agreeing with the understood *hora*."
+        }
+      ],
+      "solution": "**Son las tres y media** (*Son las tres y treinta* is also used, especially in digital-clock style). *Media* is feminine because it agrees with *hora*."
+    },
+    {
+      "id": "quarter-to-nine",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **It's a quarter to nine.** (Any common way of saying it is accepted.)",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Spanish names the *next* hour and subtracts: nine minus a quarter.",
+        "*Son las nueve menos …* (Latin America also says *un cuarto para las nueve*)."
+      ],
+      "answers": [
+        "Son las nueve menos cuarto",
+        "Son las nueve menos quince",
+        "Es un cuarto para las nueve",
+        "Son un cuarto para las nueve",
+        "Son cuarto para las nueve",
+        "Falta un cuarto para las nueve",
+        "Faltan quince para las nueve",
+        "Son las ocho y cuarenta y cinco"
+      ],
+      "feedback": [
+        {
+          "match": "Son las ocho menos cuarto",
+          "message": "Not yet — that's 7:45. Name the *next* hour and subtract: *las nueve menos cuarto*."
+        }
+      ],
+      "solution": "**Son las nueve menos cuarto**: \"nine minus a quarter\". Spanish names the coming hour and subtracts the minutes. In much of Latin America you'll also hear *Es un cuarto para las nueve* or *Son quince para las nueve*. *Son las ocho y cuarenta y cinco* is correct too, but sounds like reading a digital clock."
+    },
+    {
+      "id": "on-monday",
+      "type": "choice",
+      "prompt": "How do you say **The class is on Monday**?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Spanish uses no preposition before a day.",
+        "Days of the week are masculine and written with a small letter."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "La clase es el lunes.",
+          "correct": true,
+          "feedback": "Yes: *el lunes* = on Monday, with no preposition and a small letter."
+        },
+        {
+          "id": "b",
+          "label": "La clase es en lunes.",
+          "correct": false,
+          "feedback": "Not yet — Spanish doesn't use *en* with days. The article alone does the job: *el lunes*."
+        },
+        {
+          "id": "c",
+          "label": "La clase es en el Lunes.",
+          "correct": false,
+          "feedback": "Not yet — no *en*, and days take a small letter: *el lunes*."
+        },
+        {
+          "id": "d",
+          "label": "La clase es la lunes.",
+          "correct": false,
+          "feedback": "Not yet — days of the week are masculine: *el lunes*."
+        }
+      ],
+      "solution": "**La clase es el lunes.** \"On Monday\" is just *el lunes*; \"on Mondays\" is *los lunes*. Days are masculine, take no preposition, and are written in lower case."
+    },
+    {
+      "id": "may-fifth",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Say the date **May 5th** in Spanish, as you would in *Mi cumpleaños es ___* (write the number in words).",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Pattern: *el* + number + *de* + month.",
+        "Spanish uses ordinary numbers for dates (*cinco*, not \"fifth\"), and months take a small letter."
+      ],
+      "answers": [
+        "el cinco de mayo",
+        "cinco de mayo",
+        "el 5 de mayo",
+        "5 de mayo"
+      ],
+      "feedback": [
+        {
+          "match": "el quinto de mayo",
+          "message": "Almost — Spanish dates use ordinary numbers: *el cinco de mayo*."
+        },
+        {
+          "match": "mayo cinco",
+          "message": "Almost — the day comes first, then *de* and the month: *el cinco de mayo*."
+        }
+      ],
+      "solution": "**el cinco de mayo**: *Mi cumpleaños es el cinco de mayo.* The day comes first, then *de* and the month, which is written in lower case. Only the first of the month may use an ordinal: *el primero de mayo* (common in Latin America) or *el uno de mayo* (common in Spain)."
+    },
+    {
+      "id": "how-old-are-you",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Ask a friend: **How old are you?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "In Spanish you ask how many years someone *has*.",
+        "*¿Cuántos años …?* + the *tú* form of *tener*."
+      ],
+      "answers": [
+        "Cuántos años tienes",
+        "Cuántos años tienes tú",
+        "Tú cuántos años tienes",
+        "Cuántos años tenés",
+        "Cuántos años tenés vos"
+      ],
+      "feedback": [
+        {
+          "match": "Cuántos años tiene usted",
+          "message": "That's correct, but formal. With a friend, use *tienes*."
+        },
+        {
+          "match": "Cuántos años eres",
+          "message": "Not yet — age uses *tener*, not *ser*: *¿Cuántos años tienes?*"
+        }
+      ],
+      "solution": "**¿Cuántos años tienes?** Literally \"How many years do you have?\". *Cuántos* agrees with *años* (masculine plural) and has an accent as a question word. Formally: *¿Cuántos años tiene usted?* With *vos*: *¿Cuántos años tenés?*"
+    },
+    {
+      "id": "i-am-twenty",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **I'm twenty years old.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Use *tener*, not *ser*.",
+        "The *yo* form is *tengo*."
+      ],
+      "answers": [
+        "Tengo veinte años",
+        "Yo tengo veinte años"
+      ],
+      "feedback": [
+        {
+          "match": "Soy veinte años",
+          "message": "Not yet — in Spanish you *have* years: *Tengo veinte años*."
+        }
+      ],
+      "solution": "**Tengo veinte años** (or *Yo tengo veinte años*). Spanish expresses age with *tener* (to have): \"I have twenty years\"."
+    },
+    {
+      "id": "cuesta-cuestan",
+      "type": "choice",
+      "prompt": "At a shoe shop: *¿Cuánto ___ los zapatos?* (How much are the shoes?)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Is the subject singular or plural?",
+        "*Los zapatos* is plural."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "cuestan",
+          "correct": true,
+          "feedback": "Yes: *los zapatos* is plural, so *cuestan*."
+        },
+        {
+          "id": "b",
+          "label": "cuesta",
+          "correct": false,
+          "feedback": "Not yet — *cuesta* is for one thing. *Los zapatos* is plural."
+        },
+        {
+          "id": "c",
+          "label": "es",
+          "correct": false,
+          "feedback": "Not yet — *¿Cuánto es?* asks for a total at the till; it doesn't take a subject like *los zapatos*."
+        },
+        {
+          "id": "d",
+          "label": "tienen",
+          "correct": false,
+          "feedback": "Not yet — *tener* means \"to have\"; prices use *costar*: *cuesta, cuestan*."
+        }
+      ],
+      "solution": "**¿Cuánto cuestan los zapatos?** *Cuesta* goes with one thing (*¿Cuánto cuesta el libro?*), *cuestan* with several. The answer might be *Cuestan cuarenta euros*."
+    }
+  ]
+}

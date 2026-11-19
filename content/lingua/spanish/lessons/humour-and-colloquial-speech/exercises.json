@@ -1,0 +1,202 @@
+{
+  "lesson": "humour-and-colloquial-speech",
+  "exercises": [
+    {
+      "id": "nada-mal",
+      "type": "choice",
+      "prompt": "You cook dinner for a friend from Madrid. She tastes it and says: *Oye, pues no está nada mal.* What does she mean?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "It's really good.", "correct": true, "feedback": "Yes — understatement: saying less to mean more. *No está nada mal* is warm praise." },
+        { "id": "b", "label": "It's barely edible.", "correct": false, "feedback": "Not yet — *nada mal* literally means 'not bad at all', and in practice it's a compliment." },
+        { "id": "c", "label": "It's average.", "correct": false, "feedback": "Not yet — with *nada* and an approving tone, it's stronger than 'OK'." },
+        { "id": "d", "label": "She is being ironic: it's terrible.", "correct": false, "feedback": "Not yet — *no está nada mal* is not usually ironic; irony would come from structures like *¡Menuda cena!* with the right tone." }
+      ],
+      "hints": [
+        "Translate word by word: 'it isn't bad at all'.",
+        "Spanish, like British English, often praises by understatement."
+      ],
+      "solution": "**It's really good.** *No está nada mal* is a typical understatement (*atenuación*): denying the negative to affirm the positive. Similar: *No es precisamente feo* (it's quite beautiful)."
+    },
+    {
+      "id": "menuda-ayuda",
+      "type": "choice",
+      "prompt": "Your flatmate offers to help carry a cake, trips and drops it. You say: *¡Menuda ayuda!* What are you saying?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Some help that was! (ironic)", "correct": true, "feedback": "Yes — *¡Menudo/a + noun!* is a classic ironic structure in Spain; here the 'help' made things worse." },
+        { "id": "b", "label": "What a great help, thank you!", "correct": false, "feedback": "Not yet — *menudo* can admire (*¡Menudo golazo!*), but after a disaster it's ironic." },
+        { "id": "c", "label": "That's a small amount of help.", "correct": false, "feedback": "Not yet — *menudo* originally means 'small', but in exclamations it works as an intensifier, usually ironic." },
+        { "id": "d", "label": "I need more help.", "correct": false, "feedback": "Not yet — it's an exclamation about the help received, not a request." }
+      ],
+      "hints": [
+        "Think about the situation: did the help help?",
+        "*¡Menudo + noun!* is an intensifier whose meaning depends on context."
+      ],
+      "solution": "**Some help that was!** *¡Menudo/menuda + noun!* intensifies, and after a mishap it is ironic: the 'help' was a disaster. The same structure can admire (*¡Menudo golazo!*), so situation and intonation decide."
+    },
+    {
+      "id": "where-chevere",
+      "type": "choice",
+      "prompt": "A friend says *¡Qué chévere tu casa!* Where is your friend **most likely** from?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Venezuela", "correct": true, "feedback": "Yes — *chévere* is typical of Venezuela, Colombia, the Caribbean and Peru." },
+        { "id": "b", "label": "Spain", "correct": false, "feedback": "Not yet — a Spaniard would more likely say *¡Qué guay!* or *¡Qué bonita!*" },
+        { "id": "c", "label": "Argentina", "correct": false, "feedback": "Not yet — an Argentine would more likely say *¡Qué copado!* or *¡Qué linda!*" },
+        { "id": "d", "label": "Chile", "correct": false, "feedback": "Not yet — a Chilean would more likely say *¡Qué bacán!*" }
+      ],
+      "hints": [
+        "Each region has its own word for 'cool'.",
+        "*Guay* is Spain, *padre* Mexico, *copado* Argentina, *bacán* Chile…"
+      ],
+      "solution": "**Venezuela** (or Colombia, the Caribbean, Peru). The 'how cool!' words are a quick regional marker: *guay* (Spain), *padre* and *chido* (Mexico), *chévere* (Venezuela, Colombia, Caribbean, Peru), *bacán* (Chile, Peru, Colombia), *copado* (Argentina)."
+    },
+    {
+      "id": "pull-leg",
+      "type": "text",
+      "prompt": "Complete the idiom meaning 'to pull someone's leg':\n\n*No te creo nada, me estás tomando el ______.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["pelo"],
+      "feedback": [
+        { "match": "pierna", "message": "Not yet — that's the English image. Spanish 'pulls' something else: think of the head." }
+      ],
+      "hints": [
+        "The Spanish idiom involves a part of your head, not your leg.",
+        "It's what a hairdresser cuts."
+      ],
+      "solution": "**pelo.** *Tomar el pelo a alguien* = to pull someone's leg, to tease them. *Me estás tomando el pelo* — you're having me on. It's understood everywhere."
+    },
+    {
+      "id": "golazo",
+      "type": "text",
+      "prompt": "Give the one-word augmentative a football commentator would shout for a spectacular goal (*gol*).",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["golazo", "un golazo", "qué golazo"],
+      "feedback": [
+        { "match": "golón", "message": "Understandable, but the usual augmentative of admiration here is with *-azo*." },
+        { "match": "golito", "message": "Not yet — that's a diminutive: it would make the goal sound small or lucky." }
+      ],
+      "hints": [
+        "The suffix of admiration is *-azo*.",
+        "*gol* + *-azo*"
+      ],
+      "solution": "**golazo.** *-azo* expresses admiration (*un golazo*, *un cochazo*, *un exitazo*) — or a blow (*un portazo*, *un frenazo*). A *golito*, by contrast, is a scrappy or lucky goal."
+    },
+    {
+      "id": "es-que",
+      "type": "choice",
+      "prompt": "Your boss asks why the report is late. You begin: *Es que…* What does *es que* signal?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "An explanation or excuse is coming.", "correct": true, "feedback": "Yes — *es que* introduces a justification: 'the thing is…'." },
+        { "id": "b", "label": "You are about to disagree.", "correct": false, "feedback": "Not yet — it can precede a mild objection, but its core job is to explain or excuse." },
+        { "id": "c", "label": "You are asking a question.", "correct": false, "feedback": "Not yet — *¿Es que…?* can open a question, but here it opens your answer." },
+        { "id": "d", "label": "You are changing the subject.", "correct": false, "feedback": "Not yet — for changing the subject, *bueno* is the usual marker." }
+      ],
+      "hints": [
+        "Think of the English 'The thing is…'",
+        "What do people usually say after it when something is late?"
+      ],
+      "solution": "*Es que…* introduces an explanation or excuse: *Es que el sistema se cayó ayer.* It is natural in conversation; in a written report, replace it with a full sentence (*El retraso se debe a…*)."
+    },
+    {
+      "id": "trabajillo",
+      "type": "choice",
+      "prompt": "A Spaniard says: *Tengo un trabajillo los fines de semana.* What does *-illo* add?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "It's a small side job, nothing very serious.", "correct": true, "feedback": "Yes — *-illo* here minimises: a bit of work on the side." },
+        { "id": "b", "label": "It's a very important job.", "correct": false, "feedback": "Not yet — the diminutive points the other way: it downplays the job." },
+        { "id": "c", "label": "It's a badly paid job, and they're furious about it.", "correct": false, "feedback": "Not yet — the suffix may hint it isn't much, but there's no anger in it; contempt would be *-ucho*." },
+        { "id": "d", "label": "It's a job working with children.", "correct": false, "feedback": "Not yet — the diminutive is about the job's importance, not who it's for." }
+      ],
+      "hints": [
+        "Diminutives can minimise.",
+        "Compare *Es solo una preguntita* — just a little question."
+      ],
+      "solution": "*Un trabajillo* is a small job on the side, something not to be taken too seriously. *-illo* is typical of Spain and can be affectionate or mildly dismissive. For real contempt Spanish uses *-ucho* (*un trabajucho*)."
+    },
+    {
+      "id": "piece-of-cake",
+      "type": "text",
+      "prompt": "Translate idiomatically into Spanish:\n\n*It's a piece of cake.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["es pan comido", "eso es pan comido", "está chupado", "eso está chupado", "está tirado", "eso está tirado", "es facilísimo", "es muy fácil"],
+      "feedback": [
+        { "match": "es un pedazo de pastel", "message": "Not yet — that's a word-for-word translation, and no one would understand it as 'easy'. Spanish uses bread instead of cake." },
+        { "match": "es un trozo de tarta", "message": "Not yet — that's a literal translation. Spanish uses a different food image." }
+      ],
+      "hints": [
+        "Spanish uses bread, not cake.",
+        "*Es pan …* — bread that has already been eaten."
+      ],
+      "solution": "**Es pan comido** — literally 'it's eaten bread'. In Spain you'll also hear *está chupado* or *está tirado*. Translating idioms means finding the equivalent image, not the same words (more in the lesson *Translation pitfalls*)."
+    },
+    {
+      "id": "ni-que-fuera",
+      "type": "text",
+      "prompt": "Complete with the correct form of **ser**:\n\n*¡Qué manera de dar órdenes! ¡Ni que ______ el dueño de la empresa!*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["fuera", "fuese"],
+      "feedback": [
+        { "match": "es", "message": "Not yet — *ni que* introduces an ironic 'as if', which needs the imperfect subjunctive." },
+        { "match": "sea", "message": "Close — the subjunctive is right, but *ni que* takes the imperfect subjunctive, like *como si*." }
+      ],
+      "hints": [
+        "*Ni que…* means 'as if…' — ironically. It behaves like *como si*.",
+        "*Como si* + imperfect subjunctive: *fuera / fuese*."
+      ],
+      "solution": "**fuera** (or *fuese*). *¡Ni que fuera el dueño!* — 'Anyone would think he owned the company!' Like *como si*, ironic *ni que* takes the imperfect subjunctive, because it describes something contrary to fact."
+    },
+    {
+      "id": "when-not",
+      "type": "choice",
+      "prompt": "You're answering an email from a university admissions office in Bogotá. Which opening line is right?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Muchas gracias por su respuesta. Le adjunto los documentos solicitados.", "correct": true, "feedback": "Yes — neutral, polite and clear: exactly the register an official email needs." },
+        { "id": "b", "label": "¡Qué chévere su respuesta, parce! Ahí le van los papeles.", "correct": false, "feedback": "Not yet — *chévere* and *parce* are Colombian, but far too informal for an admissions office." },
+        { "id": "c", "label": "Bueno, pues, o sea, le mando los documentos, ¿vale?", "correct": false, "feedback": "Not yet — muletillas belong to speech; in writing they look careless, and *¿vale?* is Spain, not Colombia." },
+        { "id": "d", "label": "Órale, ahorita le mando todo.", "correct": false, "feedback": "Not yet — *órale* and *ahorita* are Mexican and colloquial; and *ahorita* is vague about time." }
+      ],
+      "hints": [
+        "Official emails call for neutral Spanish, whatever the country.",
+        "Look for the option with no regional slang and no fillers."
+      ],
+      "solution": "**A.** Regional colloquialisms and muletillas are for conversation with people who use them. In official writing — even to a Colombian office — use neutral, polite Spanish: *usted*, complete sentences, no fillers."
+    },
+    {
+      "id": "coger-warning",
+      "type": "choice",
+      "prompt": "You learned Spanish in Spain and are about to say *Voy a coger el autobús* in Buenos Aires. What should you know?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "In much of Latin America *coger* is vulgar; say *tomar el colectivo* instead.", "correct": true, "feedback": "Yes — *coger* has a sexual meaning in much of Latin America. *Tomar* is safe everywhere, and in Argentina the bus is *el colectivo*." },
+        { "id": "b", "label": "Nothing: *coger* means 'to take' everywhere.", "correct": false, "feedback": "Not yet — in Spain it's neutral, but in much of Latin America it's vulgar." },
+        { "id": "c", "label": "*Coger* is old-fashioned; say *agarrar*.", "correct": false, "feedback": "Not yet — the problem isn't age but meaning. (*Agarrar* is indeed common in Argentina, but *tomar* is the neutral choice.)" },
+        { "id": "d", "label": "*Coger* is fine, but *autobús* is wrong.", "correct": false, "feedback": "Partly — *colectivo* is the local word, but the bigger problem is the verb." }
+      ],
+      "hints": [
+        "Some everyday words in one country are vulgar in another.",
+        "Which verb meaning 'to take' is safe everywhere?"
+      ],
+      "solution": "**A.** *Coger* is neutral in Spain but vulgar in much of Latin America, including Argentina and Mexico. Use *tomar* (*tomar el colectivo* in Argentina, *tomar el camión* in Mexico for a city bus, *tomar el bus* in many places). When unsure, choose the neutral word."
+    }
+  ]
+}

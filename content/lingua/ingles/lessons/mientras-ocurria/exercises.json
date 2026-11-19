@@ -1,0 +1,268 @@
+{
+  "lesson": "mientras-ocurria",
+  "exercises": [
+    {
+      "id": "was-watching",
+      "type": "choice",
+      "prompt": "Completa: **At nine o'clock last night I ____ TV.** (= Anoche a las nueve estaba viendo la tele.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Es una acción en curso en un momento concreto del pasado.",
+        "Pasado continuo: *was/were* + *-ing*."
+      ],
+      "solution": "**was watching**. A una hora concreta del pasado, la acción estaba en curso: pasado continuo, *was* (con *I*) + *watching*.",
+      "options": [
+        { "id": "a", "label": "was watching", "correct": true, "feedback": "¡Bien! *Was* + *-ing* para una acción en curso." },
+        { "id": "b", "label": "were watching", "correct": false, "feedback": "Casi: con *I* se usa *was*." },
+        { "id": "c", "label": "watching", "correct": false, "feedback": "Todavía no: el *-ing* necesita *was/were* delante." },
+        { "id": "d", "label": "am watching", "correct": false, "feedback": "Todavía no: *am watching* es presente. La frase habla de anoche." }
+      ]
+    },
+    {
+      "id": "que-estabas-haciendo",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce la pregunta: **¿Qué estabas haciendo a medianoche?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*What* + *were* + *you* + verbo en *-ing*.",
+        "«Hacer» es *do*; «a medianoche», *at midnight*."
+      ],
+      "solution": "**What were you doing at midnight?** En la pregunta, *were* va delante del sujeto, y el verbo principal va en *-ing*: *doing*.",
+      "answers": ["What were you doing at midnight"],
+      "feedback": [
+        { "match": "What was you doing at midnight", "message": "Casi: con *you* se usa *were*: *What were you doing…?*" },
+        { "match": "What you were doing at midnight", "message": "Casi: en la pregunta, *were* va delante de *you*." },
+        { "match": "What did you doing at midnight", "message": "Casi: el pasado continuo usa *were*, no *did*: *What were you doing at midnight?*" },
+        { "match": "What were you doing in midnight", "message": "Casi: las horas exactas van con *at*: *at midnight*." }
+      ]
+    },
+    {
+      "id": "were-waiting",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Pon el verbo en pasado continuo: **My friends ____________ for me outside the cinema.** (*wait*)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*My friends* = *they*.",
+        "*Were* + *-ing*."
+      ],
+      "solution": "**were waiting** → *My friends were waiting for me outside the cinema.* *My friends* es plural (= *they*), así que *were*; y *wait* + *-ing* = *waiting* (sin doblar la t: la sílaba tiene dos vocales).",
+      "answers": ["were waiting"],
+      "feedback": [
+        { "match": "was waiting", "message": "Casi: *my friends* es plural: *were waiting*." },
+        { "match": "were waitting", "message": "Casi: *wait* no dobla la t (dos vocales antes): *waiting*." },
+        { "match": "waiting", "message": "Casi: falta *were*: *were waiting*." },
+        { "match": "waited", "message": "Casi: eso es pasado simple. Aquí se pide el continuo: *were waiting*." }
+      ]
+    },
+    {
+      "id": "while-i-was-cooking",
+      "type": "choice",
+      "prompt": "Completa: **While I ______ dinner, the power went out.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "¿Cuál es la acción larga y cuál la corta?",
+        "*While* suele ir con la acción larga, en continuo."
+      ],
+      "solution": "**was cooking**. Cocinar es la acción larga, en curso, y la interrumpe una acción corta (*the power went out*, en pasado simple). *While* acompaña a la acción larga.",
+      "options": [
+        { "id": "a", "label": "cooked", "correct": false, "feedback": "Casi: con *while* y una interrupción, la acción larga va en continuo: *was cooking*." },
+        { "id": "b", "label": "was cooking", "correct": true, "feedback": "¡Exacto! Acción larga en continuo, interrumpida por *went out*." },
+        { "id": "c", "label": "were cooking", "correct": false, "feedback": "Casi: con *I*, *was*." },
+        { "id": "d", "label": "am cooking", "correct": false, "feedback": "Todavía no: es una historia en pasado." }
+      ]
+    },
+    {
+      "id": "llovia-cuando-sali",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Estaba lloviendo cuando salí de casa.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "La lluvia es el fondo (continuo); salir es la acción corta (simple).",
+        "Sujeto impersonal: *It*. «Salir de casa»: *leave home* o *leave the house* (*leave → left*)."
+      ],
+      "solution": "**It was raining when I left home** (o *when I left the house*). La lluvia es el fondo, en pasado continuo con el sujeto *it*; salir es un hecho puntual, en pasado simple: *left*.",
+      "answers": [
+        "It was raining when I left home",
+        "It was raining when I left the house",
+        "It was raining when I went out",
+        "When I left home, it was raining",
+        "When I left home it was raining",
+        "When I left the house, it was raining",
+        "When I left the house it was raining",
+        "It was raining when I left my house",
+        "It was raining when I left"
+      ],
+      "feedback": [
+        { "match": "Was raining when I left home", "message": "Casi: falta el sujeto *it*: *It was raining…*" },
+        { "match": "It was raining when I was leaving home", "message": "Casi: salir es una acción corta: *when I left home*." },
+        { "match": "It rained when I left home", "message": "Casi: la lluvia es el fondo, en curso: *It was raining*." },
+        { "match": "It was raining when I leaved home", "message": "Casi: *leave* es irregular: *left*." }
+      ]
+    },
+    {
+      "id": "ana-arrived",
+      "type": "choice",
+      "prompt": "¿En qué frase **ya estábamos cenando** cuando llegó Ana?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Busca la acción que ya estaba en marcha.",
+        "Lo que ya estaba en curso va en pasado continuo."
+      ],
+      "solution": "**When Ana arrived, we were having dinner.** El continuo indica que la cena ya estaba en marcha cuando llegó Ana. En *When Ana arrived, we had dinner*, los dos verbos en simple indican una secuencia: Ana llegó y **después** cenamos.",
+      "options": [
+        { "id": "a", "label": "When Ana arrived, we had dinner.", "correct": false, "feedback": "Todavía no: dos pasados simples indican secuencia. Primero llegó Ana, luego cenamos." },
+        { "id": "b", "label": "When Ana arrived, we were having dinner.", "correct": true, "feedback": "¡Muy bien! La cena estaba en curso cuando llegó." }
+      ]
+    },
+    {
+      "id": "when-saw-fox",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa con *when* o *while*: **I was walking home ____ I saw a fox.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "La palabra que falta introduce la acción corta (*I saw*).",
+        "*While* suele ir con la acción larga."
+      ],
+      "solution": "**when** → *I was walking home when I saw a fox.* La segunda parte (*I saw a fox*) es la acción corta, en pasado simple, y la acción corta va con *when*. *While* encaja con acciones largas: *While I was walking home, I saw a fox.*",
+      "answers": ["when"],
+      "feedback": [
+        { "match": "while", "message": "Casi: *while* va con la acción larga. Aquí introduce la corta (*I saw*), así que *when*." }
+      ]
+    },
+    {
+      "id": "queria-ser-piloto",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Cuando era pequeño, quería ser piloto.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Want* es un verbo de estado: no va en forma continua.",
+        "«Era pequeño» = *I was little* (o *a child*)."
+      ],
+      "solution": "**When I was little, I wanted to be a pilot.** (También *When I was a child…* o *I wanted to be a pilot when I was young.*) Los dos imperfectos españoles («era», «quería») describen estados, no acciones en curso, así que van en pasado simple. *I was wanting* no es natural.",
+      "answers": [
+        "When I was little, I wanted to be a pilot",
+        "When I was little I wanted to be a pilot",
+        "I wanted to be a pilot when I was little",
+        "When I was a child, I wanted to be a pilot",
+        "When I was a child I wanted to be a pilot",
+        "I wanted to be a pilot when I was a child",
+        "When I was young, I wanted to be a pilot",
+        "When I was young I wanted to be a pilot",
+        "I wanted to be a pilot when I was young",
+        "When I was a kid, I wanted to be a pilot",
+        "When I was a kid I wanted to be a pilot",
+        "I wanted to be a pilot when I was a kid",
+        "When I was small, I wanted to be a pilot",
+        "When I was small I wanted to be a pilot",
+        "I wanted to be a pilot when I was small"
+      ],
+      "feedback": [
+        { "match": "When I was little, I was wanting to be a pilot", "message": "Casi: *want* es un verbo de estado y va en pasado simple: *I wanted to be a pilot*." },
+        { "match": "When I was little, I wanted to be pilot", "message": "Casi: con las profesiones hace falta *a*: *a pilot*." },
+        { "match": "When I was little, I wanted be a pilot", "message": "Casi: *want* va seguido de *to*: *wanted to be*." },
+        { "match": "When I was little I was wanting to be a pilot", "message": "Casi: *want* es un verbo de estado: *I wanted to be a pilot*." }
+      ]
+    },
+    {
+      "id": "realise-significa",
+      "type": "choice",
+      "prompt": "*I suddenly realised I didn't have my keys.* ¿Qué significa *realised*?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Es un falso amigo.",
+        "Piensa en qué pasa en tu cabeza cuando no encuentras las llaves."
+      ],
+      "solution": "**me di cuenta**: *I suddenly realised I didn't have my keys* = De repente me di cuenta de que no tenía las llaves. *Realise* (RU) o *realize* (EE. UU.) significa «darse cuenta». «Realizar» se dice *carry out*, *do* o *make*, según el caso.",
+      "options": [
+        { "id": "a", "label": "realicé", "correct": false, "feedback": "Todavía no: es un falso amigo. *Realise* es «darse cuenta»." },
+        { "id": "b", "label": "me di cuenta", "correct": true, "feedback": "¡Exacto! *Realise* = darse cuenta." },
+        { "id": "c", "label": "recordé", "correct": false, "feedback": "Todavía no: «recordar» es *remember*. *Realise* es «darse cuenta»." }
+      ]
+    },
+    {
+      "id": "no-estabamos-durmiendo",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **No estábamos durmiendo.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Negativa: *weren't* + *-ing*.",
+        "«Dormir» = *sleep*."
+      ],
+      "solution": "**We weren't sleeping** (o *We were not sleeping*). Sujeto *we*, *were* + *not*, y el verbo en *-ing*.",
+      "answers": ["We weren't sleeping", "We were not sleeping"],
+      "feedback": [
+        { "match": "We wasn't sleeping", "message": "Casi: con *we*, *weren't*." },
+        { "match": "We didn't sleeping", "message": "Casi: el pasado continuo se niega con *weren't*: *We weren't sleeping*." },
+        { "match": "Weren't sleeping", "message": "Casi: falta el sujeto *we*." },
+        { "match": "We didn't sleep", "message": "Casi: eso es «no dormimos». Para «no estábamos durmiendo», *We weren't sleeping*." }
+      ]
+    },
+    {
+      "id": "oraciones-continuo",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las oraciones correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "La acción larga va en continuo; la corta, en simple.",
+        "Los verbos de estado (*know*, *want*…) no suelen ir en continuo."
+      ],
+      "solution": "Son correctas **She was reading when the doorbell rang.** y **I didn't know the answer.** *While I cooked, the phone was ringing* tiene los tiempos al revés (debe ser *While I was cooking, the phone rang*), y *I was knowing her* usa en continuo un verbo de estado (debe ser *I knew her*).",
+      "options": [
+        { "id": "a", "label": "She was reading when the doorbell rang.", "correct": true, "feedback": "Correcta: acción larga en continuo, interrupción en simple." },
+        { "id": "b", "label": "While I cooked, the phone was ringing.", "correct": false, "feedback": "Todavía no: los tiempos están al revés. *While I was cooking, the phone rang.*" },
+        { "id": "c", "label": "I didn't know the answer.", "correct": true, "feedback": "Correcta: *know* es un verbo de estado y va en simple." },
+        { "id": "d", "label": "I was knowing her very well.", "correct": false, "feedback": "Todavía no: *know* no va en continuo: *I knew her very well*." }
+      ]
+    },
+    {
+      "id": "mientras-yo-cocinaba",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce (dos acciones largas a la vez): **Mientras yo cocinaba, mi hermano veía la tele.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Las dos acciones estaban en curso al mismo tiempo.",
+        "*While* + pasado continuo, y pasado continuo también en la otra parte."
+      ],
+      "solution": "**While I was cooking, my brother was watching TV.** Las dos acciones son largas y simultáneas, así que las dos van en pasado continuo. También vale el orden inverso: *My brother was watching TV while I was cooking.*",
+      "answers": [
+        "While I was cooking, my brother was watching TV",
+        "While I was cooking my brother was watching TV",
+        "My brother was watching TV while I was cooking",
+        "While I was cooking, my brother was watching the TV",
+        "While I was cooking my brother was watching the TV",
+        "My brother was watching the TV while I was cooking",
+        "While I was cooking, my brother was watching television",
+        "While I was cooking my brother was watching television",
+        "My brother was watching television while I was cooking",
+        "While I was cooking, my brother was watching the television",
+        "While I was cooking my brother was watching the television",
+        "My brother was watching the television while I was cooking"
+      ],
+      "feedback": [
+        { "match": "While I cooked, my brother watched TV", "message": "Casi: es correcto como hábito, pero para dos acciones en curso a la vez lo natural es el continuo: *While I was cooking, my brother was watching TV*." },
+        { "match": "While I was cooking, my brother watched TV", "message": "Casi: ver la tele también estaba en curso: *was watching*." },
+        { "match": "While I was cooking, my brother was seeing TV", "message": "Casi: «ver la tele» es *watch TV*, no *see*." }
+      ]
+    }
+  ]
+}

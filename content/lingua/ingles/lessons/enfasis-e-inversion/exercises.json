@@ -1,0 +1,414 @@
+{
+  "lesson": "enfasis-e-inversion",
+  "exercises": [
+    {
+      "id": "enfasis-never-have-i",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Completa: **Never ___ such a beautiful sunset.**",
+      "options": [
+        {
+          "id": "a",
+          "label": "have I seen",
+          "correct": true,
+          "feedback": "¡Eso es! *Never* al principio pide el orden de pregunta: auxiliar (*have*) + sujeto (*I*) + participio."
+        },
+        {
+          "id": "b",
+          "label": "I have seen",
+          "correct": false,
+          "feedback": "Todavía no: este es el orden normal. Con *never* al principio de la oración, el auxiliar va delante del sujeto."
+        },
+        {
+          "id": "c",
+          "label": "I saw",
+          "correct": false,
+          "feedback": "Todavía no: falta la inversión. Además, *never* + experiencia de toda la vida suele ir con el present perfect."
+        },
+        {
+          "id": "d",
+          "label": "did I saw",
+          "correct": false,
+          "feedback": "Casi: la inversión con *did* existe, pero después de *did* el verbo va en forma base (*did I see*), no en pasado."
+        }
+      ],
+      "hints": [
+        "Piensa en cómo sería la pregunta: *Have I ever seen…?*",
+        "Expresión negativa al principio → auxiliar + sujeto, como en una pregunta."
+      ],
+      "solution": "La oración neutra es *I have never seen such a beautiful sunset.* Al adelantar *never*, el auxiliar *have* pasa delante del sujeto: **Never have I seen such a beautiful sunset.** Es una construcción enfática y algo literaria; en conversación sonaría deliberadamente dramática."
+    },
+    {
+      "id": "enfasis-little-did-i-know",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Reescribe la oración empezando por **Little**:\n\n*I had no idea that the shop was closed.*",
+      "answers": [
+        "Little did I know that the shop was closed",
+        "Little did I know the shop was closed",
+        "Little did I realise that the shop was closed",
+        "Little did I realize that the shop was closed",
+        "Little did I realise the shop was closed",
+        "Little did I realize the shop was closed"
+      ],
+      "feedback": [
+        {
+          "match": "Little I knew that the shop was closed",
+          "message": "Casi: falta la inversión. Con *little* al principio necesitas *did* + sujeto + verbo en forma base: *Little did I know…*"
+        },
+        {
+          "match": "Little did I knew that the shop was closed",
+          "message": "Casi: después de *did* el verbo va en forma base: *know*, no *knew*."
+        }
+      ],
+      "hints": [
+        "*Little* aquí es negativo: significa «nada, en absoluto».",
+        "Como el verbo *know* no tiene auxiliar en pasado simple, añade *did*: *Little did I…*"
+      ],
+      "solution": "*Little* al principio funciona como una expresión negativa (= *I didn't know at all*), así que pide inversión. El pasado simple *knew* no tiene auxiliar, por eso añadimos *did* y el verbo vuelve a la forma base: **Little did I know (that) the shop was closed.** Es una fórmula muy común al narrar anécdotas."
+    },
+    {
+      "id": "enfasis-had-i-known",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Reescribe la oración sin *if*, usando la inversión:\n\n*If I had known about the strike, I would have taken a taxi.*",
+      "answers": [
+        "Had I known about the strike, I would have taken a taxi",
+        "Had I known about the strike I would have taken a taxi",
+        "Had I known about the strike, I'd have taken a taxi",
+        "Had I known about the strike I'd have taken a taxi"
+      ],
+      "feedback": [
+        {
+          "match": "Did I know about the strike, I would have taken a taxi",
+          "message": "Todavía no: es un tercer condicional, así que el auxiliar que se invierte es *had*: *Had I known…*"
+        },
+        {
+          "match": "If had I known about the strike, I would have taken a taxi",
+          "message": "Casi: cuando inviertes, *if* desaparece. Empieza directamente por *Had*."
+        }
+      ],
+      "hints": [
+        "Es un tercer condicional: *if* + pasado perfecto.",
+        "Quita *if* y pon *had* delante del sujeto. La segunda parte no cambia."
+      ],
+      "solution": "En el tercer condicional, *If I had known* se convierte en **Had I known**: desaparece *if* y el auxiliar pasa delante del sujeto. La oración principal no cambia: **Had I known about the strike, I would have taken a taxi.** Suena más formal o más literario que la versión con *if*."
+    },
+    {
+      "id": "enfasis-no-sooner-than",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "¿Cuál de estas oraciones es correcta?",
+      "options": [
+        {
+          "id": "a",
+          "label": "No sooner had we sat down than the phone rang.",
+          "correct": true,
+          "feedback": "¡Exacto! *No sooner* es un comparativo (*sooner* = antes), por eso va con *than*, y lleva inversión con el pasado perfecto."
+        },
+        {
+          "id": "b",
+          "label": "No sooner had we sat down when the phone rang.",
+          "correct": false,
+          "feedback": "Casi: la inversión está bien, pero *no sooner* va con *than*, no con *when*. *When* es la pareja de *hardly* y *scarcely*."
+        },
+        {
+          "id": "c",
+          "label": "No sooner we had sat down than the phone rang.",
+          "correct": false,
+          "feedback": "Todavía no: falta la inversión. Después de *no sooner* al principio, el auxiliar *had* va delante del sujeto."
+        },
+        {
+          "id": "d",
+          "label": "Hardly had we sat down than the phone rang.",
+          "correct": false,
+          "feedback": "Casi: *hardly* va con *when* (*Hardly had we sat down when…*). *Than* es solo para *no sooner*."
+        }
+      ],
+      "hints": [
+        "Hay dos parejas fijas: una con *than* y otra con *when*.",
+        "*Sooner* es un comparativo, como *better* o *faster*. ¿Qué palabra acompaña a los comparativos?"
+      ],
+      "solution": "Las parejas son **no sooner… than** (porque *sooner* es comparativo, como *better than*) y **hardly / scarcely… when**. Además, la expresión inicial pide inversión: *had we sat down*. La única oración correcta es **No sooner had we sat down than the phone rang.**"
+    },
+    {
+      "id": "enfasis-only-when",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Elige la versión correcta de esta idea: *We celebrated only when the results arrived.*",
+      "options": [
+        {
+          "id": "a",
+          "label": "Only when the results arrived did we celebrate.",
+          "correct": true,
+          "feedback": "¡Muy bien! La inversión va en la oración principal (*did we celebrate*), no en la que empieza por *when*."
+        },
+        {
+          "id": "b",
+          "label": "Only when did the results arrive we celebrated.",
+          "correct": false,
+          "feedback": "Todavía no: has invertido la oración de *when*. Esa se queda igual; la que se invierte es la principal."
+        },
+        {
+          "id": "c",
+          "label": "Only when the results arrived we celebrated.",
+          "correct": false,
+          "feedback": "Casi: falta la inversión en la oración principal. Con *only when* al principio necesitas *did we celebrate*."
+        },
+        {
+          "id": "d",
+          "label": "Only when the results arrived did we celebrated.",
+          "correct": false,
+          "feedback": "Casi: la estructura es la buena, pero después de *did* va la forma base: *celebrate*."
+        }
+      ],
+      "hints": [
+        "Con *only when*, *only after* y *not until* hay dos oraciones. Solo una se invierte.",
+        "La oración que empieza por *when* conserva el orden normal."
+      ],
+      "solution": "Con *only when* al principio, la oración de *when* (*the results arrived*) mantiene el orden normal y la inversión pasa a la **oración principal**: *did we celebrate*. Resultado: **Only when the results arrived did we celebrate.** Lo mismo ocurre con *Not until…* y *Only after…*."
+    },
+    {
+      "id": "enfasis-not-only-does",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Corrige el error de esta oración y escríbela completa:\n\n*Not only she plays the violin, but she also composes.*",
+      "answers": [
+        "Not only does she play the violin, but she also composes",
+        "Not only does she play the violin but she also composes",
+        "Not only does she play the violin, she also composes"
+      ],
+      "feedback": [
+        {
+          "match": "Not only does she plays the violin, but she also composes",
+          "message": "Casi: después de *does*, el verbo va sin -s: *does she play*."
+        }
+      ],
+      "hints": [
+        "*Not only* al principio pide el orden de pregunta.",
+        "*She plays* no tiene auxiliar: añade *does* y deja el verbo en forma base."
+      ],
+      "solution": "*Not only* al principio exige inversión en su propia oración. Como *plays* es presente simple sin auxiliar, añadimos *does* y el verbo pierde la -s: **Not only does she play the violin, but she also composes.** La segunda parte (*but she also composes*) conserva el orden normal."
+    },
+    {
+      "id": "enfasis-hardly-had",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Completa: **Hardly ___ the meeting started when the fire alarm went off.**",
+      "options": [
+        {
+          "id": "a",
+          "label": "had",
+          "correct": true,
+          "feedback": "¡Eso es! *Hardly… when* suele ir con el pasado perfecto en la primera parte: *Hardly had the meeting started…*"
+        },
+        {
+          "id": "b",
+          "label": "did",
+          "correct": false,
+          "feedback": "Todavía no: *did the meeting started* no es posible (después de *did* va la forma base). Además, aquí la acción anterior va en pasado perfecto."
+        },
+        {
+          "id": "c",
+          "label": "has",
+          "correct": false,
+          "feedback": "Todavía no: la alarma *went off* (pasado), así que la acción anterior necesita el pasado perfecto: *had*."
+        },
+        {
+          "id": "d",
+          "label": "was",
+          "correct": false,
+          "feedback": "Todavía no: *was … started* sería una pasiva (*la reunión fue empezada*), que no tiene sentido aquí."
+        }
+      ],
+      "hints": [
+        "La reunión empezó justo antes de que sonara la alarma. ¿Qué tiempo expresa «antes» en el pasado?",
+        "El participio *started* necesita un auxiliar de tiempo perfecto."
+      ],
+      "solution": "*Hardly… when* expresa que una cosa pasó inmediatamente después de otra en el pasado. La primera acción va en pasado perfecto, con inversión: **Hardly had the meeting started when the fire alarm went off.** Es decir: apenas había empezado la reunión cuando sonó la alarma."
+    },
+    {
+      "id": "enfasis-were-it-not-for",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Reescribe la oración empezando por **Were**:\n\n*If it weren't for your help, we would be lost.*",
+      "answers": [
+        "Were it not for your help, we would be lost",
+        "Were it not for your help we would be lost",
+        "Were it not for your help, we'd be lost",
+        "Were it not for your help we'd be lost"
+      ],
+      "feedback": [
+        {
+          "match": "Weren't it for your help, we would be lost",
+          "message": "Casi: en la inversión, la negación no se contrae. Escribe *Were it not for…*"
+        },
+        {
+          "match": "Were not it for your help, we would be lost",
+          "message": "Casi: *not* va después del sujeto: *Were it not for…*"
+        }
+      ],
+      "hints": [
+        "Quita *if* y pon *were* delante de *it*.",
+        "La negación va completa y detrás del sujeto: *were it not…*"
+      ],
+      "solution": "*If it weren't for* se convierte en **Were it not for**: desaparece *if*, *were* pasa delante de *it* y la negación se escribe completa detrás del sujeto (nunca ✗ *Weren't it for*). La oración principal no cambia: **Were it not for your help, we would be lost.**"
+    },
+    {
+      "id": "enfasis-what-i-need",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés con una oración escindida que empiece por **What**:\n\n*Lo que necesito es dormir.*",
+      "answers": [
+        "What I need is sleep",
+        "What I need is to sleep",
+        "What I need is some sleep",
+        "What I need is a good sleep",
+        "What I need is a good night's sleep",
+        "What I need is more sleep"
+      ],
+      "feedback": [
+        {
+          "match": "What I need it is sleep",
+          "message": "Casi: sobra *it*. El sujeto de *is* es toda la oración *What I need*."
+        },
+        {
+          "match": "What I need is sleeping",
+          "message": "Casi: después de *What I need is* usa un sustantivo (*sleep*) o *to* + verbo (*to sleep*)."
+        },
+        {
+          "match": "The thing that I need is sleep",
+          "message": "Es correcto en inglés, pero el ejercicio pide empezar por *What*: *What I need is sleep.*"
+        }
+      ],
+      "hints": [
+        "«Lo que» = *what*. La estructura es *What* + sujeto + verbo + *is* + foco.",
+        "El foco puede ser un sustantivo (*sleep*) o *to* + verbo (*to sleep*)."
+      ],
+      "solution": "«Lo que necesito» es *What I need*, que funciona como sujeto de *is*. Después viene el foco: **What I need is sleep** (o *some sleep*, *a good night's sleep*, *to sleep*). No añadas un segundo sujeto (✗ *What I need it is…*)."
+    },
+    {
+      "id": "enfasis-it-was-marta",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés con una oración escindida con **it**:\n\n*Fue Marta quien encontró el error.*",
+      "answers": [
+        "It was Marta who found the error",
+        "It was Marta that found the error",
+        "It was Marta who found the mistake",
+        "It was Marta that found the mistake",
+        "It was Marta who spotted the error",
+        "It was Marta who spotted the mistake",
+        "It was Marta who noticed the error",
+        "It was Marta who noticed the mistake"
+      ],
+      "feedback": [
+        {
+          "match": "Was Marta who found the error",
+          "message": "Casi: el inglés necesita el sujeto *it*: *It was Marta who…*"
+        },
+        {
+          "match": "It was Marta which found the error",
+          "message": "Casi: para personas se usa *who* (o *that*), no *which*."
+        }
+      ],
+      "hints": [
+        "La estructura es *It* + *be* + foco + *who/that* + resto.",
+        "No olvides el *it*: en inglés toda oración necesita sujeto."
+      ],
+      "solution": "La oración escindida con *it* destaca a la persona: **It was Marta who found the error** (*that* también es posible; *mistake* es tan válido como *error*). En español decimos «Fue Marta quien…», sin sujeto explícito, pero en inglés ✗ *Was Marta who…* es imposible."
+    },
+    {
+      "id": "enfasis-emphatic-did",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "A: *You never call me!*\n\nB: *That's not fair. I ___ call you last Sunday.*",
+      "options": [
+        {
+          "id": "a",
+          "label": "did",
+          "correct": true,
+          "feedback": "¡Muy bien! Es el *do* enfático en pasado: *I did call you* = «sí que te llamé». Al hablar, se acentúa *did*."
+        },
+        {
+          "id": "b",
+          "label": "do",
+          "correct": false,
+          "feedback": "Casi: el *do* enfático es correcto, pero *last Sunday* pide pasado: *did*."
+        },
+        {
+          "id": "c",
+          "label": "was",
+          "correct": false,
+          "feedback": "Todavía no: *was call* no es una forma posible. Para insistir en un verbo en pasado simple usa *did* + forma base."
+        },
+        {
+          "id": "d",
+          "label": "have",
+          "correct": false,
+          "feedback": "Todavía no: *last Sunday* es un momento terminado y no va con el present perfect; además *have call* no es correcto."
+        }
+      ],
+      "hints": [
+        "B contradice a A: quiere insistir en que la llamada ocurrió.",
+        "*Last Sunday* es pasado. ¿Qué forma de *do* corresponde?"
+      ],
+      "solution": "B responde a una acusación, así que insiste con el *do* enfático. Como la acción es pasada (*last Sunday*), el auxiliar es *did* y el verbo va en forma base: **I did call you last Sunday.** Equivale a «sí que te llamé el domingo»."
+    },
+    {
+      "id": "enfasis-registro-should",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "Un hotel quiere poner un cartel formal en las habitaciones. ¿Qué versión encaja mejor en ese registro?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Should you require assistance, please contact reception.",
+          "correct": true,
+          "feedback": "¡Exacto! *Should you require* es la inversión condicional típica de avisos, cartas y correos de empresa: cortés e impersonal."
+        },
+        {
+          "id": "b",
+          "label": "If you need anything, just give us a shout!",
+          "correct": false,
+          "feedback": "Es correcta y amable, pero muy coloquial (*give us a shout*) para un cartel formal."
+        },
+        {
+          "id": "c",
+          "label": "Should you to require assistance, please contact reception.",
+          "correct": false,
+          "feedback": "Casi: después de *should* va la forma base sin *to*: *Should you require…*"
+        },
+        {
+          "id": "d",
+          "label": "Never do you hesitate to contact reception.",
+          "correct": false,
+          "feedback": "Todavía no: esta inversión es gramatical, pero significa «tú nunca dudas en llamar», una afirmación sobre el cliente, no una invitación."
+        }
+      ],
+      "hints": [
+        "Busca una versión correcta *y* formal.",
+        "La inversión con *should* sustituye a *if* en los condicionales del primer tipo cuando el registro es formal."
+      ],
+      "solution": "En avisos y correspondencia formal, *If you require* se convierte con frecuencia en **Should you require**, sin *if* y con *should* delante del sujeto. La opción B es correcta pero coloquial; la C tiene un error (*to*); la D es gramatical pero dice otra cosa. Respuesta: **Should you require assistance, please contact reception.**"
+    }
+  ]
+}

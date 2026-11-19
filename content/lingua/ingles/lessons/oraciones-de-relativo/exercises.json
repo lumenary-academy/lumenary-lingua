@@ -1,0 +1,366 @@
+{
+  "lesson": "oraciones-de-relativo",
+  "exercises": [
+    {
+      "id": "who-vive-al-lado",
+      "type": "choice",
+      "prompt": "*The woman ___ lives next door is a pilot.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "who",
+          "correct": true,
+          "feedback": "Sí. *Who* se refiere a personas, y aquí es el sujeto de *lives*."
+        },
+        {
+          "id": "b",
+          "label": "which",
+          "correct": false,
+          "feedback": "Todavía no. *Which* es para cosas y animales, no para personas."
+        },
+        {
+          "id": "c",
+          "label": "whose",
+          "correct": false,
+          "feedback": "Todavía no. *Whose* expresa posesión y va seguido de un sustantivo (*whose car*)."
+        }
+      ],
+      "hints": [
+        "¿El antecedente es una persona o una cosa?",
+        "Después del hueco viene directamente el verbo *lives*."
+      ],
+      "solution": "**who**: *The woman who lives next door is a pilot.*\n\n*The woman* es una persona, así que el relativo es *who* (o *that*, que también valdría en una especificativa). Como va seguido de un verbo, es el sujeto y no se puede omitir."
+    },
+    {
+      "id": "where-primera-cita",
+      "type": "choice",
+      "prompt": "*That's the restaurant ___ we had our first date.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "where",
+          "correct": true,
+          "feedback": "Sí. *Where* introduce un lugar: el restaurante donde tuvimos la primera cita."
+        },
+        {
+          "id": "b",
+          "label": "which",
+          "correct": false,
+          "feedback": "Todavía no. *Which* necesitaría una preposición: *the restaurant which we had our first date in* (o *in which*)."
+        },
+        {
+          "id": "c",
+          "label": "who",
+          "correct": false,
+          "feedback": "Todavía no. *Who* es para personas."
+        },
+        {
+          "id": "d",
+          "label": "when",
+          "correct": false,
+          "feedback": "Todavía no. *When* introduce momentos, no lugares."
+        }
+      ],
+      "hints": [
+        "El antecedente es un lugar.",
+        "¿Qué relativo equivale a *donde*?"
+      ],
+      "solution": "**where**: *That's the restaurant where we had our first date.*\n\n*Where* se usa para lugares e incluye la idea de la preposición (*in which*). Por eso tampoco se añade otra preposición al final: ✗ *where we had our first date in*."
+    },
+    {
+      "id": "whose-hermano",
+      "type": "text",
+      "prompt": "Completa con un pronombre relativo:\n\n*I have a friend ___ brother plays for the national team.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "whose"
+      ],
+      "feedback": [
+        {
+          "match": "who's",
+          "message": "Casi: suenan igual, pero *who's* es *who is*. Para la posesión (cuyo) se escribe distinto."
+        },
+        {
+          "match": "who",
+          "message": "Todavía no: el hermano es **de** tu amigo. Necesitas el relativo de posesión."
+        }
+      ],
+      "hints": [
+        "El hermano pertenece a tu amigo: es una relación de posesión.",
+        "Equivale al español *cuyo*."
+      ],
+      "solution": "**whose**: *I have a friend whose brother plays for the national team.*\n\n*Whose* expresa posesión (*cuyo, cuya*) y va seguido directamente de un sustantivo sin artículo: *whose brother*. No lo confundas con *who's* (*who is*), que suena igual."
+    },
+    {
+      "id": "abuela-92",
+      "type": "text",
+      "prompt": "Une las dos frases con una oración de relativo explicativa (no olvides las comas):\n\n*My grandmother is 92. She still swims every day.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "My grandmother, who is 92, still swims every day",
+        "My grandmother, who's 92, still swims every day"
+      ],
+      "feedback": [
+        {
+          "match": "My grandmother who is 92 still swims every day",
+          "message": "Casi: sin comas, parece que tienes varias abuelas y hablas de la que tiene 92. Añade las comas de la explicativa."
+        },
+        {
+          "match": "My grandmother, that is 92, still swims every day",
+          "message": "Casi: en las explicativas (con comas) nunca se usa *that*."
+        }
+      ],
+      "hints": [
+        "Hablas de una abuela concreta, que ya está identificada: su edad es información extra.",
+        "Información extra → entre comas, con *who*."
+      ],
+      "solution": "**My grandmother, who is 92, still swims every day.**\n\nTu abuela ya está identificada; su edad es un dato extra. Por eso la oración es explicativa: va entre comas y usa *who*, nunca *that*. La oración de relativo se coloca justo detrás de la palabra a la que se refiere."
+    },
+    {
+      "id": "hermano-toronto",
+      "type": "choice",
+      "prompt": "Lees esta frase, **sin comas**:\n\n*My brother who lives in Toronto is an engineer.*\n\n¿Qué te dice sobre la familia de quien escribe?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Que tiene más de un hermano.",
+          "correct": true,
+          "feedback": "Sí. La especificativa (sin comas) identifica a cuál de los hermanos se refiere."
+        },
+        {
+          "id": "b",
+          "label": "Que tiene un solo hermano.",
+          "correct": false,
+          "feedback": "Todavía no. Si solo tuviera uno, *who lives in Toronto* sería información extra y llevaría comas."
+        },
+        {
+          "id": "c",
+          "label": "Nada: con o sin comas significa lo mismo.",
+          "correct": false,
+          "feedback": "Todavía no. En inglés las comas distinguen las especificativas de las explicativas, y eso cambia el significado."
+        }
+      ],
+      "hints": [
+        "Sin comas, la oración de relativo identifica.",
+        "¿Haría falta identificar al hermano si solo hubiera uno?"
+      ],
+      "solution": "**Que tiene más de un hermano.**\n\nSin comas, *who lives in Toronto* es especificativa: sirve para decir **cuál** de los hermanos es ingeniero. Con comas (*My brother, who lives in Toronto, is an engineer*), sería información extra sobre el único hermano."
+    },
+    {
+      "id": "pelicula-sin-pronombre",
+      "type": "text",
+      "prompt": "Reescribe la frase **sin** el pronombre relativo:\n\n*The film that we saw last night was really boring.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "The film we saw last night was really boring",
+        "The movie we saw last night was really boring"
+      ],
+      "hints": [
+        "Después de *that* viene un sujeto (*we*): el pronombre es el objeto.",
+        "Si es objeto, puedes quitarlo sin cambiar nada más."
+      ],
+      "solution": "**The film we saw last night was really boring.**\n\n*That* es aquí el objeto de *saw* (vimos **la película**), y detrás viene otro sujeto, *we*. En ese caso el pronombre se puede omitir, y en la conversación es lo más habitual. *Film* es más británico; *movie*, más estadounidense."
+    },
+    {
+      "id": "cuando-omitir",
+      "type": "choice",
+      "prompt": "¿En qué frases **se puede omitir** el pronombre relativo? Marca **todas** las correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "The man who called you is waiting outside.",
+          "correct": false,
+          "feedback": "No se puede: *who* va seguido del verbo *called*, así que es el sujeto."
+        },
+        {
+          "id": "b",
+          "label": "The cake that you made was delicious.",
+          "correct": true,
+          "feedback": "Sí: después de *that* viene otro sujeto (*you*), así que *that* es objeto y puede omitirse."
+        },
+        {
+          "id": "c",
+          "label": "The bus which goes to the airport leaves at six.",
+          "correct": false,
+          "feedback": "No se puede: *which* es el sujeto de *goes*."
+        },
+        {
+          "id": "d",
+          "label": "The people who we met in Rome were very friendly.",
+          "correct": true,
+          "feedback": "Sí: *who* es el objeto de *met* (detrás viene *we*), así que puede omitirse."
+        },
+        {
+          "id": "e",
+          "label": "My car, which I bought in 2015, still works.",
+          "correct": false,
+          "feedback": "No se puede: es una explicativa (con comas), y en ellas el pronombre nunca se omite."
+        }
+      ],
+      "hints": [
+        "Mira la palabra que va justo después del pronombre: ¿es un sujeto o un verbo?",
+        "En las explicativas, con comas, nunca se omite."
+      ],
+      "solution": "Se puede omitir en **b** y **d**.\n\nEn las dos, después del pronombre viene un sujeto (*you*, *we*), así que el pronombre es el objeto: *The cake you made*, *The people we met in Rome*. En *a* y *c*, el pronombre va seguido de un verbo: es el sujeto y debe quedarse. En *e*, la oración es explicativa, y ahí nunca se omite."
+    },
+    {
+      "id": "ciudad-donde-creci",
+      "type": "text",
+      "prompt": "Traduce al inglés con la preposición al final (solo la expresión, sin frase completa):\n\n**la ciudad en la que crecí**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "the town I grew up in",
+        "the town that I grew up in",
+        "the town which I grew up in",
+        "the town where I grew up",
+        "the town in which I grew up",
+        "the city I grew up in",
+        "the city that I grew up in",
+        "the city which I grew up in",
+        "the city where I grew up",
+        "the city in which I grew up"
+      ],
+      "feedback": [
+        {
+          "match": "the city where I grew up in",
+          "message": "Casi: *where* ya incluye la preposición. O *where I grew up*, o *I grew up in*, pero no las dos cosas."
+        },
+        {
+          "match": "the city in that I grew up",
+          "message": "Casi: después de una preposición no se usa *that*. Lo natural es dejar *in* al final: *the city I grew up in*."
+        }
+      ],
+      "hints": [
+        "*Crecer* (criarse) es *grow up*; en pasado, *grew up*.",
+        "Lo más natural: sin pronombre y con *in* al final."
+      ],
+      "solution": "**the city I grew up in** (o *the town I grew up in*).\n\nEn inglés natural, la preposición se queda al final, junto a su verbo, y el pronombre relativo desaparece. También son correctas *the city where I grew up* y, en registro formal, *the city in which I grew up*. Lo que no vale es mezclar: ✗ *where I grew up in*."
+    },
+    {
+      "id": "which-lo-que",
+      "type": "text",
+      "prompt": "Completa con un pronombre relativo:\n\n*He didn't call me on my birthday, ___ made me quite sad.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "which"
+      ],
+      "feedback": [
+        {
+          "match": "what",
+          "message": "Casi: es un error muy frecuente. Para *lo que* referido a toda la frase anterior, después de una coma, se usa otro relativo."
+        },
+        {
+          "match": "that",
+          "message": "Casi: *that* no se usa después de una coma, en las explicativas."
+        }
+      ],
+      "hints": [
+        "El relativo se refiere a toda la frase anterior: que no te llamara.",
+        "Equivale a *lo que* o *lo cual*."
+      ],
+      "solution": "**which**: *He didn't call me on my birthday, which made me quite sad.*\n\n*Which* puede referirse a toda una oración anterior, como *lo que* o *lo cual* en español. *What* no funciona aquí, y *that* nunca va después de coma."
+    },
+    {
+      "id": "lima-which",
+      "type": "choice",
+      "prompt": "*Lima, ___ is the capital of Peru, has a mild climate.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "which",
+          "correct": true,
+          "feedback": "Sí. Explicativa sobre una cosa (una ciudad), entre comas: *which*."
+        },
+        {
+          "id": "b",
+          "label": "that",
+          "correct": false,
+          "feedback": "Todavía no. Con comas (explicativa) nunca se usa *that*."
+        },
+        {
+          "id": "c",
+          "label": "where",
+          "correct": false,
+          "feedback": "Todavía no. *Where* significaría «en la que», y aquí el relativo es el sujeto de *is*: Lima **es** la capital."
+        },
+        {
+          "id": "d",
+          "label": "what",
+          "correct": false,
+          "feedback": "Todavía no. *What* no se usa como relativo detrás de un sustantivo."
+        }
+      ],
+      "hints": [
+        "Las comas indican una oración explicativa.",
+        "El relativo es el sujeto de *is*."
+      ],
+      "solution": "**which**: *Lima, which is the capital of Peru, has a mild climate.*\n\nLima ya está identificada (solo hay una), así que el dato de que es la capital es información extra, entre comas. En las explicativas, para cosas se usa *which*, nunca *that*. *Where* no sirve porque no significa «en la que» aquí: el relativo es el sujeto de *is*."
+    },
+    {
+      "id": "persona-con-la-que-hable",
+      "type": "text",
+      "prompt": "Traduce al inglés de manera natural, con la preposición al final (solo la expresión):\n\n**la persona con la que hablé**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "the person I spoke to",
+        "the person who I spoke to",
+        "the person that I spoke to",
+        "the person whom I spoke to",
+        "the person to whom I spoke",
+        "the person I spoke with",
+        "the person who I spoke with",
+        "the person that I spoke with",
+        "the person whom I spoke with",
+        "the person with whom I spoke",
+        "the person I talked to",
+        "the person who I talked to",
+        "the person that I talked to",
+        "the person whom I talked to",
+        "the person to whom I talked",
+        "the person I talked with",
+        "the person who I talked with",
+        "the person that I talked with",
+        "the person whom I talked with",
+        "the person with whom I talked"
+      ],
+      "feedback": [
+        {
+          "match": "the person with who I spoke",
+          "message": "Casi: después de una preposición, en registro formal, va *whom*. Pero lo natural es dejar la preposición al final: *the person I spoke to*."
+        },
+        {
+          "match": "the person with that I spoke",
+          "message": "Casi: *that* nunca va detrás de una preposición. Deja la preposición al final: *the person I spoke to*."
+        }
+      ],
+      "hints": [
+        "*Hablar con alguien*: *speak to* o *talk to* (también *with*).",
+        "Lo natural: sin pronombre, con la preposición al final."
+      ],
+      "solution": "**the person I spoke to** (o *the person I talked to*, o *with*).\n\nEn inglés natural, la preposición va al final y el pronombre se omite. La versión formal, *the person to whom I spoke*, es correcta pero suena rígida en una conversación. Lo que no se puede decir es *with who* ni *with that*."
+    }
+  ]
+}

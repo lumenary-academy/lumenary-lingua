@@ -1,0 +1,204 @@
+{
+  "lesson": "nuances-of-mood-and-aspect",
+  "exercises": [
+    {
+      "id": "llevar-gerundio",
+      "type": "text",
+      "prompt": "Complete with the gerund of **esperar**:\n\n*Llevo dos horas ______ el autobús.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["esperando"],
+      "feedback": [
+        { "match": "esperar", "message": "Not yet — after *llevar* + a stretch of time, Spanish uses the gerund (-ando, -iendo), not the infinitive." }
+      ],
+      "hints": [
+        "*Llevar* + time + … means 'to have been doing something for that time'.",
+        "The form you need ends in -ando."
+      ],
+      "solution": "**esperando.** *Llevar* + time + gerund expresses duration up to now: *Llevo dos horas esperando el autobús* — I've been waiting for the bus for two hours. It is the most natural Spanish equivalent of the English present perfect continuous."
+    },
+    {
+      "id": "llevar-rewrite",
+      "type": "text",
+      "prompt": "Rewrite with **llevar** + gerund, keeping the meaning:\n\n*Hace tres años que estudio chino.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["llevo tres años estudiando chino", "llevo ya tres años estudiando chino"],
+      "feedback": [
+        { "match": "llevo estudiando chino tres años", "message": "Understandable, and you will hear it — but the usual order puts the time phrase straight after *llevar*: *Llevo tres años estudiando chino.*" },
+        { "match": "he estado estudiando chino tres años", "message": "Not yet — that is a translation of the English tense; the exercise asks for *llevar* + gerund." }
+      ],
+      "hints": [
+        "Start with *llevar* in the first person present.",
+        "Order: *llevo* + time + gerund + object."
+      ],
+      "solution": "**Llevo tres años estudiando chino.** *Hace + time + que + present* and *llevar + time + gerund* say the same thing; the second is often more natural in conversation and avoids the clumsy *he estado estudiando*."
+    },
+    {
+      "id": "aunque-known-fact",
+      "type": "choice",
+      "prompt": "A friend says: *Es tu jefe, no puedes contestarle así.* You reply: *Aunque **sea** mi jefe, no tiene derecho a gritarme.* What does the subjunctive *sea* convey?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "I accept that he's my boss — we both know it — and it doesn't change anything.", "correct": true, "feedback": "Yes — the subjunctive concedes a fact already on the table and sets it aside as irrelevant." },
+        { "id": "b", "label": "I'm not sure whether he is really my boss.", "correct": false, "feedback": "Not yet — the speaker knows perfectly well. The subjunctive here does not express doubt; it marks information that is not being asserted as news." },
+        { "id": "c", "label": "He isn't my boss, but even if he were…", "correct": false, "feedback": "Not yet — a contrary-to-fact concession would need the imperfect subjunctive: *Aunque fuera mi jefe…*" },
+        { "id": "d", "label": "It's a mistake: it should be *es*.", "correct": false, "feedback": "Not yet — *aunque es* would be correct too, but it would sound like announcing that he is the boss. *Sea* is the more natural reply here." }
+      ],
+      "hints": [
+        "The friend has just said he's your boss. Is that new information to you?",
+        "The subjunctive can mark facts that are known but not being asserted."
+      ],
+      "solution": "The fact is already established by the friend's remark, so the speaker does not assert it again; she grants it and dismisses it. That is the job of *aunque* + subjunctive with a known fact. *Aunque es mi jefe* would present the fact as news; *Aunque fuera mi jefe* would suggest he isn't."
+    },
+    {
+      "id": "como-threat",
+      "type": "text",
+      "prompt": "Complete with the correct form of **llegar** (addressing a friend as *tú*). The sentence is a warning:\n\n*Como no ______ a tiempo, nos vamos sin ti.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["llegues"],
+      "feedback": [
+        { "match": "llegas", "message": "Not yet — *como* + indicative would give a cause ('since you don't arrive'). For a warning about the future, *como* takes the subjunctive." },
+        { "match": "llegaste", "message": "Not yet — that would be a cause in the past: *Como no llegaste a tiempo, nos fuimos.* The warning is about what may happen." }
+      ],
+      "hints": [
+        "*Como* at the start + subjunctive = 'if' (a warning); + indicative = 'since'.",
+        "Present subjunctive of *llegar*, *tú* form: mind the spelling change g → gu."
+      ],
+      "solution": "**llegues.** *Como* + subjunctive at the start of a sentence expresses a condition, usually a warning or threat: *If you don't arrive on time, we're leaving without you.* *Llegar* adds a *u* to keep the hard g sound: *llegue, llegues, llegue…*"
+    },
+    {
+      "id": "comprender-mood",
+      "type": "choice",
+      "prompt": "What is the difference between these two sentences?\n\n1. *Comprendo que **estás** cansada.*\n2. *Comprendo que **estés** cansada.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "1 = I realise you're tired; 2 = it's understandable that you're tired.", "correct": true, "feedback": "Yes — with the indicative, *comprender* is a verb of knowing; with the subjunctive, it expresses sympathy or acceptance." },
+        { "id": "b", "label": "1 = you are tired; 2 = you might be tired.", "correct": false, "feedback": "Not yet — in both sentences the speaker takes the tiredness as real. The difference is in what *comprender* means." },
+        { "id": "c", "label": "There is no difference; both are equally correct.", "correct": false, "feedback": "Not yet — both are correct, but they don't mean the same thing. The mood selects one of two senses of *comprender*." },
+        { "id": "d", "label": "Sentence 2 is incorrect.", "correct": false, "feedback": "Not yet — sentence 2 is perfectly correct and very common: it expresses sympathy." }
+      ],
+      "hints": [
+        "Some verbs have two senses, and the mood after them picks one.",
+        "One sense is 'realise, notice'; the other is 'find it reasonable'."
+      ],
+      "solution": "With the indicative, *comprender que* reports knowledge: *I see / realise that you're tired.* With the subjunctive, it accepts or sympathises: *I understand (it's natural) that you're tired.* The same split appears with *entender que*, and similar ones with *decir que* (report vs order) and *sentir que* (perceive vs regret)."
+    },
+    {
+      "id": "just-finished",
+      "type": "text",
+      "prompt": "Translate into Spanish:\n\n*I've just finished the report.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "acabo de terminar el informe",
+        "acabo de terminar el reporte",
+        "acabo de finalizar el informe",
+        "recién terminé el informe",
+        "recién terminé el reporte",
+        "recién termino el informe",
+        "acabo de acabar el informe",
+        "he terminado el informe ahora mismo",
+        "acabo de terminar el informe ahora mismo"
+      ],
+      "feedback": [
+        { "match": "vengo de terminar el informe", "message": "Not yet — *venir de* + infinitive is a French pattern; in Spanish it means 'to come back from doing'. Use *acabar de* + infinitive." },
+        { "match": "he justo terminado el informe", "message": "Not yet — Spanish doesn't put 'just' inside the verb like English. Use the periphrasis *acabar de* + infinitive." }
+      ],
+      "hints": [
+        "Spanish expresses 'have just done' with a periphrasis.",
+        "*acabar de* + infinitive, in the present tense."
+      ],
+      "solution": "**Acabo de terminar el informe.** *Acabar de* + infinitive in the present means 'have just done'. In much of Latin America you will also hear *Recién terminé el informe* (and *reporte* for 'report' in Mexico and elsewhere). Avoid *vengo de terminar*, a calque from French."
+    },
+    {
+      "id": "estar-verde",
+      "type": "choice",
+      "prompt": "Choose the right verb:\n\n*No te comas esos mangos todavía: ______ verdes.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "están", "correct": true, "feedback": "Yes — *estar verde* means unripe, a state that will change; *todavía* confirms it." },
+        { "id": "b", "label": "son", "correct": false, "feedback": "Not yet — *ser verde* describes the colour of a kind of thing. Here the point is that the mangoes aren't ripe yet." }
+      ],
+      "hints": [
+        "Is the speaker classifying the colour of the fruit, or describing its state?",
+        "*Todavía* (still, yet) points to a state that will change."
+      ],
+      "solution": "**están.** *Estar verde* = to be unripe (and, figuratively, inexperienced: *Todavía está verde en contabilidad*). *Ser verde* is simply the colour: *Mi coche es verde.*"
+    },
+    {
+      "id": "burst-into",
+      "type": "text",
+      "prompt": "Complete with a periphrasis meaning 'burst out' (verb + preposition, preterite):\n\n*Cuando oyó el chiste, ______ reír.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["se echó a", "rompió a", "se puso a", "se largó a"],
+      "hints": [
+        "The verb is pronominal and literally means 'to throw oneself'.",
+        "*echarse a* + infinitive, third person preterite."
+      ],
+      "solution": "**se echó a** (reír). *Echarse a* + infinitive means 'to burst into' and works with *reír, llorar, correr, temblar*. *Rompió a reír* says the same; *se puso a reír* (started laughing) is less sudden, and *se largó a reír* is typical of the River Plate."
+    },
+    {
+      "id": "venir-gerundio",
+      "type": "choice",
+      "prompt": "What does *venir* + gerund add in this sentence?\n\n*Te lo **vengo diciendo** desde enero.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "A repeated action from January until now — with a note of insistence or complaint.", "correct": true, "feedback": "Yes — *venir* + gerund covers a span of time up to the present, often with the sense 'and you still haven't listened'." },
+        { "id": "b", "label": "That the speaker is coming towards the listener while talking.", "correct": false, "feedback": "Not yet — in a periphrasis, *venir* loses its literal meaning of movement." },
+        { "id": "c", "label": "That the speaker has just said it for the first time.", "correct": false, "feedback": "Not yet — that would be *Te lo acabo de decir.* *Venir* + gerund implies repetition over time." },
+        { "id": "d", "label": "That the speaker will start saying it in January.", "correct": false, "feedback": "Not yet — *desde enero* points backwards: since January." }
+      ],
+      "hints": [
+        "*Desde enero* tells you the action started in the past and reaches the present.",
+        "Think of the English 'I've been telling you since January'."
+      ],
+      "solution": "*Venir* + gerund describes an action repeated or continued from a point in the past up to now: *I've been telling you since January.* Compared with *llevar* + gerund, it often adds insistence or reproach."
+    },
+    {
+      "id": "quiza-confidence",
+      "type": "choice",
+      "prompt": "Which sentence sounds **more confident** that Marta is right?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Quizá Marta tiene razón.", "correct": true, "feedback": "Yes — after *quizá*, the indicative leans towards assertion: 'Marta may well be right'." },
+        { "id": "b", "label": "Quizá Marta tenga razón.", "correct": false, "feedback": "Not yet — this is correct, but the subjunctive leaves more room for doubt." }
+      ],
+      "hints": [
+        "After *quizá* and *tal vez* both moods are grammatical.",
+        "Which mood asserts?"
+      ],
+      "solution": "**Quizá Marta tiene razón.** After *quizá*, *tal vez* and *probablemente*, the indicative leans towards assertion and the subjunctive towards doubt. The difference is a shade, not a rule of correctness. (*A lo mejor* always takes the indicative.)"
+    },
+    {
+      "id": "estar-joven",
+      "type": "choice",
+      "prompt": "At a reunion, someone tells your grandmother: *¡Qué joven **está** usted!* What do they mean?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "You look so young!", "correct": true, "feedback": "Yes — the *estar* of impression turns a classification (*es joven*) into a perception: how she looks now." },
+        { "id": "b", "label": "You are a young person.", "correct": false, "feedback": "Not yet — classifying her as young would need *ser*: *es joven*. With *estar*, it's about how she seems." },
+        { "id": "c", "label": "You are too young for this.", "correct": false, "feedback": "Not yet — nothing in the sentence suggests 'too'." },
+        { "id": "d", "label": "It's a mistake for *¡Qué joven es usted!*", "correct": false, "feedback": "Not yet — *estar joven* is perfectly correct; it just means something different." }
+      ],
+      "hints": [
+        "*Joven* normally goes with *ser*. What does switching to *estar* add?",
+        "*Estar* can describe how something seems or strikes you at the moment."
+      ],
+      "solution": "*¡Qué joven está usted!* = *You look so young!* With adjectives normally used with *ser*, *estar* expresses a perception or impression at a given moment: *¡Qué alto estás!* (you've grown so tall!), *La ciudad está preciosa* (the city looks lovely)."
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "lesson": "conditions-and-time-clauses",
+  "exercises": [
+    {
+      "id": "call-when-i-arrive",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *llegar*: *Te llamo en cuanto ___ al hotel.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "llegue"
+      ],
+      "lang": "es",
+      "hints": [
+        "Has the arrival happened yet, or is it still pending?",
+        "A pending event after *en cuanto* takes the present subjunctive. Watch the spelling of *g* before *e*."
+      ],
+      "solution": "The arrival is still in the future, so *en cuanto* takes the **subjunctive**: *llegar → llegue* (with *gu* to keep the hard *g*). *Te llamo en cuanto **llegue** al hotel.*",
+      "feedback": [
+        {
+          "match": "llego",
+          "message": "Not yet — the arrival hasn't happened, so after *en cuanto* use the subjunctive: *llegue*."
+        },
+        {
+          "match": "llegaré",
+          "message": "Not yet — Spanish doesn't use the future after *en cuanto*. Use the subjunctive: *llegue*."
+        },
+        {
+          "match": "llege",
+          "message": "Almost — before *e*, the hard *g* is written *gu*: *llegue*."
+        }
+      ]
+    },
+    {
+      "id": "when-i-was-a-child",
+      "type": "choice",
+      "prompt": "Complete: *Cuando ___ niño, vivía en Rosario.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "era",
+          "correct": true,
+          "feedback": "Yes. It's a past situation, not a pending one, so *cuando* takes the indicative (here the imperfect)."
+        },
+        {
+          "id": "b",
+          "label": "sea",
+          "correct": false,
+          "feedback": "Not yet — the subjunctive after *cuando* is for pending events. Childhood is in the past."
+        },
+        {
+          "id": "c",
+          "label": "fuera",
+          "correct": false,
+          "feedback": "Not yet — nothing here is pending or hypothetical; it's a past description, so use the indicative."
+        }
+      ],
+      "hints": [
+        "Is the event pending, or in the past?",
+        "Past events after *cuando* take the indicative."
+      ],
+      "solution": "*Cuando* takes the subjunctive only for **pending** events. Childhood is in the past, so the indicative is used, in the imperfect because it's background: *Cuando **era** niño, vivía en Rosario.*"
+    },
+    {
+      "id": "so-everyone-understands",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *entender*: *Habla más despacio para que todos te ___.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "entiendan"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Para que* always takes the subjunctive.",
+        "*Entender* is a stem-changer (*entiendo*); the subject is *todos* (ellos)."
+      ],
+      "solution": "*Para que* (so that) always takes the **subjunctive**. *Entender* → *entiendo* → *entiend-* + *-an* (*todos* = *ellos*): **entiendan**. *Habla más despacio para que todos te **entiendan**.*",
+      "feedback": [
+        {
+          "match": "entienden",
+          "message": "Not yet — *para que* always takes the subjunctive: *entiendan*."
+        },
+        {
+          "match": "entendan",
+          "message": "Almost — keep the stem change: *entiendan*."
+        }
+      ]
+    },
+    {
+      "id": "even-if-it-rains",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *llover*, meaning \"even if it rains\": *Saldremos de excursión aunque ___.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "llueva"
+      ],
+      "lang": "es",
+      "hints": [
+        "Is the rain a fact or a hypothesis?",
+        "*Aunque* + subjunctive = even if."
+      ],
+      "solution": "We don't know whether it will rain; it's a **hypothesis**, so *aunque* takes the subjunctive: *llueva*. *Saldremos de excursión aunque **llueva*** = even if it rains. With the indicative (*aunque llueve*) it would mean \"although it is raining\".",
+      "feedback": [
+        {
+          "match": "llueve",
+          "message": "That would mean it *is* raining (a fact). For \"even if\", use the subjunctive: *llueva*."
+        }
+      ]
+    },
+    {
+      "id": "aunque-meaning",
+      "type": "choice",
+      "prompt": "What does *Aunque está cansada, va a venir a la cena* tell you?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "She is tired, but she's coming anyway.",
+          "correct": true,
+          "feedback": "Yes. *Aunque* + indicative presents the tiredness as a fact."
+        },
+        {
+          "id": "b",
+          "label": "She might be tired; if so, she'll still come.",
+          "correct": false,
+          "feedback": "Not yet — that would be *aunque esté cansada* (subjunctive)."
+        },
+        {
+          "id": "c",
+          "label": "She won't come because she's tired.",
+          "correct": false,
+          "feedback": "Not yet — *aunque* means although: she is coming."
+        }
+      ],
+      "hints": [
+        "Look at the mood after *aunque*.",
+        "Indicative = a fact; subjunctive = a hypothesis or an irrelevant fact."
+      ],
+      "solution": "*Aunque* + **indicative** (*está*) presents a fact: she **is** tired. So the sentence means *Although she's tired, she's coming to dinner.* *Aunque esté cansada* would mean \"even if she's tired\"."
+    },
+    {
+      "id": "if-i-had-known",
+      "type": "text",
+      "prompt": "Fill the gap with the pluperfect subjunctive of *saber*: *Si ___ ___ que estabas enfermo, te habría visitado.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "hubiera sabido",
+        "hubiese sabido"
+      ],
+      "lang": "es",
+      "hints": [
+        "This is an unreal past condition (third type).",
+        "*Si* + pluperfect subjunctive: *hubiera* + participle."
+      ],
+      "solution": "The main clause has the conditional perfect (*habría visitado*), so this is a **third-type** condition about the past. The *si* clause takes the **pluperfect subjunctive**: *hubiera* (or *hubiese*) + *sabido*. *Si **hubiera sabido** que estabas enfermo, te habría visitado.*",
+      "feedback": [
+        {
+          "match": "habría sabido",
+          "message": "Not yet — the conditional perfect belongs in the main clause. After *si*: *hubiera sabido*."
+        },
+        {
+          "match": "había sabido",
+          "message": "Not yet — after *si* in an unreal past condition, use the subjunctive: *hubiera sabido*."
+        }
+      ]
+    },
+    {
+      "id": "finished-by-next-year",
+      "type": "text",
+      "prompt": "Fill the gap with the future perfect of *terminar*: *Para el año que viene, ya ___ ___ la obra.* (nosotros)",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "habremos terminado"
+      ],
+      "lang": "es",
+      "hints": [
+        "\"By next year we will have finished.\"",
+        "Future of *haber* (*nosotros*) + participle."
+      ],
+      "solution": "An action completed before a future point takes the **future perfect**: *habremos* (future of *haber*, *nosotros*) + *terminado*. *Para el año que viene, ya **habremos terminado** la obra.*",
+      "feedback": [
+        {
+          "match": "habríamos terminado",
+          "message": "Not yet — that's the conditional perfect (*would have finished*). For *will have finished*, use *habremos terminado*."
+        }
+      ]
+    },
+    {
+      "id": "translate-if-you-had-told-me",
+      "type": "text",
+      "prompt": "Translate into Spanish, speaking to a friend (*tú*): *If you had told me, I would have helped you.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "answers": [
+        "si me lo hubieras dicho, te habría ayudado",
+        "si me lo hubieras dicho, te hubiera ayudado",
+        "si me lo hubieras dicho te habría ayudado",
+        "si me lo hubieras dicho te hubiera ayudado",
+        "si me lo hubieses dicho, te habría ayudado",
+        "si me lo hubieses dicho, te hubiera ayudado",
+        "si me lo hubieses dicho te habría ayudado",
+        "si me lo hubieses dicho te hubiera ayudado",
+        "si me hubieras dicho, te habría ayudado",
+        "si me hubieras dicho, te hubiera ayudado",
+        "si me hubieras dicho te habría ayudado",
+        "si me hubieras dicho te hubiera ayudado",
+        "si me hubieses dicho, te habría ayudado",
+        "si me hubieses dicho, te hubiera ayudado",
+        "si me hubieses dicho te habría ayudado",
+        "si me hubieses dicho te hubiera ayudado",
+        "te habría ayudado si me lo hubieras dicho",
+        "te habría ayudado si me lo hubieses dicho",
+        "te hubiera ayudado si me lo hubieras dicho",
+        "te hubiera ayudado si me lo hubieses dicho",
+        "te habría ayudado si me hubieras dicho",
+        "te habría ayudado si me hubieses dicho",
+        "te hubiera ayudado si me hubieras dicho",
+        "te hubiera ayudado si me hubieses dicho",
+        "si tú me lo hubieras dicho, te habría ayudado",
+        "si tú me lo hubieras dicho, te hubiera ayudado",
+        "si tú me lo hubieras dicho te habría ayudado",
+        "si tú me lo hubieras dicho te hubiera ayudado",
+        "si tú me lo hubieses dicho, te habría ayudado",
+        "si tú me lo hubieses dicho, te hubiera ayudado",
+        "si tú me lo hubieses dicho te habría ayudado",
+        "si tú me lo hubieses dicho te hubiera ayudado",
+        "si me lo hubieras contado, te habría ayudado",
+        "si me lo hubieras contado, te hubiera ayudado",
+        "si me lo hubieras contado te habría ayudado",
+        "si me lo hubieras contado te hubiera ayudado",
+        "si me lo hubieses contado, te habría ayudado",
+        "si me lo hubieses contado, te hubiera ayudado",
+        "si me lo hubieses contado te habría ayudado",
+        "si me lo hubieses contado te hubiera ayudado"
+      ],
+      "lang": "es",
+      "hints": [
+        "Unreal past: *si* + pluperfect subjunctive, then the conditional perfect.",
+        "\"You had told me\" = *me lo hubieras dicho*; \"I would have helped you\" = *te habría ayudado*."
+      ],
+      "solution": "This is a third-type conditional. The *si* clause takes the **pluperfect subjunctive**: *si me lo hubieras dicho* (Spanish normally includes *lo*, \"it\"). The main clause takes the **conditional perfect**: *te habría ayudado*. So: ***Si me lo hubieras dicho, te habría ayudado.*** In speech, *te hubiera ayudado* is also very common, and *-se* forms (*hubieses*) are correct too.",
+      "feedback": [
+        {
+          "match": "si me lo habrías dicho, te habría ayudado",
+          "message": "Almost — after *si*, use the pluperfect subjunctive: *si me lo hubieras dicho*."
+        }
+      ]
+    },
+    {
+      "id": "por-si-hace-frio",
+      "type": "choice",
+      "prompt": "Complete: *Llévate un jersey por si ___ frío esta noche.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "hace",
+          "correct": true,
+          "feedback": "Yes. *Por si* (in case) takes the indicative in the present."
+        },
+        {
+          "id": "b",
+          "label": "haga",
+          "correct": false,
+          "feedback": "Not yet — *por si* is the exception: it doesn't take the present subjunctive."
+        },
+        {
+          "id": "c",
+          "label": "hará",
+          "correct": false,
+          "feedback": "Not yet — *por si*, like *si*, isn't followed by the future."
+        }
+      ],
+      "hints": [
+        "*Por si* behaves like *si*.",
+        "No present subjunctive and no future after it."
+      ],
+      "solution": "*Por si* (in case) behaves like *si*: it takes the **present indicative**, never the present subjunctive or the future. *Llévate un jersey por si **hace** frío esta noche.* (*En caso de que*, by contrast, does take the subjunctive: *en caso de que haga frío*.)"
+    },
+    {
+      "id": "without-dad-knowing",
+      "type": "choice",
+      "prompt": "Complete: *No saldrás de casa sin que tu padre lo ___.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "sabe",
+          "correct": false,
+          "feedback": "Not yet — *sin que* always takes the subjunctive."
+        },
+        {
+          "id": "b",
+          "label": "sepa",
+          "correct": true,
+          "feedback": "Yes. *Sin que* always takes the subjunctive, and *saber* is irregular: *sepa*."
+        },
+        {
+          "id": "c",
+          "label": "saber",
+          "correct": false,
+          "feedback": "Not yet — with a different subject (*tu padre*), you need *sin que* + a conjugated verb. *Sin saber* would mean you don't know."
+        }
+      ],
+      "hints": [
+        "*Sin que* is one of the conjunctions that always takes the subjunctive.",
+        "*Saber* is one of the six irregulars."
+      ],
+      "solution": "*Sin que* always introduces something that doesn't (or mustn't) happen, so it takes the **subjunctive**. *Saber* is irregular: **sepa**. *No saldrás de casa sin que tu padre lo **sepa**.*"
+    },
+    {
+      "id": "wish-i-had-gone",
+      "type": "text",
+      "prompt": "Fill the gap to express a regret about last night: *Ojalá ___ ___ al concierto anoche.* (yo, ir)",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "hubiera ido",
+        "hubiese ido"
+      ],
+      "lang": "es",
+      "hints": [
+        "A wish about the past that can't be changed.",
+        "*Ojalá* + pluperfect subjunctive: *hubiera* + participle of *ir*."
+      ],
+      "solution": "A regret about the past takes *ojalá* + **pluperfect subjunctive**: *hubiera* (or *hubiese*) + *ido*. *Ojalá **hubiera ido** al concierto anoche* = I wish I'd gone to the concert last night.",
+      "feedback": [
+        {
+          "match": "fuera",
+          "message": "Almost — *ojalá fuera* is a wish about the present or future. For last night, use the pluperfect subjunctive: *hubiera ido*."
+        }
+      ]
+    },
+    {
+      "id": "mixed-conditional",
+      "type": "choice",
+      "prompt": "Complete the mixed conditional: *Si hubiera aceptado aquel trabajo hace diez años, ahora ___ en Lima.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "viviría",
+          "correct": true,
+          "feedback": "Yes. The condition is in the past, but the result is about now (*ahora*), so it takes the simple conditional."
+        },
+        {
+          "id": "b",
+          "label": "habría vivido",
+          "correct": false,
+          "feedback": "Not yet — that would describe a past result. *Ahora* tells you the result is in the present."
+        },
+        {
+          "id": "c",
+          "label": "viviré",
+          "correct": false,
+          "feedback": "Not yet — the future doesn't fit an unreal condition."
+        }
+      ],
+      "hints": [
+        "Look at *ahora* in the main clause.",
+        "Past condition + present result = pluperfect subjunctive + simple conditional."
+      ],
+      "solution": "This is a **mixed** conditional: the condition is in the past (*si hubiera aceptado… hace diez años*), but the result is about the present (*ahora*). So the main clause takes the **simple conditional**: *ahora **viviría** en Lima.*"
+    }
+  ]
+}

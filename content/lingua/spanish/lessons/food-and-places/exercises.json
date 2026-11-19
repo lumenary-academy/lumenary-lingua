@@ -1,0 +1,391 @@
+{
+  "lesson": "food-and-places",
+  "exercises": [
+    {
+      "id": "gustan-fresas",
+      "type": "choice",
+      "prompt": "*Me ___ las fresas.* (I like strawberries.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "With *gustar*, the verb agrees with the thing liked.",
+        "*Las fresas* is plural."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "gustan",
+          "correct": true,
+          "feedback": "Yes: the strawberries are the subject (they please me), so the verb is plural."
+        },
+        {
+          "id": "b",
+          "label": "gusta",
+          "correct": false,
+          "feedback": "Not yet — *gusta* is for one thing or an activity. *Las fresas* is plural."
+        },
+        {
+          "id": "c",
+          "label": "gusto",
+          "correct": false,
+          "feedback": "Not yet — *gusto* would mean \"I please\". The subject is the strawberries, not you."
+        },
+        {
+          "id": "d",
+          "label": "gustas",
+          "correct": false,
+          "feedback": "Not yet — *gustas* would mean \"you are pleasing\". The subject here is *las fresas*."
+        }
+      ],
+      "solution": "**Me gustan las fresas.** Literally \"Strawberries are pleasing to me\". The verb agrees with *las fresas* (plural): *gustan*. *Me* shows who likes them."
+    },
+    {
+      "id": "i-like-coffee",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **I like coffee.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Coffee is the subject: it is pleasing to me.",
+        "Use *me* + *gusta* + *el café* (with the article, because you mean coffee in general)."
+      ],
+      "answers": [
+        "Me gusta el café",
+        "A mí me gusta el café"
+      ],
+      "feedback": [
+        {
+          "match": "Yo gusto el café",
+          "message": "Almost — *gustar* works backwards: the coffee is the subject. Say *Me gusta el café*."
+        },
+        {
+          "match": "Me gusta café",
+          "message": "Almost — when you talk about something in general, Spanish uses the article: *Me gusta el café*."
+        },
+        {
+          "match": "Me gusto el café",
+          "message": "Almost — *gusto* would mean \"I am pleasing\". The coffee is the subject: *Me gusta el café*."
+        }
+      ],
+      "solution": "**Me gusta el café.** The coffee is the subject (\"coffee is pleasing to me\"), so the verb is *gusta*, and *me* shows who likes it. Spanish needs the article *el* when talking about coffee in general. *A mí me gusta el café* adds emphasis."
+    },
+    {
+      "id": "she-likes-reading",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **She likes reading.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "An activity (an infinitive) takes singular *gusta*.",
+        "\"To her\" is *le*; you can add *a ella* for clarity."
+      ],
+      "answers": [
+        "Le gusta leer",
+        "A ella le gusta leer"
+      ],
+      "feedback": [
+        {
+          "match": "Ella gusta leer",
+          "message": "Almost — *gustar* needs the pronoun: *Le gusta leer* or *A ella le gusta leer*."
+        },
+        {
+          "match": "A ella gusta leer",
+          "message": "Almost — even with *a ella*, keep the pronoun *le*: *A ella le gusta leer*."
+        },
+        {
+          "match": "Le gusta leyendo",
+          "message": "Almost — after *gustar*, use the infinitive: *leer*."
+        }
+      ],
+      "solution": "**Le gusta leer** (or *A ella le gusta leer*). An activity is expressed with the infinitive (*leer*) and takes singular *gusta*. *Le* is the pronoun for him, her or *usted*; *a ella* makes it clear and is optional, but the *le* is not."
+    },
+    {
+      "id": "me-neither",
+      "type": "choice",
+      "prompt": "Your friend says *No me gusta el pescado.* You don't like fish either. What do you reply?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "You're agreeing with a negative sentence.",
+        "The word for \"neither\" is *tampoco*."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "A mí tampoco.",
+          "correct": true,
+          "feedback": "Yes: you agree with a negative, so *tampoco* (me neither)."
+        },
+        {
+          "id": "b",
+          "label": "A mí también.",
+          "correct": false,
+          "feedback": "Not yet — *también* agrees with a positive sentence. After *no me gusta*, use *tampoco*."
+        },
+        {
+          "id": "c",
+          "label": "A mí sí.",
+          "correct": false,
+          "feedback": "Not yet — *A mí sí* means \"I do (like it)\": you'd be disagreeing."
+        },
+        {
+          "id": "d",
+          "label": "Yo tampoco.",
+          "correct": false,
+          "feedback": "Close, and you'll hear it in casual speech, but with *gustar* the standard form keeps the same structure: *A mí tampoco*."
+        }
+      ],
+      "solution": "**A mí tampoco.** To agree: *también* after a positive (*Me gusta… — A mí también*), *tampoco* after a negative (*No me gusta… — A mí tampoco*). To disagree: *A mí no* / *A mí sí*. With *gustar* the reply keeps the *a mí* form, because the original sentence has *me*."
+    },
+    {
+      "id": "hay-farmacia",
+      "type": "choice",
+      "prompt": "*___ una farmacia en la calle Mayor.* (There's a pharmacy on Calle Mayor.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Are you saying where a known thing is, or that something exists?",
+        "Notice *una* (a)."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Hay",
+          "correct": true,
+          "feedback": "Yes: *una farmacia* is not a particular known one; you're saying it exists there."
+        },
+        {
+          "id": "b",
+          "label": "Está",
+          "correct": false,
+          "feedback": "Not yet — *está* locates a particular, known thing: *La farmacia está en la calle Mayor*. With *una*, use *hay*."
+        },
+        {
+          "id": "c",
+          "label": "Es",
+          "correct": false,
+          "feedback": "Not yet — *ser* doesn't express where something is. For existence, use *hay*."
+        },
+        {
+          "id": "d",
+          "label": "Tiene",
+          "correct": false,
+          "feedback": "Not yet — *tiene* means \"has\". \"There is\" is *hay*."
+        }
+      ],
+      "solution": "**Hay una farmacia en la calle Mayor.** *Hay* introduces something new (with *un, una*, numbers or no article). If you already know which pharmacy, use *estar*: *La farmacia está en la calle Mayor*."
+    },
+    {
+      "id": "donde-esta-estacion",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete: *¿Dónde ___ la estación?* (Type only the missing word.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*La estación* is a particular, known place.",
+        "Use *estar*, in the form for one thing."
+      ],
+      "answers": [
+        "está"
+      ],
+      "feedback": [
+        {
+          "match": "hay",
+          "message": "Almost — *hay* introduces something new (a station). For *the* station, use *está*."
+        },
+        {
+          "match": "es",
+          "message": "Almost — location uses *estar*: *¿Dónde está la estación?*"
+        }
+      ],
+      "solution": "**está**: *¿Dónde está la estación?* For the location of a specific thing, use *estar*. Compare *¿Hay una estación por aquí?* (Is there a station around here?)."
+    },
+    {
+      "id": "voy-al-mercado",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete with one word: *Los sábados voy ___ mercado.* (On Saturdays I go to the market.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "\"To\" after *ir* is *a*, and *mercado* is masculine: *el mercado*.",
+        "*a* + *el* contracts."
+      ],
+      "answers": [
+        "al"
+      ],
+      "feedback": [
+        {
+          "match": "a el",
+          "message": "Almost — *a* + *el* must contract to *al*."
+        },
+        {
+          "match": "a",
+          "message": "Almost — *mercado* needs its article, *el*, and *a* + *el* = *al*."
+        },
+        {
+          "match": "a la",
+          "message": "Almost — *mercado* is masculine (*el mercado*), so *a* + *el* = *al*."
+        }
+      ],
+      "solution": "**al**: *Los sábados voy al mercado.* After *ir*, the destination is introduced with *a*; *a* + *el* always contracts to *al*. With a feminine noun nothing contracts: *voy a la plaza*."
+    },
+    {
+      "id": "we-go-to-the-park",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **We're going to the park.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The *nosotros* form of *ir* is *vamos*.",
+        "*El parque* is masculine, so use *al*."
+      ],
+      "answers": [
+        "Vamos al parque",
+        "Nosotros vamos al parque",
+        "Nosotras vamos al parque"
+      ],
+      "feedback": [
+        {
+          "match": "Vamos a el parque",
+          "message": "Almost — *a* + *el* contracts: *al parque*."
+        },
+        {
+          "match": "Estamos al parque",
+          "message": "Not yet — \"we're going\" uses *ir*: *Vamos al parque*."
+        },
+        {
+          "match": "Imos al parque",
+          "message": "Almost — *ir* is irregular: the *nosotros* form is *vamos*."
+        }
+      ],
+      "solution": "**Vamos al parque.** *Ir* is irregular (*voy, vas, va, vamos, vais, van*), and the Spanish present covers English \"we go\" and \"we're going\". *A* + *el* = *al*."
+    },
+    {
+      "id": "adonde-vas",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete with **ir**: *¿Adónde ___ (tú) esta tarde?* (Type only the verb.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Ir* is irregular: *voy, …*",
+        "The *tú* form ends in -s."
+      ],
+      "answers": [
+        "vas"
+      ],
+      "feedback": [
+        {
+          "match": "va",
+          "message": "Almost — *va* is for él, ella, usted. For *tú*, add -s: *vas*."
+        },
+        {
+          "match": "ires",
+          "message": "Almost — *ir* is irregular. The *tú* form is *vas*."
+        }
+      ],
+      "solution": "**vas**: *¿Adónde vas esta tarde?* (Where are you going this afternoon?) The present of *ir*: *voy, vas, va, vamos, vais, van*."
+    },
+    {
+      "id": "bank-next-to-church",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **The bank is next to the church.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Locating a particular place: *estar*.",
+        "\"Next to\" is *al lado de*; *iglesia* is feminine, so *de la iglesia* (no contraction)."
+      ],
+      "answers": [
+        "El banco está al lado de la iglesia",
+        "El banco está junto a la iglesia"
+      ],
+      "feedback": [
+        {
+          "match": "El banco es al lado de la iglesia",
+          "message": "Almost — location uses *estar*: *El banco está al lado de la iglesia*."
+        },
+        {
+          "match": "Hay el banco al lado de la iglesia",
+          "message": "Almost — *hay* doesn't go with *el*. For the location of *the* bank, use *está*."
+        },
+        {
+          "match": "El banco está al lado del iglesia",
+          "message": "Almost — *del* is only for *de* + *el*. *Iglesia* is feminine: *de la iglesia*."
+        }
+      ],
+      "solution": "**El banco está al lado de la iglesia.** *Estar* gives the location of a particular place. *Al lado de* = next to (its *al* is a contraction too: *a* + *el lado*). *Iglesia* is feminine, so *de la* doesn't contract."
+    },
+    {
+      "id": "enfrente-del",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete with one word: *La parada de autobús está enfrente ___ hotel.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "\"Opposite\" is *enfrente de*.",
+        "*Hotel* is masculine: *el hotel*. *de* + *el* contracts."
+      ],
+      "answers": [
+        "del"
+      ],
+      "feedback": [
+        {
+          "match": "de el",
+          "message": "Almost — *de* + *el* contracts to *del*."
+        },
+        {
+          "match": "de",
+          "message": "Almost — *hotel* needs its article *el*, and *de* + *el* = *del*."
+        }
+      ],
+      "solution": "**del**: *La parada de autobús está enfrente del hotel.* *Enfrente de* + *el hotel* → *enfrente del hotel*. Notice *parada de autobús* has no article before *autobús*, so nothing contracts there."
+    },
+    {
+      "id": "polite-orders",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "In a café, which of these are natural, polite ways to order a coffee? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Three of these are standard café phrases.",
+        "One of them means something different: think about *gustar*."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Para mí, un café, por favor.",
+          "correct": true,
+          "feedback": "Yes: \"For me, a coffee, please\", used everywhere."
+        },
+        {
+          "id": "b",
+          "label": "¿Me pone un café, por favor?",
+          "correct": true,
+          "feedback": "Yes: very common in Spain."
+        },
+        {
+          "id": "c",
+          "label": "Quisiera un café, por favor.",
+          "correct": true,
+          "feedback": "Yes: \"I'd like a coffee, please\", polite anywhere."
+        },
+        {
+          "id": "d",
+          "label": "Me gusta un café, por favor.",
+          "correct": false,
+          "feedback": "Not this one — *me gusta* means \"I like\", not \"I'd like\". It describes your taste; it doesn't order anything."
+        }
+      ],
+      "solution": "**Para mí, un café**, **¿Me pone un café?** (Spain) and **Quisiera un café** are all natural. In Latin America you'll also hear *¿Me da un café?* and *¿Me trae un café?* *Me gusta un café* doesn't work: *gustar* states a preference, it isn't a request."
+    }
+  ]
+}

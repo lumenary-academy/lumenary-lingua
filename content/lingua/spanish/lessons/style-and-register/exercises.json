@@ -1,0 +1,320 @@
+{
+  "lesson": "style-and-register",
+  "exercises": [
+    {
+      "id": "fallecer-context",
+      "type": "choice",
+      "prompt": "Where would you most expect the verb **fallecer**?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "In a death notice: *Falleció en Valencia el pasado 3 de mayo.*",
+          "correct": true,
+          "feedback": "Yes — *fallecer* is the formal, respectful verb for death, at home in notices and official texts."
+        },
+        {
+          "id": "b",
+          "label": "In a joke among friends about an old car.",
+          "correct": false,
+          "feedback": "Not yet — for a joking register you'd hear *estirar la pata* or *palmarla*; *fallecer* would sound oddly solemn."
+        },
+        {
+          "id": "c",
+          "label": "In a poem about a battle long ago.",
+          "correct": false,
+          "feedback": "Not yet — a literary text would more likely use *perecer* or *caer*."
+        },
+        {
+          "id": "d",
+          "label": "Nowhere: it is archaic.",
+          "correct": false,
+          "feedback": "Not yet — *fallecer* is very much alive in formal Spanish."
+        }
+      ],
+      "hints": [
+        "*Fallecer* is the polite, formal verb for 'to die'.",
+        "Where do people write about death formally and respectfully?"
+      ],
+      "solution": "**In a death notice.** The scale runs from *estirar la pata* (colloquial, humorous) through *morir* (neutral) to *fallecer* (formal, respectful) and *perecer* (literary, or journalistic for disasters). Choosing the wrong one can be comic or hurtful."
+    },
+    {
+      "id": "collocation-cometer",
+      "type": "text",
+      "prompt": "Complete the collocation:\n\n*Todos podemos ______ un error.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "cometer"
+      ],
+      "feedback": [
+        {
+          "match": "hacer",
+          "message": "Understandable, and heard in speech — but the standard collocation, especially in writing, uses a more specific verb, the same one used with *un delito*."
+        }
+      ],
+      "hints": [
+        "It's the same verb used with *un delito* (a crime).",
+        "com…"
+      ],
+      "solution": "**cometer.** *Cometer un error / un delito / una falta.* *Hacer un error* is a calque from English 'make a mistake' and is avoided in careful Spanish."
+    },
+    {
+      "id": "collocation-conciliar",
+      "type": "text",
+      "prompt": "Complete the collocation meaning 'to get to sleep':\n\n*Con tanto ruido no hay manera de ______ el sueño.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "conciliar"
+      ],
+      "hints": [
+        "The verb also means 'to reconcile'.",
+        "concil…"
+      ],
+      "solution": "**conciliar** (*el sueño*). The fixed collocation *conciliar el sueño* is the standard way to say 'to get to sleep'; the noun form appears in medical language: *dificultades para conciliar el sueño*."
+    },
+    {
+      "id": "collocation-contraer",
+      "type": "text",
+      "prompt": "One verb collocates with all three nouns. Which?\n\n*______ matrimonio · ______ una deuda · ______ una enfermedad*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "contraer"
+      ],
+      "hints": [
+        "It also means 'to contract' (a muscle).",
+        "contr…"
+      ],
+      "solution": "**contraer.** *Contraer matrimonio* (to marry, formal), *contraer una deuda* (to incur a debt), *contraer una enfermedad* (to catch a disease). The verb gives each phrase a formal tone; in conversation you'd say *casarse*, *endeudarse*, *pillar / agarrar* (colloquial) or *coger* (Spain) *una enfermedad*."
+    },
+    {
+      "id": "pobre-hombre",
+      "type": "choice",
+      "prompt": "What does *Es un **pobre** hombre* most likely mean?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "He's a pitiable, unfortunate man.",
+          "correct": true,
+          "feedback": "Yes — before the noun, *pobre* is subjective: pitiable, or of little worth."
+        },
+        {
+          "id": "b",
+          "label": "He's a man without money.",
+          "correct": false,
+          "feedback": "Not yet — that is *un hombre pobre*, with the adjective after the noun."
+        },
+        {
+          "id": "c",
+          "label": "He's a poor man in both senses at once.",
+          "correct": false,
+          "feedback": "Not yet — the position selects one meaning; it doesn't combine both."
+        }
+      ],
+      "hints": [
+        "Before the noun, many adjectives take a subjective or figurative meaning.",
+        "Compare *un hombre pobre*."
+      ],
+      "solution": "**A pitiable man.** *Un pobre hombre* expresses pity or contempt; *un hombre pobre* has little money. Similar pairs: *un gran poeta / un poeta grande*, *un viejo amigo / un amigo viejo*, *el antiguo director / un mueble antiguo*."
+    },
+    {
+      "id": "clitic-doubling",
+      "type": "text",
+      "prompt": "Complete with the pronoun Spanish requires when the object is fronted as a topic:\n\n*Ese libro ya ______ he leído.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "lo"
+      ],
+      "feedback": [
+        {
+          "match": "le",
+          "message": "Not yet — *libro* is a thing and the direct object, so the pronoun is *lo* (*le* for things is a form of leísmo not accepted by the norm)."
+        }
+      ],
+      "hints": [
+        "When a direct object moves to the front as a topic, a clitic pronoun repeats it.",
+        "*libro* is masculine singular."
+      ],
+      "solution": "**lo.** *Ese libro ya lo he leído.* When a direct object is fronted as the topic, Spanish 'doubles' it with a clitic. Without the clitic (*Ese libro he leído*) the sentence only works with heavy contrastive stress: *ESE libro he leído (no el otro)*."
+    },
+    {
+      "id": "cleft-marta",
+      "type": "text",
+      "prompt": "Rewrite with a cleft sentence that puts the emphasis on **Marta**, starting with *Fue*:\n\n*Marta lo dijo.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "fue marta quien lo dijo",
+        "fue marta la que lo dijo"
+      ],
+      "feedback": [
+        {
+          "match": "fue marta que lo dijo",
+          "message": "Close — Spanish needs a relative with an antecedent here: *quien* or *la que*."
+        }
+      ],
+      "hints": [
+        "Structure: *Fue* + emphasised element + relative + rest.",
+        "The relative for a person can be *quien* or *la que*."
+      ],
+      "solution": "**Fue Marta quien lo dijo** (or *Fue Marta la que lo dijo*). The cleft structure *ser … quien / el que* isolates the focus: it was Marta, not anyone else. Note that the relative *quien* has no accent; *Fue Marta que lo dijo* (a calque of English 'It was Marta that…') is not standard."
+    },
+    {
+      "id": "connotation-ahorrador",
+      "type": "choice",
+      "prompt": "You want to praise your grandfather for being careful with money. Which word do you use?\n\n*Mi abuelo siempre ha sido muy ______.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "ahorrador",
+          "correct": true,
+          "feedback": "Yes — *ahorrador* (thrifty) is positive or neutral."
+        },
+        {
+          "id": "b",
+          "label": "tacaño",
+          "correct": false,
+          "feedback": "Not yet — *tacaño* means stingy: a criticism."
+        },
+        {
+          "id": "c",
+          "label": "agarrado",
+          "correct": false,
+          "feedback": "Not yet — colloquial and critical: tight-fisted."
+        },
+        {
+          "id": "d",
+          "label": "avaro",
+          "correct": false,
+          "feedback": "Not yet — *avaro* is a strong moral criticism: miserly, greedy."
+        }
+      ],
+      "hints": [
+        "All four are about being careful with money; only one is praise.",
+        "Which comes from *ahorrar*, to save?"
+      ],
+      "solution": "**ahorrador.** The four words share a meaning and differ in connotation: *ahorrador* (thrifty, positive), *tacaño* and *agarrado* (stingy, critical; *agarrado* colloquial), *avaro* (miserly, a moral judgement)."
+    },
+    {
+      "id": "concise-edit",
+      "type": "choice",
+      "prompt": "Which is the best concise version of this sentence?\n\n*En el día de hoy se va a proceder a la apertura del plazo de inscripción, el cual va a tener una duración de diez días.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Hoy se abre el plazo de inscripción, que durará diez días.",
+          "correct": true,
+          "feedback": "Yes — *hoy* for *en el día de hoy*, *se abre* for *se va a proceder a la apertura*, *durará* for *va a tener una duración*."
+        },
+        {
+          "id": "b",
+          "label": "En el día de hoy se abre el plazo de inscripción de diez días de duración.",
+          "correct": false,
+          "feedback": "Not yet — better, but *en el día de hoy* is still a pleonasm for *hoy*, and *de diez días de duración* repeats *de*."
+        },
+        {
+          "id": "c",
+          "label": "Hoy se procede a abrir la inscripción.",
+          "correct": false,
+          "feedback": "Not yet — *se procede a* is still padding, and the ten days have disappeared."
+        },
+        {
+          "id": "d",
+          "label": "Se abre hoy.",
+          "correct": false,
+          "feedback": "Not yet — too short: we've lost what opens and for how long."
+        }
+      ],
+      "hints": [
+        "Find the pleonasm, the empty nominalisation and the padded verb phrase.",
+        "Concision removes words, not information."
+      ],
+      "solution": "**Hoy se abre el plazo de inscripción, que durará diez días.** Three cuts: *en el día de hoy* → *hoy*; *se va a proceder a la apertura* → *se abre*; *el cual va a tener una duración de* → *que durará*. The information is all still there."
+    },
+    {
+      "id": "admin-register",
+      "type": "choice",
+      "prompt": "Which sentence belongs to the **legal-administrative** register?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Que se requiera al propietario la adopción de las medidas necesarias para el cese de las molestias.",
+          "correct": true,
+          "feedback": "Yes — the *SOLICITA: Que…* formula, nominalisations (*la adopción*, *el cese*) and impersonal *se*."
+        },
+        {
+          "id": "b",
+          "label": "Le agradecería que tomara las medidas que considere oportunas.",
+          "correct": false,
+          "feedback": "Not yet — this is formal letter style, addressed to *usted*; administrative documents address the authority, not the neighbour."
+        },
+        {
+          "id": "c",
+          "label": "A ver si haces algo, que me tiene frito.",
+          "correct": false,
+          "feedback": "Not yet — colloquial: *a ver si*, *tú*, *me tiene frito*."
+        },
+        {
+          "id": "d",
+          "label": "Cada noche, el perro del vecino desgarra el silencio.",
+          "correct": false,
+          "feedback": "Not yet — literary: metaphor and personification."
+        }
+      ],
+      "hints": [
+        "Look for nominalisations and the formulas of an *instancia*.",
+        "The administrative text addresses an authority in the third person."
+      ],
+      "solution": "**A.** It follows the *EXPONE / SOLICITA* structure of a Spanish formal application: subjunctive after an implicit *solicita*, nominalisations, impersonal *se*. B is formal correspondence, C colloquial, D literary."
+    },
+    {
+      "id": "subject-position",
+      "type": "choice",
+      "prompt": "Your flatmate comes home and asks: *¿Ha pasado algo?* Which reply sounds most natural?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Sí, ha llamado tu madre.",
+          "correct": true,
+          "feedback": "Yes — the whole event is new, so the subject goes after the verb, where new information belongs."
+        },
+        {
+          "id": "b",
+          "label": "Sí, tu madre ha llamado.",
+          "correct": false,
+          "feedback": "Possible, but less natural here: it treats *tu madre* as the topic already under discussion, as if answering *¿Y mi madre?*"
+        },
+        {
+          "id": "c",
+          "label": "Sí, a tu madre la ha llamado.",
+          "correct": false,
+          "feedback": "Not yet — this makes *tu madre* the object and changes the meaning: someone called her."
+        }
+      ],
+      "hints": [
+        "Which information is new for your flatmate?",
+        "In Spanish, new information tends to go at the end."
+      ],
+      "solution": "**Sí, ha llamado tu madre.** When the whole event is news, Spanish usually puts the subject after the verb. *Tu madre ha llamado* fits a context where the mother is already the topic (*¿Sabes algo de mi madre? — Tu madre ha llamado, sí*)."
+    }
+  ]
+}

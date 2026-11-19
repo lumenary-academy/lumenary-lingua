@@ -1,0 +1,331 @@
+{
+  "lesson": "science-and-the-impersonal",
+  "exercises": [
+    {
+      "id": "old-books-sold",
+      "type": "text",
+      "prompt": "Use the pasiva refleja with *vender*: *En esta tienda ___ ___ libros antiguos.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "se venden"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Se* + verb in the third person.",
+        "The verb agrees with *libros antiguos*: plural."
+      ],
+      "solution": "The pasiva refleja is *se* + a third-person verb agreeing with the thing affected. *Libros antiguos* is plural, so: ***se venden***. *En esta tienda **se venden** libros antiguos* = Old books are sold in this shop.",
+      "feedback": [
+        {
+          "match": "se vende",
+          "message": "Almost — in the pasiva refleja the verb agrees with the noun: *libros* is plural, so *se venden*."
+        }
+      ]
+    },
+    {
+      "id": "bridge-built",
+      "type": "text",
+      "prompt": "Fill the gap with the passive with *ser* (preterite) of *construir*: *El puente ___ ___ en 1890.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "fue construido"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Ser* in the preterite + participle.",
+        "The participle agrees with *el puente* (masculine singular)."
+      ],
+      "solution": "The *ser* passive uses *ser* in the required tense, here the preterite, *fue*, plus the participle agreeing with the subject: *construido* (masculine singular, like *el puente*). *El puente **fue construido** en 1890.*",
+      "feedback": [
+        {
+          "match": "fue construida",
+          "message": "Almost — the participle agrees with *el puente*, which is masculine: *construido*."
+        },
+        {
+          "match": "era construido",
+          "message": "Not yet — for a completed event, *ser* goes in the preterite: *fue construido*."
+        }
+      ]
+    },
+    {
+      "id": "volunteers-needed",
+      "type": "choice",
+      "prompt": "Complete the sign: *Se ___ voluntarios para limpiar la playa.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "necesita",
+          "correct": false,
+          "feedback": "Not yet — in the pasiva refleja the verb agrees with *voluntarios*, which is plural."
+        },
+        {
+          "id": "b",
+          "label": "necesitan",
+          "correct": true,
+          "feedback": "Yes. *Voluntarios* is plural, so the verb is plural: *se necesitan*."
+        },
+        {
+          "id": "c",
+          "label": "necesitamos",
+          "correct": false,
+          "feedback": "Not yet — *se* goes with a third-person verb, not *nosotros*."
+        }
+      ],
+      "hints": [
+        "What does the verb agree with in the pasiva refleja?",
+        "*Voluntarios* is plural."
+      ],
+      "solution": "In the pasiva refleja, the thing affected is the grammatical subject and the verb agrees with it. *Voluntarios* is plural, so: *Se **necesitan** voluntarios.* (You'll see *se necesita voluntarios* on signs, but the plural is the standard form.)"
+    },
+    {
+      "id": "species-discovered",
+      "type": "text",
+      "prompt": "Rewrite in the passive with *ser*: *Un equipo chileno descubrió la especie.* → *La especie ___ ___ por un equipo chileno.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "fue descubierta"
+      ],
+      "lang": "es",
+      "hints": [
+        "Keep the tense: *descubrió* is preterite, so *ser* goes in the preterite.",
+        "The participle of *descubrir* is irregular, and it agrees with *la especie*."
+      ],
+      "solution": "The object of the active sentence, *la especie*, becomes the subject. *Ser* takes the tense of the original verb (preterite: *fue*), and the participle agrees with *la especie* (feminine singular). *Descubrir* has the irregular participle *descubierto*, so: *La especie **fue descubierta** por un equipo chileno.*",
+      "feedback": [
+        {
+          "match": "fue descubierto",
+          "message": "Almost — the participle must agree with *la especie*, which is feminine: *descubierta*."
+        },
+        {
+          "match": "fue descubrida",
+          "message": "Almost — *descubrir* has an irregular participle: *descubierto*, *descubierta*."
+        }
+      ]
+    },
+    {
+      "id": "samples-analysed",
+      "type": "text",
+      "prompt": "Rewrite with the pasiva refleja: *Analizaron las muestras en el laboratorio.* → *___ ___ las muestras en el laboratorio.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "se analizaron"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Se* + third-person verb, keeping the tense.",
+        "Agree with *las muestras* (plural)."
+      ],
+      "solution": "Keep the preterite, add *se*, and make the verb agree with *las muestras*: ***Se analizaron** las muestras en el laboratorio.* This is the most common way to write a methods section in Spanish.",
+      "feedback": [
+        {
+          "match": "se analizó",
+          "message": "Almost — the verb agrees with *las muestras*, which is plural: *se analizaron*."
+        }
+      ]
+    },
+    {
+      "id": "reflexive-impersonal",
+      "type": "choice",
+      "prompt": "Which is the correct way to say *You get used to everything* in general?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Se se acostumbra a todo.",
+          "correct": false,
+          "feedback": "Not yet — Spanish can't put impersonal *se* on top of the reflexive *se*."
+        },
+        {
+          "id": "b",
+          "label": "Uno se acostumbra a todo.",
+          "correct": true,
+          "feedback": "Yes. With reflexive verbs, *uno* replaces impersonal *se*."
+        },
+        {
+          "id": "c",
+          "label": "Se acostumbra a todo.",
+          "correct": false,
+          "feedback": "Not quite — without *uno*, this reads as *he/she gets used to everything*."
+        },
+        {
+          "id": "d",
+          "label": "Acostumbran a todo.",
+          "correct": false,
+          "feedback": "Not yet — the third person plural refers to other people, never including the speaker, and the reflexive *se* is missing."
+        }
+      ],
+      "hints": [
+        "*Acostumbrarse* is reflexive.",
+        "When *se* is already taken, which impersonal subject can you use?"
+      ],
+      "solution": "*Acostumbrarse* already has a *se*, so impersonal *se* would make *se se*, which is impossible. Spanish uses ***uno*** instead: ***Uno se acostumbra a todo.***"
+    },
+    {
+      "id": "bike-stolen",
+      "type": "choice",
+      "prompt": "*Me robaron la bici anoche.* Who stole it, according to the sentence?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Someone unknown.",
+          "correct": true,
+          "feedback": "Yes. The third person plural without a subject refers to an unspecified person or people."
+        },
+        {
+          "id": "b",
+          "label": "A specific group of people mentioned before.",
+          "correct": false,
+          "feedback": "Not quite — without context naming them, *robaron* doesn't point to anyone specific."
+        },
+        {
+          "id": "c",
+          "label": "The speaker and some friends.",
+          "correct": false,
+          "feedback": "Not yet — the impersonal third person plural never includes the speaker."
+        }
+      ],
+      "hints": [
+        "There's no subject. What does the bare *ellos* form suggest?",
+        "It's the Spanish equivalent of English *someone* or *they*."
+      ],
+      "solution": "A third-person plural verb with no subject (*robaron*) refers to **unknown or unspecified** people. The best English is a passive or *someone*: *My bike was stolen last night.*"
+    },
+    {
+      "id": "translate-spanish-spoken",
+      "type": "text",
+      "prompt": "Translate into Spanish (use *se*): *Spanish is spoken here.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "aquí se habla español",
+        "aquí se habla castellano",
+        "se habla español aquí",
+        "se habla castellano aquí",
+        "acá se habla español",
+        "acá se habla castellano",
+        "se habla español acá",
+        "se habla castellano acá"
+      ],
+      "lang": "es",
+      "hints": [
+        "English uses a passive; Spanish prefers the pasiva refleja.",
+        "*Se* + *habla* (singular, agreeing with *español*)."
+      ],
+      "solution": "The natural Spanish is the **pasiva refleja**: *se* + third-person verb agreeing with *español*: ***Aquí se habla español.*** (Or *castellano*, the name preferred in some countries.) The *ser* passive, *aquí es hablado el español*, is grammatical but sounds unnatural.",
+      "feedback": [
+        {
+          "match": "aquí es hablado español",
+          "message": "Grammatical, but no one says it. Use the pasiva refleja: *aquí se habla español*."
+        }
+      ]
+    },
+    {
+      "id": "given-a-prize",
+      "type": "choice",
+      "prompt": "How can you say *I was given a prize*? Choose all that are correct.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Me dieron un premio.",
+          "correct": true,
+          "feedback": "Yes. An active sentence with an unspecified *they* is the most natural option."
+        },
+        {
+          "id": "b",
+          "label": "Fui dado un premio.",
+          "correct": false,
+          "feedback": "Not yet — Spanish can't make an indirect object (*me*) the subject of a passive."
+        },
+        {
+          "id": "c",
+          "label": "Se me concedió un premio.",
+          "correct": true,
+          "feedback": "Yes. Formal, but correct: a pasiva refleja with *me* as the indirect object."
+        },
+        {
+          "id": "d",
+          "label": "Un premio me fue dado.",
+          "correct": false,
+          "feedback": "Not quite — grammatically possible in principle, but stiff and unnatural; Spanish speakers would say *me dieron un premio*."
+        }
+      ],
+      "hints": [
+        "Who is the subject of the English passive? Can that become a subject in Spanish?",
+        "Spanish needs a different structure: active, or *se*."
+      ],
+      "solution": "English promotes the receiver (*I*) to subject; Spanish can't. The natural choice is an active sentence with an unspecified subject: ***Me dieron un premio***. In formal writing, ***Se me concedió un premio*** works. *Fui dado* is ungrammatical, and *un premio me fue dado* is stilted.",
+      "multiple": true
+    },
+    {
+      "id": "people-interviewed",
+      "type": "text",
+      "prompt": "Use impersonal *se* with *entrevistar* (preterite): *Para el estudio ___ ___ a doscientas personas.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "answers": [
+        "se entrevistó"
+      ],
+      "lang": "es",
+      "hints": [
+        "*A doscientas personas* has the personal *a*.",
+        "With personal *a*, impersonal *se* keeps the verb singular."
+      ],
+      "solution": "Because of the personal ***a***, *doscientas personas* is an object, not a subject, so this is **impersonal se** and the verb stays **singular**: *Para el estudio **se entrevistó** a doscientas personas.* (Without *a*, with things, you'd use the plural pasiva refleja: *se analizaron doscientas muestras*.)",
+      "feedback": [
+        {
+          "match": "se entrevistaron",
+          "message": "Very common, but with personal *a* the standard form keeps the verb singular: *se entrevistó a doscientas personas*."
+        }
+      ]
+    },
+    {
+      "id": "reading-fog-water",
+      "type": "choice",
+      "prompt": "According to the reading *Agua que viene de la niebla*, which statement is true?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Fog catchers can replace all other sources of water in the desert.",
+          "correct": false,
+          "feedback": "Not yet — the text says the fog doesn't replace other sources: it complements them."
+        },
+        {
+          "id": "b",
+          "label": "The amount of water collected depends on the season, the wind and the altitude.",
+          "correct": true,
+          "feedback": "Yes. *La cantidad de agua depende de la estación, del viento y de la altura.*"
+        },
+        {
+          "id": "c",
+          "label": "The nets are placed horizontally on the beach.",
+          "correct": false,
+          "feedback": "Not yet — they are placed *en vertical, en lo alto de los cerros y de cara al viento*."
+        },
+        {
+          "id": "d",
+          "label": "Fog catchers were invented in the 19th century.",
+          "correct": false,
+          "feedback": "Not yet — the text says they appeared *a finales del siglo XX*."
+        }
+      ],
+      "hints": [
+        "Reread the last paragraph.",
+        "Look for *depende de*."
+      ],
+      "solution": "The last paragraph says: *La cantidad de agua depende de la estación, del viento y de la altura* — option **b**. It also says the fog *no sustituye a otras fuentes de agua: las complementa* (so not **a**). The nets go *en vertical, en lo alto de los cerros* (not **c**), and they appeared at the end of the 20th century (not **d**)."
+    }
+  ]
+}

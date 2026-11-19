@@ -1,0 +1,217 @@
+{
+  "lesson": "oratoria",
+  "exercises": [
+    {
+      "id": "oratoria-of-by-for",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "*…government of the people, by the people, for the people…* ¿Qué recursos combina Lincoln?",
+      "options": [
+        { "id": "a", "label": "Tricolon y epífora: tres miembros paralelos que terminan con la misma palabra.", "correct": true, "feedback": "¡Eso es! Tres elementos (*of, by, for*) y la repetición final de *the people*." },
+        { "id": "b", "label": "Quiasmo: los elementos se repiten en orden inverso.", "correct": false, "feedback": "Todavía no: no hay inversión A-B / B-A; la estructura se repite igual tres veces." },
+        { "id": "c", "label": "Antítesis: enfrenta ideas opuestas.", "correct": false, "feedback": "Casi: hay paralelismo, pero *of*, *by* y *for* no son opuestos; se suman." },
+        { "id": "d", "label": "Pregunta retórica.", "correct": false, "feedback": "Todavía no: es una afirmación, no una pregunta." }
+      ],
+      "hints": [
+        "Cuenta los miembros paralelos.",
+        "¿Qué se repite: el principio o el final de cada miembro?"
+      ],
+      "solution": "Son tres miembros paralelos (**tricolon**) que terminan con la misma expresión, *the people* (**epífora**). Lo que cambia es la preposición: el gobierno procede del pueblo, lo ejerce el pueblo y sirve al pueblo."
+    },
+    {
+      "id": "oratoria-douglass-chiasmus",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "*You have seen how a man was made a slave; you shall see how a slave was made a man.* (Frederick Douglass) ¿Qué figura es?",
+      "options": [
+        { "id": "a", "label": "Quiasmo", "correct": true, "feedback": "¡Muy bien! *man… slave / slave… man*: los mismos elementos en orden inverso (A-B, B-A)." },
+        { "id": "b", "label": "Anáfora", "correct": false, "feedback": "Casi: *you have seen / you shall see* repite el principio, pero el efecto central es la inversión de *man* y *slave*." },
+        { "id": "c", "label": "Hipérbole", "correct": false, "feedback": "Todavía no: no hay exageración; Douglass narra su propia vida." },
+        { "id": "d", "label": "Understatement", "correct": false, "feedback": "Todavía no: la frase no rebaja nada; es solemne y directa." }
+      ],
+      "hints": [
+        "Fíjate en el orden de *man* y *slave* en cada mitad.",
+        "La estructura es como un espejo."
+      ],
+      "solution": "La primera mitad dice *man → slave*; la segunda, *slave → man*. Esa estructura en espejo es un **quiasmo**, y aquí refleja el contenido: Douglass cuenta cómo pasó de ser tratado como esclavo a afirmarse como hombre libre."
+    },
+    {
+      "id": "oratoria-brutus-antithesis",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "*Not that I loved Caesar less, but that I loved Rome more.* (Shakespeare, *Julius Caesar*) ¿Qué recurso domina?",
+      "options": [
+        { "id": "a", "label": "Antítesis: *less / more*, *Caesar / Rome*, en estructuras paralelas.", "correct": true, "feedback": "¡Exacto! Dos ideas opuestas, una frente a otra, con la misma estructura gramatical." },
+        { "id": "b", "label": "Tricolon", "correct": false, "feedback": "Todavía no: solo hay dos miembros, no tres." },
+        { "id": "c", "label": "Aliteración", "correct": false, "feedback": "Todavía no: no hay repetición de sonidos iniciales significativa." },
+        { "id": "d", "label": "Epífora", "correct": false, "feedback": "Casi: hay repetición (*that I loved*), pero el efecto principal es el contraste entre opuestos." }
+      ],
+      "hints": [
+        "Busca palabras opuestas.",
+        "*less* frente a *more*."
+      ],
+      "solution": "Es una **antítesis**: enfrenta *less* y *more*, *Caesar* y *Rome*, en dos estructuras idénticas (*that I loved… less / that I loved… more*). El paralelismo hace que la frase se recuerde."
+    },
+    {
+      "id": "oratoria-four-score",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Lincoln pronunció el discurso en 1863. ¿A qué año remite *Four score and seven years ago*?",
+      "options": [
+        { "id": "a", "label": "1776", "correct": true, "feedback": "¡Correcto! *Score* = 20; 4 × 20 + 7 = 87; 1863 − 87 = 1776, el año de la Declaración de Independencia." },
+        { "id": "b", "label": "1836", "correct": false, "feedback": "Todavía no: eso sería 27 años antes. *Score* no significa «diez», sino «veinte»." },
+        { "id": "c", "label": "1856", "correct": false, "feedback": "Todavía no: eso serían solo 7 años. *Four score* también cuenta." },
+        { "id": "d", "label": "1783", "correct": false, "feedback": "Casi: es el año del fin de la guerra de independencia, pero la cuenta da otra fecha." }
+      ],
+      "hints": [
+        "*Score* significa «veintena».",
+        "Calcula 4 × 20 + 7 y réstalo de 1863."
+      ],
+      "solution": "*A score* es una veintena. *Four score and seven* = 4 × 20 + 7 = 87. 1863 − 87 = **1776**, el año de la Declaración de Independencia de Estados Unidos. Lincoln eligió una fórmula de resonancia bíblica en lugar de *eighty-seven*."
+    },
+    {
+      "id": "oratoria-opening",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Vas a dar una charla de tres minutos sobre el reciclaje en tu barrio. ¿Qué apertura capta mejor la atención?",
+      "options": [
+        { "id": "a", "label": "Last Tuesday, I counted the plastic bottles on my street on the way to work. There were forty-three.", "correct": true, "feedback": "¡Muy bien! Una imagen concreta y un dato propio despiertan curiosidad desde la primera frase." },
+        { "id": "b", "label": "Hello. My name is Lucía and today I am going to talk about recycling.", "correct": false, "feedback": "Casi: es correcta y clara, pero no da al público ninguna razón para prestar atención." },
+        { "id": "c", "label": "Recycling is the process of converting waste into reusable material.", "correct": false, "feedback": "Todavía no: una definición de diccionario suena a trabajo escolar y no conecta con el público." },
+        { "id": "d", "label": "I'm sorry, I'm very nervous and my English is not very good.", "correct": false, "feedback": "Todavía no: disculparse al empezar resta autoridad. Tu inglés es lo bastante bueno; empieza con fuerza." }
+      ],
+      "hints": [
+        "Busca algo concreto, personal y sorprendente.",
+        "Evita disculparte o empezar con una definición."
+      ],
+      "solution": "Las mejores aperturas son concretas: una anécdota, una pregunta, un dato sorprendente. **Last Tuesday, I counted the plastic bottles on my street…** pone una imagen en la mente del público. Presentarte o definir el tema puede venir después, si hace falta."
+    },
+    {
+      "id": "oratoria-chiasmus-complete",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Completa el quiasmo con **tres palabras**:\n\n*We should eat to live, not ___.*",
+      "answers": ["live to eat"],
+      "feedback": [
+        { "match": "eat to live", "message": "Casi: eso repite la primera mitad. En un quiasmo, los elementos se invierten: *live… eat*." },
+        { "match": "to live eat", "message": "Casi: mantén la estructura *verbo + to + verbo*, pero con los verbos invertidos." }
+      ],
+      "hints": [
+        "Un quiasmo invierte el orden: A-B, B-A.",
+        "La primera mitad es *eat … live*. ¿Cómo sería al revés?"
+      ],
+      "solution": "La primera mitad es *eat to live* (A-B); el quiasmo exige la inversión (B-A): *We should eat to live, not* **live to eat**. Es un dicho tradicional con forma de quiasmo."
+    },
+    {
+      "id": "oratoria-content-words",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "En la frase *I'd like to thank our teachers for their patience*, ¿qué palabras deberían llevar el acento al pronunciarla en un discurso?",
+      "options": [
+        { "id": "a", "label": "thank, teachers, patience", "correct": true, "feedback": "¡Eso es! Son las palabras de contenido (verbo principal y sustantivos). Las gramaticales (*to, our, for, their*) se reducen." },
+        { "id": "b", "label": "to, our, for, their", "correct": false, "feedback": "Todavía no: son palabras gramaticales, que en inglés se pronuncian débiles y rápidas." },
+        { "id": "c", "label": "Todas por igual.", "correct": false, "feedback": "Casi: es la tendencia del español, de ritmo silábico. En inglés, acentuar todo por igual suena mecánico y cansa al oyente." },
+        { "id": "d", "label": "Solo I'd.", "correct": false, "feedback": "Todavía no: acentuar *I'd* daría un contraste extraño («yo, y no otro»)." }
+      ],
+      "hints": [
+        "Distingue palabras de contenido y palabras gramaticales.",
+        "Sustantivos, verbos principales y adjetivos llevan el acento."
+      ],
+      "solution": "En inglés se acentúan las **palabras de contenido**: *THANK, TEACHers, PAtience*. Las gramaticales (*to, our, for, their*) se reducen. Así se consigue el ritmo acentual característico del inglés."
+    },
+    {
+      "id": "oratoria-two-minutes",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Te piden un brindis de **dos minutos** en una boda. Aproximadamente, ¿cuántas palabras debería tener tu texto?",
+      "options": [
+        { "id": "a", "label": "Entre 250 y 300", "correct": true, "feedback": "¡Correcto! A unas 120–150 palabras por minuto, dos minutos son unas 250–300 palabras." },
+        { "id": "b", "label": "Unas 80", "correct": false, "feedback": "Todavía no: eso duraría menos de un minuto." },
+        { "id": "c", "label": "Unas 1000", "correct": false, "feedback": "Todavía no: eso serían entre siete y ocho minutos; demasiado para un brindis." },
+        { "id": "d", "label": "Da igual: lo importante es improvisar.", "correct": false, "feedback": "Casi: la naturalidad importa, pero un brindis preparado y calculado sale mucho mejor, sobre todo en otra lengua." }
+      ],
+      "hints": [
+        "Como referencia, al hablar en público se dicen entre 120 y 150 palabras por minuto.",
+        "Multiplica por dos."
+      ],
+      "solution": "A un ritmo de entre 120 y 150 palabras por minuto, dos minutos equivalen a **unas 250–300 palabras**. Escribe el texto, cronométrate leyéndolo en voz alta y ajusta."
+    },
+    {
+      "id": "oratoria-thank-you-coming",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Traduce al inglés de forma natural, como apertura o cierre de un discurso:\n\n*Muchas gracias a todos por venir.*",
+      "answers": [
+        "Thank you all for coming",
+        "Thank you all very much for coming",
+        "Thank you very much for coming",
+        "Thank you so much for coming",
+        "Thank you all so much for coming",
+        "Thank you, everyone, for coming",
+        "Thank you everyone for coming",
+        "Thanks, everyone, for coming",
+        "Thanks everyone for coming",
+        "Thank you very much, everyone, for coming",
+        "Many thanks to you all for coming",
+        "Thank you all for being here",
+        "Thank you, everyone, for being here"
+      ],
+      "feedback": [
+        { "match": "Many thanks to all for coming", "message": "Casi: en inglés falta el pronombre: *Many thanks to you all* o, más natural, *Thank you all for coming*." },
+        { "match": "Thank you all for come", "message": "Casi: después de *for* el verbo va en -ing: *for coming*." }
+      ],
+      "hints": [
+        "*Thank you* + *all* + *for* + verbo en -ing.",
+        "«Muchas» se puede expresar con *very much* o *so much*, o dejarse fuera."
+      ],
+      "solution": "La fórmula más natural es **Thank you all for coming** (o *Thank you all very much for coming*, *Thank you, everyone, for being here*). Después de *for*, el verbo va en -ing."
+    },
+    {
+      "id": "oratoria-weak-of",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "En la lectura normal de *government of the people*, ¿cómo suele pronunciarse *of*?",
+      "options": [
+        { "id": "a", "label": "/əv/, con una vocal débil y breve", "correct": true, "feedback": "¡Exacto! Es su forma débil. Solo se pronuncia /ɒv/ (británico) o /ʌv/ (estadounidense) cuando se acentúa por contraste." },
+        { "id": "b", "label": "/of/, como en español", "correct": false, "feedback": "Todavía no: en inglés *of* termina en /v/, y su vocal, sin acento, se reduce a /ə/." },
+        { "id": "c", "label": "/ɒf/, como *off*", "correct": false, "feedback": "Casi: *off* es otra palabra. *Of* termina en sonido /v/." },
+        { "id": "d", "label": "No se pronuncia.", "correct": false, "feedback": "Todavía no: se reduce, pero no desaparece." }
+      ],
+      "hints": [
+        "Es una palabra gramatical sin acento.",
+        "Las vocales átonas del inglés tienden a reducirse a /ə/ (schwa)."
+      ],
+      "solution": "Como palabra gramatical átona, *of* se pronuncia en su forma débil **/əv/**. Si la acentúas por contraste (*OF the people, BY the people, FOR the people*), recupera su vocal plena. Dominar estas formas débiles es clave para el ritmo del inglés."
+    },
+    {
+      "id": "oratoria-closing",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Tu discurso sobre el voluntariado empezó con la historia de una vecina que te enseñó a leer. ¿Cuál es el mejor cierre?",
+      "options": [
+        { "id": "a", "label": "Mrs Adeyemi taught me to read. Now it's our turn to teach. Thank you.", "correct": true, "feedback": "¡Muy bien! Vuelve a la imagen inicial, la convierte en una llamada a la acción y termina con una frase breve y clara." },
+        { "id": "b", "label": "So, yeah, that's basically it. Any questions?", "correct": false, "feedback": "Todavía no: desinfla el final y desperdicia el momento de más atención." },
+        { "id": "c", "label": "In conclusion, to sum up, as I said, volunteering is good, as I have explained.", "correct": false, "feedback": "Todavía no: acumula fórmulas vacías y repite sin añadir fuerza." },
+        { "id": "d", "label": "Sorry if it was too long.", "correct": false, "feedback": "Todavía no: disculparse al final resta valor a lo que has dicho." }
+      ],
+      "hints": [
+        "Un buen cierre vuelve al principio.",
+        "Busca la opción breve, con una idea clara y una llamada a la acción."
+      ],
+      "solution": "El mejor cierre **retoma la anécdota inicial** (la vecina que enseñó a leer) y la convierte en **llamada a la acción** (*Now it's our turn to teach*), con frases cortas. Después, una pausa y *Thank you*."
+    }
+  ]
+}

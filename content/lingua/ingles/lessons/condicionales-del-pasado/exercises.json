@@ -1,0 +1,406 @@
+{
+  "lesson": "condicionales-del-pasado",
+  "exercises": [
+    {
+      "id": "third-tren",
+      "type": "choice",
+      "prompt": "*If I ___ earlier, I wouldn't have missed the train.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "had left",
+          "correct": true,
+          "feedback": "Sí. Third conditional: *if* + past perfect, *would have* + participio."
+        },
+        {
+          "id": "b",
+          "label": "would have left",
+          "correct": false,
+          "feedback": "Todavía no. *Would* nunca va en la parte de *if*; ahí va el past perfect."
+        },
+        {
+          "id": "c",
+          "label": "left",
+          "correct": false,
+          "feedback": "Todavía no. *Left* formaría un second conditional (presente o futuro irreal), pero la consecuencia (*wouldn't have missed*) es pasada."
+        }
+      ],
+      "hints": [
+        "La consecuencia es *wouldn't have missed*: hablas del pasado.",
+        "En la condición del third conditional va *had* + participio."
+      ],
+      "solution": "**had left**: *If I had left earlier, I wouldn't have missed the train.*\n\nSalí tarde y perdí el tren: es un pasado real, y la frase imagina lo contrario. Third conditional: *if* + past perfect (*had left*), *would have* + participio (*wouldn't have missed*)."
+    },
+    {
+      "id": "si-lo-hubiera-sabido",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Si lo hubiera sabido, te habría llamado.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "If I had known, I would have called you",
+        "If I had known I would have called you",
+        "If I had known, I would have phoned you",
+        "If I had known I would have phoned you",
+        "If I had known, I would have rung you",
+        "If I had known I would have rung you",
+        "If I had known, I'd have called you",
+        "If I had known I'd have called you",
+        "If I had known, I'd have phoned you",
+        "If I had known I'd have phoned you",
+        "If I had known, I'd have rung you",
+        "If I had known I'd have rung you",
+        "If I had known, I would've called you",
+        "If I had known I would've called you",
+        "If I had known, I would've phoned you",
+        "If I had known I would've phoned you",
+        "If I had known, I would've rung you",
+        "If I had known I would've rung you",
+        "If I'd known, I would have called you",
+        "If I'd known I would have called you",
+        "If I'd known, I would have phoned you",
+        "If I'd known I would have phoned you",
+        "If I'd known, I would have rung you",
+        "If I'd known I would have rung you",
+        "If I'd known, I'd have called you",
+        "If I'd known I'd have called you",
+        "If I'd known, I'd have phoned you",
+        "If I'd known I'd have phoned you",
+        "If I'd known, I'd have rung you",
+        "If I'd known I'd have rung you",
+        "If I'd known, I would've called you",
+        "If I'd known I would've called you",
+        "If I'd known, I would've phoned you",
+        "If I'd known I would've phoned you",
+        "If I'd known, I would've rung you",
+        "If I'd known I would've rung you"
+      ],
+      "feedback": [
+        {
+          "match": "If I would have known, I would have called you",
+          "message": "Casi: después de *if* va el past perfect: *If I had known*."
+        },
+        {
+          "match": "If I had known, I would call you",
+          "message": "Casi: la llamada también pertenece al pasado: *would have called*."
+        }
+      ],
+      "hints": [
+        "Pasado irreal: third conditional.",
+        "*Hubiera sabido* → *had known*; *habría llamado* → *would have called*."
+      ],
+      "solution": "**If I had known, I would have called you.** (o *If I'd known, I'd have called you*).\n\nLas dos mitades son pasadas e irreales: *if* + past perfect y *would have* + participio. *Lo* no se traduce: en inglés *know* puede ir sin objeto aquí. En británico también se dice *phoned* o *rung*."
+    },
+    {
+      "id": "no-estudie",
+      "type": "text",
+      "prompt": "Escribe un third conditional a partir de esta situación real (empieza con *If I…*):\n\n*I didn't study, so I failed the exam.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "If I had studied, I wouldn't have failed the exam",
+        "If I had studied I wouldn't have failed the exam",
+        "If I had studied, I wouldn't have failed",
+        "If I had studied I wouldn't have failed",
+        "If I had studied, I would not have failed the exam",
+        "If I had studied I would not have failed the exam",
+        "If I had studied, I would not have failed",
+        "If I had studied I would not have failed",
+        "If I had studied, I would have passed the exam",
+        "If I had studied I would have passed the exam",
+        "If I had studied, I'd have passed the exam",
+        "If I had studied I'd have passed the exam",
+        "If I had studied, I would've passed the exam",
+        "If I had studied I would've passed the exam",
+        "If I had studied, I would have passed",
+        "If I had studied I would have passed",
+        "If I had studied, I'd have passed",
+        "If I had studied I'd have passed",
+        "If I had studied, I would've passed",
+        "If I had studied I would've passed",
+        "If I'd studied, I wouldn't have failed the exam",
+        "If I'd studied I wouldn't have failed the exam",
+        "If I'd studied, I wouldn't have failed",
+        "If I'd studied I wouldn't have failed",
+        "If I'd studied, I would not have failed the exam",
+        "If I'd studied I would not have failed the exam",
+        "If I'd studied, I would not have failed",
+        "If I'd studied I would not have failed",
+        "If I'd studied, I would have passed the exam",
+        "If I'd studied I would have passed the exam",
+        "If I'd studied, I'd have passed the exam",
+        "If I'd studied I'd have passed the exam",
+        "If I'd studied, I would've passed the exam",
+        "If I'd studied I would've passed the exam",
+        "If I'd studied, I would have passed",
+        "If I'd studied I would have passed",
+        "If I'd studied, I'd have passed",
+        "If I'd studied I'd have passed",
+        "If I'd studied, I would've passed",
+        "If I'd studied I would've passed"
+      ],
+      "hints": [
+        "La realidad es negativa (*didn't study*); la hipótesis, afirmativa (*had studied*).",
+        "El suspenso fue real; en la hipótesis, no habría pasado: *wouldn't have failed* (o *would have passed*)."
+      ],
+      "solution": "**If I had studied, I wouldn't have failed the exam.** (o *…I would have passed the exam*).\n\nEl third conditional invierte la realidad pasada: lo que no hiciste pasa a afirmativa (*had studied*) y lo que pasó, a negativa (*wouldn't have failed*), o a su contrario (*would have passed*)."
+    },
+    {
+      "id": "mixto-dubai",
+      "type": "choice",
+      "prompt": "*If she had accepted that job in Dubai, she ___ there now.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "would be living",
+          "correct": true,
+          "feedback": "Sí. Condicional mixto: condición pasada (*had accepted*) y resultado presente (*now*)."
+        },
+        {
+          "id": "b",
+          "label": "would have lived",
+          "correct": false,
+          "feedback": "Todavía no. *Would have lived* habla del pasado, pero *now* indica un resultado presente."
+        },
+        {
+          "id": "c",
+          "label": "had lived",
+          "correct": false,
+          "feedback": "Todavía no. El past perfect va en la condición, no en la consecuencia."
+        }
+      ],
+      "hints": [
+        "Fíjate en *now* al final.",
+        "Condición pasada + resultado presente: *would* + infinitivo."
+      ],
+      "solution": "**would be living**: *If she had accepted that job in Dubai, she would be living there now.*\n\nLa decisión es pasada (*had accepted*), pero la consecuencia imaginada es presente (*now*). Por eso la segunda mitad usa *would* + infinitivo, como un second conditional. *Would live there now* también se entiende; el continuo subraya la situación en curso."
+    },
+    {
+      "id": "mixto-frances",
+      "type": "text",
+      "prompt": "Escribe un condicional mixto (empieza con *If I…*):\n\n*I don't speak French, so I didn't understand the film.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "If I spoke French, I would have understood the film",
+        "If I spoke French I would have understood the film",
+        "If I spoke French, I'd have understood the film",
+        "If I spoke French I'd have understood the film",
+        "If I spoke French, I would've understood the film",
+        "If I spoke French I would've understood the film",
+        "If I spoke French, I could have understood the film",
+        "If I spoke French I could have understood the film",
+        "If I spoke French, I could've understood the film",
+        "If I spoke French I could've understood the film",
+        "If I spoke French, I would have understood the movie",
+        "If I spoke French I would have understood the movie",
+        "If I spoke French, I'd have understood the movie",
+        "If I spoke French I'd have understood the movie",
+        "If I spoke French, I would've understood the movie",
+        "If I spoke French I would've understood the movie",
+        "If I spoke French, I could have understood the movie",
+        "If I spoke French I could have understood the movie",
+        "If I spoke French, I could've understood the movie",
+        "If I spoke French I could've understood the movie"
+      ],
+      "feedback": [
+        {
+          "match": "If I had spoken French, I would have understood the film",
+          "message": "Casi: es correcto como third conditional, pero no hablar francés es algo **presente** y permanente. Pon la condición en past simple: *If I spoke French*."
+        }
+      ],
+      "hints": [
+        "La condición (no hablar francés) es presente y permanente: va en past simple.",
+        "La consecuencia (no entender la película) es pasada: *would have* + participio."
+      ],
+      "solution": "**If I spoke French, I would have understood the film.**\n\nEs un mixto del tipo presente → pasado: una característica actual irreal (*If I spoke French*, second conditional) explica un resultado pasado irreal (*I would have understood*, third conditional). *Could have understood* también funciona."
+    },
+    {
+      "id": "deberia-haberme-acostado",
+      "type": "choice",
+      "prompt": "*I'm exhausted. I ___ to bed earlier last night.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "should have gone",
+          "correct": true,
+          "feedback": "Sí. *Should have* + participio expresa un lamento sobre el pasado."
+        },
+        {
+          "id": "b",
+          "label": "must have gone",
+          "correct": false,
+          "feedback": "Todavía no. *Must have* es una deducción (seguro que fui), no un lamento."
+        },
+        {
+          "id": "c",
+          "label": "should go",
+          "correct": false,
+          "feedback": "Todavía no. *Should go* habla del presente o del futuro, pero *last night* es pasado."
+        },
+        {
+          "id": "d",
+          "label": "should have went",
+          "correct": false,
+          "feedback": "Todavía no. Después de *have* va el participio: *gone*, no *went*."
+        }
+      ],
+      "hints": [
+        "Te lamentas de algo que no hiciste anoche.",
+        "Modal + *have* + participio (*go, went, gone*)."
+      ],
+      "solution": "**should have gone**: *I'm exhausted. I should have gone to bed earlier last night.*\n\n*Should have* + participio dice que algo habría sido lo correcto y no lo hiciste. Ojo con el participio de *go*: *gone*. Y no lo confundas con *must have*, que en inglés es una deducción."
+    },
+    {
+      "id": "podrias-habermelo-dicho",
+      "type": "text",
+      "prompt": "Traduce al inglés (es un reproche):\n\n**¡Podrías habérmelo dicho!**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "You could have told me",
+        "You could've told me"
+      ],
+      "feedback": [
+        {
+          "match": "You could tell me",
+          "message": "Casi: eso es presente («podrías decírmelo»). Para el pasado: *could have* + participio."
+        },
+        {
+          "match": "You could have said me",
+          "message": "Casi: con *say* no va la persona detrás. Usa *tell*: *told me*."
+        }
+      ],
+      "hints": [
+        "Reproche sobre el pasado: *could have* + participio.",
+        "«Decirle algo a alguien» es *tell someone*: participio *told*."
+      ],
+      "solution": "**You could have told me!**\n\n*Could have* + participio, con el tono adecuado, es un reproche: podías hacerlo y no lo hiciste. Se usa *tell* (no *say*) porque va seguido de la persona. Al hablar suena *could've* /ˈkʊdəv/."
+    },
+    {
+      "id": "you-shouldnt-have",
+      "type": "choice",
+      "prompt": "Llegas a casa de una amiga con un ramo de flores. Ella sonríe y dice: *Oh, you shouldn't have!* ¿Qué quiere decir?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Te da las gracias: «¡No tenías por qué!»",
+          "correct": true,
+          "feedback": "Sí. Es una fórmula de cortesía muy habitual al recibir un regalo."
+        },
+        {
+          "id": "b",
+          "label": "Te critica: «No deberías haberlas comprado».",
+          "correct": false,
+          "feedback": "Todavía no. Gramaticalmente sería una crítica, pero en este contexto, con una sonrisa, es una forma de agradecer."
+        },
+        {
+          "id": "c",
+          "label": "Te pide que no vuelvas a traer flores.",
+          "correct": false,
+          "feedback": "Todavía no. No habla del futuro: es una reacción educada al regalo."
+        }
+      ],
+      "hints": [
+        "Fíjate en el contexto: un regalo y una sonrisa.",
+        "Algunas frases gramaticalmente críticas son, en realidad, fórmulas de cortesía."
+      ],
+      "solution": "**Te da las gracias: «¡No tenías por qué!».**\n\n*You shouldn't have!* sigue la estructura de la crítica (*shouldn't have* + participio, aquí sobrentendido: *bought them*), pero al recibir un regalo es una manera educada y cariñosa de agradecerlo. La respuesta típica es *It's nothing!* o *My pleasure!*"
+    },
+    {
+      "id": "si-no-me-hubieras-ayudado",
+      "type": "text",
+      "prompt": "Completa con la forma correcta de *not / help*:\n\n*If you ___ me, I would have failed.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "hadn't helped",
+        "had not helped"
+      ],
+      "feedback": [
+        {
+          "match": "didn't help",
+          "message": "Casi: la consecuencia es *would have failed*, así que la condición va en past perfect."
+        },
+        {
+          "match": "wouldn't have helped",
+          "message": "Casi: *would* no va en la parte de *if*."
+        }
+      ],
+      "hints": [
+        "La consecuencia está en *would have* + participio.",
+        "Past perfect negativo: *hadn't* + participio."
+      ],
+      "solution": "**hadn't helped**: *If you hadn't helped me, I would have failed.*\n\nEn la realidad, me ayudaste y aprobé. El third conditional imagina lo contrario: la condición en past perfect negativo (*hadn't helped*) y la consecuencia con *would have* + participio."
+    },
+    {
+      "id": "cuales-son-correctas",
+      "type": "choice",
+      "prompt": "Marca **todas** las frases correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "If I'd known, I'd have come.",
+          "correct": true,
+          "feedback": "Sí. La primera *'d* es *had*; la segunda, *would*."
+        },
+        {
+          "id": "b",
+          "label": "If I would have known, I would have come.",
+          "correct": false,
+          "feedback": "Todavía no. Se oye a veces en el habla informal, pero después de *if* lo correcto es *had*."
+        },
+        {
+          "id": "c",
+          "label": "Had I known, I would have come.",
+          "correct": true,
+          "feedback": "Sí. Es la versión formal, con inversión y sin *if*."
+        },
+        {
+          "id": "d",
+          "label": "If I had known, I will have come.",
+          "correct": false,
+          "feedback": "Todavía no. Un pasado imaginario lleva *would have*, no *will have*."
+        }
+      ],
+      "hints": [
+        "Una de las correctas es formal y no lleva *if*.",
+        "*Would* no va en la condición; *will* no va en un condicional irreal."
+      ],
+      "solution": "Son correctas **a** y **c**.\n\n*If I'd known, I'd have come* es la versión coloquial con dos contracciones (*had* y *would*). *Had I known, I would have come* es la versión formal con inversión. *If I would have known* es frecuente en el habla informal estadounidense, pero no se acepta en la escritura cuidada; *will have* no encaja en un condicional irreal."
+    },
+    {
+      "id": "should-of",
+      "type": "text",
+      "prompt": "Corrige el error ortográfico de este mensaje:\n\n*I should of listened to you.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I should have listened to you",
+        "I should've listened to you"
+      ],
+      "hints": [
+        "*Of* suena igual que la forma débil de otra palabra.",
+        "Modal + *have* + participio."
+      ],
+      "solution": "**I should have listened to you.** (o *I should've listened to you.*)\n\n*Should've* se pronuncia /ˈʃʊdəv/, igual que *should of*, y por eso muchos nativos lo escriben mal. Pero la estructura es siempre modal + *have* + participio."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "lesson": "lo-que-paso",
+  "exercises": [
+    {
+      "id": "we-were",
+      "type": "choice",
+      "prompt": "Completa: **We ____ in Lima last summer.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Es el pasado de *to be*.",
+        "*Was* va con *I, he, she, it*; con *we*…"
+      ],
+      "solution": "**were** → *We were in Lima last summer.* *Was* es para *I, he, she, it*; *were* para *you, we, they*.",
+      "options": [
+        { "id": "a", "label": "was", "correct": false, "feedback": "Todavía no: *was* va con *I, he, she, it*. Con *we*, *were*." },
+        { "id": "b", "label": "were", "correct": true, "feedback": "¡Bien! *We were*." },
+        { "id": "c", "label": "are", "correct": false, "feedback": "Todavía no: *are* es presente, y la frase habla del verano pasado." },
+        { "id": "d", "label": "did", "correct": false, "feedback": "Todavía no: *to be* no usa *did*. El pasado de *are* es *were*." }
+      ]
+    },
+    {
+      "id": "past-study",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Escribe el pasado de *study*: **My mother ______ law in Bogotá.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Es un verbo regular.",
+        "Termina en consonante + y."
+      ],
+      "solution": "**studied**. Consonante + *y* → *-ied*: *study → studied*. (Con vocal + *y* se añade *-ed* sin cambios: *play → played*.) Y en pasado no hay -s de tercera persona.",
+      "answers": ["studied"],
+      "feedback": [
+        { "match": "studyed", "message": "Casi: tras consonante + *y*, la *y* cambia a *i*: *studied*." },
+        { "match": "studies", "message": "Casi: eso es presente. En pasado: *studied*." },
+        { "match": "study", "message": "Casi: falta el pasado: *studied*." }
+      ]
+    },
+    {
+      "id": "ayer-fui-al-cine",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Ayer fui al cine.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "El pasado de *go* es irregular.",
+        "«Al cine»: *to the cinema* (RU) o *to the movies* (EE. UU.). *Yesterday* puede ir al principio o al final."
+      ],
+      "solution": "**I went to the cinema yesterday** (o *Yesterday I went to the cinema*; en EE. UU., *to the movies*). *Went* es el pasado irregular de *go*, igual para todas las personas.",
+      "answers": [
+        "I went to the cinema yesterday",
+        "Yesterday I went to the cinema",
+        "Yesterday, I went to the cinema",
+        "I went to the movies yesterday",
+        "Yesterday I went to the movies",
+        "Yesterday, I went to the movies",
+        "I went to the movie theater yesterday",
+        "Yesterday I went to the movie theater"
+      ],
+      "feedback": [
+        { "match": "I goed to the cinema yesterday", "message": "Casi: *go* es irregular: *went*." },
+        { "match": "Yesterday I go to the cinema", "message": "Casi: falta el pasado: *went*." },
+        { "match": "Yesterday went to the cinema", "message": "Casi: falta el sujeto *I*." },
+        { "match": "I went to cinema yesterday", "message": "Casi: se dice *to the cinema*, con artículo." }
+      ]
+    },
+    {
+      "id": "ed-silaba",
+      "type": "choice",
+      "prompt": "¿En qué verbo la terminación *-ed* añade **una sílaba más** al pronunciarse?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "La *-ed* solo suena /ɪd/ tras dos sonidos concretos.",
+        "Mira la última letra que se pronuncia en el infinitivo: ¿t o d?"
+      ],
+      "solution": "**needed** /ˈniːdɪd/: como *need* termina en d, la *-ed* suena /ɪd/ y añade una sílaba. *Worked* /wɜːkt/, *played* /pleɪd/ y *watched* /wɒtʃt/ tienen una sola sílaba.",
+      "options": [
+        { "id": "a", "label": "worked", "correct": false, "feedback": "Todavía no: *worked* suena /wɜːkt/, una sola sílaba." },
+        { "id": "b", "label": "played", "correct": false, "feedback": "Todavía no: *played* suena /pleɪd/, una sola sílaba." },
+        { "id": "c", "label": "needed", "correct": true, "feedback": "¡Exacto! Tras d, la *-ed* suena /ɪd/: *need-ed*." },
+        { "id": "d", "label": "watched", "correct": false, "feedback": "Todavía no: *watched* suena /wɒtʃt/, una sola sílaba." }
+      ]
+    },
+    {
+      "id": "no-vi-a-pedro",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **No vi a Pedro.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Negativa en pasado: *didn't* + verbo en forma base.",
+        "No hace falta traducir la «a» delante de una persona."
+      ],
+      "solution": "**I didn't see Pedro** (o *I did not see Pedro*). *Didn't* ya marca el pasado, así que *see* va en forma base. La «a» personal del español no existe en inglés.",
+      "answers": ["I didn't see Pedro", "I did not see Pedro"],
+      "feedback": [
+        { "match": "I didn't saw Pedro", "message": "Casi: tras *didn't*, el verbo en forma base: *see*." },
+        { "match": "I didn't see to Pedro", "message": "Casi: en inglés no se usa la «a» personal: *I didn't see Pedro*." },
+        { "match": "I no saw Pedro", "message": "Casi: la negativa en pasado se hace con *didn't*: *I didn't see Pedro*." },
+        { "match": "I don't see Pedro", "message": "Casi: eso es presente. En pasado: *I didn't see Pedro*." }
+      ]
+    },
+    {
+      "id": "que-hiciste-sabado",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce la pregunta: **¿Qué hiciste el sábado?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*What* + *did* + *you* + verbo base.",
+        "«Hacer» es *do*, así que *do* aparece dos veces: una como ayudante (*did*) y otra como verbo."
+      ],
+      "solution": "**What did you do on Saturday?** *Did* es el ayudante del pasado y *do* el verbo «hacer» en forma base. En EE. UU. también se dice *What did you do Saturday?*, sin *on*.",
+      "answers": ["What did you do on Saturday", "What did you do Saturday", "What did you do last Saturday"],
+      "feedback": [
+        { "match": "What you did on Saturday", "message": "Casi: en la pregunta, *did* va delante del sujeto y el verbo en forma base: *What did you do on Saturday?*" },
+        { "match": "What did you on Saturday", "message": "Casi: falta el verbo *do*: *What did you do on Saturday?*" },
+        { "match": "What did you did on Saturday", "message": "Casi: el pasado ya está en *did*; el verbo va en forma base: *do*." },
+        { "match": "What did you do in Saturday", "message": "Casi: los días van con *on*: *on Saturday*." }
+      ]
+    },
+    {
+      "id": "hace-tres-anos",
+      "type": "choice",
+      "prompt": "¿Cómo se dice **«hace tres años»**?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "La palabra clave es *ago*.",
+        "*Ago* va en el lado contrario que «hace»."
+      ],
+      "solution": "**three years ago**. *Ago* va **detrás** de la cantidad de tiempo, al contrario que «hace». *Before three years* no se usa con este sentido.",
+      "options": [
+        { "id": "a", "label": "ago three years", "correct": false, "feedback": "Todavía no: *ago* va detrás: *three years ago*." },
+        { "id": "b", "label": "three years ago", "correct": true, "feedback": "¡Muy bien! Cantidad + *ago*." },
+        { "id": "c", "label": "before three years", "correct": false, "feedback": "Todavía no: es un calco. Se dice *three years ago*." },
+        { "id": "d", "label": "it makes three years", "correct": false, "feedback": "Todavía no: «hace» no se traduce con *make* aquí. Se dice *three years ago*." }
+      ]
+    },
+    {
+      "id": "naci-en",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Nací en 1998.** (Puedes escribir el año en cifras.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«Nacer» en inglés se dice con *to be*.",
+        "Con *I*, el pasado de *to be* es *was*."
+      ],
+      "solution": "**I was born in 1998.** «Nacer» se expresa con *to be born*: *I was born*, *she was born*, *we were born*. Los años van con *in*.",
+      "answers": ["I was born in 1998", "I was born in nineteen ninety-eight", "I was born in nineteen ninety eight"],
+      "feedback": [
+        { "match": "I born in 1998", "message": "Casi: «nacer» va con *to be*: *I was born in 1998*." },
+        { "match": "I am born in 1998", "message": "Casi: es pasado: *I was born in 1998*." },
+        { "match": "I borned in 1998", "message": "Casi: se dice *I was born in 1998*." },
+        { "match": "I was born on 1998", "message": "Casi: los años van con *in*: *in 1998*." }
+      ]
+    },
+    {
+      "id": "last-night",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa (= anoche): **I didn't sleep well ____ night.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "«Anoche» no se dice *yesterday night*.",
+        "Es la misma palabra que en *… week* (la semana pasada)."
+      ],
+      "solution": "**last** → *I didn't sleep well last night.* «Anoche» es *last night*. (*Yesterday evening* también existe, pero «anoche», sobre todo si hablas de dormir, es *last night*.)",
+      "answers": ["last"],
+      "feedback": [
+        { "match": "yesterday", "message": "Casi: se dice *last night*, no *yesterday night*." },
+        { "match": "the last", "message": "Casi: sin *the*: *last night*." },
+        { "match": "past", "message": "Casi: se dice *last night*." }
+      ]
+    },
+    {
+      "id": "oraciones-pasado",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las oraciones correctas.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Con *did* y *didn't*, el verbo principal va en forma base.",
+        "*To be* no usa *did*."
+      ],
+      "solution": "Son correctas **Did you see her?** y **Were you at home?** *Did you saw her?* repite el pasado (debe ser *see*), y *She didn't came* también (debe ser *come*).",
+      "options": [
+        { "id": "a", "label": "Did you see her?", "correct": true, "feedback": "Correcta: *did* + forma base." },
+        { "id": "b", "label": "Did you saw her?", "correct": false, "feedback": "Todavía no: tras *did*, *see*, no *saw*." },
+        { "id": "c", "label": "She didn't came.", "correct": false, "feedback": "Todavía no: tras *didn't*, *come*: *She didn't come*." },
+        { "id": "d", "label": "Were you at home?", "correct": true, "feedback": "Correcta: con *to be*, pregunta con *were*, sin *did*." }
+      ]
+    },
+    {
+      "id": "past-buy",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Escribe el pasado del verbo irregular: **I ______ a new phone last week.** (*buy*, comprar)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Es del grupo de *think – thought* y *bring – brought*.",
+        "Termina en *-ought*."
+      ],
+      "solution": "**bought** /bɔːt/. *Buy* es irregular y pertenece al grupo en *-ought*: *bring – brought*, *think – thought*, *buy – bought*. La *gh* no se pronuncia.",
+      "answers": ["bought"],
+      "feedback": [
+        { "match": "buyed", "message": "Casi: *buy* es irregular: *bought*." },
+        { "match": "buied", "message": "Casi: *buy* es irregular: *bought*." },
+        { "match": "brought", "message": "Casi: *brought* es el pasado de *bring* (traer). El de *buy* es *bought*." },
+        { "match": "bougth", "message": "Casi: el orden de las letras es *-ght*: *bought*." }
+      ]
+    },
+    {
+      "id": "yes-they-did",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa la respuesta corta: **Did your parents like the film? — Yes, they ____.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "La respuesta corta repite el ayudante.",
+        "En pasado, el ayudante es el mismo para todas las personas."
+      ],
+      "solution": "**did** → *Yes, they did.* La respuesta corta repite el ayudante de la pregunta (*did*), no el verbo principal.",
+      "answers": ["did", "Yes, they did"],
+      "feedback": [
+        { "match": "liked", "message": "Casi: la respuesta corta repite el ayudante: *Yes, they did*." },
+        { "match": "were", "message": "Todavía no: la pregunta usa *did*, así que la respuesta también: *Yes, they did*." },
+        { "match": "do", "message": "Casi: es pasado: *Yes, they did*." }
+      ]
+    }
+  ]
+}

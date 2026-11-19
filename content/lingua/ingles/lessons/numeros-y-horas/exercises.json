@@ -1,0 +1,240 @@
+{
+  "lesson": "numeros-y-horas",
+  "exercises": [
+    {
+      "id": "fourteen-o-forty",
+      "type": "choice",
+      "prompt": "Por teléfono oyes un número con la fuerza al **final** y una vocal larga seguida de n: «four-TEEN». ¿Qué número es?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "La terminación *-teen* es larga y acaba en n.",
+        "Las decenas (*-ty*) llevan la fuerza al principio."
+      ],
+      "solution": "**14 (fourteen)**. Los números en *-teen* (13–19) llevan la fuerza al final y una /iː/ larga con n: *four-TEEN*. Las decenas en *-ty* llevan la fuerza al principio y un final corto: *FOR-ty* (40).",
+      "options": [
+        { "id": "a", "label": "14", "correct": true, "feedback": "¡Bien! Fuerza al final y n: *fourteen*." },
+        { "id": "b", "label": "40", "correct": false, "feedback": "Todavía no: *forty* se dice *FOR-ty*, con la fuerza al principio y sin n." },
+        { "id": "c", "label": "4", "correct": false, "feedback": "Todavía no: *four* tiene una sola sílaba." }
+      ]
+    },
+    {
+      "id": "cuarenta-y-siete",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Escribe en palabras: **47**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Primero la decena, después la unidad, unidas con guion.",
+        "Cuidado con la ortografía de 40: no lleva u."
+      ],
+      "solution": "**forty-seven**. La decena y la unidad se unen con guion. *Forty* se escribe sin u, aunque *four* (4) y *fourteen* (14) sí la lleven.",
+      "answers": ["forty-seven", "forty seven"],
+      "feedback": [
+        { "match": "fourty-seven", "message": "Casi: *forty* se escribe sin u: *forty-seven*." },
+        { "match": "fourty seven", "message": "Casi: *forty* se escribe sin u: *forty-seven*." },
+        { "match": "fourteen-seven", "message": "Todavía no: *fourteen* es 14. El 40 es *forty*." }
+      ]
+    },
+    {
+      "id": "trescientos-cincuenta",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Escribe en palabras: **350**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Hundred* no lleva -s detrás de un número.",
+        "En inglés británico se pone *and* entre las centenas y las decenas."
+      ],
+      "solution": "**three hundred and fifty** (británico) o **three hundred fifty** (frecuente en Estados Unidos). *Hundred* va en singular: nunca *three hundreds*.",
+      "answers": ["three hundred and fifty", "three hundred fifty"],
+      "feedback": [
+        { "match": "three hundreds and fifty", "message": "Casi: *hundred* no lleva -s detrás de un número: *three hundred and fifty*." },
+        { "match": "three hundreds fifty", "message": "Casi: *hundred* no lleva -s: *three hundred fifty*." },
+        { "match": "three hundred and fivety", "message": "Casi: 50 es *fifty*, con f." }
+      ]
+    },
+    {
+      "id": "tengo-veinticinco",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Tengo veinticinco años.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "En inglés la edad no se «tiene»: se «es».",
+        "Usa *I'm* + el número, con o sin *years old*."
+      ],
+      "solution": "**I'm twenty-five** (o *I am twenty-five*, *I'm twenty-five years old*). La edad se dice con *to be*. Si añades *years*, tiene que ir con *old*: *twenty-five years old*.",
+      "answers": [
+        "I'm twenty-five",
+        "I am twenty-five",
+        "I'm twenty five",
+        "I am twenty five",
+        "I'm twenty-five years old",
+        "I am twenty-five years old",
+        "I'm twenty five years old",
+        "I am twenty five years old",
+        "I'm 25",
+        "I am 25",
+        "I'm 25 years old",
+        "I am 25 years old"
+      ],
+      "feedback": [
+        { "match": "I have twenty-five years", "message": "Casi: en inglés la edad va con *to be*: *I'm twenty-five*." },
+        { "match": "I have 25 years", "message": "Casi: en inglés la edad va con *to be*: *I'm 25*." },
+        { "match": "I'm twenty-five years", "message": "Casi: o solo el número, o el número con *years old*: *I'm twenty-five years old*." },
+        { "match": "I am 25 years", "message": "Casi: añade *old*: *I am 25 years old*, o deja solo *I am 25*." }
+      ]
+    },
+    {
+      "id": "cuatro-y-cuarto",
+      "type": "choice",
+      "prompt": "Son las **4:15**. ¿Cómo se dice de forma tradicional en inglés británico?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "En la forma tradicional van primero los minutos y después la hora.",
+        "*Past* significa «y»; *to* significa «menos»."
+      ],
+      "solution": "**It's quarter past four.** Primero los minutos (*quarter*), después *past* («y») y por último la hora (*four*). *Quarter to four* serían las 3:45 («las cuatro menos cuarto»). En la forma digital, válida en todas partes, sería *It's four fifteen*.",
+      "options": [
+        { "id": "a", "label": "It's quarter past four.", "correct": true, "feedback": "¡Correcto! Cuarto + *past* + cuatro." },
+        { "id": "b", "label": "It's quarter to four.", "correct": false, "feedback": "Todavía no: eso son las 3:45, «las cuatro menos cuarto»." },
+        { "id": "c", "label": "It's four and quarter.", "correct": false, "feedback": "Todavía no: es un calco del español. Se dice *quarter past four*." },
+        { "id": "d", "label": "They're four and fifteen.", "correct": false, "feedback": "Todavía no: la hora siempre empieza por *It's*, en singular, y no se usa *and*." }
+      ]
+    },
+    {
+      "id": "siete-y-media",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Son las **7:30**. Escribe la hora de la manera **tradicional** (con *past*), empezando por *It's*.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "La media hora es *half*.",
+        "Orden: minutos + *past* + hora."
+      ],
+      "solution": "**It's half past seven.** *Half* (media) + *past* (y) + *seven*. La forma digital equivalente es *It's seven thirty*, que también es correcta, aunque aquí te pedíamos la tradicional.",
+      "answers": ["It's half past seven", "It is half past seven", "half past seven"],
+      "feedback": [
+        { "match": "It's seven and half", "message": "Casi: es un calco de «siete y media». Se dice *It's half past seven*." },
+        { "match": "It's seven and a half", "message": "Casi: es un calco de «siete y media». Se dice *It's half past seven*." },
+        { "match": "It's seven thirty", "message": "Correcto como forma digital, pero aquí se pedía la tradicional con *past*: *It's half past seven*." },
+        { "match": "It's half to seven", "message": "Casi: *to* es «menos». Para «y media» se usa *past*: *half past seven*." }
+      ]
+    },
+    {
+      "id": "ordinal-tercero",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Escribe en palabras el ordinal **3rd**.",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Es uno de los tres ordinales irregulares.",
+        "La abreviatura te da las dos últimas letras: *-rd*."
+      ],
+      "solution": "**third**. Los tres primeros ordinales son irregulares: *first*, *second*, *third*. La abreviatura copia las dos últimas letras: 1st, 2nd, 3rd.",
+      "answers": ["third"],
+      "feedback": [
+        { "match": "threeth", "message": "Casi: es irregular: *third*." },
+        { "match": "three", "message": "Casi: *three* es el número 3. El ordinal es *third*." }
+      ]
+    },
+    {
+      "id": "doce-de-octubre",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Escribe cómo se **dice** la fecha «el 12 de octubre» en inglés, en palabras (británico o estadounidense).",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Las fechas usan ordinales.",
+        "El ordinal de 12 cambia la v por f: *twel…*"
+      ],
+      "solution": "**the twelfth of October** (británico) o **October twelfth** (estadounidense). El ordinal de *twelve* es *twelfth*: la *ve* se convierte en *f* y se añade *th*. Y *October* lleva mayúscula.",
+      "answers": ["the twelfth of October", "twelfth of October", "October the twelfth", "October twelfth", "October 12th", "the 12th of October", "12th October"],
+      "feedback": [
+        { "match": "the twelve of October", "message": "Casi: las fechas usan ordinales: *the twelfth of October*." },
+        { "match": "October twelve", "message": "Casi: las fechas usan ordinales: *October twelfth*." },
+        { "match": "the twelveth of October", "message": "Casi: la v cambia a f: *twelfth*." }
+      ]
+    },
+    {
+      "id": "fecha-estadounidense",
+      "type": "choice",
+      "prompt": "Un correo de una empresa de Estados Unidos dice: *The meeting is on 03/04/2027.* ¿Qué día es la reunión?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "En Estados Unidos el orden de las cifras no es día/mes/año.",
+        "Allí el mes va primero."
+      ],
+      "solution": "**El 4 de marzo de 2027.** En Estados Unidos el orden es mes/día/año, así que 03/04 es *March fourth*. En el Reino Unido (y en el mundo hispano), 03/04 sería el 3 de abril. Por eso, en correos internacionales, es mejor escribir el mes en letras.",
+      "options": [
+        { "id": "a", "label": "El 3 de abril de 2027", "correct": false, "feedback": "Así lo leerían en el Reino Unido o en España, pero en Estados Unidos el mes va primero." },
+        { "id": "b", "label": "El 4 de marzo de 2027", "correct": true, "feedback": "¡Exacto! Mes/día/año: *March 4, 2027*." }
+      ]
+    },
+    {
+      "id": "cuanto-cuesta",
+      "type": "text",
+      "lang": "en",
+      "prompt": "En una tienda señalas una camiseta. Pregunta: **¿Cuánto cuesta?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Para precios se usa *How much…?*",
+        "Después va *is* + *it*, *this* o *that*."
+      ],
+      "solution": "**How much is it?** (o *How much is this?*, *How much is that?*). Para algo en plural: *How much are they?* También existe *How much does it cost?*, que usa el verbo *cost*.",
+      "answers": ["How much is it", "How much is this", "How much is that", "How much does it cost", "How much does this cost", "How much is this one", "How much is that one", "How much is this T-shirt", "How much is the T-shirt"],
+      "feedback": [
+        { "match": "How many is it", "message": "Casi: para precios se usa *much*: *How much is it?*" },
+        { "match": "How much costs", "message": "Casi: di *How much is it?* o *How much does it cost?*" },
+        { "match": "How much it is", "message": "Casi: en la pregunta, *is* va delante de *it*: *How much is it?*" }
+      ]
+    },
+    {
+      "id": "leer-precio",
+      "type": "choice",
+      "prompt": "¿Cómo se lee el precio **£2.50**?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Al escribir, el símbolo va delante; al hablar, el nombre de la moneda va detrás del número entero.",
+        "Los peniques se dicen al final, a menudo sin la palabra *pence*."
+      ],
+      "solution": "**two pounds fifty**. Al hablar, primero las libras con su nombre (*two pounds*) y luego los peniques (*fifty*), normalmente sin repetir *pence*. En un mercado oirás también la versión rápida *two fifty*.",
+      "options": [
+        { "id": "a", "label": "two pounds fifty", "correct": true, "feedback": "¡Bien! Libras y después peniques." },
+        { "id": "b", "label": "pounds two fifty", "correct": false, "feedback": "Todavía no: al escribir el símbolo va delante, pero al hablar la moneda va detrás del número." },
+        { "id": "c", "label": "two point fifty pounds", "correct": false, "feedback": "Todavía no: los precios no se leen con *point*. Se dice *two pounds fifty*." },
+        { "id": "d", "label": "two and fifty pounds", "correct": false, "feedback": "Todavía no: en los precios no se usa *and* así. Se dice *two pounds fifty*." }
+      ]
+    },
+    {
+      "id": "hoy-es-miercoles",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Hoy es miércoles.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«Hoy» es *today*.",
+        "Los días de la semana llevan mayúscula. Y cuidado con la ortografía de miércoles: *Wed…*"
+      ],
+      "solution": "**Today is Wednesday** (o *It's Wednesday today*, *It's Wednesday*). Recuerda: *Wednesday* lleva mayúscula, se escribe con una d después de *We-* que no se pronuncia (/ˈwenzdeɪ/).",
+      "answers": ["Today is Wednesday", "Today's Wednesday", "It's Wednesday today", "It is Wednesday today", "It's Wednesday", "It is Wednesday"],
+      "feedback": [
+        { "match": "Today is Wensday", "message": "Casi: suena «wensdei», pero se escribe *Wednesday*." },
+        { "match": "Today is Wenesday", "message": "Casi: se escribe *Wednesday*, con una d muda." },
+        { "match": "Is Wednesday", "message": "Casi: falta el sujeto: *Today is Wednesday* o *It's Wednesday*." }
+      ]
+    }
+  ]
+}

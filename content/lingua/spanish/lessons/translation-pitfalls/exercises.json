@@ -1,0 +1,255 @@
+{
+  "lesson": "translation-pitfalls",
+  "exercises": [
+    {
+      "id": "embarazada",
+      "type": "choice",
+      "prompt": "An English-speaking student tells her host family: *¡Estoy muy embarazada!* What have they understood?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "That she is very pregnant.", "correct": true, "feedback": "Yes — *embarazada* means pregnant. The most famous false friend of all." },
+        { "id": "b", "label": "That she is very embarrassed.", "correct": false, "feedback": "Not yet — that's what she meant, not what she said. 'Embarrassed' is *avergonzada*, or *me da vergüenza*." },
+        { "id": "c", "label": "That she is very busy.", "correct": false, "feedback": "Not yet — busy is *ocupada*." },
+        { "id": "d", "label": "That she is lost.", "correct": false, "feedback": "Not yet — lost is *perdida*." }
+      ],
+      "hints": [
+        "This is the classic false friend.",
+        "Think of *el embarazo*, which a doctor would ask about."
+      ],
+      "solution": "**Pregnant.** *Estar embarazada* = to be pregnant (*el embarazo* = pregnancy). For embarrassment: *Me da mucha vergüenza*, *Estoy muy avergonzada*, or in Mexico and parts of Central America and Colombia, *Me da mucha pena*."
+    },
+    {
+      "id": "so-embarrassed",
+      "type": "text",
+      "prompt": "Translate idiomatically into Spanish:\n\n*I was so embarrassed!*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "me dio mucha vergüenza",
+        "me dio muchísima vergüenza",
+        "me dio tanta vergüenza",
+        "qué vergüenza pasé",
+        "pasé mucha vergüenza",
+        "pasé muchísima vergüenza",
+        "pasé tanta vergüenza",
+        "me sentí muy avergonzado",
+        "me sentí muy avergonzada",
+        "estaba muy avergonzado",
+        "estaba muy avergonzada",
+        "me sentí tan avergonzado",
+        "me sentí tan avergonzada",
+        "me dio mucha pena",
+        "me dio tanta pena",
+        "qué vergüenza"
+      ],
+      "feedback": [
+        { "match": "estaba muy embarazada", "message": "Not yet — that means 'I was very pregnant'. The idea of embarrassment uses *vergüenza*." },
+        { "match": "estaba tan embarazada", "message": "Not yet — *embarazada* means pregnant. Try *vergüenza* or *avergonzado/a*." }
+      ],
+      "hints": [
+        "The key noun is *vergüenza*.",
+        "*Me dio…* or *Pasé…* + *mucha / tanta vergüenza*."
+      ],
+      "solution": "**¡Me dio mucha vergüenza!** (also *¡Pasé mucha vergüenza!*, *¡Me sentí muy avergonzado/a!*, *¡Qué vergüenza!*; in Mexico, parts of Central America and Colombia, *¡Me dio mucha pena!*). Spanish often expresses the feeling with *dar* + noun rather than an adjective."
+    },
+    {
+      "id": "library",
+      "type": "text",
+      "prompt": "Translate into Spanish:\n\n*I study at the library every afternoon.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "estudio en la biblioteca todas las tardes",
+        "todas las tardes estudio en la biblioteca",
+        "estudio todas las tardes en la biblioteca",
+        "estudio en la biblioteca cada tarde",
+        "cada tarde estudio en la biblioteca"
+      ],
+      "feedback": [
+        { "match": "estudio en la librería todas las tardes", "message": "Not yet — *la librería* is a bookshop. A library is *la biblioteca*." }
+      ],
+      "hints": [
+        "*La librería* is where you buy books.",
+        "Where do you borrow them?"
+      ],
+      "solution": "**Estudio en la biblioteca todas las tardes.** *La biblioteca* = library; *la librería* = bookshop (*el librero* sells books; *la estantería* or, in some countries, *el librero* is a bookcase). Note also *at the library* → *en la biblioteca*."
+    },
+    {
+      "id": "actualmente",
+      "type": "choice",
+      "prompt": "What does *Actualmente vive en Quito* mean?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "She currently lives in Quito.", "correct": true, "feedback": "Yes — *actualmente* = at present, currently." },
+        { "id": "b", "label": "Actually, she lives in Quito.", "correct": false, "feedback": "Not yet — 'actually' is *en realidad* or *de hecho*." },
+        { "id": "c", "label": "She really lives in Quito.", "correct": false, "feedback": "Not yet — 'really' would be *de verdad* or *realmente*." }
+      ],
+      "hints": [
+        "*Actual* in Spanish means 'current'.",
+        "Think of *la situación actual*."
+      ],
+      "solution": "**She currently lives in Quito.** *Actual* = current, *actualmente* = currently, *actualizar* = to update. For English 'actually', use *en realidad*, *de hecho* or *la verdad es que*."
+    },
+    {
+      "id": "makes-sense",
+      "type": "text",
+      "prompt": "Translate without the calque:\n\n*That makes sense.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["eso tiene sentido", "tiene sentido", "eso tiene lógica", "tiene lógica"],
+      "feedback": [
+        { "match": "eso hace sentido", "message": "Not yet — *hacer sentido* is a calque of English 'make sense'. Spanish uses a different verb: *tener*." },
+        { "match": "hace sentido", "message": "Not yet — that's a calque. Spanish says *tener sentido*." }
+      ],
+      "hints": [
+        "Spanish doesn't *make* sense; it *has* it.",
+        "*tener* + *sentido*"
+      ],
+      "solution": "**Eso tiene sentido.** The English 'make sense' is *tener sentido* in Spanish; *hacer sentido* is a calque heard in the US and elsewhere, avoided in careful Spanish. The negative: *No tiene sentido* — it makes no sense, or there's no point."
+    },
+    {
+      "id": "apply-for",
+      "type": "text",
+      "prompt": "Complete with a verb meaning 'to apply for' — avoid the calque:\n\n*Voy a ______ el puesto de traductora en la embajada.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["solicitar"],
+      "feedback": [
+        { "match": "aplicar para", "message": "Not yet — *aplicar para* is a calque of 'apply for'. Use *solicitar* (or, with a preposition, *postularme al* / *presentarme al*)." },
+        { "match": "aplicar a", "message": "Heard in parts of Latin America, but careful Spanish prefers *solicitar*. Here the gap takes a verb with a direct object." }
+      ],
+      "hints": [
+        "The verb is formal and takes a direct object.",
+        "It's the verb in *una solicitud* (an application)."
+      ],
+      "solution": "**solicitar.** *Voy a solicitar el puesto.* Alternatives with a different structure: *Voy a postularme al puesto* (common in Latin America) or *Voy a presentarme al puesto* / *presentar mi candidatura*. *Aplicar* in Spanish means to apply a rule, a cream or a method — not to apply for a job, in careful usage."
+    },
+    {
+      "id": "depender-de",
+      "type": "choice",
+      "prompt": "Choose the preposition:\n\n*Todo depende ______ lo que decida el comité.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "de", "correct": true, "feedback": "Yes — *depender de*." },
+        { "id": "b", "label": "en", "correct": false, "feedback": "Not yet — *depender en* is a calque of 'depend on'." },
+        { "id": "c", "label": "sobre", "correct": false, "feedback": "Not yet — 'on' isn't *sobre* here." },
+        { "id": "d", "label": "a", "correct": false, "feedback": "Not yet — *depender* takes another preposition." }
+      ],
+      "hints": [
+        "The English 'on' misleads here.",
+        "Think of *dependiente de* (dependent on)."
+      ],
+      "solution": "**de.** *Depender de* — *Depende de ti* (it's up to you). Learn prepositions with their verbs: *consistir en*, *soñar con*, *enamorarse de*, *casarse con*, *pensar en*, *insistir en*."
+    },
+    {
+      "id": "dreamt-of-you",
+      "type": "text",
+      "prompt": "Translate into Spanish (to a friend, *tú*):\n\n*I dreamt about you.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["soñé contigo", "he soñado contigo", "yo soñé contigo", "yo he soñado contigo", "te soñé"],
+      "feedback": [
+        { "match": "soñé de ti", "message": "Not yet — Spanish dreams *with* someone: *soñar con*. And *con* + *ti* becomes *contigo*." },
+        { "match": "soñé sobre ti", "message": "Not yet — *soñar* takes *con*: *soñé contigo*." },
+        { "match": "soñé con ti", "message": "Almost — *con* + *ti* fuses into one word: *contigo*." }
+      ],
+      "hints": [
+        "*Soñar* takes the preposition *con*.",
+        "*con* + *ti* = one word."
+      ],
+      "solution": "**Soñé contigo** (or *He soñado contigo*). *Soñar con* = to dream about/of; *con* + *ti* = *contigo*, *con* + *mí* = *conmigo*. *Te soñé* also exists, more literary or regional."
+    },
+    {
+      "id": "gerund-adjective",
+      "type": "choice",
+      "prompt": "Which is the correct translation of *a box containing old letters*?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "una caja que contiene cartas antiguas", "correct": true, "feedback": "Yes — a relative clause does the adjective's job." },
+        { "id": "b", "label": "una caja conteniendo cartas antiguas", "correct": false, "feedback": "Not yet — the Spanish gerund isn't an adjective. This is a common calque in administrative writing." },
+        { "id": "c", "label": "una caja contenida de cartas antiguas", "correct": false, "feedback": "Not yet — *contenida* is a participle meaning 'held back, restrained', and it doesn't fit here." },
+        { "id": "d", "label": "una caja conteniente cartas antiguas", "correct": false, "feedback": "Not yet — *conteniente* isn't used like this." }
+      ],
+      "hints": [
+        "Can a Spanish gerund modify a noun like an adjective?",
+        "Use a relative clause — or simply *con*."
+      ],
+      "solution": "**una caja que contiene cartas antiguas** (or simply *una caja con cartas antiguas*). The Spanish gerund is adverbial; when English *-ing* describes a noun, Spanish uses a relative clause. Fixed exceptions: *agua hirviendo*, *una casa ardiendo*."
+    },
+    {
+      "id": "gerund-posterior",
+      "type": "choice",
+      "prompt": "A news report says: *El conductor se dio a la fuga, siendo detenido dos horas después.* How should it be corrected?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "El conductor se dio a la fuga y fue detenido dos horas después.", "correct": true, "feedback": "Yes — two successive actions, joined by *y*." },
+        { "id": "b", "label": "El conductor, siendo detenido dos horas después, se dio a la fuga.", "correct": false, "feedback": "Not yet — moving the gerund doesn't fix it: the arrest still comes after the escape." },
+        { "id": "c", "label": "It's correct as it is.", "correct": false, "feedback": "Not yet — the gerund here describes a *later* action, which the norm rejects." },
+        { "id": "d", "label": "El conductor se dio a la fuga, detenido siendo dos horas después.", "correct": false, "feedback": "Not yet — this is ungrammatical." }
+      ],
+      "hints": [
+        "Does the gerund describe something simultaneous, or something that happened afterwards?",
+        "Use a finite verb for the later action."
+      ],
+      "solution": "**…se dio a la fuga y fue detenido dos horas después.** The 'gerund of posteriority' is a classic error of journalistic prose: the Spanish gerund should express an action simultaneous with or prior to the main verb. For a later action, use a coordinated finite verb."
+    },
+    {
+      "id": "cats-and-dogs",
+      "type": "text",
+      "prompt": "Translate idiomatically into Spanish:\n\n*It's raining cats and dogs.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": [
+        "llueve a cántaros",
+        "está lloviendo a cántaros",
+        "llueve a mares",
+        "está lloviendo a mares",
+        "está diluviando",
+        "diluvia",
+        "caen chuzos de punta",
+        "están cayendo chuzos de punta",
+        "está cayendo un aguacero",
+        "está lloviendo muchísimo",
+        "llueve muchísimo"
+      ],
+      "feedback": [
+        { "match": "está lloviendo gatos y perros", "message": "Not yet — a word-for-word translation of the idiom. Spanish rain comes in jugs: *a cántaros*." },
+        { "match": "llueve gatos y perros", "message": "Not yet — that's the English image. Spanish says *llueve a cántaros*." }
+      ],
+      "hints": [
+        "Spanish pictures the rain pouring from jugs (*cántaros*).",
+        "*Llueve a …*"
+      ],
+      "solution": "**Llueve a cántaros** (also *está diluviando*, *llueve a mares*, and in Spain *caen chuzos de punta*). The idiom is translated by function: find the expression a native speaker would use in the same weather."
+    },
+    {
+      "id": "ponerse-las-pilas",
+      "type": "choice",
+      "prompt": "Your Spanish teacher says: *Si quieres aprobar el DELE, ponte las pilas.* What is the best English translation?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "If you want to pass the DELE, get your act together.", "correct": true, "feedback": "Yes — *ponerse las pilas* (literally 'put your batteries in') means to get going, get serious." },
+        { "id": "b", "label": "If you want to pass the DELE, charge your batteries.", "correct": false, "feedback": "Not yet — 'recharge your batteries' means to rest; the Spanish means the opposite." },
+        { "id": "c", "label": "If you want to pass the DELE, take your pills.", "correct": false, "feedback": "Not yet — *pilas* are batteries, not pills (*pastillas*)." },
+        { "id": "d", "label": "If you want to pass the DELE, pile up your books.", "correct": false, "feedback": "Not yet — *pila* can mean pile, but the idiom is about energy and effort." }
+      ],
+      "hints": [
+        "*Pilas* are batteries. What happens when a toy gets new batteries?",
+        "The English equivalent is about getting organised and serious."
+      ],
+      "solution": "**…get your act together.** *Ponerse las pilas* = to get going, buckle down. Note how the 'battery' image in English ('recharge your batteries') means nearly the opposite: false friends exist among idioms too."
+    }
+  ]
+}

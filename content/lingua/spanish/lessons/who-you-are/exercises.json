@@ -1,0 +1,224 @@
+{
+  "lesson": "who-you-are",
+  "exercises": [
+    {
+      "id": "you-all-mexico",
+      "type": "choice",
+      "prompt": "Daniela, in Guadalajara (Mexico), turns to her two best friends and asks where they're from. Which pronoun does she use for \"you all\"?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "She is in Latin America.",
+        "In Latin America one word covers every \"you all\", formal or informal."
+      ],
+      "options": [
+        { "id": "a", "label": "ustedes", "correct": true, "feedback": "Yes. In Latin America *ustedes* is used for any group, friends included." },
+        { "id": "b", "label": "vosotros", "correct": false, "feedback": "Not yet — *vosotros* is the informal plural in most of Spain, not in Mexico." },
+        { "id": "c", "label": "ellos", "correct": false, "feedback": "Not yet — *ellos* means \"they\": she would be talking *about* her friends, not to them." },
+        { "id": "d", "label": "nosotros", "correct": false, "feedback": "Not yet — *nosotros* means \"we\"." }
+      ],
+      "solution": "**Ustedes.** Across Latin America, *ustedes* is the only plural \"you\", used with friends and strangers alike: *¿De dónde son ustedes?* A speaker from most of Spain would say *vosotros* to friends: *¿De dónde sois?*"
+    },
+    {
+      "id": "ser-nosotros",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Fill the gap with the right form of **ser**: *Nosotros ___ de Chile.* (Type only the missing word.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Nosotros* is \"we\".",
+        "The \"we\" form of *ser* ends in -mos."
+      ],
+      "answers": ["somos"],
+      "feedback": [
+        { "match": "son", "message": "Almost — *son* is \"they are\" or \"you all are\". For \"we are\", use *somos*." },
+        { "match": "sois", "message": "Almost — *sois* goes with *vosotros*. For *nosotros*, use *somos*." }
+      ],
+      "solution": "**somos**: *Nosotros somos de Chile* (We are from Chile). The full present of *ser*: *soy, eres, es, somos, sois, son*."
+    },
+    {
+      "id": "ser-ellas",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Fill the gap with the right form of **ser**: *Ellas ___ médicas.* (Type only the missing word.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Ellas* means \"they\" (all female).",
+        "It's the same form as for *ustedes*."
+      ],
+      "answers": ["son"],
+      "feedback": [
+        { "match": "es", "message": "Almost — *es* is singular (he, she, you formal). *Ellas* is plural, so use *son*." }
+      ],
+      "solution": "**son**: *Ellas son médicas* (They are doctors). *Ellos, ellas* and *ustedes* all share the form *son*. Notice that *médicas* agrees with *ellas*: feminine and plural."
+    },
+    {
+      "id": "from-mexico",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate into Spanish: **I'm from Mexico.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Use *ser* + *de* + the country.",
+        "The \"I\" form of *ser* is *soy*. *México* has an accent."
+      ],
+      "answers": ["Soy de México", "Yo soy de México"],
+      "feedback": [
+        { "match": "estoy de México", "message": "Not yet — origin uses *ser*, not *estar*: *Soy de México*." },
+        { "match": "soy desde México", "message": "Almost — \"from\" a place is just *de*: *Soy de México*." }
+      ],
+      "solution": "**Soy de México** (or *Yo soy de México*, with emphasis on \"I\"). Origin takes *ser* + *de*. Remember the *x* in *México* sounds like the Spanish *j*: \"MEH-hee-koh\"."
+    },
+    {
+      "id": "feminine-espanol",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Lucía is from Spain. Complete: *Lucía es ___.* (Type only the nationality.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The masculine form is *español*, which ends in a consonant.",
+        "For a consonant ending, add -a for the feminine. Use a small letter."
+      ],
+      "answers": ["española"],
+      "feedback": [
+        { "match": "español", "message": "Almost — *español* is masculine. Lucía is a woman, so add -a: *española*." },
+        { "match": "españa", "message": "Not yet — *España* is the country. The nationality is *español*, *española*." }
+      ],
+      "solution": "**española.** Nationalities ending in a consonant add -a in the feminine: *español → española*, *inglés → inglesa*, *alemán → alemana*. And unlike English, Spanish writes nationalities with a small letter."
+    },
+    {
+      "id": "she-is-a-nurse",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate into Spanish: **She's a nurse.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Use *ser*: the form for *ella* is *es*.",
+        "With a bare profession after *ser*, Spanish leaves out \"a\". The profession agrees with her: *enfermera*."
+      ],
+      "answers": ["Es enfermera", "Ella es enfermera"],
+      "feedback": [
+        { "match": "Es una enfermera", "message": "Almost — with a bare profession after *ser*, Spanish drops the article: *Es enfermera*." },
+        { "match": "Ella es una enfermera", "message": "Almost — with a bare profession after *ser*, Spanish drops the article: *Ella es enfermera*." },
+        { "match": "Es enfermero", "message": "Almost — *enfermero* is a male nurse. For \"she\", use *enfermera*." },
+        { "match": "Ella es enfermero", "message": "Almost — *enfermero* is a male nurse. For \"she\", use *enfermera*." }
+      ],
+      "solution": "**Es enfermera** (or *Ella es enfermera*). Three things happen: *ser* in the *ella* form (*es*), the feminine profession (*enfermera*), and **no article** before a bare profession, unlike English \"a nurse\"."
+    },
+    {
+      "id": "masculine-nouns",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Which of these nouns are **masculine**? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Some very common nouns break the -o / -a pattern.",
+        "Two of these end in -a but are masculine; one ends in -o but is feminine."
+      ],
+      "options": [
+        { "id": "a", "label": "día (day)", "correct": true, "feedback": "Yes: *el día*, an exception to the -a pattern." },
+        { "id": "b", "label": "mapa (map)", "correct": true, "feedback": "Yes: *el mapa*, another exception." },
+        { "id": "c", "label": "mano (hand)", "correct": false, "feedback": "Not this one — *la mano* is feminine, despite the -o." },
+        { "id": "d", "label": "ciudad (city)", "correct": false, "feedback": "Not this one — words in -dad are feminine: *la ciudad*." }
+      ],
+      "solution": "**el día** and **el mapa** are masculine, although they end in -a; **la mano** is feminine although it ends in -o; and **la ciudad** is feminine, as are all nouns ending in -dad. This is why it pays to learn each noun with its article."
+    },
+    {
+      "id": "plural-profesor-ingles",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Make this plural: *el profesor inglés* (the English teacher) → ___",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "All three words change: the article, the noun and the nationality.",
+        "Words ending in a consonant add -es. Check whether *ingleses* still needs its accent."
+      ],
+      "answers": ["los profesores ingleses"],
+      "feedback": [
+        { "match": "los profesores inglés", "message": "Almost — the nationality agrees too: *ingleses*." },
+        { "match": "los profesores ingléses", "message": "Almost — *ingleses* ends in -s and is stressed on the second-to-last syllable, so it needs no written accent." },
+        { "match": "las profesores ingleses", "message": "Almost — *profesores* is masculine, so the article is *los*." }
+      ],
+      "solution": "**los profesores ingleses.** *el → los*; *profesor* ends in a consonant, so *-es*: *profesores*; *inglés* also adds *-es*, and the written accent disappears because *ingleses* (in-GLE-ses) now follows the normal stress rule."
+    },
+    {
+      "id": "not-students",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate into Spanish: **We aren't students.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Put *no* directly before the verb.",
+        "\"We are\" is *somos*; *estudiante* has one form for men and women, and its plural adds -s."
+      ],
+      "answers": ["No somos estudiantes", "Nosotros no somos estudiantes", "Nosotras no somos estudiantes"],
+      "feedback": [
+        { "match": "Somos no estudiantes", "message": "Almost — *no* goes before the verb: *No somos estudiantes*." },
+        { "match": "No somos los estudiantes", "message": "Almost — that would be \"We aren't *the* students\". With a bare profession or role after *ser*, leave out the article." }
+      ],
+      "solution": "**No somos estudiantes** (or *Nosotros/Nosotras no somos estudiantes*). *No* goes immediately before the verb, and there is no article before *estudiantes*."
+    },
+    {
+      "id": "where-from-formal",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Ask an older stranger, politely: **Where are you from?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Use *usted*, which takes the same verb form as *él* and *ella*.",
+        "The preposition goes first: *¿De dónde…?*"
+      ],
+      "answers": ["De dónde es usted", "De dónde es", "Usted de dónde es"],
+      "feedback": [
+        { "match": "De dónde eres", "message": "That's the informal question, with *tú*. With an older stranger, use *usted*: *¿De dónde es usted?*" },
+        { "match": "Dónde es usted de", "message": "Almost — Spanish never puts the preposition at the end. It goes first: *¿De dónde es usted?*" }
+      ],
+      "solution": "**¿De dónde es usted?** *Usted* takes the third-person form *es*, and *de* comes at the start of the question, never at the end as in English \"Where are you from?\". *Dónde* has an accent because it is a question word."
+    },
+    {
+      "id": "correct-sentence",
+      "type": "choice",
+      "prompt": "Which sentence is correct for \"They (two women) are Canadian\"?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Check three things: the verb, the ending of the nationality, and the capital letter.",
+        "Nationalities ending in -e don't change for gender."
+      ],
+      "options": [
+        { "id": "a", "label": "Ellas son canadienses.", "correct": true, "feedback": "Yes: plural verb, -e nationality with only -s added, small letter." },
+        { "id": "b", "label": "Ellas son canadiensas.", "correct": false, "feedback": "Not yet — *canadiense* ends in -e and has the same form for men and women; the plural just adds -s." },
+        { "id": "c", "label": "Ellas es canadienses.", "correct": false, "feedback": "Not yet — *es* is singular; *ellas* needs *son*." },
+        { "id": "d", "label": "Ellas son Canadienses.", "correct": false, "feedback": "Not yet — in Spanish, nationalities take a small letter." }
+      ],
+      "solution": "**Ellas son canadienses.** *Ellas* takes *son*; *canadiense* ends in -e, so it is the same for men and women and only adds -s in the plural; and nationalities are not capitalised in Spanish."
+    },
+    {
+      "id": "negative-answer",
+      "type": "choice",
+      "prompt": "A classmate asks *¿Eres de Argentina?* You're not. Which answer is natural and correct?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*No* goes right before the verb.",
+        "It's normal to say *no* twice: once as the answer, once to make the verb negative."
+      ],
+      "options": [
+        { "id": "a", "label": "No, no soy de Argentina.", "correct": true, "feedback": "Yes: the first *no* answers the question, the second negates *soy*." },
+        { "id": "b", "label": "No, soy no de Argentina.", "correct": false, "feedback": "Not yet — *no* goes before the verb, not after it." },
+        { "id": "c", "label": "No, no eres de Argentina.", "correct": false, "feedback": "Not yet — *eres* means \"you are\". Answering about yourself, use *soy*." },
+        { "id": "d", "label": "No, no estoy de Argentina.", "correct": false, "feedback": "Not yet — origin uses *ser*: *soy de…*" }
+      ],
+      "solution": "**No, no soy de Argentina.** The first *no* is the answer; the second, placed right before the verb, makes the sentence negative. The question used *eres* (you are), so the answer switches to *soy* (I am)."
+    }
+  ]
+}

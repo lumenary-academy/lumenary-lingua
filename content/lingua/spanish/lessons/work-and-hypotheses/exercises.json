@@ -1,0 +1,345 @@
+{
+  "lesson": "work-and-hypotheses",
+  "exercises": [
+    {
+      "id": "tener-conditional",
+      "type": "text",
+      "prompt": "Give the conditional of *tener* for *yo*: *Con más dinero, ___ un coche eléctrico.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "tendría"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Tener* is irregular in the future and the conditional.",
+        "Its stem is *tendr-*; add the ending *-ía*."
+      ],
+      "solution": "*Tener* uses the same irregular stem as in the future, **tendr-**, plus the conditional ending *-ía*: **tendría**. *Con más dinero, tendría un coche eléctrico.* (With more money, I'd have an electric car.)",
+      "feedback": [
+        {
+          "match": "tenería",
+          "message": "Almost — *tener* has an irregular stem in the conditional: *tendr-*, so *tendría*."
+        },
+        {
+          "match": "tendria",
+          "message": "Almost — the conditional carries an accent on the *í*: *tendría*."
+        }
+      ]
+    },
+    {
+      "id": "could-you-repeat",
+      "type": "text",
+      "prompt": "Make the request polite with the conditional of *poder*: *¿___ usted repetir la pregunta?*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "podría"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Poder* has an irregular stem in the conditional.",
+        "The stem is *podr-*; *usted* takes the third person singular ending *-ía*."
+      ],
+      "solution": "*Poder* drops the *e* of its infinitive in the future and conditional: **podr-**. With *usted* (third person singular) the ending is *-ía*: ***¿Podría** usted repetir la pregunta?* The conditional makes it as polite as English \"Could you…?\"",
+      "feedback": [
+        {
+          "match": "puede",
+          "message": "That's correct Spanish, but it's the plain present. The conditional, *podría*, is more polite."
+        },
+        {
+          "match": "podería",
+          "message": "Almost — the conditional stem of *poder* is *podr-*: *podría*."
+        }
+      ]
+    },
+    {
+      "id": "if-i-were-you-talk",
+      "type": "text",
+      "prompt": "Complete the advice with the conditional of *hablar*: *Yo que tú, ___ con la jefa antes de la reunión.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "hablaría"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Yo que tú* (if I were you) is followed by the conditional.",
+        "Regular verbs keep the whole infinitive and add *-ía*."
+      ],
+      "solution": "*Yo que tú* introduces what you would do in the other person's place, so the verb is in the **conditional**, first person: *hablar* + *-ía* = **hablaría**. *Yo que tú, hablaría con la jefa antes de la reunión.*",
+      "feedback": [
+        {
+          "match": "hablaré",
+          "message": "Not yet — that's the future. *Yo que tú* needs the conditional: *hablaría*."
+        },
+        {
+          "match": "hablaria",
+          "message": "Almost — remember the accent: *hablaría*."
+        }
+      ]
+    },
+    {
+      "id": "would-as-habit",
+      "type": "choice",
+      "prompt": "Translate: *When I was little, I would walk to school with my brother.* Which is right?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "De pequeño, caminaría a la escuela con mi hermano.",
+          "correct": false,
+          "feedback": "Not yet — here \"would\" describes a past habit, not a hypothesis, so Spanish uses the imperfect."
+        },
+        {
+          "id": "b",
+          "label": "De pequeño, caminaba a la escuela con mi hermano.",
+          "correct": true,
+          "feedback": "Yes. \"Would\" for a repeated action in the past is the imperfect in Spanish."
+        },
+        {
+          "id": "c",
+          "label": "De pequeño, caminé a la escuela con mi hermano.",
+          "correct": false,
+          "feedback": "Not yet — the preterite presents it as a single event. A childhood habit takes the imperfect."
+        }
+      ],
+      "hints": [
+        "Is this \"would\" imagining something, or describing what used to happen?",
+        "Past habits take the imperfect."
+      ],
+      "solution": "English *would* has two jobs. Here it describes a **past habit** (\"used to\"), and past habits in Spanish take the **imperfect**: *De pequeño, **caminaba** a la escuela con mi hermano.* The conditional (*caminaría*) is only for imagined or future-in-the-past actions."
+    },
+    {
+      "id": "thanks-for-help",
+      "type": "choice",
+      "prompt": "Complete: *Muchas gracias ___ tu ayuda con la mudanza.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "por",
+          "correct": true,
+          "feedback": "Yes. Your help is the reason for my thanks, and reasons take *por*."
+        },
+        {
+          "id": "b",
+          "label": "para",
+          "correct": false,
+          "feedback": "Not yet — *para* looks ahead to a goal or recipient. Thanks are given *por* something."
+        }
+      ],
+      "hints": [
+        "Is the help a goal ahead of you, or the reason behind your thanks?",
+        "*Gracias* and *perdón* always go with the same preposition."
+      ],
+      "solution": "We thank someone **because of** what they did, and cause takes **por**: *Muchas gracias **por** tu ayuda.* The same goes for apologies: *Perdón por el retraso.*"
+    },
+    {
+      "id": "deadline-monday",
+      "type": "choice",
+      "prompt": "Complete: *Necesito el informe ___ el lunes.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "para",
+          "correct": true,
+          "feedback": "Yes. A deadline is a point ahead of you, so it takes *para*."
+        },
+        {
+          "id": "b",
+          "label": "por",
+          "correct": false,
+          "feedback": "Not yet — *por el lunes* would suggest \"around Monday\" or \"because of Monday\". A deadline takes *para*."
+        }
+      ],
+      "hints": [
+        "Is Monday a deadline (by Monday) or a reason?",
+        "*Para* looks ahead to a goal or a deadline."
+      ],
+      "solution": "*Para* + a date or time gives a **deadline**: *Necesito el informe **para** el lunes* = I need the report by Monday. *Por* with time expressions means an approximate time or part of the day (*por la tarde, por julio*)."
+    },
+    {
+      "id": "price-ten",
+      "type": "choice",
+      "prompt": "Complete: *Compré esta chaqueta ___ treinta dólares en el mercado.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "para",
+          "correct": false,
+          "feedback": "Not yet — *para* would suggest a purpose or recipient. A price is an exchange."
+        },
+        {
+          "id": "b",
+          "label": "por",
+          "correct": true,
+          "feedback": "Yes. Price and exchange take *por*: you swapped thirty dollars for the jacket."
+        }
+      ],
+      "hints": [
+        "Think of the money and the jacket changing places.",
+        "Exchange and price take one of the two."
+      ],
+      "solution": "A price is an **exchange**: money for an object. Exchange takes **por**: *Compré esta chaqueta **por** treinta dólares.* The same idea appears in *cambiar una cosa por otra* (to swap one thing for another)."
+    },
+    {
+      "id": "translate-like-to-speak",
+      "type": "text",
+      "prompt": "Translate politely into Spanish: *I would like to speak with the manager.* (Use *el gerente* or *la gerente*.)",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "me gustaría hablar con el gerente",
+        "me gustaría hablar con la gerente",
+        "quisiera hablar con el gerente",
+        "quisiera hablar con la gerente",
+        "yo quisiera hablar con el gerente",
+        "yo quisiera hablar con la gerente",
+        "querría hablar con el gerente",
+        "querría hablar con la gerente"
+      ],
+      "lang": "es",
+      "hints": [
+        "Use the conditional of *gustar*, with *me*.",
+        "*Me gustaría* + infinitive. Alternatives: *quisiera*, *querría*."
+      ],
+      "solution": "\"I would like\" is ***me gustaría***, the conditional of *gustar* (it would please me), followed by the infinitive: ***Me gustaría hablar con el gerente*** (or *la gerente*). *Quisiera hablar con el gerente* is just as polite and very common. *Querría* is correct too but less frequent.",
+      "feedback": [
+        {
+          "match": "me gustaría hablar con gerente",
+          "message": "Almost — Spanish needs the article here: *con el gerente* or *con la gerente*."
+        },
+        {
+          "match": "quiero hablar con el gerente",
+          "message": "That's correct Spanish, but it is direct rather than polite. Try the conditional: *me gustaría* or *quisiera*."
+        }
+      ]
+    },
+    {
+      "id": "leaving-for-buenos-aires",
+      "type": "text",
+      "prompt": "Fill the gap with *por* or *para*: *Mañana salimos ___ Buenos Aires; llegaremos por la noche.* (Buenos Aires is our destination.)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "para"
+      ],
+      "lang": "es",
+      "hints": [
+        "Is Buenos Aires a place you go through, or where you're heading?",
+        "Destination takes *para*."
+      ],
+      "solution": "Buenos Aires is the **destination**, so it takes **para**: *Mañana salimos **para** Buenos Aires.* *Pasar por Buenos Aires* would mean passing through it on the way somewhere else. Notice that *por la noche* (at night) uses *por* for a part of the day.",
+      "feedback": [
+        {
+          "match": "por",
+          "message": "Not yet — *salir por Buenos Aires* would mean leaving through it. A destination takes *para*."
+        }
+      ]
+    },
+    {
+      "id": "said-they-would-come",
+      "type": "text",
+      "prompt": "Fill the gap with the conditional of *venir*: *Mis primos dijeron que ___ a las ocho.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "vendrían"
+      ],
+      "lang": "es",
+      "hints": [
+        "This is the future seen from the past: they said they *would* come.",
+        "*Venir* has the irregular stem *vendr-*; the subject is *ellos*."
+      ],
+      "solution": "When we report a promise or plan made in the past, the future becomes the **conditional**. *Venir* uses the irregular stem *vendr-*, and *mis primos* are *ellos*: **vendrían**. *Mis primos dijeron que vendrían a las ocho.*",
+      "feedback": [
+        {
+          "match": "vendrán",
+          "message": "Not yet — that's the future. After *dijeron que*, \"would come\" is the conditional: *vendrían*."
+        },
+        {
+          "match": "venirían",
+          "message": "Almost — *venir* has an irregular conditional stem: *vendr-*, so *vendrían*."
+        }
+      ]
+    },
+    {
+      "id": "covering-for-sister",
+      "type": "choice",
+      "prompt": "What does *Esta semana trabajo por mi hermana* most likely mean?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "This week I'm working for my sister (she is my boss).",
+          "correct": false,
+          "feedback": "Not yet — an employer takes *para*: *trabajo para mi hermana*."
+        },
+        {
+          "id": "b",
+          "label": "This week I'm covering for my sister (working in her place).",
+          "correct": true,
+          "feedback": "Yes. *Por* + a person can mean \"on behalf of\" or \"instead of\"."
+        },
+        {
+          "id": "c",
+          "label": "This week I'm working to help my sister reach a goal.",
+          "correct": false,
+          "feedback": "Not yet — a goal would take *para*."
+        }
+      ],
+      "hints": [
+        "Compare *trabajo para* and *trabajo por*.",
+        "*Por* + person: on behalf of, instead of, for the sake of."
+      ],
+      "solution": "*Por* + a person means **on behalf of / instead of** (or for their sake): *Esta semana trabajo por mi hermana* = I'm covering her shifts. If she were the employer, it would be *para*: *Trabajo para mi hermana* = she's my boss."
+    },
+    {
+      "id": "polite-requests",
+      "type": "choice",
+      "prompt": "You're in a meeting with a client you've just met. Which requests are both correct and polite? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "¿Le importaría enviarme el contrato por correo?",
+          "correct": true,
+          "feedback": "Yes. *¿Le importaría…?* + infinitive is a very polite formula."
+        },
+        {
+          "id": "b",
+          "label": "¿Podría enviarme el contrato por correo?",
+          "correct": true,
+          "feedback": "Yes. The conditional *podría* with *usted* is polite and very common."
+        },
+        {
+          "id": "c",
+          "label": "Envíeme el contrato.",
+          "correct": false,
+          "feedback": "Not quite — it's grammatically correct, but a bare command sounds abrupt with a new client."
+        },
+        {
+          "id": "d",
+          "label": "¿Podrías a enviarme el contrato?",
+          "correct": false,
+          "feedback": "Not yet — *poder* takes the infinitive directly, with no *a*; and *podrías* is *tú*, not ideal with a client you've just met."
+        }
+      ],
+      "hints": [
+        "Check grammar first, then register.",
+        "With a new client, *usted* and the conditional are safest."
+      ],
+      "solution": "**a** and **b** are correct and polite: *¿Le importaría…?* (Would you mind…?) and *¿Podría…?* (Could you…?) both use the conditional and *usted*. **c** is correct but abrupt. **d** has an extra *a* (it's *poder* + infinitive) and uses *tú*.",
+      "multiple": true
+    }
+  ]
+}

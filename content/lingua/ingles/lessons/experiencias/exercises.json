@@ -1,0 +1,246 @@
+{
+  "lesson": "experiencias",
+  "exercises": [
+    {
+      "id": "participio-see",
+      "type": "choice",
+      "prompt": "Completa con el participio de *see*: **Have you ever ______ a whale?** (ballena = *whale*)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Tras *have/has* va el participio, la tercera columna.",
+        "*see – saw – ?*"
+      ],
+      "solution": "**seen** → *Have you ever seen a whale?* El presente perfecto es *have/has* + participio. *See* es irregular: *see – saw – seen*. *Saw* es el pasado simple y no va detrás de *have*.",
+      "options": [
+        { "id": "a", "label": "see", "correct": false, "feedback": "Todavía no: tras *have* hace falta el participio: *seen*." },
+        { "id": "b", "label": "saw", "correct": false, "feedback": "Casi: *saw* es el pasado simple. El participio es *seen*." },
+        { "id": "c", "label": "seen", "correct": true, "feedback": "¡Bien! *see – saw – seen*." },
+        { "id": "d", "label": "seed", "correct": false, "feedback": "Todavía no: *see* es irregular: *seen*." }
+      ]
+    },
+    {
+      "id": "has-estado-en-japon",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce la pregunta: **¿Has estado alguna vez en Japón?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«Alguna vez» = *ever*, entre el sujeto y el participio.",
+        "Para experiencias de viaje: *been to*."
+      ],
+      "solution": "**Have you ever been to Japan?** *Have* + *you* + *ever* + *been to* + lugar. Se usa *been* (fue y volvió) y la preposición *to*, no *in*.",
+      "answers": ["Have you ever been to Japan"],
+      "feedback": [
+        { "match": "Have you ever gone to Japan", "message": "Casi: para experiencias de viaje se usa *been*: *Have you ever been to Japan?*" },
+        { "match": "Have you ever been in Japan", "message": "Casi: lo habitual es *been to*: *Have you ever been to Japan?*" },
+        { "match": "Did you ever go to Japan", "message": "Casi: es posible en inglés estadounidense informal, pero la forma estándar para experiencias es *Have you ever been to Japan?*" },
+        { "match": "Have you been ever to Japan", "message": "Casi: *ever* va antes del participio: *Have you ever been…?*" },
+        { "match": "Were you ever in Japan", "message": "Casi: para experiencias, presente perfecto: *Have you ever been to Japan?*" }
+      ]
+    },
+    {
+      "id": "nunca-he-comido-sushi",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Nunca he comido sushi.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Never* va entre *have* y el participio.",
+        "*eat – ate – eaten*. Y una sola negación."
+      ],
+      "solution": "**I've never eaten sushi** (o *I have never eaten sushi*; también *I've never had sushi* o *I've never tried sushi*). *Never* ya es negativo, así que no hace falta *haven't*.",
+      "answers": ["I've never eaten sushi", "I have never eaten sushi", "I've never had sushi", "I have never had sushi", "I've never tried sushi", "I have never tried sushi"],
+      "feedback": [
+        { "match": "I haven't never eaten sushi", "message": "Casi: *never* ya es negativo: *I've never eaten sushi*." },
+        { "match": "I've never ate sushi", "message": "Casi: tras *have*, el participio: *eaten*." },
+        { "match": "I've never eat sushi", "message": "Casi: tras *have*, el participio: *eaten*." },
+        { "match": "I never have eaten sushi", "message": "Casi: *never* va entre *have* y el participio: *I've never eaten sushi*." },
+        { "match": "Never I have eaten sushi", "message": "Casi: el orden es sujeto + *have* + *never* + participio: *I've never eaten sushi*." }
+      ]
+    },
+    {
+      "id": "been-o-gone",
+      "type": "choice",
+      "prompt": "Llamas a tu compañero Pablo y su madre contesta: *Pablo isn't here. He's ____ to the bank.* ¿Qué palabra falta?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "¿Pablo está ahora en el banco o ya volvió?",
+        "*Been* = fue y volvió; *gone* = se fue y sigue allí."
+      ],
+      "solution": "**gone** → *He's gone to the bank.* Pablo se ha ido y todavía no ha vuelto. *He's been to the bank* significaría que ya fue y está de vuelta, lo que no encaja con *Pablo isn't here*.",
+      "options": [
+        { "id": "a", "label": "been", "correct": false, "feedback": "Casi: *been* significaría que ya volvió. Pero Pablo no está: *gone*." },
+        { "id": "b", "label": "gone", "correct": true, "feedback": "¡Exacto! Se ha ido y sigue allí." },
+        { "id": "c", "label": "went", "correct": false, "feedback": "Todavía no: *went* es pasado simple y no va detrás de *has*." }
+      ]
+    },
+    {
+      "id": "since-2021",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa con *for* o *since*: **I've lived in this city ____ 2021.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "¿2021 es una duración o un punto de partida?",
+        "«Desde 2021»."
+      ],
+      "solution": "**since** → *I've lived in this city since 2021.* *Since* va con el punto de partida (un año, un día, un momento). *For* va con duraciones: *for five years*.",
+      "answers": ["since"],
+      "feedback": [
+        { "match": "for", "message": "Casi: *for* va con duraciones (*for three years*). 2021 es un punto de partida: *since*." },
+        { "match": "from", "message": "Casi: con el presente perfecto, «desde» es *since*." }
+      ]
+    },
+    {
+      "id": "for-ten-years",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa con *for* o *since*: **Lucía and I have known each other ____ ten years.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Ten years* responde a «¿cuánto tiempo?».",
+        "Duración: *for*."
+      ],
+      "solution": "**for** → *Lucía and I have known each other for ten years.* *Ten years* es una duración, así que va con *for*. Fíjate también en *have known*: «nos conocemos desde hace diez años» va en presente en español y en presente perfecto en inglés.",
+      "answers": ["for"],
+      "feedback": [
+        { "match": "since", "message": "Casi: *since* va con un punto de partida (*since 2016*). *Ten years* es una duración: *for*." },
+        { "match": "during", "message": "Casi: con el presente perfecto, para la duración se usa *for*." }
+      ]
+    },
+    {
+      "id": "vivo-en-madrid",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Vivo en Madrid desde hace tres años.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "La situación empezó hace tres años y sigue: en inglés no va en presente simple.",
+        "*have lived* + *for* + duración."
+      ],
+      "solution": "**I've lived in Madrid for three years** (o *I have lived…*; también *I've been living in Madrid for three years*). El español usa el presente («vivo»), pero el inglés usa el presente perfecto para algo que empezó en el pasado y continúa. *I live in Madrid for three years* sonaría a un plan para los próximos tres años.",
+      "answers": ["I've lived in Madrid for three years", "I have lived in Madrid for three years", "I've been living in Madrid for three years", "I have been living in Madrid for three years", "I've been in Madrid for three years", "I have been in Madrid for three years"],
+      "feedback": [
+        { "match": "I live in Madrid for three years", "message": "Casi: es el calco más típico. Para algo que empezó y sigue: *I've lived in Madrid for three years*." },
+        { "match": "I live in Madrid since three years", "message": "Casi: presente perfecto y *for* con duraciones: *I've lived in Madrid for three years*." },
+        { "match": "I've lived in Madrid since three years", "message": "Casi: el tiempo verbal es correcto, pero con una duración se usa *for*: *for three years*." },
+        { "match": "I have lived in Madrid since three years", "message": "Casi: con una duración se usa *for*: *for three years*." },
+        { "match": "I am living in Madrid for three years", "message": "Casi: para algo que empezó y sigue, presente perfecto: *I've lived in Madrid for three years*." }
+      ]
+    },
+    {
+      "id": "last-week-saw",
+      "type": "choice",
+      "prompt": "Completa: **I ______ that film last week. It was great.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Last week* es un momento concreto y terminado.",
+        "Con un momento concreto, ¿presente perfecto o pasado simple?"
+      ],
+      "solution": "**saw** → *I saw that film last week.* Con expresiones de tiempo terminado (*last week*, *yesterday*, *ago*, *in 2020*) se usa siempre el pasado simple. *I've seen that film last week* es incorrecto aunque en español de España se diga a veces «la he visto».",
+      "options": [
+        { "id": "a", "label": "have seen", "correct": false, "feedback": "Todavía no: con *last week* (un momento terminado) no se usa el presente perfecto." },
+        { "id": "b", "label": "saw", "correct": true, "feedback": "¡Muy bien! Momento concreto: pasado simple." },
+        { "id": "c", "label": "have saw", "correct": false, "feedback": "Todavía no: mezcla dos tiempos. Aquí va el pasado simple: *saw*." },
+        { "id": "d", "label": "seen", "correct": false, "feedback": "Todavía no: el participio solo no forma un tiempo. Aquí va *saw*." }
+      ]
+    },
+    {
+      "id": "no-i-havent",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa la respuesta corta: **Have you ever ridden a horse? — No, I ______.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "La respuesta corta repite el auxiliar de la pregunta.",
+        "La pregunta empieza por *Have*."
+      ],
+      "solution": "**haven't** → *No, I haven't.* La respuesta corta repite el auxiliar (*have*) en negativa. *No, I didn't* respondería a una pregunta con *did*.",
+      "answers": ["haven't", "have not", "No, I haven't", "No, I have not"],
+      "feedback": [
+        { "match": "didn't", "message": "Casi: la pregunta usa *have*, así que la respuesta también: *No, I haven't*." },
+        { "match": "don't", "message": "Casi: la pregunta usa *have*: *No, I haven't*." },
+        { "match": "never", "message": "Casi: se entiende, pero la respuesta corta estándar es *No, I haven't*. (*No, never* también se oye.)" },
+        { "match": "hasn't", "message": "Casi: con *I*, *haven't*." }
+      ]
+    },
+    {
+      "id": "peru-dos-veces",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Ella ha estado en Perú dos veces.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Experiencia de viaje: *has been to*.",
+        "«Dos veces» tiene una palabra propia: *tw…*"
+      ],
+      "solution": "**She's been to Peru twice** (o *She has been to Peru twice*). *Has* porque el sujeto es *she*; *been to* para un viaje del que volvió; y *twice* (dos veces). También se acepta *two times*, aunque *twice* es lo habitual.",
+      "answers": ["She's been to Peru twice", "She has been to Peru twice", "She's been to Peru two times", "She has been to Peru two times"],
+      "feedback": [
+        { "match": "She has been in Peru twice", "message": "Casi: para viajes lo habitual es *been to*: *She's been to Peru twice*." },
+        { "match": "She have been to Peru twice", "message": "Casi: con *she*, *has*." },
+        { "match": "She has gone to Peru twice", "message": "Casi: *gone* indica que está allí ahora. Para la experiencia: *been to*." },
+        { "match": "She is been to Peru twice", "message": "Casi: la *'s* es *has*, no *is*: *She has been to Peru twice*." }
+      ]
+    },
+    {
+      "id": "oraciones-perfecto",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las oraciones correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Busca expresiones de tiempo terminado: con ellas no va el presente perfecto.",
+        "Revisa también *for* y *since*, y el uso de *ever*."
+      ],
+      "solution": "Son correctas **I've known her since we were children.** y **Have you ever flown in a helicopter?** *I have visited Rome in 2019* lleva una fecha (debe ser *I visited Rome in 2019*), y *I have ever eaten octopus* usa *ever* en una afirmativa (debe ser *I've eaten octopus* o, en negativa, *I've never eaten octopus*).",
+      "options": [
+        { "id": "a", "label": "I have visited Rome in 2019.", "correct": false, "feedback": "Todavía no: con una fecha, pasado simple: *I visited Rome in 2019*." },
+        { "id": "b", "label": "I've known her since we were children.", "correct": true, "feedback": "Correcta: algo que empezó en el pasado y sigue, con *since* + punto de partida." },
+        { "id": "c", "label": "Have you ever flown in a helicopter?", "correct": true, "feedback": "Correcta: experiencia con *ever* y participio *flown*." },
+        { "id": "d", "label": "I have ever eaten octopus.", "correct": false, "feedback": "Todavía no: *ever* se usa en preguntas. En afirmativa: *I've eaten octopus*." }
+      ]
+    },
+    {
+      "id": "mejor-libro",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Es el mejor libro que he leído nunca.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Superlativo + presente perfecto + *ever*.",
+        "«Nunca» en esta frase no es negativo: se traduce por *ever*. *read – read – read*."
+      ],
+      "solution": "**It's the best book I've ever read** (o *It is the best book I have ever read*; *This is the best book…*; con *that* también: *the best book that I've ever read*). Tras un superlativo, «nunca» se traduce por *ever*, porque la frase no es negativa. *Read* se escribe igual en las tres formas, pero el participio suena /red/.",
+      "answers": [
+        "It's the best book I've ever read",
+        "It is the best book I have ever read",
+        "It's the best book I have ever read",
+        "It is the best book I've ever read",
+        "It's the best book that I've ever read",
+        "It is the best book that I have ever read",
+        "This is the best book I've ever read",
+        "This is the best book I have ever read",
+        "This is the best book that I've ever read"
+      ],
+      "feedback": [
+        { "match": "It's the best book I've never read", "message": "Casi: aquí «nunca» no es negativo. Tras un superlativo se usa *ever*: *the best book I've ever read*." },
+        { "match": "It's the best book I ever read", "message": "Casi: se oye en inglés estadounidense informal, pero la forma estándar es *I've ever read*." },
+        { "match": "It's the better book I've ever read", "message": "Casi: el superlativo de *good* es *the best*." },
+        { "match": "Is the best book I've ever read", "message": "Casi: falta el sujeto *It*." }
+      ]
+    }
+  ]
+}

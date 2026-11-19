@@ -1,0 +1,388 @@
+{
+  "lesson": "conectores",
+  "exercises": [
+    {
+      "id": "despite-the-rain",
+      "type": "choice",
+      "prompt": "*___ the rain, we went for a long walk.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Despite",
+          "correct": true,
+          "feedback": "Sí. *Despite* + sustantivo (*the rain*)."
+        },
+        {
+          "id": "b",
+          "label": "Although",
+          "correct": false,
+          "feedback": "Todavía no. *Although* necesita una oración con verbo: *Although it was raining*."
+        },
+        {
+          "id": "c",
+          "label": "Despite of",
+          "correct": false,
+          "feedback": "Todavía no. *Despite* nunca lleva *of*."
+        },
+        {
+          "id": "d",
+          "label": "However",
+          "correct": false,
+          "feedback": "Todavía no. *However* une dos oraciones; no puede ir delante de un sustantivo."
+        }
+      ],
+      "hints": [
+        "Detrás del hueco hay un sustantivo, no una oración.",
+        "¿Qué conector de contraste va con sustantivo… y sin *of*?"
+      ],
+      "solution": "**Despite**: *Despite the rain, we went for a long walk.*\n\n*Despite* (y *in spite of*) van seguidos de un sustantivo o de *-ing*. Con una oración, usarías *although*: *Although it was raining, we went for a long walk*."
+    },
+    {
+      "id": "reescribe-although",
+      "type": "text",
+      "prompt": "Reescribe la frase con *although*:\n\n*It was very expensive, but we bought it.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Although it was very expensive, we bought it",
+        "Although it was very expensive we bought it",
+        "We bought it although it was very expensive",
+        "Even though it was very expensive, we bought it",
+        "Even though it was very expensive we bought it",
+        "We bought it even though it was very expensive",
+        "Though it was very expensive, we bought it",
+        "Though it was very expensive we bought it",
+        "We bought it though it was very expensive"
+      ],
+      "feedback": [
+        {
+          "match": "Although it was very expensive, but we bought it",
+          "message": "Casi: en inglés no se combinan *although* y *but*. Quita *but*."
+        }
+      ],
+      "hints": [
+        "*Although* + oración, y la otra oración sin *but*.",
+        "Si empiezas con *Although*, pon coma entre las dos partes."
+      ],
+      "solution": "**Although it was very expensive, we bought it.** (o *We bought it although it was very expensive*).\n\n*Although* ya expresa el contraste, así que *but* desaparece. Si la oración con *although* va primero, se separa con coma."
+    },
+    {
+      "id": "reescribe-despite",
+      "type": "text",
+      "prompt": "Reescribe la frase con *despite*:\n\n*Although she was tired, she finished the report.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Despite being tired, she finished the report",
+        "Despite being tired she finished the report",
+        "Despite her tiredness, she finished the report",
+        "Despite her tiredness she finished the report",
+        "Despite feeling tired, she finished the report",
+        "Despite feeling tired she finished the report",
+        "Despite the fact that she was tired, she finished the report",
+        "Despite the fact that she was tired she finished the report",
+        "She finished the report despite being tired",
+        "She finished the report despite the fact that she was tired",
+        "In spite of being tired, she finished the report",
+        "In spite of being tired she finished the report",
+        "In spite of her tiredness, she finished the report",
+        "In spite of her tiredness she finished the report",
+        "In spite of feeling tired, she finished the report",
+        "In spite of feeling tired she finished the report",
+        "In spite of the fact that she was tired, she finished the report",
+        "In spite of the fact that she was tired she finished the report",
+        "She finished the report in spite of being tired",
+        "She finished the report in spite of the fact that she was tired"
+      ],
+      "feedback": [
+        {
+          "match": "Despite she was tired, she finished the report",
+          "message": "Casi: *despite* no puede ir seguido de una oración. Usa *-ing* (*being tired*) o *the fact that*."
+        },
+        {
+          "match": "Despite of being tired, she finished the report",
+          "message": "Casi: *despite* nunca lleva *of*."
+        }
+      ],
+      "hints": [
+        "*Despite* + *-ing* o sustantivo.",
+        "*She was tired* → *being tired*."
+      ],
+      "solution": "**Despite being tired, she finished the report.**\n\nComo *despite* no admite una oración, la transformamos en *-ing* (*being tired*) o en sustantivo (*despite her tiredness*). También vale *Despite the fact that she was tired, …*, que es más largo pero correcto."
+    },
+    {
+      "id": "however-ciudad",
+      "type": "choice",
+      "prompt": "*I love the city. ___, I couldn't live there. It's far too noisy.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "However",
+          "correct": true,
+          "feedback": "Sí. *However* abre una oración nueva y marca el contraste con la anterior."
+        },
+        {
+          "id": "b",
+          "label": "Although",
+          "correct": false,
+          "feedback": "Todavía no. *Although* introduce una oración subordinada y necesita otra principal en la misma frase."
+        },
+        {
+          "id": "c",
+          "label": "Despite",
+          "correct": false,
+          "feedback": "Todavía no. *Despite* va seguido de un sustantivo o *-ing*, no de una coma."
+        },
+        {
+          "id": "d",
+          "label": "Because",
+          "correct": false,
+          "feedback": "Todavía no. No hay relación de causa: hay contraste."
+        }
+      ],
+      "hints": [
+        "El hueco va al principio de una oración nueva, seguido de coma.",
+        "Necesitas *sin embargo*."
+      ],
+      "solution": "**However**: *I love the city. However, I couldn't live there.*\n\n*However* une dos oraciones independientes: va detrás de un punto (o de un punto y coma) y seguido de coma. Es el equivalente de *sin embargo*."
+    },
+    {
+      "id": "whereas-tenis",
+      "type": "choice",
+      "prompt": "*My brother loves football, ___ I prefer tennis.* Marca **todas** las opciones correctas.",
+      "difficulty": "core",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "whereas",
+          "correct": true,
+          "feedback": "Sí. *Whereas* compara dos hechos opuestos."
+        },
+        {
+          "id": "b",
+          "label": "while",
+          "correct": true,
+          "feedback": "Sí. *While* puede comparar dos hechos, como *whereas*."
+        },
+        {
+          "id": "c",
+          "label": "but",
+          "correct": true,
+          "feedback": "Sí. *But* también funciona, con un registro más neutro."
+        },
+        {
+          "id": "d",
+          "label": "despite",
+          "correct": false,
+          "feedback": "Todavía no. *Despite* necesita un sustantivo o *-ing* detrás."
+        }
+      ],
+      "hints": [
+        "Comparas dos gustos opuestos.",
+        "Tres de las opciones pueden unir dos oraciones completas."
+      ],
+      "solution": "**whereas**, **while** y **but**.\n\n*Whereas* y *while* sirven para comparar dos hechos que contrastan (*mientras que*); *but* es la opción más sencilla. *Despite* no puede ir seguido de una oración."
+    },
+    {
+      "id": "cancelado-por-tormenta",
+      "type": "text",
+      "prompt": "Completa con un conector de causa (dos o tres palabras):\n\n*The match was cancelled ___ the storm.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "because of",
+        "due to",
+        "owing to",
+        "on account of"
+      ],
+      "feedback": [
+        {
+          "match": "because",
+          "message": "Casi: *because* solo va con una oración (*because there was a storm*). Con un sustantivo, añade una palabra."
+        }
+      ],
+      "hints": [
+        "Detrás del hueco hay un sustantivo (*the storm*).",
+        "*Because* + *of*… o una expresión algo más formal con *to*."
+      ],
+      "solution": "**because of** (o *due to*, *owing to*): *The match was cancelled because of the storm.*\n\nCon un sustantivo, se usa *because of*, o las versiones más formales *due to* y *owing to*. Con una oración, *because*: *…because there was a storm*."
+    },
+    {
+      "id": "aunque-llueva",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Aunque llueva, iré.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Even if it rains, I'll go",
+        "Even if it rains I'll go",
+        "I'll go even if it rains",
+        "Even if it rains, I will go",
+        "Even if it rains I will go",
+        "I will go even if it rains",
+        "Even if it rains, I'm going",
+        "Even if it rains I'm going",
+        "I'm going even if it rains",
+        "Even if it rains, I am going",
+        "Even if it rains I am going",
+        "I am going even if it rains"
+      ],
+      "feedback": [
+        {
+          "match": "Although it rains, I'll go",
+          "message": "Casi: *aunque* con subjuntivo expresa una hipótesis (quizá llueva). En inglés eso es *even if*."
+        },
+        {
+          "match": "Even if it will rain, I'll go",
+          "message": "Casi: después de *even if*, el futuro se expresa con presente, como después de *if*."
+        }
+      ],
+      "hints": [
+        "*Llueva* (subjuntivo): no sabes si lloverá.",
+        "Para una hipótesis, *even if* + presente."
+      ],
+      "solution": "**Even if it rains, I'll go.**\n\nCuando *aunque* va con subjuntivo y plantea una hipótesis, el inglés usa *even if*. Como después de *if*, el futuro va en presente (*rains*). *Although it's raining, I'm going* sería la traducción de *aunque llueve* (un hecho)."
+    },
+    {
+      "id": "so-that-viajar",
+      "type": "choice",
+      "prompt": "*I'm saving money ___ I can travel around Asia next year.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "so that",
+          "correct": true,
+          "feedback": "Sí. *So that* + oración (con *can*) expresa finalidad."
+        },
+        {
+          "id": "b",
+          "label": "in order to",
+          "correct": false,
+          "feedback": "Todavía no. *In order to* va seguido de un infinitivo, no de sujeto + verbo."
+        },
+        {
+          "id": "c",
+          "label": "for",
+          "correct": false,
+          "feedback": "Todavía no. *For* no introduce una oración de finalidad."
+        },
+        {
+          "id": "d",
+          "label": "because",
+          "correct": false,
+          "feedback": "Todavía no. *Because* expresa causa, no finalidad."
+        }
+      ],
+      "hints": [
+        "Detrás del hueco hay sujeto + verbo (*I can travel*).",
+        "Finalidad con oración completa: *para que*."
+      ],
+      "solution": "**so that**: *I'm saving money so that I can travel around Asia next year.*\n\n*So that* introduce una oración de finalidad, a menudo con *can, could, will* o *would*. Con infinitivo dirías *in order to travel* o simplemente *to travel*."
+    },
+    {
+      "id": "so-as-not-to",
+      "type": "text",
+      "prompt": "Completa con un conector de finalidad negativa (tres o cuatro palabras):\n\n*She took a taxi ___ miss the train.* (para no perder el tren)",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "so as not to",
+        "in order not to"
+      ],
+      "feedback": [
+        {
+          "match": "for not",
+          "message": "Casi: la finalidad no se expresa con *for*. Usa *so as not to* o *in order not to*."
+        },
+        {
+          "match": "to not",
+          "message": "Se oye en la conversación, pero en un texto cuidado se prefiere una forma más larga con *not* antes de *to*."
+        }
+      ],
+      "hints": [
+        "*Not* va justo antes de *to*.",
+        "*So as not to* o *in order not to*."
+      ],
+      "solution": "**so as not to** (o *in order not to*): *She took a taxi so as not to miss the train.*\n\nPara una finalidad negativa con infinitivo, *not* va antes de *to*: *so as not to*, *in order not to*. También podrías decir *so that she wouldn't miss the train*."
+    },
+    {
+      "id": "registro-furthermore",
+      "type": "choice",
+      "prompt": "Escribes un ensayo formal y quieres añadir un segundo argumento al principio de un párrafo. ¿Qué conector es el más adecuado?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Furthermore,",
+          "correct": true,
+          "feedback": "Sí. Es formal y abre una oración nueva con coma."
+        },
+        {
+          "id": "b",
+          "label": "Plus,",
+          "correct": false,
+          "feedback": "Se usa en la conversación y en textos informales, pero en un ensayo formal suena demasiado coloquial."
+        },
+        {
+          "id": "c",
+          "label": "And also,",
+          "correct": false,
+          "feedback": "Todavía no. Empezar con *And also* es coloquial y redundante en un ensayo."
+        },
+        {
+          "id": "d",
+          "label": "As well,",
+          "correct": false,
+          "feedback": "Todavía no. *As well* va al final de la frase, no al principio."
+        }
+      ],
+      "hints": [
+        "Busca el registro formal.",
+        "Es uno de los tres conectores de adición formales de la lección."
+      ],
+      "solution": "**Furthermore,**\n\nEn un ensayo formal, para añadir un argumento al principio de una oración se usan *Furthermore*, *Moreover* o *In addition*, seguidos de coma. *Plus* es informal, *And also* es coloquial y *as well* va al final."
+    },
+    {
+      "id": "como-resultado",
+      "type": "text",
+      "prompt": "Completa con un conector de consecuencia formal o neutro (una a tres palabras):\n\n*The factory closed last year. ___, two hundred people lost their jobs.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "As a result",
+        "Consequently",
+        "Therefore",
+        "Because of this",
+        "Because of that",
+        "As a consequence",
+        "So"
+      ],
+      "feedback": [
+        {
+          "match": "Because",
+          "message": "Casi: *because* introduce una causa, y aquí lo que sigue es la consecuencia."
+        }
+      ],
+      "hints": [
+        "La segunda oración es la consecuencia de la primera.",
+        "*As a result*, *Consequently*, *Therefore*…"
+      ],
+      "solution": "**As a result** (o *Consequently*, *Therefore*): *The factory closed last year. As a result, two hundred people lost their jobs.*\n\nLos conectores de consecuencia de oración van al principio, seguidos de coma. *As a result* es el más neutro; *Consequently* y *Therefore*, más formales."
+    }
+  ]
+}

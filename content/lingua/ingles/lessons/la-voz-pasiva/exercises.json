@@ -1,0 +1,344 @@
+{
+  "lesson": "la-voz-pasiva",
+  "exercises": [
+    {
+      "id": "puente-1890",
+      "type": "choice",
+      "prompt": "*This bridge ___ in 1890.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "built",
+          "correct": false,
+          "feedback": "Todavía no. Así diría que el puente construyó algo. El puente recibe la acción: necesitas *be* + participio."
+        },
+        {
+          "id": "b",
+          "label": "was built",
+          "correct": true,
+          "feedback": "Sí. Pasiva en past simple: *was* + participio, porque *in 1890* es un momento terminado."
+        },
+        {
+          "id": "c",
+          "label": "has been built",
+          "correct": false,
+          "feedback": "Todavía no. La pasiva está bien formada, pero *in 1890* es tiempo terminado y pide past simple."
+        }
+      ],
+      "hints": [
+        "¿El puente hace la acción o la recibe?",
+        "*In 1890* es un momento terminado."
+      ],
+      "solution": "**was built**: *This bridge was built in 1890.*\n\nEl puente no construye nada: alguien lo construyó. Por eso va en pasiva (*be* + participio). Como *in 1890* es un momento terminado, *be* va en past simple: *was*. En español diríamos *se construyó* o *fue construido*."
+    },
+    {
+      "id": "carretera-reparando",
+      "type": "text",
+      "prompt": "Pasa a pasiva, sin agente:\n\n*They are repairing the road.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "The road is being repaired",
+        "The road's being repaired"
+      ],
+      "feedback": [
+        {
+          "match": "The road is repaired",
+          "message": "Casi: eso es present simple pasivo. La frase original está en present continuous, así que necesitas *is being* + participio."
+        },
+        {
+          "match": "The road is being repaired by them",
+          "message": "Casi: *by them* no aporta información. Quita el agente."
+        }
+      ],
+      "hints": [
+        "El present continuous pasivo es *am/is/are being* + participio.",
+        "El sujeto nuevo es *the road*."
+      ],
+      "solution": "**The road is being repaired.**\n\nEl objeto (*the road*) pasa a sujeto. El tiempo es present continuous, así que *be* aparece dos veces: *is being*, y luego el participio *repaired*. *By them* sobra porque no dice nada nuevo."
+    },
+    {
+      "id": "se-habla-ingles",
+      "type": "text",
+      "prompt": "Traduce al inglés usando la voz pasiva:\n\n**Aquí se habla inglés.**",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "English is spoken here",
+        "Here English is spoken",
+        "English spoken here"
+      ],
+      "feedback": [
+        {
+          "match": "Is spoken English here",
+          "message": "Casi: en inglés el sujeto va delante del verbo. ¿Qué se habla? Eso es el sujeto."
+        },
+        {
+          "match": "Here speaks English",
+          "message": "Todavía no: así parece que «aquí» habla inglés. Usa la pasiva: sujeto + *is* + participio."
+        }
+      ],
+      "hints": [
+        "¿Qué se habla? *English*. Eso será el sujeto.",
+        "*Speak* tiene participio irregular: *spoken*."
+      ],
+      "solution": "**English is spoken here.**\n\nLa pasiva refleja española (*se habla*) suele traducirse con una pasiva inglesa. El sujeto es lo que se habla (*English*), seguido de *is* + participio (*spoken*). En los carteles verás la versión recortada *English spoken here*. En la conversación también es natural *We speak English here*."
+    },
+    {
+      "id": "naci-en-quito",
+      "type": "choice",
+      "prompt": "*I ___ in Quito in 1998.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "born",
+          "correct": false,
+          "feedback": "Todavía no. *Born* es un participio y necesita *be* delante: «nacer» es siempre pasivo en inglés."
+        },
+        {
+          "id": "b",
+          "label": "was born",
+          "correct": true,
+          "feedback": "Sí. *To be born* es pasivo, y en 1998 es pasado: *I was born*."
+        },
+        {
+          "id": "c",
+          "label": "am born",
+          "correct": false,
+          "feedback": "Todavía no. La forma es correcta para hablar en general, pero 1998 es pasado."
+        },
+        {
+          "id": "d",
+          "label": "have been born",
+          "correct": false,
+          "feedback": "Todavía no. Con *in 1998* (tiempo terminado) no se usa el present perfect."
+        }
+      ],
+      "hints": [
+        "«Nacer» se dice *to be born*.",
+        "Es un año pasado y terminado."
+      ],
+      "solution": "**was born**: *I was born in Quito in 1998.*\n\nEn inglés, *born* es un participio y siempre va con *be*: *I was born, she was born, we were born*. *I born* es uno de los errores más comunes de los hispanohablantes."
+    },
+    {
+      "id": "bici-robada",
+      "type": "text",
+      "prompt": "Pasa a pasiva, sin agente:\n\n*Someone has stolen my bike!*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "My bike has been stolen",
+        "My bike's been stolen",
+        "My bicycle has been stolen",
+        "My bicycle's been stolen"
+      ],
+      "feedback": [
+        {
+          "match": "My bike has been stolen by someone",
+          "message": "Casi: *by someone* no aporta nada (siempre es alguien). Quita el agente."
+        },
+        {
+          "match": "My bike was stolen",
+          "message": "Casi: es una pasiva correcta, pero la frase original está en present perfect. Mantén el tiempo: *has been* + participio."
+        }
+      ],
+      "hints": [
+        "El present perfect pasivo es *has/have been* + participio.",
+        "*Steal, stole, stolen*."
+      ],
+      "solution": "**My bike has been stolen!**\n\nEl objeto (*my bike*) pasa a sujeto. El tiempo es present perfect, así que *be* toma la forma *has been*, y le sigue el participio *stolen*. El agente *someone* desaparece: decir *by someone* no informa de nada."
+    },
+    {
+      "id": "agente-necesario",
+      "type": "choice",
+      "prompt": "¿En qué frase el agente con *by* aporta información y es natural mantenerlo?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Sagrada Família was designed by Antoni Gaudí.",
+          "correct": true,
+          "feedback": "Sí. Saber quién la diseñó es justo la información importante."
+        },
+        {
+          "id": "b",
+          "label": "My wallet was stolen by someone.",
+          "correct": false,
+          "feedback": "Todavía no. Que fue «alguien» es obvio; lo natural es *My wallet was stolen.*"
+        },
+        {
+          "id": "c",
+          "label": "The thief was arrested by the police.",
+          "correct": false,
+          "feedback": "Todavía no. ¿Quién iba a detenerlo si no la policía? Lo natural es *The thief was arrested.*"
+        }
+      ],
+      "hints": [
+        "El agente sobra cuando es desconocido u obvio.",
+        "¿En qué frase el agente es una información que no podrías adivinar?"
+      ],
+      "solution": "**The Sagrada Família was designed by Antoni Gaudí.**\n\nEl agente se incluye solo cuando aporta algo nuevo o importante. En las otras dos frases es desconocido (*someone*) u obvio (*the police*), así que se omite."
+    },
+    {
+      "id": "me-corto-el-pelo",
+      "type": "text",
+      "prompt": "Traduce al inglés con *have* o *get* + participio:\n\n**Me corto el pelo cada mes.** (en la peluquería)",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "I have my hair cut every month",
+        "I have my hair cut once a month",
+        "I get my hair cut every month",
+        "I get my hair cut once a month"
+      ],
+      "feedback": [
+        {
+          "match": "I cut my hair every month",
+          "message": "Casi: así dices que te lo cortas tú. Si te lo corta otra persona, usa *have* (o *get*) + *my hair* + participio."
+        },
+        {
+          "match": "I have cut my hair every month",
+          "message": "Casi: el orden es *have* + objeto + participio: *I have my hair cut…*"
+        }
+      ],
+      "hints": [
+        "Te lo corta otra persona: *have something done*.",
+        "El orden es *have* + *my hair* + *cut* (el participio de *cut* es igual que el infinitivo)."
+      ],
+      "solution": "**I have my hair cut every month.** (o *I get my hair cut every month*).\n\nCuando otra persona te hace un servicio, el inglés usa *have* o *get* + objeto + participio. Cuidado con el orden: *I have cut my hair* es present perfect y significa que tú te lo has cortado."
+    },
+    {
+      "id": "me-explicaron",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Me explicaron el problema.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "The problem was explained to me",
+        "They explained the problem to me",
+        "Someone explained the problem to me"
+      ],
+      "feedback": [
+        {
+          "match": "I was explained the problem",
+          "message": "Casi: con *explain*, la persona no puede ser sujeto de la pasiva. Haz sujeto a *the problem*, o usa la activa con *they*."
+        },
+        {
+          "match": "They explained me the problem",
+          "message": "Casi: *explain* necesita *to* antes de la persona: *explain something to someone*."
+        }
+      ],
+      "hints": [
+        "Con *explain*, la persona va siempre con *to*: *explain something to someone*.",
+        "Puedes usar la pasiva con *the problem* como sujeto, o la activa con *they*."
+      ],
+      "solution": "**The problem was explained to me.** (o *They explained the problem to me.*)\n\nCon *give, offer, tell* o *show* podrías hacer sujeto a la persona (*I was told*, *I was offered*), pero **no con *explain***. Ni *I was explained* ni *They explained me* son correctos: *explain* siempre lleva *to* + persona."
+    },
+    {
+      "id": "formulario-firmado",
+      "type": "choice",
+      "prompt": "*This form must ___ in black ink.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "signed",
+          "correct": false,
+          "feedback": "Todavía no. Después de un modal hace falta un infinitivo: *be*."
+        },
+        {
+          "id": "b",
+          "label": "be signed",
+          "correct": true,
+          "feedback": "Sí. Pasiva con modal: modal + *be* + participio."
+        },
+        {
+          "id": "c",
+          "label": "been signed",
+          "correct": false,
+          "feedback": "Todavía no. *Been* es participio; después de *must* va el infinitivo *be*."
+        },
+        {
+          "id": "d",
+          "label": "being signed",
+          "correct": false,
+          "feedback": "Todavía no. Después de un modal va el infinitivo sin *to*: *be*."
+        }
+      ],
+      "hints": [
+        "Después de *must* va siempre un infinitivo sin *to*.",
+        "Pasiva con modal: modal + *be* + participio."
+      ],
+      "solution": "**be signed**: *This form must be signed in black ink.*\n\nCon cualquier modal (*must, can, should, might, will*), la pasiva es modal + *be* + participio. Es muy típica de instrucciones y normas: *Bags must be left here*, *Phones should be switched off*."
+    },
+    {
+      "id": "resultados-publicados",
+      "type": "text",
+      "prompt": "Pasa a pasiva, sin agente:\n\n*They will publish the results tomorrow.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "The results will be published tomorrow",
+        "The results'll be published tomorrow",
+        "Tomorrow the results will be published",
+        "Tomorrow, the results will be published"
+      ],
+      "hints": [
+        "El futuro pasivo es *will be* + participio.",
+        "El sujeto nuevo es *the results*."
+      ],
+      "solution": "**The results will be published tomorrow.**\n\nEl objeto *the results* pasa a sujeto; *will* se queda y le sigue *be* + participio: *will be published*. La pasiva es la forma habitual en avisos oficiales: lo importante son los resultados, no quién los publica."
+    },
+    {
+      "id": "me-regalaron",
+      "type": "choice",
+      "prompt": "Quieres decir **Me regalaron un reloj por mi cumpleaños**. Marca **todas** las frases correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "I was given a watch for my birthday.",
+          "correct": true,
+          "feedback": "Sí. Con *give*, la persona que recibe puede ser el sujeto de la pasiva. Es muy natural."
+        },
+        {
+          "id": "b",
+          "label": "They gave me a watch for my birthday.",
+          "correct": true,
+          "feedback": "Sí. La activa con *they* impersonal también es natural, sobre todo al hablar."
+        },
+        {
+          "id": "c",
+          "label": "Me was given a watch for my birthday.",
+          "correct": false,
+          "feedback": "Todavía no. El sujeto tiene que ir en forma de sujeto: *I*, no *me*."
+        },
+        {
+          "id": "d",
+          "label": "Was given me a watch for my birthday.",
+          "correct": false,
+          "feedback": "Todavía no. En inglés la frase necesita un sujeto delante del verbo; no se puede calcar el orden del español."
+        }
+      ],
+      "hints": [
+        "Con *give*, *offer*, *send* o *tell*, la persona puede ser el sujeto de la pasiva.",
+        "Hay dos respuestas correctas: una pasiva y una activa."
+      ],
+      "solution": "Son correctas **a** y **b**.\n\nCon verbos como *give, offer, send, tell, show* o *teach*, el inglés convierte a la persona que recibe en sujeto: *I was given*, *She was offered*. También puedes usar la activa con *they* impersonal: *They gave me a watch*. En inglés siempre hace falta un sujeto delante del verbo, y debe ir en forma de sujeto (*I*, no *me*)."
+    }
+  ]
+}

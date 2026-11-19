@@ -1,0 +1,220 @@
+{
+  "lesson": "sonidos-y-saludos",
+  "exercises": [
+    {
+      "id": "saludo-por-la-noche",
+      "type": "choice",
+      "prompt": "Son las nueve de la noche y **llegas** a una cena en casa de unos amigos ingleses. ¿Cómo saludas?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Piensa si estás llegando o yéndote.",
+        "En inglés hay dos «buenas noches»: una para saludar y otra para despedirse."
+      ],
+      "solution": "**Good evening.** Por la tarde-noche se saluda con *Good evening* (o, entre amigos, con un simple *Hi*). *Good night* solo se usa para despedirse o al ir a dormir, y *Good afternoon* corresponde a la franja entre el mediodía y las seis, más o menos.",
+      "options": [
+        { "id": "a", "label": "Good evening!", "correct": true, "feedback": "¡Eso es! *Good evening* es el saludo de la tarde-noche." },
+        { "id": "b", "label": "Good night!", "correct": false, "feedback": "Todavía no: *Good night* es para despedirse o irse a dormir. Al llegar parecería que ya te vas." },
+        { "id": "c", "label": "Good afternoon!", "correct": false, "feedback": "Todavía no: *Good afternoon* es para la tarde, entre el mediodía y las seis más o menos. A las nueve ya es *evening*." }
+      ]
+    },
+    {
+      "id": "vocal-de-sheep",
+      "type": "choice",
+      "prompt": "¿Qué palabra tiene la misma vocal larga /iː/ que *sheep* (oveja)?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Busca la «i» larga y tensa, como en «sí».",
+        "*Ship* y *live* llevan la «i» corta y floja /ɪ/."
+      ],
+      "solution": "**Leave** /liːv/ lleva la misma /iː/ larga que *sheep* /ʃiːp/. En cambio *ship* /ʃɪp/, *live* /lɪv/ y *sit* /sɪt/ llevan la vocal corta /ɪ/, una «i» floja que tira hacia la «e». Fíjate en que la ortografía no ayuda: la /iː/ se escribe *ee* en *sheep* y *ea* en *leave*.",
+      "options": [
+        { "id": "a", "label": "ship", "correct": false, "feedback": "Todavía no: *ship* es justamente la pareja corta de *sheep*, con /ɪ/." },
+        { "id": "b", "label": "leave", "correct": true, "feedback": "Muy bien: *leave* /liːv/ tiene la /iː/ larga de *sheep*." },
+        { "id": "c", "label": "live", "correct": false, "feedback": "Todavía no: *live* /lɪv/ lleva la vocal corta. *Live* y *leave* son una pareja como *ship* y *sheep*." },
+        { "id": "d", "label": "sit", "correct": false, "feedback": "Todavía no: *sit* lleva la /ɪ/ corta y relajada." }
+      ]
+    },
+    {
+      "id": "letra-e",
+      "type": "choice",
+      "prompt": "Estás deletreando tu nombre en inglés. ¿Cómo suena el nombre de la letra **E**?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Es una de las cuatro trampas del alfabeto.",
+        "La E rima con B, C, D…"
+      ],
+      "solution": "La E se llama /iː/, como una «i» española larga. Rima con B /biː/, C /siː/ y D /diː/. Es fácil confundirse porque la I se llama /aɪ/ («ai») y la A se llama /eɪ/ («ei»).",
+      "options": [
+        { "id": "a", "label": "/e/, como la «e» española", "correct": false, "feedback": "Todavía no: ese es el nombre español. Un angloparlante podría entender una A." },
+        { "id": "b", "label": "/iː/, como una «i» larga", "correct": true, "feedback": "¡Exacto! La E inglesa suena «i»." },
+        { "id": "c", "label": "/aɪ/, como «ai»", "correct": false, "feedback": "Todavía no: /aɪ/ es el nombre de la letra I." },
+        { "id": "d", "label": "/eɪ/, como «ei»", "correct": false, "feedback": "Todavía no: /eɪ/ es el nombre de la letra A." }
+      ]
+    },
+    {
+      "id": "school-sin-e",
+      "type": "choice",
+      "prompt": "¿Qué transcripción corresponde a la pronunciación correcta de *student*?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "¿Cuántas sílabas tiene la palabra en inglés?",
+        "El inglés permite empezar una palabra con s + consonante."
+      ],
+      "solution": "**/ˈstjuːdənt/**: dos sílabas, la primera fuerte, empezando directamente por /st/. La «e» de apoyo (/es.../) es un hábito del español, que no admite s + consonante al principio de palabra. En inglés estadounidense oirás también /ˈstuːdənt/, sin la /j/.",
+      "options": [
+        { "id": "a", "label": "/ˈstjuːdənt/", "correct": true, "feedback": "¡Bien! Sin «e» delante y con schwa en la sílaba débil." },
+        { "id": "b", "label": "/esˈtjuːdənt/", "correct": false, "feedback": "Todavía no: esa «e» inicial es la de «estudiante». En inglés no existe." },
+        { "id": "c", "label": "/esˈtuːdent/", "correct": false, "feedback": "Todavía no: tiene la «e» de apoyo y además una «e» plena donde el inglés pone schwa." }
+      ]
+    },
+    {
+      "id": "me-llamo-carmen",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce al inglés: **Me llamo Carmen.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "En inglés no se usa el verbo «llamar» para decir tu nombre.",
+        "Puedes decir literalmente «Mi nombre es Carmen» o «Soy Carmen»."
+      ],
+      "solution": "**My name is Carmen.** También valen *My name's Carmen*, *I'm Carmen* e *I am Carmen*. Lo que no funciona es *I call me Carmen*, que es una traducción palabra por palabra del reflexivo español.",
+      "answers": ["My name is Carmen", "My name's Carmen", "I'm Carmen", "I am Carmen"],
+      "feedback": [
+        { "match": "I call me Carmen", "message": "Todavía no: «me llamo» no se traduce con *call*. Di *My name is Carmen* o *I'm Carmen*." },
+        { "match": "I call myself Carmen", "message": "Casi: se entiende, pero no es lo natural para presentarse. Di *My name is Carmen* o *I'm Carmen*." }
+      ]
+    },
+    {
+      "id": "encantada",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Te presentan a una persona por primera vez. Traduce: **Encantada.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "La expresión inglesa significa literalmente «agradable conocerte».",
+        "Empieza por *Nice to…*"
+      ],
+      "solution": "**Nice to meet you.** Es igual para hombres y mujeres. También se dice *Pleased to meet you* (algo más formal) o *It's nice to meet you*. Recuerda que solo se usa la primera vez: si ya conoces a la persona, se dice *Nice to see you*.",
+      "answers": ["Nice to meet you", "Pleased to meet you", "It's nice to meet you", "It is nice to meet you", "Nice meeting you", "Good to meet you"],
+      "feedback": [
+        { "match": "Nice to see you", "message": "Casi: *Nice to see you* es para alguien que ya conoces. La primera vez se dice *Nice to meet you*." },
+        { "match": "Enchanted", "message": "Todavía no: *enchanted* significa «hechizado». Para presentarte, di *Nice to meet you*." }
+      ]
+    },
+    {
+      "id": "hasta-manana",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa la despedida (= Hasta mañana): **See you ______!**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Falta una sola palabra: «mañana».",
+        "Empieza por *to-*."
+      ],
+      "solution": "**tomorrow** → *See you tomorrow!* Con la misma estructura tienes *See you later* (hasta luego) y *See you soon* (hasta pronto).",
+      "answers": ["tomorrow", "See you tomorrow"],
+      "feedback": [
+        { "match": "tomorow", "message": "Casi: *tomorrow* se escribe con una m y dos erres." },
+        { "match": "morning", "message": "Todavía no: *morning* es «la mañana» (la parte del día). «Mañana» como día siguiente es *tomorrow*." }
+      ]
+    },
+    {
+      "id": "acento-chocolate",
+      "type": "choice",
+      "prompt": "¿Qué sílaba es la fuerte en la palabra inglesa *chocolate*?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Cuidado: no se acentúa como en español.",
+        "En inglés la palabra se dice con solo dos sílabas."
+      ],
+      "solution": "**CHOC**: /ˈtʃɒklət/, «CHOC-let», solo dos sílabas y la primera fuerte. La segunda vocal casi desaparece y la última es una schwa. Las palabras que se parecen al español suelen acentuarse en otro lugar: *FAM-i-ly*, *CAN-a-da*.",
+      "options": [
+        { "id": "a", "label": "CHOC (la primera)", "correct": true, "feedback": "¡Muy bien! *CHOC-late*." },
+        { "id": "b", "label": "co (la segunda)", "correct": false, "feedback": "Todavía no: en inglés la «o» del medio casi no se pronuncia." },
+        { "id": "c", "label": "late (la última)", "correct": false, "feedback": "Todavía no: así se acentúa en español, «cho-co-LA-te». En inglés la fuerza va al principio." }
+      ]
+    },
+    {
+      "id": "como-estas",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce la pregunta: **¿Cómo estás?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Empieza por *How…?*",
+        "«Estás» se traduce con *are you*."
+      ],
+      "solution": "**How are you?** Sirve tanto para «¿cómo estás?» como para «¿cómo está usted?», porque *you* vale para las dos. Formas más informales: *How are you doing?* y *How's it going?*",
+      "answers": ["How are you", "How are you doing", "How's it going", "How is it going", "How're you", "How are things"],
+      "feedback": [
+        { "match": "How you are", "message": "Casi: en la pregunta, *are* va delante de *you*: *How are you?*" },
+        { "match": "How is you", "message": "Casi: con *you* se usa *are*: *How are you?*" }
+      ]
+    },
+    {
+      "id": "saludos-informales",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las expresiones informales, las que usarías con un amigo pero no en una entrevista de trabajo.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Hay tres informales.",
+        "Las formas cortas suelen ser las más informales."
+      ],
+      "solution": "Son informales **Hi**, **See you later** y **How's it going?** En cambio, *Good afternoon* y *Goodbye* son neutras o formales y sirven en una entrevista. (*Hi* se oye cada vez más en el trabajo, pero no es la opción segura con un desconocido importante.)",
+      "options": [
+        { "id": "a", "label": "Hi!", "correct": true, "feedback": "Sí: *Hi* es el «hola» informal más común." },
+        { "id": "b", "label": "Good afternoon.", "correct": false, "feedback": "Esta es formal o neutra: perfecta para la entrevista." },
+        { "id": "c", "label": "See you later!", "correct": true, "feedback": "Sí: «hasta luego», informal." },
+        { "id": "d", "label": "How's it going?", "correct": true, "feedback": "Sí: «¿qué tal?», informal." },
+        { "id": "e", "label": "Goodbye.", "correct": false, "feedback": "Esta es neutra o algo formal; entre amigos se dice más *Bye*." }
+      ]
+    },
+    {
+      "id": "de-nada",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Alguien te dice *Thank you!* Responde **«De nada»** en inglés.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "La forma más común tiene dos palabras, una de ellas contraída.",
+        "*You're…*"
+      ],
+      "solution": "**You're welcome.** También se oyen *You are welcome*, *No problem* (informal), *My pleasure* (amable, algo formal) y *Don't mention it*. No traduzcas «de nada» como *of nothing*: no significa nada en inglés.",
+      "answers": ["You're welcome", "You are welcome", "No problem", "My pleasure", "Don't mention it", "Not at all", "No worries"],
+      "feedback": [
+        { "match": "Of nothing", "message": "Todavía no: es una traducción literal que no se entiende. Di *You're welcome*." },
+        { "match": "Your welcome", "message": "Casi: suena igual, pero se escribe *You're* (= *you are*): *You're welcome*." }
+      ]
+    },
+    {
+      "id": "th-sonora",
+      "type": "choice",
+      "prompt": "¿En qué palabra la *th* suena como la «d» suave de «cada» (con vibración en la garganta)?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "La th sonora /ð/ aparece en palabras muy frecuentes y en medio de palabras como «madre».",
+        "*Think*, *three* y *thanks* llevan la th sorda /θ/."
+      ],
+      "solution": "**Mother** /ˈmʌðə/ lleva la th sonora /ð/, la de «cada» o «nada», con la lengua un poco más adelantada, entre los dientes. *Think*, *three* y *thanks* llevan la sorda /θ/, la «z» de «zapato» en el español de España. Pon la mano en la garganta para notar la diferencia.",
+      "options": [
+        { "id": "a", "label": "think", "correct": false, "feedback": "Todavía no: *think* lleva la th sorda /θ/, sin vibración." },
+        { "id": "b", "label": "mother", "correct": true, "feedback": "¡Exacto! *Mother* lleva la /ð/ sonora." },
+        { "id": "c", "label": "three", "correct": false, "feedback": "Todavía no: *three* lleva /θ/, la sorda." },
+        { "id": "d", "label": "thanks", "correct": false, "feedback": "Todavía no: *thanks* lleva /θ/, la sorda." }
+      ]
+    }
+  ]
+}

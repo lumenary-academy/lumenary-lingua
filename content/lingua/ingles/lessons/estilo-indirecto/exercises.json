@@ -1,0 +1,351 @@
+{
+  "lesson": "estilo-indirecto",
+  "exercises": [
+    {
+      "id": "said-o-told",
+      "type": "choice",
+      "prompt": "*She ___ me she was tired.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "said",
+          "correct": false,
+          "feedback": "Todavía no. Con *say*, la persona no puede ir justo detrás: *She said (to me) that…*"
+        },
+        {
+          "id": "b",
+          "label": "told",
+          "correct": true,
+          "feedback": "Sí. *Tell* + persona + lo que se dice: *She told me…*"
+        },
+        {
+          "id": "c",
+          "label": "asked",
+          "correct": false,
+          "feedback": "Todavía no. *Asked* introduce preguntas o peticiones, y aquí se cuenta una afirmación."
+        }
+      ],
+      "hints": [
+        "Fíjate en la palabra que va justo después del hueco: *me*.",
+        "¿Cuál de los dos verbos lleva la persona directamente detrás?"
+      ],
+      "solution": "**told**: *She told me she was tired.*\n\n*Tell* lleva siempre a la persona detrás (*tell me, tell us, tell Ana*). Con *say* no se puede: diríamos *She said she was tired* o *She said to me that she was tired*."
+    },
+    {
+      "id": "ana-trabajando",
+      "type": "text",
+      "prompt": "Una semana después, cuentas lo que dijo Ana. Empieza con *Ana said…*\n\n*\"I'm working from home today.\"*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Ana said that she was working from home that day",
+        "Ana said she was working from home that day",
+        "Ana told me that she was working from home that day",
+        "Ana told me she was working from home that day",
+        "Ana told us that she was working from home that day",
+        "Ana told us she was working from home that day"
+      ],
+      "feedback": [
+        {
+          "match": "Ana said she was working from home today",
+          "message": "Casi: el tiempo verbal está bien, pero ha pasado una semana: *today* ya no es hoy. Cámbialo por *that day*."
+        },
+        {
+          "match": "Ana said she is working from home that day",
+          "message": "Casi: lo dijo en el pasado y ya no es verdad ahora, así que el present continuous da un paso atrás."
+        }
+      ],
+      "hints": [
+        "*I'm working* (present continuous) pasa a past continuous.",
+        "*I* pasa a *she*, y *today*, una semana después, pasa a *that day*."
+      ],
+      "solution": "**Ana said (that) she was working from home that day.**\n\nTres cambios: el pronombre (*I* → *she*), el tiempo (*am working* → *was working*) y la expresión de tiempo (*today* → *that day*, porque ya no es hoy). *That* después de *said* es opcional."
+    },
+    {
+      "id": "vienes-a-la-fiesta",
+      "type": "text",
+      "prompt": "Cuenta la pregunta de Tom. Empieza con *Tom asked me…*\n\n*\"Are you coming to the party?\"*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Tom asked me if I was coming to the party",
+        "Tom asked me whether I was coming to the party",
+        "Tom asked if I was coming to the party",
+        "Tom asked whether I was coming to the party"
+      ],
+      "feedback": [
+        {
+          "match": "Tom asked me if was I coming to the party",
+          "message": "Casi: en la pregunta indirecta el orden vuelve a ser sujeto + verbo: *if I was coming*."
+        },
+        {
+          "match": "Tom asked me are you coming to the party",
+          "message": "Todavía no: para contar una pregunta de sí o no, introdúcela con *if* o *whether* y cambia el orden y el tiempo."
+        }
+      ],
+      "hints": [
+        "Es una pregunta de sí o no: introdúcela con *if* o *whether*.",
+        "Orden de afirmación (*I was*) y salto atrás (*are* → *was*)."
+      ],
+      "solution": "**Tom asked me if I was coming to the party.** (o *whether I was coming*).\n\nLas preguntas de sí o no se cuentan con *if* o *whether*. Después, orden de afirmación: sujeto (*I*) + verbo (*was coming*). El pronombre cambia (*you* → *I*) y el tiempo da un paso atrás (*are coming* → *was coming*). Sin signo de interrogación."
+    },
+    {
+      "id": "donde-vivia",
+      "type": "choice",
+      "prompt": "*She asked me where ___.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "I lived",
+          "correct": true,
+          "feedback": "Sí. Después de la palabra interrogativa, orden normal: sujeto + verbo, sin *did*."
+        },
+        {
+          "id": "b",
+          "label": "did I live",
+          "correct": false,
+          "feedback": "Todavía no. Ese es el orden de una pregunta directa. En la indirecta desaparece *did*."
+        },
+        {
+          "id": "c",
+          "label": "do I live",
+          "correct": false,
+          "feedback": "Todavía no. No se usa *do* en una pregunta indirecta, y además el tiempo da un paso atrás."
+        },
+        {
+          "id": "d",
+          "label": "I did live",
+          "correct": false,
+          "feedback": "Todavía no. *Did* aquí sobra: el pasado se marca en el verbo, *lived*."
+        }
+      ],
+      "hints": [
+        "En una pregunta indirecta no hay *do, does* ni *did*.",
+        "Piensa en el orden de una afirmación: *I lived in…*"
+      ],
+      "solution": "**I lived**: *She asked me where I lived.*\n\nLa pregunta directa era *Where do you live?* Al contarla: *where* + sujeto + verbo en pasado, sin auxiliar *do* ni inversión. Es el error más frecuente en el estilo indirecto, porque en español el orden casi no cambia (*me preguntó dónde vivía*)."
+    },
+    {
+      "id": "no-toqueis",
+      "type": "text",
+      "prompt": "Cuenta la orden de la profesora. Empieza con *The teacher told us…*\n\n*\"Don't touch the screen.\"*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "The teacher told us not to touch the screen"
+      ],
+      "feedback": [
+        {
+          "match": "The teacher told us don't touch the screen",
+          "message": "Casi: dentro de la frase, la negación se hace con *not to* + infinitivo."
+        },
+        {
+          "match": "The teacher told us to not touch the screen",
+          "message": "Casi: se oye en la conversación, pero lo estándar es poner *not* antes de *to*."
+        },
+        {
+          "match": "The teacher told us that we didn't touch the screen",
+          "message": "Todavía no: así cuentas un hecho (que no lo tocamos), no una orden. Usa *told us not to* + infinitivo."
+        }
+      ],
+      "hints": [
+        "Las órdenes se cuentan con *tell* + persona + infinitivo con *to*.",
+        "En negativa: *not to* + infinitivo."
+      ],
+      "solution": "**The teacher told us not to touch the screen.**\n\nUna orden se cuenta con *tell* + persona + *to* + infinitivo. Si es negativa, *not* va delante de *to*: *told us not to touch*. No se usa *that* + oración, que es lo que haríamos en español (*nos dijo que no tocáramos*)."
+    },
+    {
+      "id": "leila-archivo",
+      "type": "text",
+      "prompt": "Cuenta la petición de Leila. Empieza con *Leila asked me…*\n\n*\"Could you send me the file?\"*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "Leila asked me to send her the file",
+        "Leila asked me to send the file to her",
+        "Leila asked me if I could send her the file",
+        "Leila asked me if I could send the file to her",
+        "Leila asked me whether I could send her the file",
+        "Leila asked me whether I could send the file to her"
+      ],
+      "feedback": [
+        {
+          "match": "Leila asked me to send me the file",
+          "message": "Casi: el archivo era para Leila, así que el pronombre cambia: *send her the file*."
+        }
+      ],
+      "hints": [
+        "Una petición se cuenta con *ask* + persona + *to* + infinitivo.",
+        "Cuidado con el pronombre: *me* en boca de Leila es *her* en la tuya."
+      ],
+      "solution": "**Leila asked me to send her the file.**\n\nAunque tiene forma de pregunta, *Could you…?* es una petición, y las peticiones se cuentan con *ask* + persona + *to* + infinitivo. El pronombre cambia según quién cuenta: el *me* de Leila es *her*. Contarla como pregunta (*asked me if I could send her the file*) también es correcto."
+    },
+    {
+      "id": "kofi-llamaria",
+      "type": "choice",
+      "prompt": "Hace un mes, Kofi te dijo *\"I'll call you.\"* Nunca llamó. ¿Cómo lo cuentas?\n\n*Kofi said he ___ me, but he never did.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "would call",
+          "correct": true,
+          "feedback": "Sí. *Will* da un paso atrás y pasa a *would*."
+        },
+        {
+          "id": "b",
+          "label": "will call",
+          "correct": false,
+          "feedback": "Todavía no. *Will* solo se mantiene si la promesa sigue en pie; aquí el momento ya pasó y no se cumplió."
+        },
+        {
+          "id": "c",
+          "label": "calls",
+          "correct": false,
+          "feedback": "Todavía no. Kofi hablaba de un futuro, no de una costumbre."
+        }
+      ],
+      "hints": [
+        "¿Sigue siendo futuro lo que prometió?",
+        "*Will* pasa a…"
+      ],
+      "solution": "**would call**: *Kofi said he would call me, but he never did.*\n\nEn el estilo indirecto, *will* se convierte en *would*. Solo se mantiene *will* cuando lo dicho sigue siendo futuro y válido (*He said he'll call me tonight*). Aquí la promesa pertenece al pasado y no se cumplió, así que *would* es lo natural."
+    },
+    {
+      "id": "donde-estaba-la-estacion",
+      "type": "text",
+      "prompt": "Traduce al inglés:\n\n**Me preguntó dónde estaba la estación.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "He asked me where the station was",
+        "He asked where the station was",
+        "She asked me where the station was",
+        "She asked where the station was"
+      ],
+      "feedback": [
+        {
+          "match": "He asked me where was the station",
+          "message": "Casi: en la pregunta indirecta, el sujeto va antes del verbo: *where the station was*."
+        },
+        {
+          "match": "She asked me where was the station",
+          "message": "Casi: en la pregunta indirecta, el sujeto va antes del verbo: *where the station was*."
+        }
+      ],
+      "hints": [
+        "El orden es *where* + sujeto + verbo.",
+        "*Estaba* → *was*, al final de la frase."
+      ],
+      "solution": "**He asked me where the station was.** (o *She asked me…*)\n\nEn español el verbo va antes del sujeto (*dónde estaba la estación*), pero en la pregunta indirecta inglesa el orden es *where* + sujeto + verbo: *where the station was*. El verbo queda al final."
+    },
+    {
+      "id": "suggest-estructuras",
+      "type": "choice",
+      "prompt": "Marca **todas** las frases correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "multiple": true,
+      "options": [
+        {
+          "id": "a",
+          "label": "She suggested going to the beach.",
+          "correct": true,
+          "feedback": "Sí. *Suggest* + *-ing* es una de sus dos estructuras."
+        },
+        {
+          "id": "b",
+          "label": "She suggested that we go to the beach.",
+          "correct": true,
+          "feedback": "Sí. *Suggest that* + persona + verbo es la otra estructura correcta."
+        },
+        {
+          "id": "c",
+          "label": "She suggested us to go to the beach.",
+          "correct": false,
+          "feedback": "Todavía no. *Suggest* no admite persona + infinitivo, aunque *advise* o *invite* sí."
+        },
+        {
+          "id": "d",
+          "label": "She suggested me going to the beach.",
+          "correct": false,
+          "feedback": "Todavía no. Con *suggest* no se pone a la persona justo detrás."
+        }
+      ],
+      "hints": [
+        "*Suggest* tiene dos estructuras: con *-ing* y con *that*.",
+        "Ninguna de las dos lleva un pronombre justo detrás de *suggest*."
+      ],
+      "solution": "Son correctas **a** y **b**.\n\n*Suggest* se construye con *-ing* (*She suggested going*) o con *that* + persona + verbo (*She suggested that we go*, o *that we should go*). A diferencia de *advise* (*She advised us to go*), no admite persona + infinitivo."
+    },
+    {
+      "id": "carlos-se-ofrecio",
+      "type": "text",
+      "prompt": "Completa con un verbo introductorio en pasado (una palabra):\n\n*\"I'll help you with the move,\" said Carlos.* → *Carlos ___ to help me with the move.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "en",
+      "answers": [
+        "offered",
+        "promised"
+      ],
+      "feedback": [
+        {
+          "match": "said",
+          "message": "Casi: *said* no admite *to* + infinitivo detrás. Busca un verbo que resuma la intención de Carlos."
+        },
+        {
+          "match": "suggested",
+          "message": "Todavía no: *suggest* no va seguido de *to* + infinitivo, y además Carlos no sugiere, sino que se ofrece."
+        }
+      ],
+      "hints": [
+        "Carlos se ofrece a ayudar, o lo promete.",
+        "Los dos verbos posibles van seguidos de *to* + infinitivo."
+      ],
+      "solution": "**offered** (o *promised*): *Carlos offered to help me with the move.*\n\n*Offer* y *promise* se construyen con *to* + infinitivo y resumen la intención de la frase mejor que *said*. Es un paso importante del nivel B1 al B2: en lugar de repetir *he said… he said…*, eliges el verbo que dice qué hizo la persona al hablar."
+    },
+    {
+      "id": "pregunta-cortesia",
+      "type": "choice",
+      "prompt": "Estás en una ciudad desconocida. ¿Cuál es la manera correcta y educada de preguntar?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Could you tell me where is the bathroom?",
+          "correct": false,
+          "feedback": "Todavía no. Dentro de una pregunta indirecta el orden es sujeto + verbo: *where the bathroom is*."
+        },
+        {
+          "id": "b",
+          "label": "Could you tell me where the bathroom is?",
+          "correct": true,
+          "feedback": "Sí. *Could you tell me…?* es la pregunta; lo de dentro va en orden de afirmación."
+        },
+        {
+          "id": "c",
+          "label": "Could you tell me where does the bathroom be?",
+          "correct": false,
+          "feedback": "Todavía no. *Be* nunca lleva *do* en una pregunta, y aquí además no hace falta ninguna inversión."
+        }
+      ],
+      "hints": [
+        "Lo que va después de *where* sigue el orden de una afirmación.",
+        "El verbo *is* va al final."
+      ],
+      "solution": "**Could you tell me where the bathroom is?**\n\nLas preguntas indirectas de cortesía siguen la misma regla del estilo indirecto: después de la palabra interrogativa, sujeto + verbo. No hay salto atrás porque no cuentas lo que dijo otra persona. En el Reino Unido es más común preguntar por *the toilet* o *the loo*; en EE. UU., por *the bathroom* o *the restroom*."
+    }
+  ]
+}

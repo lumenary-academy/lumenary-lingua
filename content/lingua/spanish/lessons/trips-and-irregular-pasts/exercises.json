@@ -1,0 +1,225 @@
+{
+  "lesson": "trips-and-irregular-pasts",
+  "exercises": [
+    {
+      "id": "fuimos-meaning",
+      "type": "choice",
+      "prompt": "What does *Fuimos a Cancún en julio* mean?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Fuimos* can be the preterite of *ser* or of *ir*.",
+        "What follows the verb? A place introduced by *a*."
+      ],
+      "options": [
+        { "id": "a", "label": "We went to Cancún in July.", "correct": true, "feedback": "Yes: *a* + a place shows that *fuimos* is from *ir*." },
+        { "id": "b", "label": "We were in Cancún in July.", "correct": false, "feedback": "Not yet — \"we were (located) in\" would be *Estuvimos en Cancún*. With *a* + place, *fuimos* is *ir*." },
+        { "id": "c", "label": "We are going to Cancún in July.", "correct": false, "feedback": "Not yet — that would be the present, *Vamos a Cancún*. *Fuimos* is past." },
+        { "id": "d", "label": "They went to Cancún in July.", "correct": false, "feedback": "Not yet — \"they went\" is *fueron*. The *-mos* ending means \"we\"." }
+      ],
+      "solution": "**We went to Cancún in July.** *Ser* and *ir* share the preterite forms *fui, fuiste, fue, fuimos, fuisteis, fueron*. Here *a Cancún* shows movement towards a place, so it is *ir*. Compare *La fiesta fue genial* (The party was great: *ser*)."
+    },
+    {
+      "id": "tuve",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **tener** in the preterite: *Ayer ___ (yo) un examen de español.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "The preterite stem of *tener* is *tuv-*.",
+        "The *yo* ending of strong preterites is *-e*, with no accent."
+      ],
+      "answers": ["tuve"],
+      "feedback": [
+        { "match": "tení", "message": "A natural guess, but *tener* has a strong preterite: stem *tuv-* + *-e*: *tuve*." },
+        { "match": "tuvé", "message": "Almost — strong preterites are stressed on the stem and have no accent: *tuve*." }
+      ],
+      "solution": "**tuve**: *Ayer tuve un examen de español.* *Tener* → stem *tuv-* + the strong endings *-e, -iste, -o, -imos, -isteis, -ieron*: *tuve, tuviste, tuvo…*"
+    },
+    {
+      "id": "hizo",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **hacer** in the preterite: *¿Qué ___ Ana el sábado?*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The preterite stem of *hacer* is *hic-*; *Ana* = she.",
+        "The *él/ella* ending is *-o*, and *c* before *o* would sound like *k*."
+      ],
+      "answers": ["hizo"],
+      "feedback": [
+        { "match": "hico", "message": "Almost — *hico* would sound like \"EE-ko\". To keep the sound, write *z*: *hizo*." },
+        { "match": "hació", "message": "A natural guess, but *hacer* has a strong preterite: *hizo*." },
+        { "match": "hizó", "message": "Almost — strong preterites have no accent: *hizo*." }
+      ],
+      "solution": "**hizo**: *¿Qué hizo Ana el sábado?* Stem *hic-* + *-o*; the *c* becomes *z* to keep its sound before *o*. The other forms keep the *c*: *hice, hiciste, hicimos, hicisteis, hicieron*."
+    },
+    {
+      "id": "estuvimos",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **estar** in the preterite: *El verano pasado ___ (nosotros) dos semanas en Chile.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The preterite stem of *estar* is *estuv-*.",
+        "The *nosotros* ending is *-imos*."
+      ],
+      "answers": ["estuvimos"],
+      "feedback": [
+        { "match": "estamos", "message": "Almost — *estamos* is the present. For last summer, use the preterite: *estuvimos*." },
+        { "match": "estábamos", "message": "That's a different past tense (lesson 9). For a completed two-week stay, use the preterite: *estuvimos*." }
+      ],
+      "solution": "**estuvimos**: *El verano pasado estuvimos dos semanas en Chile.* *Estar* → *estuv-* + *-imos*. The preterite fits because the stay is a completed, bounded period (two weeks)."
+    },
+    {
+      "id": "dijeron",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **decir** in the preterite: *En la recepción ___ que el desayuno es a las siete.* (They said…)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The preterite stem of *decir* is *dij-*.",
+        "After *j*, the *ellos* ending loses its *i*: *-eron*."
+      ],
+      "answers": ["dijeron", "me dijeron", "nos dijeron"],
+      "feedback": [
+        { "match": "dijieron", "message": "Almost — after the *j* of the stem, the ending is *-eron*: *dijeron*." },
+        { "match": "decieron", "message": "Almost — *decir* has a strong stem in the preterite: *dij-*. *Dijeron*." }
+      ],
+      "solution": "**dijeron**: *En la recepción dijeron que el desayuno es a las siete.* *Decir* → *dij-* + *-eron* (not *-ieron*, because the stem ends in *j*)."
+    },
+    {
+      "id": "viniste",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **venir** in the preterite: *¿Por qué no ___ (tú) a la fiesta?*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The preterite stem of *venir* is *vin-*.",
+        "The *tú* ending of strong preterites is *-iste*."
+      ],
+      "answers": ["viniste"],
+      "feedback": [
+        { "match": "veniste", "message": "Almost — the stem changes to *vin-*: *viniste*." },
+        { "match": "vinistes", "message": "Almost — the standard *tú* preterite has no final -s: *viniste*." }
+      ],
+      "solution": "**viniste**: *¿Por qué no viniste a la fiesta?* *Venir* → *vin-* + *-iste*. The full set: *vine, viniste, vino, vinimos, vinisteis, vinieron*."
+    },
+    {
+      "id": "puse",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **poner** in the preterite: *___ (yo) el pasaporte en la maleta.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The preterite stem of *poner* is *pus-*.",
+        "*yo* ending: *-e*, no accent."
+      ],
+      "answers": ["Puse"],
+      "feedback": [
+        { "match": "poní", "message": "A natural guess, but *poner* has a strong preterite: *puse*." },
+        { "match": "pusé", "message": "Almost — no accent on strong preterites: *puse*." }
+      ],
+      "solution": "**Puse** el pasaporte en la maleta. *Poner* → *pus-* + *-e*. Full set: *puse, pusiste, puso, pusimos, pusisteis, pusieron*."
+    },
+    {
+      "id": "went-to-mexico",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **Last year I went to Mexico.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "\"Last year\" is *el año pasado*.",
+        "*Ir* in the preterite, *yo* form: *fui*, followed by *a* + place."
+      ],
+      "answers": ["El año pasado fui a México", "El año pasado yo fui a México", "Fui a México el año pasado", "Yo fui a México el año pasado"],
+      "feedback": [
+        { "match": "El año pasado fuí a México", "message": "Almost — *fui* is one syllable and has no accent." },
+        { "match": "El año pasado iba a México", "message": "That's a different past tense (lesson 9) and would suggest a habit. For one trip, use the preterite: *fui*." },
+        { "match": "El año pasado fui en México", "message": "Almost — with *ir*, the destination takes *a*: *fui a México*." }
+      ],
+      "solution": "**El año pasado fui a México** (or *Fui a México el año pasado*). *Fui* is the *yo* preterite of *ir* (and of *ser*), with no accent. Movement towards a place takes *a*."
+    },
+    {
+      "id": "los-tengo",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Answer with a pronoun: *¿Tienes los billetes?* — *Sí, ___ tengo.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Los billetes* is masculine plural.",
+        "The pronoun matches the noun it replaces."
+      ],
+      "answers": ["los"],
+      "feedback": [
+        { "match": "lo", "message": "Almost — *billetes* is plural, so the pronoun is *los*." },
+        { "match": "les", "message": "Almost — *les* is an indirect object pronoun (lesson 10). For a direct object like *los billetes*, use *los*." }
+      ],
+      "solution": "**los**: *Sí, los tengo.* The direct object pronoun agrees with the noun it replaces: *los billetes* (masculine plural) → *los*. It goes right before the conjugated verb."
+    },
+    {
+      "id": "la-vi",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Answer with a pronoun: *¿Viste a Laura?* — *Sí, ___ vi ayer.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Direct object pronouns replace people too.",
+        "Laura is one woman."
+      ],
+      "answers": ["la"],
+      "feedback": [
+        { "match": "le", "message": "Not quite — for a woman as direct object, the standard pronoun is *la*: *la vi ayer*." },
+        { "match": "lo", "message": "Almost — Laura is a woman, so *la*." },
+        { "match": "a Laura", "message": "That repeats the name; the question asks for a pronoun: *la*." }
+      ],
+      "solution": "**la**: *Sí, la vi ayer.* *A Laura* is the direct object (with the personal *a*); the pronoun replacing it is *la*, feminine singular, placed before the verb."
+    },
+    {
+      "id": "want-to-buy-it",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "*¿El billete de tren?* Which sentences correctly say **I want to buy it**? Choose all that apply.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*El billete* is masculine singular: *lo*.",
+        "With a conjugated verb + infinitive, the pronoun can go before the conjugated verb or attached to the infinitive."
+      ],
+      "options": [
+        { "id": "a", "label": "Quiero comprarlo.", "correct": true, "feedback": "Yes: the pronoun is attached to the infinitive." },
+        { "id": "b", "label": "Lo quiero comprar.", "correct": true, "feedback": "Yes: the pronoun goes before the conjugated verb. Just as correct." },
+        { "id": "c", "label": "Quiero lo comprar.", "correct": false, "feedback": "Not yet — the pronoun can't sit between the two verbs. Put it before *quiero* or attach it to *comprar*." },
+        { "id": "d", "label": "Quiero comprar lo.", "correct": false, "feedback": "Not yet — when it goes after an infinitive, the pronoun is written as one word with it: *comprarlo*." }
+      ],
+      "solution": "**Quiero comprarlo** and **Lo quiero comprar** are both correct. With a conjugated verb plus an infinitive, the object pronoun either goes before the conjugated verb or is attached to the end of the infinitive, written as one word."
+    },
+    {
+      "id": "dieron-vuelta",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **dar** in the preterite: *Por la tarde los turistas ___ una vuelta por el centro.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Dar* takes the -er/-ir preterite endings, even though it's an -ar verb.",
+        "*ellos*: *-ieron* on the stem *d-*."
+      ],
+      "answers": ["dieron"],
+      "feedback": [
+        { "match": "daron", "message": "A natural guess for an -ar verb, but *dar* uses the -er/-ir endings: *dieron*." },
+        { "match": "dio", "message": "Almost — *dio* is singular. *Los turistas* is plural: *dieron*." }
+      ],
+      "solution": "**dieron**: *Por la tarde los turistas dieron una vuelta por el centro* (went for a walk around the centre). *Dar* is irregular because it uses -er/-ir endings: *di, diste, dio, dimos, disteis, dieron*, with no accents."
+    }
+  ]
+}

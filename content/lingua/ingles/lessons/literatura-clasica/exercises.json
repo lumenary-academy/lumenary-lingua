@@ -1,0 +1,231 @@
+{
+  "lesson": "literatura-clasica",
+  "exercises": [
+    {
+      "id": "clasica-wherefore",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "*O Romeo, Romeo, wherefore art thou Romeo?* ¿Qué pregunta Julieta?",
+      "options": [
+        { "id": "a", "label": "¿Por qué eres Romeo?", "correct": true, "feedback": "¡Eso es! *Wherefore* = *why*. Julieta lamenta que Romeo pertenezca a la familia enemiga." },
+        { "id": "b", "label": "¿Dónde estás, Romeo?", "correct": false, "feedback": "Todavía no: es la interpretación equivocada más famosa de la literatura inglesa. *Wherefore* no significa *where*." },
+        { "id": "c", "label": "¿Adónde vas, Romeo?", "correct": false, "feedback": "Todavía no: «adónde» sería *whither*." },
+        { "id": "d", "label": "¿Cuándo vendrás, Romeo?", "correct": false, "feedback": "Todavía no: no hay ninguna referencia al tiempo en la pregunta." }
+      ],
+      "hints": [
+        "*Wherefore* es pariente de *therefore* (por lo tanto).",
+        "Julieta se queja del apellido de Romeo, no de su ausencia."
+      ],
+      "solution": "*Wherefore* significa **why** (por qué) y *art thou* es *are you*. Julieta pregunta por qué Romeo tiene que ser Romeo, un Montesco. En la misma escena sigue lamentando que un simple nombre los separe."
+    },
+    {
+      "id": "clasica-thee",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Completa el primer verso del Soneto 18: *Shall I compare ___ to a summer's day?*",
+      "options": [
+        { "id": "a", "label": "thee", "correct": true, "feedback": "¡Muy bien! *Thee* es la forma de objeto (como *you* en *compare you*)." },
+        { "id": "b", "label": "thou", "correct": false, "feedback": "Casi: *thou* es la forma de sujeto. Aquí el pronombre es el objeto de *compare*." },
+        { "id": "c", "label": "thy", "correct": false, "feedback": "Todavía no: *thy* es un posesivo (*your*) y necesita un sustantivo detrás." },
+        { "id": "d", "label": "thine", "correct": false, "feedback": "Todavía no: *thine* es posesivo (*your* delante de vocal, o *yours*)." }
+      ],
+      "hints": [
+        "El pronombre es el objeto del verbo *compare*.",
+        "Sujeto: *thou*. Objeto: ¿?"
+      ],
+      "solution": "*Thou* (sujeto), **thee** (objeto), *thy / thine* (posesivos). Como el pronombre es el objeto de *compare*, la forma es *thee*: **Shall I compare thee to a summer's day?** = *Shall I compare you to a summer's day?*"
+    },
+    {
+      "id": "clasica-thou-art",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Escribe en inglés actual:\n\n*Thou art my dearest friend.*",
+      "answers": ["You are my dearest friend", "You're my dearest friend"],
+      "feedback": [
+        { "match": "You art my dearest friend", "message": "Casi: *art* es la forma de *be* que acompaña a *thou*. Con *you*, usa *are*." }
+      ],
+      "hints": [
+        "*Thou* = *you* (sujeto, singular).",
+        "*Art* es la forma de *be* para *thou*."
+      ],
+      "solution": "*Thou* → *you*; *art* → *are*: **You are my dearest friend** (o *You're…*). En inglés moderno, *dearest* es algo literario pero sigue en uso, sobre todo en cartas afectuosas."
+    },
+    {
+      "id": "clasica-hath",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Escribe en inglés actual:\n\n*She hath no money and knoweth not where to go.*",
+      "answers": [
+        "She has no money and doesn't know where to go",
+        "She has no money and does not know where to go",
+        "She has no money and she doesn't know where to go",
+        "She has no money and she does not know where to go",
+        "She hasn't got any money and doesn't know where to go",
+        "She doesn't have any money and doesn't know where to go",
+        "She does not have any money and does not know where to go",
+        "She has no money, and doesn't know where to go",
+        "She has no money, and she doesn't know where to go"
+      ],
+      "feedback": [
+        { "match": "She has no money and knows not where to go", "message": "Casi: *knows not* sigue siendo una negación antigua, sin *do*. En inglés actual: *doesn't know*." },
+        { "match": "She has no money and don't know where to go", "message": "Casi: con *she*, el auxiliar es *doesn't*." }
+      ],
+      "hints": [
+        "*Hath* = *has*; *knoweth* = *knows*.",
+        "Las negaciones antiguas sin *do* (*knoweth not*) necesitan *doesn't* en inglés actual."
+      ],
+      "solution": "*Hath* → *has*; *knoweth not* → la negación moderna con *do*: *doesn't know*. Resultado: **She has no money and doesn't know where to go.**"
+    },
+    {
+      "id": "clasica-know-not",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Un personaje dice: *I know not what you mean.* ¿Cuál es la versión moderna?",
+      "options": [
+        { "id": "a", "label": "I don't know what you mean.", "correct": true, "feedback": "¡Exacto! El inglés moderno temprano podía negar sin *do*; hoy necesitamos el auxiliar." },
+        { "id": "b", "label": "I know what you mean.", "correct": false, "feedback": "Todavía no: has perdido la negación. *Not* sigue estando ahí." },
+        { "id": "c", "label": "I didn't know what you meant.", "correct": false, "feedback": "Casi: la negación es correcta, pero el original está en presente." },
+        { "id": "d", "label": "I know nothing about you.", "correct": false, "feedback": "Todavía no: cambia el significado. El personaje no entiende lo que le dicen." }
+      ],
+      "hints": [
+        "Es una negación sin el auxiliar *do*.",
+        "Pon *do not* (o *don't*) delante de *know*."
+      ],
+      "solution": "En la época de Shakespeare se podía negar poniendo *not* detrás del verbo (*I know not*, *Fear not*). En inglés actual: **I don't know what you mean.**"
+    },
+    {
+      "id": "clasica-austen-irony",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "*It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.* ¿Qué hace Austen en esta frase?",
+      "options": [
+        { "id": "a", "label": "Usa la ironía: presenta como verdad universal lo que en realidad es el deseo de las familias de casar a sus hijas con un hombre rico.", "correct": true, "feedback": "¡Muy bien! La solemnidad de la forma contrasta con lo interesado del contenido. Es la ironía que recorre toda la novela." },
+        { "id": "b", "label": "Expone sinceramente su opinión de que todo hombre rico necesita casarse.", "correct": false, "feedback": "Todavía no: es la lectura literal. Austen se ríe de esa «verdad universal», no la defiende." },
+        { "id": "c", "label": "Critica a los hombres ricos por no querer casarse.", "correct": false, "feedback": "Casi: hay crítica, pero no va dirigida a los hombres ricos, sino a una sociedad que los ve como presas matrimoniales." },
+        { "id": "d", "label": "Describe una ley de la Inglaterra de su época.", "correct": false, "feedback": "Todavía no: no hay ninguna ley; *a truth universally acknowledged* es una exageración irónica." }
+      ],
+      "hints": [
+        "¿Quién necesita realmente algo en esta situación: el hombre rico o los vecinos con hijas solteras?",
+        "Fíjate en el contraste entre el tono solemne y el tema."
+      ],
+      "solution": "La frase adopta el tono de una máxima filosófica (*a truth universally acknowledged*) para hablar de un asunto doméstico e interesado. Lo que sugiere es lo contrario de lo que afirma: son las familias quienes «necesitan» al soltero rico. Es **ironía**, el rasgo más característico del estilo de Austen."
+    },
+    {
+      "id": "clasica-in-want-of",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "En *The Lord is my shepherd; I shall not want* y en *must be in want of a wife*, ¿qué significa *want*?",
+      "options": [
+        { "id": "a", "label": "carecer de, necesitar", "correct": true, "feedback": "¡Eso es! Es el sentido antiguo de *want*: «nada me faltará»; «debe de necesitar una esposa»." },
+        { "id": "b", "label": "desear, querer", "correct": false, "feedback": "Casi: es el sentido moderno más común, pero en estos textos *want* significa «carecer»." },
+        { "id": "c", "label": "buscar", "correct": false, "feedback": "Todavía no: el sentido de *want* aquí es de carencia, no de búsqueda activa." },
+        { "id": "d", "label": "esperar", "correct": false, "feedback": "Todavía no: «esperar» sería *wait for* o *hope*." }
+      ],
+      "hints": [
+        "*I shall not want* se traduce tradicionalmente como «nada me faltará».",
+        "Piensa en *for want of* (por falta de), que aún se usa."
+      ],
+      "solution": "En ambos textos, *want* conserva su sentido antiguo: **carecer, necesitar**. *I shall not want* = nada me faltará; *in want of a wife* = necesitado de esposa. El sentido sobrevive en expresiones como *for want of a better word* (a falta de una palabra mejor)."
+    },
+    {
+      "id": "clasica-dickens-figures",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "*It was the best of times, it was the worst of times,* ¿Qué dos recursos combina Dickens?",
+      "options": [
+        { "id": "a", "label": "Anáfora (repetición al principio) y antítesis (opuestos enfrentados).", "correct": true, "feedback": "¡Exacto! *It was the… / it was the…* es anáfora; *best / worst* es antítesis." },
+        { "id": "b", "label": "Rima y aliteración.", "correct": false, "feedback": "Todavía no: no hay rima, y la repetición es de palabras enteras, no de sonidos iniciales." },
+        { "id": "c", "label": "Metáfora y personificación.", "correct": false, "feedback": "Todavía no: no se compara ni se personifica nada." },
+        { "id": "d", "label": "Ironía y eufemismo.", "correct": false, "feedback": "Casi: hay algo de ironía en la frase completa, pero los recursos evidentes en estas palabras son otros." }
+      ],
+      "hints": [
+        "Fíjate en lo que se repite al principio de cada parte.",
+        "Fíjate en *best* y *worst*."
+      ],
+      "solution": "La repetición de *it was the* al comienzo de cada miembro es una **anáfora**; el choque entre *best* y *worst* es una **antítesis**. Dickens encadena la misma estructura durante toda la frase. Verás ambos recursos en la lección de oratoria."
+    },
+    {
+      "id": "clasica-dickinson-dashes",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "Encuentras el mismo poema de Dickinson con guiones en una edición y con comas y punto y coma en otra. ¿Cuál es la explicación más probable?",
+      "options": [
+        { "id": "a", "label": "Las primeras ediciones póstumas regularizaron su puntuación; las ediciones posteriores recuperaron los guiones de sus manuscritos.", "correct": true, "feedback": "¡Muy bien! Las ediciones de la década de 1890 adaptaron sus poemas a las convenciones de la época; en el siglo XX se editaron tal como ella los escribió." },
+        { "id": "b", "label": "Dickinson escribió dos versiones de cada poema, una para cada país.", "correct": false, "feedback": "Todavía no: no hay nada de eso. La diferencia es obra de los editores." },
+        { "id": "c", "label": "Una de las dos ediciones es una falsificación.", "correct": false, "feedback": "Todavía no: las dos son ediciones legítimas; difieren en sus criterios editoriales." },
+        { "id": "d", "label": "Los guiones son un error de imprenta moderno.", "correct": false, "feedback": "Todavía no: los guiones son de Dickinson; lo que se alteró fueron las primeras ediciones." }
+      ],
+      "hints": [
+        "Dickinson publicó muy poco en vida.",
+        "Piensa en lo que hicieron sus primeros editores."
+      ],
+      "solution": "Dickinson publicó muy pocos poemas en vida. Sus primeros editores, en la década de 1890, **regularizaron la puntuación** (los guiones se volvieron comas y punto y coma) y añadieron títulos. A mediados del siglo XX se publicaron ediciones basadas en los manuscritos, con sus guiones y mayúsculas."
+    },
+    {
+      "id": "clasica-knowest",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Escribe en inglés actual:\n\n*Thou knowest the way.*",
+      "answers": ["You know the way"],
+      "feedback": [
+        { "match": "You knowest the way", "message": "Casi: la terminación *-est* solo acompaña a *thou*. Con *you*: *know*." },
+        { "match": "You knows the way", "message": "Casi: con *you* el verbo no lleva -s: *You know the way*." }
+      ],
+      "hints": [
+        "*Thou* → *you*.",
+        "Quita la terminación *-est*."
+      ],
+      "solution": "*Thou* → *you*; *knowest* → *know* (la terminación *-est* era propia de *thou*): **You know the way.**"
+    },
+    {
+      "id": "clasica-period",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "¿En qué etapa de la historia del inglés escribió Shakespeare?",
+      "options": [
+        { "id": "a", "label": "Early Modern English (inglés moderno temprano)", "correct": true, "feedback": "¡Correcto! Shakespeare (1564–1616) es inglés moderno temprano, como la Biblia del rey Jacobo." },
+        { "id": "b", "label": "Old English (inglés antiguo)", "correct": false, "feedback": "Todavía no: el *Old English* es la lengua de *Beowulf*, varios siglos anterior y casi ilegible para un lector actual." },
+        { "id": "c", "label": "Middle English (inglés medio)", "correct": false, "feedback": "Casi: es la etapa anterior, la de Chaucer (siglo XIV)." },
+        { "id": "d", "label": "Modern English (inglés moderno)", "correct": false, "feedback": "Casi: el inglés moderno propiamente dicho se suele fechar a partir de finales del siglo XVII, el de Austen o Dickens." }
+      ],
+      "hints": [
+        "Shakespeare vivió entre 1564 y 1616.",
+        "Repasa la tabla de etapas al principio de la lección."
+      ],
+      "solution": "Shakespeare escribió en **Early Modern English** (aprox. 1500–1700). Por eso un lector actual puede leerlo con notas, mientras que el *Old English* de *Beowulf* requiere estudiarlo como otra lengua."
+    },
+    {
+      "id": "clasica-pentameter",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "El pentámetro yámbico tiene cinco pies de dos sílabas. ¿Cuántas sílabas tiene el verso *Shall I compare thee to a summer's day?* Escribe el número en cifras o en letras (en inglés).",
+      "answers": ["10", "ten"],
+      "feedback": [
+        { "match": "5", "message": "Casi: cinco es el número de pies. Cada pie tiene dos sílabas." },
+        { "match": "five", "message": "Casi: cinco es el número de pies. Cada pie tiene dos sílabas." },
+        { "match": "11", "message": "Casi: revisa *summer's*, que tiene dos sílabas, y *compare*, que también tiene dos." }
+      ],
+      "hints": [
+        "Cinco pies × dos sílabas.",
+        "Compruébalo: shall-I-com-pare-thee-to-a-sum-mer's-day."
+      ],
+      "solution": "*Shall / I / com / pare / thee / to / a / sum / mer's / day*: **10** sílabas, en cinco pies yámbicos (átona-tónica): *shall I | com-PARE | thee TO | a SUM- | mer's DAY*. Así suena casi todo el verso de Shakespeare."
+    }
+  ]
+}

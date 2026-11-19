@@ -1,0 +1,402 @@
+{
+  "lesson": "ingles-academico",
+  "exercises": [
+    {
+      "id": "acad-hedge-claim",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Un estudio ha encontrado una relación entre el uso intensivo de redes sociales y síntomas de depresión en adolescentes, pero no ha demostrado que lo uno cause lo otro. ¿Qué oración refleja mejor esos resultados en un texto académico?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Heavy social media use may be associated with higher rates of depression among teenagers.",
+          "correct": true,
+          "feedback": "¡Muy bien! *May be associated with* expresa una relación sin afirmar causalidad, que es justo lo que muestran los datos."
+        },
+        {
+          "id": "b",
+          "label": "Social media causes depression in teenagers.",
+          "correct": false,
+          "feedback": "Todavía no: afirma una causa que el estudio no ha demostrado. Es demasiado rotunda."
+        },
+        {
+          "id": "c",
+          "label": "It is clearly proven that teenagers get depressed because of social media.",
+          "correct": false,
+          "feedback": "Todavía no: *clearly proven* es un *booster* fuerte y la afirmación causal no está respaldada."
+        },
+        {
+          "id": "d",
+          "label": "Social media might perhaps possibly have some kind of link with depression, maybe.",
+          "correct": false,
+          "feedback": "Casi: ahora el problema es el contrario. Tantos matices juntos vacían la oración de contenido."
+        }
+      ],
+      "hints": [
+        "El estudio muestra una relación, no una causa.",
+        "Busca un solo matiz bien elegido, ni cero ni cinco."
+      ],
+      "solution": "Un buen *hedging* ajusta la afirmación a la evidencia. Los datos muestran una asociación, no una causa, así que lo adecuado es **Heavy social media use may be associated with higher rates of depression among teenagers.** La B y la C afirman demasiado; la D matiza tanto que ya no dice nada."
+    },
+    {
+      "id": "acad-nominalise-rise",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Reescribe la oración con una nominalización, empezando por **The rapid**:\n\n*Prices increased rapidly, and this worried consumers.*",
+      "answers": [
+        "The rapid increase in prices worried consumers",
+        "The rapid rise in prices worried consumers",
+        "The rapid growth in prices worried consumers",
+        "The rapid increase of prices worried consumers",
+        "The rapid price increase worried consumers",
+        "The rapid price rise worried consumers"
+      ],
+      "feedback": [
+        {
+          "match": "The rapid increase in prices worried to consumers",
+          "message": "Casi: *worry* lleva objeto directo, sin *to*: *worried consumers*."
+        },
+        {
+          "match": "The rapid increasing of prices worried consumers",
+          "message": "Casi: el sustantivo de *increase* es el propio *increase* (o *rise*), no *increasing*."
+        }
+      ],
+      "hints": [
+        "El verbo *increase* tiene un sustantivo con la misma forma.",
+        "El adverbio *rapidly* se convierte en adjetivo: *rapid*. Después, *in prices*."
+      ],
+      "solution": "Al nominalizar, el verbo *increased* pasa a sustantivo (*increase* o *rise*), el adverbio *rapidly* pasa a adjetivo (*rapid*) y el sujeto se convierte en complemento con *in*: **The rapid increase in prices worried consumers.** Dos oraciones se condensan en una, y *this* desaparece."
+    },
+    {
+      "id": "acad-impersonal",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Reescribe con una estructura impersonal que empiece por **It is**:\n\n*People widely believe that bilingualism delays memory loss.*",
+      "answers": [
+        "It is widely believed that bilingualism delays memory loss",
+        "It is widely believed bilingualism delays memory loss"
+      ],
+      "feedback": [
+        {
+          "match": "It is widely believe that bilingualism delays memory loss",
+          "message": "Casi: después de *It is* necesitas el participio: *believed*."
+        },
+        {
+          "match": "It is believed widely that bilingualism delays memory loss",
+          "message": "Casi: es comprensible, pero el adverbio va delante del participio: *widely believed*."
+        }
+      ],
+      "hints": [
+        "Es una pasiva con *it* como sujeto.",
+        "*It is* + adverbio + participio + *that*…"
+      ],
+      "solution": "La estructura impersonal es *It is* + *widely* + participio (*believed*) + *that*: **It is widely believed that bilingualism delays memory loss.** También podrías escribir *Bilingualism is widely believed to delay memory loss*, con la pasiva e infinitivo."
+    },
+    {
+      "id": "acad-reporting-claims",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Quieres mencionar la idea de un autor dejando claro que **no estás convencido** de ella. ¿Qué verbo eliges? *Ruiz (2020) ___ that homework has no effect on learning.*",
+      "options": [
+        {
+          "id": "a",
+          "label": "claims",
+          "correct": true,
+          "feedback": "¡Exacto! *Claim* presenta la idea como una afirmación del autor, y a menudo sugiere cierta distancia o escepticismo."
+        },
+        {
+          "id": "b",
+          "label": "demonstrates",
+          "correct": false,
+          "feedback": "Todavía no: *demonstrate* indica que aceptas la conclusión como probada. Es lo contrario de lo que quieres."
+        },
+        {
+          "id": "c",
+          "label": "shows",
+          "correct": false,
+          "feedback": "Todavía no: *show*, como *demonstrate*, implica que la idea está respaldada y que tú la aceptas."
+        },
+        {
+          "id": "d",
+          "label": "establishes",
+          "correct": false,
+          "feedback": "Todavía no: *establish* implica que el autor lo ha dejado bien asentado. Muestra acuerdo."
+        }
+      ],
+      "hints": [
+        "Los verbos de cita no son neutros: algunos muestran acuerdo y otros, distancia.",
+        "¿Cuál de estos verbos usarías para una afirmación que todavía hay que comprobar?"
+      ],
+      "solution": "*Show*, *demonstrate* y *establish* indican que aceptas la idea como probada. **Claims** la presenta como una afirmación del autor, de cuya validez puedes tomar distancia. Otros verbos neutros o prudentes: *suggests*, *argues*, *maintains*. (Ruiz 2020 es una referencia inventada para el ejercicio.)"
+    },
+    {
+      "id": "acad-patchwriting",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Original: *Urban trees lower street temperatures by providing shade and releasing moisture into the air.*\n\n¿Qué versión es una **paráfrasis aceptable** (con su referencia)?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Shade and evaporation from trees can make city streets noticeably cooler.",
+          "correct": true,
+          "feedback": "¡Muy bien! Cambia la estructura (empieza por las causas), el vocabulario y el punto de vista, y conserva la idea."
+        },
+        {
+          "id": "b",
+          "label": "City trees reduce street temperatures by giving shade and releasing humidity into the air.",
+          "correct": false,
+          "feedback": "Todavía no: es *patchwriting*. Solo se han cambiado algunas palabras por sinónimos; la estructura es la misma del original."
+        },
+        {
+          "id": "c",
+          "label": "Urban trees lower street temperatures by providing shade and releasing moisture into the air.",
+          "correct": false,
+          "feedback": "Todavía no: es una copia literal. Si la usas, necesita comillas y la referencia: sería una cita directa, no una paráfrasis."
+        },
+        {
+          "id": "d",
+          "label": "Trees make cities more beautiful.",
+          "correct": false,
+          "feedback": "Todavía no: es otra idea distinta. Una paráfrasis debe conservar el significado del original."
+        }
+      ],
+      "hints": [
+        "Una paráfrasis cambia la estructura y las palabras, pero conserva la idea.",
+        "Desconfía de la versión que se parece al original palabra por palabra."
+      ],
+      "solution": "Una paráfrasis real **reformula** la idea: nueva estructura, nuevo vocabulario, mismo significado, y siempre con la referencia. La A lo consigue. La B solo cambia sinónimos (*patchwriting*), la C es una copia y la D cambia el sentido."
+    },
+    {
+      "id": "acad-topic-sentence",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Este párrafo necesita una oración temática al principio:\n\n*___ Bus routes were extended to three new districts, ticket prices were cut by a third, and buses began running every ten minutes. As a result, passenger numbers rose steadily over the following year.*\n\n¿Cuál es la mejor?",
+      "options": [
+        {
+          "id": "a",
+          "label": "In 2019, the city introduced several measures to make public transport more attractive.",
+          "correct": true,
+          "feedback": "¡Eso es! Anuncia la idea que el resto del párrafo desarrolla: las medidas y su efecto."
+        },
+        {
+          "id": "b",
+          "label": "Buses are a type of public transport.",
+          "correct": false,
+          "feedback": "Todavía no: es demasiado general y no anuncia de qué trata el párrafo."
+        },
+        {
+          "id": "c",
+          "label": "Ticket prices were cut by a third.",
+          "correct": false,
+          "feedback": "Todavía no: es un detalle concreto, y además repite una información que ya está en el párrafo."
+        },
+        {
+          "id": "d",
+          "label": "Moreover, cycling is also popular.",
+          "correct": false,
+          "feedback": "Todavía no: cambia de tema y empieza con un conector de adición que no tiene nada a lo que sumarse."
+        }
+      ],
+      "hints": [
+        "La oración temática resume lo que el párrafo va a desarrollar.",
+        "Mira qué tienen en común las tres medidas mencionadas."
+      ],
+      "solution": "Una buena oración temática enuncia la idea general que el resto del párrafo concreta. Las tres medidas buscan que la gente use más el transporte público, así que la mejor es **In 2019, the city introduced several measures to make public transport more attractive.** (El año y la ciudad son un ejemplo inventado.)"
+    },
+    {
+      "id": "acad-according-to-me",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "¿Cuál de estas formas de introducir tu opinión **no** es adecuada en un ensayo académico en inglés?",
+      "options": [
+        {
+          "id": "a",
+          "label": "According to me, the policy failed.",
+          "correct": true,
+          "feedback": "¡Correcto, esta es la que no funciona! *According to* se usa para fuentes ajenas (*according to the report*), no para uno mismo."
+        },
+        {
+          "id": "b",
+          "label": "In my view, the policy failed.",
+          "correct": false,
+          "feedback": "Esta sí es adecuada: *In my view* es una fórmula aceptada para presentar la postura propia."
+        },
+        {
+          "id": "c",
+          "label": "I would argue that the policy failed.",
+          "correct": false,
+          "feedback": "Esta sí es adecuada: *I would argue* presenta una postura razonada con un matiz de prudencia."
+        },
+        {
+          "id": "d",
+          "label": "The evidence suggests that the policy failed.",
+          "correct": false,
+          "feedback": "Esta sí es adecuada, y muy académica: apoya la opinión en la evidencia en lugar de en el autor."
+        }
+      ],
+      "hints": [
+        "Una de las expresiones es un calco del español.",
+        "*According to* sirve para atribuir una idea a otra persona o a un documento."
+      ],
+      "solution": "***According to me*** no se usa en inglés: *according to* introduce la opinión de otros (*according to the author*). Para la tuya, usa *In my view*, *I would argue that* o, mejor aún en registro académico, *The evidence suggests that…*"
+    },
+    {
+      "id": "acad-results-suggest",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés académico:\n\n*Los resultados sugieren que el método es eficaz.*",
+      "answers": [
+        "The results suggest that the method is effective",
+        "The results suggest the method is effective",
+        "The findings suggest that the method is effective",
+        "The findings suggest the method is effective",
+        "The results indicate that the method is effective",
+        "The findings indicate that the method is effective"
+      ],
+      "feedback": [
+        {
+          "match": "The results suggests that the method is effective",
+          "message": "Casi: *results* es plural, así que el verbo va sin -s: *suggest*."
+        },
+        {
+          "match": "The results suggest that the method is eficaz",
+          "message": "Casi: «eficaz» es *effective* en inglés."
+        },
+        {
+          "match": "The results suggest that the method is efficient",
+          "message": "Casi: *efficient* significa «eficiente» (que no desperdicia tiempo ni recursos). «Eficaz» (que consigue el efecto buscado) es *effective*."
+        }
+      ],
+      "hints": [
+        "«Sugerir» = *suggest*; ojo a la concordancia con un sujeto plural.",
+        "«Eficaz» = *effective* (produce el efecto deseado)."
+      ],
+      "solution": "**The results suggest that the method is effective.** *Results* (o *findings*) es plural, así que *suggest* va sin -s; *that* es opcional. «Eficaz» se traduce por *effective*; *efficient* significa «eficiente», que no es lo mismo: un método puede ser eficaz pero lento."
+    },
+    {
+      "id": "acad-make-research",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Corrige el error y escribe la oración completa:\n\n*We made a research on vocabulary learning.*",
+      "answers": [
+        "We did research on vocabulary learning",
+        "We did some research on vocabulary learning",
+        "We did research into vocabulary learning",
+        "We did some research into vocabulary learning",
+        "We conducted research on vocabulary learning",
+        "We conducted research into vocabulary learning",
+        "We carried out research on vocabulary learning",
+        "We carried out research into vocabulary learning",
+        "We conducted some research on vocabulary learning",
+        "We carried out some research on vocabulary learning",
+        "We conducted a study on vocabulary learning",
+        "We carried out a study on vocabulary learning",
+        "We did a study on vocabulary learning"
+      ],
+      "feedback": [
+        {
+          "match": "We did a research on vocabulary learning",
+          "message": "Casi: el verbo ya está bien, pero *research* es incontable: quita *a* (o usa *some research*, *a study*)."
+        },
+        {
+          "match": "We made research on vocabulary learning",
+          "message": "Casi: *research* se combina con *do*, *conduct* o *carry out*, no con *make*."
+        }
+      ],
+      "hints": [
+        "Hay dos errores: el verbo y el artículo.",
+        "*Research* es incontable y va con *do*, *carry out* o *conduct*."
+      ],
+      "solution": "*Research* es **incontable** (no lleva *a*) y se combina con **do**, **carry out** o **conduct**, no con *make*: **We conducted research on vocabulary learning** (o *We did some research into…*). Si quieres un sustantivo contable, usa *a study*."
+    },
+    {
+      "id": "acad-exam-criteria",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Según lo visto en la lección, ¿qué estrategia **no** ayuda a obtener una buena valoración en la parte de escritura de exámenes como IELTS o TOEFL?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Meter el mayor número posible de palabras raras y modismos, aunque no encajen del todo.",
+          "correct": true,
+          "feedback": "¡Correcto, esta no ayuda! Se valora la precisión y la naturalidad del vocabulario, no la rareza. Una palabra mal usada resta."
+        },
+        {
+          "id": "b",
+          "label": "Responder a todas las partes de la tarea y dejar clara tu postura cuando se pide opinión.",
+          "correct": false,
+          "feedback": "Esta sí ayuda: responder a la tarea es uno de los criterios centrales."
+        },
+        {
+          "id": "c",
+          "label": "Organizar el texto en párrafos con una progresión lógica y conectores bien elegidos.",
+          "correct": false,
+          "feedback": "Esta sí ayuda: la coherencia y la cohesión son criterios de evaluación."
+        },
+        {
+          "id": "d",
+          "label": "Usar variedad de estructuras gramaticales con corrección.",
+          "correct": false,
+          "feedback": "Esta sí ayuda: la variedad y la corrección gramatical se evalúan explícitamente."
+        }
+      ],
+      "hints": [
+        "Repasa la lista de criterios de la sección de cultura.",
+        "¿Se premia la palabra rara o la palabra justa?"
+      ],
+      "solution": "Estos exámenes valoran que respondas a la tarea, que organices bien el texto, que tu vocabulario sea preciso y natural, y que tu gramática sea variada y correcta. Acumular palabras raras o modismos que no encajan suele **empeorar** el resultado, porque introduce errores de uso y de registro."
+    },
+    {
+      "id": "acad-over-hedging",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "Un revisor te dice que esta oración está «sobrematizada»: *It might perhaps be possible to suggest that the treatment could potentially have some effect.* ¿Cuál es la mejor revisión?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The treatment appears to have a modest effect.",
+          "correct": true,
+          "feedback": "¡Exacto! Un solo matiz (*appears to*) y un adjetivo preciso (*modest*) dicen lo mismo con claridad."
+        },
+        {
+          "id": "b",
+          "label": "The treatment definitely works.",
+          "correct": false,
+          "feedback": "Todavía no: has pasado al extremo contrario. *Definitely* afirma más de lo que dicen los datos."
+        },
+        {
+          "id": "c",
+          "label": "It might be possible that the treatment could have some effect.",
+          "correct": false,
+          "feedback": "Casi: has quitado algo, pero siguen sobrando matices (*might*, *possible*, *could*)."
+        },
+        {
+          "id": "d",
+          "label": "Perhaps the treatment possibly works.",
+          "correct": false,
+          "feedback": "Todavía no: *perhaps* y *possibly* juntos son redundantes, y la oración pierde precisión."
+        }
+      ],
+      "hints": [
+        "Un buen matiz por afirmación suele bastar.",
+        "Busca la opción más breve que siga siendo prudente."
+      ],
+      "solution": "La oración original acumula cinco matices (*might, perhaps, possible, suggest, could potentially*) y acaba sin decir nada. La mejor revisión conserva la prudencia con un solo recurso y añade precisión: **The treatment appears to have a modest effect.**"
+    }
+  ]
+}

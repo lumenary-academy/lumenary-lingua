@@ -1,0 +1,355 @@
+{
+  "lesson": "formal-writing",
+  "exercises": [
+    {
+      "id": "greeting-punctuation",
+      "type": "choice",
+      "prompt": "Which is the standard way to open a formal letter to Ms Pérez?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Estimada señora Pérez:",
+          "correct": true,
+          "feedback": "Yes. *Estimada* + title + surname, followed by a colon."
+        },
+        {
+          "id": "b",
+          "label": "Estimada señora Pérez,",
+          "correct": false,
+          "feedback": "Not yet — in Spanish the greeting is followed by a colon, not a comma."
+        },
+        {
+          "id": "c",
+          "label": "Querida señora Pérez:",
+          "correct": false,
+          "feedback": "Not quite — *querida* suggests affection; for a formal letter use *estimada*."
+        },
+        {
+          "id": "d",
+          "label": "Hola señora Pérez.",
+          "correct": false,
+          "feedback": "Not yet — *Hola* is informal, and the greeting needs a colon."
+        }
+      ],
+      "hints": [
+        "Think about the word for \"Dear\" and the punctuation after it.",
+        "Spanish uses a colon after the greeting."
+      ],
+      "solution": "The standard formal greeting is ***Estimada señora Pérez:*** — *Estimada* (not *Querida*, which is for people close to you), the title and surname, and a **colon**. The comma is an English habit."
+    },
+    {
+      "id": "formal-closing",
+      "type": "choice",
+      "prompt": "Which sign-off suits a formal complaint to a company you've never dealt with?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Atentamente,",
+          "correct": true,
+          "feedback": "Yes. *Atentamente* is the safest formal closing."
+        },
+        {
+          "id": "b",
+          "label": "Sinceramente,",
+          "correct": false,
+          "feedback": "Not yet — it copies English *Sincerely* and isn't a standard Spanish sign-off."
+        },
+        {
+          "id": "c",
+          "label": "Besos,",
+          "correct": false,
+          "feedback": "Not yet — *besos* (kisses) is for friends and family."
+        },
+        {
+          "id": "d",
+          "label": "Chao,",
+          "correct": false,
+          "feedback": "Not yet — *chao* is an informal goodbye."
+        }
+      ],
+      "hints": [
+        "You want the most neutral, formal option.",
+        "One of these is a calque from English."
+      ],
+      "solution": "***Atentamente*** is the standard formal closing everywhere. *Cordialmente* and *Un cordial saludo* are slightly warmer alternatives. *Sinceramente* in this position is an anglicism."
+    },
+    {
+      "id": "would-be-grateful",
+      "type": "text",
+      "prompt": "Fill the gap with the conditional of *agradecer*: *Le ___ que me respondiera antes del lunes.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "agradecería"
+      ],
+      "lang": "es",
+      "hints": [
+        "\"I would be grateful\" = conditional, *yo*.",
+        "Infinitive + *-ía*."
+      ],
+      "solution": "The polite formula is *le agradecería que* + imperfect subjunctive: *agradecer* + *-ía* = **agradecería**. *Le **agradecería** que me respondiera antes del lunes* = I'd be grateful if you replied before Monday.",
+      "feedback": [
+        {
+          "match": "agradezco",
+          "message": "Correct Spanish, but the conditional is more polite here, and it matches *respondiera*: *agradecería*."
+        },
+        {
+          "match": "agradeceria",
+          "message": "Almost — remember the accent: *agradecería*."
+        }
+      ]
+    },
+    {
+      "id": "send-the-invoice",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *enviar*: *Le agradecería que me ___ la factura por correo electrónico.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "enviara",
+        "enviase"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Le agradecería que* is a conditional main verb.",
+        "Conditional → imperfect subjunctive (sequence of tenses). *Enviar* → *enviaron* → …"
+      ],
+      "solution": "*Le agradecería* is a conditional, so the sequence of tenses calls for the **imperfect subjunctive**: *enviaron → **enviara*** (or *enviase*), *usted* form. *Le agradecería que me **enviara** la factura por correo electrónico.*",
+      "feedback": [
+        {
+          "match": "envíe",
+          "message": "Not yet — after the conditional *agradecería*, use the imperfect subjunctive: *enviara*."
+        },
+        {
+          "match": "enviaría",
+          "message": "Not yet — the conditional goes in the main clause; after *que*, use the imperfect subjunctive: *enviara*."
+        }
+      ]
+    },
+    {
+      "id": "formal-verb-pedir",
+      "type": "text",
+      "prompt": "Replace the everyday verb with its formal equivalent: *Quisiera ___ información sobre el máster.* (instead of *pedir*)",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "solicitar"
+      ],
+      "lang": "es",
+      "hints": [
+        "The formal verb for \"to request\" also gives the noun *la solicitud*.",
+        "It starts with *s*."
+      ],
+      "solution": "In formal writing, ***solicitar*** replaces *pedir*: *Quisiera **solicitar** información sobre el máster.* The noun is *la solicitud* (request, application).",
+      "feedback": [
+        {
+          "match": "requerir",
+          "message": "*Requerir* means to require or to demand; for a polite request, use *solicitar*."
+        }
+      ]
+    },
+    {
+      "id": "formal-connector",
+      "type": "choice",
+      "prompt": "Choose the connector that fits: *El producto llegó roto; ___, solicito un reembolso.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "por consiguiente",
+          "correct": true,
+          "feedback": "Yes. *Por consiguiente* (consequently) introduces a consequence in formal Spanish."
+        },
+        {
+          "id": "b",
+          "label": "no obstante",
+          "correct": false,
+          "feedback": "Not yet — *no obstante* means \"however\", which would signal a contrast."
+        },
+        {
+          "id": "c",
+          "label": "en cuanto a",
+          "correct": false,
+          "feedback": "Not yet — *en cuanto a* (as regards) introduces a topic, and needs a noun after it."
+        },
+        {
+          "id": "d",
+          "label": "asimismo",
+          "correct": false,
+          "feedback": "Not yet — *asimismo* adds a point (likewise); it doesn't introduce a consequence."
+        }
+      ],
+      "hints": [
+        "What's the logical relationship between the broken product and the refund?",
+        "Cause → consequence."
+      ],
+      "solution": "The refund request is a **consequence** of the broken product, so the formal connector is ***por consiguiente*** (or *por lo tanto, en consecuencia*). *No obstante* is contrast, *asimismo* is addition and *en cuanto a* introduces a topic."
+    },
+    {
+      "id": "translate-look-forward",
+      "type": "text",
+      "prompt": "Translate this formal closing into Spanish: *I look forward to your reply.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "quedo a la espera de su pronta respuesta",
+        "quedo a la espera de su respuesta",
+        "quedo en espera de su pronta respuesta",
+        "quedo en espera de su respuesta",
+        "en espera de su pronta respuesta",
+        "en espera de su respuesta",
+        "quedo atento a su pronta respuesta",
+        "quedo atento a su respuesta",
+        "quedo atenta a su pronta respuesta",
+        "quedo atenta a su respuesta",
+        "espero su pronta respuesta",
+        "espero su respuesta"
+      ],
+      "lang": "es",
+      "hints": [
+        "Spanish uses a set phrase with *quedar*.",
+        "*Quedo a la espera de…*"
+      ],
+      "solution": "The standard formula is ***Quedo a la espera de su respuesta*** (literally, \"I remain waiting for your reply\"). Variants include *Quedo en espera de su respuesta*, *Quedo atento/atenta a su respuesta* (common in Latin America) and the simple *Espero su respuesta*. Adding *pronta* (prompt) makes it slightly more insistent.",
+      "feedback": [
+        {
+          "match": "miro adelante a su respuesta",
+          "message": "That's a word-for-word copy of the English. Spanish uses a set phrase: *Quedo a la espera de su respuesta*."
+        }
+      ]
+    },
+    {
+      "id": "to-usted",
+      "type": "text",
+      "prompt": "Rewrite in the formal *usted* form: *¿Puedes enviarme tu dirección?*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "¿puede enviarme su dirección",
+        "¿podría enviarme su dirección",
+        "¿me puede enviar su dirección",
+        "¿me podría enviar su dirección",
+        "¿puede usted enviarme su dirección",
+        "¿podría usted enviarme su dirección",
+        "¿puede enviarme su dirección postal",
+        "¿podría enviarme su dirección postal",
+        "¿puede enviarme su dirección de correo",
+        "¿podría enviarme su dirección de correo"
+      ],
+      "lang": "es",
+      "hints": [
+        "Change the verb to the third person and the possessive too.",
+        "*Puedes* → *puede* (or *podría*); *tu* → *su*."
+      ],
+      "solution": "Every *tú* form must change: the verb *puedes* → ***puede*** (or the more polite ***podría***), and the possessive *tu* → ***su***. *¿**Puede** enviarme **su** dirección?* Leaving *tu* in the sentence is the classic slip in formal letters.",
+      "feedback": [
+        {
+          "match": "¿puede enviarme tu dirección",
+          "message": "Almost — the possessive must change too: *su dirección*."
+        },
+        {
+          "match": "puede enviarme tu dirección",
+          "message": "Almost — the possessive must change too: *su dirección*."
+        }
+      ]
+    },
+    {
+      "id": "dates",
+      "type": "choice",
+      "prompt": "Which date lines follow Spanish conventions? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Madrid, 19 de noviembre de 2026",
+          "correct": true,
+          "feedback": "Yes. Place, comma, day, *de*, month in lower case, *de*, year."
+        },
+        {
+          "id": "b",
+          "label": "Madrid, 19 de Noviembre de 2026",
+          "correct": false,
+          "feedback": "Not yet — months are written in lower case in Spanish."
+        },
+        {
+          "id": "c",
+          "label": "Bogotá, 3 de marzo de 2027",
+          "correct": true,
+          "feedback": "Yes. The same pattern, with the month in lower case."
+        },
+        {
+          "id": "d",
+          "label": "Lima, marzo 3, 2027",
+          "correct": false,
+          "feedback": "Not quite — this copies the English order. The usual Spanish order is day, month, year: *3 de marzo de 2027*."
+        }
+      ],
+      "hints": [
+        "Check capital letters and word order.",
+        "Day *de* month *de* year."
+      ],
+      "solution": "The Spanish pattern is *place, day de month de year*, with the month in lower case: ***Madrid, 19 de noviembre de 2026***, ***Bogotá, 3 de marzo de 2027***. Capitalising the month (**b**) and the English order (**d**) are common slips.",
+      "multiple": true
+    },
+    {
+      "id": "aplicar",
+      "type": "choice",
+      "prompt": "You want to say *I would like to apply for the position of guide* in a cover letter. Which is the best choice?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Quisiera aplicar al puesto de guía.",
+          "correct": false,
+          "feedback": "Not quite — *aplicar* in this sense is an anglicism, best avoided in careful writing."
+        },
+        {
+          "id": "b",
+          "label": "Quisiera presentar mi candidatura al puesto de guía.",
+          "correct": true,
+          "feedback": "Yes. Formal, standard and natural everywhere."
+        },
+        {
+          "id": "c",
+          "label": "Quiero el trabajo de guía.",
+          "correct": false,
+          "feedback": "Not quite — correct Spanish, but far too direct for a cover letter."
+        }
+      ],
+      "hints": [
+        "One option is a calque from English *apply*.",
+        "Look for the most formal, standard option."
+      ],
+      "solution": "***Presentar mi candidatura*** (or *solicitar el puesto*, or in Latin America *postularme al puesto*) is the standard, formal way to apply. *Aplicar a un puesto* is an anglicism heard in parts of Latin America but avoided in careful writing."
+    },
+    {
+      "id": "we-kindly-ask",
+      "type": "text",
+      "prompt": "Complete the notice with the present of *rogar* (*nosotros*): *Les ___ que disculpen las molestias.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "rogamos"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Rogar* is a stem-changer (*o → ue*), but not in every person.",
+        "In the *nosotros* form the stem doesn't change."
+      ],
+      "solution": "*Rogar* changes *o → ue* only in the stressed forms (*ruego, ruegas, ruega, ruegan*). In *nosotros* the stem stays: **rogamos**. *Les **rogamos** que disculpen las molestias* = We apologise for any inconvenience. (In notices, the *que* is often left out: *Les rogamos disculpen las molestias*.)",
+      "feedback": [
+        {
+          "match": "ruegamos",
+          "message": "Almost — *rogar* doesn't change its stem in the *nosotros* form: *rogamos*."
+        }
+      ]
+    }
+  ]
+}

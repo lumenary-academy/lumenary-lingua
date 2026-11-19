@@ -1,0 +1,427 @@
+{
+  "lesson": "when-i-was-young",
+  "exercises": [
+    {
+      "id": "jugaba",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **jugar** in the imperfect: *De niño, ___ (yo) al fútbol todos los días.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "A repeated action in the past (*todos los días*) takes the imperfect.",
+        "-ar verbs: stem + *-aba*."
+      ],
+      "answers": [
+        "jugaba"
+      ],
+      "feedback": [
+        {
+          "match": "jugué",
+          "message": "That's the preterite, for a single event. *Todos los días* signals a habit: *jugaba*."
+        },
+        {
+          "match": "juegaba",
+          "message": "Almost — the imperfect has no stem changes: *jugaba*."
+        }
+      ],
+      "solution": "**jugaba**: *De niño, jugaba al fútbol todos los días.* A habit in the past takes the imperfect. *Jug-* + *-aba*; no stem change (*ue* belongs only to the present)."
+    },
+    {
+      "id": "viviamos",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **vivir** in the imperfect: *Antes mi familia y yo ___ en Valparaíso.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Mi familia y yo* = nosotros.",
+        "-er and -ir verbs: stem + *-íamos*, with an accent on the *í*."
+      ],
+      "answers": [
+        "vivíamos"
+      ],
+      "feedback": [
+        {
+          "match": "vivimos",
+          "message": "Almost — *vivimos* is present or preterite. For how things used to be (*antes*), use the imperfect: *vivíamos*."
+        },
+        {
+          "match": "vivábamos",
+          "message": "Almost — *-aba-* is only for -ar verbs. *Vivir* takes *-ía-*: *vivíamos*."
+        }
+      ],
+      "solution": "**vivíamos**: *Antes mi familia y yo vivíamos en Valparaíso.* *Viv-* + *-íamos*. *Antes* (before, in the past) is a typical imperfect signal."
+    },
+    {
+      "id": "era-alta",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **ser** in the imperfect: *Mi abuela ___ muy alta y simpática.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "A description in the past takes the imperfect.",
+        "*Ser* is one of the three irregular verbs in the imperfect."
+      ],
+      "answers": [
+        "era"
+      ],
+      "feedback": [
+        {
+          "match": "fue",
+          "message": "*Fue* is the preterite. To describe what someone was like, use the imperfect: *era*."
+        },
+        {
+          "match": "estaba",
+          "message": "Height and personality are characteristics, so use *ser*: *era*."
+        }
+      ],
+      "solution": "**era**: *Mi abuela era muy alta y simpática.* Descriptions in the past use the imperfect, and *ser* is irregular: *era, eras, era, éramos, erais, eran*."
+    },
+    {
+      "id": "ibamos",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **ir** in the imperfect: *Todos los veranos ___ (nosotros) a la playa.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Todos los veranos* = a habit.",
+        "*Ir* is irregular in the imperfect: *iba, ibas, …*"
+      ],
+      "answers": [
+        "íbamos"
+      ],
+      "feedback": [
+        {
+          "match": "fuimos",
+          "message": "*Fuimos* is the preterite, for a single trip. *Todos los veranos* is a habit: *íbamos*."
+        },
+        {
+          "match": "iríamos",
+          "message": "That's a different tense (the conditional). For a past habit: *íbamos*."
+        }
+      ],
+      "solution": "**íbamos**: *Todos los veranos íbamos a la playa.* *Ir* in the imperfect: *iba, ibas, iba, íbamos, ibais, iban*. The *nosotros* form is stressed on the first syllable, so it carries a written accent."
+    },
+    {
+      "id": "veia",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **ver** in the imperfect: *Los sábados por la mañana ___ (yo) dibujos animados.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "A repeated action (*los sábados*): imperfect.",
+        "*Ver* keeps its *e*: *ve-* + *-ía*."
+      ],
+      "answers": [
+        "veía",
+        "miraba"
+      ],
+      "feedback": [
+        {
+          "match": "vía",
+          "message": "Almost — *ver* keeps the *e* of its stem: *veía*."
+        },
+        {
+          "match": "vi",
+          "message": "*Vi* is the preterite. For a Saturday habit: *veía*."
+        }
+      ],
+      "solution": "**veía**: *Los sábados por la mañana veía dibujos animados.* *Ver* is irregular in the imperfect only in that it keeps its *e*: *veía, veías, veía, veíamos, veíais, veían*. (*Miraba* is also correct.)"
+    },
+    {
+      "id": "tenia-anos",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **tener** in the imperfect: *Cuando ___ (yo) diez años, vivía en Quito.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Age in the past takes the imperfect.",
+        "*Ten-* + *-ía*. No stem change, no strong stem."
+      ],
+      "answers": [
+        "tenía"
+      ],
+      "feedback": [
+        {
+          "match": "tuve",
+          "message": "*Tuve* is the preterite. Age in the past is a description: *tenía*."
+        },
+        {
+          "match": "tienía",
+          "message": "Almost — the imperfect has no stem changes: *tenía*."
+        },
+        {
+          "match": "era",
+          "message": "Remember: age uses *tener*, never *ser*: *tenía diez años*."
+        }
+      ],
+      "solution": "**tenía**: *Cuando tenía diez años, vivía en Quito.* Age in the past is background description, so it takes the imperfect, and age always uses *tener*."
+    },
+    {
+      "id": "why-imperfect",
+      "type": "choice",
+      "prompt": "Why is the imperfect used in *Cuando era niña, leía mucho*?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Is the sentence about one particular moment?",
+        "Think about the four uses: habits, descriptions, age, time."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Because it describes a habit and a situation in the past, not a single event.",
+          "correct": true,
+          "feedback": "Yes: being a child is a past situation, and reading a lot was a habit."
+        },
+        {
+          "id": "b",
+          "label": "Because the action is not finished: she still reads a lot today.",
+          "correct": false,
+          "feedback": "Not yet — the imperfect says nothing about today. It presents the past as an ongoing situation or habit."
+        },
+        {
+          "id": "c",
+          "label": "Because *leer* is irregular.",
+          "correct": false,
+          "feedback": "Not yet — *leer* is regular in the imperfect (*leía*). The choice of tense is about meaning."
+        },
+        {
+          "id": "d",
+          "label": "Because it happened a long time ago.",
+          "correct": false,
+          "feedback": "Not yet — distance in time doesn't decide. *Hace veinte años fui a Roma* is preterite: one event, long ago."
+        }
+      ],
+      "solution": "The imperfect is used because the sentence **describes a past situation (*era niña*) and a habit (*leía mucho*)**, not a single, completed event. How long ago it was doesn't matter, and the imperfect doesn't tell us whether she still reads."
+    },
+    {
+      "id": "used-to-go-to-bed",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate using **soler**: **I used to go to bed early.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*Soler* in the imperfect (*yo*): *solía*, followed by an infinitive.",
+        "The infinitive is reflexive: *acostarse*. The pronoun can attach to it or go before *solía*."
+      ],
+      "answers": [
+        "Solía acostarme temprano",
+        "Me solía acostar temprano",
+        "Yo solía acostarme temprano",
+        "Yo me solía acostar temprano",
+        "Solía acostarme pronto",
+        "Me solía acostar pronto"
+      ],
+      "feedback": [
+        {
+          "match": "Me acostaba temprano",
+          "message": "That's correct Spanish with the same meaning, but the exercise asks you to use *soler*: *Solía acostarme temprano*."
+        },
+        {
+          "match": "Solía acostarse temprano",
+          "message": "Almost — the reflexive pronoun must match the subject: *acostarme*."
+        },
+        {
+          "match": "Solía me acostar temprano",
+          "message": "Almost — the pronoun goes before *solía* or attached to the infinitive: *Solía acostarme* / *Me solía acostar*."
+        }
+      ],
+      "solution": "**Solía acostarme temprano** (or *Me solía acostar temprano*). *Soler* in the imperfect + infinitive = \"used to\". The reflexive pronoun *me* either attaches to the infinitive or goes before the conjugated verb, as with *querer* and *poder*. (*Me acostaba temprano* says the same without *soler*.)"
+    },
+    {
+      "id": "habit-vs-event",
+      "type": "choice",
+      "prompt": "*Todos los domingos ___ a misa con mi abuela, pero un domingo ___ a la playa.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "The first gap is a habit; the second is one particular occasion.",
+        "Habit → imperfect; single event → preterite."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "íbamos … fuimos",
+          "correct": true,
+          "feedback": "Yes: a weekly habit (imperfect), then one exceptional Sunday (preterite)."
+        },
+        {
+          "id": "b",
+          "label": "fuimos … íbamos",
+          "correct": false,
+          "feedback": "Not yet — that's the wrong way round. *Todos los domingos* is a habit (imperfect); *un domingo* is a single event (preterite)."
+        },
+        {
+          "id": "c",
+          "label": "íbamos … íbamos",
+          "correct": false,
+          "feedback": "Not yet — *un domingo* picks out one occasion, a single completed event: preterite, *fuimos*."
+        },
+        {
+          "id": "d",
+          "label": "fuimos … fuimos",
+          "correct": false,
+          "feedback": "Not yet — *todos los domingos* describes a repeated habit, which takes the imperfect: *íbamos*."
+        }
+      ],
+      "solution": "**íbamos … fuimos**: *Todos los domingos íbamos a misa con mi abuela, pero un domingo fuimos a la playa.* The habit is the background (imperfect); the one-off trip is an event (preterite). *Misa* is Mass."
+    },
+    {
+      "id": "child-small-town",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate, starting with *Cuando era…*: **When I was a child, I lived in a small town.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Both verbs describe a past situation, so both are imperfect.",
+        "*era niño / niña*, *vivía*, *un pueblo pequeño*."
+      ],
+      "answers": [
+        "Cuando era niño, vivía en un pueblo pequeño",
+        "Cuando era niño, vivía en un pequeño pueblo",
+        "Cuando era niño vivía en un pueblo pequeño",
+        "Cuando era niño vivía en un pequeño pueblo",
+        "Cuando era niña, vivía en un pueblo pequeño",
+        "Cuando era niña, vivía en un pequeño pueblo",
+        "Cuando era niña vivía en un pueblo pequeño",
+        "Cuando era niña vivía en un pequeño pueblo",
+        "Cuando era pequeño, vivía en un pueblo pequeño",
+        "Cuando era pequeño, vivía en un pequeño pueblo",
+        "Cuando era pequeño vivía en un pueblo pequeño",
+        "Cuando era pequeño vivía en un pequeño pueblo",
+        "Cuando era pequeña, vivía en un pueblo pequeño",
+        "Cuando era pequeña, vivía en un pequeño pueblo",
+        "Cuando era pequeña vivía en un pueblo pequeño",
+        "Cuando era pequeña vivía en un pequeño pueblo",
+        "Cuando era chico, vivía en un pueblo pequeño",
+        "Cuando era chico, vivía en un pequeño pueblo",
+        "Cuando era chico vivía en un pueblo pequeño",
+        "Cuando era chico vivía en un pequeño pueblo",
+        "Cuando era chica, vivía en un pueblo pequeño",
+        "Cuando era chica, vivía en un pequeño pueblo",
+        "Cuando era chica vivía en un pueblo pequeño",
+        "Cuando era chica vivía en un pequeño pueblo",
+        "Cuando yo era niño, vivía en un pueblo pequeño",
+        "Cuando yo era niño, vivía en un pequeño pueblo",
+        "Cuando yo era niño vivía en un pueblo pequeño",
+        "Cuando yo era niño vivía en un pequeño pueblo",
+        "Cuando yo era niña, vivía en un pueblo pequeño",
+        "Cuando yo era niña, vivía en un pequeño pueblo",
+        "Cuando yo era niña vivía en un pueblo pequeño",
+        "Cuando yo era niña vivía en un pequeño pueblo",
+        "Cuando yo era pequeño, vivía en un pueblo pequeño",
+        "Cuando yo era pequeño, vivía en un pequeño pueblo",
+        "Cuando yo era pequeño vivía en un pueblo pequeño",
+        "Cuando yo era pequeño vivía en un pequeño pueblo",
+        "Cuando yo era pequeña, vivía en un pueblo pequeño",
+        "Cuando yo era pequeña, vivía en un pequeño pueblo",
+        "Cuando yo era pequeña vivía en un pueblo pequeño",
+        "Cuando yo era pequeña vivía en un pequeño pueblo",
+        "Cuando yo era chico, vivía en un pueblo pequeño",
+        "Cuando yo era chico, vivía en un pequeño pueblo",
+        "Cuando yo era chico vivía en un pueblo pequeño",
+        "Cuando yo era chico vivía en un pequeño pueblo",
+        "Cuando yo era chica, vivía en un pueblo pequeño",
+        "Cuando yo era chica, vivía en un pequeño pueblo",
+        "Cuando yo era chica vivía en un pueblo pequeño",
+        "Cuando yo era chica vivía en un pequeño pueblo"
+      ],
+      "feedback": [
+        {
+          "match": "Cuando fui niño, viví en un pueblo pequeño",
+          "message": "Almost — childhood and where you lived then are past situations, so both verbs go in the imperfect: *Cuando era niño, vivía…*"
+        },
+        {
+          "match": "Cuando era niño, viví en un pueblo pequeño",
+          "message": "Almost — where you lived during your childhood is a description of the situation: *vivía*."
+        }
+      ],
+      "solution": "**Cuando era niño (niña), vivía en un pueblo pequeño.** Both verbs set the scene, so both are in the imperfect: *era* (ser) and *vivía* (vivir). *Pequeño* or *chico* both work for \"small\"."
+    },
+    {
+      "id": "eran-las-tres",
+      "type": "choice",
+      "prompt": "How do you say **It was three o'clock** (setting the scene in a story)?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Time of day in the past takes the imperfect of *ser*.",
+        "As in the present (*son las tres*), the verb is plural for every hour except one."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Eran las tres.",
+          "correct": true,
+          "feedback": "Yes: imperfect of *ser*, plural because of *las tres*."
+        },
+        {
+          "id": "b",
+          "label": "Era las tres.",
+          "correct": false,
+          "feedback": "Not yet — *las tres* is plural, so the verb is plural: *eran*."
+        },
+        {
+          "id": "c",
+          "label": "Fueron las tres.",
+          "correct": false,
+          "feedback": "Not yet — telling the time in the past is background: imperfect, *eran*."
+        },
+        {
+          "id": "d",
+          "label": "Estaban las tres.",
+          "correct": false,
+          "feedback": "Not yet — time is told with *ser*: *eran las tres*."
+        }
+      ],
+      "solution": "**Eran las tres.** Time of day in the past uses the imperfect of *ser*: *Era la una*, *Eran las tres*, just as the present uses *Es la una*, *Son las tres*."
+    },
+    {
+      "id": "habia-coches",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **There were a lot of cars.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The past of *hay* (as a description) is *había*.",
+        "It doesn't change for plural. \"A lot of\" = *muchos*, agreeing with the noun."
+      ],
+      "answers": [
+        "Había muchos coches",
+        "Había muchos carros",
+        "Había muchos autos",
+        "Había muchísimos coches",
+        "Había muchísimos carros",
+        "Había muchísimos autos"
+      ],
+      "feedback": [
+        {
+          "match": "Habían muchos coches",
+          "message": "You'll hear this in many places, but in standard Spanish *había* stays singular: *Había muchos coches*."
+        },
+        {
+          "match": "Habían muchos carros",
+          "message": "You'll hear this in many places, but in standard Spanish *había* stays singular: *Había muchos carros*."
+        },
+        {
+          "match": "Hay muchos coches",
+          "message": "That's the present. For the past: *Había muchos coches*."
+        },
+        {
+          "match": "Eran muchos coches",
+          "message": "Not quite — \"there were\" is *había*, the past of *hay*."
+        }
+      ],
+      "solution": "**Había muchos coches** (*carros* in much of Latin America, *autos* in the Southern Cone). *Había* is the imperfect of *hay*, used to describe what there was, and like *hay* it never changes for plural."
+    }
+  ]
+}

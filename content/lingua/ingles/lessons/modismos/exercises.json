@@ -1,0 +1,227 @@
+{
+  "lesson": "modismos",
+  "exercises": [
+    {
+      "id": "modismos-piece-of-cake",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "*Don't worry about the driving test. For you, it'll be a piece of cake.* ¿Qué quiere decir la hablante?",
+      "options": [
+        { "id": "a", "label": "Que el examen será muy fácil para ti.", "correct": true, "feedback": "¡Eso es! *A piece of cake* significa «pan comido», algo muy fácil." },
+        { "id": "b", "label": "Que después del examen lo van a celebrar con un pastel.", "correct": false, "feedback": "Todavía no: es una lectura literal. El modismo no tiene nada que ver con la comida." },
+        { "id": "c", "label": "Que el examen será corto.", "correct": false, "feedback": "Casi: un examen fácil puede ser corto, pero el modismo habla de dificultad, no de duración." },
+        { "id": "d", "label": "Que el examen tiene varias partes.", "correct": false, "feedback": "Todavía no: *piece* aquí no significa «parte del examen». El modismo entero significa «muy fácil»." }
+      ],
+      "hints": [
+        "*Don't worry* indica que la frase es tranquilizadora.",
+        "En español usamos otra comida para decir lo mismo: «pan…»."
+      ],
+      "solution": "*A piece of cake* es un modismo informal que significa **muy fácil**, como «pan comido». La hablante quiere tranquilizarte: el examen no te costará."
+    },
+    {
+      "id": "modismos-arm-and-leg",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "¿Cuál es el equivalente inglés de **costar un ojo de la cara**?",
+      "options": [
+        { "id": "a", "label": "to cost an arm and a leg", "correct": true, "feedback": "¡Muy bien! En inglés cuesta «un brazo y una pierna», no un ojo." },
+        { "id": "b", "label": "to cost an eye of the face", "correct": false, "feedback": "Todavía no: es un calco palabra por palabra que un hablante nativo no entendería como modismo." },
+        { "id": "c", "label": "to cost a pretty penny", "correct": false, "feedback": "Casi: *cost a pretty penny* existe y significa algo parecido, pero es más suave y algo anticuado. El equivalente más directo es *an arm and a leg*." },
+        { "id": "d", "label": "to cost peanuts", "correct": false, "feedback": "Todavía no: *for peanuts* significa justo lo contrario, por muy poco dinero." }
+      ],
+      "hints": [
+        "El inglés también usa partes del cuerpo, pero otras.",
+        "Son dos partes del cuerpo, unidas por *and*."
+      ],
+      "solution": "El equivalente es **to cost an arm and a leg**: *That watch must have cost an arm and a leg.* *A pretty penny* existe pero es más suave; *peanuts* significa «muy poco»."
+    },
+    {
+      "id": "modismos-when-in-rome",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Completa el refrán con **una palabra**:\n\n*When in Rome, do as the ___ do.*",
+      "answers": ["Romans"],
+      "feedback": [
+        { "match": "romanians", "message": "Casi: *Romanians* son los rumanos. Los habitantes de Roma son los *Romans*." },
+        { "match": "roman", "message": "Casi: necesitas el plural, porque el verbo es *do*: *the Romans*." }
+      ],
+      "hints": [
+        "Es el equivalente de «Allí donde fueres, haz lo que vieres».",
+        "¿Cómo se llama en inglés a la gente de Roma? En plural."
+      ],
+      "solution": "El refrán completo es **When in Rome, do as the Romans do**: adáptate a las costumbres del lugar. En conversación se suele acortar a *When in Rome…*"
+    },
+    {
+      "id": "modismos-pulling-my-leg",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés con un modismo:\n\n*Me estás tomando el pelo.*",
+      "answers": [
+        "You're pulling my leg",
+        "You are pulling my leg",
+        "Are you pulling my leg",
+        "You must be pulling my leg",
+        "You're having me on",
+        "You are having me on",
+        "You're taking the mickey",
+        "You are taking the mickey",
+        "You're taking the mickey out of me",
+        "You are taking the mickey out of me"
+      ],
+      "feedback": [
+        { "match": "You're taking my hair", "message": "Casi: es la traducción literal, que en inglés no significa nada. El modismo usa otra parte del cuerpo: *pull someone's leg*." },
+        { "match": "You're pulling my hair", "message": "Casi: eso significaría literalmente que le tiras del pelo. En inglés se tira de la pierna: *You're pulling my leg*." }
+      ],
+      "hints": [
+        "En inglés no se toma el pelo: se tira de otra parte del cuerpo.",
+        "*To pull someone's ___*."
+      ],
+      "solution": "El equivalente más extendido es **You're pulling my leg** (también como pregunta: *Are you pulling my leg?*). En Reino Unido son frecuentes *You're having me on* y *You're taking the mickey*."
+    },
+    {
+      "id": "modismos-piece-of-a-cake",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Corrige el error y escribe la oración completa:\n\n*Honestly, the exam was a piece of a cake.*",
+      "answers": [
+        "Honestly, the exam was a piece of cake",
+        "Honestly the exam was a piece of cake"
+      ],
+      "hints": [
+        "El modismo tiene una forma fija.",
+        "Sobra una palabra pequeña."
+      ],
+      "solution": "La forma fija es *a piece of cake*, sin artículo delante de *cake*: **Honestly, the exam was a piece of cake.** Añadir o quitar palabras en un modismo hace que suene a error."
+    },
+    {
+      "id": "modismos-chickens",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "¿Qué refrán español equivale a **Don't count your chickens before they hatch**?",
+      "options": [
+        { "id": "a", "label": "No vendas la piel del oso antes de cazarlo.", "correct": true, "feedback": "¡Exacto! Los dos advierten contra dar por seguro algo que todavía no ha ocurrido." },
+        { "id": "b", "label": "A quien madruga, Dios le ayuda.", "correct": false, "feedback": "Todavía no: ese equivale a *The early bird catches the worm*." },
+        { "id": "c", "label": "Más vale pájaro en mano que ciento volando.", "correct": false, "feedback": "Casi: está relacionado (también habla de no confiarse), pero su equivalente es *A bird in the hand is worth two in the bush*." },
+        { "id": "d", "label": "Dios los cría y ellos se juntan.", "correct": false, "feedback": "Todavía no: ese equivale a *Birds of a feather flock together*." }
+      ],
+      "hints": [
+        "*Hatch* = salir del cascarón. ¿Qué pasa si cuentas los pollitos antes de que nazcan?",
+        "El refrán español usa un animal más grande y una piel."
+      ],
+      "solution": "*Don't count your chickens before they hatch* advierte contra contar con algo que aún no tienes. Su equivalente funcional es **No vendas la piel del oso antes de cazarlo**. Fíjate en que las imágenes son distintas: lo que se traduce es la idea."
+    },
+    {
+      "id": "modismos-speak-of-devil",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Tu amiga llega justo cuando estabais hablando de ella. Traduce al inglés la expresión equivalente:\n\n*¡Hablando del rey de Roma!*",
+      "answers": [
+        "Speak of the devil",
+        "Speaking of the devil",
+        "Talk of the devil",
+        "Talking of the devil",
+        "Speak of the devil and he shall appear",
+        "Speak of the devil and she shall appear",
+        "Talk of the devil and he will appear"
+      ],
+      "feedback": [
+        { "match": "Speaking of the king of Rome", "message": "Casi: esa es la traducción literal. En inglés no se habla de un rey, sino del diablo: *Speak of the devil!*" }
+      ],
+      "hints": [
+        "En inglés el personaje no es un rey.",
+        "Es un personaje que, según el refrán, aparece cuando lo nombras."
+      ],
+      "solution": "El equivalente es **Speak of the devil!** (en Reino Unido también *Talk of the devil!*). Es la forma acortada de un refrán más largo, *Speak of the devil and he shall appear*, que casi nadie dice completo."
+    },
+    {
+      "id": "modismos-formal-report",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Estás redactando un informe formal para un cliente. ¿Qué oración es más adecuada?",
+      "options": [
+        { "id": "a", "label": "The installation was more complex than expected and took two additional weeks.", "correct": true, "feedback": "¡Muy bien! Es clara, precisa y del registro adecuado para un informe." },
+        { "id": "b", "label": "We bit off more than we could chew with the installation, so it was back to square one.", "correct": false, "feedback": "Todavía no: dos modismos informales en un informe para un cliente restan seriedad, y la información concreta (dos semanas) se pierde." },
+        { "id": "c", "label": "The installation was no piece of cake, and it cost us an arm and a leg in time.", "correct": false, "feedback": "Todavía no: el tono es demasiado coloquial, y *cost an arm and a leg* se refiere a dinero, no a tiempo." },
+        { "id": "d", "label": "The installation was the last straw.", "correct": false, "feedback": "Todavía no: además de informal, no explica qué ocurrió." }
+      ],
+      "hints": [
+        "Piensa en el lector: un cliente que espera un texto profesional.",
+        "Los modismos son, casi siempre, informales."
+      ],
+      "solution": "En un informe formal se prefiere el lenguaje directo y preciso: **The installation was more complex than expected and took two additional weeks.** Las demás opciones usan modismos informales que no encajan en el registro y, además, dan menos información."
+    },
+    {
+      "id": "modismos-regional",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Un compañero británico termina de explicarte cómo reiniciar el router: *Unplug it, wait thirty seconds, plug it back in, and Bob's your uncle.* ¿Qué significa la última parte?",
+      "options": [
+        { "id": "a", "label": "Y listo, ya está.", "correct": true, "feedback": "¡Eso es! *Bob's your uncle* cierra unas instrucciones sencillas: «y ya está». Es muy británico." },
+        { "id": "b", "label": "Llama a tu tío Bob si no funciona.", "correct": false, "feedback": "Todavía no: no hay ningún Bob real. Es un modismo fijo." },
+        { "id": "c", "label": "Ten cuidado, es peligroso.", "correct": false, "feedback": "Todavía no: el modismo no es una advertencia, sino una forma de decir que todo es fácil." },
+        { "id": "d", "label": "No sé si funcionará.", "correct": false, "feedback": "Todavía no: expresa seguridad, no duda." }
+      ],
+      "hints": [
+        "Aparece al final de una lista de pasos sencillos.",
+        "Equivale a una expresión española de dos palabras que usamos al terminar algo."
+      ],
+      "solution": "*Bob's your uncle* es un modismo británico (también se oye en Australia) que se usa al final de unas instrucciones para decir que el resultado está asegurado: **«y listo», «y ya está»**. Un estadounidense quizá diría *and you're all set*."
+    },
+    {
+      "id": "modismos-international-meeting",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "Diriges una videollamada con colegas de Japón, Brasil, Polonia y Egipto, todos con un buen nivel de inglés como lengua extranjera. ¿Qué frase es la mejor para cerrar la reunión?",
+      "options": [
+        { "id": "a", "label": "Let's stop here for today and meet again on Monday to review progress.", "correct": true, "feedback": "¡Exacto! Clara, cortés y sin modismos que puedan confundir a quien usa el inglés como lengua franca." },
+        { "id": "b", "label": "Let's call it a day and touch base on Monday to see if we're still in the ballpark.", "correct": false, "feedback": "Todavía no: es natural para un estadounidense, pero acumula tres modismos (*call it a day*, *touch base*, *in the ballpark*) que pueden dejar fuera a parte del grupo." },
+        { "id": "c", "label": "Right, Bob's your uncle, see you Monday.", "correct": false, "feedback": "Todavía no: además de muy británico, *Bob's your uncle* no tiene sentido para cerrar una reunión." },
+        { "id": "d", "label": "Let's kick the bucket for today.", "correct": false, "feedback": "Todavía no, y cuidado: *kick the bucket* significa «estirar la pata», morirse." }
+      ],
+      "hints": [
+        "Piensa en quién te escucha: personas que han aprendido inglés como lengua extranjera.",
+        "La claridad pesa más que el color en este contexto."
+      ],
+      "solution": "Con interlocutores que usan el inglés como lengua franca, la prioridad es la claridad: **Let's stop here for today and meet again on Monday to review progress.** La B es idiomática pero opaca para muchos; la C no tiene sentido aquí; la D significa morirse."
+    },
+    {
+      "id": "modismos-foot-in-it",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "Traduce al inglés con un modismo:\n\n*Metí la pata.*",
+      "answers": [
+        "I put my foot in it",
+        "I put my foot in my mouth",
+        "I really put my foot in it",
+        "I really put my foot in my mouth",
+        "I've put my foot in it",
+        "I have put my foot in it"
+      ],
+      "feedback": [
+        { "match": "I put the leg", "message": "Casi: es un calco. En inglés el modismo usa *foot*, no *leg*: *I put my foot in it*." },
+        { "match": "I put my leg in it", "message": "Casi: la parte del cuerpo es otra: *foot*." }
+      ],
+      "hints": [
+        "El inglés también usa una parte de la pierna.",
+        "En Reino Unido: *put your foot in it*; en EE. UU.: *put your foot in your mouth*."
+      ],
+      "solution": "«Meter la pata» (decir algo inoportuno) se dice **I put my foot in it** en inglés británico y **I put my foot in my mouth** en estadounidense. *Put* tiene la misma forma en presente y en pasado."
+    }
+  ]
+}

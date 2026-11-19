@@ -1,0 +1,238 @@
+{
+  "lesson": "rutina-diaria",
+  "exercises": [
+    {
+      "id": "he-watches",
+      "type": "choice",
+      "prompt": "Completa: **My grandfather ____ the news every evening.** (*watch*, ver)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*My grandfather* es tercera persona del singular (= *he*).",
+        "*Watch* termina en *ch*: ¿-s o -es?"
+      ],
+      "solution": "**watches**. Con *he* (mi abuelo), el verbo lleva -s; como *watch* termina en *ch*, se añade **-es**: *watches*, que se pronuncia con una sílaba más, /ˈwɒtʃɪz/.",
+      "options": [
+        { "id": "a", "label": "watch", "correct": false, "feedback": "Todavía no: con *he/she/it* (aquí, *my grandfather*) falta la -s." },
+        { "id": "b", "label": "watchs", "correct": false, "feedback": "Casi: tras *ch* se escribe **-es**: *watches*." },
+        { "id": "c", "label": "watches", "correct": true, "feedback": "¡Muy bien! Tercera persona y *-es* tras *ch*." },
+        { "id": "d", "label": "is watch", "correct": false, "feedback": "Todavía no: el presente simple no lleva *is*. Solo *watches*." }
+      ]
+    },
+    {
+      "id": "she-studies",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Conjuga *study* en presente simple: **Marta ______ medicine in Salamanca.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Marta* = *she*: hace falta la -s.",
+        "*Study* termina en consonante + y."
+      ],
+      "solution": "**studies**. Tercera persona del singular; como *study* termina en consonante + *y*, la *y* se convierte en *ies*: *studies*. (Con vocal + *y* solo se añade -s: *plays*.)",
+      "answers": ["studies"],
+      "feedback": [
+        { "match": "studys", "message": "Casi: tras consonante + *y*, la *y* cambia a *ies*: *studies*." },
+        { "match": "study", "message": "Casi: *Marta* es tercera persona del singular, así que lleva -s: *studies*." },
+        { "match": "is study", "message": "Todavía no: el presente simple no usa *is*. Solo *studies*." }
+      ]
+    },
+    {
+      "id": "no-trabaja-sabados",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Mi hermano no trabaja los sábados.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Tercera persona en negativa: *doesn't* + verbo sin -s.",
+        "«Los sábados» como costumbre: *on Saturdays*."
+      ],
+      "solution": "**My brother doesn't work on Saturdays** (o *does not work*). La -s pasa a *does*, así que *work* va sin -s. Para «los sábados» se usa *on* + el día en plural.",
+      "answers": [
+        "My brother doesn't work on Saturdays",
+        "My brother does not work on Saturdays",
+        "My brother doesn't work on Saturday",
+        "My brother does not work on Saturday"
+      ],
+      "feedback": [
+        { "match": "My brother doesn't works on Saturdays", "message": "Casi: la -s ya está en *doesn't*: *doesn't work*." },
+        { "match": "My brother don't work on Saturdays", "message": "Casi: con *he* (mi hermano) se usa *doesn't*." },
+        { "match": "My brother no works on Saturdays", "message": "Casi: la negación del presente simple necesita *doesn't*: *My brother doesn't work on Saturdays*." },
+        { "match": "My brother doesn't work in Saturdays", "message": "Casi: los días van con *on*: *on Saturdays*." },
+        { "match": "My brother doesn't work the Saturdays", "message": "Casi: en inglés se dice *on Saturdays*, sin artículo." }
+      ]
+    },
+    {
+      "id": "a-que-hora-te-levantas",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce la pregunta: **¿A qué hora te levantas?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«¿A qué hora?» = *What time…?*",
+        "Después: *do* + *you* + el verbo «levantarse» (*get up*)."
+      ],
+      "solution": "**What time do you get up?** Palabra interrogativa (*What time*) + ayudante (*do*) + sujeto (*you*) + verbo (*get up*). En la conversación no hace falta *At*: *At what time…?* se entiende, pero suena más formal.",
+      "answers": ["What time do you get up", "At what time do you get up", "When do you get up"],
+      "feedback": [
+        { "match": "What time you get up", "message": "Casi: falta el ayudante *do*: *What time do you get up?*" },
+        { "match": "What time get you up", "message": "Casi: en inglés no se invierte el verbo; se añade *do*: *What time do you get up?*" },
+        { "match": "What time do you wake up", "message": "Casi: *wake up* es «despertarse». «Levantarse» es *get up*." },
+        { "match": "What hour do you get up", "message": "Casi: para preguntar la hora se usa *What time…?*" }
+      ]
+    },
+    {
+      "id": "posicion-always",
+      "type": "choice",
+      "prompt": "¿Qué oración está bien construida?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Aquí el verbo es *to be*.",
+        "Con *to be*, el adverbio de frecuencia va detrás del verbo."
+      ],
+      "solution": "**My boss is always busy.** Con *to be*, el adverbio va **detrás** (*is always*). Con los demás verbos va **delante**: *My boss always works late*.",
+      "options": [
+        { "id": "a", "label": "My boss always is busy.", "correct": false, "feedback": "Todavía no: con *to be*, el adverbio va detrás: *is always*." },
+        { "id": "b", "label": "My boss is always busy.", "correct": true, "feedback": "¡Bien! *To be* + adverbio." },
+        { "id": "c", "label": "Always my boss is busy.", "correct": false, "feedback": "Todavía no: *always* no suele ir al principio de la frase." },
+        { "id": "d", "label": "My boss is busy always.", "correct": false, "feedback": "Casi: se entiende, pero el sitio normal de *always* es detrás de *is*." }
+      ]
+    },
+    {
+      "id": "never-drinks-coffee",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Ordena las palabras para formar una oración: **coffee / never / drinks / Lucía**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Sujeto primero.",
+        "El adverbio de frecuencia va delante del verbo principal."
+      ],
+      "solution": "**Lucía never drinks coffee.** Sujeto + adverbio + verbo + complemento. Y como *never* ya es negativo, no hace falta *doesn't*.",
+      "answers": ["Lucía never drinks coffee", "Lucia never drinks coffee"],
+      "feedback": [
+        { "match": "Lucía drinks never coffee", "message": "Casi: el adverbio va delante del verbo: *never drinks*." },
+        { "match": "Never Lucía drinks coffee", "message": "Casi: empieza por el sujeto: *Lucía never drinks coffee*." },
+        { "match": "Lucía never drinks coffe", "message": "Casi: *coffee* se escribe con dos efes y dos es." }
+      ]
+    },
+    {
+      "id": "at-on-in",
+      "type": "choice",
+      "prompt": "Completa: **I start work ____ 9 o'clock ____ Mondays, but ____ August I'm on holiday.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Hora exacta, día, mes: de lo más pequeño a lo más grande.",
+        "*At* para la hora, *on* para los días, *in* para los meses."
+      ],
+      "solution": "**at – on – in**: *at 9 o'clock* (hora exacta), *on Mondays* (día), *in August* (mes).",
+      "options": [
+        { "id": "a", "label": "at – on – in", "correct": true, "feedback": "¡Perfecto! Hora, día, mes." },
+        { "id": "b", "label": "in – on – at", "correct": false, "feedback": "Todavía no: las horas exactas van con *at*, y los meses con *in*." },
+        { "id": "c", "label": "at – in – in", "correct": false, "feedback": "Casi: los días de la semana van con *on*: *on Mondays*." },
+        { "id": "d", "label": "on – on – in", "correct": false, "feedback": "Casi: la hora exacta va con *at*: *at 9 o'clock*." }
+      ]
+    },
+    {
+      "id": "on-tuesday",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa con una preposición: **We have a team meeting ____ Tuesday.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Es un día de la semana.",
+        "Días y fechas van con la misma preposición."
+      ],
+      "solution": "**on** → *We have a team meeting on Tuesday.* Los días de la semana y las fechas llevan *on*.",
+      "answers": ["on"],
+      "feedback": [
+        { "match": "in", "message": "Casi: *in* es para meses, años y partes del día. Los días van con *on*." },
+        { "match": "at", "message": "Casi: *at* es para horas exactas. Los días van con *on*." },
+        { "match": "the", "message": "Casi: en inglés no se dice «el martes» con artículo; se usa *on Tuesday*." }
+      ]
+    },
+    {
+      "id": "yes-she-does",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa la respuesta corta: **Does your sister speak English? — Yes, she ____.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "La respuesta corta repite el ayudante de la pregunta.",
+        "La pregunta empieza por *Does*."
+      ],
+      "solution": "**does** → *Yes, she does.* La respuesta corta repite el ayudante (*does*), no el verbo principal. *Yes, she speaks* no es una respuesta corta natural.",
+      "answers": ["does", "Yes, she does"],
+      "feedback": [
+        { "match": "speaks", "message": "Casi: la respuesta corta repite el ayudante: *Yes, she does*." },
+        { "match": "is", "message": "Todavía no: la pregunta es con *does*, no con *is*: *Yes, she does*." },
+        { "match": "do", "message": "Casi: con *she*, *does*: *Yes, she does*." }
+      ]
+    },
+    {
+      "id": "que-significa",
+      "type": "choice",
+      "prompt": "No entiendes la palabra *shift*. ¿Cómo preguntas qué significa?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Mean* (significar) es un verbo normal: en las preguntas necesita ayudante.",
+        "La palabra es singular: *it*."
+      ],
+      "solution": "**What does *shift* mean?** *Mean* es un verbo en presente simple; en la pregunta necesita *does* (porque *shift* = *it*), y *mean* va sin -s. *What means shift?* es un calco de «¿qué significa…?».",
+      "options": [
+        { "id": "a", "label": "What means *shift*?", "correct": false, "feedback": "Todavía no: es un calco del español. Hace falta *does*: *What does shift mean?*" },
+        { "id": "b", "label": "What does *shift* mean?", "correct": true, "feedback": "¡Exacto! Y te servirá cada día." },
+        { "id": "c", "label": "What does *shift* means?", "correct": false, "feedback": "Casi: la -s ya está en *does*, así que *mean* va sin -s." },
+        { "id": "d", "label": "What is *shift* mean?", "correct": false, "feedback": "Todavía no: *mean* es un verbo normal; no se usa con *is* aquí." }
+      ]
+    },
+    {
+      "id": "nunca-desayuno",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Nunca desayuno.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "«Desayunar» = *have breakfast*.",
+        "Con *never* basta: nada de *don't*."
+      ],
+      "solution": "**I never have breakfast** (o *I never eat breakfast*). Sujeto + *never* + verbo. Una sola negación: *never* ya la lleva.",
+      "answers": ["I never have breakfast", "I never eat breakfast"],
+      "feedback": [
+        { "match": "I don't never have breakfast", "message": "Casi: con *never* sobra *don't*: *I never have breakfast*." },
+        { "match": "I never have the breakfast", "message": "Casi: *have breakfast* va sin artículo." },
+        { "match": "Never have breakfast", "message": "Casi: falta el sujeto *I*." },
+        { "match": "I have never breakfast", "message": "Casi: *never* va delante del verbo: *I never have breakfast*." }
+      ]
+    },
+    {
+      "id": "oraciones-correctas",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las oraciones correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Busca la -s en el sitio correcto: en el verbo en afirmativa, en *does* en preguntas y negativas.",
+        "Con *he/she/it* se usa *does/doesn't*; con *I/you/we/they*, *do/don't*."
+      ],
+      "solution": "Son correctas **She doesn't like tea.** y **They don't work at night.** *Does he lives here?* lleva la -s dos veces (debería ser *Does he live here?*), y *He don't know* usa *don't* con *he* (debería ser *He doesn't know*).",
+      "options": [
+        { "id": "a", "label": "She doesn't like tea.", "correct": true, "feedback": "Correcta: *doesn't* + verbo sin -s." },
+        { "id": "b", "label": "Does he lives here?", "correct": false, "feedback": "Todavía no: la -s ya está en *does*: *Does he live here?*" },
+        { "id": "c", "label": "They don't work at night.", "correct": true, "feedback": "Correcta: *they* + *don't* y *at night*." },
+        { "id": "d", "label": "He don't know.", "correct": false, "feedback": "Todavía no: con *he*, *doesn't*: *He doesn't know*. (Lo oirás en algunos dialectos, pero no es la forma estándar.)" }
+      ]
+    }
+  ]
+}

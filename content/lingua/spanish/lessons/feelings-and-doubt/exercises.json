@@ -1,0 +1,330 @@
+{
+  "lesson": "feelings-and-doubt",
+  "exercises": [
+    {
+      "id": "glad-you-came",
+      "type": "choice",
+      "prompt": "Complete: *Me alegra mucho que tú ___ a la boda.* (venir)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "vengas",
+          "correct": true,
+          "feedback": "Yes. *Me alegra que* expresses a feeling about someone else's action, so the subjunctive follows."
+        },
+        {
+          "id": "b",
+          "label": "vienes",
+          "correct": false,
+          "feedback": "Not yet — even though it's a fact, a reaction like *me alegra que* takes the subjunctive."
+        },
+        {
+          "id": "c",
+          "label": "venir",
+          "correct": false,
+          "feedback": "Not yet — the infinitive only works when the same person feels and acts (*me alegra venir*)."
+        }
+      ],
+      "hints": [
+        "Does the main clause assert a fact, or react to it?",
+        "After emotions + a different subject, use *que* + subjunctive."
+      ],
+      "solution": "*Me alegra que* expresses an emotion, and the person coming (*tú*) is different from the person who's glad (*yo*). So the verb goes in the present subjunctive: *venir → vengo → **vengas***. *Me alegra mucho que vengas a la boda.*"
+    },
+    {
+      "id": "i-think-shes-right",
+      "type": "choice",
+      "prompt": "Complete: *Creo que Marta ___ razón.* (tener)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "tiene",
+          "correct": true,
+          "feedback": "Yes. *Creo que* asserts what you believe, so the indicative follows."
+        },
+        {
+          "id": "b",
+          "label": "tenga",
+          "correct": false,
+          "feedback": "Not yet — *creer que* in the affirmative asserts a belief and takes the indicative. *No creo que* would take *tenga*."
+        },
+        {
+          "id": "c",
+          "label": "tener",
+          "correct": false,
+          "feedback": "Not yet — after *creo que* you need a conjugated verb."
+        }
+      ],
+      "hints": [
+        "Is the speaker asserting or doubting?",
+        "Affirmative *creer que* → indicative; negative *no creer que* → subjunctive."
+      ],
+      "solution": "*Creer que* in the affirmative presents what follows as true (in the speaker's opinion), so it takes the **indicative**: *Creo que Marta **tiene** razón.* In the negative it flips: *No creo que Marta **tenga** razón.*"
+    },
+    {
+      "id": "dont-think-rain",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *llover*: *No creo que ___ mañana.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "llueva"
+      ],
+      "lang": "es",
+      "hints": [
+        "*No creo que* expresses doubt. Which mood follows?",
+        "*Llover* is stem-changing (*o → ue*): *llueve* in the indicative."
+      ],
+      "solution": "*No creo que* denies or doubts, so the verb goes in the **subjunctive**. *Llover* is an *-er* stem-changing verb (*llueve*), and in the subjunctive its ending takes *a*: **llueva**. *No creo que llueva mañana.*",
+      "feedback": [
+        {
+          "match": "llueve",
+          "message": "Not yet — *llueve* is the indicative. After *no creo que*, use the subjunctive: *llueva*."
+        },
+        {
+          "match": "llova",
+          "message": "Almost — keep the stem change: *llueva*."
+        }
+      ]
+    },
+    {
+      "id": "sorry-grandma",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *estar*: *Siento que tu abuela ___ enferma.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "esté"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Siento que* = I'm sorry that. Is it a feeling?",
+        "*Estar* is irregular in the subjunctive and carries a written accent."
+      ],
+      "solution": "*Sentir que* (to be sorry that) expresses a feeling, so it takes the **subjunctive**. *Estar* is one of the six irregulars: *esté, estés, **esté**…* So: *Siento que tu abuela **esté** enferma.* Don't forget the accent: *este* without it means \"this\".",
+      "feedback": [
+        {
+          "match": "este",
+          "message": "Almost — *esté* needs its accent on the last *e*."
+        },
+        {
+          "match": "está",
+          "message": "Not yet — that's the indicative. After *siento que*, use the subjunctive: *esté*."
+        }
+      ]
+    },
+    {
+      "id": "museum-mondays",
+      "type": "text",
+      "prompt": "Make the sentence negative by starting with *No creo que*: *Creo que el museo abre los lunes.* → *No creo que el museo ___ los lunes.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "abra"
+      ],
+      "lang": "es",
+      "hints": [
+        "Negating *creer que* changes the mood of the second verb.",
+        "*Abrir* is an *-ir* verb: its subjunctive endings have *a*."
+      ],
+      "solution": "Negating *creo que* turns an assertion into doubt, so the second verb changes from the indicative to the **subjunctive**. *Abrir* → *abro* → *abr-* + *-a* = **abra**. *No creo que el museo abra los lunes.*",
+      "feedback": [
+        {
+          "match": "abre",
+          "message": "Not yet — after *no creo que*, the verb switches to the subjunctive: *abra*."
+        }
+      ]
+    },
+    {
+      "id": "translate-hope-no-rain",
+      "type": "text",
+      "prompt": "Translate using *ojalá*: *I hope it doesn't rain.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "ojalá que no llueva",
+        "ojalá no llueva"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Ojalá* is always followed by the subjunctive.",
+        "The subjunctive of *llover* is *llueva*. *Que* after *ojalá* is optional."
+      ],
+      "solution": "*Ojalá* introduces a wish and always takes the **subjunctive**. *Llover* → *llueva*. So: ***Ojalá no llueva.*** You can also add *que*: *Ojalá que no llueva*. Both are correct and common.",
+      "feedback": [
+        {
+          "match": "ojalá no llueve",
+          "message": "Almost — *ojalá* always takes the subjunctive: *llueva*."
+        },
+        {
+          "match": "ojala no llueva",
+          "message": "Almost — *ojalá* has an accent on the last *a*."
+        }
+      ]
+    },
+    {
+      "id": "a-lo-mejor",
+      "type": "choice",
+      "prompt": "Complete: *A lo mejor Lucía ___ a la fiesta esta noche.* (venir)",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "viene",
+          "correct": true,
+          "feedback": "Yes. *A lo mejor* is followed by the indicative."
+        },
+        {
+          "id": "b",
+          "label": "venga",
+          "correct": false,
+          "feedback": "Not yet — *a lo mejor* takes the indicative. With *quizás* or *tal vez* the subjunctive would be possible."
+        },
+        {
+          "id": "c",
+          "label": "vendría",
+          "correct": false,
+          "feedback": "Not yet — the conditional doesn't fit here; *a lo mejor* + present indicative is the natural choice."
+        }
+      ],
+      "hints": [
+        "Of the words for \"perhaps\", one always takes the indicative.",
+        "*A lo mejor* behaves differently from *quizás* and *tal vez*."
+      ],
+      "solution": "*A lo mejor* (maybe) is informal and always takes the **indicative**: *A lo mejor Lucía **viene** a la fiesta esta noche.* If you want to sound more doubtful, switch to *quizás* or *tal vez* with the subjunctive: *Quizás venga*."
+    },
+    {
+      "id": "tal-vez-both",
+      "type": "choice",
+      "prompt": "Which of these are correct Spanish? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "Tal vez viene mañana.",
+          "correct": true,
+          "feedback": "Yes. With *tal vez*, the indicative is correct and sounds like a reasonable guess."
+        },
+        {
+          "id": "b",
+          "label": "Tal vez venga mañana.",
+          "correct": true,
+          "feedback": "Yes. With *tal vez*, the subjunctive is also correct and adds a little more doubt."
+        },
+        {
+          "id": "c",
+          "label": "Puede que viene mañana.",
+          "correct": false,
+          "feedback": "Not yet — *puede que* always takes the subjunctive: *puede que venga*."
+        },
+        {
+          "id": "d",
+          "label": "Es posible que venga mañana.",
+          "correct": true,
+          "feedback": "Yes. *Es posible que* always takes the subjunctive."
+        }
+      ],
+      "hints": [
+        "Some \"perhaps\" words accept both moods; others only one.",
+        "*Puede que* and *es posible que* behave alike."
+      ],
+      "solution": "**a** and **b** are both correct: *tal vez* (like *quizás*) takes either mood, the subjunctive sounding more doubtful. **d** is correct: *es posible que* always takes the subjunctive. **c** is not: *puede que* must be followed by the subjunctive, *puede que **venga** mañana*.",
+      "multiple": true
+    },
+    {
+      "id": "loud-neighbours",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *poner*: *Me molesta que mis vecinos ___ la música tan alta.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "pongan"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Me molesta que* expresses a feeling. Which mood follows?",
+        "The *yo* form of *poner* is *pongo*."
+      ],
+      "solution": "*Me molesta que* (it bothers me that) expresses a reaction, so it takes the **subjunctive**. *Poner* → *pongo* → *pong-* + *-an* (*ellos*) = **pongan**. *Me molesta que mis vecinos pongan la música tan alta.*",
+      "feedback": [
+        {
+          "match": "ponen",
+          "message": "Not yet — after *me molesta que* the verb goes into the subjunctive: *pongan*."
+        },
+        {
+          "match": "ponan",
+          "message": "Almost — start from *pongo*: the *g* stays, *pongan*."
+        }
+      ]
+    },
+    {
+      "id": "doubt-we-can",
+      "type": "text",
+      "prompt": "Fill the gap with the right form of *poder*: *Dudo que nosotros ___ terminar el proyecto hoy.*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "podamos"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Dudo que* expresses doubt.",
+        "*Poder* is a stem-changer (*puedo*), but what happens in the *nosotros* form?"
+      ],
+      "solution": "*Dudo que* takes the **subjunctive**. *Poder* is an *-er* stem-changing verb: *pueda, puedas, pueda*, but *nosotros* and *vosotros* keep the original stem, as in the present indicative: **podamos**, *podáis*. *Dudo que podamos terminar el proyecto hoy.*",
+      "feedback": [
+        {
+          "match": "puedamos",
+          "message": "Almost — *-er* stem-changers don't change in *nosotros*: *podamos*."
+        },
+        {
+          "match": "podemos",
+          "message": "Not yet — that's the indicative. After *dudo que*, use the subjunctive: *podamos*."
+        }
+      ]
+    },
+    {
+      "id": "translate-glad-here",
+      "type": "text",
+      "prompt": "Translate into Spanish, speaking to a friend (*tú*): *I'm glad you're here.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "answers": [
+        "me alegra que tú estés aquí",
+        "me alegra que estés aquí",
+        "me alegro de que tú estés aquí",
+        "me alegro de que estés aquí",
+        "estoy contento de que tú estés aquí",
+        "estoy contento de que estés aquí",
+        "estoy contenta de que tú estés aquí",
+        "estoy contenta de que estés aquí",
+        "me alegra que tú estés acá",
+        "me alegra que estés acá",
+        "me alegro de que tú estés acá",
+        "me alegro de que estés acá"
+      ],
+      "lang": "es",
+      "hints": [
+        "Use *me alegra que* or *me alegro de que*.",
+        "\"You're here\" is a fact, but after an emotion it still takes the subjunctive of *estar*."
+      ],
+      "solution": "Two equally good ways to say \"I'm glad\": *me alegra que* (built like *gustar*) or *me alegro de que* (reflexive *alegrarse de*). Either way, the emotion triggers the **subjunctive**, so *estás* becomes *estés*: ***Me alegra que estés aquí*** or ***Me alegro de que estés aquí***. *Estoy contento/contenta de que estés aquí* also works.",
+      "feedback": [
+        {
+          "match": "me alegra que estás aquí",
+          "message": "Almost — after an emotion, use the subjunctive: *estés*."
+        },
+        {
+          "match": "me alegro que estés aquí",
+          "message": "Very close, and common in speech — but with *alegrarse*, careful Spanish keeps the *de*: *me alegro de que estés aquí*. Or say *me alegra que estés aquí*."
+        }
+      ]
+    }
+  ]
+}

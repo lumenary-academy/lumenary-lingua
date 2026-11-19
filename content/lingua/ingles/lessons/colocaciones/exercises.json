@@ -1,0 +1,247 @@
+{
+  "lesson": "colocaciones",
+  "exercises": [
+    {
+      "id": "coloc-make-mistake",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Completa: **Everyone ___ mistakes when they learn a language.**",
+      "options": [
+        { "id": "a", "label": "makes", "correct": true, "feedback": "¡Eso es! *Make a mistake* es la colocación fija para «cometer un error»." },
+        { "id": "b", "label": "does", "correct": false, "feedback": "Todavía no: es el calco más frecuente de «hacer», pero con *mistake* el verbo es siempre *make*." },
+        { "id": "c", "label": "commits", "correct": false, "feedback": "Casi: *commit* existe con *a crime* o *an offence*, pero con *mistake* suena forzado. Lo natural es *make*." },
+        { "id": "d", "label": "takes", "correct": false, "feedback": "Todavía no: *take* va con *a photo*, *a break* o *a seat*, no con *mistake*." }
+      ],
+      "hints": [
+        "Es una de las colocaciones más famosas del inglés.",
+        "Con *mistake*, *decision* y *effort* se usa el mismo verbo."
+      ],
+      "solution": "En inglés se dice **make a mistake**, igual que *make a decision* o *make an effort*. Ni *do* ni *commit* son naturales aquí. Respuesta: **Everyone makes mistakes when they learn a language.**"
+    },
+    {
+      "id": "coloc-heavy-rain",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "¿Qué combinación usaría un hablante nativo para «lluvia fuerte»?",
+      "options": [
+        { "id": "a", "label": "heavy rain", "correct": true, "feedback": "¡Muy bien! *Heavy* acompaña a *rain*, *snow* y *traffic*." },
+        { "id": "b", "label": "strong rain", "correct": false, "feedback": "Todavía no: se entiende, pero suena a traducción. *Strong* va con *wind*, *coffee* o *accent*." },
+        { "id": "c", "label": "big rain", "correct": false, "feedback": "Todavía no: *big* no se combina con *rain* en inglés estándar." },
+        { "id": "d", "label": "hard rain", "correct": false, "feedback": "Casi: se dice *it's raining hard* (con el verbo), pero como adjetivo + sustantivo lo habitual es *heavy rain*." }
+      ],
+      "hints": [
+        "Piensa en *traffic*: «tráfico denso» se dice con el mismo adjetivo.",
+        "El adjetivo literalmente significa «pesado»."
+      ],
+      "solution": "La colocación es **heavy rain** (también *heavy snow*, *heavy traffic*, *a heavy smoker*). *Strong* es para *wind*, *coffee*, *accent* u *opinion*. Con el verbo sí se dice *It's raining hard* o *It's raining heavily*."
+    },
+    {
+      "id": "coloc-did-mistakes",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Corrige el error y escribe la oración completa:\n\n*I did a lot of mistakes in the exam.*",
+      "answers": [
+        "I made a lot of mistakes in the exam",
+        "I made a lot of mistakes on the exam",
+        "I made lots of mistakes in the exam",
+        "I made lots of mistakes on the exam",
+        "I made many mistakes in the exam",
+        "I made many mistakes on the exam"
+      ],
+      "feedback": [
+        { "match": "I commited a lot of mistakes in the exam", "message": "Casi: *commit* va con *a crime*, no con *mistakes*. Usa *made*." },
+        { "match": "I committed a lot of mistakes in the exam", "message": "Casi: *commit* va con *a crime*, no con *mistakes*. Usa *made*." }
+      ],
+      "hints": [
+        "El error está en el verbo.",
+        "«Cometer un error» = *make a mistake*. ¿Cuál es el pasado de *make*?"
+      ],
+      "solution": "*Mistake* se combina con *make*, no con *do*: **I made a lot of mistakes in the exam.** En inglés estadounidense es frecuente *on the exam*; en británico, *in the exam*. Ambas son correctas."
+    },
+    {
+      "id": "coloc-depend-on",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Escribe solo la preposición que falta:\n\n*Whether we go to the beach depends ___ the weather.*",
+      "answers": ["on", "upon"],
+      "feedback": [
+        { "match": "of", "message": "Todavía no: es el calco de «depender de». En inglés, *depend* va con *on*." },
+        { "match": "from", "message": "Todavía no: *depend from* no existe. La preposición es *on*." }
+      ],
+      "hints": [
+        "En español es «de», pero en inglés no.",
+        "Piensa en *rely ___ someone* (contar con alguien): es la misma preposición."
+      ],
+      "solution": "En inglés se dice **depend on** (o, más formal, *depend upon*): *It depends on the weather.* El calco ✗ *depend of* es uno de los errores más persistentes de los hispanohablantes."
+    },
+    {
+      "id": "coloc-make-decision",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés de forma natural:\n\n*Tengo que tomar una decisión.*",
+      "answers": [
+        "I have to make a decision",
+        "I need to make a decision",
+        "I've got to make a decision",
+        "I have got to make a decision",
+        "I must make a decision",
+        "I have to take a decision",
+        "I need to take a decision",
+        "I've got to take a decision"
+      ],
+      "feedback": [
+        { "match": "I have to do a decision", "message": "Casi: con *decision* el verbo es *make* (en Reino Unido también *take*), nunca *do*." }
+      ],
+      "hints": [
+        "«Tomar» no es *take* aquí… al menos no en la mayoría de los casos.",
+        "*Decision* va con el mismo verbo que *mistake* y *effort*."
+      ],
+      "solution": "La colocación más frecuente es **make a decision**: *I have to make a decision* (o *I need to*, *I've got to*). En inglés británico, sobre todo en contextos formales, también se oye *take a decision*, así que la aceptamos, pero *make* es la opción segura en cualquier variedad."
+    },
+    {
+      "id": "coloc-deeply-grateful",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Completa con el intensificador más natural: **I'm ___ grateful for everything you've done.**",
+      "options": [
+        { "id": "a", "label": "deeply", "correct": true, "feedback": "¡Exacto! *Deeply* acompaña a adjetivos de emoción: *deeply grateful*, *deeply moved*, *deeply concerned*." },
+        { "id": "b", "label": "highly", "correct": false, "feedback": "Todavía no: *highly* va con adjetivos de evaluación o probabilidad (*highly unlikely*, *highly recommended*), no con emociones." },
+        { "id": "c", "label": "heavily", "correct": false, "feedback": "Todavía no: *heavily* se usa con cantidades o dependencia (*heavily influenced*, *heavily dependent*), no con *grateful*." },
+        { "id": "d", "label": "strongly", "correct": false, "feedback": "Casi: *strongly* intensifica verbos de opinión (*strongly agree*), no adjetivos de emoción." }
+      ],
+      "hints": [
+        "*Grateful* es una emoción.",
+        "El mismo adverbio funciona con *moved* (conmovido) y *concerned* (preocupado)."
+      ],
+      "solution": "Con adjetivos de emoción, el intensificador natural es **deeply**: *deeply grateful*, *deeply moved*, *deeply disappointed*. *Highly* es para evaluación (*highly unlikely*), *strongly* para opiniones (*strongly agree*) y *heavily* para cantidad o dependencia."
+    },
+    {
+      "id": "coloc-decisive",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Completa con una palabra de la familia de **DECIDE**:\n\n*Our new manager is very ___; she never hesitates when something needs to be done.*",
+      "answers": ["decisive"],
+      "feedback": [
+        { "match": "decided", "message": "Casi: *decided* existe como adjetivo, pero significa «claro, marcado» (*a decided advantage*). Para una persona que decide sin dudar, usa *decisive*." },
+        { "match": "decision", "message": "Todavía no: *decision* es un sustantivo. Aquí, después de *very*, necesitas un adjetivo." },
+        { "match": "indecisive", "message": "Casi: es la palabra correcta en forma, pero el sentido es el contrario. La directora *never hesitates*." }
+      ],
+      "hints": [
+        "Después de *is very* necesitas un adjetivo.",
+        "El sufijo *-ive* forma adjetivos: *attract* → *attractive*."
+      ],
+      "solution": "Después de *very* va un adjetivo, y el que describe a una persona que decide con rapidez y firmeza es **decisive**. La familia completa: *decide, decision, decisive, decisively, indecisive, indecision*."
+    },
+    {
+      "id": "coloc-irresponsible",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Forma el adjetivo contrario de **RESPONSIBLE** con un prefijo y completa:\n\n*Leaving a child alone in the car was completely ___.*",
+      "answers": ["irresponsible"],
+      "feedback": [
+        { "match": "unresponsible", "message": "Casi: el prefijo es otro. Delante de *r*, el prefijo negativo latino se convierte en *ir-*." },
+        { "match": "inresponsible", "message": "Casi: delante de *r*, *in-* se convierte en *ir-*, como en español (*irresponsable*)." },
+        { "match": "irresponsable", "message": "Casi: esa es la ortografía española. En inglés termina en *-ible*: *irresponsible*." }
+      ],
+      "hints": [
+        "Es un prefijo de origen latino, igual que en español.",
+        "*In-* cambia de forma delante de *l* (*il-*), *m* y *p* (*im-*) y *r* (*ir-*)."
+      ],
+      "solution": "*Responsible* forma su contrario con el prefijo latino *in-*, que delante de *r* se asimila y se convierte en *ir-*: **irresponsible**. Lo mismo ocurre en *irregular* e *irrelevant*. Ojo a la terminación inglesa: *-ible*, no *-able*."
+    },
+    {
+      "id": "coloc-pay-attention",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Completa: **Please ___ attention to the safety instructions.**",
+      "options": [
+        { "id": "a", "label": "pay", "correct": true, "feedback": "¡Eso es! En inglés la atención se «paga»: *pay attention to*." },
+        { "id": "b", "label": "put", "correct": false, "feedback": "Todavía no: es el calco de «poner atención». En inglés el verbo es *pay*." },
+        { "id": "c", "label": "lend", "correct": false, "feedback": "Casi: *lend an ear* (prestar oído) existe, pero con *attention* el verbo es *pay*." },
+        { "id": "d", "label": "make", "correct": false, "feedback": "Todavía no: *make attention* no es una combinación posible." }
+      ],
+      "hints": [
+        "Es el mismo verbo de *___ a visit* y *___ a compliment*.",
+        "En español «prestamos» atención; en inglés se usa un verbo de dinero."
+      ],
+      "solution": "La colocación es **pay attention (to)**. El mismo verbo aparece en *pay a visit*, *pay a compliment* y *pay tribute*. «Poner» o «prestar» atención no se traducen literalmente."
+    },
+    {
+      "id": "coloc-spent-hours",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés de forma natural:\n\n*Pasé tres horas haciendo la tarea.*",
+      "answers": [
+        "I spent three hours doing my homework",
+        "I spent three hours doing the homework",
+        "I spent three hours doing homework",
+        "I spent 3 hours doing my homework",
+        "I spent 3 hours doing the homework",
+        "I spent 3 hours doing homework"
+      ],
+      "feedback": [
+        { "match": "I passed three hours doing my homework", "message": "Casi: «pasar tiempo» es *spend time*. *Pass* se usa en *pass the time* (matar el tiempo) o *pass an exam*." },
+        { "match": "I spent three hours making my homework", "message": "Casi: la tarea escolar se *do*, no se *make*: *do homework*." },
+        { "match": "I spent three hours doing my homeworks", "message": "Casi: *homework* es incontable, no lleva -s." },
+        { "match": "I spent three hours to do my homework", "message": "Casi: después de *spend time* va el verbo en -ing: *spent three hours doing*." }
+      ],
+      "hints": [
+        "Hay tres trampas: «pasar», «hacer» y «tarea».",
+        "*Spend* + tiempo + verbo en -ing; *do* + *homework* (incontable)."
+      ],
+      "solution": "Tres colocaciones en una oración: **spend time** (no *pass*), **do homework** (no *make*) y *homework* incontable (sin -s). Además, *spend* + tiempo va seguido de -ing. Resultado: **I spent three hours doing my homework.** (Para «la tarea» puedes usar *my homework* o *the homework*.)"
+    },
+    {
+      "id": "coloc-married-to",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "¿Cuál de estas oraciones es correcta?",
+      "options": [
+        { "id": "a", "label": "She's been married to a Kenyan architect for ten years.", "correct": true, "feedback": "¡Muy bien! *Married to* es la preposición correcta, aunque en español digamos «casada con»." },
+        { "id": "b", "label": "She's been married with a Kenyan architect for ten years.", "correct": false, "feedback": "Todavía no: es el calco de «casada con». En inglés se dice *married to*." },
+        { "id": "c", "label": "She's been married a Kenyan architect for ten years.", "correct": false, "feedback": "Casi: *She married a Kenyan architect* (verbo, sin preposición) es correcto, pero con *be married* necesitas *to*." },
+        { "id": "d", "label": "She's been married of a Kenyan architect for ten years.", "correct": false, "feedback": "Todavía no: *married of* no existe en inglés." }
+      ],
+      "hints": [
+        "Hay que distinguir *marry someone* (verbo) y *be married ___ someone* (adjetivo).",
+        "Es la misma preposición que en *engaged ___ someone* (prometido con)."
+      ],
+      "solution": "Con el verbo, no hay preposición: *She married a Kenyan architect.* Con el adjetivo, la preposición es *to*: **She's been married to a Kenyan architect for ten years.** Lo mismo con *engaged to*."
+    },
+    {
+      "id": "coloc-corpus",
+      "type": "choice",
+      "difficulty": "stretch",
+      "mode": "H",
+      "prompt": "Imagina que buscas en un corpus de inglés las palabras que aparecen justo delante de *advice*. En los primeros puestos salen *legal*, *medical*, *expert*, *practical* y *financial*; *strong* aparece muy poco. ¿Qué conclusión es más razonable?",
+      "options": [
+        { "id": "a", "label": "Para calificar un consejo, los hablantes prefieren adjetivos que indican su tipo o su calidad; *strong advice* es posible pero poco natural.", "correct": true, "feedback": "¡Exacto! Un corpus no prohíbe nada: muestra lo que es frecuente y, por tanto, lo que suena natural." },
+        { "id": "b", "label": "*Strong advice* es un error gramatical y nunca se puede usar.", "correct": false, "feedback": "Todavía no: que algo sea poco frecuente no lo convierte en agramatical. Un corpus describe preferencias, no reglas absolutas." },
+        { "id": "c", "label": "*Advice* es contable, porque aparece con muchos adjetivos.", "correct": false, "feedback": "Todavía no: los adjetivos no dicen nada sobre si un sustantivo es contable. *Advice* es incontable (*some advice*, *a piece of advice*)." },
+        { "id": "d", "label": "Los corpus no sirven para estudiar colocaciones.", "correct": false, "feedback": "Todavía no: precisamente para eso se usan. Los diccionarios para estudiantes se elaboran hoy a partir de corpus." }
+      ],
+      "hints": [
+        "Un corpus muestra frecuencias reales de uso.",
+        "Distingue entre «poco frecuente» y «agramatical»."
+      ],
+      "solution": "Un corpus revela **preferencias**: qué combinaciones eligen los hablantes. Si *strong advice* aparece muy poco y *legal*, *practical* o *expert advice* dominan, lo prudente es usar estas últimas. Pero baja frecuencia no significa agramaticalidad: es una cuestión de naturalidad, no de reglas. Por eso la respuesta correcta es la primera."
+    }
+  ]
+}

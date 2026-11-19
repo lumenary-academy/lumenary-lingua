@@ -1,0 +1,356 @@
+{
+  "lesson": "regional-spanish",
+  "exercises": [
+    {
+      "id": "vos-tener",
+      "type": "choice",
+      "prompt": "In Buenos Aires, how does a friend say *you have* to you, using *vos*?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "vos tenés",
+          "correct": true,
+          "feedback": "Yes. Voseo forms are stressed on the ending, so there's no stem change: *tenés*."
+        },
+        {
+          "id": "b",
+          "label": "vos tienes",
+          "correct": false,
+          "feedback": "Not quite — that mixes the pronoun *vos* with the *tú* verb form; in Buenos Aires the verb is *tenés*."
+        },
+        {
+          "id": "c",
+          "label": "vos tenéis",
+          "correct": false,
+          "feedback": "Not yet — *tenéis* is the *vosotros* form used in Spain."
+        },
+        {
+          "id": "d",
+          "label": "vos tiene",
+          "correct": false,
+          "feedback": "Not yet — *tiene* is the *usted* (or *él/ella*) form."
+        }
+      ],
+      "hints": [
+        "Voseo forms of the present are stressed on the last syllable.",
+        "Take *tener*, drop the *-r*, add *-s*, and put the stress on the ending."
+      ],
+      "solution": "In the voseo of the Río de la Plata, the present is formed from the infinitive with the stress on the ending: *tener → **tenés***. Because the stress isn't on the stem, there is no *e → ie* change (compare *tú tienes*)."
+    },
+    {
+      "id": "vos-ser",
+      "type": "text",
+      "prompt": "Fill the gap with the voseo form of *ser*: *Vos ___ muy amable.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "sos"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Ser* is irregular in the voseo too.",
+        "It's a three-letter word."
+      ],
+      "solution": "The voseo form of *ser* is irregular: ***sos*** (compare *tú eres*). *Vos **sos** muy amable* = You're very kind.",
+      "feedback": [
+        {
+          "match": "eres",
+          "message": "That's the *tú* form. With *vos*, *ser* becomes *sos*."
+        },
+        {
+          "match": "sois",
+          "message": "That's the *vosotros* form used in Spain. With *vos*: *sos*."
+        }
+      ]
+    },
+    {
+      "id": "vosotros-querer",
+      "type": "text",
+      "prompt": "Fill the gap with the *vosotros* form of *querer*: *¿Vosotros ___ café o té?*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "queréis"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Vosotros* forms end in *-áis, -éis, -ís*.",
+        "There's no stem change in the *vosotros* form."
+      ],
+      "solution": "*Vosotros* forms of *-er* verbs end in **-éis**, and, as with *nosotros*, there is no stem change: *querer → **queréis***. *¿Vosotros **queréis** café o té?*",
+      "feedback": [
+        {
+          "match": "quieréis",
+          "message": "Almost — the *vosotros* form has no stem change: *queréis*."
+        },
+        {
+          "match": "quereis",
+          "message": "Almost — *queréis* needs its accent on the *é*."
+        },
+        {
+          "match": "quieren",
+          "message": "That's the *ustedes* form, which is perfect in Latin America. The prompt asks for *vosotros*: *queréis*."
+        }
+      ]
+    },
+    {
+      "id": "to-ustedes",
+      "type": "text",
+      "prompt": "Rewrite the question as it would be asked in Latin America, with *ustedes*: *¿Vosotros venís mañana?*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "¿ustedes vienen mañana",
+        "¿vienen mañana",
+        "¿vienen ustedes mañana"
+      ],
+      "lang": "es",
+      "hints": [
+        "*Ustedes* takes the third person plural verb.",
+        "*Venir* → *vienen*."
+      ],
+      "solution": "*Ustedes* is grammatically third person plural, so *venís* becomes ***vienen***: *¿Ustedes vienen mañana?* (or simply *¿Vienen mañana?*). In Spain this would sound formal; in Latin America it's the normal informal plural.",
+      "feedback": [
+        {
+          "match": "¿ustedes venís mañana",
+          "message": "Almost — *ustedes* takes a third person plural verb: *vienen*."
+        }
+      ]
+    },
+    {
+      "id": "car-buenos-aires",
+      "type": "choice",
+      "prompt": "In Buenos Aires, what is the most usual word for *car*?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "auto",
+          "correct": true,
+          "feedback": "Yes. *Auto* is the usual word in Argentina, Chile and Uruguay."
+        },
+        {
+          "id": "b",
+          "label": "coche",
+          "correct": false,
+          "feedback": "Not quite — *coche* is the usual word in Spain (and is understood elsewhere)."
+        },
+        {
+          "id": "c",
+          "label": "carro",
+          "correct": false,
+          "feedback": "Not quite — *carro* is usual in Mexico, Central America, Colombia, Venezuela and the Caribbean."
+        },
+        {
+          "id": "d",
+          "label": "camión",
+          "correct": false,
+          "feedback": "Not yet — *camión* means truck in most places, and bus in Mexico."
+        }
+      ],
+      "hints": [
+        "Think of the Southern Cone.",
+        "It's also short for *automóvil*."
+      ],
+      "solution": "In Argentina, Chile and Uruguay the everyday word is ***auto***. Spain says *coche*; Mexico, Central America, Colombia, Venezuela and the Caribbean say *carro*. All three are understood everywhere."
+    },
+    {
+      "id": "seseo-where",
+      "type": "choice",
+      "prompt": "Where do *casa* (house) and *caza* (hunt) normally sound exactly the same?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "In Latin America, the Canary Islands and parts of Andalusia",
+          "correct": true,
+          "feedback": "Yes. That's seseo, used by the great majority of Spanish speakers in the world."
+        },
+        {
+          "id": "b",
+          "label": "Only in Madrid",
+          "correct": false,
+          "feedback": "Not yet — most of Spain, including Madrid, has distinción: *caza* with a *th* sound."
+        },
+        {
+          "id": "c",
+          "label": "Nowhere: they are always pronounced differently",
+          "correct": false,
+          "feedback": "Not yet — in seseo areas they are pronounced identically."
+        },
+        {
+          "id": "d",
+          "label": "Only in written Spanish",
+          "correct": false,
+          "feedback": "Not yet — in writing they are always different (*s* versus *z*). The question is about pronunciation."
+        }
+      ],
+      "hints": [
+        "Which phenomenon makes *s*, *z* and *c* (before *e, i*) sound the same?",
+        "It's the majority pronunciation worldwide."
+      ],
+      "solution": "In **seseo** areas, all of Latin America, the Canary Islands and parts of Andalusia, *z* and *c* (before *e, i*) sound like *s*, so *casa* and *caza* are homophones. Most of Spain uses **distinción**, where *caza* has a *th* sound."
+    },
+    {
+      "id": "leismo-accepted",
+      "type": "choice",
+      "prompt": "Which of these sentences are accepted as standard by the Spanish academies? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "A Juan lo vi ayer.",
+          "correct": true,
+          "feedback": "Yes. The standard direct object pronoun for a man."
+        },
+        {
+          "id": "b",
+          "label": "A Juan le vi ayer.",
+          "correct": true,
+          "feedback": "Yes. Leísmo with a masculine singular person is accepted; it's common in Spain."
+        },
+        {
+          "id": "c",
+          "label": "A María le vi ayer.",
+          "correct": false,
+          "feedback": "Not yet — with a woman as direct object, the standard pronoun is *la*: *A María la vi*."
+        },
+        {
+          "id": "d",
+          "label": "El libro le compré ayer.",
+          "correct": false,
+          "feedback": "Not yet — with a thing, the direct object pronoun must be *lo*: *El libro lo compré ayer*."
+        }
+      ],
+      "hints": [
+        "The standard direct object pronouns are *lo, la*.",
+        "Leísmo is accepted only in one specific case."
+      ],
+      "solution": "**a** is the general standard. **b** is leísmo with a masculine singular person, accepted by the academies and common in central and northern Spain. **c** (*le* for a woman) and **d** (*le* for a thing) are not standard; use *la* and *lo*.",
+      "multiple": true
+    },
+    {
+      "id": "vos-command-come",
+      "type": "text",
+      "prompt": "Give the voseo command of *venir*: *¡___ acá, que te quiero mostrar algo!*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "vení"
+      ],
+      "lang": "es",
+      "hints": [
+        "Voseo commands are formed from the infinitive by dropping the *-r*.",
+        "The stress stays on the last syllable, so it needs an accent."
+      ],
+      "solution": "Voseo commands drop the final *-r* of the infinitive and keep the stress on the last syllable: *venir → **vení***. *¡Vení acá, que te quiero mostrar algo!* Compare *tú*: *¡Ven aquí!*",
+      "feedback": [
+        {
+          "match": "ven",
+          "message": "That's the *tú* command. With *vos*, drop the *-r* of the infinitive: *vení*."
+        },
+        {
+          "match": "veni",
+          "message": "Almost — the voseo command is stressed on the last syllable, so it's written *vení*."
+        }
+      ]
+    },
+    {
+      "id": "translate-spain-help",
+      "type": "text",
+      "prompt": "Translate into Spanish as it would be said in Spain, to two friends: *Can you help me?*",
+      "difficulty": "core",
+      "mode": "H",
+      "answers": [
+        "¿vosotros podéis ayudarme",
+        "¿podéis ayudarme",
+        "¿me podéis ayudar",
+        "¿podéis echarme una mano",
+        "¿me podéis echar una mano"
+      ],
+      "lang": "es",
+      "hints": [
+        "In Spain, the informal plural is *vosotros*.",
+        "*Poder* → *podéis*, then *ayudarme* (or *me podéis ayudar*)."
+      ],
+      "solution": "In Spain, talking to two friends, you use **vosotros**: *poder → **podéis***. The object pronoun can go on the infinitive or before *podéis*: ***¿Podéis ayudarme?*** or ***¿Me podéis ayudar?*** In Latin America you'd say *¿Pueden ayudarme?*",
+      "feedback": [
+        {
+          "match": "¿pueden ayudarme",
+          "message": "Perfect in Latin America (and formal in Spain). For friends in Spain, use *vosotros*: *¿podéis ayudarme?*"
+        },
+        {
+          "match": "¿podeis ayudarme",
+          "message": "Almost — *podéis* needs its accent."
+        }
+      ]
+    },
+    {
+      "id": "asale-role",
+      "type": "choice",
+      "prompt": "Which statement best describes the Asociación de Academias de la Lengua Española (ASALE)?",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        {
+          "id": "a",
+          "label": "It brings together the Spanish language academies of many countries, which prepare the dictionary, grammar and spelling rules jointly.",
+          "correct": true,
+          "feedback": "Yes. Since its foundation in 1951 it has grown into a network of more than twenty academies working on shared reference works."
+        },
+        {
+          "id": "b",
+          "label": "It is a department of the Spanish government that decides how people in Latin America should speak.",
+          "correct": false,
+          "feedback": "Not yet — ASALE isn't a government body, and its policy treats each country's educated usage as equally valid."
+        },
+        {
+          "id": "c",
+          "label": "It certifies learners' level of Spanish with official exams.",
+          "correct": false,
+          "feedback": "Not yet — that's the Instituto Cervantes, with the DELE and SIELE exams."
+        },
+        {
+          "id": "d",
+          "label": "It was founded in 1713 in Madrid.",
+          "correct": false,
+          "feedback": "Not yet — 1713 and Madrid are the foundation of the Real Academia Española. ASALE was founded in Mexico in 1951."
+        }
+      ],
+      "hints": [
+        "Reread the culture section.",
+        "Think \"association\" of academies."
+      ],
+      "solution": "**ASALE** is the association of the Spanish language academies, founded in Mexico in 1951. Its members, including the RAE, prepare the *Diccionario de la lengua española*, the grammar and the spelling rules together, under a panhispanic policy that recognises the educated usage of every country. The RAE itself was founded in Madrid in 1713."
+    },
+    {
+      "id": "computer-spain",
+      "type": "text",
+      "prompt": "What is the usual word for *computer* in Spain?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "answers": [
+        "ordenador",
+        "el ordenador",
+        "un ordenador"
+      ],
+      "lang": "es",
+      "hints": [
+        "It's different from most of Latin America.",
+        "It comes from French *ordinateur*."
+      ],
+      "solution": "In Spain a computer is an ***ordenador*** (a word borrowed from French *ordinateur*). Most of Latin America says *computadora*, and Chile and Colombia often *computador*.",
+      "feedback": [
+        {
+          "match": "computadora",
+          "message": "That's the usual word in most of Latin America. In Spain: *ordenador*."
+        }
+      ]
+    }
+  ]
+}

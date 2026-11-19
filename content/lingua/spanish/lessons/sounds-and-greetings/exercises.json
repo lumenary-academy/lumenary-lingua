@@ -1,0 +1,216 @@
+{
+  "lesson": "sounds-and-greetings",
+  "exercises": [
+    {
+      "id": "greeting-after-dark",
+      "type": "choice",
+      "prompt": "It is 9 p.m. and you walk into a small restaurant. What do you say to the waiter as you come in?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Spanish greetings follow the light more than the exact hour.",
+        "Is it light or dark at 9 p.m. in most places?"
+      ],
+      "options": [
+        { "id": "a", "label": "Buenos días", "correct": false, "feedback": "Not yet — *buenos días* is for the morning, until lunchtime." },
+        { "id": "b", "label": "Buenas tardes", "correct": false, "feedback": "Close, but *buenas tardes* runs from lunch until it gets dark. At 9 p.m. it's night." },
+        { "id": "c", "label": "Buenas noches", "correct": true, "feedback": "Yes. *Buenas noches* is the greeting after dark, as well as the goodbye at night." },
+        { "id": "d", "label": "Hasta luego", "correct": false, "feedback": "Not yet — *hasta luego* means \"see you later\": it's for leaving, not arriving." }
+      ],
+      "solution": "After dark, the greeting is **buenas noches**. It works both as \"good evening\" when you arrive and \"good night\" when you leave. *Buenas tardes* covers the afternoon until dark, and *buenos días* the morning. You could also say *Hola, buenas noches*."
+    },
+    {
+      "id": "silent-letter",
+      "type": "choice",
+      "prompt": "Which letter is never pronounced in Spanish?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Think of how *hola* and *hasta* sound.",
+        "The word *hola* sounds like \"OH-lah\"."
+      ],
+      "options": [
+        { "id": "a", "label": "h", "correct": true, "feedback": "Yes. The Spanish *h* is always silent: *hola* is \"OH-lah\"." },
+        { "id": "b", "label": "j", "correct": false, "feedback": "Not yet — *j* is a strong breathy sound from the throat, as in *jamón*." },
+        { "id": "c", "label": "ñ", "correct": false, "feedback": "Not yet — *ñ* is pronounced \"ny\", as in *España*." },
+        { "id": "d", "label": "ll", "correct": false, "feedback": "Not yet — *ll* is pronounced, usually like the *y* in *yes*." }
+      ],
+      "solution": "The **h** is silent: *hola* = \"OH-lah\", *hasta* = \"AHS-tah\". (The combination *ch* is different: it is a single sound, as in *church*, so *chocolate* has a clear *ch*.) The *j* is the throaty sound English lacks, *ñ* is \"ny\", and *ll* is usually \"y\"."
+    },
+    {
+      "id": "needs-an-accent",
+      "type": "choice",
+      "prompt": "Below are four words written **without** accent marks. They are all stressed as shown in capitals. Which one needs a written accent?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Rule 1: words ending in a vowel, -n or -s are stressed on the second-to-last syllable. Rule 2: words ending in another consonant are stressed on the last.",
+        "Find the word whose stress does *not* follow the rule for its ending."
+      ],
+      "options": [
+        { "id": "a", "label": "MEsa", "correct": false, "feedback": "Not yet — *mesa* ends in a vowel and is stressed on the second-to-last syllable, exactly as rule 1 predicts. No accent needed." },
+        { "id": "b", "label": "caFE", "correct": true, "feedback": "Yes. It ends in a vowel, so rule 1 predicts *CA-fe*; the stress is on the last syllable instead, so it is written *café*." },
+        { "id": "c", "label": "haBLAR", "correct": false, "feedback": "Not yet — *hablar* ends in *r*, so rule 2 predicts stress on the last syllable, which is right. No accent." },
+        { "id": "d", "label": "CARmen", "correct": false, "feedback": "Not yet — *Carmen* ends in *n*, so rule 1 predicts stress on the second-to-last syllable, which is right. No accent." }
+      ],
+      "solution": "Check each word against the rules.\n\n- *mesa* ends in a vowel → stress on the second-to-last syllable (*ME-sa*). Matches; no accent.\n- *cafe* ends in a vowel → the rule predicts *CA-fe*, but the word is said *ca-FE*. It breaks the rule, so it needs an accent: **café**.\n- *hablar* ends in *r* → stress on the last syllable (*ha-BLAR*). Matches.\n- *Carmen* ends in *n* → stress on the second-to-last (*CAR-men*). Matches.\n\nA written accent appears exactly where a word breaks the two rules."
+    },
+    {
+      "id": "g-like-j",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "In which of these words does the **g** sound like the Spanish **j** (the breathy sound in *jamón*)? Choose all that apply.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "What comes after the g matters.",
+        "Before *e* and *i*, g sounds like j; before *a*, *o*, *u* it is hard, as in *go*. In *gue* and *gui* the u is silent and the g stays hard."
+      ],
+      "options": [
+        { "id": "a", "label": "gente (people)", "correct": true, "feedback": "Yes: *g* before *e* sounds like *j*: \"HEN-teh\" with a breathy h." },
+        { "id": "b", "label": "página (page)", "correct": true, "feedback": "Yes: *g* before *i* sounds like *j*: \"PAH-hee-nah\"." },
+        { "id": "c", "label": "gato (cat)", "correct": false, "feedback": "Not this one — *g* before *a* is hard, as in English *go*." },
+        { "id": "d", "label": "guitarra (guitar)", "correct": false, "feedback": "Not this one — in *gui* the *u* is silent and keeps the *g* hard: \"gee-TAH-rrah\" with the *g* of *go*." }
+      ],
+      "solution": "The letter after the *g* decides. **gente** and **página** have *g* before *e* and *i*, so it sounds like *j*. *gato* has *g* before *a*: hard. *guitarra* has the spelling *gui*, where the silent *u* is there precisely to keep the *g* hard before *i*."
+    },
+    {
+      "id": "seseo-gracias",
+      "type": "choice",
+      "prompt": "A woman from Mexico City says *gracias*. How does she most likely pronounce the **c**?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "It is a *c* before *i*.",
+        "Latin American Spanish uses *seseo*."
+      ],
+      "options": [
+        { "id": "a", "label": "Like the s in *sun*", "correct": true, "feedback": "Yes. In Latin America (seseo), *c* before *e* or *i* sounds like *s*: \"GRAH-syahs\"." },
+        { "id": "b", "label": "Like the th in *think*", "correct": false, "feedback": "Not yet — that is *distinción*, the pronunciation of most of Spain, not Mexico." },
+        { "id": "c", "label": "Like the k in *kite*", "correct": false, "feedback": "Not yet — *c* sounds like *k* only before *a*, *o* and *u*, as in *casa*." },
+        { "id": "d", "label": "It is silent", "correct": false, "feedback": "Not yet — the only silent letter in Spanish is *h* (and the *u* in *que*, *qui*, *gue*, *gui*)." }
+      ],
+      "solution": "Before *e* or *i*, *c* is pronounced **like s** in Latin America, the Canary Islands and parts of Andalusia (*seseo*), and like the *th* of *think* in most of Spain (*distinción*). A speaker from Mexico City says \"GRAH-syahs\". Both pronunciations are correct; choose one and keep it consistent."
+    },
+    {
+      "id": "formal-name",
+      "type": "choice",
+      "prompt": "You are a nurse welcoming an elderly patient you have never met. Which question asks for his name politely?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "A stranger who is older calls for the formal *usted*.",
+        "Look for the question that contains *usted* and asks about a name."
+      ],
+      "options": [
+        { "id": "a", "label": "¿Cómo te llamas?", "correct": false, "feedback": "Not yet — this asks for his name, but with *tú*, the informal form. With an older stranger, use *usted*." },
+        { "id": "b", "label": "¿Cómo se llama usted?", "correct": true, "feedback": "Yes: the formal question, with *usted*." },
+        { "id": "c", "label": "¿Cómo está usted?", "correct": false, "feedback": "Not yet — this is formal, but it means \"How are you?\", not \"What's your name?\"." },
+        { "id": "d", "label": "¿Qué tal?", "correct": false, "feedback": "Not yet — *¿Qué tal?* means \"How's it going?\" and is informal." }
+      ],
+      "solution": "**¿Cómo se llama usted?** is the formal way to ask someone's name. The informal version is *¿Cómo te llamas?* Remember the pairs: *te llamas* goes with *tú*, *se llama* with *usted*; *estás* with *tú*, *está* with *usted*."
+    },
+    {
+      "id": "my-name-is",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate into Spanish: **My name is Sofía.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Use the phrase meaning \"I call myself\".",
+        "It starts with *Me llamo*…"
+      ],
+      "answers": ["Me llamo Sofía", "Yo me llamo Sofía", "Soy Sofía", "Mi nombre es Sofía"],
+      "feedback": [
+        { "match": "Me llama Sofía", "message": "Almost — *me llama* would mean \"(he/she) calls me\". You need *me llamo*, with -o for \"I\"." }
+      ],
+      "solution": "**Me llamo Sofía.** Literally \"I call myself Sofía\". *Soy Sofía* (I am Sofía) and *Mi nombre es Sofía* (my name is Sofía) are also correct; *me llamo* is the most common way to give your name."
+    },
+    {
+      "id": "woman-pleased",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Camila is meeting her new neighbour. Write the **one word** she says to mean \"Pleased to meet you\".",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The word comes from *encantar*, to delight.",
+        "It agrees with the speaker, and Camila is a woman."
+      ],
+      "answers": ["encantada"],
+      "feedback": [
+        { "match": "encantado", "message": "Almost — *encantado* is what a man says. It agrees with the speaker, so Camila says *encantada*." },
+        { "match": "mucho gusto", "message": "That's right in meaning, but it's two words. Which single word, ending in -a, would Camila say?" }
+      ],
+      "solution": "**Encantada.** It agrees with the person speaking: a woman says *encantada*, a man *encantado*, whoever they are meeting. (*Mucho gusto* is also correct in a conversation, but it's two words and the same for everyone.)"
+    },
+    {
+      "id": "good-afternoon",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate into Spanish: **Good afternoon.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Tarde* means afternoon; the greeting is in the plural.",
+        "It is feminine: *buenas* …"
+      ],
+      "answers": ["Buenas tardes"],
+      "feedback": [
+        { "match": "buenos tardes", "message": "Almost — *tardes* is feminine, so it's *buenas tardes*. Compare *buenos días*, where *días* is masculine." },
+        { "match": "buena tarde", "message": "Almost — the greeting is plural: *buenas tardes*." }
+      ],
+      "solution": "**Buenas tardes.** Like *buenos días* and *buenas noches*, it is plural. Notice *buenas* (feminine) here and *buenos* (masculine) in *buenos días*: the adjective agrees with the noun, an idea you'll meet properly in the next lessons."
+    },
+    {
+      "id": "youre-welcome",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Someone says *¡Muchas gracias!* Reply with **You're welcome**.",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Literally, \"of nothing\".",
+        "It starts with *de*."
+      ],
+      "answers": ["De nada"],
+      "solution": "**De nada.** Literally \"(it was) of nothing\", i.e. \"it was nothing\". Remember the soft *d* between vowels in *nada*, close to the *th* of *this*."
+    },
+    {
+      "id": "see-you-tomorrow",
+      "type": "text",
+      "lang": "es",
+      "prompt": "You're leaving class and will see your classmate again the next day. Write **See you tomorrow** in Spanish.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "\"See you later\" is *hasta luego*.",
+        "Replace *luego* with the word for tomorrow, which has an ñ."
+      ],
+      "answers": ["Hasta mañana"],
+      "feedback": [
+        { "match": "hasta luego", "message": "That's a perfectly good goodbye, but it means \"see you later\". Use the word for tomorrow." }
+      ],
+      "solution": "**Hasta mañana.** *Hasta* means \"until\", so it is literally \"until tomorrow\". The *ñ* is a separate letter, pronounced \"ny\": \"AHS-tah mah-NYAH-nah\"."
+    },
+    {
+      "id": "how-are-you-friend",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Ask a friend **How are you?** (use the informal form).",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Friends call each other *tú*.",
+        "The question word *cómo* has an accent, and so does the verb form for *tú*: *estás*."
+      ],
+      "answers": ["Cómo estás", "Cómo estás tú", "Qué tal", "Qué tal estás", "Cómo estás vos"],
+      "feedback": [
+        { "match": "cómo está usted", "message": "That's the formal version, for someone you call *usted*. With a friend, use *tú*: *¿Cómo estás?*" },
+        { "match": "cómo está", "message": "Almost — *está* goes with *usted*. With a friend, use the *tú* form *estás*." }
+      ],
+      "solution": "**¿Cómo estás?** is the informal \"How are you?\". *¿Qué tal?* (How's it going?) is just as natural among friends. The formal version is *¿Cómo está usted?* Both *cómo* and *estás* carry written accents: *cómo* because it is a question word, *estás* because it ends in -s but is stressed on the last syllable."
+    }
+  ]
+}

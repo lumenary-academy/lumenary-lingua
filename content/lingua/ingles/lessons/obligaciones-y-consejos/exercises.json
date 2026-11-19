@@ -1,0 +1,248 @@
+{
+  "lesson": "obligaciones-y-consejos",
+  "exercises": [
+    {
+      "id": "she-can-swim",
+      "type": "choice",
+      "prompt": "Completa: **My grandmother is eighty, but she ______ very well.** (nadar = *swim*)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Los modales no llevan -s en la tercera persona.",
+        "Y tampoco van seguidos de *to*."
+      ],
+      "solution": "**can swim**. Los modales no cambian con *he/she* (nada de *cans*) y van seguidos del verbo base sin *to*.",
+      "options": [
+        { "id": "a", "label": "cans swim", "correct": false, "feedback": "Todavía no: los modales no llevan -s: *she can*." },
+        { "id": "b", "label": "can swim", "correct": true, "feedback": "¡Bien! Modal + verbo base." },
+        { "id": "c", "label": "can to swim", "correct": false, "feedback": "Todavía no: tras *can*, el verbo va sin *to*." },
+        { "id": "d", "label": "can swims", "correct": false, "feedback": "Todavía no: el verbo tras un modal va en forma base, sin -s." }
+      ]
+    },
+    {
+      "id": "no-se-conducir",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **No sé conducir** (manejar).",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Para habilidades, el inglés usa *can*, no «saber».",
+        "Negativa: *can't* (o *cannot*)."
+      ],
+      "solution": "**I can't drive** (o *I cannot drive*). Para hablar de habilidades se usa *can*. También es correcto *I don't know how to drive*. *I don't know drive* es un calco de «no sé conducir».",
+      "answers": ["I can't drive", "I cannot drive", "I can not drive", "I don't know how to drive", "I do not know how to drive"],
+      "feedback": [
+        { "match": "I don't know drive", "message": "Casi: para habilidades se usa *can*: *I can't drive*. (O *I don't know how to drive*.)" },
+        { "match": "I don't know to drive", "message": "Casi: di *I can't drive* o *I don't know how to drive*." },
+        { "match": "I don't can drive", "message": "Casi: los modales no usan *do*: *I can't drive*." },
+        { "match": "I can't to drive", "message": "Casi: tras *can't*, sin *to*: *I can't drive*." }
+      ]
+    },
+    {
+      "id": "manana-es-fiesta",
+      "type": "choice",
+      "prompt": "Mañana es fiesta. Le dices a tu compañero: «No tienes que venir a la oficina» (= no hace falta). ¿Qué frase eliges?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "¿Está prohibido venir, o simplemente no es necesario?",
+        "*Mustn't* es prohibición."
+      ],
+      "solution": "**You don't have to come to the office.** *Don't have to* significa «no hace falta, no es obligatorio»: puede venir si quiere. *You mustn't come* significaría que está **prohibido** venir.",
+      "options": [
+        { "id": "a", "label": "You mustn't come to the office.", "correct": false, "feedback": "Todavía no: *mustn't* significa que está prohibido. Aquí solo no es necesario." },
+        { "id": "b", "label": "You don't have to come to the office.", "correct": true, "feedback": "¡Exacto! *Don't have to* = no hace falta." },
+        { "id": "c", "label": "You haven't to come to the office.", "correct": false, "feedback": "Todavía no: *have to* se niega con *don't*: *You don't have to come*." }
+      ]
+    },
+    {
+      "id": "no-smoking",
+      "type": "choice",
+      "prompt": "Ves un letrero que dice **No smoking**. ¿Cuál de estas frases explica la norma?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Es una prohibición.",
+        "¿Cuál de las negativas expresa prohibición?"
+      ],
+      "solution": "**You mustn't smoke here.** (o *You can't smoke here*). *Mustn't* expresa prohibición. *You don't have to smoke* significaría «no es obligatorio fumar», que no tiene sentido como norma, y *You shouldn't smoke* es solo un consejo.",
+      "options": [
+        { "id": "a", "label": "You don't have to smoke here.", "correct": false, "feedback": "Todavía no: eso significa «no es obligatorio fumar aquí». El letrero lo prohíbe." },
+        { "id": "b", "label": "You mustn't smoke here.", "correct": true, "feedback": "¡Bien! *Mustn't* = está prohibido." },
+        { "id": "c", "label": "You shouldn't smoke here.", "correct": false, "feedback": "Casi: *shouldn't* es un consejo. El letrero es una prohibición: *mustn't*." }
+      ]
+    },
+    {
+      "id": "tuve-que-esperar",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Tuve que esperar una hora.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Must* no tiene pasado.",
+        "El pasado de *have to* es *had to*."
+      ],
+      "solution": "**I had to wait an hour** (o *I had to wait for an hour*). *Must* no tiene forma de pasado; «tuve que» se dice siempre *had to*. Fíjate en *an hour*: la h de *hour* es muda.",
+      "answers": ["I had to wait an hour", "I had to wait for an hour", "I had to wait one hour", "I had to wait for one hour"],
+      "feedback": [
+        { "match": "I musted wait an hour", "message": "Casi: *must* no tiene pasado: *I had to wait an hour*." },
+        { "match": "I must wait an hour", "message": "Casi: eso es presente. En pasado: *I had to wait an hour*." },
+        { "match": "I had to wait a hour", "message": "Casi: la h de *hour* es muda, así que *an hour*." },
+        { "match": "I have to wait an hour", "message": "Casi: eso es presente. «Tuve que» es *had to*." }
+      ]
+    },
+    {
+      "id": "deberias-ir-al-medico",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Es un consejo de amigo. Traduce: **Deberías ir al médico.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Para aconsejar: *should* + verbo base.",
+        "«Ir al médico» = *see a doctor* o *go to the doctor*."
+      ],
+      "solution": "**You should see a doctor** (o *You should go to the doctor*). *Should* expresa consejo y va seguido del verbo base. *You must see a doctor* sería una orden, más fuerte que un consejo de amigo.",
+      "answers": ["You should see a doctor", "You should go to the doctor", "You should go to a doctor", "You should see the doctor", "You should go to the doctor's", "I think you should see a doctor", "I think you should go to the doctor"],
+      "feedback": [
+        { "match": "You should to see a doctor", "message": "Casi: tras *should*, sin *to*: *You should see a doctor*." },
+        { "match": "You must see a doctor", "message": "Casi: es correcto, pero *must* suena a orden. Para un consejo de amigo, *should*." },
+        { "match": "You should go to the medic", "message": "Casi: «médico» en general es *doctor*: *You should see a doctor*." },
+        { "match": "Should see a doctor", "message": "Casi: falta el sujeto *you*." }
+      ]
+    },
+    {
+      "id": "podrias-abrir-la-ventana",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Pide un favor con cortesía. Traduce: **¿Podrías abrir la ventana, por favor?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Could you…?* es la opción cortés y segura.",
+        "Verbo base tras *could*: *open*."
+      ],
+      "solution": "**Could you open the window, please?** También valen *Can you…?* (más informal), *Would you…?* y *Would you mind opening the window?*",
+      "answers": [
+        "Could you open the window",
+        "Could you open the window please",
+        "Could you open the window, please",
+        "Can you open the window",
+        "Can you open the window please",
+        "Can you open the window, please",
+        "Would you open the window",
+        "Would you open the window please",
+        "Would you open the window, please",
+        "Could you please open the window",
+        "Can you please open the window",
+        "Would you please open the window",
+        "Would you mind opening the window",
+        "Would you mind opening the window, please",
+        "Would you mind opening the window please",
+        "Could you possibly open the window",
+        "Could you possibly open the window, please"
+      ],
+      "feedback": [
+        { "match": "Could you to open the window, please", "message": "Casi: tras *could*, sin *to*: *Could you open the window, please?*" },
+        { "match": "Would you mind to open the window", "message": "Casi: tras *mind*, el verbo en *-ing*: *Would you mind opening the window?*" },
+        { "match": "Open the window, please", "message": "Casi: es correcto, pero el imperativo suena directo entre adultos. Más cortés: *Could you open the window, please?*" }
+      ]
+    },
+    {
+      "id": "would-you-mind",
+      "type": "choice",
+      "prompt": "Un desconocido te pregunta en el tren: *Would you mind moving your bag?* Quieres decirle que **sí, con mucho gusto**. ¿Qué respondes?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Would you mind…?* significa «¿le molestaría…?».",
+        "Si no te molesta, la respuesta empieza por *No*."
+      ],
+      "solution": "**No, not at all.** *Would you mind…?* pregunta si te molesta. Si no te molesta (es decir, lo haces con gusto), se responde *No, not at all* u *Of course not*. *Sure!* también funciona. *Yes, I would* significaría «sí, me molestaría».",
+      "options": [
+        { "id": "a", "label": "Yes, I would.", "correct": false, "feedback": "Todavía no: significa «sí, me molestaría». Le estarías diciendo que no." },
+        { "id": "b", "label": "No, not at all.", "correct": true, "feedback": "¡Perfecto! «No me molesta en absoluto»: lo haces con gusto." },
+        { "id": "c", "label": "Yes, I mind.", "correct": false, "feedback": "Todavía no: eso es decir que te molesta." }
+      ]
+    },
+    {
+      "id": "tiene-que-llevar-uniforme",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Mi hermana tiene que llevar uniforme.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Have to* es un verbo normal: con *she*, *has to*.",
+        "«Llevar puesto» = *wear*. Y *a uniform*, con *a* porque suena «iu-»."
+      ],
+      "solution": "**My sister has to wear a uniform.** *Have to* no es modal, así que lleva -s con la tercera persona: *has to*. «Llevar puesto» es *wear*. Y *a uniform* (no *an*), porque *uniform* empieza por el sonido /juː/. En el Reino Unido también se oye *My sister's got to wear a uniform*.",
+      "answers": ["My sister has to wear a uniform", "My sister has got to wear a uniform", "My sister's got to wear a uniform", "My sister must wear a uniform"],
+      "feedback": [
+        { "match": "My sister have to wear a uniform", "message": "Casi: *have to* lleva -s con la tercera persona: *has to*." },
+        { "match": "My sister has to wear an uniform", "message": "Casi: *uniform* suena «iu-», así que *a uniform*." },
+        { "match": "My sister has to carry a uniform", "message": "Casi: *carry* es «llevar en la mano». «Llevar puesto» es *wear*." },
+        { "match": "My sister has to wear uniform", "message": "Casi: falta el artículo: *a uniform*." }
+      ]
+    },
+    {
+      "id": "tengo-que-pagar",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce la pregunta: **¿Tengo que pagar?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Have to* forma las preguntas con *do*.",
+        "*Do* + *I* + *have to* + verbo."
+      ],
+      "solution": "**Do I have to pay?** *Have to* se comporta como un verbo normal: la pregunta lleva *do*. En el Reino Unido también se oye *Have I got to pay?*",
+      "answers": ["Do I have to pay", "Have I got to pay", "Do I need to pay", "Must I pay"],
+      "feedback": [
+        { "match": "Have I to pay", "message": "Casi: suena anticuado. Lo natural es *Do I have to pay?*" },
+        { "match": "I have to pay", "message": "Casi: eso es una afirmación. Para preguntar: *Do I have to pay?*" },
+        { "match": "Do I have pay", "message": "Casi: falta *to*: *Do I have to pay?*" },
+        { "match": "Does I have to pay", "message": "Casi: con *I*, *do*: *Do I have to pay?*" }
+      ]
+    },
+    {
+      "id": "could-read",
+      "type": "choice",
+      "prompt": "¿Cómo se dice **«A los cinco años ya sabía leer»**?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Es una habilidad en el pasado.",
+        "El pasado de *can* es *could*."
+      ],
+      "solution": "**When I was five, I could already read.** Para una habilidad en el pasado se usa *could*. *I knew read* es un calco de «sabía leer», y *I can read* está en presente.",
+      "options": [
+        { "id": "a", "label": "When I was five, I could already read.", "correct": true, "feedback": "¡Muy bien! *Could* para habilidades pasadas." },
+        { "id": "b", "label": "When I was five, I knew read.", "correct": false, "feedback": "Todavía no: para habilidades se usa *can/could*, no *know*." },
+        { "id": "c", "label": "When I had five years, I could read.", "correct": false, "feedback": "Casi: *could read* está bien, pero la edad va con *to be*: *When I was five*." },
+        { "id": "d", "label": "When I was five, I can read.", "correct": false, "feedback": "Casi: la frase habla del pasado: *could*." }
+      ]
+    },
+    {
+      "id": "oraciones-modales",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Marca **todas** las oraciones correctas.",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Repasa las tres reglas de los modales: sin -s, sin *do*, sin *to*.",
+        "Y recuerda quién hace *lend* y quién hace *borrow*."
+      ],
+      "solution": "Son correctas **Can I borrow your umbrella?** y **I don't think you should buy it.** *Do you can come?* usa *do* con un modal (debe ser *Can you come?*), y *He musts to leave* lleva -s y *to* (debe ser *He must leave*).",
+      "options": [
+        { "id": "a", "label": "Can I borrow your umbrella?", "correct": true, "feedback": "Correcta: tú tomas prestado, *borrow*." },
+        { "id": "b", "label": "Do you can come?", "correct": false, "feedback": "Todavía no: los modales no usan *do*: *Can you come?*" },
+        { "id": "c", "label": "I don't think you should buy it.", "correct": true, "feedback": "Correcta: el inglés prefiere negar *think*." },
+        { "id": "d", "label": "He musts to leave.", "correct": false, "feedback": "Todavía no: sin -s y sin *to*: *He must leave*." }
+      ]
+    }
+  ]
+}

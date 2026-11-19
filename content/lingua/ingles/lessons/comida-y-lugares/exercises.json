@@ -1,0 +1,261 @@
+{
+  "lesson": "comida-y-lugares",
+  "exercises": [
+    {
+      "id": "there-are-two-banks",
+      "type": "choice",
+      "prompt": "Completa: **There ____ two banks in my street.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "«Hay» cambia en inglés según lo que viene después.",
+        "*Two banks* es plural."
+      ],
+      "solution": "**are** → *There are two banks in my street.* Con plural, *there are*; con singular, *there is* (*There's a bank*).",
+      "options": [
+        { "id": "a", "label": "is", "correct": false, "feedback": "Todavía no: *is* es para singular. *Two banks* es plural: *there are*." },
+        { "id": "b", "label": "are", "correct": true, "feedback": "¡Bien! Plural: *there are*." },
+        { "id": "c", "label": "have", "correct": false, "feedback": "Todavía no: «hay» no se traduce con *have*, sino con *there is / there are*." }
+      ]
+    },
+    {
+      "id": "hay-una-farmacia",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Hay una farmacia cerca de aquí.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Singular: *There is* o *There's*.",
+        "«Cerca de aquí» = *near here*."
+      ],
+      "solution": "**There's a pharmacy near here** (o *There is a pharmacy near here*). En el Reino Unido también *a chemist's*; en EE. UU., *a drugstore*. *Near* no lleva *of*.",
+      "answers": [
+        "There's a pharmacy near here",
+        "There is a pharmacy near here",
+        "There's a chemist's near here",
+        "There is a chemist's near here",
+        "There's a chemist near here",
+        "There is a chemist near here",
+        "There's a drugstore near here",
+        "There is a drugstore near here",
+        "There's a pharmacy nearby",
+        "There is a pharmacy nearby",
+        "There's a pharmacy close to here",
+        "There is a pharmacy close to here"
+      ],
+      "feedback": [
+        { "match": "There's a pharmacy near of here", "message": "Casi: *near* no lleva *of*: *near here*." },
+        { "match": "There are a pharmacy near here", "message": "Casi: con singular, *there is*: *There's a pharmacy near here*." },
+        { "match": "Has a pharmacy near here", "message": "Casi: «hay» se dice *there is*: *There's a pharmacy near here*." },
+        { "match": "Is a pharmacy near here", "message": "Casi: falta *there*: *There's a pharmacy near here*." }
+      ]
+    },
+    {
+      "id": "hay-huevos",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Estás en la cocina de un amigo. Pregunta: **¿Hay huevos?**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Plural y pregunta: *Are there…?*",
+        "En preguntas, lo natural es añadir *any*."
+      ],
+      "solution": "**Are there any eggs?** Es plural, así que *are there*; en las preguntas se suele añadir *any*. *Are there eggs?* también es correcto, aunque menos frecuente. Si tu amigo tiene huevos: *Yes, there are.*",
+      "answers": ["Are there any eggs", "Are there eggs", "Have you got any eggs", "Do you have any eggs"],
+      "feedback": [
+        { "match": "Is there any eggs", "message": "Casi: *eggs* es plural: *Are there any eggs?*" },
+        { "match": "There are any eggs", "message": "Casi: para preguntar se invierte el orden: *Are there any eggs?*" },
+        { "match": "Are there some eggs", "message": "Casi: en preguntas normales se usa *any*: *Are there any eggs?*" }
+      ]
+    },
+    {
+      "id": "incontable",
+      "type": "choice",
+      "prompt": "¿Cuál de estas palabras es **incontable** en inglés (no lleva *a/an* ni plural)?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "En español es contable («un consejo», «dos consejos»), pero en inglés no.",
+        "Para contarla hace falta *a piece of…*"
+      ],
+      "solution": "**advice** (consejo, consejos). En inglés es incontable: *some advice*, *a piece of advice*, nunca *an advice* ni *advices*. *Egg*, *apple* y *bank* son contables: *an egg, two eggs*.",
+      "options": [
+        { "id": "a", "label": "egg", "correct": false, "feedback": "Todavía no: *egg* es contable: *an egg*, *three eggs*." },
+        { "id": "b", "label": "advice", "correct": true, "feedback": "¡Exacto! *Advice* es incontable: *some advice*, *a piece of advice*." },
+        { "id": "c", "label": "apple", "correct": false, "feedback": "Todavía no: *apple* es contable: *an apple*, *two apples*." },
+        { "id": "d", "label": "bank", "correct": false, "feedback": "Todavía no: *bank* es contable: *a bank*, *two banks*." }
+      ]
+    },
+    {
+      "id": "isnt-any-milk",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa: **Sorry, there isn't ____ milk.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "La frase es negativa.",
+        "*Some* en afirmativas; en negativas…"
+      ],
+      "solution": "**any** → *Sorry, there isn't any milk.* En las negativas se usa *any*. *Milk* es incontable, así que no lleva *a*.",
+      "answers": ["any"],
+      "feedback": [
+        { "match": "some", "message": "Casi: *some* va en afirmativas. En negativas, *any*." },
+        { "match": "a", "message": "Todavía no: *milk* es incontable y no lleva *a*. En negativa, *any*." }
+      ]
+    },
+    {
+      "id": "me-gusta-cocinar",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Traduce: **Me gusta cocinar.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "La persona es el sujeto: *I like…*",
+        "Después de *like*, el verbo con *-ing* (o con *to*)."
+      ],
+      "solution": "**I like cooking** (o *I like to cook*, más frecuente en EE. UU.). El sujeto es *I*, no «cocinar». Y el verbo que va detrás de *like* toma *-ing*.",
+      "answers": ["I like cooking", "I like to cook"],
+      "feedback": [
+        { "match": "Cooking likes me", "message": "Todavía no: en inglés la persona es el sujeto: *I like cooking*." },
+        { "match": "I like cook", "message": "Casi: detrás de *like*, el verbo con *-ing*: *I like cooking*." },
+        { "match": "I like cooked", "message": "Casi: detrás de *like*, el verbo con *-ing*: *I like cooking*." },
+        { "match": "Me like cooking", "message": "Casi: el sujeto es *I*, no *me*: *I like cooking*." }
+      ]
+    },
+    {
+      "id": "me-gustan-los-perros",
+      "type": "choice",
+      "prompt": "¿Cómo se dice **«Me gustan los perros»** (en general)?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "¿Quién es el sujeto en inglés: tú o los perros?",
+        "Para hablar en general no se pone artículo."
+      ],
+      "solution": "**I like dogs.** La persona es el sujeto y, como hablas de los perros en general, va sin *the*. *Dogs like me* significa «les gusto a los perros», y *I like the dogs* se refiere a unos perros concretos.",
+      "options": [
+        { "id": "a", "label": "Dogs like me.", "correct": false, "feedback": "Todavía no: eso significa «les gusto a los perros». En inglés la persona es el sujeto." },
+        { "id": "b", "label": "I like the dogs.", "correct": false, "feedback": "Casi: con *the* hablas de unos perros concretos. En general, sin artículo: *I like dogs*." },
+        { "id": "c", "label": "I like dogs.", "correct": true, "feedback": "¡Perfecto! Sujeto la persona, y sin artículo para lo general." },
+        { "id": "d", "label": "Me like dogs.", "correct": false, "feedback": "Todavía no: el pronombre sujeto es *I*." }
+      ]
+    },
+    {
+      "id": "pedir-un-cafe",
+      "type": "text",
+      "lang": "en",
+      "prompt": "En un café de Londres, pide **un café** con cortesía.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Puedes empezar con *Can I have…?* o con *I'd like…*",
+        "Termina con *please*."
+      ],
+      "solution": "**Can I have a coffee, please?** También: *Could I have a coffee, please?* (algo más formal) o *I'd like a coffee, please.* Un *A coffee, please* también funciona. Lo que suena exigente es *I want a coffee*.",
+      "answers": [
+        "Can I have a coffee",
+        "Can I have a coffee please",
+        "Can I have a coffee, please",
+        "Could I have a coffee",
+        "Could I have a coffee please",
+        "Could I have a coffee, please",
+        "May I have a coffee",
+        "May I have a coffee please",
+        "May I have a coffee, please",
+        "I'd like a coffee",
+        "I'd like a coffee please",
+        "I'd like a coffee, please",
+        "I would like a coffee",
+        "I would like a coffee please",
+        "I would like a coffee, please",
+        "A coffee please",
+        "A coffee, please"
+      ],
+      "feedback": [
+        { "match": "I want a coffee", "message": "Casi: se entiende, pero suena exigente. Mejor *Can I have a coffee, please?* o *I'd like a coffee, please.*" },
+        { "match": "I want a coffee, please", "message": "Casi: *I want* suena demasiado directo, incluso con *please*. Mejor *I'd like a coffee, please.*" },
+        { "match": "I like a coffee", "message": "Casi: *I like* es «me gusta». Para pedir, *I'd like* (= *I would like*): *I'd like a coffee, please.*" },
+        { "match": "Give me a coffee", "message": "Casi: en inglés suena brusco. Prueba con *Can I have a coffee, please?*" }
+      ]
+    },
+    {
+      "id": "enfrente-del-banco",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "La farmacia está **enfrente del banco**, al otro lado de la calle. Marca **todas** las formas correctas de decirlo.",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*In front of* es un falso amigo.",
+        "Hay una forma británica y otra estadounidense."
+      ],
+      "solution": "Son correctas **The pharmacy is opposite the bank.** (británico y general) y **The pharmacy is across from the bank.** (estadounidense). *In front of* significa «delante de», no «enfrente de», y *next to* es «al lado de».",
+      "options": [
+        { "id": "a", "label": "The pharmacy is opposite the bank.", "correct": true, "feedback": "Correcta: *opposite* = enfrente de." },
+        { "id": "b", "label": "The pharmacy is in front of the bank.", "correct": false, "feedback": "Todavía no: *in front of* es «delante de». Es un falso amigo." },
+        { "id": "c", "label": "The pharmacy is across from the bank.", "correct": true, "feedback": "Correcta: *across from* es la forma estadounidense." },
+        { "id": "d", "label": "The pharmacy is next to the bank.", "correct": false, "feedback": "Todavía no: *next to* es «al lado de»." }
+      ]
+    },
+    {
+      "id": "gira-a-la-izquierda",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Das indicaciones a un turista. Traduce: **Gira a la izquierda.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "El imperativo es el verbo tal cual, sin sujeto.",
+        "«Girar» = *turn*; «izquierda» = *left*."
+      ],
+      "solution": "**Turn left.** El imperativo inglés es el verbo sin sujeto ni terminación. No hace falta «a la»: se dice *turn left*, *turn right*.",
+      "answers": ["Turn left", "Turn to the left", "Go left"],
+      "feedback": [
+        { "match": "You turn left", "message": "Casi: para dar una indicación, el imperativo va sin sujeto: *Turn left*." },
+        { "match": "Turn at the left", "message": "Casi: se dice simplemente *Turn left*." },
+        { "match": "Turn right", "message": "Todavía no: *right* es «derecha». «Izquierda» es *left*." }
+      ]
+    },
+    {
+      "id": "loves-swimming",
+      "type": "text",
+      "lang": "en",
+      "prompt": "Completa con la forma *-ing* de *swim*: **My daughter loves ________.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Swim* termina en una vocal + una consonante.",
+        "En ese caso, la consonante se dobla."
+      ],
+      "solution": "**swimming**. *Swim* termina en vocal + consonante en una sílaba fuerte, así que la *m* se dobla: *swimming*. Igual: *run → running*, *get → getting*.",
+      "answers": ["swimming"],
+      "feedback": [
+        { "match": "swiming", "message": "Casi: la *m* se dobla: *swimming*." },
+        { "match": "swim", "message": "Casi: detrás de *love*, el verbo con *-ing*: *swimming*." },
+        { "match": "to swiming", "message": "Casi: o *to swim* o *swimming* (con dos emes)." }
+      ]
+    },
+    {
+      "id": "trozo-de-pastel",
+      "type": "choice",
+      "prompt": "Quieres pedir **un trozo de pastel**. ¿Qué dices?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "Aquí *cake* se trata como una masa: un pastel entero que se reparte.",
+        "Para una porción de algo incontable se usa *a piece of…*"
+      ],
+      "solution": "**Can I have a piece of cake, please?** Para una porción de algo que se trata como masa se usa *a piece of* (o *a slice of*). *A cake* sería un pastel entero, y *some cakes*, varios pastelitos.",
+      "options": [
+        { "id": "a", "label": "Can I have a cake, please?", "correct": false, "feedback": "Casi: *a cake* es un pastel entero. Para un trozo, *a piece of cake*." },
+        { "id": "b", "label": "Can I have a piece of cake, please?", "correct": true, "feedback": "¡Muy bien! *A piece of cake*: un trozo." },
+        { "id": "c", "label": "Can I have a cakes piece, please?", "correct": false, "feedback": "Todavía no: el orden es *a piece of cake*." },
+        { "id": "d", "label": "Can I have any cake piece, please?", "correct": false, "feedback": "Todavía no: se dice *a piece of cake*." }
+      ]
+    }
+  ]
+}

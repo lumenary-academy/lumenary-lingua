@@ -1,0 +1,289 @@
+{
+  "lesson": "falsos-amigos",
+  "exercises": [
+    {
+      "id": "falsos-actually",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "*Everyone thinks Kofi is from Ghana, but actually he's from Togo.* ¿Qué significa *actually* aquí?",
+      "options": [
+        { "id": "a", "label": "en realidad", "correct": true, "feedback": "¡Eso es! *Actually* corrige una idea anterior: «pero en realidad es de Togo»." },
+        { "id": "b", "label": "actualmente", "correct": false, "feedback": "Todavía no: es el falso amigo clásico. «Actualmente» se dice *currently* o *nowadays*." },
+        { "id": "c", "label": "afortunadamente", "correct": false, "feedback": "Todavía no: «afortunadamente» es *fortunately* o *luckily*." },
+        { "id": "d", "label": "eventualmente", "correct": false, "feedback": "Todavía no: no tiene nada que ver con la posibilidad." }
+      ],
+      "hints": [
+        "La oración contrasta lo que todos piensan con la verdad.",
+        "*Actually* sirve para corregir."
+      ],
+      "solution": "*Actually* significa **en realidad, de hecho**, y aquí corrige la creencia general. Para «actualmente», el inglés usa *currently*, *at the moment* o *nowadays*."
+    },
+    {
+      "id": "falsos-embarrassed",
+      "type": "choice",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "*I was so embarrassed when I called my teacher «Mum» in front of the whole class.* ¿Cómo se sentía?",
+      "options": [
+        { "id": "a", "label": "Avergonzado, con mucha vergüenza.", "correct": true, "feedback": "¡Muy bien! *Embarrassed* es «avergonzado», justo lo que sientes tras un momento así." },
+        { "id": "b", "label": "Embarazada.", "correct": false, "feedback": "Todavía no: es el falso amigo más famoso. «Embarazada» se dice *pregnant*." },
+        { "id": "c", "label": "Enojado.", "correct": false, "feedback": "Todavía no: «enojado» o «enfadado» es *angry* o *annoyed*." },
+        { "id": "d", "label": "Confundido.", "correct": false, "feedback": "Casi: quizá también estaba confundido, pero *embarrassed* nombra la vergüenza." }
+      ],
+      "hints": [
+        "Piensa en cómo te sentirías tú en esa situación.",
+        "No tiene nada que ver con un bebé."
+      ],
+      "solution": "*Embarrassed* significa **avergonzado**. «Embarazada» es *pregnant*. Recuerda también *embarrassing* (vergonzoso, que da vergüenza): *an embarrassing moment*."
+    },
+    {
+      "id": "falsos-currently-lima",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés:\n\n*Actualmente vivo en Lima.*",
+      "answers": [
+        "I currently live in Lima",
+        "Currently I live in Lima",
+        "Currently, I live in Lima",
+        "I'm currently living in Lima",
+        "I am currently living in Lima",
+        "At the moment I live in Lima",
+        "At the moment, I live in Lima",
+        "At the moment I'm living in Lima",
+        "At the moment, I'm living in Lima",
+        "Nowadays I live in Lima",
+        "Nowadays, I live in Lima",
+        "These days I live in Lima",
+        "These days, I live in Lima",
+        "I live in Lima at the moment",
+        "I live in Lima now",
+        "I'm living in Lima at the moment",
+        "I'm living in Lima now",
+        "Right now I live in Lima",
+        "Right now, I live in Lima"
+      ],
+      "feedback": [
+        { "match": "Actually I live in Lima", "message": "Casi: *actually* significa «en realidad». Para «actualmente», usa *currently*, *at the moment* o *nowadays*." },
+        { "match": "Actually, I live in Lima", "message": "Casi: *actually* significa «en realidad». Para «actualmente», usa *currently*, *at the moment* o *nowadays*." }
+      ],
+      "hints": [
+        "«Actualmente» no es *actually*.",
+        "Prueba con *currently*, *at the moment* o *nowadays*."
+      ],
+      "solution": "**I currently live in Lima** (o *At the moment I'm living in Lima*, *Nowadays I live in Lima*). *Actually I live in Lima* significaría «en realidad vivo en Lima», como si corrigieras a alguien."
+    },
+    {
+      "id": "falsos-people-are",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Corrige el error y escribe la oración completa:\n\n*The people is very friendly in this town.*",
+      "answers": [
+        "People are very friendly in this town",
+        "The people are very friendly in this town",
+        "People in this town are very friendly",
+        "The people in this town are very friendly"
+      ],
+      "feedback": [
+        { "match": "People is very friendly in this town", "message": "Casi: has quitado el artículo, pero *people* es plural: *People are…*" },
+        { "match": "The peoples are very friendly in this town", "message": "Casi: *peoples* significa «pueblos, naciones». Para «la gente», *people* sin -s." }
+      ],
+      "hints": [
+        "*People* es el plural de *person*.",
+        "¿Concuerda con *is* o con *are*?"
+      ],
+      "solution": "*People* es plural, así que el verbo es *are*: **People are very friendly in this town.** Como se habla de la gente de un lugar concreto, *The people in this town are…* también es correcto; pero si hablas de la gente en general, sin artículo: *People are strange.*"
+    },
+    {
+      "id": "falsos-explain-to-me",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Corrige el calco y escribe la oración completa:\n\n*Can you explain me the problem?*",
+      "answers": [
+        "Can you explain the problem to me",
+        "Could you explain the problem to me",
+        "Can you explain to me the problem",
+        "Could you explain to me the problem",
+        "Can you explain to me what the problem is",
+        "Could you explain to me what the problem is",
+        "Can you explain what the problem is",
+        "Could you explain what the problem is"
+      ],
+      "feedback": [
+        { "match": "Can you explain me what the problem is", "message": "Casi: sigue faltando *to*. *Explain* no admite la persona sin preposición: *explain to me*." }
+      ],
+      "hints": [
+        "*Explain* no funciona como *give* o *tell*.",
+        "La persona necesita la preposición *to*."
+      ],
+      "solution": "*Explain* no admite el objeto indirecto sin preposición: **Can you explain the problem to me?** (o *explain to me what the problem is*). Lo mismo con *describe* y *suggest*: *describe it to me*, *suggest it to her*."
+    },
+    {
+      "id": "falsos-life-is-short",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés:\n\n*La vida es corta.*",
+      "answers": ["Life is short", "Life's short"],
+      "feedback": [
+        { "match": "The life is short", "message": "Casi: cuando hablas de la vida en general, el inglés no usa artículo: *Life is short*." }
+      ],
+      "hints": [
+        "Hablas de la vida en general, no de una vida concreta.",
+        "Sustantivo general en inglés → sin artículo."
+      ],
+      "solution": "Con sustantivos usados en sentido general, el inglés no pone artículo: **Life is short.** Igual: *Music is universal*, *Nature is fragile*, *Children need sleep*. Solo con un referente concreto aparece *the*: *The life of a sailor is hard.*"
+    },
+    {
+      "id": "falsos-sensible",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "*Taking an umbrella was a sensible idea.* ¿Qué significa *sensible*?",
+      "options": [
+        { "id": "a", "label": "sensata", "correct": true, "feedback": "¡Exacto! *Sensible* significa sensato, prudente." },
+        { "id": "b", "label": "sensible, emotiva", "correct": false, "feedback": "Todavía no: es el falso amigo. «Sensible» (emotivo, delicado) es *sensitive*." },
+        { "id": "c", "label": "perceptible", "correct": false, "feedback": "Casi: en un registro muy culto, *sensible* puede significar «perceptible por los sentidos», pero en el uso corriente significa «sensato»." },
+        { "id": "d", "label": "sentimental", "correct": false, "feedback": "Todavía no: «sentimental» es *sentimental*." }
+      ],
+      "hints": [
+        "Llevar paraguas cuando puede llover es una decisión…",
+        "«Sensible» en español se dice *sensitive*."
+      ],
+      "solution": "*Sensible* significa **sensato**: llevar paraguas fue una idea sensata. Para el «sensible» español usa *sensitive*: *sensitive skin*, *a sensitive person*, *a sensitive issue*."
+    },
+    {
+      "id": "falsos-cold",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Llamas a tu oficina en Londres para avisar de que estás resfriado y no irás. ¿Qué dices?",
+      "options": [
+        { "id": "a", "label": "I've got a cold, so I won't be in today.", "correct": true, "feedback": "¡Muy bien! «Estar resfriado / constipado» es *have (got) a cold*." },
+        { "id": "b", "label": "I'm constipated, so I won't be in today.", "correct": false, "feedback": "Cuidado: *constipated* significa «estreñido». Tu jefa lo entendería, pero quizá no era lo que querías contar." },
+        { "id": "c", "label": "I'm cold, so I won't be in today.", "correct": false, "feedback": "Casi: *I'm cold* significa «tengo frío», no «estoy resfriado»." },
+        { "id": "d", "label": "I'm refreshed, so I won't be in today.", "correct": false, "feedback": "Todavía no: *refreshed* significa «renovado, descansado», justo lo contrario." }
+      ],
+      "hints": [
+        "Hay un falso amigo muy peligroso entre las opciones.",
+        "En inglés, un resfriado es *a cold*."
+      ],
+      "solution": "«Estoy resfriado / constipado» se dice **I've got a cold** (o *I have a cold*). *Constipated* significa «estreñido», e *I'm cold* significa «tengo frío»."
+    },
+    {
+      "id": "falsos-attended",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Traduce al inglés:\n\n*Ayer asistí a una conferencia sobre energía solar.*",
+      "answers": [
+        "Yesterday I attended a lecture on solar energy",
+        "Yesterday, I attended a lecture on solar energy",
+        "I attended a lecture on solar energy yesterday",
+        "Yesterday I attended a talk on solar energy",
+        "Yesterday, I attended a talk on solar energy",
+        "I attended a talk on solar energy yesterday",
+        "Yesterday I attended a lecture about solar energy",
+        "Yesterday, I attended a lecture about solar energy",
+        "I attended a lecture about solar energy yesterday",
+        "Yesterday I attended a talk about solar energy",
+        "I attended a talk about solar energy yesterday",
+        "Yesterday I went to a lecture on solar energy",
+        "Yesterday, I went to a lecture on solar energy",
+        "I went to a lecture on solar energy yesterday",
+        "Yesterday I went to a talk on solar energy",
+        "I went to a talk on solar energy yesterday",
+        "Yesterday I went to a lecture about solar energy",
+        "I went to a lecture about solar energy yesterday",
+        "Yesterday I went to a talk about solar energy",
+        "I went to a talk about solar energy yesterday",
+        "Yesterday I attended a conference on solar energy",
+        "I attended a conference on solar energy yesterday",
+        "Yesterday I went to a conference on solar energy",
+        "I went to a conference on solar energy yesterday"
+      ],
+      "feedback": [
+        { "match": "Yesterday I assisted to a lecture on solar energy", "message": "Casi: *assist* significa «ayudar». «Asistir a» es *attend* (sin preposición) o *go to*." },
+        { "match": "Yesterday I assisted a lecture on solar energy", "message": "Casi: *assist* significa «ayudar». «Asistir a» es *attend* o *go to*." },
+        { "match": "Yesterday I attended to a lecture on solar energy", "message": "Casi: *attend* lleva objeto directo, sin *to*: *attended a lecture*. (*Attend to* significa «ocuparse de»)." }
+      ],
+      "hints": [
+        "«Asistir» no es *assist*.",
+        "*Attend* + lugar o evento, sin preposición."
+      ],
+      "solution": "«Asistir a» es **attend** (sin preposición) o *go to*: **Yesterday I attended a lecture on solar energy.** *Assist* significa «ayudar», y *attend to* significa «ocuparse de» (*attend to a customer*). Para «conferencia» valen *lecture* o *talk* (una charla) y *conference* (un congreso)."
+    },
+    {
+      "id": "falsos-eventually",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "*The negotiations were long and difficult, but eventually they reached an agreement.* ¿Qué significa *eventually*?",
+      "options": [
+        { "id": "a", "label": "al final, finalmente", "correct": true, "feedback": "¡Eso es! *Eventually* indica que algo ocurrió después de un tiempo o un esfuerzo." },
+        { "id": "b", "label": "eventualmente, quizá", "correct": false, "feedback": "Todavía no: es el falso amigo. *Eventually* no expresa posibilidad, sino un resultado final." },
+        { "id": "c", "label": "ocasionalmente", "correct": false, "feedback": "Todavía no: «ocasionalmente» es *occasionally* o *from time to time*." },
+        { "id": "d", "label": "inmediatamente", "correct": false, "feedback": "Todavía no: es casi lo contrario. *Long and difficult* indica que tardaron." }
+      ],
+      "hints": [
+        "Las negociaciones fueron largas y difíciles…",
+        "¿Llegaron al acuerdo o quizá lleguen algún día?"
+      ],
+      "solution": "*Eventually* significa **al final, finalmente**, tras un proceso largo: llegaron a un acuerdo después de mucho esfuerzo. «Eventualmente» (posiblemente, llegado el caso) se dice *possibly* o *if necessary*."
+    },
+    {
+      "id": "falsos-age",
+      "type": "text",
+      "lang": "en",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "prompt": "Traduce al inglés:\n\n*Tengo treinta años.*",
+      "answers": [
+        "I'm thirty",
+        "I am thirty",
+        "I'm 30",
+        "I am 30",
+        "I'm thirty years old",
+        "I am thirty years old",
+        "I'm 30 years old",
+        "I am 30 years old"
+      ],
+      "feedback": [
+        { "match": "I have thirty years", "message": "Casi: es un calco del español. En inglés la edad se expresa con *be*: *I'm thirty*." },
+        { "match": "I have 30 years", "message": "Casi: es un calco del español. En inglés la edad se expresa con *be*: *I'm 30*." },
+        { "match": "I'm thirty years", "message": "Casi: si añades *years*, añade también *old*: *I'm thirty years old*. O simplemente *I'm thirty*." }
+      ],
+      "hints": [
+        "En inglés no se «tiene» edad.",
+        "Usa el verbo *be*."
+      ],
+      "solution": "La edad se expresa con *be*: **I'm thirty** (o *I'm thirty years old*). *I have thirty years* es un calco que delata enseguida al hispanohablante. Ojo: ✗ *I'm thirty years* sin *old* no es correcto."
+    },
+    {
+      "id": "falsos-library",
+      "type": "choice",
+      "difficulty": "core",
+      "mode": "H",
+      "prompt": "Quieres comprar una novela en una tienda de Dublín. ¿Adónde vas?",
+      "options": [
+        { "id": "a", "label": "to a bookshop", "correct": true, "feedback": "¡Muy bien! Una librería es *a bookshop* (en Reino Unido e Irlanda) o *a bookstore* (en EE. UU.)." },
+        { "id": "b", "label": "to a library", "correct": false, "feedback": "Casi: en una *library* puedes tomar prestada la novela, pero no comprarla. *Library* es «biblioteca»." },
+        { "id": "c", "label": "to a stationer's", "correct": false, "feedback": "Todavía no: *a stationer's* es una papelería." },
+        { "id": "d", "label": "to a publisher", "correct": false, "feedback": "Todavía no: *a publisher* es una editorial, la empresa que publica los libros." }
+      ],
+      "hints": [
+        "*Library* es un falso amigo.",
+        "La palabra que buscas combina *book* + «tienda»."
+      ],
+      "solution": "*Library* es «biblioteca». Para comprar libros vas **to a bookshop** (británico e irlandés) o *to a bookstore* (estadounidense)."
+    }
+  ]
+}

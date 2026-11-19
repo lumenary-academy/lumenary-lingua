@@ -1,0 +1,200 @@
+{
+  "lesson": "argument-and-connectors",
+  "exercises": [
+    {
+      "id": "contrast-connector",
+      "type": "choice",
+      "prompt": "Choose the connector that best completes this sentence from a formal report:\n\n*El proyecto es viable desde el punto de vista técnico; ______ su coste supera el presupuesto disponible.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "no obstante,", "correct": true, "feedback": "Yes — *no obstante* introduces a contrast, sits naturally after a semicolon and suits the register of a report." },
+        { "id": "b", "label": "por ende,", "correct": false, "feedback": "Not yet — *por ende* introduces a consequence. A cost that exceeds the budget does not follow from technical viability; it goes against the expectation viability creates." },
+        { "id": "c", "label": "dado que", "correct": false, "feedback": "Not yet — *dado que* introduces a cause. Here the second idea contradicts the first." },
+        { "id": "d", "label": "siempre y cuando", "correct": false, "feedback": "Not yet — *siempre y cuando* sets a condition and would need the subjunctive (*supere*). The sentence states a fact that contrasts with the first clause." }
+      ],
+      "hints": [
+        "Does the second idea follow from the first, contradict it, or set a condition?",
+        "It contradicts the expectation: technically viable, but too expensive. Which option is a connector of contrast?"
+      ],
+      "solution": "**no obstante.** The first clause raises an expectation (the project could go ahead) and the second blocks it, so we need contrast. Only *no obstante* is adversative here; *sin embargo* would also work. *Por ende* is consequence, *dado que* cause, *siempre y cuando* condition. Note the punctuation: semicolon before the connector, comma after it."
+    },
+    {
+      "id": "siempre-y-cuando-mood",
+      "type": "text",
+      "prompt": "Complete with the correct form of **decir** (the speaker addresses a friend as *tú*):\n\n*Te ayudo con la mudanza siempre y cuando me ______ la verdad sobre lo que pasó.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["digas"],
+      "feedback": [
+        { "match": "dices", "message": "Not yet — *siempre y cuando* introduces a condition that has not been met yet, so it always takes the subjunctive." },
+        { "match": "dijeras", "message": "Close — that is a subjunctive, but the main verb (*ayudo*) is in the present, so the present subjunctive fits." }
+      ],
+      "hints": [
+        "*Siempre y cuando* means 'provided that'. Has the condition already been fulfilled?",
+        "Open conditions take the subjunctive. Present subjunctive of *decir*, *tú* form: dig…"
+      ],
+      "solution": "**digas.** *Siempre y cuando* always takes the subjunctive, because the condition is still open. The main verb is present, so the present subjunctive follows: *diga, digas, diga, digamos, digáis, digan*."
+    },
+    {
+      "id": "si-bien-mood",
+      "type": "text",
+      "prompt": "Complete with the correct form of **ser**:\n\n*Si bien la propuesta ______ interesante, llega demasiado tarde para el presupuesto de este año.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["es"],
+      "feedback": [
+        { "match": "sea", "message": "Not yet — *si bien* concedes something the writer accepts as true, so it takes the indicative, never the subjunctive." },
+        { "match": "fuera", "message": "Not yet — *si bien* takes the indicative, and the context is the present, not a hypothesis." }
+      ],
+      "hints": [
+        "Does *si bien* present the idea as a fact the writer admits, or as a hypothesis?",
+        "*Si bien* = 'while it is true that'. Facts admitted as true go in the indicative."
+      ],
+      "solution": "**es.** *Si bien* concedes a fact (the proposal *is* interesting) before the main point, so it always takes the indicative. For a hypothesis you would need *aunque* or *aun cuando* + subjunctive: *Aunque la propuesta sea interesante…*"
+    },
+    {
+      "id": "por-muy-que",
+      "type": "text",
+      "prompt": "Complete with the correct form of **estar** (addressing a colleague as *tú*):\n\n*Por muy cansada que ______, tienes que terminar el informe antes de las seis.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["estés"],
+      "feedback": [
+        { "match": "estás", "message": "Not yet — with *por muy* + adjective + *que*, Spanish uses the subjunctive: the tiredness is granted but treated as beside the point." },
+        { "match": "estuvieras", "message": "Close — the subjunctive is right, but the main clause is present (*tienes que*), so the present subjunctive fits." }
+      ],
+      "hints": [
+        "*Por muy* + adjective + *que* means 'no matter how…'.",
+        "It takes the subjunctive. Present subjunctive of *estar*, *tú* form — with its accent."
+      ],
+      "solution": "**estés.** *Por muy* + adjective + *que* (no matter how tired you are) takes the subjunctive: the speaker acknowledges the tiredness but sets it aside. *Estar* in the present subjunctive: *esté, estés, esté, estemos, estéis, estén* — the accent is part of the word."
+    },
+    {
+      "id": "por-mucho-que-meaning",
+      "type": "choice",
+      "prompt": "What does the indicative tell you in this sentence?\n\n*Por mucho que **estudia**, no aprueba.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "He really does study a lot, and he still fails.", "correct": true, "feedback": "Yes — with the indicative, *por mucho que* asserts the fact: he does study a lot. The surprise is that it doesn't help." },
+        { "id": "b", "label": "However much he may study (we don't know whether he does), he won't pass.", "correct": false, "feedback": "Not yet — that open, hypothetical reading needs the subjunctive: *Por mucho que estudie, no aprobará.*" },
+        { "id": "c", "label": "He studies a lot because he fails.", "correct": false, "feedback": "Not yet — *por mucho que* is concessive, not causal." },
+        { "id": "d", "label": "He will pass if he studies a lot.", "correct": false, "feedback": "Not yet — this reverses the meaning: *por mucho que* says the effort does *not* bring the result." }
+      ],
+      "hints": [
+        "In concessive clauses, the indicative asserts; the subjunctive leaves open or sets aside.",
+        "Compare *Por mucho que estudie, no aprobará*, which is hypothetical."
+      ],
+      "solution": "With the indicative, *por mucho que* presents the concession as a real fact: he *does* study a lot, and in spite of that he fails. With the subjunctive — *Por mucho que estudie, no aprobará* — the speaker does not assert that he studies; it means 'however much he may study'."
+    },
+    {
+      "id": "formal-consequence",
+      "type": "choice",
+      "multiple": true,
+      "prompt": "Which connectors could replace *así que* in a formal academic essay? Select all that apply.\n\n*Los datos son incompletos, así que las conclusiones deben tomarse con cautela.*",
+      "difficulty": "core",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "por consiguiente", "correct": true, "feedback": "Yes — a formal connector of consequence: *Los datos son incompletos; por consiguiente, las conclusiones…*" },
+        { "id": "b", "label": "así pues", "correct": true, "feedback": "Yes — *así pues* draws a conclusion in formal prose." },
+        { "id": "c", "label": "por ende", "correct": true, "feedback": "Yes — very formal, and perfectly at home in an academic essay." },
+        { "id": "d", "label": "o sea que", "correct": false, "feedback": "Not yet — *o sea que* does mark a consequence, but it is colloquial; it belongs in conversation." },
+        { "id": "e", "label": "no obstante", "correct": false, "feedback": "Not yet — *no obstante* introduces a contrast, not a consequence." }
+      ],
+      "hints": [
+        "Check two things: is it a connector of consequence, and is it formal?",
+        "*No obstante* fails the first test; *o sea que* fails the second."
+      ],
+      "solution": "**por consiguiente, así pues, por ende.** All three introduce a consequence in a formal register. The punctuation changes with them: *Los datos son incompletos; por consiguiente, las conclusiones deben tomarse con cautela.* *O sea que* is a colloquial marker of consequence, and *no obstante* is adversative."
+    },
+    {
+      "id": "de-ahi-que",
+      "type": "text",
+      "prompt": "Complete with the three-word connector meaning 'hence, which is why' that is followed by the subjunctive:\n\n*Llovió toda la noche; ______ el partido se suspendiera.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["de ahí que"],
+      "feedback": [
+        { "match": "por eso", "message": "Not yet — *por eso* means the same thing, but it takes the indicative (*por eso se suspendió*). Here the verb is subjunctive, so you need the three-word connector." },
+        { "match": "por lo tanto", "message": "Not yet — *por lo tanto* is followed by the indicative (*por lo tanto, se suspendió*). The subjunctive *suspendiera* calls for a different connector." }
+      ],
+      "hints": [
+        "The connector starts with *de* and contains an adverb of place.",
+        "*de … que*, with the adverb meaning 'there'."
+      ],
+      "solution": "**de ahí que.** It introduces a consequence that the reader can see for themselves, and Spanish puts that consequence in the subjunctive: *de ahí que el partido se suspendiera*. With *por eso* or *por lo tanto* the verb would be indicative: *por eso se suspendió el partido*."
+    },
+    {
+      "id": "provided-that",
+      "type": "text",
+      "prompt": "Give the Spanish for the connector in bold — just the connector.\n\n*You can borrow the car **provided that** you bring it back with a full tank.*\n\n*Puedes usar el coche ______ lo devuelvas con el depósito lleno.*",
+      "difficulty": "core",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["siempre y cuando", "siempre que", "con tal de que", "con tal que", "a condición de que"],
+      "hints": [
+        "The verb that follows (*devuelvas*) is subjunctive: you need a conditional conjunction.",
+        "One option pairs *siempre* with another word; another uses *tal*."
+      ],
+      "solution": "**siempre y cuando** — also accepted: *siempre que*, *con tal de que*, *con tal que*, *a condición de que*. All introduce a condition and take the subjunctive. *Siempre y cuando* is the unambiguous choice: *siempre que* + indicative would mean 'whenever'."
+    },
+    {
+      "id": "even-so",
+      "type": "text",
+      "prompt": "Give a short Spanish connector meaning **even so**:\n\n*Sabía que era arriesgado. ______, decidió intentarlo.*",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "lang": "es",
+      "answers": ["aun así", "con todo", "así y todo"],
+      "feedback": [
+        { "match": "sin embargo", "message": "That works as 'however', and it would be acceptable here — but the exercise asks for the connector that means 'even so'. Try a two-word phrase built on the word for 'even'." }
+      ],
+      "hints": [
+        "Combine a word meaning 'even' with a word meaning 'so, thus'.",
+        "*aun* (= *incluso*) + *así*. Does *aun* need an accent when it means 'even'?"
+      ],
+      "solution": "**aun así** (also *con todo*, more formal, or *así y todo*). Mind the accent rule: *aun* without an accent means *incluso* (even); *aún* with an accent means *todavía* (still, yet). 'Even so' is *aun así*, without an accent on *aun*."
+    },
+    {
+      "id": "objection-move",
+      "type": "choice",
+      "prompt": "You are writing an essay in favour of a four-day working week. Which sentence best opens the paragraph that **anticipates an objection**?",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Podría objetarse que muchas empresas pequeñas no pueden reducir horas sin reducir sueldos.", "correct": true, "feedback": "Yes — it states the strongest objection fairly, with the classic formula *Podría objetarse que…*, ready to be answered with *Ahora bien,…*" },
+        { "id": "b", "label": "En definitiva, la semana de cuatro días es el futuro.", "correct": false, "feedback": "Not yet — *en definitiva* introduces a conclusion, and the sentence asserts your thesis rather than anticipating the other side." },
+        { "id": "c", "label": "Quienes se oponen a esta medida simplemente no quieren cambiar nada.", "correct": false, "feedback": "Not yet — this attacks the opponents instead of stating their argument. A strong essay presents the objection in its best form, then answers it." },
+        { "id": "d", "label": "Asimismo, la productividad aumenta cuando el personal descansa.", "correct": false, "feedback": "Not yet — *asimismo* adds another argument in favour; it doesn't anticipate an objection." }
+      ],
+      "hints": [
+        "An objection paragraph presents the other side's argument, not yours.",
+        "Look for a formula from the essay table: *Podría objetarse que…*, *Se dirá que…*"
+      ],
+      "solution": "**A.** *Podría objetarse que…* introduces the counterargument in its strongest, fairest form, which is what this move requires. The next sentence would answer it: *Ahora bien, la experiencia de algunas empresas muestra que…* Option C misrepresents the other side instead of answering it; B concludes and D adds an argument."
+    },
+    {
+      "id": "fix-the-sentence",
+      "type": "choice",
+      "prompt": "Which version of this sentence is correct and best suited to a formal essay?\n\n*Aunque el informe es sólido, sin embargo, en base a sus datos no podemos concluir nada.*",
+      "difficulty": "stretch",
+      "mode": "H",
+      "options": [
+        { "id": "a", "label": "Si bien el informe es sólido, sus datos no permiten concluir nada.", "correct": true, "feedback": "Yes — one concessive connector, *si bien* with the indicative, and *en base a* gone." },
+        { "id": "b", "label": "Aunque el informe sea sólido, sin embargo sus datos no permiten concluir nada.", "correct": false, "feedback": "Not yet — the contrast is still marked twice (*aunque… sin embargo*)." },
+        { "id": "c", "label": "Si bien el informe sea sólido, en base a sus datos no podemos concluir nada.", "correct": false, "feedback": "Not yet — *si bien* never takes the subjunctive, and *en base a* is still there." },
+        { "id": "d", "label": "El informe es sólido, sin embargo en base a sus datos no podemos concluir nada.", "correct": false, "feedback": "Not yet — a bare comma before *sin embargo* joins two sentences clumsily (use a semicolon or a full stop), and *en base a* remains." }
+      ],
+      "hints": [
+        "There are two problems in the original: a doubled contrast, and an expression style guides advise against.",
+        "Check also the mood after *si bien*."
+      ],
+      "solution": "**A.** The original marks one contrast twice (*aunque… sin embargo*) and uses *en base a*, which careful writers avoid. Version A keeps one concessive connector, uses *si bien* with the indicative (*es*), and replaces the clumsy phrase with a precise verb: *sus datos no permiten concluir nada*. Another good version: *El informe es sólido; sin embargo, sus datos no permiten concluir nada.*"
+    }
+  ]
+}

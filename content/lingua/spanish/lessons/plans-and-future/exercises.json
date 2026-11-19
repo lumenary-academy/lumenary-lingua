@@ -1,0 +1,379 @@
+{
+  "lesson": "plans-and-future",
+  "exercises": [
+    {
+      "id": "voy-a-visitar",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete with **ir a** (two words): *Mañana ___ visitar a mi abuela.* (I'm going to visit…)",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "*Ir* in the present, *yo* form, then *a*.",
+        "*voy* + *a*"
+      ],
+      "answers": [
+        "voy a"
+      ],
+      "feedback": [
+        {
+          "match": "voy",
+          "message": "Almost — don't forget the *a* before the infinitive: *voy a visitar*."
+        },
+        {
+          "match": "va a",
+          "message": "Almost — *va* is for él, ella, usted. For *yo*: *voy a*."
+        }
+      ],
+      "solution": "**voy a**: *Mañana voy a visitar a mi abuela.* *Ir* (present) + *a* + infinitive. Notice the second *a*, before *mi abuela*: the personal *a* from lesson 7."
+    },
+    {
+      "id": "travel-to-peru",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **We're going to travel to Peru.**",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Use *ir a* + infinitive.",
+        "*vamos a viajar* + *a* + the country."
+      ],
+      "answers": [
+        "vamos a viajar a Perú",
+        "vamos a viajar al Perú",
+        "Nosotros vamos a viajar a Perú",
+        "Nosotros vamos a viajar al Perú",
+        "Nosotras vamos a viajar a Perú",
+        "Nosotras vamos a viajar al Perú",
+        "Viajaremos a Perú",
+        "Viajaremos al Perú",
+        "Nosotros viajaremos a Perú"
+      ],
+      "feedback": [
+        {
+          "match": "Vamos a viajamos a Perú",
+          "message": "Almost — after *ir a*, the verb stays in the infinitive: *vamos a viajar*."
+        },
+        {
+          "match": "Vamos viajar a Perú",
+          "message": "Almost — *ir* needs *a* before the infinitive: *vamos a viajar*."
+        }
+      ],
+      "solution": "**Vamos a viajar a Perú** (also *al Perú*: both are used). *Vamos* (ir, nosotros) + *a* + infinitive. The future tense, *Viajaremos a Perú*, is also correct."
+    },
+    {
+      "id": "vivire",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **vivir** in the simple future: *El año que viene ___ (yo) en Madrid.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "Keep the whole infinitive.",
+        "Add the *yo* ending *-é*."
+      ],
+      "answers": [
+        "viviré"
+      ],
+      "feedback": [
+        {
+          "match": "vivré",
+          "message": "Almost — *vivir* is regular in the future: keep the whole infinitive, *viviré*."
+        },
+        {
+          "match": "vivere",
+          "message": "Almost — keep the infinitive *vivir* as it is and add *-é*: *viviré*."
+        }
+      ],
+      "solution": "**viviré**: *El año que viene viviré en Madrid.* Infinitive *vivir* + *-é*. The accent marks the stress on the ending."
+    },
+    {
+      "id": "tendras",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **tener** in the simple future: *Mañana ___ (tú) más tiempo.*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Tener* has an irregular future stem: drop the *e* and add a *d*.",
+        "Stem *tendr-* + the *tú* ending *-ás*."
+      ],
+      "answers": [
+        "tendrás"
+      ],
+      "feedback": [
+        {
+          "match": "tenerás",
+          "message": "Almost — *tener* has an irregular stem: *tendr-*. *Tendrás*."
+        }
+      ],
+      "solution": "**tendrás**: *Mañana tendrás más tiempo.* *Tener → tendr-* + *-ás*. *Poner, salir* and *venir* follow the same pattern: *pondrás, saldrás, vendrás*."
+    },
+    {
+      "id": "haran",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Put **hacer** in the simple future: *¿Qué ___ ustedes el domingo?*",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Hacer* has a short future stem: *har-*.",
+        "*Ustedes* takes the *ellos* ending *-án*."
+      ],
+      "answers": [
+        "harán"
+      ],
+      "feedback": [
+        {
+          "match": "hacerán",
+          "message": "Almost — *hacer* has the short stem *har-*: *harán*."
+        },
+        {
+          "match": "harás",
+          "message": "Almost — *harás* is for *tú*. *Ustedes* takes *-án*: *harán*."
+        }
+      ],
+      "solution": "**harán**: *¿Qué harán ustedes el domingo?* *Hacer → har-* (and *decir → dir-*) + the regular future endings."
+    },
+    {
+      "id": "saldre",
+      "type": "choice",
+      "prompt": "How do you say **I'll leave at eight**?",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "*Salir* has an irregular future stem.",
+        "It's in the same group as *tener* and *poner*: drop the vowel, add *d*."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Saldré a las ocho.",
+          "correct": true,
+          "feedback": "Yes: *salir → saldr-* + *-é*."
+        },
+        {
+          "id": "b",
+          "label": "Saliré a las ocho.",
+          "correct": false,
+          "feedback": "Not yet — *salir* has an irregular future stem: *saldr-*."
+        },
+        {
+          "id": "c",
+          "label": "Salgo a las ocho mañana.",
+          "correct": false,
+          "feedback": "Natural Spanish for a fixed plan, but it's the present tense. The question asks for the future form: *saldré*."
+        },
+        {
+          "id": "d",
+          "label": "Saldrá a las ocho.",
+          "correct": false,
+          "feedback": "Not yet — *saldrá* is for él, ella, usted. For *yo*: *saldré*."
+        }
+      ],
+      "solution": "**Saldré a las ocho.** *Salir* belongs to the group that drops the vowel and adds *d*: *tener → tendré, poner → pondré, salir → saldré, venir → vendré*."
+    },
+    {
+      "id": "hace-frio",
+      "type": "choice",
+      "prompt": "How do you say **It's cold today** (talking about the weather)?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "Weather like heat and cold uses a verb that literally means \"to make\".",
+        "*Frío* is used as a noun here."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Hoy hace frío.",
+          "correct": true,
+          "feedback": "Yes: *hacer* + *frío* for the weather."
+        },
+        {
+          "id": "b",
+          "label": "Hoy es frío.",
+          "correct": false,
+          "feedback": "Not yet — the weather isn't described with *ser*. Use *hace frío*."
+        },
+        {
+          "id": "c",
+          "label": "Hoy tengo frío.",
+          "correct": false,
+          "feedback": "Not quite — that means \"I'm cold today\" (how you feel), not the weather."
+        },
+        {
+          "id": "d",
+          "label": "Hoy está frío.",
+          "correct": false,
+          "feedback": "Not yet — *está frío* describes a thing (*el café está frío*). For the weather: *hace frío*."
+        }
+      ],
+      "solution": "**Hoy hace frío.** Weather uses *hacer* + noun: *hace frío, hace calor, hace sol, hace viento*. Compare *tengo frío* (I feel cold) and *la sopa está fría* (the soup is cold)."
+    },
+    {
+      "id": "rain-tomorrow",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **It's going to rain tomorrow.**",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "\"To rain\" is *llover*.",
+        "*ir a* + infinitive, in the *él/ella* form (there's no subject in Spanish)."
+      ],
+      "answers": [
+        "Mañana va a llover",
+        "Va a llover mañana",
+        "Mañana lloverá",
+        "Lloverá mañana"
+      ],
+      "feedback": [
+        {
+          "match": "Mañana va a lluvia",
+          "message": "Almost — *lluvia* is the noun (rain). After *va a* you need the verb: *llover*."
+        },
+        {
+          "match": "Mañana hace a llover",
+          "message": "Not yet — \"going to\" is *ir a*: *Mañana va a llover*."
+        },
+        {
+          "match": "Mañana va a llueve",
+          "message": "Almost — after *va a*, use the infinitive: *llover*."
+        }
+      ],
+      "solution": "**Mañana va a llover** (or *Mañana lloverá*, the forecast style). Weather verbs like *llover* and *nevar* have no subject: *va a llover* = it's going to rain."
+    },
+    {
+      "id": "les-escribo",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Complete with an indirect object pronoun: *___ escribo una carta a mis padres.* (I'm writing a letter to my parents.)",
+      "difficulty": "core",
+      "mode": "H",
+      "hints": [
+        "The indirect object is *a mis padres*: plural.",
+        "Spanish usually adds the pronoun even when the person is named."
+      ],
+      "answers": [
+        "Les"
+      ],
+      "feedback": [
+        {
+          "match": "Le",
+          "message": "Almost — *mis padres* is plural, so *les*."
+        },
+        {
+          "match": "Los",
+          "message": "Almost — *los* is a direct object pronoun. The parents receive the letter, so they're the indirect object: *les*."
+        }
+      ],
+      "solution": "**Les**: *Les escribo una carta a mis padres.* The letter is the direct object; the parents are the indirect object (the people it's written *to*), so the pronoun is *les*. Spanish usually keeps it even when *a mis padres* is also there."
+    },
+    {
+      "id": "she-gives-me",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Translate: **My grandmother gives me a present every year.**",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "\"To me\" = *me*, before the verb.",
+        "*Dar* in the present, *ella* form: *da*. \"Every year\" = *todos los años* or *cada año*."
+      ],
+      "answers": [
+        "Mi abuela me da un regalo todos los años",
+        "Mi abuela me da un regalo cada año",
+        "Todos los años mi abuela me da un regalo",
+        "Cada año mi abuela me da un regalo",
+        "Mi abuela me regala algo todos los años",
+        "Mi abuela me regala algo cada año",
+        "Mi abuela me hace un regalo todos los años",
+        "Mi abuela me hace un regalo cada año"
+      ],
+      "feedback": [
+        {
+          "match": "Mi abuela da me un regalo todos los años",
+          "message": "Almost — the pronoun goes before the conjugated verb: *me da*."
+        },
+        {
+          "match": "Mi abuela da un regalo a mí todos los años",
+          "message": "Understandable, but Spanish needs the pronoun: *Mi abuela me da un regalo* (you can add *a mí* for emphasis, but keep *me*)."
+        }
+      ],
+      "solution": "**Mi abuela me da un regalo todos los años.** *Me* (to me) goes right before *da*. *Dar* in the present is *doy, das, da, damos, dais, dan*. You could also say *Mi abuela me regala algo todos los años*, with *regalar* (to give as a present)."
+    },
+    {
+      "id": "se-lo-doy",
+      "type": "text",
+      "lang": "es",
+      "prompt": "Replace both objects with pronouns: *¿Le das el libro a Ana?* — *Sí, ___ doy.* (Type the two pronouns.)",
+      "difficulty": "stretch",
+      "mode": "H",
+      "hints": [
+        "*El libro* → *lo*; *a Ana* → *le*. Indirect goes first.",
+        "*le* + *lo* is never allowed: *le* becomes *se*."
+      ],
+      "answers": [
+        "se lo"
+      ],
+      "feedback": [
+        {
+          "match": "le lo",
+          "message": "Almost — Spanish never says *le lo*: before *lo*, *le* becomes *se*. *Se lo doy*."
+        },
+        {
+          "match": "lo le",
+          "message": "Not yet — the indirect pronoun goes first, and *le* becomes *se* before *lo*: *se lo*."
+        },
+        {
+          "match": "se la",
+          "message": "Almost — *el libro* is masculine: *lo*. *Se lo doy*."
+        },
+        {
+          "match": "lo",
+          "message": "That's half of it. Add the pronoun for *a Ana* first: *se lo doy*."
+        }
+      ],
+      "solution": "**se lo**: *Sí, se lo doy.* *El libro* → *lo* (direct), *a Ana* → *le* (indirect). The indirect pronoun goes first, and *le* changes to *se* before *lo, la, los, las*."
+    },
+    {
+      "id": "decline-politely",
+      "type": "choice",
+      "prompt": "A friend asks *¿Quieres venir al cine el viernes?* You can't. Which reply declines politely?",
+      "difficulty": "warm-up",
+      "mode": "H",
+      "hints": [
+        "A polite refusal often includes an apology and a reason.",
+        "Look for *Lo siento* and *tengo que*."
+      ],
+      "options": [
+        {
+          "id": "a",
+          "label": "Lo siento, no puedo. Tengo que trabajar. ¿Otro día?",
+          "correct": true,
+          "feedback": "Yes: an apology, a reason with *tener que*, and a suggestion for another time."
+        },
+        {
+          "id": "b",
+          "label": "¡Me encantaría!",
+          "correct": false,
+          "feedback": "Not yet — that accepts the invitation (\"I'd love to!\")."
+        },
+        {
+          "id": "c",
+          "label": "¡Vale! ¿A qué hora quedamos?",
+          "correct": false,
+          "feedback": "Not yet — that accepts and starts arranging the time."
+        },
+        {
+          "id": "d",
+          "label": "No.",
+          "correct": false,
+          "feedback": "It's clear, but on its own it sounds abrupt. Add an apology and a reason."
+        }
+      ],
+      "solution": "**Lo siento, no puedo. Tengo que trabajar. ¿Otro día?** Declining usually comes with *lo siento* (I'm sorry), a reason (*tengo que* + infinitive) and, if you mean it, a suggestion: *¿Otro día?*, *¿Qué tal el sábado?*"
+    }
+  ]
+}
