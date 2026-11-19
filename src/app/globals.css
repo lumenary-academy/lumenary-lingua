@@ -1,0 +1,5 @@
+/* Tailwind, then Lumenary Academy's design system from @lumenary/core (tokens, base styles, */
+/* components); Tailwind must also scan the core's components for the classes they use. */
+@import "tailwindcss";
+@import "@lumenary/core/styles.css";
+@source "../../node_modules/@lumenary/core/src";

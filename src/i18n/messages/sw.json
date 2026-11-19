@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "courses": "Kozi",
+    "short": {
+      "courses": "Kozi"
+    }
+  },
+  "lingua": {
+    "lead": "Lugha, kila moja ikifundishwa kupitia lugha unayoijua tayari. Bure, bila akaunti. Kila somo liliandaliwa kwa msaada wa AI na linasubiri mapitio ya mwalimu binadamu.",
+    "eyebrow": "Kitengo cha Lumenary Academy",
+    "coursesTitle": "Kozi",
+    "levels": "Viwango {from} hadi {to}",
+    "lessons": "Masomo {n}",
+    "open": "Fungua kozi",
+    "learn": "Jifunze {language}",
+    "taughtIn": "Inafundishwa kwa {language}",
+    "planned": "Jozi zaidi za lugha zimepangwa.",
+    "howTitle": "Jinsi Lumenary Lingua inavyofundisha",
+    "howLevels": "Kila lugha hufundishwa kupitia lugha unayoijua tayari, katika viwango sita vya Mfumo wa Pamoja wa Ulaya wa Marejeleo ya Lugha (CEFR), kutoka A1 (mwanzo) hadi C2 (umahiri).",
+    "howLessons": "Kila somo lina msamiati, sarufi inayoelezwa kwa lugha yako, mazungumzo au maandishi asilia, maelezo kuhusu matamshi na utamaduni, na mazoezi yanayokagua majibu yako unapoandika.",
+    "howListen": "Maneno yenye alama ya spika yanaweza kusomwa kwa sauti na sauti ya kivinjari chako mwenyewe, ikiwa kina sauti ya lugha hiyo. Hakuna kinachotumwa popote.",
+    "howFree": "Bure na chanzo huria: hakuna akaunti wala matangazo. Msimbo uko chini ya Apache-2.0 na masomo chini ya CC BY-SA 4.0.",
+    "pairsTitle": "Jozi za lugha",
+    "pairsLead": "Jozi mbili za kwanza ziko wazi. Zinazofuata zitachaguliwa kutoka lugha zinazozungumzwa zaidi duniani.",
+    "pairLearn": "Lugha unayojifunza",
+    "pairVia": "Lugha ya kufundishia",
+    "pairStatus": "Hali",
+    "academyTitle": "Sehemu ya Lumenary Academy",
+    "here": "Uko hapa",
+    "visitAcademy": "Tembelea Lumenary Academy",
+    "footerMission": "Lugha, kila moja ikifundishwa kupitia lugha unayoijua tayari. Kitengo cha bure, cha chanzo huria cha Lumenary Academy.",
+    "about": {
+      "title": "Kuhusu Lumenary Lingua",
+      "lead": "Shule ya lugha ya Lumenary Academy: kila lugha ikifundishwa kupitia lugha unayoijua tayari.",
+      "what": "Lumenary Lingua hufundisha lugha, kila moja kupitia lugha ambayo mwanafunzi tayari anaijua: Kihispania kwa Kiingereza, Kiingereza kwa Kihispania na, baada ya muda, jozi nyingine nyingi. Kila kozi hupanda viwango sita vya Mfumo wa Pamoja wa Ulaya wa Marejeleo ya Lugha (CEFR), kutoka A1 hadi C2.",
+      "free": "Ni bure na ya chanzo huria, kama sehemu nyingine za Lumenary Academy. Hakuna akaunti wala matangazo. Msimbo wa tovuti unachapishwa chini ya leseni ya Apache-2.0 na masomo chini ya CC BY-SA 4.0, hivyo mtu yeyote anaweza kuyatumia, kuyatafsiri, kuyarekebisha na kuyashiriki.",
+      "review": "Kila somo liliandaliwa kwa msaada wa AI na bado linasubiri mapitio ya mwalimu binadamu wa lugha hiyo; ukurasa wa kila kozi unasema hivyo. Ikiwa unafundisha mojawapo ya lugha hizi, masahihisho yako yanakaribishwa.",
+      "reflection": "Lumenary Academy imehamasishwa na imani ya Kikristo. Baadhi ya masomo humalizika kwa tafakari ya Kikristo ya hiari, iliyokunjwa na kuwekewa alama wazi; uko huru kuiruka.",
+      "source": "Masomo na msimbo kwenye GitHub",
+      "academy": "Kuhusu Lumenary Academy"
+    },
+    "notFound": {
+      "title": "Ukurasa huu haupo.",
+      "text": "Huenda kiungo kimepitwa na wakati, au anwani ina kosa la uchapaji.",
+      "home": "Tazama kozi"
+    }
+  }
+}

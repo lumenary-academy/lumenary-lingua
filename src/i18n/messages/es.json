@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "courses": "Cursos",
+    "short": {
+      "courses": "Cursos"
+    }
+  },
+  "lingua": {
+    "lead": "Idiomas, cada uno enseñado a través de una lengua que ya conoces. Gratis y sin cuentas. Todas las lecciones se redactaron con ayuda de IA y esperan la revisión de un profesor humano.",
+    "eyebrow": "Una división de Lumenary Academy",
+    "coursesTitle": "Los cursos",
+    "levels": "Niveles {from} a {to}",
+    "lessons": "{n} lecciones",
+    "open": "Abrir el curso",
+    "learn": "Aprende {language}",
+    "taughtIn": "Enseñado en {language}",
+    "planned": "Hay más pares de idiomas previstos.",
+    "howTitle": "Cómo enseña Lumenary Lingua",
+    "howLevels": "Cada idioma se enseña a través de uno que ya conoces, en los seis niveles del Marco Común Europeo de Referencia para las Lenguas, del A1 (principiante) al C2 (maestría).",
+    "howLessons": "Cada lección trae vocabulario, gramática explicada en tu idioma, un diálogo o texto original, notas de pronunciación y de cultura, y ejercicios que comprueban tus respuestas mientras escribes.",
+    "howListen": "Las palabras marcadas con un altavoz las puede leer en voz alta la voz de tu propio navegador, si tiene una para ese idioma. No se envía nada a ninguna parte.",
+    "howFree": "Gratis y de código abierto: sin cuentas y sin publicidad. El código está bajo Apache-2.0 y las lecciones bajo CC BY-SA 4.0.",
+    "pairsTitle": "Pares de idiomas",
+    "pairsLead": "Los dos primeros pares están abiertos. Los siguientes saldrán de las lenguas más habladas del mundo.",
+    "pairLearn": "Idioma que aprendes",
+    "pairVia": "Enseñado en",
+    "pairStatus": "Estado",
+    "academyTitle": "Parte de Lumenary Academy",
+    "here": "Estás aquí",
+    "visitAcademy": "Visitar Lumenary Academy",
+    "footerMission": "Idiomas, cada uno enseñado a través de uno que ya conoces. Una división gratuita y de código abierto de Lumenary Academy.",
+    "about": {
+      "title": "Acerca de Lumenary Lingua",
+      "lead": "La escuela de idiomas de Lumenary Academy: cada idioma enseñado a través de uno que ya conoces.",
+      "what": "Lumenary Lingua enseña idiomas, cada uno a través de una lengua que el estudiante ya conoce: español enseñado en inglés, inglés enseñado en español y, con el tiempo, muchos más pares. Cada curso recorre los seis niveles del Marco Común Europeo de Referencia para las Lenguas, del A1 al C2.",
+      "free": "Es gratuito y de código abierto, como el resto de Lumenary Academy. No hay cuentas ni publicidad. El código del sitio se publica bajo la licencia Apache-2.0 y las lecciones bajo CC BY-SA 4.0, así que cualquiera puede usarlas, traducirlas, adaptarlas y compartirlas.",
+      "review": "Todas las lecciones se redactaron con ayuda de IA y aún esperan la revisión de un profesor humano del idioma; la página de cada curso lo indica. Si enseñas alguno de estos idiomas, tus correcciones son bienvenidas.",
+      "reflection": "Lumenary Academy es de inspiración cristiana. Algunas lecciones terminan con una reflexión cristiana opcional, plegada y claramente señalada; puedes saltarla con toda libertad.",
+      "source": "Las lecciones y el código en GitHub",
+      "academy": "Acerca de Lumenary Academy"
+    },
+    "notFound": {
+      "title": "Esta página no existe.",
+      "text": "Puede que el enlace esté desactualizado o que la dirección tenga un error.",
+      "home": "Ver los cursos"
+    }
+  }
+}

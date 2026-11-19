@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "courses": "Courses",
+    "short": {
+      "courses": "Courses"
+    }
+  },
+  "lingua": {
+    "lead": "Languages, each taught through a language you already know. Free, with no accounts. Every lesson was drafted with AI assistance and is awaiting review by a human teacher.",
+    "eyebrow": "A division of Lumenary Academy",
+    "coursesTitle": "The courses",
+    "levels": "Levels {from} to {to}",
+    "lessons": "{n} lessons",
+    "open": "Open the course",
+    "learn": "Learn {language}",
+    "taughtIn": "Taught in {language}",
+    "planned": "More language pairs are planned.",
+    "howTitle": "How Lumenary Lingua teaches",
+    "howLevels": "Each language is taught through one you already know, in the six levels of the Common European Framework of Reference for Languages, from A1 (beginner) to C2 (mastery).",
+    "howLessons": "Every lesson brings vocabulary, grammar explained in your language, an original dialogue or text, notes on pronunciation and culture, and exercises that check your answers as you type.",
+    "howListen": "Words marked with a speaker icon can be read aloud by your browser's own voice, when it has one for the language. Nothing is sent anywhere.",
+    "howFree": "Free and open source: no accounts and no advertising. The code is under Apache-2.0 and the lessons under CC BY-SA 4.0.",
+    "pairsTitle": "Language pairs",
+    "pairsLead": "The first two pairs are open. The next will be drawn from the world's most widely spoken languages.",
+    "pairLearn": "Language you learn",
+    "pairVia": "Taught in",
+    "pairStatus": "Status",
+    "academyTitle": "Part of Lumenary Academy",
+    "here": "You are here",
+    "visitAcademy": "Visit Lumenary Academy",
+    "footerMission": "Languages, each taught through one you already know. A free, open-source division of Lumenary Academy.",
+    "about": {
+      "title": "About Lumenary Lingua",
+      "lead": "Lumenary Academy's school of languages: each language taught through one you already know.",
+      "what": "Lumenary Lingua teaches languages, each one through a language the learner already knows: Spanish taught in English, English taught in Spanish and, in time, many more pairs. Each course climbs the six levels of the Common European Framework of Reference for Languages, from A1 to C2.",
+      "free": "It is free and open source, like the rest of Lumenary Academy. There are no accounts and no advertising. The website's code is published under the Apache-2.0 licence and the lessons under CC BY-SA 4.0, so anyone may use, translate, adapt and share them.",
+      "review": "Every lesson was drafted with AI assistance and is still awaiting review by a human teacher of the language; each course page says so. If you teach one of these languages, your corrections are welcome.",
+      "reflection": "Lumenary Academy is Christian-inspired. A few lessons end with an optional Christian reflection, collapsed and clearly marked; you are welcome to skip it.",
+      "source": "The lessons and the code on GitHub",
+      "academy": "About Lumenary Academy"
+    },
+    "notFound": {
+      "title": "This page doesn't exist.",
+      "text": "The link may be out of date, or the address may have a typo.",
+      "home": "See the courses"
+    }
+  }
+}
