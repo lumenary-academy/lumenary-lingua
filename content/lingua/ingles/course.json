@@ -3,7 +3,7 @@
   "id": "ingles",
   "division": "lingua",
   "title": "Inglés, enseñado en español",
-  "subtitle": "Del primer *hello* a un inglés casi nativo: seis niveles, del A1 al C2, para hispanohablantes.",
+  "subtitle": "36 lecciones gratuitas de inglés para hispanohablantes, de A1 a C2. Empieza con los saludos y practica cómo pronunciar palabras como *school* sin añadir una e al principio.",
   "description": [
     "Este curso enseña inglés a quienes ya hablan español, desde el nivel principiante (A1) hasta la maestría (C2), siguiendo los seis niveles del Marco Común Europeo de Referencia para las Lenguas ([MCER](https://www.coe.int/es/web/common-european-framework-reference-languages)). Cada nivel tiene seis lecciones, y cada lección trae vocabulario, uno o dos puntos de gramática explicados en español, un diálogo o un texto original, notas de pronunciación y de cultura, y ejercicios que corrigen tus respuestas al escribirlas.",
     "El inglés es la lengua más estudiada del mundo y la lengua común de la ciencia, la tecnología y los negocios. Las lecciones enseñan un inglés general y señalan las diferencias entre el inglés británico y el estadounidense. Las palabras y frases con un icono de altavoz pueden leerse en voz alta con la voz de tu propio navegador, cuando tiene una en inglés; no se envía nada a ninguna parte.",
@@ -102,7 +102,7 @@
       "id": "c2",
       "short": "C2",
       "title": "Maestría",
-      "summary": "Un dominio casi nativo: estilo y registro, falsos amigos y calcos, la literatura clásica en inglés, humor y juegos de palabras, la oratoria y la escritura precisa.",
+      "summary": "En el C2 se estudian el estilo y el registro, los falsos amigos y los calcos, la literatura clásica en inglés, el humor y los juegos de palabras, la oratoria y la escritura precisa.",
       "lessons": [
         "estilo-y-registro",
         "falsos-amigos",

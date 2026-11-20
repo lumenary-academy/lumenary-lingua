@@ -10,6 +10,15 @@ import { courses, href, i18n } from "@/lib/site";
 import { PAIRS, courseFor } from "@/lib/pairs";
 import { PREP_URL, SCIENTIA_URL, academyPage } from "@/lib/links";
 
+/**
+ * Each course's button speaks to its own learner, in the language the course is taught in, whatever
+ * the interface language: a Spanish speaker sees "Aprende inglés" on an English page too.
+ */
+const START: Record<string, string> = {
+  ingles: "Aprende inglés",
+  spanish: "Learn Spanish",
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const t = await i18n.getT(await resolveLocale(params));
   return { description: t("lingua.lead") };
@@ -100,7 +109,7 @@ export default async function LinguaHome({ params }: { params: Promise<{ locale:
                   </nav>
                   <div className="mt-auto pt-6">
                     <Link href={href(locale, path)} className="btn btn-primary">
-                      {t("lingua.open")} {arrow}
+                      {START[course.id] ? <span lang={course.locale}>{START[course.id]}</span> : t("lingua.open")} {arrow}
                     </Link>
                   </div>
                 </article>
