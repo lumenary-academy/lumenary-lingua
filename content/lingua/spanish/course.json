@@ -3,7 +3,7 @@
   "id": "spanish",
   "division": "lingua",
   "title": "Spanish, taught in English",
-  "subtitle": "From your first *hola* to near-native Spanish: six levels, A1 to C2, for English speakers.",
+  "subtitle": "36 free Spanish lessons for English speakers, spanning A1–C2. Start with greetings and learn when to address someone as *tú*, *usted*, or *vos*.",
   "description": [
     "This course teaches Spanish to people who already speak English, from complete beginner (A1) to mastery (C2), following the six levels of the Common European Framework of Reference for Languages ([CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages)). Each level has six lessons, and each lesson brings vocabulary, one or two points of grammar explained in English, an original dialogue or text, notes on pronunciation and culture, and exercises that check your answers as you type.",
     "Spanish is spoken by about 500 million people as a first language, across Spain, Latin America, Equatorial Guinea and the United States. The lessons teach a broadly neutral Spanish and point out where Spain and Latin America differ. Words and phrases marked with a speaker icon can be read aloud by your browser's own voice, when it has a Spanish one; nothing is sent anywhere.",
@@ -102,7 +102,7 @@
       "id": "c2",
       "short": "C2",
       "title": "Mastery",
-      "summary": "Near-native control: style and register, translation pitfalls, the language of the Golden Age, dialects and society, rhetoric, and writing with precision.",
+      "summary": "At C2, study style and register, translation pitfalls, the language of the Golden Age, dialects and society, rhetoric, and writing with precision.",
       "lessons": [
         "style-and-register",
         "translation-pitfalls",

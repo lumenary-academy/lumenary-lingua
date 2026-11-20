@@ -8,6 +8,11 @@ describe("routing", () => {
   it("puts each course in its teaching locale only", () => {
     expect(href("es", "spanish")).toBe("/en/spanish/");
     expect(href("en", "ingles")).toBe("/es/ingles/");
+    // Every localised landing page links each course to its one published home.
+    for (const locale of ["en", "es", "ar", "hi", "sw", "zh-Hans"] as const) {
+      expect(href(locale, "ingles")).toBe("/es/ingles/");
+      expect(href(locale, "spanish")).toBe("/en/spanish/");
+    }
     expect(href("ar", "ingles/quien-eres")).toBe("/es/ingles/quien-eres/");
     expect(href("hi", "about")).toBe("/hi/about/");
     expect(href("zh-Hans")).toBe("/zh-Hans/");
