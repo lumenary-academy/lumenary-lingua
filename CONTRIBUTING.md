@@ -32,6 +32,7 @@ The syllabus, with each level's lessons in order, is `content/lingua/<course>/co
 - Exercises: at least six per lesson, mixing `choice` and `text`, and every hint and solution explains rather than just giving the answer.
 - Optional Christian reflections (`<Reflection>`) are at most one per lesson, collapsed, never required to follow the lesson.
 - Lingua has no cat guides: no `<Narrator>`.
+- **No promotion.** A lesson, its exercises and its course page never link or name the owner's other projects (Lumenary Prep, Gideon Tasks, Gideon Tax, Peace Cat Games). They belong on the front page only: in "Tutors & classes" and, since 22 November 2026, in "From the same owner", which the footer links.
 
 ## Checking your changes
 

@@ -61,6 +61,8 @@ export default async function LocaleLayout({ children, params }: { children: Rea
                 links: [
                   ...all.map((c) => ({ label: c.course.title, href: href(locale, c.path), lang: c.course.locale })),
                   { label: t("nav.about"), href: href(locale, "about") },
+                  // The front page's "From the same owner" section: the footer's one pointer to the owner's other projects.
+                  { label: t("lingua.sameOwner.footer"), href: href(locale, "#same-owner") },
                 ],
               },
               {
