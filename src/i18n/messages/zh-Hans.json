@@ -43,6 +43,12 @@
       "title": "此页面不存在。",
       "text": "链接可能已经过时，或者网址有拼写错误。",
       "home": "查看课程"
+    },
+    "tutors": {
+      "title": "家教与课程班",
+      "text": "这里的每一课都是免费的，本身就很完整。如果你希望有人亲自教你，独立家教和机构会通过 Gideon Tasks 提供辅导和课程班；Gideon Tasks 是一个独立的交易平台。",
+      "owner": "Gideon Tasks 由 Gideon Solutions, LLC 运营，与 Lumenary Academy 归属同一所有者。",
+      "link": "Gideon Tasks 上的家教服务"
     }
   }
 }

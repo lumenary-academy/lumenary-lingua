@@ -8,7 +8,7 @@ import { DIVISIONS } from "@lumenary/core/brand";
 import { mdInline } from "@lumenary/core/markdown";
 import { courses, href, i18n } from "@/lib/site";
 import { PAIRS, courseFor } from "@/lib/pairs";
-import { PREP_URL, SCIENTIA_URL, academyPage } from "@/lib/links";
+import { PREP_URL, SCIENTIA_URL, TUTORING_URL, academyPage } from "@/lib/links";
 
 /**
  * Each course's button speaks to its own learner, in the language the course is taught in, whatever
@@ -46,7 +46,7 @@ function Division({ Icon, accent, name, what, badge, text, action }: { Icon: Luc
   );
 }
 
-/** Lumenary Lingua's front page, in every locale: what Lingua is, its courses, its language pairs, and the rest of Lumenary Academy. */
+/** Lumenary Lingua's front page, in every locale: what Lingua is, its courses, its language pairs, the rest of Lumenary Academy, and where to find a tutor or class. */
 export default async function LinguaHome({ params }: { params: Promise<{ locale: string }> }) {
   const locale = await resolveLocale(params);
   const t = await i18n.getT(locale);
@@ -245,6 +245,20 @@ export default async function LinguaHome({ params }: { params: Promise<{ locale:
             </a>
           </p>
         </div>
+      </section>
+
+      {/* The site's one pointer to tutors and classes: a separate marketplace, disclosed, on this page only. */}
+      <section id="tutors" className="container-page scroll-mt-20 py-12 sm:py-14" aria-labelledby="tutors-title">
+        <h2 id="tutors-title" className="text-2xl font-semibold text-ink">
+          {t("lingua.tutors.title")}
+        </h2>
+        <p className="mt-3 max-w-3xl leading-relaxed text-ink-2">{t("lingua.tutors.text")}</p>
+        <p className="mt-2 max-w-3xl text-sm leading-relaxed text-muted">{t("lingua.tutors.owner")}</p>
+        <p className="mt-4">
+          <a href={TUTORING_URL} className="link inline-flex items-center gap-1 font-semibold">
+            {t("lingua.tutors.link")} {external}
+          </a>
+        </p>
       </section>
     </>
   );

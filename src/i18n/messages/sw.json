@@ -43,6 +43,12 @@
       "title": "Ukurasa huu haupo.",
       "text": "Huenda kiungo kimepitwa na wakati, au anwani ina kosa la uchapaji.",
       "home": "Tazama kozi"
+    },
+    "tutors": {
+      "title": "Walimu binafsi na madarasa",
+      "text": "Kila somo hapa ni bure na limekamilika lenyewe. Ukitaka mtu akufundishe, walimu binafsi wanaojitegemea na mashirika hutoa masomo na madarasa kupitia Gideon Tasks, soko tofauti la mtandaoni.",
+      "owner": "Gideon Tasks inaendeshwa na Gideon Solutions, LLC, ambayo ina wamiliki walewale na Lumenary Academy.",
+      "link": "Masomo binafsi kwenye Gideon Tasks"
     }
   }
 }
