@@ -209,7 +209,7 @@ export default async function LinguaHome({ params }: { params: Promise<{ locale:
                 name={DIVISIONS.scientia}
                 what={t("divisions.scientiaWhat")}
                 badge={t("divisions.scientiaBadge")}
-                text={t("divisions.scientiaText")}
+                text={t("lingua.scientiaText")}
                 action={
                   <a href={SCIENTIA_URL} className="btn btn-ghost">
                     {t("divisions.scientiaCta")} {external}

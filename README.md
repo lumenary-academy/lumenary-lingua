@@ -76,6 +76,7 @@ Every non-English interface string is an unreviewed machine draft. Most come fro
 - `lingua.howTitle`, `lingua.howLevels`, `lingua.howLessons`, `lingua.howListen`, `lingua.howFree` (reworded on 22 November 2026: it now says "no third-party ads", not "no advertising")
 - `lingua.pairsTitle`, `lingua.pairsLead`, `lingua.pairLearn`, `lingua.pairVia`, `lingua.pairStatus`
 - `lingua.academyTitle`, `lingua.here`, `lingua.visitAcademy`, `lingua.footerMission`
+- `lingua.scientiaText` (added on 22 November 2026: the Lumenary Scientia card on the front page, copied from @lumenary/core's `divisions.scientiaText` drafts with "no advertising" changed to "no third-party ads"; the core string itself still says "no advertising")
 - `lingua.about.title`, `lingua.about.lead`, `lingua.about.what`, `lingua.about.free`, `lingua.about.review`, `lingua.about.reflection`, `lingua.about.source` (`lingua.about.free` was reworded on 22 November 2026: it now says "no third-party ads", not "no advertising")
 - `lingua.notFound.title`, `lingua.notFound.text`, `lingua.notFound.home`
 - `lingua.tutors.title`, `lingua.tutors.text`, `lingua.tutors.owner`, `lingua.tutors.link` ("Gideon Tasks", "Gideon Solutions, LLC" and "Lumenary Academy" stay untranslated)
