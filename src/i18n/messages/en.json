@@ -43,6 +43,12 @@
       "title": "This page doesn't exist.",
       "text": "The link may be out of date, or the address may have a typo.",
       "home": "See the courses"
+    },
+    "tutors": {
+      "title": "Tutors & classes",
+      "text": "Every lesson here is free and complete on its own. If you would like a person to teach you, independent tutors and organisations offer lessons and classes through Gideon Tasks, a separate marketplace.",
+      "owner": "Gideon Tasks is run by Gideon Solutions, LLC, under the same ownership as Lumenary Academy.",
+      "link": "Tutoring on Gideon Tasks"
     }
   }
 }

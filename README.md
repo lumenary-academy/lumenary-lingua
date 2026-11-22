@@ -35,7 +35,7 @@ Changes to the linked core show up in `npm run dev` straight away.
 ```
 content/lingua/<course>/          a course: course.json (its syllabus) and lessons/<slug>/{lesson.mdx,exercises.json}
 src/app/(root)/                   / : picks a language (remembered choice, browser preferences, English)
-src/app/[locale]/page.tsx         /<locale>/ : the front page, in every locale: what Lingua is, its courses, language pairs, the academy
+src/app/[locale]/page.tsx         /<locale>/ : the front page, in every locale: what Lingua is, its courses, language pairs, the academy, tutors and classes
 src/app/[locale]/[course]/        /<locale>/<course>/ and …/<slug>/ : a course and its lessons, only in the course's teaching locale
 src/app/[locale]/about/           /<locale>/about/
 src/app/[locale]/not-found.tsx    the not-found message in the reader's language
@@ -49,6 +49,8 @@ tests/                            vitest suites
 ```
 
 A course's pages exist only in the locale it is taught in: Spanish (taught in English) at `/en/spanish/`, English (taught in Spanish) at `/es/ingles/`. Links from every other locale point there, and the language menu sends a reader whose course is not taught in the language they pick to that language's front page.
+
+The front page ends with one plain section, "Tutors & classes" (`lingua.tutors.*`): the lessons are free and complete on their own, and anyone who wants a person to teach them can find independent tutors and organisations' lessons and classes on Gideon Tasks, a separate marketplace run by Gideon Solutions, LLC, under the same ownership as Lumenary Academy. It is the site's only pointer to tutors and classes: one link (`TUTORING_URL` in `src/lib/links.ts`), with no prices, on the front page only, never in a lesson. `tests/tutors.test.ts` checks this.
 
 ## How it uses @lumenary/core
 
@@ -74,6 +76,7 @@ Every non-English interface string is an unreviewed machine draft. Most come fro
 - `lingua.academyTitle`, `lingua.here`, `lingua.visitAcademy`, `lingua.footerMission`
 - `lingua.about.title`, `lingua.about.lead`, `lingua.about.what`, `lingua.about.free`, `lingua.about.review`, `lingua.about.reflection`, `lingua.about.source`
 - `lingua.notFound.title`, `lingua.notFound.text`, `lingua.notFound.home`
+- `lingua.tutors.title`, `lingua.tutors.text`, `lingua.tutors.owner`, `lingua.tutors.link` ("Gideon Tasks", "Gideon Solutions, LLC" and "Lumenary Academy" stay untranslated)
 - in @lumenary/core: `footer.openSource`, `footer.sourceCode`, `footer.codeLicence`, `footer.contentLicence`
 
 Language names (Spanish, inglés, 西班牙语…) are not translated by hand: they come from the Unicode CLDR data built into Node.js (`Intl.DisplayNames`) when the site is built. The 404 page and the language-picking root page are in English, because they cannot know the reader's language; they link every locale's front page by its own name.
