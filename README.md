@@ -2,7 +2,7 @@
 
 **Languages, each taught through a language you already know.**
 
-Lumenary Lingua is the language division of [Lumenary Academy](https://lumenary.academy), a Christian-inspired education project in three divisions: Lumenary Scientia (the sciences), Lumenary Lingua (languages) and Lumenary Prep (exam preparation). Lingua is free and open source: no accounts, no advertising. This repository holds its website, [lingua.lumenary.academy](https://lingua.lumenary.academy), and its courses.
+Lumenary Lingua is the language division of [Lumenary Academy](https://lumenary.academy), a Christian-inspired education project in three divisions: Lumenary Scientia (the sciences), Lumenary Lingua (languages) and Lumenary Prep (exam preparation). Lingua is free and open source: no accounts, no third-party ads. This repository holds its website, [lingua.lumenary.academy](https://lingua.lumenary.academy), and its courses.
 
 | Course | Taught in | Levels | Pages |
 | --- | --- | --- | --- |
@@ -73,10 +73,10 @@ Every non-English interface string is an unreviewed machine draft. Most come fro
 
 - `nav.courses`, `nav.short.courses`
 - `lingua.eyebrow`, `lingua.coursesTitle`, `lingua.learn`, `lingua.taughtIn`
-- `lingua.howTitle`, `lingua.howLevels`, `lingua.howLessons`, `lingua.howListen`, `lingua.howFree`
+- `lingua.howTitle`, `lingua.howLevels`, `lingua.howLessons`, `lingua.howListen`, `lingua.howFree` (reworded on 22 November 2026: it now says "no third-party ads", not "no advertising")
 - `lingua.pairsTitle`, `lingua.pairsLead`, `lingua.pairLearn`, `lingua.pairVia`, `lingua.pairStatus`
 - `lingua.academyTitle`, `lingua.here`, `lingua.visitAcademy`, `lingua.footerMission`
-- `lingua.about.title`, `lingua.about.lead`, `lingua.about.what`, `lingua.about.free`, `lingua.about.review`, `lingua.about.reflection`, `lingua.about.source`
+- `lingua.about.title`, `lingua.about.lead`, `lingua.about.what`, `lingua.about.free`, `lingua.about.review`, `lingua.about.reflection`, `lingua.about.source` (`lingua.about.free` was reworded on 22 November 2026: it now says "no third-party ads", not "no advertising")
 - `lingua.notFound.title`, `lingua.notFound.text`, `lingua.notFound.home`
 - `lingua.tutors.title`, `lingua.tutors.text`, `lingua.tutors.owner`, `lingua.tutors.link` ("Gideon Tasks", "Gideon Solutions, LLC" and "Lumenary Academy" stay untranslated)
 - `lingua.sameOwner.title`, `lingua.sameOwner.disclosure`, `lingua.sameOwner.prep`, `lingua.sameOwner.games`, `lingua.sameOwner.tax`, `lingua.sameOwner.footer` ("Lumenary Academy" stays untranslated, and so do the project names, which are not in the catalogues: "Lumenary Prep", "Peace Cat Games", "Gideon Tax"; keep Prep's price, "$50", as it is)
