@@ -8,7 +8,7 @@ import { DIVISIONS } from "@lumenary/core/brand";
 import { mdInline } from "@lumenary/core/markdown";
 import { courses, href, i18n } from "@/lib/site";
 import { PAIRS, courseFor } from "@/lib/pairs";
-import { PREP_URL, SCIENTIA_URL, TUTORING_URL, academyPage } from "@/lib/links";
+import { OWNER_PROJECTS, PREP_URL, SCIENTIA_URL, TUTORING_URL, academyPage } from "@/lib/links";
 
 /**
  * Each course's button speaks to its own learner, in the language the course is taught in, whatever
@@ -46,7 +46,7 @@ function Division({ Icon, accent, name, what, badge, text, action }: { Icon: Luc
   );
 }
 
-/** Lumenary Lingua's front page, in every locale: what Lingua is, its courses, its language pairs, the rest of Lumenary Academy, and where to find a tutor or class. */
+/** Lumenary Lingua's front page, in every locale: what Lingua is, its courses, its language pairs, the rest of Lumenary Academy, where to find a tutor or class, and the owner's other projects. */
 export default async function LinguaHome({ params }: { params: Promise<{ locale: string }> }) {
   const locale = await resolveLocale(params);
   const t = await i18n.getT(locale);
@@ -259,6 +259,26 @@ export default async function LinguaHome({ params }: { params: Promise<{ locale:
             {t("lingua.tutors.link")} {external}
           </a>
         </p>
+      </section>
+
+      {/* The owner's other projects, some of them paid, under a blunt disclosure: on this page only (the footer links here), never in a lesson. */}
+      <section id="same-owner" className="scroll-mt-20 border-t border-line" aria-labelledby="same-owner-title">
+        <div className="container-page py-12 sm:py-14">
+          <h2 id="same-owner-title" className="text-2xl font-semibold text-ink">
+            {t("lingua.sameOwner.title")}
+          </h2>
+          <p className="mt-3 max-w-3xl leading-relaxed text-ink-2">{t("lingua.sameOwner.disclosure")}</p>
+          <ul className="mt-6 grid gap-4 sm:grid-cols-3">
+            {OWNER_PROJECTS.map((p) => (
+              <li key={p.key} className="card p-5">
+                <a href={p.url} lang="en" className="link inline-flex items-center gap-1 font-semibold">
+                  {p.name} {external}
+                </a>
+                <p className="mt-2 leading-relaxed text-ink-2">{t(`lingua.sameOwner.${p.key}`)}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
       </section>
     </>
   );

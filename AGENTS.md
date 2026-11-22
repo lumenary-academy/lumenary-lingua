@@ -14,5 +14,6 @@ Lumenary Lingua (lingua.lumenary.academy), a static Next.js site. Shared code (d
 
 - The brand is "Lumenary Academy", never "The Lumenary"; this division is "Lumenary Lingua".
 - Lingua has no cat guides: no `<Narrator>` in lessons.
+- Promotion, by the owner's rule of 22 November 2026 (it replaces his rule of 19 November 2026: no promotion beyond "Tutors & classes"): the front page has one plain, bluntly disclosed section of the owner's other projects, "From the same owner", right after "Tutors & classes", and the footer links it once. That and "Tutors & classes" are the only promotion (Lumenary Prep also keeps its place among the academy's divisions), and never inside a lesson, an exercise or a course page. See the README; `tests/same-owner.test.ts` and `tests/tutors.test.ts` check it.
 - Interface strings go in all six `src/i18n/messages/*.json`; never redefine a key `@lumenary/core` already has.
 - Before a pull request: `npm run typecheck`, `npm test`, `npm run build`.
